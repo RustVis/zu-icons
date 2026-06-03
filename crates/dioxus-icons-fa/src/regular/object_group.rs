@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct ObjectGroupProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 576 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn ObjectGroup(props: ObjectGroupProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M40 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm48 59.3c16-6.5 28.9-19.3 35.3-35.3l329.3 0c6.5 16 19.3 28.9 35.3 35.3l0 265.3c-16 6.5-28.9 19.3-35.3 35.3l-329.3 0c-6.5-16-19.3-28.9-35.3-35.3l0-265.3zM512 0c-26.9 0-49.9 16.5-59.3 40L123.3 40C113.9 16.5 90.9 0 64 0 28.7 0 0 28.7 0 64 0 90.9 16.5 113.9 40 123.3l0 265.3c-23.5 9.5-40 32.5-40 59.3 0 35.3 28.7 64 64 64 26.9 0 49.9-16.5 59.3-40l329.3 0c9.5 23.5 32.5 40 59.3 40 35.3 0 64-28.7 64-64 0-26.9-16.5-49.9-40-59.3l0-265.3c23.5-9.5 40-32.5 40-59.3 0-35.3-28.7-64-64-64zM488 64a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM64 424a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm424 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM192 176l88 0 0 56-88 0 0-56zm-8-40c-17.7 0-32 14.3-32 32l0 72c0 17.7 14.3 32 32 32l104 0c17.7 0 32-14.3 32-32l0-72c0-17.7-14.3-32-32-32l-104 0zm72 184l0 24c0 17.7 14.3 32 32 32l104 0c17.7 0 32-14.3 32-32l0-72c0-17.7-14.3-32-32-32l-24 0c0 14.6-3.9 28.2-10.7 40l26.7 0 0 56-88 0 0-16.4c-2.6 .3-5.3 .4-8 .4l-32 0z",
+            }
+        }
+    }
+}

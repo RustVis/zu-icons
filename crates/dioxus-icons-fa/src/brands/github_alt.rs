@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct GithubAltProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 512 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn GithubAlt(props: GithubAltProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3l48.2 0c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z",
+            }
+        }
+    }
+}

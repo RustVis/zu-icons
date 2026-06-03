@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct ArchLinuxProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 576 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn ArchLinux(props: ArchLinuxProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M288.7-7.8c-24.1 59-38.6 97.7-65.4 155 16.4 17.4 36.6 37.6 69.4 60.5-35.2-14.5-59.2-28.9-77.2-44-34.3 71.6-88.1 173.5-197.2 369.4 85.7-49.5 152.2-80 214.1-91.6-2.7-11.4-4.1-23.8-4-36.7l.1-2.7c1.4-54.9 29.9-97.2 63.8-94.4s60.2 49.8 58.8 104.7c-.3 10.3-1.4 20.2-3.4 29.4 61.2 12 127 42.4 211.6 91.2-16.7-30.7-31.6-58.3-45.8-84.7-22.4-17.4-45.7-39.9-93.3-64.4 32.7 8.5 56.3 18.3 74.5 29.3-144.5-269.1-156.2-304.8-205.8-421.1z",
+            }
+        }
+    }
+}

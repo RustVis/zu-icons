@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct HandPointerProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 448 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn HandPointer(props: HandPointerProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M160 64c0-8.8 7.2-16 16-16s16 7.2 16 16l0 136c0 10.3 6.6 19.5 16.4 22.8s20.6-.1 26.8-8.3c3-3.9 7.6-6.4 12.8-6.4 8.8 0 16 7.2 16 16 0 10.3 6.6 19.5 16.4 22.8s20.6-.1 26.8-8.3c3-3.9 7.6-6.4 12.8-6.4 7.8 0 14.3 5.6 15.7 13 1.6 8.2 7.3 15.1 15.1 18s16.7 1.6 23.3-3.6c2.7-2.1 6.1-3.4 9.9-3.4 8.8 0 16 7.2 16 16l0 120c0 39.8-32.2 72-72 72l-116.6 0c-37.4 0-72.4-18.7-93.2-49.9L50.7 312.9c-4.9-7.4-2.9-17.3 4.4-22.2s17.3-2.9 22.2 4.4L116 353.2c5.9 8.8 16.8 12.7 26.9 9.7s17-12.4 17-23L160 64zM176 0c-35.3 0-64 28.7-64 64l0 197.7C91.2 238 55.5 232.8 28.5 250.7-.9 270.4-8.9 310.1 10.8 339.5L78.3 440.8c29.7 44.5 79.6 71.2 133.1 71.2L328 512c66.3 0 120-53.7 120-120l0-120c0-35.3-28.7-64-64-64-4.5 0-8.8 .5-13 1.3-11.7-15.4-30.2-25.3-51-25.3-6.9 0-13.5 1.1-19.7 3.1-11.6-16.4-30.7-27.1-52.3-27.1-2.7 0-5.4 .2-8 .5L240 64c0-35.3-28.7-64-64-64zm48 304c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96zm48-16c-8.8 0-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96c0-8.8-7.2-16-16-16zm80 16c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 96c0 8.8 7.2 16 16 16s16-7.2 16-16l0-96z",
+            }
+        }
+    }
+}

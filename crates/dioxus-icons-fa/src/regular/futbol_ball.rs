@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct FutbolBallProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 512 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn FutbolBall(props: FutbolBallProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M387 228.3c-4.4-2.8-7.6-7-9.2-11.9s-1.4-10.2 .5-15L411.6 118c-19.9-22.4-44.6-40.5-72.4-52.7l-69.1 57.6c-4 3.3-9 5.1-14.1 5.1s-10.2-1.8-14.1-5.1L172.8 65.3c-27.8 12.2-52.5 30.3-72.4 52.7l33.4 83.4c1.9 4.8 2.1 10.1 .5 15s-4.9 9.1-9.2 11.9L49 276.2c3 30.9 12.7 59.7 27.6 85.2l89.7-6c5.2-.3 10.3 1.1 14.5 4.2s7.2 7.4 8.4 12.5l22 87.2c14.4 3.2 29.4 4.8 44.8 4.8s30.3-1.7 44.8-4.8l22-87.2c1.3-5 4.2-9.4 8.4-12.5s9.3-4.5 14.5-4.2l89.7 6c15-25.4 24.7-54.3 27.6-85.1L387 228.3zM256 0a256 256 0 1 1 0 512 256 256 0 1 1 0-512zm62 221c8.4 6.1 11.9 16.9 8.7 26.8l-18.3 56.3c-3.2 9.9-12.4 16.6-22.8 16.6l-59.2 0c-10.4 0-19.6-6.7-22.8-16.6l-18.3-56.3c-3.2-9.9 .3-20.7 8.7-26.8l47.9-34.8c8.4-6.1 19.8-6.1 28.2 0L318 221z",
+            }
+        }
+    }
+}

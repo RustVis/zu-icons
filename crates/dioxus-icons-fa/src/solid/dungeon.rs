@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct DungeonProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 512 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn Dungeon(props: DungeonProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M347.5 144.8c6.5 5.4 12.5 11.3 18 17.7 8.7 10.2 23.7 14 35.1 6.9l54.1-33.8c11.2-7 14.7-21.7 6.9-32.2-15.3-20.5-33.5-38.6-54.1-53.8-10.4-7.6-24.7-4.3-31.8 6.4l-35.1 52.6c-7.8 11.6-3.8 27.3 7 36.2zM327.8 41.1c8.6-12.9 2.9-30.5-12.2-34.1-19.1-4.6-39.1-7-59.6-7s-40.4 2.4-59.6 7c-15.1 3.6-20.8 21.2-12.2 34.1l40 60c5.2 7.8 14.5 11.7 23.9 11.2 5.2-.3 10.6-.3 15.8 0 9.4 .5 18.7-3.4 23.9-11.2l40-60zM50.5 103.3c-7.9 10.5-4.3 25.3 6.9 32.2l54.1 33.8c11.4 7.1 26.3 3.3 35.1-6.9 5.5-6.4 11.5-12.3 18-17.7 10.8-8.9 14.8-24.6 7-36.2L136.4 55.9c-7.1-10.7-21.5-14-31.8-6.4-20.6 15.1-38.8 33.3-54.1 53.8zm62 141.1c.8-9.9-3.3-19.9-11.8-25.1L41 182c-12.9-8-29.9-2.3-33.6 12.5-4.9 19.7-7.5 40.3-7.5 61.6l0 24c0 13.3 10.7 24 24 24l64 0c13.3 0 24-10.7 24-24l0-24c0-3.9 .2-7.8 .5-11.6zm287.1 0c.3 3.8 .5 7.7 .5 11.6l0 24c0 13.3 10.7 24 24 24l64 0c13.3 0 24-10.7 24-24l0-24c0-21.2-2.6-41.8-7.5-61.6-3.6-14.7-20.7-20.5-33.6-12.5l-59.7 37.3c-8.4 5.3-12.6 15.2-11.8 25.1zM88 352l-64 0c-13.3 0-24 10.7-24 24L0 488c0 13.3 10.7 24 24 24l64 0c13.3 0 24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm400 0l-64 0c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24l64 0c13.3 0 24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zM280 184c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 304c0 13.3 10.7 24 24 24s24-10.7 24-24l0-304zm-80 32c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 272c0 13.3 10.7 24 24 24s24-10.7 24-24l0-272zm160 0c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 272c0 13.3 10.7 24 24 24s24-10.7 24-24l0-272z",
+            }
+        }
+    }
+}

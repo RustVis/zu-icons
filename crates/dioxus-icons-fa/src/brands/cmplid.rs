@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct CmplidProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 640 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn Cmplid(props: CmplidProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M226.1 388.2c0-.7-.2-1.5-.6-2.1s-1-1.1-1.7-1.4c-.5-.2-1.1-.4-1.6-.4l-149.6 0c-3.1 0-6.2-.8-8.9-2.2s-5.1-3.5-6.9-6.1-2.9-5.5-3.3-8.6 0-6.2 1.1-9.1L81.6 255.7c2-7.2 6.2-13.5 12-18.2s12.9-7.4 20.4-7.8l148.6 0c1.5-.1 2.9-.6 4-1.6s2-2.2 2.4-3.6l10.8-41.1c.4-1 .3-2-.1-2.9s-1.2-1.6-2.1-2c-.4-.2-.9-.3-1.4-.3-.1 0-.1 0-.2 0l-148.5 0c-22.2 1.2-43.4 9.2-60.8 23s-30 32.7-36.2 54.1L3.5 358.8c-3.2 8.7-4.2 18-3 27.1s4.6 17.9 9.9 25.5 12.3 13.8 20.5 18 17.3 6.5 26.5 6.6c1 0 1.9 0 2.9-.1l148.6 0c1.5-.1 2.9-.7 4-1.6s2-2.2 2.4-3.6l10.7-41.1c.2-.5 .3-.9 .3-1.4zm80.5-307c.2-.4 .3-.9 .3-1.4 0-.5-.1-1-.3-1.5s-.5-.9-.8-1.2-.8-.6-1.2-.8-1-.3-1.5-.3l-41.2 0c-1.5 .1-2.9 .6-4 1.6s-2 2.2-2.4 3.6l-21.3 80.9 51.1 0 21.4-80.9zm-126.3 287l51.1 0 32-122.6-51.1 0-32 122.6zM511.9 79.7c0-1-.5-1.9-1.2-2.6s-1.7-1.1-2.6-1.1c-.1 0-.1 0-.2 0l-41 0c-1.5 .1-2.9 .6-4.1 1.5s-2 2.2-2.5 3.6L368.9 430.6c-.2 .4-.3 .9-.3 1.3 0 1 .4 2 1.1 2.7s1.7 1.1 2.7 1.1l41.2 0c1.5-.1 2.9-.6 4-1.6s2-2.2 2.4-3.6L511.5 81.2c.2-.5 .3-1 .3-1.5zM324.6 384.5l-41 0c-1.5 .1-2.9 .7-4 1.6s-2 2.2-2.4 3.6l-10.7 41.1c-.2 .4-.3 .9-.3 1.4 0 .5 .1 1 .3 1.5s.5 .9 .8 1.2 .8 .6 1.2 .8 1 .3 1.5 .3c.1 0 .2 0 .3 0l40.9 0c1.5-.1 2.9-.6 4-1.6s2-2.2 2.4-3.6l10.8-41.1c.2-.6 .3-1.2 .3-1.8s-.3-1.2-.6-1.7-.8-.9-1.3-1.2-1.2-.4-1.8-.4c-.1 0-.2 0-.3 0l0 0zM636 76.1l-41 0c-1.5 .1-2.9 .6-4 1.5s-2 2.2-2.4 3.6L497.1 430.6c-.2 .4-.2 .9-.2 1.3 0 1 .4 2 1.1 2.7s1.7 1.1 2.7 1.1l41.1 0c1.5-.1 2.9-.6 4-1.6s2-2.2 2.4-3.6L639.7 81.2c.2-.5 .3-1 .3-1.5-.1-1-.5-1.9-1.2-2.5s-1.6-1-2.6-1c-.1 0-.1 0-.2 0l0-.1zM371.6 225.2l10.8-41.1c.2-.4 .2-.9 .2-1.4 0-1-.4-2-1.1-2.7s-1.7-1.1-2.7-1.1l-41.3 0c-1.5 .1-2.9 .7-4 1.6s-2 2.2-2.4 3.6l-10.8 41.1c-.2 .5-.3 1-.3 1.5l0 .2c.1 1 .5 1.8 1.2 2.5s1.6 1 2.6 1c.1 0 .2 0 .3 0l41.1 0c1.5-.1 2.9-.6 4-1.6s2-2.2 2.4-3.6z",
+            }
+        }
+    }
+}

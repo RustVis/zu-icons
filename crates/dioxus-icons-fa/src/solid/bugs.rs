@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct BugsProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 576 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn Bugs(props: BugsProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M447.5 174.6c8.8-8.4 22.7-8.9 32.2-.8s11 21.9 4.1 31.9l-1.5 1.9-23 26.7c26.7 13.5 46.3 39.1 51.4 69.6l25.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-24 0 0 32 24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-25.3 0c-7.6 45.4-47.1 80-94.7 80s-87-34.6-94.7-80L296 432c-13.3 0-24-10.7-24-24s10.7-24 24-24l24 0 0-32-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l25.3 0c5.1-30.5 24.7-56.1 51.4-69.6l-22.9-26.7c-8.6-10.1-7.5-25.2 2.6-33.8s25.2-7.5 33.8 2.6l29.8 34.8 29.8-34.8 1.7-1.8zm-256-192c8.8-8.4 22.7-8.9 32.2-.8s11 21.9 4.1 31.9l-1.5 1.9-23 26.7C230 55.9 249.5 81.5 254.7 112l25.3 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-24 0 0 32 24 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-25.3 0c-7.6 45.4-47.1 80-94.7 80s-87-34.6-94.7-80L40 240c-13.3 0-24-10.7-24-24s10.7-24 24-24l24 0 0-32-24 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l25.3 0C70.5 81.5 90 55.9 116.7 42.4L93.8 15.6C85.2 5.6 86.3-9.6 96.4-18.2s25.2-7.5 33.8 2.6l29.8 34.8 29.8-34.8 1.7-1.8z",
+            }
+        }
+    }
+}

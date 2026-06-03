@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct LinodeProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 448 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn Linode(props: LinodeProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M366.3 186.9l-59.5 36.9-.8 36.9-29.3-19.3-39.4 24.3c2.2 55.2 2.5 59.3 2.5 59.5l-97.2 65.4-15.1-104.7 108.1-62-40.2-26-75.4 38.5-21-143.3 129-49.4-91.3-43.6-125.7 39.4 27.7 134.9 41.9 32.7-31.8 15.1 20.9 101.4 29.3 27.7-20.9 12.6 16.8 78.8 66.2 69.6c-10.8-74.8-11.7-78.6-11.7-78.8l77.9-55.3C244 365.4 242.3 367 242.3 367l.8 24.3 33.5 28.5-.8-77.1 46.9-33.5 26.8-18.4-2.5 36 25.1 17.6 6.7-74.6 58.7-43.6-71.2-39.4z",
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct HeadSideCoughSlashProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 576 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn HeadSideCoughSlash(props: HeadSideCoughSlashProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M535-24.9c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L41 537.1c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l25-25 0-447.2c0-15 10.5-28.3 25.4-29.8 7.4-.7 14.9-1.1 22.6-1.1 112.7 0 206 83.3 221.7 191.7 .4 3 1.7 5.9 3.6 8.3l2.2 2.6 227.5-227.5zM133.8 512L288 357.8 288 416c0 53-43 96-96 96l-58.2 0zM176 224a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm336 40a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-88 72a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm-64 48a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm128 0a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zm24 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm-88-24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z",
+            }
+        }
+    }
+}

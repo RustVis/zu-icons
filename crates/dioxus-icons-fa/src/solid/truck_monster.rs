@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct TruckMonsterProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 576 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn TruckMonster(props: TruckMonsterProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M336 96l48 64-128 0 0-64 80 0zm128 64L387.2 57.6C375.1 41.5 356.1 32 336 32L224 32c-17.7 0-32 14.3-32 32l0 96-144 0c-26.5 0-48 21.5-48 48l0 64c0 18.1 10.1 33.9 24.9 42.1-.5 5.7 1.1 11.6 4.7 16.4-3.7 6.9-6.8 14.1-9 21.8-11.6 1.7-20.6 11.7-20.6 23.8l0 16c0 12.1 8.9 22.1 20.6 23.8 2.2 7.6 5.3 14.9 9 21.8-7 9.4-6.3 22.8 2.3 31.3l11.3 11.3c8.6 8.6 21.9 9.3 31.3 2.2 6.8 3.7 14.1 6.8 21.7 9 1.7 11.6 11.7 20.6 23.8 20.6l16 0c12.1 0 22.1-8.9 23.8-20.6 7.6-2.2 14.9-5.3 21.7-9 9.4 7 22.8 6.3 31.3-2.2l11.3-11.3c8.6-8.6 9.3-21.9 2.3-31.3 3.7-6.8 6.8-14.1 9-21.7 11.6-1.7 20.6-11.7 20.6-23.8l0-16c0-12.1-8.9-22.1-20.6-23.8-2.2-7.6-5.3-14.9-9-21.7 2.4-3.2 3.9-6.8 4.5-10.5l114.2 0c.6 3.7 2.1 7.3 4.5 10.5-3.7 6.9-6.8 14.1-9 21.8-11.6 1.7-20.6 11.7-20.6 23.8l0 16c0 12.1 8.9 22.1 20.6 23.8 2.2 7.6 5.3 14.9 9 21.8-7 9.4-6.3 22.8 2.2 31.3l11.3 11.3c8.5 8.6 21.9 9.3 31.3 2.2 6.8 3.7 14.1 6.8 21.7 9 1.7 11.6 11.7 20.6 23.8 20.6l16 0c12.1 0 22.1-8.9 23.8-20.6 7.6-2.2 14.9-5.3 21.8-9 9.4 7 22.8 6.3 31.3-2.2l11.3-11.3c8.6-8.6 9.3-21.9 2.2-31.3 3.7-6.8 6.8-14.1 9-21.7 11.6-1.7 20.6-11.7 20.6-23.8l0-16c0-12.1-8.9-22.1-20.6-23.8-2.2-7.6-5.3-14.9-9-21.7 3.6-4.8 5.2-10.7 4.7-16.4 14.8-8.2 24.9-23.9 24.9-42.1l0-64c0-26.5-21.5-48-48-48l-64 0zM128 336a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z",
+            }
+        }
+    }
+}

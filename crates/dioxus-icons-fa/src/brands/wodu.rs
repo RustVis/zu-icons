@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct WoduProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 640 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn Wodu(props: WoduProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M178.4 339.7l-37.3 0-28.9-116.2-.5 0-28.5 116.2-38 0-45.2-170.8 37.5 0 27 116.2 .5 0 29.7-116.2 35.2 0 29.2 117.7 .5 0 28-117.7 36.8 0-45.9 170.8zm93-127c39 0 64.1 25.8 64.1 65.3 0 39.2-25.1 65-64.1 65-38.7 0-63.9-25.8-63.9-65 0-39.5 25.1-65.3 63.9-65.3zm0 104.8c23.2 0 30.1-19.9 30.1-39.5 0-19.9-6.9-39.7-30.1-39.7-27.7 0-29.9 19.9-29.9 39.7 0 19.6 6.9 39.5 29.9 39.5zm163.7 6.5l-.5 0c-7.9 13.4-21.8 19.1-37.5 19.1-37.3 0-55.5-32-55.5-66.2 0-33.2 18.4-64.1 54.8-64.1 14.6 0 28.9 6.2 36.8 18.4l.2 0 0-62.2 34 0 0 170.8-32.3 0 0-15.8zm-29.7-85.6c-22.2 0-29.9 19.1-29.9 39.5 0 19.4 8.8 39.7 29.9 39.7 22.5 0 29.2-19.6 29.2-39.9 0-20.1-7.2-39.2-29.2-39.2zM593 339.7l-32.3 0 0-17.2-.7 0c-8.6 13.9-23.4 20.6-37.8 20.6-36.1 0-45.2-20.3-45.2-50.9l0-76.1 34 0 0 69.8c0 20.3 6 30.4 21.8 30.4 18.4 0 26.3-10.3 26.3-35.4l0-64.8 34 0 0 123.6zm9.5-36.8l37.5 0 0 36.8-37.5 0 0-36.8z",
+            }
+        }
+    }
+}

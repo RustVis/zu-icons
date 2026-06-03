@@ -1,0 +1,60 @@
+// Copyright (c) 2026 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
+// Auto Generated! DO NOT EDIT!
+
+use dioxus::prelude::*;
+
+#[derive(Debug, Clone, PartialEq, Props)]
+pub struct PlantWiltProps {
+    #[props(default = None)]
+    pub title: Option<&'static str>,
+
+    #[props(default = None)]
+    pub class: Option<&'static str>,
+
+    #[props(default = None)]
+    pub style: Option<&'static str>,
+
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    #[props(default = Some("0 0 512 512"))]
+    pub view_box: Option<&'static str>,
+
+    #[props(default = None)]
+    pub xmlns: Option<&'static str>,
+}
+
+pub fn PlantWilt(props: PlantWiltProps) -> Element {
+    rsx! {
+        svg {
+            class: props.class,
+            style: props.style,
+            height: props.height,
+            width: props.width,
+            view_box: props.view_box.unwrap_or("0 0 16 16"),
+            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
+            fill: props.fill.unwrap_or("currentColor"),
+            stroke: props.stroke,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
+
+                        path {
+        d: "M344-32c66.3 0 120 53.7 120 120l0 6.2c29.3 12.2 48 41.3 48 76.9 0 27.9-25.3 74.8-66 111.7-3.8 3.5-8.8 5.3-14 5.3s-10.2-1.8-14-5.3c-40.7-36.8-66-83.7-66-111.7 0-35.6 18.7-64.7 48-76.9l0-6.2c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 424c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-296c0-30.9-25.1-56-56-56s-56 25.1-56 56l0 38.2c29.3 12.2 48 41.3 48 76.9 0 27.9-25.3 74.8-66 111.7-3.8 3.5-8.8 5.3-14 5.3s-10.2-1.8-14-5.3C25.3 405.9 0 359 0 331.1 0 295.4 18.7 266.4 48 254.2L48 216c0-66.3 53.7-120 120-120 20.2 0 39.3 5 56 13.8L224 88c0-66.3 53.7-120 120-120z",
+            }
+        }
+    }
+}
