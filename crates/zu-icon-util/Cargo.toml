@@ -1,6 +1,6 @@
 [package]
 name = "zu-icon-util"
-version = "0.1.1"
+version = "0.2.1"
 documentation = "https://docs.rs/zu-icon-util"
 description = "Utilities for zu-icons"
 keywords = ["web", "wasm", "icon", "utility", "zu"]
