@@ -2,7 +2,8 @@
 [workspace]
 resolver = "3"
 members = [
-  "crates/dioxus-icon-component",
+  "crates/dioxus-icon-component", 
+  "crates/dioxus-icons-bs",
   "crates/dioxus-icons-fa",
   "crates/zu-icon-util",
 ]
