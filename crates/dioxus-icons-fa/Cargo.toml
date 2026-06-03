@@ -24,3 +24,14 @@ inflections.workspace = true
 
 [lints]
 workspace = true
+
+[features]
+default = []
+all = [
+    "brands_lumon_drop",
+    "regular_hand",
+    "solid_toilet_paper",
+]
+brands_lumon_drop = []
+regular_hand = []
+solid_toilet_paper = []

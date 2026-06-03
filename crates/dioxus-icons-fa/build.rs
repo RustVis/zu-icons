@@ -69,7 +69,7 @@ fn map_filename(name: &str) -> String {
     name.to_string()
 }
 
-fn build_icons(folder: &str) -> Result<Vec<(String, String)>, io::Error> {
+fn build_icons(folder: &str) -> Result<Vec<String>, io::Error> {
     let mut module_names = Vec::new();
     let mut dir = PathBuf::new();
     dir.push(SVG_DIR);
@@ -118,36 +118,43 @@ fn build_icons(folder: &str) -> Result<Vec<(String, String)>, io::Error> {
 
     // Write to module file.
     let mut module_file = File::create(format!("src/{}.rs", folder))?;
+    let mut feature_names = Vec::new();
     module_file.write_all(LIB_HEADER.as_bytes())?;
     for (module_name, node_name) in &module_names {
+        let feature_name = format!("{folder}_{module_name}");
         let line = format!(
-            r#"mod {module_name};
+            r#"
+#[cfg(feature = "{feature_name}")]
+mod {module_name};
+#[cfg(feature = "{feature_name}")]
 pub use {module_name}::{node_name};
 
 "#
         );
         module_file.write_all(line.as_bytes())?;
+        feature_names.push(feature_name);
     }
 
-    Ok(module_names)
+    Ok(feature_names)
 }
 
 fn rebuild_icons() -> Result<(), Box<dyn Error>> {
     println!("rebuild icons");
-    let mut module_names = Vec::new();
-    module_names.extend(build_icons("brands")?);
-    // module_names.extend(build_icons("regular")?);
-    // module_names.extend(build_icons("solid")?);
+    let brand_features = build_icons("brands")?;
+    let regular_features = build_icons("regular")?;
+    let solid_features = build_icons("solid")?;
 
     let mut module_file = File::create("src/lib.rs")?;
-    let line = r#"
-// Auto Generated! DO NOT EDIT!
+    let line = r#"// Auto Generated! DO NOT EDIT!
 
 pub mod brands;
 pub mod regular;
 pub mod solid;
     "#;
     module_file.write_all(line.as_bytes())?;
+
+    // let mut cargo_file = File::open("Cargo.toml")?;
+    // cargo_file.write_all(feature_lines.as_bytes())?;
 
     Ok(())
 }

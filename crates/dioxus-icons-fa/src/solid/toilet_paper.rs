@@ -7,7 +7,7 @@
 use dioxus::prelude::*;
 
 #[derive(Debug, Clone, PartialEq, Props)]
-pub struct LumonDropProps {
+pub struct ToiletPaperProps {
     #[props(default = None)]
     pub title: Option<&'static str>,
 
@@ -39,7 +39,7 @@ pub struct LumonDropProps {
     pub xmlns: Option<&'static str>,
 }
 
-pub fn LumonDrop(props: LumonDropProps) -> Element {
+pub fn ToiletPaper(props: ToiletPaperProps) -> Element {
     rsx! {
         svg {
             class: props.class,
@@ -50,10 +50,7 @@ pub fn LumonDrop(props: LumonDropProps) -> Element {
             xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
             fill: props.fill.unwrap_or("currentColor"),
             stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
+            title: props.title,
 
         }
     }

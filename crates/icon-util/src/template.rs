@@ -50,7 +50,10 @@ pub fn ICON_NAME(props: ICON_NAMEProps) -> Element {
             xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
             fill: props.fill.unwrap_or("currentColor"),
             stroke: props.stroke,
-            title: props.title,
+
+            if let Some(title_text) = props.title {
+                title {{ title_text }}
+            }
 
             ICON_PATH
         }
