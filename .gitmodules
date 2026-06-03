@@ -4,3 +4,6 @@
 [submodule "icons/bootstrap"]
 	path = icons/bootstrap
 	url = https://github.com/twbs/icons
+[submodule "icons/heroicons"]
+	path = icons/heroicons
+	url = https://github.com/tailwindlabs/heroicons.git
