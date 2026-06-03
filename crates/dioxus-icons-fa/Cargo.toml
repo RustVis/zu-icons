@@ -17,7 +17,7 @@ rust-version.workspace = true
 
 [dependencies]
 dioxus.workspace = true
-dioxus-icons-component.workspace = true
+dioxus-icon-component.workspace = true
 
 [build-dependencies]
 anyhow.workspace = true

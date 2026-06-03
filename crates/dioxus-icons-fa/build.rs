@@ -107,7 +107,7 @@ fn rebuild_icons() -> Result<(), Error> {
     let mut module_file = File::create("src/lib.rs")?;
     let line = r#"// Auto Generated! DO NOT EDIT!
 
-pub use dioxus_icons_component::{Icon, IconProps, IconShape};
+pub use dioxus_icon_component::{Icon, IconProps, IconShape};
 
 pub mod brands;
 pub mod regular;
