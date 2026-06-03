@@ -1,3 +1,3 @@
 
 # About
-Font Awesome 6 icons for Dioxus
+Font Awesome 7 icons for Dioxus
