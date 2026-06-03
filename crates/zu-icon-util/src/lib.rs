@@ -107,12 +107,7 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
         .join("\n")
 }
 
-pub fn generate_svg_component(
-    feature_name: &str,
-    node_name: &str,
-    title: Option<&str>,
-    svg_obj: &SvgObject,
-) -> String {
+pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &SvgObject) -> String {
     let title = if let Some(title) = title {
         &format!("    const TITLE: Option<&'static str> = Some(\"{title}\");\n")
     } else {
@@ -145,7 +140,6 @@ pub fn generate_svg_component(
     };
     let other_props = [title, width, height, fill, stroke, view_box].join("");
     TEMPLATE_FILE
-        .replace("{FEATURE_NAME}", feature_name)
         .replace("{ICON_NAME}", node_name)
         .replace("{ICON_PATH}", &svg_obj.children)
         .replace("{OTHER_PROPS}", &other_props)

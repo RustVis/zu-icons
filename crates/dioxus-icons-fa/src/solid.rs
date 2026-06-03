@@ -4,11 +4,9 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[cfg(feature = "solid_a")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct A {}
 
-#[cfg(feature = "solid_a")]
 impl IconShape for A {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20,11 +18,9 @@ impl IconShape for A {
 
 }
 
-#[cfg(feature = "solid_ad")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ad {}
 
-#[cfg(feature = "solid_ad")]
 impl IconShape for Ad {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -36,11 +32,9 @@ impl IconShape for Ad {
 
 }
 
-#[cfg(feature = "solid_add")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Add {}
 
-#[cfg(feature = "solid_add")]
 impl IconShape for Add {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -52,11 +46,9 @@ impl IconShape for Add {
 
 }
 
-#[cfg(feature = "solid_address_book")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AddressBook {}
 
-#[cfg(feature = "solid_address_book")]
 impl IconShape for AddressBook {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -68,11 +60,9 @@ impl IconShape for AddressBook {
 
 }
 
-#[cfg(feature = "solid_address_card")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AddressCard {}
 
-#[cfg(feature = "solid_address_card")]
 impl IconShape for AddressCard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -84,11 +74,9 @@ impl IconShape for AddressCard {
 
 }
 
-#[cfg(feature = "solid_adjust")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Adjust {}
 
-#[cfg(feature = "solid_adjust")]
 impl IconShape for Adjust {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -100,11 +88,9 @@ impl IconShape for Adjust {
 
 }
 
-#[cfg(feature = "solid_air_freshener")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AirFreshener {}
 
-#[cfg(feature = "solid_air_freshener")]
 impl IconShape for AirFreshener {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -116,11 +102,9 @@ impl IconShape for AirFreshener {
 
 }
 
-#[cfg(feature = "solid_alarm_clock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AlarmClock {}
 
-#[cfg(feature = "solid_alarm_clock")]
 impl IconShape for AlarmClock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -132,11 +116,9 @@ impl IconShape for AlarmClock {
 
 }
 
-#[cfg(feature = "solid_align_center")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AlignCenter {}
 
-#[cfg(feature = "solid_align_center")]
 impl IconShape for AlignCenter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -148,11 +130,9 @@ impl IconShape for AlignCenter {
 
 }
 
-#[cfg(feature = "solid_align_justify")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AlignJustify {}
 
-#[cfg(feature = "solid_align_justify")]
 impl IconShape for AlignJustify {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -164,11 +144,9 @@ impl IconShape for AlignJustify {
 
 }
 
-#[cfg(feature = "solid_align_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AlignLeft {}
 
-#[cfg(feature = "solid_align_left")]
 impl IconShape for AlignLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -180,11 +158,9 @@ impl IconShape for AlignLeft {
 
 }
 
-#[cfg(feature = "solid_align_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AlignRight {}
 
-#[cfg(feature = "solid_align_right")]
 impl IconShape for AlignRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -196,11 +172,9 @@ impl IconShape for AlignRight {
 
 }
 
-#[cfg(feature = "solid_allergies")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Allergies {}
 
-#[cfg(feature = "solid_allergies")]
 impl IconShape for Allergies {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -212,11 +186,9 @@ impl IconShape for Allergies {
 
 }
 
-#[cfg(feature = "solid_ambulance")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ambulance {}
 
-#[cfg(feature = "solid_ambulance")]
 impl IconShape for Ambulance {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -228,11 +200,9 @@ impl IconShape for Ambulance {
 
 }
 
-#[cfg(feature = "solid_american_sign_language_interpreting")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AmericanSignLanguageInterpreting {}
 
-#[cfg(feature = "solid_american_sign_language_interpreting")]
 impl IconShape for AmericanSignLanguageInterpreting {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -244,11 +214,9 @@ impl IconShape for AmericanSignLanguageInterpreting {
 
 }
 
-#[cfg(feature = "solid_anchor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Anchor {}
 
-#[cfg(feature = "solid_anchor")]
 impl IconShape for Anchor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -260,11 +228,9 @@ impl IconShape for Anchor {
 
 }
 
-#[cfg(feature = "solid_anchor_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnchorCircleCheck {}
 
-#[cfg(feature = "solid_anchor_circle_check")]
 impl IconShape for AnchorCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -276,11 +242,9 @@ impl IconShape for AnchorCircleCheck {
 
 }
 
-#[cfg(feature = "solid_anchor_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnchorCircleExclamation {}
 
-#[cfg(feature = "solid_anchor_circle_exclamation")]
 impl IconShape for AnchorCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -292,11 +256,9 @@ impl IconShape for AnchorCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_anchor_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnchorCircleXmark {}
 
-#[cfg(feature = "solid_anchor_circle_xmark")]
 impl IconShape for AnchorCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -308,11 +270,9 @@ impl IconShape for AnchorCircleXmark {
 
 }
 
-#[cfg(feature = "solid_anchor_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnchorLock {}
 
-#[cfg(feature = "solid_anchor_lock")]
 impl IconShape for AnchorLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -324,11 +284,9 @@ impl IconShape for AnchorLock {
 
 }
 
-#[cfg(feature = "solid_angle_double_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleDoubleDown {}
 
-#[cfg(feature = "solid_angle_double_down")]
 impl IconShape for AngleDoubleDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -340,11 +298,9 @@ impl IconShape for AngleDoubleDown {
 
 }
 
-#[cfg(feature = "solid_angle_double_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleDoubleLeft {}
 
-#[cfg(feature = "solid_angle_double_left")]
 impl IconShape for AngleDoubleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -356,11 +312,9 @@ impl IconShape for AngleDoubleLeft {
 
 }
 
-#[cfg(feature = "solid_angle_double_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleDoubleRight {}
 
-#[cfg(feature = "solid_angle_double_right")]
 impl IconShape for AngleDoubleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -372,11 +326,9 @@ impl IconShape for AngleDoubleRight {
 
 }
 
-#[cfg(feature = "solid_angle_double_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleDoubleUp {}
 
-#[cfg(feature = "solid_angle_double_up")]
 impl IconShape for AngleDoubleUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -388,11 +340,9 @@ impl IconShape for AngleDoubleUp {
 
 }
 
-#[cfg(feature = "solid_angle_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleDown {}
 
-#[cfg(feature = "solid_angle_down")]
 impl IconShape for AngleDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -404,11 +354,9 @@ impl IconShape for AngleDown {
 
 }
 
-#[cfg(feature = "solid_angle_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleLeft {}
 
-#[cfg(feature = "solid_angle_left")]
 impl IconShape for AngleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -420,11 +368,9 @@ impl IconShape for AngleLeft {
 
 }
 
-#[cfg(feature = "solid_angle_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleRight {}
 
-#[cfg(feature = "solid_angle_right")]
 impl IconShape for AngleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -436,11 +382,9 @@ impl IconShape for AngleRight {
 
 }
 
-#[cfg(feature = "solid_angle_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AngleUp {}
 
-#[cfg(feature = "solid_angle_up")]
 impl IconShape for AngleUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -452,11 +396,9 @@ impl IconShape for AngleUp {
 
 }
 
-#[cfg(feature = "solid_angles_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnglesDown {}
 
-#[cfg(feature = "solid_angles_down")]
 impl IconShape for AnglesDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -468,11 +410,9 @@ impl IconShape for AnglesDown {
 
 }
 
-#[cfg(feature = "solid_angles_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnglesLeft {}
 
-#[cfg(feature = "solid_angles_left")]
 impl IconShape for AnglesLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -484,11 +424,9 @@ impl IconShape for AnglesLeft {
 
 }
 
-#[cfg(feature = "solid_angles_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnglesRight {}
 
-#[cfg(feature = "solid_angles_right")]
 impl IconShape for AnglesRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -500,11 +438,9 @@ impl IconShape for AnglesRight {
 
 }
 
-#[cfg(feature = "solid_angles_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AnglesUp {}
 
-#[cfg(feature = "solid_angles_up")]
 impl IconShape for AnglesUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -516,11 +452,9 @@ impl IconShape for AnglesUp {
 
 }
 
-#[cfg(feature = "solid_angry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Angry {}
 
-#[cfg(feature = "solid_angry")]
 impl IconShape for Angry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -532,11 +466,9 @@ impl IconShape for Angry {
 
 }
 
-#[cfg(feature = "solid_ankh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ankh {}
 
-#[cfg(feature = "solid_ankh")]
 impl IconShape for Ankh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -548,11 +480,9 @@ impl IconShape for Ankh {
 
 }
 
-#[cfg(feature = "solid_apple_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AppleAlt {}
 
-#[cfg(feature = "solid_apple_alt")]
 impl IconShape for AppleAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -564,11 +494,9 @@ impl IconShape for AppleAlt {
 
 }
 
-#[cfg(feature = "solid_apple_whole")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AppleWhole {}
 
-#[cfg(feature = "solid_apple_whole")]
 impl IconShape for AppleWhole {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -580,11 +508,9 @@ impl IconShape for AppleWhole {
 
 }
 
-#[cfg(feature = "solid_aquarius")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Aquarius {}
 
-#[cfg(feature = "solid_aquarius")]
 impl IconShape for Aquarius {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -596,11 +522,9 @@ impl IconShape for Aquarius {
 
 }
 
-#[cfg(feature = "solid_archive")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Archive {}
 
-#[cfg(feature = "solid_archive")]
 impl IconShape for Archive {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -612,11 +536,9 @@ impl IconShape for Archive {
 
 }
 
-#[cfg(feature = "solid_archway")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Archway {}
 
-#[cfg(feature = "solid_archway")]
 impl IconShape for Archway {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -628,11 +550,9 @@ impl IconShape for Archway {
 
 }
 
-#[cfg(feature = "solid_area_chart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AreaChart {}
 
-#[cfg(feature = "solid_area_chart")]
 impl IconShape for AreaChart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -644,11 +564,9 @@ impl IconShape for AreaChart {
 
 }
 
-#[cfg(feature = "solid_aries")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Aries {}
 
-#[cfg(feature = "solid_aries")]
 impl IconShape for Aries {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -660,11 +578,9 @@ impl IconShape for Aries {
 
 }
 
-#[cfg(feature = "solid_arrow_alt_circle_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowAltCircleDown {}
 
-#[cfg(feature = "solid_arrow_alt_circle_down")]
 impl IconShape for ArrowAltCircleDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -676,11 +592,9 @@ impl IconShape for ArrowAltCircleDown {
 
 }
 
-#[cfg(feature = "solid_arrow_alt_circle_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowAltCircleLeft {}
 
-#[cfg(feature = "solid_arrow_alt_circle_left")]
 impl IconShape for ArrowAltCircleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -692,11 +606,9 @@ impl IconShape for ArrowAltCircleLeft {
 
 }
 
-#[cfg(feature = "solid_arrow_alt_circle_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowAltCircleRight {}
 
-#[cfg(feature = "solid_arrow_alt_circle_right")]
 impl IconShape for ArrowAltCircleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -708,11 +620,9 @@ impl IconShape for ArrowAltCircleRight {
 
 }
 
-#[cfg(feature = "solid_arrow_alt_circle_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowAltCircleUp {}
 
-#[cfg(feature = "solid_arrow_alt_circle_up")]
 impl IconShape for ArrowAltCircleUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -724,11 +634,9 @@ impl IconShape for ArrowAltCircleUp {
 
 }
 
-#[cfg(feature = "solid_arrow_circle_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowCircleDown {}
 
-#[cfg(feature = "solid_arrow_circle_down")]
 impl IconShape for ArrowCircleDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -740,11 +648,9 @@ impl IconShape for ArrowCircleDown {
 
 }
 
-#[cfg(feature = "solid_arrow_circle_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowCircleLeft {}
 
-#[cfg(feature = "solid_arrow_circle_left")]
 impl IconShape for ArrowCircleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -756,11 +662,9 @@ impl IconShape for ArrowCircleLeft {
 
 }
 
-#[cfg(feature = "solid_arrow_circle_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowCircleRight {}
 
-#[cfg(feature = "solid_arrow_circle_right")]
 impl IconShape for ArrowCircleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -772,11 +676,9 @@ impl IconShape for ArrowCircleRight {
 
 }
 
-#[cfg(feature = "solid_arrow_circle_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowCircleUp {}
 
-#[cfg(feature = "solid_arrow_circle_up")]
 impl IconShape for ArrowCircleUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -788,11 +690,9 @@ impl IconShape for ArrowCircleUp {
 
 }
 
-#[cfg(feature = "solid_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDown {}
 
-#[cfg(feature = "solid_arrow_down")]
 impl IconShape for ArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -804,11 +704,9 @@ impl IconShape for ArrowDown {
 
 }
 
-#[cfg(feature = "solid_arrow_down_1_9")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDown19 {}
 
-#[cfg(feature = "solid_arrow_down_1_9")]
 impl IconShape for ArrowDown19 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -820,11 +718,9 @@ impl IconShape for ArrowDown19 {
 
 }
 
-#[cfg(feature = "solid_arrow_down_9_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDown91 {}
 
-#[cfg(feature = "solid_arrow_down_9_1")]
 impl IconShape for ArrowDown91 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -836,11 +732,9 @@ impl IconShape for ArrowDown91 {
 
 }
 
-#[cfg(feature = "solid_arrow_down_a_z")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownAZ {}
 
-#[cfg(feature = "solid_arrow_down_a_z")]
 impl IconShape for ArrowDownAZ {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -852,11 +746,9 @@ impl IconShape for ArrowDownAZ {
 
 }
 
-#[cfg(feature = "solid_arrow_down_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownLong {}
 
-#[cfg(feature = "solid_arrow_down_long")]
 impl IconShape for ArrowDownLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -868,11 +760,9 @@ impl IconShape for ArrowDownLong {
 
 }
 
-#[cfg(feature = "solid_arrow_down_short_wide")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownShortWide {}
 
-#[cfg(feature = "solid_arrow_down_short_wide")]
 impl IconShape for ArrowDownShortWide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -884,11 +774,9 @@ impl IconShape for ArrowDownShortWide {
 
 }
 
-#[cfg(feature = "solid_arrow_down_up_across_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownUpAcrossLine {}
 
-#[cfg(feature = "solid_arrow_down_up_across_line")]
 impl IconShape for ArrowDownUpAcrossLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -900,11 +788,9 @@ impl IconShape for ArrowDownUpAcrossLine {
 
 }
 
-#[cfg(feature = "solid_arrow_down_up_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownUpLock {}
 
-#[cfg(feature = "solid_arrow_down_up_lock")]
 impl IconShape for ArrowDownUpLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -916,11 +802,9 @@ impl IconShape for ArrowDownUpLock {
 
 }
 
-#[cfg(feature = "solid_arrow_down_wide_short")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownWideShort {}
 
-#[cfg(feature = "solid_arrow_down_wide_short")]
 impl IconShape for ArrowDownWideShort {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -932,11 +816,9 @@ impl IconShape for ArrowDownWideShort {
 
 }
 
-#[cfg(feature = "solid_arrow_down_z_a")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowDownZA {}
 
-#[cfg(feature = "solid_arrow_down_z_a")]
 impl IconShape for ArrowDownZA {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -948,11 +830,9 @@ impl IconShape for ArrowDownZA {
 
 }
 
-#[cfg(feature = "solid_arrow_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowLeft {}
 
-#[cfg(feature = "solid_arrow_left")]
 impl IconShape for ArrowLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -964,11 +844,9 @@ impl IconShape for ArrowLeft {
 
 }
 
-#[cfg(feature = "solid_arrow_left_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowLeftLong {}
 
-#[cfg(feature = "solid_arrow_left_long")]
 impl IconShape for ArrowLeftLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -980,11 +858,9 @@ impl IconShape for ArrowLeftLong {
 
 }
 
-#[cfg(feature = "solid_arrow_left_rotate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowLeftRotate {}
 
-#[cfg(feature = "solid_arrow_left_rotate")]
 impl IconShape for ArrowLeftRotate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -996,11 +872,9 @@ impl IconShape for ArrowLeftRotate {
 
 }
 
-#[cfg(feature = "solid_arrow_pointer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowPointer {}
 
-#[cfg(feature = "solid_arrow_pointer")]
 impl IconShape for ArrowPointer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1012,11 +886,9 @@ impl IconShape for ArrowPointer {
 
 }
 
-#[cfg(feature = "solid_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRight {}
 
-#[cfg(feature = "solid_arrow_right")]
 impl IconShape for ArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1028,11 +900,9 @@ impl IconShape for ArrowRight {
 
 }
 
-#[cfg(feature = "solid_arrow_right_arrow_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightArrowLeft {}
 
-#[cfg(feature = "solid_arrow_right_arrow_left")]
 impl IconShape for ArrowRightArrowLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1044,11 +914,9 @@ impl IconShape for ArrowRightArrowLeft {
 
 }
 
-#[cfg(feature = "solid_arrow_right_from_bracket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightFromBracket {}
 
-#[cfg(feature = "solid_arrow_right_from_bracket")]
 impl IconShape for ArrowRightFromBracket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1060,11 +928,9 @@ impl IconShape for ArrowRightFromBracket {
 
 }
 
-#[cfg(feature = "solid_arrow_right_from_file")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightFromFile {}
 
-#[cfg(feature = "solid_arrow_right_from_file")]
 impl IconShape for ArrowRightFromFile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1076,11 +942,9 @@ impl IconShape for ArrowRightFromFile {
 
 }
 
-#[cfg(feature = "solid_arrow_right_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightLong {}
 
-#[cfg(feature = "solid_arrow_right_long")]
 impl IconShape for ArrowRightLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1092,11 +956,9 @@ impl IconShape for ArrowRightLong {
 
 }
 
-#[cfg(feature = "solid_arrow_right_rotate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightRotate {}
 
-#[cfg(feature = "solid_arrow_right_rotate")]
 impl IconShape for ArrowRightRotate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1108,11 +970,9 @@ impl IconShape for ArrowRightRotate {
 
 }
 
-#[cfg(feature = "solid_arrow_right_to_bracket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightToBracket {}
 
-#[cfg(feature = "solid_arrow_right_to_bracket")]
 impl IconShape for ArrowRightToBracket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1124,11 +984,9 @@ impl IconShape for ArrowRightToBracket {
 
 }
 
-#[cfg(feature = "solid_arrow_right_to_city")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightToCity {}
 
-#[cfg(feature = "solid_arrow_right_to_city")]
 impl IconShape for ArrowRightToCity {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1140,11 +998,9 @@ impl IconShape for ArrowRightToCity {
 
 }
 
-#[cfg(feature = "solid_arrow_right_to_file")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRightToFile {}
 
-#[cfg(feature = "solid_arrow_right_to_file")]
 impl IconShape for ArrowRightToFile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1156,11 +1012,9 @@ impl IconShape for ArrowRightToFile {
 
 }
 
-#[cfg(feature = "solid_arrow_rotate_back")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRotateBack {}
 
-#[cfg(feature = "solid_arrow_rotate_back")]
 impl IconShape for ArrowRotateBack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1172,11 +1026,9 @@ impl IconShape for ArrowRotateBack {
 
 }
 
-#[cfg(feature = "solid_arrow_rotate_backward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRotateBackward {}
 
-#[cfg(feature = "solid_arrow_rotate_backward")]
 impl IconShape for ArrowRotateBackward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1188,11 +1040,9 @@ impl IconShape for ArrowRotateBackward {
 
 }
 
-#[cfg(feature = "solid_arrow_rotate_forward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRotateForward {}
 
-#[cfg(feature = "solid_arrow_rotate_forward")]
 impl IconShape for ArrowRotateForward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1204,11 +1054,9 @@ impl IconShape for ArrowRotateForward {
 
 }
 
-#[cfg(feature = "solid_arrow_rotate_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRotateLeft {}
 
-#[cfg(feature = "solid_arrow_rotate_left")]
 impl IconShape for ArrowRotateLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1220,11 +1068,9 @@ impl IconShape for ArrowRotateLeft {
 
 }
 
-#[cfg(feature = "solid_arrow_rotate_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowRotateRight {}
 
-#[cfg(feature = "solid_arrow_rotate_right")]
 impl IconShape for ArrowRotateRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1236,11 +1082,9 @@ impl IconShape for ArrowRotateRight {
 
 }
 
-#[cfg(feature = "solid_arrow_trend_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowTrendDown {}
 
-#[cfg(feature = "solid_arrow_trend_down")]
 impl IconShape for ArrowTrendDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1252,11 +1096,9 @@ impl IconShape for ArrowTrendDown {
 
 }
 
-#[cfg(feature = "solid_arrow_trend_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowTrendUp {}
 
-#[cfg(feature = "solid_arrow_trend_up")]
 impl IconShape for ArrowTrendUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1268,11 +1110,9 @@ impl IconShape for ArrowTrendUp {
 
 }
 
-#[cfg(feature = "solid_arrow_turn_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowTurnDown {}
 
-#[cfg(feature = "solid_arrow_turn_down")]
 impl IconShape for ArrowTurnDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1284,11 +1124,9 @@ impl IconShape for ArrowTurnDown {
 
 }
 
-#[cfg(feature = "solid_arrow_turn_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowTurnUp {}
 
-#[cfg(feature = "solid_arrow_turn_up")]
 impl IconShape for ArrowTurnUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1300,11 +1138,9 @@ impl IconShape for ArrowTurnUp {
 
 }
 
-#[cfg(feature = "solid_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUp {}
 
-#[cfg(feature = "solid_arrow_up")]
 impl IconShape for ArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1316,11 +1152,9 @@ impl IconShape for ArrowUp {
 
 }
 
-#[cfg(feature = "solid_arrow_up_1_9")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUp19 {}
 
-#[cfg(feature = "solid_arrow_up_1_9")]
 impl IconShape for ArrowUp19 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1332,11 +1166,9 @@ impl IconShape for ArrowUp19 {
 
 }
 
-#[cfg(feature = "solid_arrow_up_9_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUp91 {}
 
-#[cfg(feature = "solid_arrow_up_9_1")]
 impl IconShape for ArrowUp91 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1348,11 +1180,9 @@ impl IconShape for ArrowUp91 {
 
 }
 
-#[cfg(feature = "solid_arrow_up_a_z")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpAZ {}
 
-#[cfg(feature = "solid_arrow_up_a_z")]
 impl IconShape for ArrowUpAZ {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1364,11 +1194,9 @@ impl IconShape for ArrowUpAZ {
 
 }
 
-#[cfg(feature = "solid_arrow_up_from_bracket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpFromBracket {}
 
-#[cfg(feature = "solid_arrow_up_from_bracket")]
 impl IconShape for ArrowUpFromBracket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1380,11 +1208,9 @@ impl IconShape for ArrowUpFromBracket {
 
 }
 
-#[cfg(feature = "solid_arrow_up_from_ground_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpFromGroundWater {}
 
-#[cfg(feature = "solid_arrow_up_from_ground_water")]
 impl IconShape for ArrowUpFromGroundWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1396,11 +1222,9 @@ impl IconShape for ArrowUpFromGroundWater {
 
 }
 
-#[cfg(feature = "solid_arrow_up_from_water_pump")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpFromWaterPump {}
 
-#[cfg(feature = "solid_arrow_up_from_water_pump")]
 impl IconShape for ArrowUpFromWaterPump {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1412,11 +1236,9 @@ impl IconShape for ArrowUpFromWaterPump {
 
 }
 
-#[cfg(feature = "solid_arrow_up_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpLong {}
 
-#[cfg(feature = "solid_arrow_up_long")]
 impl IconShape for ArrowUpLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1428,11 +1250,9 @@ impl IconShape for ArrowUpLong {
 
 }
 
-#[cfg(feature = "solid_arrow_up_right_dots")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpRightDots {}
 
-#[cfg(feature = "solid_arrow_up_right_dots")]
 impl IconShape for ArrowUpRightDots {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1444,11 +1264,9 @@ impl IconShape for ArrowUpRightDots {
 
 }
 
-#[cfg(feature = "solid_arrow_up_right_from_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpRightFromSquare {}
 
-#[cfg(feature = "solid_arrow_up_right_from_square")]
 impl IconShape for ArrowUpRightFromSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1460,11 +1278,9 @@ impl IconShape for ArrowUpRightFromSquare {
 
 }
 
-#[cfg(feature = "solid_arrow_up_short_wide")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpShortWide {}
 
-#[cfg(feature = "solid_arrow_up_short_wide")]
 impl IconShape for ArrowUpShortWide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1476,11 +1292,9 @@ impl IconShape for ArrowUpShortWide {
 
 }
 
-#[cfg(feature = "solid_arrow_up_wide_short")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpWideShort {}
 
-#[cfg(feature = "solid_arrow_up_wide_short")]
 impl IconShape for ArrowUpWideShort {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1492,11 +1306,9 @@ impl IconShape for ArrowUpWideShort {
 
 }
 
-#[cfg(feature = "solid_arrow_up_z_a")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowUpZA {}
 
-#[cfg(feature = "solid_arrow_up_z_a")]
 impl IconShape for ArrowUpZA {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1508,11 +1320,9 @@ impl IconShape for ArrowUpZA {
 
 }
 
-#[cfg(feature = "solid_arrows")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Arrows {}
 
-#[cfg(feature = "solid_arrows")]
 impl IconShape for Arrows {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1524,11 +1334,9 @@ impl IconShape for Arrows {
 
 }
 
-#[cfg(feature = "solid_arrows_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsAlt {}
 
-#[cfg(feature = "solid_arrows_alt")]
 impl IconShape for ArrowsAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1540,11 +1348,9 @@ impl IconShape for ArrowsAlt {
 
 }
 
-#[cfg(feature = "solid_arrows_alt_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsAltH {}
 
-#[cfg(feature = "solid_arrows_alt_h")]
 impl IconShape for ArrowsAltH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1556,11 +1362,9 @@ impl IconShape for ArrowsAltH {
 
 }
 
-#[cfg(feature = "solid_arrows_alt_v")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsAltV {}
 
-#[cfg(feature = "solid_arrows_alt_v")]
 impl IconShape for ArrowsAltV {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1572,11 +1376,9 @@ impl IconShape for ArrowsAltV {
 
 }
 
-#[cfg(feature = "solid_arrows_down_to_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsDownToLine {}
 
-#[cfg(feature = "solid_arrows_down_to_line")]
 impl IconShape for ArrowsDownToLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1588,11 +1390,9 @@ impl IconShape for ArrowsDownToLine {
 
 }
 
-#[cfg(feature = "solid_arrows_down_to_people")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsDownToPeople {}
 
-#[cfg(feature = "solid_arrows_down_to_people")]
 impl IconShape for ArrowsDownToPeople {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1604,11 +1404,9 @@ impl IconShape for ArrowsDownToPeople {
 
 }
 
-#[cfg(feature = "solid_arrows_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsH {}
 
-#[cfg(feature = "solid_arrows_h")]
 impl IconShape for ArrowsH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1620,11 +1418,9 @@ impl IconShape for ArrowsH {
 
 }
 
-#[cfg(feature = "solid_arrows_left_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsLeftRight {}
 
-#[cfg(feature = "solid_arrows_left_right")]
 impl IconShape for ArrowsLeftRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1636,11 +1432,9 @@ impl IconShape for ArrowsLeftRight {
 
 }
 
-#[cfg(feature = "solid_arrows_left_right_to_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsLeftRightToLine {}
 
-#[cfg(feature = "solid_arrows_left_right_to_line")]
 impl IconShape for ArrowsLeftRightToLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1652,11 +1446,9 @@ impl IconShape for ArrowsLeftRightToLine {
 
 }
 
-#[cfg(feature = "solid_arrows_rotate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsRotate {}
 
-#[cfg(feature = "solid_arrows_rotate")]
 impl IconShape for ArrowsRotate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1668,11 +1460,9 @@ impl IconShape for ArrowsRotate {
 
 }
 
-#[cfg(feature = "solid_arrows_spin")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsSpin {}
 
-#[cfg(feature = "solid_arrows_spin")]
 impl IconShape for ArrowsSpin {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1684,11 +1474,9 @@ impl IconShape for ArrowsSpin {
 
 }
 
-#[cfg(feature = "solid_arrows_split_up_and_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsSplitUpAndLeft {}
 
-#[cfg(feature = "solid_arrows_split_up_and_left")]
 impl IconShape for ArrowsSplitUpAndLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1700,11 +1488,9 @@ impl IconShape for ArrowsSplitUpAndLeft {
 
 }
 
-#[cfg(feature = "solid_arrows_to_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsToCircle {}
 
-#[cfg(feature = "solid_arrows_to_circle")]
 impl IconShape for ArrowsToCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1716,11 +1502,9 @@ impl IconShape for ArrowsToCircle {
 
 }
 
-#[cfg(feature = "solid_arrows_to_dot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsToDot {}
 
-#[cfg(feature = "solid_arrows_to_dot")]
 impl IconShape for ArrowsToDot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1732,11 +1516,9 @@ impl IconShape for ArrowsToDot {
 
 }
 
-#[cfg(feature = "solid_arrows_to_eye")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsToEye {}
 
-#[cfg(feature = "solid_arrows_to_eye")]
 impl IconShape for ArrowsToEye {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1748,11 +1530,9 @@ impl IconShape for ArrowsToEye {
 
 }
 
-#[cfg(feature = "solid_arrows_turn_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsTurnRight {}
 
-#[cfg(feature = "solid_arrows_turn_right")]
 impl IconShape for ArrowsTurnRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1764,11 +1544,9 @@ impl IconShape for ArrowsTurnRight {
 
 }
 
-#[cfg(feature = "solid_arrows_turn_to_dots")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsTurnToDots {}
 
-#[cfg(feature = "solid_arrows_turn_to_dots")]
 impl IconShape for ArrowsTurnToDots {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1780,11 +1558,9 @@ impl IconShape for ArrowsTurnToDots {
 
 }
 
-#[cfg(feature = "solid_arrows_up_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsUpDown {}
 
-#[cfg(feature = "solid_arrows_up_down")]
 impl IconShape for ArrowsUpDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1796,11 +1572,9 @@ impl IconShape for ArrowsUpDown {
 
 }
 
-#[cfg(feature = "solid_arrows_up_down_left_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsUpDownLeftRight {}
 
-#[cfg(feature = "solid_arrows_up_down_left_right")]
 impl IconShape for ArrowsUpDownLeftRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1812,11 +1586,9 @@ impl IconShape for ArrowsUpDownLeftRight {
 
 }
 
-#[cfg(feature = "solid_arrows_up_to_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsUpToLine {}
 
-#[cfg(feature = "solid_arrows_up_to_line")]
 impl IconShape for ArrowsUpToLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1828,11 +1600,9 @@ impl IconShape for ArrowsUpToLine {
 
 }
 
-#[cfg(feature = "solid_arrows_v")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ArrowsV {}
 
-#[cfg(feature = "solid_arrows_v")]
 impl IconShape for ArrowsV {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1844,11 +1614,9 @@ impl IconShape for ArrowsV {
 
 }
 
-#[cfg(feature = "solid_asl_interpreting")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AslInterpreting {}
 
-#[cfg(feature = "solid_asl_interpreting")]
 impl IconShape for AslInterpreting {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1860,11 +1628,9 @@ impl IconShape for AslInterpreting {
 
 }
 
-#[cfg(feature = "solid_assistive_listening_systems")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AssistiveListeningSystems {}
 
-#[cfg(feature = "solid_assistive_listening_systems")]
 impl IconShape for AssistiveListeningSystems {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1876,11 +1642,9 @@ impl IconShape for AssistiveListeningSystems {
 
 }
 
-#[cfg(feature = "solid_asterisk")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Asterisk {}
 
-#[cfg(feature = "solid_asterisk")]
 impl IconShape for Asterisk {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1892,11 +1656,9 @@ impl IconShape for Asterisk {
 
 }
 
-#[cfg(feature = "solid_at")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct At {}
 
-#[cfg(feature = "solid_at")]
 impl IconShape for At {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1908,11 +1670,9 @@ impl IconShape for At {
 
 }
 
-#[cfg(feature = "solid_atlas")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Atlas {}
 
-#[cfg(feature = "solid_atlas")]
 impl IconShape for Atlas {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1924,11 +1684,9 @@ impl IconShape for Atlas {
 
 }
 
-#[cfg(feature = "solid_atom")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Atom {}
 
-#[cfg(feature = "solid_atom")]
 impl IconShape for Atom {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1940,11 +1698,9 @@ impl IconShape for Atom {
 
 }
 
-#[cfg(feature = "solid_audio_description")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AudioDescription {}
 
-#[cfg(feature = "solid_audio_description")]
 impl IconShape for AudioDescription {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1956,11 +1712,9 @@ impl IconShape for AudioDescription {
 
 }
 
-#[cfg(feature = "solid_austral_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct AustralSign {}
 
-#[cfg(feature = "solid_austral_sign")]
 impl IconShape for AustralSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1972,11 +1726,9 @@ impl IconShape for AustralSign {
 
 }
 
-#[cfg(feature = "solid_automobile")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Automobile {}
 
-#[cfg(feature = "solid_automobile")]
 impl IconShape for Automobile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -1988,11 +1740,9 @@ impl IconShape for Automobile {
 
 }
 
-#[cfg(feature = "solid_award")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Award {}
 
-#[cfg(feature = "solid_award")]
 impl IconShape for Award {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2004,11 +1754,9 @@ impl IconShape for Award {
 
 }
 
-#[cfg(feature = "solid_b")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct B {}
 
-#[cfg(feature = "solid_b")]
 impl IconShape for B {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2020,11 +1768,9 @@ impl IconShape for B {
 
 }
 
-#[cfg(feature = "solid_baby")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Baby {}
 
-#[cfg(feature = "solid_baby")]
 impl IconShape for Baby {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2036,11 +1782,9 @@ impl IconShape for Baby {
 
 }
 
-#[cfg(feature = "solid_baby_carriage")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BabyCarriage {}
 
-#[cfg(feature = "solid_baby_carriage")]
 impl IconShape for BabyCarriage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2052,11 +1796,9 @@ impl IconShape for BabyCarriage {
 
 }
 
-#[cfg(feature = "solid_backspace")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Backspace {}
 
-#[cfg(feature = "solid_backspace")]
 impl IconShape for Backspace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2068,11 +1810,9 @@ impl IconShape for Backspace {
 
 }
 
-#[cfg(feature = "solid_backward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Backward {}
 
-#[cfg(feature = "solid_backward")]
 impl IconShape for Backward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2084,11 +1824,9 @@ impl IconShape for Backward {
 
 }
 
-#[cfg(feature = "solid_backward_fast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BackwardFast {}
 
-#[cfg(feature = "solid_backward_fast")]
 impl IconShape for BackwardFast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2100,11 +1838,9 @@ impl IconShape for BackwardFast {
 
 }
 
-#[cfg(feature = "solid_backward_step")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BackwardStep {}
 
-#[cfg(feature = "solid_backward_step")]
 impl IconShape for BackwardStep {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2116,11 +1852,9 @@ impl IconShape for BackwardStep {
 
 }
 
-#[cfg(feature = "solid_bacon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bacon {}
 
-#[cfg(feature = "solid_bacon")]
 impl IconShape for Bacon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2132,11 +1866,9 @@ impl IconShape for Bacon {
 
 }
 
-#[cfg(feature = "solid_bacteria")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bacteria {}
 
-#[cfg(feature = "solid_bacteria")]
 impl IconShape for Bacteria {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2148,11 +1880,9 @@ impl IconShape for Bacteria {
 
 }
 
-#[cfg(feature = "solid_bacterium")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bacterium {}
 
-#[cfg(feature = "solid_bacterium")]
 impl IconShape for Bacterium {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2164,11 +1894,9 @@ impl IconShape for Bacterium {
 
 }
 
-#[cfg(feature = "solid_bag_shopping")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BagShopping {}
 
-#[cfg(feature = "solid_bag_shopping")]
 impl IconShape for BagShopping {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2180,11 +1908,9 @@ impl IconShape for BagShopping {
 
 }
 
-#[cfg(feature = "solid_bahai")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bahai {}
 
-#[cfg(feature = "solid_bahai")]
 impl IconShape for Bahai {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2196,11 +1922,9 @@ impl IconShape for Bahai {
 
 }
 
-#[cfg(feature = "solid_baht_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BahtSign {}
 
-#[cfg(feature = "solid_baht_sign")]
 impl IconShape for BahtSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2212,11 +1936,9 @@ impl IconShape for BahtSign {
 
 }
 
-#[cfg(feature = "solid_balance_scale")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BalanceScale {}
 
-#[cfg(feature = "solid_balance_scale")]
 impl IconShape for BalanceScale {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2228,11 +1950,9 @@ impl IconShape for BalanceScale {
 
 }
 
-#[cfg(feature = "solid_balance_scale_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BalanceScaleLeft {}
 
-#[cfg(feature = "solid_balance_scale_left")]
 impl IconShape for BalanceScaleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2244,11 +1964,9 @@ impl IconShape for BalanceScaleLeft {
 
 }
 
-#[cfg(feature = "solid_balance_scale_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BalanceScaleRight {}
 
-#[cfg(feature = "solid_balance_scale_right")]
 impl IconShape for BalanceScaleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2260,11 +1978,9 @@ impl IconShape for BalanceScaleRight {
 
 }
 
-#[cfg(feature = "solid_ban")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ban {}
 
-#[cfg(feature = "solid_ban")]
 impl IconShape for Ban {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2276,11 +1992,9 @@ impl IconShape for Ban {
 
 }
 
-#[cfg(feature = "solid_ban_smoking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BanSmoking {}
 
-#[cfg(feature = "solid_ban_smoking")]
 impl IconShape for BanSmoking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2292,11 +2006,9 @@ impl IconShape for BanSmoking {
 
 }
 
-#[cfg(feature = "solid_band_aid")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BandAid {}
 
-#[cfg(feature = "solid_band_aid")]
 impl IconShape for BandAid {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2308,11 +2020,9 @@ impl IconShape for BandAid {
 
 }
 
-#[cfg(feature = "solid_bandage")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bandage {}
 
-#[cfg(feature = "solid_bandage")]
 impl IconShape for Bandage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2324,11 +2034,9 @@ impl IconShape for Bandage {
 
 }
 
-#[cfg(feature = "solid_bangladeshi_taka_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BangladeshiTakaSign {}
 
-#[cfg(feature = "solid_bangladeshi_taka_sign")]
 impl IconShape for BangladeshiTakaSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2340,11 +2048,9 @@ impl IconShape for BangladeshiTakaSign {
 
 }
 
-#[cfg(feature = "solid_bank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bank {}
 
-#[cfg(feature = "solid_bank")]
 impl IconShape for Bank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2356,11 +2062,9 @@ impl IconShape for Bank {
 
 }
 
-#[cfg(feature = "solid_bar_chart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BarChart {}
 
-#[cfg(feature = "solid_bar_chart")]
 impl IconShape for BarChart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2372,11 +2076,9 @@ impl IconShape for BarChart {
 
 }
 
-#[cfg(feature = "solid_barcode")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Barcode {}
 
-#[cfg(feature = "solid_barcode")]
 impl IconShape for Barcode {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2388,11 +2090,9 @@ impl IconShape for Barcode {
 
 }
 
-#[cfg(feature = "solid_bars")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bars {}
 
-#[cfg(feature = "solid_bars")]
 impl IconShape for Bars {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2404,11 +2104,9 @@ impl IconShape for Bars {
 
 }
 
-#[cfg(feature = "solid_bars_progress")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BarsProgress {}
 
-#[cfg(feature = "solid_bars_progress")]
 impl IconShape for BarsProgress {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2420,11 +2118,9 @@ impl IconShape for BarsProgress {
 
 }
 
-#[cfg(feature = "solid_bars_staggered")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BarsStaggered {}
 
-#[cfg(feature = "solid_bars_staggered")]
 impl IconShape for BarsStaggered {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2436,11 +2132,9 @@ impl IconShape for BarsStaggered {
 
 }
 
-#[cfg(feature = "solid_baseball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Baseball {}
 
-#[cfg(feature = "solid_baseball")]
 impl IconShape for Baseball {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2452,11 +2146,9 @@ impl IconShape for Baseball {
 
 }
 
-#[cfg(feature = "solid_baseball_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BaseballBall {}
 
-#[cfg(feature = "solid_baseball_ball")]
 impl IconShape for BaseballBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2468,11 +2160,9 @@ impl IconShape for BaseballBall {
 
 }
 
-#[cfg(feature = "solid_baseball_bat_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BaseballBatBall {}
 
-#[cfg(feature = "solid_baseball_bat_ball")]
 impl IconShape for BaseballBatBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2484,11 +2174,9 @@ impl IconShape for BaseballBatBall {
 
 }
 
-#[cfg(feature = "solid_basket_shopping")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BasketShopping {}
 
-#[cfg(feature = "solid_basket_shopping")]
 impl IconShape for BasketShopping {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2500,11 +2188,9 @@ impl IconShape for BasketShopping {
 
 }
 
-#[cfg(feature = "solid_basketball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Basketball {}
 
-#[cfg(feature = "solid_basketball")]
 impl IconShape for Basketball {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2516,11 +2202,9 @@ impl IconShape for Basketball {
 
 }
 
-#[cfg(feature = "solid_basketball_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BasketballBall {}
 
-#[cfg(feature = "solid_basketball_ball")]
 impl IconShape for BasketballBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2532,11 +2216,9 @@ impl IconShape for BasketballBall {
 
 }
 
-#[cfg(feature = "solid_bath")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bath {}
 
-#[cfg(feature = "solid_bath")]
 impl IconShape for Bath {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2548,11 +2230,9 @@ impl IconShape for Bath {
 
 }
 
-#[cfg(feature = "solid_bathtub")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bathtub {}
 
-#[cfg(feature = "solid_bathtub")]
 impl IconShape for Bathtub {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2564,11 +2244,9 @@ impl IconShape for Bathtub {
 
 }
 
-#[cfg(feature = "solid_battery")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Battery {}
 
-#[cfg(feature = "solid_battery")]
 impl IconShape for Battery {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2580,11 +2258,9 @@ impl IconShape for Battery {
 
 }
 
-#[cfg(feature = "solid_battery_0")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Battery0 {}
 
-#[cfg(feature = "solid_battery_0")]
 impl IconShape for Battery0 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2596,11 +2272,9 @@ impl IconShape for Battery0 {
 
 }
 
-#[cfg(feature = "solid_battery_2")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Battery2 {}
 
-#[cfg(feature = "solid_battery_2")]
 impl IconShape for Battery2 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2612,11 +2286,9 @@ impl IconShape for Battery2 {
 
 }
 
-#[cfg(feature = "solid_battery_3")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Battery3 {}
 
-#[cfg(feature = "solid_battery_3")]
 impl IconShape for Battery3 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2628,11 +2300,9 @@ impl IconShape for Battery3 {
 
 }
 
-#[cfg(feature = "solid_battery_4")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Battery4 {}
 
-#[cfg(feature = "solid_battery_4")]
 impl IconShape for Battery4 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2644,11 +2314,9 @@ impl IconShape for Battery4 {
 
 }
 
-#[cfg(feature = "solid_battery_5")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Battery5 {}
 
-#[cfg(feature = "solid_battery_5")]
 impl IconShape for Battery5 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2660,11 +2328,9 @@ impl IconShape for Battery5 {
 
 }
 
-#[cfg(feature = "solid_battery_car")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BatteryCar {}
 
-#[cfg(feature = "solid_battery_car")]
 impl IconShape for BatteryCar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2676,11 +2342,9 @@ impl IconShape for BatteryCar {
 
 }
 
-#[cfg(feature = "solid_battery_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BatteryEmpty {}
 
-#[cfg(feature = "solid_battery_empty")]
 impl IconShape for BatteryEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2692,11 +2356,9 @@ impl IconShape for BatteryEmpty {
 
 }
 
-#[cfg(feature = "solid_battery_full")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BatteryFull {}
 
-#[cfg(feature = "solid_battery_full")]
 impl IconShape for BatteryFull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2708,11 +2370,9 @@ impl IconShape for BatteryFull {
 
 }
 
-#[cfg(feature = "solid_battery_half")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BatteryHalf {}
 
-#[cfg(feature = "solid_battery_half")]
 impl IconShape for BatteryHalf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2724,11 +2384,9 @@ impl IconShape for BatteryHalf {
 
 }
 
-#[cfg(feature = "solid_battery_quarter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BatteryQuarter {}
 
-#[cfg(feature = "solid_battery_quarter")]
 impl IconShape for BatteryQuarter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2740,11 +2398,9 @@ impl IconShape for BatteryQuarter {
 
 }
 
-#[cfg(feature = "solid_battery_three_quarters")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BatteryThreeQuarters {}
 
-#[cfg(feature = "solid_battery_three_quarters")]
 impl IconShape for BatteryThreeQuarters {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2756,11 +2412,9 @@ impl IconShape for BatteryThreeQuarters {
 
 }
 
-#[cfg(feature = "solid_bed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bed {}
 
-#[cfg(feature = "solid_bed")]
 impl IconShape for Bed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2772,11 +2426,9 @@ impl IconShape for Bed {
 
 }
 
-#[cfg(feature = "solid_bed_pulse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BedPulse {}
 
-#[cfg(feature = "solid_bed_pulse")]
 impl IconShape for BedPulse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2788,11 +2440,9 @@ impl IconShape for BedPulse {
 
 }
 
-#[cfg(feature = "solid_beer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Beer {}
 
-#[cfg(feature = "solid_beer")]
 impl IconShape for Beer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2804,11 +2454,9 @@ impl IconShape for Beer {
 
 }
 
-#[cfg(feature = "solid_beer_mug_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BeerMugEmpty {}
 
-#[cfg(feature = "solid_beer_mug_empty")]
 impl IconShape for BeerMugEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2820,11 +2468,9 @@ impl IconShape for BeerMugEmpty {
 
 }
 
-#[cfg(feature = "solid_bell")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bell {}
 
-#[cfg(feature = "solid_bell")]
 impl IconShape for Bell {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2836,11 +2482,9 @@ impl IconShape for Bell {
 
 }
 
-#[cfg(feature = "solid_bell_concierge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BellConcierge {}
 
-#[cfg(feature = "solid_bell_concierge")]
 impl IconShape for BellConcierge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2852,11 +2496,9 @@ impl IconShape for BellConcierge {
 
 }
 
-#[cfg(feature = "solid_bell_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BellSlash {}
 
-#[cfg(feature = "solid_bell_slash")]
 impl IconShape for BellSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2868,11 +2510,9 @@ impl IconShape for BellSlash {
 
 }
 
-#[cfg(feature = "solid_bezier_curve")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BezierCurve {}
 
-#[cfg(feature = "solid_bezier_curve")]
 impl IconShape for BezierCurve {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2884,11 +2524,9 @@ impl IconShape for BezierCurve {
 
 }
 
-#[cfg(feature = "solid_bible")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bible {}
 
-#[cfg(feature = "solid_bible")]
 impl IconShape for Bible {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2900,11 +2538,9 @@ impl IconShape for Bible {
 
 }
 
-#[cfg(feature = "solid_bicycle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bicycle {}
 
-#[cfg(feature = "solid_bicycle")]
 impl IconShape for Bicycle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2916,11 +2552,9 @@ impl IconShape for Bicycle {
 
 }
 
-#[cfg(feature = "solid_biking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Biking {}
 
-#[cfg(feature = "solid_biking")]
 impl IconShape for Biking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2932,11 +2566,9 @@ impl IconShape for Biking {
 
 }
 
-#[cfg(feature = "solid_binoculars")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Binoculars {}
 
-#[cfg(feature = "solid_binoculars")]
 impl IconShape for Binoculars {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2948,11 +2580,9 @@ impl IconShape for Binoculars {
 
 }
 
-#[cfg(feature = "solid_biohazard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Biohazard {}
 
-#[cfg(feature = "solid_biohazard")]
 impl IconShape for Biohazard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2964,11 +2594,9 @@ impl IconShape for Biohazard {
 
 }
 
-#[cfg(feature = "solid_birthday_cake")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BirthdayCake {}
 
-#[cfg(feature = "solid_birthday_cake")]
 impl IconShape for BirthdayCake {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2980,11 +2608,9 @@ impl IconShape for BirthdayCake {
 
 }
 
-#[cfg(feature = "solid_bitcoin_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BitcoinSign {}
 
-#[cfg(feature = "solid_bitcoin_sign")]
 impl IconShape for BitcoinSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -2996,11 +2622,9 @@ impl IconShape for BitcoinSign {
 
 }
 
-#[cfg(feature = "solid_blackboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Blackboard {}
 
-#[cfg(feature = "solid_blackboard")]
 impl IconShape for Blackboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3012,11 +2636,9 @@ impl IconShape for Blackboard {
 
 }
 
-#[cfg(feature = "solid_blender")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Blender {}
 
-#[cfg(feature = "solid_blender")]
 impl IconShape for Blender {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3028,11 +2650,9 @@ impl IconShape for Blender {
 
 }
 
-#[cfg(feature = "solid_blender_phone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BlenderPhone {}
 
-#[cfg(feature = "solid_blender_phone")]
 impl IconShape for BlenderPhone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3044,11 +2664,9 @@ impl IconShape for BlenderPhone {
 
 }
 
-#[cfg(feature = "solid_blind")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Blind {}
 
-#[cfg(feature = "solid_blind")]
 impl IconShape for Blind {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3060,11 +2678,9 @@ impl IconShape for Blind {
 
 }
 
-#[cfg(feature = "solid_blog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Blog {}
 
-#[cfg(feature = "solid_blog")]
 impl IconShape for Blog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3076,11 +2692,9 @@ impl IconShape for Blog {
 
 }
 
-#[cfg(feature = "solid_bold")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bold {}
 
-#[cfg(feature = "solid_bold")]
 impl IconShape for Bold {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3092,11 +2706,9 @@ impl IconShape for Bold {
 
 }
 
-#[cfg(feature = "solid_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bolt {}
 
-#[cfg(feature = "solid_bolt")]
 impl IconShape for Bolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3108,11 +2720,9 @@ impl IconShape for Bolt {
 
 }
 
-#[cfg(feature = "solid_bolt_lightning")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoltLightning {}
 
-#[cfg(feature = "solid_bolt_lightning")]
 impl IconShape for BoltLightning {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3124,11 +2734,9 @@ impl IconShape for BoltLightning {
 
 }
 
-#[cfg(feature = "solid_bomb")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bomb {}
 
-#[cfg(feature = "solid_bomb")]
 impl IconShape for Bomb {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3140,11 +2748,9 @@ impl IconShape for Bomb {
 
 }
 
-#[cfg(feature = "solid_bone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bone {}
 
-#[cfg(feature = "solid_bone")]
 impl IconShape for Bone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3156,11 +2762,9 @@ impl IconShape for Bone {
 
 }
 
-#[cfg(feature = "solid_bong")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bong {}
 
-#[cfg(feature = "solid_bong")]
 impl IconShape for Bong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3172,11 +2776,9 @@ impl IconShape for Bong {
 
 }
 
-#[cfg(feature = "solid_book")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Book {}
 
-#[cfg(feature = "solid_book")]
 impl IconShape for Book {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3188,11 +2790,9 @@ impl IconShape for Book {
 
 }
 
-#[cfg(feature = "solid_book_atlas")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookAtlas {}
 
-#[cfg(feature = "solid_book_atlas")]
 impl IconShape for BookAtlas {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3204,11 +2804,9 @@ impl IconShape for BookAtlas {
 
 }
 
-#[cfg(feature = "solid_book_bible")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookBible {}
 
-#[cfg(feature = "solid_book_bible")]
 impl IconShape for BookBible {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3220,11 +2818,9 @@ impl IconShape for BookBible {
 
 }
 
-#[cfg(feature = "solid_book_bookmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookBookmark {}
 
-#[cfg(feature = "solid_book_bookmark")]
 impl IconShape for BookBookmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3236,11 +2832,9 @@ impl IconShape for BookBookmark {
 
 }
 
-#[cfg(feature = "solid_book_dead")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookDead {}
 
-#[cfg(feature = "solid_book_dead")]
 impl IconShape for BookDead {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3252,11 +2846,9 @@ impl IconShape for BookDead {
 
 }
 
-#[cfg(feature = "solid_book_journal_whills")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookJournalWhills {}
 
-#[cfg(feature = "solid_book_journal_whills")]
 impl IconShape for BookJournalWhills {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3268,11 +2860,9 @@ impl IconShape for BookJournalWhills {
 
 }
 
-#[cfg(feature = "solid_book_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookMedical {}
 
-#[cfg(feature = "solid_book_medical")]
 impl IconShape for BookMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3284,11 +2874,9 @@ impl IconShape for BookMedical {
 
 }
 
-#[cfg(feature = "solid_book_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookOpen {}
 
-#[cfg(feature = "solid_book_open")]
 impl IconShape for BookOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3300,11 +2888,9 @@ impl IconShape for BookOpen {
 
 }
 
-#[cfg(feature = "solid_book_open_reader")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookOpenReader {}
 
-#[cfg(feature = "solid_book_open_reader")]
 impl IconShape for BookOpenReader {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3316,11 +2902,9 @@ impl IconShape for BookOpenReader {
 
 }
 
-#[cfg(feature = "solid_book_quran")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookQuran {}
 
-#[cfg(feature = "solid_book_quran")]
 impl IconShape for BookQuran {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3332,11 +2916,9 @@ impl IconShape for BookQuran {
 
 }
 
-#[cfg(feature = "solid_book_reader")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookReader {}
 
-#[cfg(feature = "solid_book_reader")]
 impl IconShape for BookReader {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3348,11 +2930,9 @@ impl IconShape for BookReader {
 
 }
 
-#[cfg(feature = "solid_book_skull")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookSkull {}
 
-#[cfg(feature = "solid_book_skull")]
 impl IconShape for BookSkull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3364,11 +2944,9 @@ impl IconShape for BookSkull {
 
 }
 
-#[cfg(feature = "solid_book_tanakh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BookTanakh {}
 
-#[cfg(feature = "solid_book_tanakh")]
 impl IconShape for BookTanakh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3380,11 +2958,9 @@ impl IconShape for BookTanakh {
 
 }
 
-#[cfg(feature = "solid_bookmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bookmark {}
 
-#[cfg(feature = "solid_bookmark")]
 impl IconShape for Bookmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3396,11 +2972,9 @@ impl IconShape for Bookmark {
 
 }
 
-#[cfg(feature = "solid_border_all")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BorderAll {}
 
-#[cfg(feature = "solid_border_all")]
 impl IconShape for BorderAll {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3412,11 +2986,9 @@ impl IconShape for BorderAll {
 
 }
 
-#[cfg(feature = "solid_border_none")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BorderNone {}
 
-#[cfg(feature = "solid_border_none")]
 impl IconShape for BorderNone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3428,11 +3000,9 @@ impl IconShape for BorderNone {
 
 }
 
-#[cfg(feature = "solid_border_style")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BorderStyle {}
 
-#[cfg(feature = "solid_border_style")]
 impl IconShape for BorderStyle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3444,11 +3014,9 @@ impl IconShape for BorderStyle {
 
 }
 
-#[cfg(feature = "solid_border_top_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BorderTopLeft {}
 
-#[cfg(feature = "solid_border_top_left")]
 impl IconShape for BorderTopLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3460,11 +3028,9 @@ impl IconShape for BorderTopLeft {
 
 }
 
-#[cfg(feature = "solid_bore_hole")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoreHole {}
 
-#[cfg(feature = "solid_bore_hole")]
 impl IconShape for BoreHole {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3476,11 +3042,9 @@ impl IconShape for BoreHole {
 
 }
 
-#[cfg(feature = "solid_bottle_droplet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BottleDroplet {}
 
-#[cfg(feature = "solid_bottle_droplet")]
 impl IconShape for BottleDroplet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3492,11 +3056,9 @@ impl IconShape for BottleDroplet {
 
 }
 
-#[cfg(feature = "solid_bottle_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BottleWater {}
 
-#[cfg(feature = "solid_bottle_water")]
 impl IconShape for BottleWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3508,11 +3070,9 @@ impl IconShape for BottleWater {
 
 }
 
-#[cfg(feature = "solid_bowl_food")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BowlFood {}
 
-#[cfg(feature = "solid_bowl_food")]
 impl IconShape for BowlFood {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3524,11 +3084,9 @@ impl IconShape for BowlFood {
 
 }
 
-#[cfg(feature = "solid_bowl_rice")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BowlRice {}
 
-#[cfg(feature = "solid_bowl_rice")]
 impl IconShape for BowlRice {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3540,11 +3098,9 @@ impl IconShape for BowlRice {
 
 }
 
-#[cfg(feature = "solid_bowling_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BowlingBall {}
 
-#[cfg(feature = "solid_bowling_ball")]
 impl IconShape for BowlingBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3556,11 +3112,9 @@ impl IconShape for BowlingBall {
 
 }
 
-#[cfg(feature = "solid_box_archive")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoxArchive {}
 
-#[cfg(feature = "solid_box_archive")]
 impl IconShape for BoxArchive {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3572,11 +3126,9 @@ impl IconShape for BoxArchive {
 
 }
 
-#[cfg(feature = "solid_box_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoxOpen {}
 
-#[cfg(feature = "solid_box_open")]
 impl IconShape for BoxOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3588,11 +3140,9 @@ impl IconShape for BoxOpen {
 
 }
 
-#[cfg(feature = "solid_box_tissue")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoxTissue {}
 
-#[cfg(feature = "solid_box_tissue")]
 impl IconShape for BoxTissue {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3604,11 +3154,9 @@ impl IconShape for BoxTissue {
 
 }
 
-#[cfg(feature = "solid_boxes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Boxes {}
 
-#[cfg(feature = "solid_boxes")]
 impl IconShape for Boxes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3620,11 +3168,9 @@ impl IconShape for Boxes {
 
 }
 
-#[cfg(feature = "solid_boxes_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoxesAlt {}
 
-#[cfg(feature = "solid_boxes_alt")]
 impl IconShape for BoxesAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3636,11 +3182,9 @@ impl IconShape for BoxesAlt {
 
 }
 
-#[cfg(feature = "solid_boxes_packing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoxesPacking {}
 
-#[cfg(feature = "solid_boxes_packing")]
 impl IconShape for BoxesPacking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3652,11 +3196,9 @@ impl IconShape for BoxesPacking {
 
 }
 
-#[cfg(feature = "solid_boxes_stacked")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BoxesStacked {}
 
-#[cfg(feature = "solid_boxes_stacked")]
 impl IconShape for BoxesStacked {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3668,11 +3210,9 @@ impl IconShape for BoxesStacked {
 
 }
 
-#[cfg(feature = "solid_braille")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Braille {}
 
-#[cfg(feature = "solid_braille")]
 impl IconShape for Braille {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3684,11 +3224,9 @@ impl IconShape for Braille {
 
 }
 
-#[cfg(feature = "solid_brain")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Brain {}
 
-#[cfg(feature = "solid_brain")]
 impl IconShape for Brain {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3700,11 +3238,9 @@ impl IconShape for Brain {
 
 }
 
-#[cfg(feature = "solid_brazilian_real_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BrazilianRealSign {}
 
-#[cfg(feature = "solid_brazilian_real_sign")]
 impl IconShape for BrazilianRealSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3716,11 +3252,9 @@ impl IconShape for BrazilianRealSign {
 
 }
 
-#[cfg(feature = "solid_bread_slice")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BreadSlice {}
 
-#[cfg(feature = "solid_bread_slice")]
 impl IconShape for BreadSlice {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3732,11 +3266,9 @@ impl IconShape for BreadSlice {
 
 }
 
-#[cfg(feature = "solid_bridge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bridge {}
 
-#[cfg(feature = "solid_bridge")]
 impl IconShape for Bridge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3748,11 +3280,9 @@ impl IconShape for Bridge {
 
 }
 
-#[cfg(feature = "solid_bridge_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BridgeCircleCheck {}
 
-#[cfg(feature = "solid_bridge_circle_check")]
 impl IconShape for BridgeCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3764,11 +3294,9 @@ impl IconShape for BridgeCircleCheck {
 
 }
 
-#[cfg(feature = "solid_bridge_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BridgeCircleExclamation {}
 
-#[cfg(feature = "solid_bridge_circle_exclamation")]
 impl IconShape for BridgeCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3780,11 +3308,9 @@ impl IconShape for BridgeCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_bridge_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BridgeCircleXmark {}
 
-#[cfg(feature = "solid_bridge_circle_xmark")]
 impl IconShape for BridgeCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3796,11 +3322,9 @@ impl IconShape for BridgeCircleXmark {
 
 }
 
-#[cfg(feature = "solid_bridge_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BridgeLock {}
 
-#[cfg(feature = "solid_bridge_lock")]
 impl IconShape for BridgeLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3812,11 +3336,9 @@ impl IconShape for BridgeLock {
 
 }
 
-#[cfg(feature = "solid_bridge_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BridgeWater {}
 
-#[cfg(feature = "solid_bridge_water")]
 impl IconShape for BridgeWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3828,11 +3350,9 @@ impl IconShape for BridgeWater {
 
 }
 
-#[cfg(feature = "solid_briefcase")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Briefcase {}
 
-#[cfg(feature = "solid_briefcase")]
 impl IconShape for Briefcase {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3844,11 +3364,9 @@ impl IconShape for Briefcase {
 
 }
 
-#[cfg(feature = "solid_briefcase_clock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BriefcaseClock {}
 
-#[cfg(feature = "solid_briefcase_clock")]
 impl IconShape for BriefcaseClock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3860,11 +3378,9 @@ impl IconShape for BriefcaseClock {
 
 }
 
-#[cfg(feature = "solid_briefcase_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BriefcaseMedical {}
 
-#[cfg(feature = "solid_briefcase_medical")]
 impl IconShape for BriefcaseMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3876,11 +3392,9 @@ impl IconShape for BriefcaseMedical {
 
 }
 
-#[cfg(feature = "solid_broadcast_tower")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BroadcastTower {}
 
-#[cfg(feature = "solid_broadcast_tower")]
 impl IconShape for BroadcastTower {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3892,11 +3406,9 @@ impl IconShape for BroadcastTower {
 
 }
 
-#[cfg(feature = "solid_broom")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Broom {}
 
-#[cfg(feature = "solid_broom")]
 impl IconShape for Broom {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3908,11 +3420,9 @@ impl IconShape for Broom {
 
 }
 
-#[cfg(feature = "solid_broom_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BroomBall {}
 
-#[cfg(feature = "solid_broom_ball")]
 impl IconShape for BroomBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3924,11 +3434,9 @@ impl IconShape for BroomBall {
 
 }
 
-#[cfg(feature = "solid_brush")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Brush {}
 
-#[cfg(feature = "solid_brush")]
 impl IconShape for Brush {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3940,11 +3448,9 @@ impl IconShape for Brush {
 
 }
 
-#[cfg(feature = "solid_bucket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bucket {}
 
-#[cfg(feature = "solid_bucket")]
 impl IconShape for Bucket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3956,11 +3462,9 @@ impl IconShape for Bucket {
 
 }
 
-#[cfg(feature = "solid_bug")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bug {}
 
-#[cfg(feature = "solid_bug")]
 impl IconShape for Bug {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3972,11 +3476,9 @@ impl IconShape for Bug {
 
 }
 
-#[cfg(feature = "solid_bug_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BugSlash {}
 
-#[cfg(feature = "solid_bug_slash")]
 impl IconShape for BugSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -3988,11 +3490,9 @@ impl IconShape for BugSlash {
 
 }
 
-#[cfg(feature = "solid_bugs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bugs {}
 
-#[cfg(feature = "solid_bugs")]
 impl IconShape for Bugs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4004,11 +3504,9 @@ impl IconShape for Bugs {
 
 }
 
-#[cfg(feature = "solid_building")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Building {}
 
-#[cfg(feature = "solid_building")]
 impl IconShape for Building {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4020,11 +3518,9 @@ impl IconShape for Building {
 
 }
 
-#[cfg(feature = "solid_building_circle_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingCircleArrowRight {}
 
-#[cfg(feature = "solid_building_circle_arrow_right")]
 impl IconShape for BuildingCircleArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4036,11 +3532,9 @@ impl IconShape for BuildingCircleArrowRight {
 
 }
 
-#[cfg(feature = "solid_building_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingCircleCheck {}
 
-#[cfg(feature = "solid_building_circle_check")]
 impl IconShape for BuildingCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4052,11 +3546,9 @@ impl IconShape for BuildingCircleCheck {
 
 }
 
-#[cfg(feature = "solid_building_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingCircleExclamation {}
 
-#[cfg(feature = "solid_building_circle_exclamation")]
 impl IconShape for BuildingCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4068,11 +3560,9 @@ impl IconShape for BuildingCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_building_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingCircleXmark {}
 
-#[cfg(feature = "solid_building_circle_xmark")]
 impl IconShape for BuildingCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4084,11 +3574,9 @@ impl IconShape for BuildingCircleXmark {
 
 }
 
-#[cfg(feature = "solid_building_columns")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingColumns {}
 
-#[cfg(feature = "solid_building_columns")]
 impl IconShape for BuildingColumns {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4100,11 +3588,9 @@ impl IconShape for BuildingColumns {
 
 }
 
-#[cfg(feature = "solid_building_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingFlag {}
 
-#[cfg(feature = "solid_building_flag")]
 impl IconShape for BuildingFlag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4116,11 +3602,9 @@ impl IconShape for BuildingFlag {
 
 }
 
-#[cfg(feature = "solid_building_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingLock {}
 
-#[cfg(feature = "solid_building_lock")]
 impl IconShape for BuildingLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4132,11 +3616,9 @@ impl IconShape for BuildingLock {
 
 }
 
-#[cfg(feature = "solid_building_ngo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingNgo {}
 
-#[cfg(feature = "solid_building_ngo")]
 impl IconShape for BuildingNgo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4148,11 +3630,9 @@ impl IconShape for BuildingNgo {
 
 }
 
-#[cfg(feature = "solid_building_shield")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingShield {}
 
-#[cfg(feature = "solid_building_shield")]
 impl IconShape for BuildingShield {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4164,11 +3644,9 @@ impl IconShape for BuildingShield {
 
 }
 
-#[cfg(feature = "solid_building_un")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingUn {}
 
-#[cfg(feature = "solid_building_un")]
 impl IconShape for BuildingUn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4180,11 +3658,9 @@ impl IconShape for BuildingUn {
 
 }
 
-#[cfg(feature = "solid_building_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingUser {}
 
-#[cfg(feature = "solid_building_user")]
 impl IconShape for BuildingUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4196,11 +3672,9 @@ impl IconShape for BuildingUser {
 
 }
 
-#[cfg(feature = "solid_building_wheat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BuildingWheat {}
 
-#[cfg(feature = "solid_building_wheat")]
 impl IconShape for BuildingWheat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4212,11 +3686,9 @@ impl IconShape for BuildingWheat {
 
 }
 
-#[cfg(feature = "solid_bullhorn")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bullhorn {}
 
-#[cfg(feature = "solid_bullhorn")]
 impl IconShape for Bullhorn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4228,11 +3700,9 @@ impl IconShape for Bullhorn {
 
 }
 
-#[cfg(feature = "solid_bullseye")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bullseye {}
 
-#[cfg(feature = "solid_bullseye")]
 impl IconShape for Bullseye {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4244,11 +3714,9 @@ impl IconShape for Bullseye {
 
 }
 
-#[cfg(feature = "solid_burger")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Burger {}
 
-#[cfg(feature = "solid_burger")]
 impl IconShape for Burger {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4260,11 +3728,9 @@ impl IconShape for Burger {
 
 }
 
-#[cfg(feature = "solid_burn")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Burn {}
 
-#[cfg(feature = "solid_burn")]
 impl IconShape for Burn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4276,11 +3742,9 @@ impl IconShape for Burn {
 
 }
 
-#[cfg(feature = "solid_burst")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Burst {}
 
-#[cfg(feature = "solid_burst")]
 impl IconShape for Burst {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4292,11 +3756,9 @@ impl IconShape for Burst {
 
 }
 
-#[cfg(feature = "solid_bus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Bus {}
 
-#[cfg(feature = "solid_bus")]
 impl IconShape for Bus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4308,11 +3770,9 @@ impl IconShape for Bus {
 
 }
 
-#[cfg(feature = "solid_bus_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BusAlt {}
 
-#[cfg(feature = "solid_bus_alt")]
 impl IconShape for BusAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4324,11 +3784,9 @@ impl IconShape for BusAlt {
 
 }
 
-#[cfg(feature = "solid_bus_side")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BusSide {}
 
-#[cfg(feature = "solid_bus_side")]
 impl IconShape for BusSide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4340,11 +3798,9 @@ impl IconShape for BusSide {
 
 }
 
-#[cfg(feature = "solid_bus_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BusSimple {}
 
-#[cfg(feature = "solid_bus_simple")]
 impl IconShape for BusSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4356,11 +3812,9 @@ impl IconShape for BusSimple {
 
 }
 
-#[cfg(feature = "solid_business_time")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct BusinessTime {}
 
-#[cfg(feature = "solid_business_time")]
 impl IconShape for BusinessTime {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4372,11 +3826,9 @@ impl IconShape for BusinessTime {
 
 }
 
-#[cfg(feature = "solid_c")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct C {}
 
-#[cfg(feature = "solid_c")]
 impl IconShape for C {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4388,11 +3840,9 @@ impl IconShape for C {
 
 }
 
-#[cfg(feature = "solid_cab")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cab {}
 
-#[cfg(feature = "solid_cab")]
 impl IconShape for Cab {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4404,11 +3854,9 @@ impl IconShape for Cab {
 
 }
 
-#[cfg(feature = "solid_cable_car")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CableCar {}
 
-#[cfg(feature = "solid_cable_car")]
 impl IconShape for CableCar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4420,11 +3868,9 @@ impl IconShape for CableCar {
 
 }
 
-#[cfg(feature = "solid_cake")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cake {}
 
-#[cfg(feature = "solid_cake")]
 impl IconShape for Cake {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4436,11 +3882,9 @@ impl IconShape for Cake {
 
 }
 
-#[cfg(feature = "solid_cake_candles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CakeCandles {}
 
-#[cfg(feature = "solid_cake_candles")]
 impl IconShape for CakeCandles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4452,11 +3896,9 @@ impl IconShape for CakeCandles {
 
 }
 
-#[cfg(feature = "solid_calculator")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Calculator {}
 
-#[cfg(feature = "solid_calculator")]
 impl IconShape for Calculator {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4468,11 +3910,9 @@ impl IconShape for Calculator {
 
 }
 
-#[cfg(feature = "solid_calendar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Calendar {}
 
-#[cfg(feature = "solid_calendar")]
 impl IconShape for Calendar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4484,11 +3924,9 @@ impl IconShape for Calendar {
 
 }
 
-#[cfg(feature = "solid_calendar_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarAlt {}
 
-#[cfg(feature = "solid_calendar_alt")]
 impl IconShape for CalendarAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4500,11 +3938,9 @@ impl IconShape for CalendarAlt {
 
 }
 
-#[cfg(feature = "solid_calendar_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarCheck {}
 
-#[cfg(feature = "solid_calendar_check")]
 impl IconShape for CalendarCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4516,11 +3952,9 @@ impl IconShape for CalendarCheck {
 
 }
 
-#[cfg(feature = "solid_calendar_day")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarDay {}
 
-#[cfg(feature = "solid_calendar_day")]
 impl IconShape for CalendarDay {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4532,11 +3966,9 @@ impl IconShape for CalendarDay {
 
 }
 
-#[cfg(feature = "solid_calendar_days")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarDays {}
 
-#[cfg(feature = "solid_calendar_days")]
 impl IconShape for CalendarDays {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4548,11 +3980,9 @@ impl IconShape for CalendarDays {
 
 }
 
-#[cfg(feature = "solid_calendar_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarMinus {}
 
-#[cfg(feature = "solid_calendar_minus")]
 impl IconShape for CalendarMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4564,11 +3994,9 @@ impl IconShape for CalendarMinus {
 
 }
 
-#[cfg(feature = "solid_calendar_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarPlus {}
 
-#[cfg(feature = "solid_calendar_plus")]
 impl IconShape for CalendarPlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4580,11 +4008,9 @@ impl IconShape for CalendarPlus {
 
 }
 
-#[cfg(feature = "solid_calendar_times")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarTimes {}
 
-#[cfg(feature = "solid_calendar_times")]
 impl IconShape for CalendarTimes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4596,11 +4022,9 @@ impl IconShape for CalendarTimes {
 
 }
 
-#[cfg(feature = "solid_calendar_week")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarWeek {}
 
-#[cfg(feature = "solid_calendar_week")]
 impl IconShape for CalendarWeek {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4612,11 +4036,9 @@ impl IconShape for CalendarWeek {
 
 }
 
-#[cfg(feature = "solid_calendar_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CalendarXmark {}
 
-#[cfg(feature = "solid_calendar_xmark")]
 impl IconShape for CalendarXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4628,11 +4050,9 @@ impl IconShape for CalendarXmark {
 
 }
 
-#[cfg(feature = "solid_camera")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Camera {}
 
-#[cfg(feature = "solid_camera")]
 impl IconShape for Camera {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4644,11 +4064,9 @@ impl IconShape for Camera {
 
 }
 
-#[cfg(feature = "solid_camera_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CameraAlt {}
 
-#[cfg(feature = "solid_camera_alt")]
 impl IconShape for CameraAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4660,11 +4078,9 @@ impl IconShape for CameraAlt {
 
 }
 
-#[cfg(feature = "solid_camera_retro")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CameraRetro {}
 
-#[cfg(feature = "solid_camera_retro")]
 impl IconShape for CameraRetro {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4676,11 +4092,9 @@ impl IconShape for CameraRetro {
 
 }
 
-#[cfg(feature = "solid_camera_rotate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CameraRotate {}
 
-#[cfg(feature = "solid_camera_rotate")]
 impl IconShape for CameraRotate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4692,11 +4106,9 @@ impl IconShape for CameraRotate {
 
 }
 
-#[cfg(feature = "solid_campground")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Campground {}
 
-#[cfg(feature = "solid_campground")]
 impl IconShape for Campground {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4708,11 +4120,9 @@ impl IconShape for Campground {
 
 }
 
-#[cfg(feature = "solid_cancel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cancel {}
 
-#[cfg(feature = "solid_cancel")]
 impl IconShape for Cancel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4724,11 +4134,9 @@ impl IconShape for Cancel {
 
 }
 
-#[cfg(feature = "solid_cancer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cancer {}
 
-#[cfg(feature = "solid_cancer")]
 impl IconShape for Cancer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4740,11 +4148,9 @@ impl IconShape for Cancer {
 
 }
 
-#[cfg(feature = "solid_candy_cane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CandyCane {}
 
-#[cfg(feature = "solid_candy_cane")]
 impl IconShape for CandyCane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4756,11 +4162,9 @@ impl IconShape for CandyCane {
 
 }
 
-#[cfg(feature = "solid_cannabis")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cannabis {}
 
-#[cfg(feature = "solid_cannabis")]
 impl IconShape for Cannabis {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4772,11 +4176,9 @@ impl IconShape for Cannabis {
 
 }
 
-#[cfg(feature = "solid_capricorn")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Capricorn {}
 
-#[cfg(feature = "solid_capricorn")]
 impl IconShape for Capricorn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4788,11 +4190,9 @@ impl IconShape for Capricorn {
 
 }
 
-#[cfg(feature = "solid_capsules")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Capsules {}
 
-#[cfg(feature = "solid_capsules")]
 impl IconShape for Capsules {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4804,11 +4204,9 @@ impl IconShape for Capsules {
 
 }
 
-#[cfg(feature = "solid_car")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Car {}
 
-#[cfg(feature = "solid_car")]
 impl IconShape for Car {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4820,11 +4218,9 @@ impl IconShape for Car {
 
 }
 
-#[cfg(feature = "solid_car_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarAlt {}
 
-#[cfg(feature = "solid_car_alt")]
 impl IconShape for CarAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4836,11 +4232,9 @@ impl IconShape for CarAlt {
 
 }
 
-#[cfg(feature = "solid_car_battery")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarBattery {}
 
-#[cfg(feature = "solid_car_battery")]
 impl IconShape for CarBattery {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4852,11 +4246,9 @@ impl IconShape for CarBattery {
 
 }
 
-#[cfg(feature = "solid_car_burst")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarBurst {}
 
-#[cfg(feature = "solid_car_burst")]
 impl IconShape for CarBurst {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4868,11 +4260,9 @@ impl IconShape for CarBurst {
 
 }
 
-#[cfg(feature = "solid_car_crash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarCrash {}
 
-#[cfg(feature = "solid_car_crash")]
 impl IconShape for CarCrash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4884,11 +4274,9 @@ impl IconShape for CarCrash {
 
 }
 
-#[cfg(feature = "solid_car_on")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarOn {}
 
-#[cfg(feature = "solid_car_on")]
 impl IconShape for CarOn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4900,11 +4288,9 @@ impl IconShape for CarOn {
 
 }
 
-#[cfg(feature = "solid_car_rear")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarRear {}
 
-#[cfg(feature = "solid_car_rear")]
 impl IconShape for CarRear {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4916,11 +4302,9 @@ impl IconShape for CarRear {
 
 }
 
-#[cfg(feature = "solid_car_side")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarSide {}
 
-#[cfg(feature = "solid_car_side")]
 impl IconShape for CarSide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4932,11 +4316,9 @@ impl IconShape for CarSide {
 
 }
 
-#[cfg(feature = "solid_car_tunnel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarTunnel {}
 
-#[cfg(feature = "solid_car_tunnel")]
 impl IconShape for CarTunnel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4948,11 +4330,9 @@ impl IconShape for CarTunnel {
 
 }
 
-#[cfg(feature = "solid_caravan")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Caravan {}
 
-#[cfg(feature = "solid_caravan")]
 impl IconShape for Caravan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4964,11 +4344,9 @@ impl IconShape for Caravan {
 
 }
 
-#[cfg(feature = "solid_caret_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretDown {}
 
-#[cfg(feature = "solid_caret_down")]
 impl IconShape for CaretDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4980,11 +4358,9 @@ impl IconShape for CaretDown {
 
 }
 
-#[cfg(feature = "solid_caret_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretLeft {}
 
-#[cfg(feature = "solid_caret_left")]
 impl IconShape for CaretLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -4996,11 +4372,9 @@ impl IconShape for CaretLeft {
 
 }
 
-#[cfg(feature = "solid_caret_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretRight {}
 
-#[cfg(feature = "solid_caret_right")]
 impl IconShape for CaretRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5012,11 +4386,9 @@ impl IconShape for CaretRight {
 
 }
 
-#[cfg(feature = "solid_caret_square_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretSquareDown {}
 
-#[cfg(feature = "solid_caret_square_down")]
 impl IconShape for CaretSquareDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5028,11 +4400,9 @@ impl IconShape for CaretSquareDown {
 
 }
 
-#[cfg(feature = "solid_caret_square_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretSquareLeft {}
 
-#[cfg(feature = "solid_caret_square_left")]
 impl IconShape for CaretSquareLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5044,11 +4414,9 @@ impl IconShape for CaretSquareLeft {
 
 }
 
-#[cfg(feature = "solid_caret_square_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretSquareRight {}
 
-#[cfg(feature = "solid_caret_square_right")]
 impl IconShape for CaretSquareRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5060,11 +4428,9 @@ impl IconShape for CaretSquareRight {
 
 }
 
-#[cfg(feature = "solid_caret_square_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretSquareUp {}
 
-#[cfg(feature = "solid_caret_square_up")]
 impl IconShape for CaretSquareUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5076,11 +4442,9 @@ impl IconShape for CaretSquareUp {
 
 }
 
-#[cfg(feature = "solid_caret_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CaretUp {}
 
-#[cfg(feature = "solid_caret_up")]
 impl IconShape for CaretUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5092,11 +4456,9 @@ impl IconShape for CaretUp {
 
 }
 
-#[cfg(feature = "solid_carriage_baby")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CarriageBaby {}
 
-#[cfg(feature = "solid_carriage_baby")]
 impl IconShape for CarriageBaby {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5108,11 +4470,9 @@ impl IconShape for CarriageBaby {
 
 }
 
-#[cfg(feature = "solid_carrot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Carrot {}
 
-#[cfg(feature = "solid_carrot")]
 impl IconShape for Carrot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5124,11 +4484,9 @@ impl IconShape for Carrot {
 
 }
 
-#[cfg(feature = "solid_cart_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CartArrowDown {}
 
-#[cfg(feature = "solid_cart_arrow_down")]
 impl IconShape for CartArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5140,11 +4498,9 @@ impl IconShape for CartArrowDown {
 
 }
 
-#[cfg(feature = "solid_cart_flatbed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CartFlatbed {}
 
-#[cfg(feature = "solid_cart_flatbed")]
 impl IconShape for CartFlatbed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5156,11 +4512,9 @@ impl IconShape for CartFlatbed {
 
 }
 
-#[cfg(feature = "solid_cart_flatbed_suitcase")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CartFlatbedSuitcase {}
 
-#[cfg(feature = "solid_cart_flatbed_suitcase")]
 impl IconShape for CartFlatbedSuitcase {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5172,11 +4526,9 @@ impl IconShape for CartFlatbedSuitcase {
 
 }
 
-#[cfg(feature = "solid_cart_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CartPlus {}
 
-#[cfg(feature = "solid_cart_plus")]
 impl IconShape for CartPlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5188,11 +4540,9 @@ impl IconShape for CartPlus {
 
 }
 
-#[cfg(feature = "solid_cart_shopping")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CartShopping {}
 
-#[cfg(feature = "solid_cart_shopping")]
 impl IconShape for CartShopping {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5204,11 +4554,9 @@ impl IconShape for CartShopping {
 
 }
 
-#[cfg(feature = "solid_cash_register")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CashRegister {}
 
-#[cfg(feature = "solid_cash_register")]
 impl IconShape for CashRegister {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5220,11 +4568,9 @@ impl IconShape for CashRegister {
 
 }
 
-#[cfg(feature = "solid_cat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cat {}
 
-#[cfg(feature = "solid_cat")]
 impl IconShape for Cat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5236,11 +4582,9 @@ impl IconShape for Cat {
 
 }
 
-#[cfg(feature = "solid_cedi_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CediSign {}
 
-#[cfg(feature = "solid_cedi_sign")]
 impl IconShape for CediSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5252,11 +4596,9 @@ impl IconShape for CediSign {
 
 }
 
-#[cfg(feature = "solid_cent_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CentSign {}
 
-#[cfg(feature = "solid_cent_sign")]
 impl IconShape for CentSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5268,11 +4610,9 @@ impl IconShape for CentSign {
 
 }
 
-#[cfg(feature = "solid_certificate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Certificate {}
 
-#[cfg(feature = "solid_certificate")]
 impl IconShape for Certificate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5284,11 +4624,9 @@ impl IconShape for Certificate {
 
 }
 
-#[cfg(feature = "solid_chain")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Chain {}
 
-#[cfg(feature = "solid_chain")]
 impl IconShape for Chain {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5300,11 +4638,9 @@ impl IconShape for Chain {
 
 }
 
-#[cfg(feature = "solid_chain_broken")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChainBroken {}
 
-#[cfg(feature = "solid_chain_broken")]
 impl IconShape for ChainBroken {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5316,11 +4652,9 @@ impl IconShape for ChainBroken {
 
 }
 
-#[cfg(feature = "solid_chain_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChainSlash {}
 
-#[cfg(feature = "solid_chain_slash")]
 impl IconShape for ChainSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5332,11 +4666,9 @@ impl IconShape for ChainSlash {
 
 }
 
-#[cfg(feature = "solid_chair")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Chair {}
 
-#[cfg(feature = "solid_chair")]
 impl IconShape for Chair {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5348,11 +4680,9 @@ impl IconShape for Chair {
 
 }
 
-#[cfg(feature = "solid_chalkboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Chalkboard {}
 
-#[cfg(feature = "solid_chalkboard")]
 impl IconShape for Chalkboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5364,11 +4694,9 @@ impl IconShape for Chalkboard {
 
 }
 
-#[cfg(feature = "solid_chalkboard_teacher")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChalkboardTeacher {}
 
-#[cfg(feature = "solid_chalkboard_teacher")]
 impl IconShape for ChalkboardTeacher {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5380,11 +4708,9 @@ impl IconShape for ChalkboardTeacher {
 
 }
 
-#[cfg(feature = "solid_chalkboard_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChalkboardUser {}
 
-#[cfg(feature = "solid_chalkboard_user")]
 impl IconShape for ChalkboardUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5396,11 +4722,9 @@ impl IconShape for ChalkboardUser {
 
 }
 
-#[cfg(feature = "solid_champagne_glasses")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChampagneGlasses {}
 
-#[cfg(feature = "solid_champagne_glasses")]
 impl IconShape for ChampagneGlasses {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5412,11 +4736,9 @@ impl IconShape for ChampagneGlasses {
 
 }
 
-#[cfg(feature = "solid_charging_station")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChargingStation {}
 
-#[cfg(feature = "solid_charging_station")]
 impl IconShape for ChargingStation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5428,11 +4750,9 @@ impl IconShape for ChargingStation {
 
 }
 
-#[cfg(feature = "solid_chart_area")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartArea {}
 
-#[cfg(feature = "solid_chart_area")]
 impl IconShape for ChartArea {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5444,11 +4764,9 @@ impl IconShape for ChartArea {
 
 }
 
-#[cfg(feature = "solid_chart_bar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartBar {}
 
-#[cfg(feature = "solid_chart_bar")]
 impl IconShape for ChartBar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5460,11 +4778,9 @@ impl IconShape for ChartBar {
 
 }
 
-#[cfg(feature = "solid_chart_column")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartColumn {}
 
-#[cfg(feature = "solid_chart_column")]
 impl IconShape for ChartColumn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5476,11 +4792,9 @@ impl IconShape for ChartColumn {
 
 }
 
-#[cfg(feature = "solid_chart_diagram")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartDiagram {}
 
-#[cfg(feature = "solid_chart_diagram")]
 impl IconShape for ChartDiagram {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5492,11 +4806,9 @@ impl IconShape for ChartDiagram {
 
 }
 
-#[cfg(feature = "solid_chart_gantt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartGantt {}
 
-#[cfg(feature = "solid_chart_gantt")]
 impl IconShape for ChartGantt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5508,11 +4820,9 @@ impl IconShape for ChartGantt {
 
 }
 
-#[cfg(feature = "solid_chart_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartLine {}
 
-#[cfg(feature = "solid_chart_line")]
 impl IconShape for ChartLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5524,11 +4834,9 @@ impl IconShape for ChartLine {
 
 }
 
-#[cfg(feature = "solid_chart_pie")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartPie {}
 
-#[cfg(feature = "solid_chart_pie")]
 impl IconShape for ChartPie {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5540,11 +4848,9 @@ impl IconShape for ChartPie {
 
 }
 
-#[cfg(feature = "solid_chart_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChartSimple {}
 
-#[cfg(feature = "solid_chart_simple")]
 impl IconShape for ChartSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5556,11 +4862,9 @@ impl IconShape for ChartSimple {
 
 }
 
-#[cfg(feature = "solid_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Check {}
 
-#[cfg(feature = "solid_check")]
 impl IconShape for Check {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5572,11 +4876,9 @@ impl IconShape for Check {
 
 }
 
-#[cfg(feature = "solid_check_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CheckCircle {}
 
-#[cfg(feature = "solid_check_circle")]
 impl IconShape for CheckCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5588,11 +4890,9 @@ impl IconShape for CheckCircle {
 
 }
 
-#[cfg(feature = "solid_check_double")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CheckDouble {}
 
-#[cfg(feature = "solid_check_double")]
 impl IconShape for CheckDouble {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5604,11 +4904,9 @@ impl IconShape for CheckDouble {
 
 }
 
-#[cfg(feature = "solid_check_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CheckSquare {}
 
-#[cfg(feature = "solid_check_square")]
 impl IconShape for CheckSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5620,11 +4918,9 @@ impl IconShape for CheckSquare {
 
 }
 
-#[cfg(feature = "solid_check_to_slot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CheckToSlot {}
 
-#[cfg(feature = "solid_check_to_slot")]
 impl IconShape for CheckToSlot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5636,11 +4932,9 @@ impl IconShape for CheckToSlot {
 
 }
 
-#[cfg(feature = "solid_cheese")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cheese {}
 
-#[cfg(feature = "solid_cheese")]
 impl IconShape for Cheese {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5652,11 +4946,9 @@ impl IconShape for Cheese {
 
 }
 
-#[cfg(feature = "solid_chess")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Chess {}
 
-#[cfg(feature = "solid_chess")]
 impl IconShape for Chess {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5668,11 +4960,9 @@ impl IconShape for Chess {
 
 }
 
-#[cfg(feature = "solid_chess_bishop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessBishop {}
 
-#[cfg(feature = "solid_chess_bishop")]
 impl IconShape for ChessBishop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5684,11 +4974,9 @@ impl IconShape for ChessBishop {
 
 }
 
-#[cfg(feature = "solid_chess_board")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessBoard {}
 
-#[cfg(feature = "solid_chess_board")]
 impl IconShape for ChessBoard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5700,11 +4988,9 @@ impl IconShape for ChessBoard {
 
 }
 
-#[cfg(feature = "solid_chess_king")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessKing {}
 
-#[cfg(feature = "solid_chess_king")]
 impl IconShape for ChessKing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5716,11 +5002,9 @@ impl IconShape for ChessKing {
 
 }
 
-#[cfg(feature = "solid_chess_knight")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessKnight {}
 
-#[cfg(feature = "solid_chess_knight")]
 impl IconShape for ChessKnight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5732,11 +5016,9 @@ impl IconShape for ChessKnight {
 
 }
 
-#[cfg(feature = "solid_chess_pawn")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessPawn {}
 
-#[cfg(feature = "solid_chess_pawn")]
 impl IconShape for ChessPawn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5748,11 +5030,9 @@ impl IconShape for ChessPawn {
 
 }
 
-#[cfg(feature = "solid_chess_queen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessQueen {}
 
-#[cfg(feature = "solid_chess_queen")]
 impl IconShape for ChessQueen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5764,11 +5044,9 @@ impl IconShape for ChessQueen {
 
 }
 
-#[cfg(feature = "solid_chess_rook")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChessRook {}
 
-#[cfg(feature = "solid_chess_rook")]
 impl IconShape for ChessRook {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5780,11 +5058,9 @@ impl IconShape for ChessRook {
 
 }
 
-#[cfg(feature = "solid_chevron_circle_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronCircleDown {}
 
-#[cfg(feature = "solid_chevron_circle_down")]
 impl IconShape for ChevronCircleDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5796,11 +5072,9 @@ impl IconShape for ChevronCircleDown {
 
 }
 
-#[cfg(feature = "solid_chevron_circle_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronCircleLeft {}
 
-#[cfg(feature = "solid_chevron_circle_left")]
 impl IconShape for ChevronCircleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5812,11 +5086,9 @@ impl IconShape for ChevronCircleLeft {
 
 }
 
-#[cfg(feature = "solid_chevron_circle_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronCircleRight {}
 
-#[cfg(feature = "solid_chevron_circle_right")]
 impl IconShape for ChevronCircleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5828,11 +5100,9 @@ impl IconShape for ChevronCircleRight {
 
 }
 
-#[cfg(feature = "solid_chevron_circle_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronCircleUp {}
 
-#[cfg(feature = "solid_chevron_circle_up")]
 impl IconShape for ChevronCircleUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5844,11 +5114,9 @@ impl IconShape for ChevronCircleUp {
 
 }
 
-#[cfg(feature = "solid_chevron_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronDown {}
 
-#[cfg(feature = "solid_chevron_down")]
 impl IconShape for ChevronDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5860,11 +5128,9 @@ impl IconShape for ChevronDown {
 
 }
 
-#[cfg(feature = "solid_chevron_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronLeft {}
 
-#[cfg(feature = "solid_chevron_left")]
 impl IconShape for ChevronLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5876,11 +5142,9 @@ impl IconShape for ChevronLeft {
 
 }
 
-#[cfg(feature = "solid_chevron_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronRight {}
 
-#[cfg(feature = "solid_chevron_right")]
 impl IconShape for ChevronRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5892,11 +5156,9 @@ impl IconShape for ChevronRight {
 
 }
 
-#[cfg(feature = "solid_chevron_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChevronUp {}
 
-#[cfg(feature = "solid_chevron_up")]
 impl IconShape for ChevronUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5908,11 +5170,9 @@ impl IconShape for ChevronUp {
 
 }
 
-#[cfg(feature = "solid_child")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Child {}
 
-#[cfg(feature = "solid_child")]
 impl IconShape for Child {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5924,11 +5184,9 @@ impl IconShape for Child {
 
 }
 
-#[cfg(feature = "solid_child_combatant")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChildCombatant {}
 
-#[cfg(feature = "solid_child_combatant")]
 impl IconShape for ChildCombatant {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5940,11 +5198,9 @@ impl IconShape for ChildCombatant {
 
 }
 
-#[cfg(feature = "solid_child_dress")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChildDress {}
 
-#[cfg(feature = "solid_child_dress")]
 impl IconShape for ChildDress {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5956,11 +5212,9 @@ impl IconShape for ChildDress {
 
 }
 
-#[cfg(feature = "solid_child_reaching")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChildReaching {}
 
-#[cfg(feature = "solid_child_reaching")]
 impl IconShape for ChildReaching {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5972,11 +5226,9 @@ impl IconShape for ChildReaching {
 
 }
 
-#[cfg(feature = "solid_child_rifle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ChildRifle {}
 
-#[cfg(feature = "solid_child_rifle")]
 impl IconShape for ChildRifle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -5988,11 +5240,9 @@ impl IconShape for ChildRifle {
 
 }
 
-#[cfg(feature = "solid_children")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Children {}
 
-#[cfg(feature = "solid_children")]
 impl IconShape for Children {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6004,11 +5254,9 @@ impl IconShape for Children {
 
 }
 
-#[cfg(feature = "solid_church")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Church {}
 
-#[cfg(feature = "solid_church")]
 impl IconShape for Church {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6020,11 +5268,9 @@ impl IconShape for Church {
 
 }
 
-#[cfg(feature = "solid_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Circle {}
 
-#[cfg(feature = "solid_circle")]
 impl IconShape for Circle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6036,11 +5282,9 @@ impl IconShape for Circle {
 
 }
 
-#[cfg(feature = "solid_circle_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleArrowDown {}
 
-#[cfg(feature = "solid_circle_arrow_down")]
 impl IconShape for CircleArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6052,11 +5296,9 @@ impl IconShape for CircleArrowDown {
 
 }
 
-#[cfg(feature = "solid_circle_arrow_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleArrowLeft {}
 
-#[cfg(feature = "solid_circle_arrow_left")]
 impl IconShape for CircleArrowLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6068,11 +5310,9 @@ impl IconShape for CircleArrowLeft {
 
 }
 
-#[cfg(feature = "solid_circle_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleArrowRight {}
 
-#[cfg(feature = "solid_circle_arrow_right")]
 impl IconShape for CircleArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6084,11 +5324,9 @@ impl IconShape for CircleArrowRight {
 
 }
 
-#[cfg(feature = "solid_circle_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleArrowUp {}
 
-#[cfg(feature = "solid_circle_arrow_up")]
 impl IconShape for CircleArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6100,11 +5338,9 @@ impl IconShape for CircleArrowUp {
 
 }
 
-#[cfg(feature = "solid_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleCheck {}
 
-#[cfg(feature = "solid_circle_check")]
 impl IconShape for CircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6116,11 +5352,9 @@ impl IconShape for CircleCheck {
 
 }
 
-#[cfg(feature = "solid_circle_chevron_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleChevronDown {}
 
-#[cfg(feature = "solid_circle_chevron_down")]
 impl IconShape for CircleChevronDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6132,11 +5366,9 @@ impl IconShape for CircleChevronDown {
 
 }
 
-#[cfg(feature = "solid_circle_chevron_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleChevronLeft {}
 
-#[cfg(feature = "solid_circle_chevron_left")]
 impl IconShape for CircleChevronLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6148,11 +5380,9 @@ impl IconShape for CircleChevronLeft {
 
 }
 
-#[cfg(feature = "solid_circle_chevron_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleChevronRight {}
 
-#[cfg(feature = "solid_circle_chevron_right")]
 impl IconShape for CircleChevronRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6164,11 +5394,9 @@ impl IconShape for CircleChevronRight {
 
 }
 
-#[cfg(feature = "solid_circle_chevron_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleChevronUp {}
 
-#[cfg(feature = "solid_circle_chevron_up")]
 impl IconShape for CircleChevronUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6180,11 +5408,9 @@ impl IconShape for CircleChevronUp {
 
 }
 
-#[cfg(feature = "solid_circle_dollar_to_slot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleDollarToSlot {}
 
-#[cfg(feature = "solid_circle_dollar_to_slot")]
 impl IconShape for CircleDollarToSlot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6196,11 +5422,9 @@ impl IconShape for CircleDollarToSlot {
 
 }
 
-#[cfg(feature = "solid_circle_dot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleDot {}
 
-#[cfg(feature = "solid_circle_dot")]
 impl IconShape for CircleDot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6212,11 +5436,9 @@ impl IconShape for CircleDot {
 
 }
 
-#[cfg(feature = "solid_circle_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleDown {}
 
-#[cfg(feature = "solid_circle_down")]
 impl IconShape for CircleDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6228,11 +5450,9 @@ impl IconShape for CircleDown {
 
 }
 
-#[cfg(feature = "solid_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleExclamation {}
 
-#[cfg(feature = "solid_circle_exclamation")]
 impl IconShape for CircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6244,11 +5464,9 @@ impl IconShape for CircleExclamation {
 
 }
 
-#[cfg(feature = "solid_circle_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleH {}
 
-#[cfg(feature = "solid_circle_h")]
 impl IconShape for CircleH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6260,11 +5478,9 @@ impl IconShape for CircleH {
 
 }
 
-#[cfg(feature = "solid_circle_half_stroke")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleHalfStroke {}
 
-#[cfg(feature = "solid_circle_half_stroke")]
 impl IconShape for CircleHalfStroke {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6276,11 +5492,9 @@ impl IconShape for CircleHalfStroke {
 
 }
 
-#[cfg(feature = "solid_circle_info")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleInfo {}
 
-#[cfg(feature = "solid_circle_info")]
 impl IconShape for CircleInfo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6292,11 +5506,9 @@ impl IconShape for CircleInfo {
 
 }
 
-#[cfg(feature = "solid_circle_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleLeft {}
 
-#[cfg(feature = "solid_circle_left")]
 impl IconShape for CircleLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6308,11 +5520,9 @@ impl IconShape for CircleLeft {
 
 }
 
-#[cfg(feature = "solid_circle_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleMinus {}
 
-#[cfg(feature = "solid_circle_minus")]
 impl IconShape for CircleMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6324,11 +5534,9 @@ impl IconShape for CircleMinus {
 
 }
 
-#[cfg(feature = "solid_circle_nodes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleNodes {}
 
-#[cfg(feature = "solid_circle_nodes")]
 impl IconShape for CircleNodes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6340,11 +5548,9 @@ impl IconShape for CircleNodes {
 
 }
 
-#[cfg(feature = "solid_circle_notch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleNotch {}
 
-#[cfg(feature = "solid_circle_notch")]
 impl IconShape for CircleNotch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6356,11 +5562,9 @@ impl IconShape for CircleNotch {
 
 }
 
-#[cfg(feature = "solid_circle_pause")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CirclePause {}
 
-#[cfg(feature = "solid_circle_pause")]
 impl IconShape for CirclePause {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6372,11 +5576,9 @@ impl IconShape for CirclePause {
 
 }
 
-#[cfg(feature = "solid_circle_play")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CirclePlay {}
 
-#[cfg(feature = "solid_circle_play")]
 impl IconShape for CirclePlay {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6388,11 +5590,9 @@ impl IconShape for CirclePlay {
 
 }
 
-#[cfg(feature = "solid_circle_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CirclePlus {}
 
-#[cfg(feature = "solid_circle_plus")]
 impl IconShape for CirclePlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6404,11 +5604,9 @@ impl IconShape for CirclePlus {
 
 }
 
-#[cfg(feature = "solid_circle_question")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleQuestion {}
 
-#[cfg(feature = "solid_circle_question")]
 impl IconShape for CircleQuestion {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6420,11 +5618,9 @@ impl IconShape for CircleQuestion {
 
 }
 
-#[cfg(feature = "solid_circle_radiation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleRadiation {}
 
-#[cfg(feature = "solid_circle_radiation")]
 impl IconShape for CircleRadiation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6436,11 +5632,9 @@ impl IconShape for CircleRadiation {
 
 }
 
-#[cfg(feature = "solid_circle_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleRight {}
 
-#[cfg(feature = "solid_circle_right")]
 impl IconShape for CircleRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6452,11 +5646,9 @@ impl IconShape for CircleRight {
 
 }
 
-#[cfg(feature = "solid_circle_stop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleStop {}
 
-#[cfg(feature = "solid_circle_stop")]
 impl IconShape for CircleStop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6468,11 +5660,9 @@ impl IconShape for CircleStop {
 
 }
 
-#[cfg(feature = "solid_circle_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleUp {}
 
-#[cfg(feature = "solid_circle_up")]
 impl IconShape for CircleUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6484,11 +5674,9 @@ impl IconShape for CircleUp {
 
 }
 
-#[cfg(feature = "solid_circle_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleUser {}
 
-#[cfg(feature = "solid_circle_user")]
 impl IconShape for CircleUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6500,11 +5688,9 @@ impl IconShape for CircleUser {
 
 }
 
-#[cfg(feature = "solid_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CircleXmark {}
 
-#[cfg(feature = "solid_circle_xmark")]
 impl IconShape for CircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6516,11 +5702,9 @@ impl IconShape for CircleXmark {
 
 }
 
-#[cfg(feature = "solid_city")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct City {}
 
-#[cfg(feature = "solid_city")]
 impl IconShape for City {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6532,11 +5716,9 @@ impl IconShape for City {
 
 }
 
-#[cfg(feature = "solid_clapperboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Clapperboard {}
 
-#[cfg(feature = "solid_clapperboard")]
 impl IconShape for Clapperboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6548,11 +5730,9 @@ impl IconShape for Clapperboard {
 
 }
 
-#[cfg(feature = "solid_clinic_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClinicMedical {}
 
-#[cfg(feature = "solid_clinic_medical")]
 impl IconShape for ClinicMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6564,11 +5744,9 @@ impl IconShape for ClinicMedical {
 
 }
 
-#[cfg(feature = "solid_clipboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Clipboard {}
 
-#[cfg(feature = "solid_clipboard")]
 impl IconShape for Clipboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6580,11 +5758,9 @@ impl IconShape for Clipboard {
 
 }
 
-#[cfg(feature = "solid_clipboard_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClipboardCheck {}
 
-#[cfg(feature = "solid_clipboard_check")]
 impl IconShape for ClipboardCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6596,11 +5772,9 @@ impl IconShape for ClipboardCheck {
 
 }
 
-#[cfg(feature = "solid_clipboard_list")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClipboardList {}
 
-#[cfg(feature = "solid_clipboard_list")]
 impl IconShape for ClipboardList {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6612,11 +5786,9 @@ impl IconShape for ClipboardList {
 
 }
 
-#[cfg(feature = "solid_clipboard_question")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClipboardQuestion {}
 
-#[cfg(feature = "solid_clipboard_question")]
 impl IconShape for ClipboardQuestion {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6628,11 +5800,9 @@ impl IconShape for ClipboardQuestion {
 
 }
 
-#[cfg(feature = "solid_clipboard_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClipboardUser {}
 
-#[cfg(feature = "solid_clipboard_user")]
 impl IconShape for ClipboardUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6644,11 +5814,9 @@ impl IconShape for ClipboardUser {
 
 }
 
-#[cfg(feature = "solid_clock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Clock {}
 
-#[cfg(feature = "solid_clock")]
 impl IconShape for Clock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6660,11 +5828,9 @@ impl IconShape for Clock {
 
 }
 
-#[cfg(feature = "solid_clock_four")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClockFour {}
 
-#[cfg(feature = "solid_clock_four")]
 impl IconShape for ClockFour {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6676,11 +5842,9 @@ impl IconShape for ClockFour {
 
 }
 
-#[cfg(feature = "solid_clock_rotate_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClockRotateLeft {}
 
-#[cfg(feature = "solid_clock_rotate_left")]
 impl IconShape for ClockRotateLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6692,11 +5856,9 @@ impl IconShape for ClockRotateLeft {
 
 }
 
-#[cfg(feature = "solid_clone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Clone {}
 
-#[cfg(feature = "solid_clone")]
 impl IconShape for Clone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6708,11 +5870,9 @@ impl IconShape for Clone {
 
 }
 
-#[cfg(feature = "solid_close")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Close {}
 
-#[cfg(feature = "solid_close")]
 impl IconShape for Close {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6724,11 +5884,9 @@ impl IconShape for Close {
 
 }
 
-#[cfg(feature = "solid_closed_captioning")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClosedCaptioning {}
 
-#[cfg(feature = "solid_closed_captioning")]
 impl IconShape for ClosedCaptioning {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6740,11 +5898,9 @@ impl IconShape for ClosedCaptioning {
 
 }
 
-#[cfg(feature = "solid_closed_captioning_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ClosedCaptioningSlash {}
 
-#[cfg(feature = "solid_closed_captioning_slash")]
 impl IconShape for ClosedCaptioningSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6756,11 +5912,9 @@ impl IconShape for ClosedCaptioningSlash {
 
 }
 
-#[cfg(feature = "solid_cloud")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cloud {}
 
-#[cfg(feature = "solid_cloud")]
 impl IconShape for Cloud {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6772,11 +5926,9 @@ impl IconShape for Cloud {
 
 }
 
-#[cfg(feature = "solid_cloud_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudArrowDown {}
 
-#[cfg(feature = "solid_cloud_arrow_down")]
 impl IconShape for CloudArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6788,11 +5940,9 @@ impl IconShape for CloudArrowDown {
 
 }
 
-#[cfg(feature = "solid_cloud_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudArrowUp {}
 
-#[cfg(feature = "solid_cloud_arrow_up")]
 impl IconShape for CloudArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6804,11 +5954,9 @@ impl IconShape for CloudArrowUp {
 
 }
 
-#[cfg(feature = "solid_cloud_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudBolt {}
 
-#[cfg(feature = "solid_cloud_bolt")]
 impl IconShape for CloudBolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6820,11 +5968,9 @@ impl IconShape for CloudBolt {
 
 }
 
-#[cfg(feature = "solid_cloud_download")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudDownload {}
 
-#[cfg(feature = "solid_cloud_download")]
 impl IconShape for CloudDownload {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6836,11 +5982,9 @@ impl IconShape for CloudDownload {
 
 }
 
-#[cfg(feature = "solid_cloud_download_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudDownloadAlt {}
 
-#[cfg(feature = "solid_cloud_download_alt")]
 impl IconShape for CloudDownloadAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6852,11 +5996,9 @@ impl IconShape for CloudDownloadAlt {
 
 }
 
-#[cfg(feature = "solid_cloud_meatball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudMeatball {}
 
-#[cfg(feature = "solid_cloud_meatball")]
 impl IconShape for CloudMeatball {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6868,11 +6010,9 @@ impl IconShape for CloudMeatball {
 
 }
 
-#[cfg(feature = "solid_cloud_moon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudMoon {}
 
-#[cfg(feature = "solid_cloud_moon")]
 impl IconShape for CloudMoon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6884,11 +6024,9 @@ impl IconShape for CloudMoon {
 
 }
 
-#[cfg(feature = "solid_cloud_moon_rain")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudMoonRain {}
 
-#[cfg(feature = "solid_cloud_moon_rain")]
 impl IconShape for CloudMoonRain {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6900,11 +6038,9 @@ impl IconShape for CloudMoonRain {
 
 }
 
-#[cfg(feature = "solid_cloud_rain")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudRain {}
 
-#[cfg(feature = "solid_cloud_rain")]
 impl IconShape for CloudRain {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6916,11 +6052,9 @@ impl IconShape for CloudRain {
 
 }
 
-#[cfg(feature = "solid_cloud_showers_heavy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudShowersHeavy {}
 
-#[cfg(feature = "solid_cloud_showers_heavy")]
 impl IconShape for CloudShowersHeavy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6932,11 +6066,9 @@ impl IconShape for CloudShowersHeavy {
 
 }
 
-#[cfg(feature = "solid_cloud_showers_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudShowersWater {}
 
-#[cfg(feature = "solid_cloud_showers_water")]
 impl IconShape for CloudShowersWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6948,11 +6080,9 @@ impl IconShape for CloudShowersWater {
 
 }
 
-#[cfg(feature = "solid_cloud_sun")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudSun {}
 
-#[cfg(feature = "solid_cloud_sun")]
 impl IconShape for CloudSun {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6964,11 +6094,9 @@ impl IconShape for CloudSun {
 
 }
 
-#[cfg(feature = "solid_cloud_sun_rain")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudSunRain {}
 
-#[cfg(feature = "solid_cloud_sun_rain")]
 impl IconShape for CloudSunRain {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6980,11 +6108,9 @@ impl IconShape for CloudSunRain {
 
 }
 
-#[cfg(feature = "solid_cloud_upload")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudUpload {}
 
-#[cfg(feature = "solid_cloud_upload")]
 impl IconShape for CloudUpload {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -6996,11 +6122,9 @@ impl IconShape for CloudUpload {
 
 }
 
-#[cfg(feature = "solid_cloud_upload_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CloudUploadAlt {}
 
-#[cfg(feature = "solid_cloud_upload_alt")]
 impl IconShape for CloudUploadAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7012,11 +6136,9 @@ impl IconShape for CloudUploadAlt {
 
 }
 
-#[cfg(feature = "solid_clover")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Clover {}
 
-#[cfg(feature = "solid_clover")]
 impl IconShape for Clover {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7028,11 +6150,9 @@ impl IconShape for Clover {
 
 }
 
-#[cfg(feature = "solid_cny")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cny {}
 
-#[cfg(feature = "solid_cny")]
 impl IconShape for Cny {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7044,11 +6164,9 @@ impl IconShape for Cny {
 
 }
 
-#[cfg(feature = "solid_cocktail")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cocktail {}
 
-#[cfg(feature = "solid_cocktail")]
 impl IconShape for Cocktail {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7060,11 +6178,9 @@ impl IconShape for Cocktail {
 
 }
 
-#[cfg(feature = "solid_code")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Code {}
 
-#[cfg(feature = "solid_code")]
 impl IconShape for Code {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7076,11 +6192,9 @@ impl IconShape for Code {
 
 }
 
-#[cfg(feature = "solid_code_branch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CodeBranch {}
 
-#[cfg(feature = "solid_code_branch")]
 impl IconShape for CodeBranch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7092,11 +6206,9 @@ impl IconShape for CodeBranch {
 
 }
 
-#[cfg(feature = "solid_code_commit")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CodeCommit {}
 
-#[cfg(feature = "solid_code_commit")]
 impl IconShape for CodeCommit {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7108,11 +6220,9 @@ impl IconShape for CodeCommit {
 
 }
 
-#[cfg(feature = "solid_code_compare")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CodeCompare {}
 
-#[cfg(feature = "solid_code_compare")]
 impl IconShape for CodeCompare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7124,11 +6234,9 @@ impl IconShape for CodeCompare {
 
 }
 
-#[cfg(feature = "solid_code_fork")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CodeFork {}
 
-#[cfg(feature = "solid_code_fork")]
 impl IconShape for CodeFork {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7140,11 +6248,9 @@ impl IconShape for CodeFork {
 
 }
 
-#[cfg(feature = "solid_code_merge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CodeMerge {}
 
-#[cfg(feature = "solid_code_merge")]
 impl IconShape for CodeMerge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7156,11 +6262,9 @@ impl IconShape for CodeMerge {
 
 }
 
-#[cfg(feature = "solid_code_pull_request")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CodePullRequest {}
 
-#[cfg(feature = "solid_code_pull_request")]
 impl IconShape for CodePullRequest {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7172,11 +6276,9 @@ impl IconShape for CodePullRequest {
 
 }
 
-#[cfg(feature = "solid_coffee")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Coffee {}
 
-#[cfg(feature = "solid_coffee")]
 impl IconShape for Coffee {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7188,11 +6290,9 @@ impl IconShape for Coffee {
 
 }
 
-#[cfg(feature = "solid_cog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cog {}
 
-#[cfg(feature = "solid_cog")]
 impl IconShape for Cog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7204,11 +6304,9 @@ impl IconShape for Cog {
 
 }
 
-#[cfg(feature = "solid_cogs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cogs {}
 
-#[cfg(feature = "solid_cogs")]
 impl IconShape for Cogs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7220,11 +6318,9 @@ impl IconShape for Cogs {
 
 }
 
-#[cfg(feature = "solid_coins")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Coins {}
 
-#[cfg(feature = "solid_coins")]
 impl IconShape for Coins {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7236,11 +6332,9 @@ impl IconShape for Coins {
 
 }
 
-#[cfg(feature = "solid_colon_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ColonSign {}
 
-#[cfg(feature = "solid_colon_sign")]
 impl IconShape for ColonSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7252,11 +6346,9 @@ impl IconShape for ColonSign {
 
 }
 
-#[cfg(feature = "solid_columns")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Columns {}
 
-#[cfg(feature = "solid_columns")]
 impl IconShape for Columns {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7268,11 +6360,9 @@ impl IconShape for Columns {
 
 }
 
-#[cfg(feature = "solid_comment")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Comment {}
 
-#[cfg(feature = "solid_comment")]
 impl IconShape for Comment {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7284,11 +6374,9 @@ impl IconShape for Comment {
 
 }
 
-#[cfg(feature = "solid_comment_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentAlt {}
 
-#[cfg(feature = "solid_comment_alt")]
 impl IconShape for CommentAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7300,11 +6388,9 @@ impl IconShape for CommentAlt {
 
 }
 
-#[cfg(feature = "solid_comment_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentDollar {}
 
-#[cfg(feature = "solid_comment_dollar")]
 impl IconShape for CommentDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7316,11 +6402,9 @@ impl IconShape for CommentDollar {
 
 }
 
-#[cfg(feature = "solid_comment_dots")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentDots {}
 
-#[cfg(feature = "solid_comment_dots")]
 impl IconShape for CommentDots {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7332,11 +6416,9 @@ impl IconShape for CommentDots {
 
 }
 
-#[cfg(feature = "solid_comment_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentMedical {}
 
-#[cfg(feature = "solid_comment_medical")]
 impl IconShape for CommentMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7348,11 +6430,9 @@ impl IconShape for CommentMedical {
 
 }
 
-#[cfg(feature = "solid_comment_nodes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentNodes {}
 
-#[cfg(feature = "solid_comment_nodes")]
 impl IconShape for CommentNodes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7364,11 +6444,9 @@ impl IconShape for CommentNodes {
 
 }
 
-#[cfg(feature = "solid_comment_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentSlash {}
 
-#[cfg(feature = "solid_comment_slash")]
 impl IconShape for CommentSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7380,11 +6458,9 @@ impl IconShape for CommentSlash {
 
 }
 
-#[cfg(feature = "solid_comment_sms")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentSms {}
 
-#[cfg(feature = "solid_comment_sms")]
 impl IconShape for CommentSms {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7396,11 +6472,9 @@ impl IconShape for CommentSms {
 
 }
 
-#[cfg(feature = "solid_commenting")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Commenting {}
 
-#[cfg(feature = "solid_commenting")]
 impl IconShape for Commenting {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7412,11 +6486,9 @@ impl IconShape for Commenting {
 
 }
 
-#[cfg(feature = "solid_comments")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Comments {}
 
-#[cfg(feature = "solid_comments")]
 impl IconShape for Comments {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7428,11 +6500,9 @@ impl IconShape for Comments {
 
 }
 
-#[cfg(feature = "solid_comments_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CommentsDollar {}
 
-#[cfg(feature = "solid_comments_dollar")]
 impl IconShape for CommentsDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7444,11 +6514,9 @@ impl IconShape for CommentsDollar {
 
 }
 
-#[cfg(feature = "solid_compact_disc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CompactDisc {}
 
-#[cfg(feature = "solid_compact_disc")]
 impl IconShape for CompactDisc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7460,11 +6528,9 @@ impl IconShape for CompactDisc {
 
 }
 
-#[cfg(feature = "solid_compass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Compass {}
 
-#[cfg(feature = "solid_compass")]
 impl IconShape for Compass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7476,11 +6542,9 @@ impl IconShape for Compass {
 
 }
 
-#[cfg(feature = "solid_compass_drafting")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CompassDrafting {}
 
-#[cfg(feature = "solid_compass_drafting")]
 impl IconShape for CompassDrafting {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7492,11 +6556,9 @@ impl IconShape for CompassDrafting {
 
 }
 
-#[cfg(feature = "solid_compress")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Compress {}
 
-#[cfg(feature = "solid_compress")]
 impl IconShape for Compress {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7508,11 +6570,9 @@ impl IconShape for Compress {
 
 }
 
-#[cfg(feature = "solid_compress_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CompressAlt {}
 
-#[cfg(feature = "solid_compress_alt")]
 impl IconShape for CompressAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7524,11 +6584,9 @@ impl IconShape for CompressAlt {
 
 }
 
-#[cfg(feature = "solid_compress_arrows_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CompressArrowsAlt {}
 
-#[cfg(feature = "solid_compress_arrows_alt")]
 impl IconShape for CompressArrowsAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7540,11 +6598,9 @@ impl IconShape for CompressArrowsAlt {
 
 }
 
-#[cfg(feature = "solid_computer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Computer {}
 
-#[cfg(feature = "solid_computer")]
 impl IconShape for Computer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7556,11 +6612,9 @@ impl IconShape for Computer {
 
 }
 
-#[cfg(feature = "solid_computer_mouse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ComputerMouse {}
 
-#[cfg(feature = "solid_computer_mouse")]
 impl IconShape for ComputerMouse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7572,11 +6626,9 @@ impl IconShape for ComputerMouse {
 
 }
 
-#[cfg(feature = "solid_concierge_bell")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ConciergeBell {}
 
-#[cfg(feature = "solid_concierge_bell")]
 impl IconShape for ConciergeBell {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7588,11 +6640,9 @@ impl IconShape for ConciergeBell {
 
 }
 
-#[cfg(feature = "solid_contact_book")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ContactBook {}
 
-#[cfg(feature = "solid_contact_book")]
 impl IconShape for ContactBook {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7604,11 +6654,9 @@ impl IconShape for ContactBook {
 
 }
 
-#[cfg(feature = "solid_contact_card")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ContactCard {}
 
-#[cfg(feature = "solid_contact_card")]
 impl IconShape for ContactCard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7620,11 +6668,9 @@ impl IconShape for ContactCard {
 
 }
 
-#[cfg(feature = "solid_cookie")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cookie {}
 
-#[cfg(feature = "solid_cookie")]
 impl IconShape for Cookie {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7636,11 +6682,9 @@ impl IconShape for Cookie {
 
 }
 
-#[cfg(feature = "solid_cookie_bite")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CookieBite {}
 
-#[cfg(feature = "solid_cookie_bite")]
 impl IconShape for CookieBite {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7652,11 +6696,9 @@ impl IconShape for CookieBite {
 
 }
 
-#[cfg(feature = "solid_copy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Copy {}
 
-#[cfg(feature = "solid_copy")]
 impl IconShape for Copy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7668,11 +6710,9 @@ impl IconShape for Copy {
 
 }
 
-#[cfg(feature = "solid_copyright")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Copyright {}
 
-#[cfg(feature = "solid_copyright")]
 impl IconShape for Copyright {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7684,11 +6724,9 @@ impl IconShape for Copyright {
 
 }
 
-#[cfg(feature = "solid_couch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Couch {}
 
-#[cfg(feature = "solid_couch")]
 impl IconShape for Couch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7700,11 +6738,9 @@ impl IconShape for Couch {
 
 }
 
-#[cfg(feature = "solid_cow")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cow {}
 
-#[cfg(feature = "solid_cow")]
 impl IconShape for Cow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7716,11 +6752,9 @@ impl IconShape for Cow {
 
 }
 
-#[cfg(feature = "solid_credit_card")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CreditCard {}
 
-#[cfg(feature = "solid_credit_card")]
 impl IconShape for CreditCard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7732,11 +6766,9 @@ impl IconShape for CreditCard {
 
 }
 
-#[cfg(feature = "solid_credit_card_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CreditCardAlt {}
 
-#[cfg(feature = "solid_credit_card_alt")]
 impl IconShape for CreditCardAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7748,11 +6780,9 @@ impl IconShape for CreditCardAlt {
 
 }
 
-#[cfg(feature = "solid_crop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Crop {}
 
-#[cfg(feature = "solid_crop")]
 impl IconShape for Crop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7764,11 +6794,9 @@ impl IconShape for Crop {
 
 }
 
-#[cfg(feature = "solid_crop_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CropAlt {}
 
-#[cfg(feature = "solid_crop_alt")]
 impl IconShape for CropAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7780,11 +6808,9 @@ impl IconShape for CropAlt {
 
 }
 
-#[cfg(feature = "solid_crop_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CropSimple {}
 
-#[cfg(feature = "solid_crop_simple")]
 impl IconShape for CropSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7796,11 +6822,9 @@ impl IconShape for CropSimple {
 
 }
 
-#[cfg(feature = "solid_cross")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cross {}
 
-#[cfg(feature = "solid_cross")]
 impl IconShape for Cross {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7812,11 +6836,9 @@ impl IconShape for Cross {
 
 }
 
-#[cfg(feature = "solid_crosshairs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Crosshairs {}
 
-#[cfg(feature = "solid_crosshairs")]
 impl IconShape for Crosshairs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7828,11 +6850,9 @@ impl IconShape for Crosshairs {
 
 }
 
-#[cfg(feature = "solid_crow")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Crow {}
 
-#[cfg(feature = "solid_crow")]
 impl IconShape for Crow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7844,11 +6864,9 @@ impl IconShape for Crow {
 
 }
 
-#[cfg(feature = "solid_crown")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Crown {}
 
-#[cfg(feature = "solid_crown")]
 impl IconShape for Crown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7860,11 +6878,9 @@ impl IconShape for Crown {
 
 }
 
-#[cfg(feature = "solid_crutch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Crutch {}
 
-#[cfg(feature = "solid_crutch")]
 impl IconShape for Crutch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7876,11 +6892,9 @@ impl IconShape for Crutch {
 
 }
 
-#[cfg(feature = "solid_cruzeiro_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CruzeiroSign {}
 
-#[cfg(feature = "solid_cruzeiro_sign")]
 impl IconShape for CruzeiroSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7892,11 +6906,9 @@ impl IconShape for CruzeiroSign {
 
 }
 
-#[cfg(feature = "solid_cube")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cube {}
 
-#[cfg(feature = "solid_cube")]
 impl IconShape for Cube {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7908,11 +6920,9 @@ impl IconShape for Cube {
 
 }
 
-#[cfg(feature = "solid_cubes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cubes {}
 
-#[cfg(feature = "solid_cubes")]
 impl IconShape for Cubes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7924,11 +6934,9 @@ impl IconShape for Cubes {
 
 }
 
-#[cfg(feature = "solid_cubes_stacked")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct CubesStacked {}
 
-#[cfg(feature = "solid_cubes_stacked")]
 impl IconShape for CubesStacked {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7940,11 +6948,9 @@ impl IconShape for CubesStacked {
 
 }
 
-#[cfg(feature = "solid_cut")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cut {}
 
-#[cfg(feature = "solid_cut")]
 impl IconShape for Cut {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7956,11 +6962,9 @@ impl IconShape for Cut {
 
 }
 
-#[cfg(feature = "solid_cutlery")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Cutlery {}
 
-#[cfg(feature = "solid_cutlery")]
 impl IconShape for Cutlery {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7972,11 +6976,9 @@ impl IconShape for Cutlery {
 
 }
 
-#[cfg(feature = "solid_d")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct D {}
 
-#[cfg(feature = "solid_d")]
 impl IconShape for D {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -7988,11 +6990,9 @@ impl IconShape for D {
 
 }
 
-#[cfg(feature = "solid_dashboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dashboard {}
 
-#[cfg(feature = "solid_dashboard")]
 impl IconShape for Dashboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8004,11 +7004,9 @@ impl IconShape for Dashboard {
 
 }
 
-#[cfg(feature = "solid_database")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Database {}
 
-#[cfg(feature = "solid_database")]
 impl IconShape for Database {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8020,11 +7018,9 @@ impl IconShape for Database {
 
 }
 
-#[cfg(feature = "solid_deaf")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Deaf {}
 
-#[cfg(feature = "solid_deaf")]
 impl IconShape for Deaf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8036,11 +7032,9 @@ impl IconShape for Deaf {
 
 }
 
-#[cfg(feature = "solid_deafness")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Deafness {}
 
-#[cfg(feature = "solid_deafness")]
 impl IconShape for Deafness {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8052,11 +7046,9 @@ impl IconShape for Deafness {
 
 }
 
-#[cfg(feature = "solid_dedent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dedent {}
 
-#[cfg(feature = "solid_dedent")]
 impl IconShape for Dedent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8068,11 +7060,9 @@ impl IconShape for Dedent {
 
 }
 
-#[cfg(feature = "solid_delete_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DeleteLeft {}
 
-#[cfg(feature = "solid_delete_left")]
 impl IconShape for DeleteLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8084,11 +7074,9 @@ impl IconShape for DeleteLeft {
 
 }
 
-#[cfg(feature = "solid_democrat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Democrat {}
 
-#[cfg(feature = "solid_democrat")]
 impl IconShape for Democrat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8100,11 +7088,9 @@ impl IconShape for Democrat {
 
 }
 
-#[cfg(feature = "solid_desktop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Desktop {}
 
-#[cfg(feature = "solid_desktop")]
 impl IconShape for Desktop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8116,11 +7102,9 @@ impl IconShape for Desktop {
 
 }
 
-#[cfg(feature = "solid_desktop_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DesktopAlt {}
 
-#[cfg(feature = "solid_desktop_alt")]
 impl IconShape for DesktopAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8132,11 +7116,9 @@ impl IconShape for DesktopAlt {
 
 }
 
-#[cfg(feature = "solid_dharmachakra")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dharmachakra {}
 
-#[cfg(feature = "solid_dharmachakra")]
 impl IconShape for Dharmachakra {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8148,11 +7130,9 @@ impl IconShape for Dharmachakra {
 
 }
 
-#[cfg(feature = "solid_diagnoses")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Diagnoses {}
 
-#[cfg(feature = "solid_diagnoses")]
 impl IconShape for Diagnoses {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8164,11 +7144,9 @@ impl IconShape for Diagnoses {
 
 }
 
-#[cfg(feature = "solid_diagram_next")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiagramNext {}
 
-#[cfg(feature = "solid_diagram_next")]
 impl IconShape for DiagramNext {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8180,11 +7158,9 @@ impl IconShape for DiagramNext {
 
 }
 
-#[cfg(feature = "solid_diagram_predecessor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiagramPredecessor {}
 
-#[cfg(feature = "solid_diagram_predecessor")]
 impl IconShape for DiagramPredecessor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8196,11 +7172,9 @@ impl IconShape for DiagramPredecessor {
 
 }
 
-#[cfg(feature = "solid_diagram_project")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiagramProject {}
 
-#[cfg(feature = "solid_diagram_project")]
 impl IconShape for DiagramProject {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8212,11 +7186,9 @@ impl IconShape for DiagramProject {
 
 }
 
-#[cfg(feature = "solid_diagram_successor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiagramSuccessor {}
 
-#[cfg(feature = "solid_diagram_successor")]
 impl IconShape for DiagramSuccessor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8228,11 +7200,9 @@ impl IconShape for DiagramSuccessor {
 
 }
 
-#[cfg(feature = "solid_diamond")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Diamond {}
 
-#[cfg(feature = "solid_diamond")]
 impl IconShape for Diamond {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8244,11 +7214,9 @@ impl IconShape for Diamond {
 
 }
 
-#[cfg(feature = "solid_diamond_turn_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiamondTurnRight {}
 
-#[cfg(feature = "solid_diamond_turn_right")]
 impl IconShape for DiamondTurnRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8260,11 +7228,9 @@ impl IconShape for DiamondTurnRight {
 
 }
 
-#[cfg(feature = "solid_dice")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dice {}
 
-#[cfg(feature = "solid_dice")]
 impl IconShape for Dice {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8276,11 +7242,9 @@ impl IconShape for Dice {
 
 }
 
-#[cfg(feature = "solid_dice_d20")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceD20 {}
 
-#[cfg(feature = "solid_dice_d20")]
 impl IconShape for DiceD20 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8292,11 +7256,9 @@ impl IconShape for DiceD20 {
 
 }
 
-#[cfg(feature = "solid_dice_d6")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceD6 {}
 
-#[cfg(feature = "solid_dice_d6")]
 impl IconShape for DiceD6 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8308,11 +7270,9 @@ impl IconShape for DiceD6 {
 
 }
 
-#[cfg(feature = "solid_dice_five")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceFive {}
 
-#[cfg(feature = "solid_dice_five")]
 impl IconShape for DiceFive {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8324,11 +7284,9 @@ impl IconShape for DiceFive {
 
 }
 
-#[cfg(feature = "solid_dice_four")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceFour {}
 
-#[cfg(feature = "solid_dice_four")]
 impl IconShape for DiceFour {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8340,11 +7298,9 @@ impl IconShape for DiceFour {
 
 }
 
-#[cfg(feature = "solid_dice_one")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceOne {}
 
-#[cfg(feature = "solid_dice_one")]
 impl IconShape for DiceOne {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8356,11 +7312,9 @@ impl IconShape for DiceOne {
 
 }
 
-#[cfg(feature = "solid_dice_six")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceSix {}
 
-#[cfg(feature = "solid_dice_six")]
 impl IconShape for DiceSix {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8372,11 +7326,9 @@ impl IconShape for DiceSix {
 
 }
 
-#[cfg(feature = "solid_dice_three")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceThree {}
 
-#[cfg(feature = "solid_dice_three")]
 impl IconShape for DiceThree {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8388,11 +7340,9 @@ impl IconShape for DiceThree {
 
 }
 
-#[cfg(feature = "solid_dice_two")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DiceTwo {}
 
-#[cfg(feature = "solid_dice_two")]
 impl IconShape for DiceTwo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8404,11 +7354,9 @@ impl IconShape for DiceTwo {
 
 }
 
-#[cfg(feature = "solid_digging")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Digging {}
 
-#[cfg(feature = "solid_digging")]
 impl IconShape for Digging {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8420,11 +7368,9 @@ impl IconShape for Digging {
 
 }
 
-#[cfg(feature = "solid_digital_tachograph")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DigitalTachograph {}
 
-#[cfg(feature = "solid_digital_tachograph")]
 impl IconShape for DigitalTachograph {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8436,11 +7382,9 @@ impl IconShape for DigitalTachograph {
 
 }
 
-#[cfg(feature = "solid_directions")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Directions {}
 
-#[cfg(feature = "solid_directions")]
 impl IconShape for Directions {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8452,11 +7396,9 @@ impl IconShape for Directions {
 
 }
 
-#[cfg(feature = "solid_disease")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Disease {}
 
-#[cfg(feature = "solid_disease")]
 impl IconShape for Disease {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8468,11 +7410,9 @@ impl IconShape for Disease {
 
 }
 
-#[cfg(feature = "solid_display")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Display {}
 
-#[cfg(feature = "solid_display")]
 impl IconShape for Display {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8484,11 +7424,9 @@ impl IconShape for Display {
 
 }
 
-#[cfg(feature = "solid_divide")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Divide {}
 
-#[cfg(feature = "solid_divide")]
 impl IconShape for Divide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8500,11 +7438,9 @@ impl IconShape for Divide {
 
 }
 
-#[cfg(feature = "solid_dizzy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dizzy {}
 
-#[cfg(feature = "solid_dizzy")]
 impl IconShape for Dizzy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8516,11 +7452,9 @@ impl IconShape for Dizzy {
 
 }
 
-#[cfg(feature = "solid_dna")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dna {}
 
-#[cfg(feature = "solid_dna")]
 impl IconShape for Dna {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8532,11 +7466,9 @@ impl IconShape for Dna {
 
 }
 
-#[cfg(feature = "solid_dog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dog {}
 
-#[cfg(feature = "solid_dog")]
 impl IconShape for Dog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8548,11 +7480,9 @@ impl IconShape for Dog {
 
 }
 
-#[cfg(feature = "solid_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dollar {}
 
-#[cfg(feature = "solid_dollar")]
 impl IconShape for Dollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8564,11 +7494,9 @@ impl IconShape for Dollar {
 
 }
 
-#[cfg(feature = "solid_dollar_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DollarSign {}
 
-#[cfg(feature = "solid_dollar_sign")]
 impl IconShape for DollarSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8580,11 +7508,9 @@ impl IconShape for DollarSign {
 
 }
 
-#[cfg(feature = "solid_dolly")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dolly {}
 
-#[cfg(feature = "solid_dolly")]
 impl IconShape for Dolly {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8596,11 +7522,9 @@ impl IconShape for Dolly {
 
 }
 
-#[cfg(feature = "solid_dolly_box")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DollyBox {}
 
-#[cfg(feature = "solid_dolly_box")]
 impl IconShape for DollyBox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8612,11 +7536,9 @@ impl IconShape for DollyBox {
 
 }
 
-#[cfg(feature = "solid_dolly_flatbed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DollyFlatbed {}
 
-#[cfg(feature = "solid_dolly_flatbed")]
 impl IconShape for DollyFlatbed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8628,11 +7550,9 @@ impl IconShape for DollyFlatbed {
 
 }
 
-#[cfg(feature = "solid_donate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Donate {}
 
-#[cfg(feature = "solid_donate")]
 impl IconShape for Donate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8644,11 +7564,9 @@ impl IconShape for Donate {
 
 }
 
-#[cfg(feature = "solid_dong_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DongSign {}
 
-#[cfg(feature = "solid_dong_sign")]
 impl IconShape for DongSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8660,11 +7578,9 @@ impl IconShape for DongSign {
 
 }
 
-#[cfg(feature = "solid_door_closed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DoorClosed {}
 
-#[cfg(feature = "solid_door_closed")]
 impl IconShape for DoorClosed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8676,11 +7592,9 @@ impl IconShape for DoorClosed {
 
 }
 
-#[cfg(feature = "solid_door_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DoorOpen {}
 
-#[cfg(feature = "solid_door_open")]
 impl IconShape for DoorOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8692,11 +7606,9 @@ impl IconShape for DoorOpen {
 
 }
 
-#[cfg(feature = "solid_dot_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DotCircle {}
 
-#[cfg(feature = "solid_dot_circle")]
 impl IconShape for DotCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8708,11 +7620,9 @@ impl IconShape for DotCircle {
 
 }
 
-#[cfg(feature = "solid_dove")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dove {}
 
-#[cfg(feature = "solid_dove")]
 impl IconShape for Dove {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8724,11 +7634,9 @@ impl IconShape for Dove {
 
 }
 
-#[cfg(feature = "solid_down_left_and_up_right_to_center")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DownLeftAndUpRightToCenter {}
 
-#[cfg(feature = "solid_down_left_and_up_right_to_center")]
 impl IconShape for DownLeftAndUpRightToCenter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8740,11 +7648,9 @@ impl IconShape for DownLeftAndUpRightToCenter {
 
 }
 
-#[cfg(feature = "solid_down_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DownLong {}
 
-#[cfg(feature = "solid_down_long")]
 impl IconShape for DownLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8756,11 +7662,9 @@ impl IconShape for DownLong {
 
 }
 
-#[cfg(feature = "solid_download")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Download {}
 
-#[cfg(feature = "solid_download")]
 impl IconShape for Download {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8772,11 +7676,9 @@ impl IconShape for Download {
 
 }
 
-#[cfg(feature = "solid_drafting_compass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DraftingCompass {}
 
-#[cfg(feature = "solid_drafting_compass")]
 impl IconShape for DraftingCompass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8788,11 +7690,9 @@ impl IconShape for DraftingCompass {
 
 }
 
-#[cfg(feature = "solid_dragon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dragon {}
 
-#[cfg(feature = "solid_dragon")]
 impl IconShape for Dragon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8804,11 +7704,9 @@ impl IconShape for Dragon {
 
 }
 
-#[cfg(feature = "solid_draw_polygon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DrawPolygon {}
 
-#[cfg(feature = "solid_draw_polygon")]
 impl IconShape for DrawPolygon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8820,11 +7718,9 @@ impl IconShape for DrawPolygon {
 
 }
 
-#[cfg(feature = "solid_drivers_license")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DriversLicense {}
 
-#[cfg(feature = "solid_drivers_license")]
 impl IconShape for DriversLicense {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8836,11 +7732,9 @@ impl IconShape for DriversLicense {
 
 }
 
-#[cfg(feature = "solid_droplet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Droplet {}
 
-#[cfg(feature = "solid_droplet")]
 impl IconShape for Droplet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8852,11 +7746,9 @@ impl IconShape for Droplet {
 
 }
 
-#[cfg(feature = "solid_droplet_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DropletSlash {}
 
-#[cfg(feature = "solid_droplet_slash")]
 impl IconShape for DropletSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8868,11 +7760,9 @@ impl IconShape for DropletSlash {
 
 }
 
-#[cfg(feature = "solid_drum")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Drum {}
 
-#[cfg(feature = "solid_drum")]
 impl IconShape for Drum {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8884,11 +7774,9 @@ impl IconShape for Drum {
 
 }
 
-#[cfg(feature = "solid_drum_steelpan")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DrumSteelpan {}
 
-#[cfg(feature = "solid_drum_steelpan")]
 impl IconShape for DrumSteelpan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8900,11 +7788,9 @@ impl IconShape for DrumSteelpan {
 
 }
 
-#[cfg(feature = "solid_drumstick_bite")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DrumstickBite {}
 
-#[cfg(feature = "solid_drumstick_bite")]
 impl IconShape for DrumstickBite {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8916,11 +7802,9 @@ impl IconShape for DrumstickBite {
 
 }
 
-#[cfg(feature = "solid_dumbbell")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dumbbell {}
 
-#[cfg(feature = "solid_dumbbell")]
 impl IconShape for Dumbbell {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8932,11 +7816,9 @@ impl IconShape for Dumbbell {
 
 }
 
-#[cfg(feature = "solid_dumpster")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dumpster {}
 
-#[cfg(feature = "solid_dumpster")]
 impl IconShape for Dumpster {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8948,11 +7830,9 @@ impl IconShape for Dumpster {
 
 }
 
-#[cfg(feature = "solid_dumpster_fire")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct DumpsterFire {}
 
-#[cfg(feature = "solid_dumpster_fire")]
 impl IconShape for DumpsterFire {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8964,11 +7844,9 @@ impl IconShape for DumpsterFire {
 
 }
 
-#[cfg(feature = "solid_dungeon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Dungeon {}
 
-#[cfg(feature = "solid_dungeon")]
 impl IconShape for Dungeon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8980,11 +7858,9 @@ impl IconShape for Dungeon {
 
 }
 
-#[cfg(feature = "solid_e")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct E {}
 
-#[cfg(feature = "solid_e")]
 impl IconShape for E {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -8996,11 +7872,9 @@ impl IconShape for E {
 
 }
 
-#[cfg(feature = "solid_ear_deaf")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarDeaf {}
 
-#[cfg(feature = "solid_ear_deaf")]
 impl IconShape for EarDeaf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9012,11 +7886,9 @@ impl IconShape for EarDeaf {
 
 }
 
-#[cfg(feature = "solid_ear_listen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarListen {}
 
-#[cfg(feature = "solid_ear_listen")]
 impl IconShape for EarListen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9028,11 +7900,9 @@ impl IconShape for EarListen {
 
 }
 
-#[cfg(feature = "solid_earth")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Earth {}
 
-#[cfg(feature = "solid_earth")]
 impl IconShape for Earth {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9044,11 +7914,9 @@ impl IconShape for Earth {
 
 }
 
-#[cfg(feature = "solid_earth_africa")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarthAfrica {}
 
-#[cfg(feature = "solid_earth_africa")]
 impl IconShape for EarthAfrica {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9060,11 +7928,9 @@ impl IconShape for EarthAfrica {
 
 }
 
-#[cfg(feature = "solid_earth_america")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarthAmerica {}
 
-#[cfg(feature = "solid_earth_america")]
 impl IconShape for EarthAmerica {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9076,11 +7942,9 @@ impl IconShape for EarthAmerica {
 
 }
 
-#[cfg(feature = "solid_earth_americas")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarthAmericas {}
 
-#[cfg(feature = "solid_earth_americas")]
 impl IconShape for EarthAmericas {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9092,11 +7956,9 @@ impl IconShape for EarthAmericas {
 
 }
 
-#[cfg(feature = "solid_earth_asia")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarthAsia {}
 
-#[cfg(feature = "solid_earth_asia")]
 impl IconShape for EarthAsia {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9108,11 +7970,9 @@ impl IconShape for EarthAsia {
 
 }
 
-#[cfg(feature = "solid_earth_europe")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarthEurope {}
 
-#[cfg(feature = "solid_earth_europe")]
 impl IconShape for EarthEurope {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9124,11 +7984,9 @@ impl IconShape for EarthEurope {
 
 }
 
-#[cfg(feature = "solid_earth_oceania")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EarthOceania {}
 
-#[cfg(feature = "solid_earth_oceania")]
 impl IconShape for EarthOceania {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9140,11 +7998,9 @@ impl IconShape for EarthOceania {
 
 }
 
-#[cfg(feature = "solid_edit")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Edit {}
 
-#[cfg(feature = "solid_edit")]
 impl IconShape for Edit {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9156,11 +8012,9 @@ impl IconShape for Edit {
 
 }
 
-#[cfg(feature = "solid_egg")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Egg {}
 
-#[cfg(feature = "solid_egg")]
 impl IconShape for Egg {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9172,11 +8026,9 @@ impl IconShape for Egg {
 
 }
 
-#[cfg(feature = "solid_eject")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Eject {}
 
-#[cfg(feature = "solid_eject")]
 impl IconShape for Eject {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9188,11 +8040,9 @@ impl IconShape for Eject {
 
 }
 
-#[cfg(feature = "solid_elevator")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Elevator {}
 
-#[cfg(feature = "solid_elevator")]
 impl IconShape for Elevator {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9204,11 +8054,9 @@ impl IconShape for Elevator {
 
 }
 
-#[cfg(feature = "solid_ellipsis")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ellipsis {}
 
-#[cfg(feature = "solid_ellipsis")]
 impl IconShape for Ellipsis {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9220,11 +8068,9 @@ impl IconShape for Ellipsis {
 
 }
 
-#[cfg(feature = "solid_ellipsis_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EllipsisH {}
 
-#[cfg(feature = "solid_ellipsis_h")]
 impl IconShape for EllipsisH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9236,11 +8082,9 @@ impl IconShape for EllipsisH {
 
 }
 
-#[cfg(feature = "solid_ellipsis_v")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EllipsisV {}
 
-#[cfg(feature = "solid_ellipsis_v")]
 impl IconShape for EllipsisV {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9252,11 +8096,9 @@ impl IconShape for EllipsisV {
 
 }
 
-#[cfg(feature = "solid_ellipsis_vertical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EllipsisVertical {}
 
-#[cfg(feature = "solid_ellipsis_vertical")]
 impl IconShape for EllipsisVertical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9268,11 +8110,9 @@ impl IconShape for EllipsisVertical {
 
 }
 
-#[cfg(feature = "solid_envelope")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Envelope {}
 
-#[cfg(feature = "solid_envelope")]
 impl IconShape for Envelope {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9284,11 +8124,9 @@ impl IconShape for Envelope {
 
 }
 
-#[cfg(feature = "solid_envelope_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EnvelopeCircleCheck {}
 
-#[cfg(feature = "solid_envelope_circle_check")]
 impl IconShape for EnvelopeCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9300,11 +8138,9 @@ impl IconShape for EnvelopeCircleCheck {
 
 }
 
-#[cfg(feature = "solid_envelope_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EnvelopeOpen {}
 
-#[cfg(feature = "solid_envelope_open")]
 impl IconShape for EnvelopeOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9316,11 +8152,9 @@ impl IconShape for EnvelopeOpen {
 
 }
 
-#[cfg(feature = "solid_envelope_open_text")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EnvelopeOpenText {}
 
-#[cfg(feature = "solid_envelope_open_text")]
 impl IconShape for EnvelopeOpenText {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9332,11 +8166,9 @@ impl IconShape for EnvelopeOpenText {
 
 }
 
-#[cfg(feature = "solid_envelope_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EnvelopeSquare {}
 
-#[cfg(feature = "solid_envelope_square")]
 impl IconShape for EnvelopeSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9348,11 +8180,9 @@ impl IconShape for EnvelopeSquare {
 
 }
 
-#[cfg(feature = "solid_envelopes_bulk")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EnvelopesBulk {}
 
-#[cfg(feature = "solid_envelopes_bulk")]
 impl IconShape for EnvelopesBulk {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9364,11 +8194,9 @@ impl IconShape for EnvelopesBulk {
 
 }
 
-#[cfg(feature = "solid_equals")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Equals {}
 
-#[cfg(feature = "solid_equals")]
 impl IconShape for Equals {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9380,11 +8208,9 @@ impl IconShape for Equals {
 
 }
 
-#[cfg(feature = "solid_eraser")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Eraser {}
 
-#[cfg(feature = "solid_eraser")]
 impl IconShape for Eraser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9396,11 +8222,9 @@ impl IconShape for Eraser {
 
 }
 
-#[cfg(feature = "solid_ethernet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ethernet {}
 
-#[cfg(feature = "solid_ethernet")]
 impl IconShape for Ethernet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9412,11 +8236,9 @@ impl IconShape for Ethernet {
 
 }
 
-#[cfg(feature = "solid_eur")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Eur {}
 
-#[cfg(feature = "solid_eur")]
 impl IconShape for Eur {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9428,11 +8250,9 @@ impl IconShape for Eur {
 
 }
 
-#[cfg(feature = "solid_euro")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Euro {}
 
-#[cfg(feature = "solid_euro")]
 impl IconShape for Euro {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9444,11 +8264,9 @@ impl IconShape for Euro {
 
 }
 
-#[cfg(feature = "solid_euro_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EuroSign {}
 
-#[cfg(feature = "solid_euro_sign")]
 impl IconShape for EuroSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9460,11 +8278,9 @@ impl IconShape for EuroSign {
 
 }
 
-#[cfg(feature = "solid_exchange")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Exchange {}
 
-#[cfg(feature = "solid_exchange")]
 impl IconShape for Exchange {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9476,11 +8292,9 @@ impl IconShape for Exchange {
 
 }
 
-#[cfg(feature = "solid_exchange_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExchangeAlt {}
 
-#[cfg(feature = "solid_exchange_alt")]
 impl IconShape for ExchangeAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9492,11 +8306,9 @@ impl IconShape for ExchangeAlt {
 
 }
 
-#[cfg(feature = "solid_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Exclamation {}
 
-#[cfg(feature = "solid_exclamation")]
 impl IconShape for Exclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9508,11 +8320,9 @@ impl IconShape for Exclamation {
 
 }
 
-#[cfg(feature = "solid_exclamation_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExclamationCircle {}
 
-#[cfg(feature = "solid_exclamation_circle")]
 impl IconShape for ExclamationCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9524,11 +8334,9 @@ impl IconShape for ExclamationCircle {
 
 }
 
-#[cfg(feature = "solid_exclamation_triangle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExclamationTriangle {}
 
-#[cfg(feature = "solid_exclamation_triangle")]
 impl IconShape for ExclamationTriangle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9540,11 +8348,9 @@ impl IconShape for ExclamationTriangle {
 
 }
 
-#[cfg(feature = "solid_expand")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Expand {}
 
-#[cfg(feature = "solid_expand")]
 impl IconShape for Expand {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9556,11 +8362,9 @@ impl IconShape for Expand {
 
 }
 
-#[cfg(feature = "solid_expand_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExpandAlt {}
 
-#[cfg(feature = "solid_expand_alt")]
 impl IconShape for ExpandAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9572,11 +8376,9 @@ impl IconShape for ExpandAlt {
 
 }
 
-#[cfg(feature = "solid_expand_arrows_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExpandArrowsAlt {}
 
-#[cfg(feature = "solid_expand_arrows_alt")]
 impl IconShape for ExpandArrowsAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9588,11 +8390,9 @@ impl IconShape for ExpandArrowsAlt {
 
 }
 
-#[cfg(feature = "solid_explosion")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Explosion {}
 
-#[cfg(feature = "solid_explosion")]
 impl IconShape for Explosion {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9604,11 +8404,9 @@ impl IconShape for Explosion {
 
 }
 
-#[cfg(feature = "solid_external_link")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExternalLink {}
 
-#[cfg(feature = "solid_external_link")]
 impl IconShape for ExternalLink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9620,11 +8418,9 @@ impl IconShape for ExternalLink {
 
 }
 
-#[cfg(feature = "solid_external_link_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExternalLinkAlt {}
 
-#[cfg(feature = "solid_external_link_alt")]
 impl IconShape for ExternalLinkAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9636,11 +8432,9 @@ impl IconShape for ExternalLinkAlt {
 
 }
 
-#[cfg(feature = "solid_external_link_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExternalLinkSquare {}
 
-#[cfg(feature = "solid_external_link_square")]
 impl IconShape for ExternalLinkSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9652,11 +8446,9 @@ impl IconShape for ExternalLinkSquare {
 
 }
 
-#[cfg(feature = "solid_external_link_square_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ExternalLinkSquareAlt {}
 
-#[cfg(feature = "solid_external_link_square_alt")]
 impl IconShape for ExternalLinkSquareAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9668,11 +8460,9 @@ impl IconShape for ExternalLinkSquareAlt {
 
 }
 
-#[cfg(feature = "solid_eye")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Eye {}
 
-#[cfg(feature = "solid_eye")]
 impl IconShape for Eye {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9684,11 +8474,9 @@ impl IconShape for Eye {
 
 }
 
-#[cfg(feature = "solid_eye_dropper")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EyeDropper {}
 
-#[cfg(feature = "solid_eye_dropper")]
 impl IconShape for EyeDropper {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9700,11 +8488,9 @@ impl IconShape for EyeDropper {
 
 }
 
-#[cfg(feature = "solid_eye_dropper_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EyeDropperEmpty {}
 
-#[cfg(feature = "solid_eye_dropper_empty")]
 impl IconShape for EyeDropperEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9716,11 +8502,9 @@ impl IconShape for EyeDropperEmpty {
 
 }
 
-#[cfg(feature = "solid_eye_low_vision")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EyeLowVision {}
 
-#[cfg(feature = "solid_eye_low_vision")]
 impl IconShape for EyeLowVision {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9732,11 +8516,9 @@ impl IconShape for EyeLowVision {
 
 }
 
-#[cfg(feature = "solid_eye_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct EyeSlash {}
 
-#[cfg(feature = "solid_eye_slash")]
 impl IconShape for EyeSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9748,11 +8530,9 @@ impl IconShape for EyeSlash {
 
 }
 
-#[cfg(feature = "solid_eyedropper")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Eyedropper {}
 
-#[cfg(feature = "solid_eyedropper")]
 impl IconShape for Eyedropper {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9764,11 +8544,9 @@ impl IconShape for Eyedropper {
 
 }
 
-#[cfg(feature = "solid_f")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct F {}
 
-#[cfg(feature = "solid_f")]
 impl IconShape for F {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9780,11 +8558,9 @@ impl IconShape for F {
 
 }
 
-#[cfg(feature = "solid_face_angry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceAngry {}
 
-#[cfg(feature = "solid_face_angry")]
 impl IconShape for FaceAngry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9796,11 +8572,9 @@ impl IconShape for FaceAngry {
 
 }
 
-#[cfg(feature = "solid_face_dizzy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceDizzy {}
 
-#[cfg(feature = "solid_face_dizzy")]
 impl IconShape for FaceDizzy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9812,11 +8586,9 @@ impl IconShape for FaceDizzy {
 
 }
 
-#[cfg(feature = "solid_face_flushed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceFlushed {}
 
-#[cfg(feature = "solid_face_flushed")]
 impl IconShape for FaceFlushed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9828,11 +8600,9 @@ impl IconShape for FaceFlushed {
 
 }
 
-#[cfg(feature = "solid_face_frown")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceFrown {}
 
-#[cfg(feature = "solid_face_frown")]
 impl IconShape for FaceFrown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9844,11 +8614,9 @@ impl IconShape for FaceFrown {
 
 }
 
-#[cfg(feature = "solid_face_frown_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceFrownOpen {}
 
-#[cfg(feature = "solid_face_frown_open")]
 impl IconShape for FaceFrownOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9860,11 +8628,9 @@ impl IconShape for FaceFrownOpen {
 
 }
 
-#[cfg(feature = "solid_face_grimace")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrimace {}
 
-#[cfg(feature = "solid_face_grimace")]
 impl IconShape for FaceGrimace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9876,11 +8642,9 @@ impl IconShape for FaceGrimace {
 
 }
 
-#[cfg(feature = "solid_face_grin")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrin {}
 
-#[cfg(feature = "solid_face_grin")]
 impl IconShape for FaceGrin {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9892,11 +8656,9 @@ impl IconShape for FaceGrin {
 
 }
 
-#[cfg(feature = "solid_face_grin_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinBeam {}
 
-#[cfg(feature = "solid_face_grin_beam")]
 impl IconShape for FaceGrinBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9908,11 +8670,9 @@ impl IconShape for FaceGrinBeam {
 
 }
 
-#[cfg(feature = "solid_face_grin_beam_sweat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinBeamSweat {}
 
-#[cfg(feature = "solid_face_grin_beam_sweat")]
 impl IconShape for FaceGrinBeamSweat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9924,11 +8684,9 @@ impl IconShape for FaceGrinBeamSweat {
 
 }
 
-#[cfg(feature = "solid_face_grin_hearts")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinHearts {}
 
-#[cfg(feature = "solid_face_grin_hearts")]
 impl IconShape for FaceGrinHearts {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9940,11 +8698,9 @@ impl IconShape for FaceGrinHearts {
 
 }
 
-#[cfg(feature = "solid_face_grin_squint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinSquint {}
 
-#[cfg(feature = "solid_face_grin_squint")]
 impl IconShape for FaceGrinSquint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9956,11 +8712,9 @@ impl IconShape for FaceGrinSquint {
 
 }
 
-#[cfg(feature = "solid_face_grin_squint_tears")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinSquintTears {}
 
-#[cfg(feature = "solid_face_grin_squint_tears")]
 impl IconShape for FaceGrinSquintTears {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9972,11 +8726,9 @@ impl IconShape for FaceGrinSquintTears {
 
 }
 
-#[cfg(feature = "solid_face_grin_stars")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinStars {}
 
-#[cfg(feature = "solid_face_grin_stars")]
 impl IconShape for FaceGrinStars {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -9988,11 +8740,9 @@ impl IconShape for FaceGrinStars {
 
 }
 
-#[cfg(feature = "solid_face_grin_tears")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinTears {}
 
-#[cfg(feature = "solid_face_grin_tears")]
 impl IconShape for FaceGrinTears {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10004,11 +8754,9 @@ impl IconShape for FaceGrinTears {
 
 }
 
-#[cfg(feature = "solid_face_grin_tongue")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinTongue {}
 
-#[cfg(feature = "solid_face_grin_tongue")]
 impl IconShape for FaceGrinTongue {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10020,11 +8768,9 @@ impl IconShape for FaceGrinTongue {
 
 }
 
-#[cfg(feature = "solid_face_grin_tongue_squint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinTongueSquint {}
 
-#[cfg(feature = "solid_face_grin_tongue_squint")]
 impl IconShape for FaceGrinTongueSquint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10036,11 +8782,9 @@ impl IconShape for FaceGrinTongueSquint {
 
 }
 
-#[cfg(feature = "solid_face_grin_tongue_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinTongueWink {}
 
-#[cfg(feature = "solid_face_grin_tongue_wink")]
 impl IconShape for FaceGrinTongueWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10052,11 +8796,9 @@ impl IconShape for FaceGrinTongueWink {
 
 }
 
-#[cfg(feature = "solid_face_grin_wide")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinWide {}
 
-#[cfg(feature = "solid_face_grin_wide")]
 impl IconShape for FaceGrinWide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10068,11 +8810,9 @@ impl IconShape for FaceGrinWide {
 
 }
 
-#[cfg(feature = "solid_face_grin_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceGrinWink {}
 
-#[cfg(feature = "solid_face_grin_wink")]
 impl IconShape for FaceGrinWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10084,11 +8824,9 @@ impl IconShape for FaceGrinWink {
 
 }
 
-#[cfg(feature = "solid_face_kiss")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceKiss {}
 
-#[cfg(feature = "solid_face_kiss")]
 impl IconShape for FaceKiss {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10100,11 +8838,9 @@ impl IconShape for FaceKiss {
 
 }
 
-#[cfg(feature = "solid_face_kiss_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceKissBeam {}
 
-#[cfg(feature = "solid_face_kiss_beam")]
 impl IconShape for FaceKissBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10116,11 +8852,9 @@ impl IconShape for FaceKissBeam {
 
 }
 
-#[cfg(feature = "solid_face_kiss_wink_heart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceKissWinkHeart {}
 
-#[cfg(feature = "solid_face_kiss_wink_heart")]
 impl IconShape for FaceKissWinkHeart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10132,11 +8866,9 @@ impl IconShape for FaceKissWinkHeart {
 
 }
 
-#[cfg(feature = "solid_face_laugh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceLaugh {}
 
-#[cfg(feature = "solid_face_laugh")]
 impl IconShape for FaceLaugh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10148,11 +8880,9 @@ impl IconShape for FaceLaugh {
 
 }
 
-#[cfg(feature = "solid_face_laugh_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceLaughBeam {}
 
-#[cfg(feature = "solid_face_laugh_beam")]
 impl IconShape for FaceLaughBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10164,11 +8894,9 @@ impl IconShape for FaceLaughBeam {
 
 }
 
-#[cfg(feature = "solid_face_laugh_squint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceLaughSquint {}
 
-#[cfg(feature = "solid_face_laugh_squint")]
 impl IconShape for FaceLaughSquint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10180,11 +8908,9 @@ impl IconShape for FaceLaughSquint {
 
 }
 
-#[cfg(feature = "solid_face_laugh_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceLaughWink {}
 
-#[cfg(feature = "solid_face_laugh_wink")]
 impl IconShape for FaceLaughWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10196,11 +8922,9 @@ impl IconShape for FaceLaughWink {
 
 }
 
-#[cfg(feature = "solid_face_meh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceMeh {}
 
-#[cfg(feature = "solid_face_meh")]
 impl IconShape for FaceMeh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10212,11 +8936,9 @@ impl IconShape for FaceMeh {
 
 }
 
-#[cfg(feature = "solid_face_meh_blank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceMehBlank {}
 
-#[cfg(feature = "solid_face_meh_blank")]
 impl IconShape for FaceMehBlank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10228,11 +8950,9 @@ impl IconShape for FaceMehBlank {
 
 }
 
-#[cfg(feature = "solid_face_rolling_eyes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceRollingEyes {}
 
-#[cfg(feature = "solid_face_rolling_eyes")]
 impl IconShape for FaceRollingEyes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10244,11 +8964,9 @@ impl IconShape for FaceRollingEyes {
 
 }
 
-#[cfg(feature = "solid_face_sad_cry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceSadCry {}
 
-#[cfg(feature = "solid_face_sad_cry")]
 impl IconShape for FaceSadCry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10260,11 +8978,9 @@ impl IconShape for FaceSadCry {
 
 }
 
-#[cfg(feature = "solid_face_sad_tear")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceSadTear {}
 
-#[cfg(feature = "solid_face_sad_tear")]
 impl IconShape for FaceSadTear {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10276,11 +8992,9 @@ impl IconShape for FaceSadTear {
 
 }
 
-#[cfg(feature = "solid_face_smile")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceSmile {}
 
-#[cfg(feature = "solid_face_smile")]
 impl IconShape for FaceSmile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10292,11 +9006,9 @@ impl IconShape for FaceSmile {
 
 }
 
-#[cfg(feature = "solid_face_smile_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceSmileBeam {}
 
-#[cfg(feature = "solid_face_smile_beam")]
 impl IconShape for FaceSmileBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10308,11 +9020,9 @@ impl IconShape for FaceSmileBeam {
 
 }
 
-#[cfg(feature = "solid_face_smile_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceSmileWink {}
 
-#[cfg(feature = "solid_face_smile_wink")]
 impl IconShape for FaceSmileWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10324,11 +9034,9 @@ impl IconShape for FaceSmileWink {
 
 }
 
-#[cfg(feature = "solid_face_surprise")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceSurprise {}
 
-#[cfg(feature = "solid_face_surprise")]
 impl IconShape for FaceSurprise {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10340,11 +9048,9 @@ impl IconShape for FaceSurprise {
 
 }
 
-#[cfg(feature = "solid_face_tired")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaceTired {}
 
-#[cfg(feature = "solid_face_tired")]
 impl IconShape for FaceTired {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10356,11 +9062,9 @@ impl IconShape for FaceTired {
 
 }
 
-#[cfg(feature = "solid_fan")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Fan {}
 
-#[cfg(feature = "solid_fan")]
 impl IconShape for Fan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10372,11 +9076,9 @@ impl IconShape for Fan {
 
 }
 
-#[cfg(feature = "solid_fast_backward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FastBackward {}
 
-#[cfg(feature = "solid_fast_backward")]
 impl IconShape for FastBackward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10388,11 +9090,9 @@ impl IconShape for FastBackward {
 
 }
 
-#[cfg(feature = "solid_fast_forward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FastForward {}
 
-#[cfg(feature = "solid_fast_forward")]
 impl IconShape for FastForward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10404,11 +9104,9 @@ impl IconShape for FastForward {
 
 }
 
-#[cfg(feature = "solid_faucet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Faucet {}
 
-#[cfg(feature = "solid_faucet")]
 impl IconShape for Faucet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10420,11 +9118,9 @@ impl IconShape for Faucet {
 
 }
 
-#[cfg(feature = "solid_faucet_drip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FaucetDrip {}
 
-#[cfg(feature = "solid_faucet_drip")]
 impl IconShape for FaucetDrip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10436,11 +9132,9 @@ impl IconShape for FaucetDrip {
 
 }
 
-#[cfg(feature = "solid_fax")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Fax {}
 
-#[cfg(feature = "solid_fax")]
 impl IconShape for Fax {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10452,11 +9146,9 @@ impl IconShape for Fax {
 
 }
 
-#[cfg(feature = "solid_feather")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Feather {}
 
-#[cfg(feature = "solid_feather")]
 impl IconShape for Feather {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10468,11 +9160,9 @@ impl IconShape for Feather {
 
 }
 
-#[cfg(feature = "solid_feather_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FeatherAlt {}
 
-#[cfg(feature = "solid_feather_alt")]
 impl IconShape for FeatherAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10484,11 +9174,9 @@ impl IconShape for FeatherAlt {
 
 }
 
-#[cfg(feature = "solid_feather_pointed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FeatherPointed {}
 
-#[cfg(feature = "solid_feather_pointed")]
 impl IconShape for FeatherPointed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10500,11 +9188,9 @@ impl IconShape for FeatherPointed {
 
 }
 
-#[cfg(feature = "solid_feed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Feed {}
 
-#[cfg(feature = "solid_feed")]
 impl IconShape for Feed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10516,11 +9202,9 @@ impl IconShape for Feed {
 
 }
 
-#[cfg(feature = "solid_female")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Female {}
 
-#[cfg(feature = "solid_female")]
 impl IconShape for Female {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10532,11 +9216,9 @@ impl IconShape for Female {
 
 }
 
-#[cfg(feature = "solid_ferry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ferry {}
 
-#[cfg(feature = "solid_ferry")]
 impl IconShape for Ferry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10548,11 +9230,9 @@ impl IconShape for Ferry {
 
 }
 
-#[cfg(feature = "solid_fighter_jet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FighterJet {}
 
-#[cfg(feature = "solid_fighter_jet")]
 impl IconShape for FighterJet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10564,11 +9244,9 @@ impl IconShape for FighterJet {
 
 }
 
-#[cfg(feature = "solid_file")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct File {}
 
-#[cfg(feature = "solid_file")]
 impl IconShape for File {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10580,11 +9258,9 @@ impl IconShape for File {
 
 }
 
-#[cfg(feature = "solid_file_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileAlt {}
 
-#[cfg(feature = "solid_file_alt")]
 impl IconShape for FileAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10596,11 +9272,9 @@ impl IconShape for FileAlt {
 
 }
 
-#[cfg(feature = "solid_file_archive")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileArchive {}
 
-#[cfg(feature = "solid_file_archive")]
 impl IconShape for FileArchive {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10612,11 +9286,9 @@ impl IconShape for FileArchive {
 
 }
 
-#[cfg(feature = "solid_file_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileArrowDown {}
 
-#[cfg(feature = "solid_file_arrow_down")]
 impl IconShape for FileArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10628,11 +9300,9 @@ impl IconShape for FileArrowDown {
 
 }
 
-#[cfg(feature = "solid_file_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileArrowUp {}
 
-#[cfg(feature = "solid_file_arrow_up")]
 impl IconShape for FileArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10644,11 +9314,9 @@ impl IconShape for FileArrowUp {
 
 }
 
-#[cfg(feature = "solid_file_audio")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileAudio {}
 
-#[cfg(feature = "solid_file_audio")]
 impl IconShape for FileAudio {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10660,11 +9328,9 @@ impl IconShape for FileAudio {
 
 }
 
-#[cfg(feature = "solid_file_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCircleCheck {}
 
-#[cfg(feature = "solid_file_circle_check")]
 impl IconShape for FileCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10676,11 +9342,9 @@ impl IconShape for FileCircleCheck {
 
 }
 
-#[cfg(feature = "solid_file_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCircleExclamation {}
 
-#[cfg(feature = "solid_file_circle_exclamation")]
 impl IconShape for FileCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10692,11 +9356,9 @@ impl IconShape for FileCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_file_circle_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCircleMinus {}
 
-#[cfg(feature = "solid_file_circle_minus")]
 impl IconShape for FileCircleMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10708,11 +9370,9 @@ impl IconShape for FileCircleMinus {
 
 }
 
-#[cfg(feature = "solid_file_circle_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCirclePlus {}
 
-#[cfg(feature = "solid_file_circle_plus")]
 impl IconShape for FileCirclePlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10724,11 +9384,9 @@ impl IconShape for FileCirclePlus {
 
 }
 
-#[cfg(feature = "solid_file_circle_question")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCircleQuestion {}
 
-#[cfg(feature = "solid_file_circle_question")]
 impl IconShape for FileCircleQuestion {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10740,11 +9398,9 @@ impl IconShape for FileCircleQuestion {
 
 }
 
-#[cfg(feature = "solid_file_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCircleXmark {}
 
-#[cfg(feature = "solid_file_circle_xmark")]
 impl IconShape for FileCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10756,11 +9412,9 @@ impl IconShape for FileCircleXmark {
 
 }
 
-#[cfg(feature = "solid_file_clipboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileClipboard {}
 
-#[cfg(feature = "solid_file_clipboard")]
 impl IconShape for FileClipboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10772,11 +9426,9 @@ impl IconShape for FileClipboard {
 
 }
 
-#[cfg(feature = "solid_file_code")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCode {}
 
-#[cfg(feature = "solid_file_code")]
 impl IconShape for FileCode {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10788,11 +9440,9 @@ impl IconShape for FileCode {
 
 }
 
-#[cfg(feature = "solid_file_contract")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileContract {}
 
-#[cfg(feature = "solid_file_contract")]
 impl IconShape for FileContract {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10804,11 +9454,9 @@ impl IconShape for FileContract {
 
 }
 
-#[cfg(feature = "solid_file_csv")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileCsv {}
 
-#[cfg(feature = "solid_file_csv")]
 impl IconShape for FileCsv {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10820,11 +9468,9 @@ impl IconShape for FileCsv {
 
 }
 
-#[cfg(feature = "solid_file_download")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileDownload {}
 
-#[cfg(feature = "solid_file_download")]
 impl IconShape for FileDownload {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10836,11 +9482,9 @@ impl IconShape for FileDownload {
 
 }
 
-#[cfg(feature = "solid_file_edit")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileEdit {}
 
-#[cfg(feature = "solid_file_edit")]
 impl IconShape for FileEdit {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10852,11 +9496,9 @@ impl IconShape for FileEdit {
 
 }
 
-#[cfg(feature = "solid_file_excel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileExcel {}
 
-#[cfg(feature = "solid_file_excel")]
 impl IconShape for FileExcel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10868,11 +9510,9 @@ impl IconShape for FileExcel {
 
 }
 
-#[cfg(feature = "solid_file_export")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileExport {}
 
-#[cfg(feature = "solid_file_export")]
 impl IconShape for FileExport {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10884,11 +9524,9 @@ impl IconShape for FileExport {
 
 }
 
-#[cfg(feature = "solid_file_fragment")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileFragment {}
 
-#[cfg(feature = "solid_file_fragment")]
 impl IconShape for FileFragment {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10900,11 +9538,9 @@ impl IconShape for FileFragment {
 
 }
 
-#[cfg(feature = "solid_file_half_dashed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileHalfDashed {}
 
-#[cfg(feature = "solid_file_half_dashed")]
 impl IconShape for FileHalfDashed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10916,11 +9552,9 @@ impl IconShape for FileHalfDashed {
 
 }
 
-#[cfg(feature = "solid_file_image")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileImage {}
 
-#[cfg(feature = "solid_file_image")]
 impl IconShape for FileImage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10932,11 +9566,9 @@ impl IconShape for FileImage {
 
 }
 
-#[cfg(feature = "solid_file_import")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileImport {}
 
-#[cfg(feature = "solid_file_import")]
 impl IconShape for FileImport {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10948,11 +9580,9 @@ impl IconShape for FileImport {
 
 }
 
-#[cfg(feature = "solid_file_invoice")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileInvoice {}
 
-#[cfg(feature = "solid_file_invoice")]
 impl IconShape for FileInvoice {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10964,11 +9594,9 @@ impl IconShape for FileInvoice {
 
 }
 
-#[cfg(feature = "solid_file_invoice_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileInvoiceDollar {}
 
-#[cfg(feature = "solid_file_invoice_dollar")]
 impl IconShape for FileInvoiceDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10980,11 +9608,9 @@ impl IconShape for FileInvoiceDollar {
 
 }
 
-#[cfg(feature = "solid_file_lines")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileLines {}
 
-#[cfg(feature = "solid_file_lines")]
 impl IconShape for FileLines {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -10996,11 +9622,9 @@ impl IconShape for FileLines {
 
 }
 
-#[cfg(feature = "solid_file_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileMedical {}
 
-#[cfg(feature = "solid_file_medical")]
 impl IconShape for FileMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11012,11 +9636,9 @@ impl IconShape for FileMedical {
 
 }
 
-#[cfg(feature = "solid_file_medical_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileMedicalAlt {}
 
-#[cfg(feature = "solid_file_medical_alt")]
 impl IconShape for FileMedicalAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11028,11 +9650,9 @@ impl IconShape for FileMedicalAlt {
 
 }
 
-#[cfg(feature = "solid_file_pdf")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilePdf {}
 
-#[cfg(feature = "solid_file_pdf")]
 impl IconShape for FilePdf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11044,11 +9664,9 @@ impl IconShape for FilePdf {
 
 }
 
-#[cfg(feature = "solid_file_pen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilePen {}
 
-#[cfg(feature = "solid_file_pen")]
 impl IconShape for FilePen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11060,11 +9678,9 @@ impl IconShape for FilePen {
 
 }
 
-#[cfg(feature = "solid_file_powerpoint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilePowerpoint {}
 
-#[cfg(feature = "solid_file_powerpoint")]
 impl IconShape for FilePowerpoint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11076,11 +9692,9 @@ impl IconShape for FilePowerpoint {
 
 }
 
-#[cfg(feature = "solid_file_prescription")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilePrescription {}
 
-#[cfg(feature = "solid_file_prescription")]
 impl IconShape for FilePrescription {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11092,11 +9706,9 @@ impl IconShape for FilePrescription {
 
 }
 
-#[cfg(feature = "solid_file_shield")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileShield {}
 
-#[cfg(feature = "solid_file_shield")]
 impl IconShape for FileShield {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11108,11 +9720,9 @@ impl IconShape for FileShield {
 
 }
 
-#[cfg(feature = "solid_file_signature")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileSignature {}
 
-#[cfg(feature = "solid_file_signature")]
 impl IconShape for FileSignature {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11124,11 +9734,9 @@ impl IconShape for FileSignature {
 
 }
 
-#[cfg(feature = "solid_file_text")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileText {}
 
-#[cfg(feature = "solid_file_text")]
 impl IconShape for FileText {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11140,11 +9748,9 @@ impl IconShape for FileText {
 
 }
 
-#[cfg(feature = "solid_file_upload")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileUpload {}
 
-#[cfg(feature = "solid_file_upload")]
 impl IconShape for FileUpload {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11156,11 +9762,9 @@ impl IconShape for FileUpload {
 
 }
 
-#[cfg(feature = "solid_file_video")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileVideo {}
 
-#[cfg(feature = "solid_file_video")]
 impl IconShape for FileVideo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11172,11 +9776,9 @@ impl IconShape for FileVideo {
 
 }
 
-#[cfg(feature = "solid_file_waveform")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileWaveform {}
 
-#[cfg(feature = "solid_file_waveform")]
 impl IconShape for FileWaveform {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11188,11 +9790,9 @@ impl IconShape for FileWaveform {
 
 }
 
-#[cfg(feature = "solid_file_word")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileWord {}
 
-#[cfg(feature = "solid_file_word")]
 impl IconShape for FileWord {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11204,11 +9804,9 @@ impl IconShape for FileWord {
 
 }
 
-#[cfg(feature = "solid_file_zipper")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FileZipper {}
 
-#[cfg(feature = "solid_file_zipper")]
 impl IconShape for FileZipper {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11220,11 +9818,9 @@ impl IconShape for FileZipper {
 
 }
 
-#[cfg(feature = "solid_fill")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Fill {}
 
-#[cfg(feature = "solid_fill")]
 impl IconShape for Fill {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11236,11 +9832,9 @@ impl IconShape for Fill {
 
 }
 
-#[cfg(feature = "solid_fill_drip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FillDrip {}
 
-#[cfg(feature = "solid_fill_drip")]
 impl IconShape for FillDrip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11252,11 +9846,9 @@ impl IconShape for FillDrip {
 
 }
 
-#[cfg(feature = "solid_film")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Film {}
 
-#[cfg(feature = "solid_film")]
 impl IconShape for Film {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11268,11 +9860,9 @@ impl IconShape for Film {
 
 }
 
-#[cfg(feature = "solid_film_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilmAlt {}
 
-#[cfg(feature = "solid_film_alt")]
 impl IconShape for FilmAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11284,11 +9874,9 @@ impl IconShape for FilmAlt {
 
 }
 
-#[cfg(feature = "solid_film_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilmSimple {}
 
-#[cfg(feature = "solid_film_simple")]
 impl IconShape for FilmSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11300,11 +9888,9 @@ impl IconShape for FilmSimple {
 
 }
 
-#[cfg(feature = "solid_filter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Filter {}
 
-#[cfg(feature = "solid_filter")]
 impl IconShape for Filter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11316,11 +9902,9 @@ impl IconShape for Filter {
 
 }
 
-#[cfg(feature = "solid_filter_circle_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilterCircleDollar {}
 
-#[cfg(feature = "solid_filter_circle_dollar")]
 impl IconShape for FilterCircleDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11332,11 +9916,9 @@ impl IconShape for FilterCircleDollar {
 
 }
 
-#[cfg(feature = "solid_filter_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FilterCircleXmark {}
 
-#[cfg(feature = "solid_filter_circle_xmark")]
 impl IconShape for FilterCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11348,11 +9930,9 @@ impl IconShape for FilterCircleXmark {
 
 }
 
-#[cfg(feature = "solid_fingerprint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Fingerprint {}
 
-#[cfg(feature = "solid_fingerprint")]
 impl IconShape for Fingerprint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11364,11 +9944,9 @@ impl IconShape for Fingerprint {
 
 }
 
-#[cfg(feature = "solid_fire")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Fire {}
 
-#[cfg(feature = "solid_fire")]
 impl IconShape for Fire {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11380,11 +9958,9 @@ impl IconShape for Fire {
 
 }
 
-#[cfg(feature = "solid_fire_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FireAlt {}
 
-#[cfg(feature = "solid_fire_alt")]
 impl IconShape for FireAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11396,11 +9972,9 @@ impl IconShape for FireAlt {
 
 }
 
-#[cfg(feature = "solid_fire_burner")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FireBurner {}
 
-#[cfg(feature = "solid_fire_burner")]
 impl IconShape for FireBurner {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11412,11 +9986,9 @@ impl IconShape for FireBurner {
 
 }
 
-#[cfg(feature = "solid_fire_extinguisher")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FireExtinguisher {}
 
-#[cfg(feature = "solid_fire_extinguisher")]
 impl IconShape for FireExtinguisher {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11428,11 +10000,9 @@ impl IconShape for FireExtinguisher {
 
 }
 
-#[cfg(feature = "solid_fire_flame_curved")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FireFlameCurved {}
 
-#[cfg(feature = "solid_fire_flame_curved")]
 impl IconShape for FireFlameCurved {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11444,11 +10014,9 @@ impl IconShape for FireFlameCurved {
 
 }
 
-#[cfg(feature = "solid_fire_flame_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FireFlameSimple {}
 
-#[cfg(feature = "solid_fire_flame_simple")]
 impl IconShape for FireFlameSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11460,11 +10028,9 @@ impl IconShape for FireFlameSimple {
 
 }
 
-#[cfg(feature = "solid_first_aid")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FirstAid {}
 
-#[cfg(feature = "solid_first_aid")]
 impl IconShape for FirstAid {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11476,11 +10042,9 @@ impl IconShape for FirstAid {
 
 }
 
-#[cfg(feature = "solid_fish")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Fish {}
 
-#[cfg(feature = "solid_fish")]
 impl IconShape for Fish {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11492,11 +10056,9 @@ impl IconShape for Fish {
 
 }
 
-#[cfg(feature = "solid_fish_fins")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FishFins {}
 
-#[cfg(feature = "solid_fish_fins")]
 impl IconShape for FishFins {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11508,11 +10070,9 @@ impl IconShape for FishFins {
 
 }
 
-#[cfg(feature = "solid_fist_raised")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FistRaised {}
 
-#[cfg(feature = "solid_fist_raised")]
 impl IconShape for FistRaised {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11524,11 +10084,9 @@ impl IconShape for FistRaised {
 
 }
 
-#[cfg(feature = "solid_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Flag {}
 
-#[cfg(feature = "solid_flag")]
 impl IconShape for Flag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11540,11 +10098,9 @@ impl IconShape for Flag {
 
 }
 
-#[cfg(feature = "solid_flag_checkered")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FlagCheckered {}
 
-#[cfg(feature = "solid_flag_checkered")]
 impl IconShape for FlagCheckered {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11556,11 +10112,9 @@ impl IconShape for FlagCheckered {
 
 }
 
-#[cfg(feature = "solid_flag_usa")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FlagUsa {}
 
-#[cfg(feature = "solid_flag_usa")]
 impl IconShape for FlagUsa {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11572,11 +10126,9 @@ impl IconShape for FlagUsa {
 
 }
 
-#[cfg(feature = "solid_flask")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Flask {}
 
-#[cfg(feature = "solid_flask")]
 impl IconShape for Flask {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11588,11 +10140,9 @@ impl IconShape for Flask {
 
 }
 
-#[cfg(feature = "solid_flask_vial")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FlaskVial {}
 
-#[cfg(feature = "solid_flask_vial")]
 impl IconShape for FlaskVial {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11604,11 +10154,9 @@ impl IconShape for FlaskVial {
 
 }
 
-#[cfg(feature = "solid_floppy_disk")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FloppyDisk {}
 
-#[cfg(feature = "solid_floppy_disk")]
 impl IconShape for FloppyDisk {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11620,11 +10168,9 @@ impl IconShape for FloppyDisk {
 
 }
 
-#[cfg(feature = "solid_florin_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FlorinSign {}
 
-#[cfg(feature = "solid_florin_sign")]
 impl IconShape for FlorinSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11636,11 +10182,9 @@ impl IconShape for FlorinSign {
 
 }
 
-#[cfg(feature = "solid_flushed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Flushed {}
 
-#[cfg(feature = "solid_flushed")]
 impl IconShape for Flushed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11652,11 +10196,9 @@ impl IconShape for Flushed {
 
 }
 
-#[cfg(feature = "solid_folder")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Folder {}
 
-#[cfg(feature = "solid_folder")]
 impl IconShape for Folder {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11668,11 +10210,9 @@ impl IconShape for Folder {
 
 }
 
-#[cfg(feature = "solid_folder_blank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FolderBlank {}
 
-#[cfg(feature = "solid_folder_blank")]
 impl IconShape for FolderBlank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11684,11 +10224,9 @@ impl IconShape for FolderBlank {
 
 }
 
-#[cfg(feature = "solid_folder_closed")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FolderClosed {}
 
-#[cfg(feature = "solid_folder_closed")]
 impl IconShape for FolderClosed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11700,11 +10238,9 @@ impl IconShape for FolderClosed {
 
 }
 
-#[cfg(feature = "solid_folder_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FolderMinus {}
 
-#[cfg(feature = "solid_folder_minus")]
 impl IconShape for FolderMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11716,11 +10252,9 @@ impl IconShape for FolderMinus {
 
 }
 
-#[cfg(feature = "solid_folder_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FolderOpen {}
 
-#[cfg(feature = "solid_folder_open")]
 impl IconShape for FolderOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11732,11 +10266,9 @@ impl IconShape for FolderOpen {
 
 }
 
-#[cfg(feature = "solid_folder_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FolderPlus {}
 
-#[cfg(feature = "solid_folder_plus")]
 impl IconShape for FolderPlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11748,11 +10280,9 @@ impl IconShape for FolderPlus {
 
 }
 
-#[cfg(feature = "solid_folder_tree")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FolderTree {}
 
-#[cfg(feature = "solid_folder_tree")]
 impl IconShape for FolderTree {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11764,11 +10294,9 @@ impl IconShape for FolderTree {
 
 }
 
-#[cfg(feature = "solid_font")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Font {}
 
-#[cfg(feature = "solid_font")]
 impl IconShape for Font {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11780,11 +10308,9 @@ impl IconShape for Font {
 
 }
 
-#[cfg(feature = "solid_font_awesome")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FontAwesome {}
 
-#[cfg(feature = "solid_font_awesome")]
 impl IconShape for FontAwesome {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11796,11 +10322,9 @@ impl IconShape for FontAwesome {
 
 }
 
-#[cfg(feature = "solid_font_awesome_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FontAwesomeFlag {}
 
-#[cfg(feature = "solid_font_awesome_flag")]
 impl IconShape for FontAwesomeFlag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11812,11 +10336,9 @@ impl IconShape for FontAwesomeFlag {
 
 }
 
-#[cfg(feature = "solid_font_awesome_logo_full")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FontAwesomeLogoFull {}
 
-#[cfg(feature = "solid_font_awesome_logo_full")]
 impl IconShape for FontAwesomeLogoFull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11828,11 +10350,9 @@ impl IconShape for FontAwesomeLogoFull {
 
 }
 
-#[cfg(feature = "solid_football")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Football {}
 
-#[cfg(feature = "solid_football")]
 impl IconShape for Football {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11844,11 +10364,9 @@ impl IconShape for Football {
 
 }
 
-#[cfg(feature = "solid_football_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FootballBall {}
 
-#[cfg(feature = "solid_football_ball")]
 impl IconShape for FootballBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11860,11 +10378,9 @@ impl IconShape for FootballBall {
 
 }
 
-#[cfg(feature = "solid_forward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Forward {}
 
-#[cfg(feature = "solid_forward")]
 impl IconShape for Forward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11876,11 +10392,9 @@ impl IconShape for Forward {
 
 }
 
-#[cfg(feature = "solid_forward_fast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ForwardFast {}
 
-#[cfg(feature = "solid_forward_fast")]
 impl IconShape for ForwardFast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11892,11 +10406,9 @@ impl IconShape for ForwardFast {
 
 }
 
-#[cfg(feature = "solid_forward_step")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ForwardStep {}
 
-#[cfg(feature = "solid_forward_step")]
 impl IconShape for ForwardStep {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11908,11 +10420,9 @@ impl IconShape for ForwardStep {
 
 }
 
-#[cfg(feature = "solid_franc_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FrancSign {}
 
-#[cfg(feature = "solid_franc_sign")]
 impl IconShape for FrancSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11924,11 +10434,9 @@ impl IconShape for FrancSign {
 
 }
 
-#[cfg(feature = "solid_frog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Frog {}
 
-#[cfg(feature = "solid_frog")]
 impl IconShape for Frog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11940,11 +10448,9 @@ impl IconShape for Frog {
 
 }
 
-#[cfg(feature = "solid_frown")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Frown {}
 
-#[cfg(feature = "solid_frown")]
 impl IconShape for Frown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11956,11 +10462,9 @@ impl IconShape for Frown {
 
 }
 
-#[cfg(feature = "solid_frown_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FrownOpen {}
 
-#[cfg(feature = "solid_frown_open")]
 impl IconShape for FrownOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11972,11 +10476,9 @@ impl IconShape for FrownOpen {
 
 }
 
-#[cfg(feature = "solid_funnel_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FunnelDollar {}
 
-#[cfg(feature = "solid_funnel_dollar")]
 impl IconShape for FunnelDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -11988,11 +10490,9 @@ impl IconShape for FunnelDollar {
 
 }
 
-#[cfg(feature = "solid_futbol")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Futbol {}
 
-#[cfg(feature = "solid_futbol")]
 impl IconShape for Futbol {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12004,11 +10504,9 @@ impl IconShape for Futbol {
 
 }
 
-#[cfg(feature = "solid_futbol_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct FutbolBall {}
 
-#[cfg(feature = "solid_futbol_ball")]
 impl IconShape for FutbolBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12020,11 +10518,9 @@ impl IconShape for FutbolBall {
 
 }
 
-#[cfg(feature = "solid_g")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct G {}
 
-#[cfg(feature = "solid_g")]
 impl IconShape for G {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12036,11 +10532,9 @@ impl IconShape for G {
 
 }
 
-#[cfg(feature = "solid_gamepad")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gamepad {}
 
-#[cfg(feature = "solid_gamepad")]
 impl IconShape for Gamepad {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12052,11 +10546,9 @@ impl IconShape for Gamepad {
 
 }
 
-#[cfg(feature = "solid_gas_pump")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GasPump {}
 
-#[cfg(feature = "solid_gas_pump")]
 impl IconShape for GasPump {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12068,11 +10560,9 @@ impl IconShape for GasPump {
 
 }
 
-#[cfg(feature = "solid_gauge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gauge {}
 
-#[cfg(feature = "solid_gauge")]
 impl IconShape for Gauge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12084,11 +10574,9 @@ impl IconShape for Gauge {
 
 }
 
-#[cfg(feature = "solid_gauge_high")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GaugeHigh {}
 
-#[cfg(feature = "solid_gauge_high")]
 impl IconShape for GaugeHigh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12100,11 +10588,9 @@ impl IconShape for GaugeHigh {
 
 }
 
-#[cfg(feature = "solid_gauge_med")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GaugeMed {}
 
-#[cfg(feature = "solid_gauge_med")]
 impl IconShape for GaugeMed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12116,11 +10602,9 @@ impl IconShape for GaugeMed {
 
 }
 
-#[cfg(feature = "solid_gauge_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GaugeSimple {}
 
-#[cfg(feature = "solid_gauge_simple")]
 impl IconShape for GaugeSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12132,11 +10616,9 @@ impl IconShape for GaugeSimple {
 
 }
 
-#[cfg(feature = "solid_gauge_simple_high")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GaugeSimpleHigh {}
 
-#[cfg(feature = "solid_gauge_simple_high")]
 impl IconShape for GaugeSimpleHigh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12148,11 +10630,9 @@ impl IconShape for GaugeSimpleHigh {
 
 }
 
-#[cfg(feature = "solid_gauge_simple_med")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GaugeSimpleMed {}
 
-#[cfg(feature = "solid_gauge_simple_med")]
 impl IconShape for GaugeSimpleMed {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12164,11 +10644,9 @@ impl IconShape for GaugeSimpleMed {
 
 }
 
-#[cfg(feature = "solid_gavel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gavel {}
 
-#[cfg(feature = "solid_gavel")]
 impl IconShape for Gavel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12180,11 +10658,9 @@ impl IconShape for Gavel {
 
 }
 
-#[cfg(feature = "solid_gbp")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gbp {}
 
-#[cfg(feature = "solid_gbp")]
 impl IconShape for Gbp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12196,11 +10672,9 @@ impl IconShape for Gbp {
 
 }
 
-#[cfg(feature = "solid_gear")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gear {}
 
-#[cfg(feature = "solid_gear")]
 impl IconShape for Gear {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12212,11 +10686,9 @@ impl IconShape for Gear {
 
 }
 
-#[cfg(feature = "solid_gears")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gears {}
 
-#[cfg(feature = "solid_gears")]
 impl IconShape for Gears {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12228,11 +10700,9 @@ impl IconShape for Gears {
 
 }
 
-#[cfg(feature = "solid_gem")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gem {}
 
-#[cfg(feature = "solid_gem")]
 impl IconShape for Gem {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12244,11 +10714,9 @@ impl IconShape for Gem {
 
 }
 
-#[cfg(feature = "solid_gemini")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gemini {}
 
-#[cfg(feature = "solid_gemini")]
 impl IconShape for Gemini {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12260,11 +10728,9 @@ impl IconShape for Gemini {
 
 }
 
-#[cfg(feature = "solid_genderless")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Genderless {}
 
-#[cfg(feature = "solid_genderless")]
 impl IconShape for Genderless {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12276,11 +10742,9 @@ impl IconShape for Genderless {
 
 }
 
-#[cfg(feature = "solid_ghost")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ghost {}
 
-#[cfg(feature = "solid_ghost")]
 impl IconShape for Ghost {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12292,11 +10756,9 @@ impl IconShape for Ghost {
 
 }
 
-#[cfg(feature = "solid_gift")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gift {}
 
-#[cfg(feature = "solid_gift")]
 impl IconShape for Gift {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12308,11 +10770,9 @@ impl IconShape for Gift {
 
 }
 
-#[cfg(feature = "solid_gifts")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gifts {}
 
-#[cfg(feature = "solid_gifts")]
 impl IconShape for Gifts {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12324,11 +10784,9 @@ impl IconShape for Gifts {
 
 }
 
-#[cfg(feature = "solid_glass_cheers")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlassCheers {}
 
-#[cfg(feature = "solid_glass_cheers")]
 impl IconShape for GlassCheers {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12340,11 +10798,9 @@ impl IconShape for GlassCheers {
 
 }
 
-#[cfg(feature = "solid_glass_martini")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlassMartini {}
 
-#[cfg(feature = "solid_glass_martini")]
 impl IconShape for GlassMartini {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12356,11 +10812,9 @@ impl IconShape for GlassMartini {
 
 }
 
-#[cfg(feature = "solid_glass_martini_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlassMartiniAlt {}
 
-#[cfg(feature = "solid_glass_martini_alt")]
 impl IconShape for GlassMartiniAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12372,11 +10826,9 @@ impl IconShape for GlassMartiniAlt {
 
 }
 
-#[cfg(feature = "solid_glass_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlassWater {}
 
-#[cfg(feature = "solid_glass_water")]
 impl IconShape for GlassWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12388,11 +10840,9 @@ impl IconShape for GlassWater {
 
 }
 
-#[cfg(feature = "solid_glass_water_droplet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlassWaterDroplet {}
 
-#[cfg(feature = "solid_glass_water_droplet")]
 impl IconShape for GlassWaterDroplet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12404,11 +10854,9 @@ impl IconShape for GlassWaterDroplet {
 
 }
 
-#[cfg(feature = "solid_glass_whiskey")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlassWhiskey {}
 
-#[cfg(feature = "solid_glass_whiskey")]
 impl IconShape for GlassWhiskey {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12420,11 +10868,9 @@ impl IconShape for GlassWhiskey {
 
 }
 
-#[cfg(feature = "solid_glasses")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Glasses {}
 
-#[cfg(feature = "solid_glasses")]
 impl IconShape for Glasses {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12436,11 +10882,9 @@ impl IconShape for Glasses {
 
 }
 
-#[cfg(feature = "solid_globe")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Globe {}
 
-#[cfg(feature = "solid_globe")]
 impl IconShape for Globe {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12452,11 +10896,9 @@ impl IconShape for Globe {
 
 }
 
-#[cfg(feature = "solid_globe_africa")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlobeAfrica {}
 
-#[cfg(feature = "solid_globe_africa")]
 impl IconShape for GlobeAfrica {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12468,11 +10910,9 @@ impl IconShape for GlobeAfrica {
 
 }
 
-#[cfg(feature = "solid_globe_americas")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlobeAmericas {}
 
-#[cfg(feature = "solid_globe_americas")]
 impl IconShape for GlobeAmericas {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12484,11 +10924,9 @@ impl IconShape for GlobeAmericas {
 
 }
 
-#[cfg(feature = "solid_globe_asia")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlobeAsia {}
 
-#[cfg(feature = "solid_globe_asia")]
 impl IconShape for GlobeAsia {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12500,11 +10938,9 @@ impl IconShape for GlobeAsia {
 
 }
 
-#[cfg(feature = "solid_globe_europe")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlobeEurope {}
 
-#[cfg(feature = "solid_globe_europe")]
 impl IconShape for GlobeEurope {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12516,11 +10952,9 @@ impl IconShape for GlobeEurope {
 
 }
 
-#[cfg(feature = "solid_globe_oceania")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GlobeOceania {}
 
-#[cfg(feature = "solid_globe_oceania")]
 impl IconShape for GlobeOceania {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12532,11 +10966,9 @@ impl IconShape for GlobeOceania {
 
 }
 
-#[cfg(feature = "solid_golf_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GolfBall {}
 
-#[cfg(feature = "solid_golf_ball")]
 impl IconShape for GolfBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12548,11 +10980,9 @@ impl IconShape for GolfBall {
 
 }
 
-#[cfg(feature = "solid_golf_ball_tee")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GolfBallTee {}
 
-#[cfg(feature = "solid_golf_ball_tee")]
 impl IconShape for GolfBallTee {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12564,11 +10994,9 @@ impl IconShape for GolfBallTee {
 
 }
 
-#[cfg(feature = "solid_gopuram")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gopuram {}
 
-#[cfg(feature = "solid_gopuram")]
 impl IconShape for Gopuram {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12580,11 +11008,9 @@ impl IconShape for Gopuram {
 
 }
 
-#[cfg(feature = "solid_graduation_cap")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GraduationCap {}
 
-#[cfg(feature = "solid_graduation_cap")]
 impl IconShape for GraduationCap {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12596,11 +11022,9 @@ impl IconShape for GraduationCap {
 
 }
 
-#[cfg(feature = "solid_greater_than")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GreaterThan {}
 
-#[cfg(feature = "solid_greater_than")]
 impl IconShape for GreaterThan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12612,11 +11036,9 @@ impl IconShape for GreaterThan {
 
 }
 
-#[cfg(feature = "solid_greater_than_equal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GreaterThanEqual {}
 
-#[cfg(feature = "solid_greater_than_equal")]
 impl IconShape for GreaterThanEqual {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12628,11 +11050,9 @@ impl IconShape for GreaterThanEqual {
 
 }
 
-#[cfg(feature = "solid_grid_horizontal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GridHorizontal {}
 
-#[cfg(feature = "solid_grid_horizontal")]
 impl IconShape for GridHorizontal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12644,11 +11064,9 @@ impl IconShape for GridHorizontal {
 
 }
 
-#[cfg(feature = "solid_grid_vertical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GridVertical {}
 
-#[cfg(feature = "solid_grid_vertical")]
 impl IconShape for GridVertical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12660,11 +11078,9 @@ impl IconShape for GridVertical {
 
 }
 
-#[cfg(feature = "solid_grimace")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Grimace {}
 
-#[cfg(feature = "solid_grimace")]
 impl IconShape for Grimace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12676,11 +11092,9 @@ impl IconShape for Grimace {
 
 }
 
-#[cfg(feature = "solid_grin")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Grin {}
 
-#[cfg(feature = "solid_grin")]
 impl IconShape for Grin {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12692,11 +11106,9 @@ impl IconShape for Grin {
 
 }
 
-#[cfg(feature = "solid_grin_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinAlt {}
 
-#[cfg(feature = "solid_grin_alt")]
 impl IconShape for GrinAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12708,11 +11120,9 @@ impl IconShape for GrinAlt {
 
 }
 
-#[cfg(feature = "solid_grin_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinBeam {}
 
-#[cfg(feature = "solid_grin_beam")]
 impl IconShape for GrinBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12724,11 +11134,9 @@ impl IconShape for GrinBeam {
 
 }
 
-#[cfg(feature = "solid_grin_beam_sweat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinBeamSweat {}
 
-#[cfg(feature = "solid_grin_beam_sweat")]
 impl IconShape for GrinBeamSweat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12740,11 +11148,9 @@ impl IconShape for GrinBeamSweat {
 
 }
 
-#[cfg(feature = "solid_grin_hearts")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinHearts {}
 
-#[cfg(feature = "solid_grin_hearts")]
 impl IconShape for GrinHearts {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12756,11 +11162,9 @@ impl IconShape for GrinHearts {
 
 }
 
-#[cfg(feature = "solid_grin_squint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinSquint {}
 
-#[cfg(feature = "solid_grin_squint")]
 impl IconShape for GrinSquint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12772,11 +11176,9 @@ impl IconShape for GrinSquint {
 
 }
 
-#[cfg(feature = "solid_grin_squint_tears")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinSquintTears {}
 
-#[cfg(feature = "solid_grin_squint_tears")]
 impl IconShape for GrinSquintTears {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12788,11 +11190,9 @@ impl IconShape for GrinSquintTears {
 
 }
 
-#[cfg(feature = "solid_grin_stars")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinStars {}
 
-#[cfg(feature = "solid_grin_stars")]
 impl IconShape for GrinStars {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12804,11 +11204,9 @@ impl IconShape for GrinStars {
 
 }
 
-#[cfg(feature = "solid_grin_tears")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinTears {}
 
-#[cfg(feature = "solid_grin_tears")]
 impl IconShape for GrinTears {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12820,11 +11218,9 @@ impl IconShape for GrinTears {
 
 }
 
-#[cfg(feature = "solid_grin_tongue")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinTongue {}
 
-#[cfg(feature = "solid_grin_tongue")]
 impl IconShape for GrinTongue {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12836,11 +11232,9 @@ impl IconShape for GrinTongue {
 
 }
 
-#[cfg(feature = "solid_grin_tongue_squint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinTongueSquint {}
 
-#[cfg(feature = "solid_grin_tongue_squint")]
 impl IconShape for GrinTongueSquint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12852,11 +11246,9 @@ impl IconShape for GrinTongueSquint {
 
 }
 
-#[cfg(feature = "solid_grin_tongue_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinTongueWink {}
 
-#[cfg(feature = "solid_grin_tongue_wink")]
 impl IconShape for GrinTongueWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12868,11 +11260,9 @@ impl IconShape for GrinTongueWink {
 
 }
 
-#[cfg(feature = "solid_grin_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GrinWink {}
 
-#[cfg(feature = "solid_grin_wink")]
 impl IconShape for GrinWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12884,11 +11274,9 @@ impl IconShape for GrinWink {
 
 }
 
-#[cfg(feature = "solid_grip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Grip {}
 
-#[cfg(feature = "solid_grip")]
 impl IconShape for Grip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12900,11 +11288,9 @@ impl IconShape for Grip {
 
 }
 
-#[cfg(feature = "solid_grip_horizontal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GripHorizontal {}
 
-#[cfg(feature = "solid_grip_horizontal")]
 impl IconShape for GripHorizontal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12916,11 +11302,9 @@ impl IconShape for GripHorizontal {
 
 }
 
-#[cfg(feature = "solid_grip_lines")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GripLines {}
 
-#[cfg(feature = "solid_grip_lines")]
 impl IconShape for GripLines {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12932,11 +11316,9 @@ impl IconShape for GripLines {
 
 }
 
-#[cfg(feature = "solid_grip_lines_vertical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GripLinesVertical {}
 
-#[cfg(feature = "solid_grip_lines_vertical")]
 impl IconShape for GripLinesVertical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12948,11 +11330,9 @@ impl IconShape for GripLinesVertical {
 
 }
 
-#[cfg(feature = "solid_grip_vertical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GripVertical {}
 
-#[cfg(feature = "solid_grip_vertical")]
 impl IconShape for GripVertical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12964,11 +11344,9 @@ impl IconShape for GripVertical {
 
 }
 
-#[cfg(feature = "solid_group_arrows_rotate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GroupArrowsRotate {}
 
-#[cfg(feature = "solid_group_arrows_rotate")]
 impl IconShape for GroupArrowsRotate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12980,11 +11358,9 @@ impl IconShape for GroupArrowsRotate {
 
 }
 
-#[cfg(feature = "solid_guarani_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct GuaraniSign {}
 
-#[cfg(feature = "solid_guarani_sign")]
 impl IconShape for GuaraniSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -12996,11 +11372,9 @@ impl IconShape for GuaraniSign {
 
 }
 
-#[cfg(feature = "solid_guitar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Guitar {}
 
-#[cfg(feature = "solid_guitar")]
 impl IconShape for Guitar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13012,11 +11386,9 @@ impl IconShape for Guitar {
 
 }
 
-#[cfg(feature = "solid_gun")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Gun {}
 
-#[cfg(feature = "solid_gun")]
 impl IconShape for Gun {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13028,11 +11400,9 @@ impl IconShape for Gun {
 
 }
 
-#[cfg(feature = "solid_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct H {}
 
-#[cfg(feature = "solid_h")]
 impl IconShape for H {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13044,11 +11414,9 @@ impl IconShape for H {
 
 }
 
-#[cfg(feature = "solid_h_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HSquare {}
 
-#[cfg(feature = "solid_h_square")]
 impl IconShape for HSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13060,11 +11428,9 @@ impl IconShape for HSquare {
 
 }
 
-#[cfg(feature = "solid_hamburger")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hamburger {}
 
-#[cfg(feature = "solid_hamburger")]
 impl IconShape for Hamburger {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13076,11 +11442,9 @@ impl IconShape for Hamburger {
 
 }
 
-#[cfg(feature = "solid_hammer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hammer {}
 
-#[cfg(feature = "solid_hammer")]
 impl IconShape for Hammer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13092,11 +11456,9 @@ impl IconShape for Hammer {
 
 }
 
-#[cfg(feature = "solid_hamsa")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hamsa {}
 
-#[cfg(feature = "solid_hamsa")]
 impl IconShape for Hamsa {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13108,11 +11470,9 @@ impl IconShape for Hamsa {
 
 }
 
-#[cfg(feature = "solid_hand")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hand {}
 
-#[cfg(feature = "solid_hand")]
 impl IconShape for Hand {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13124,11 +11484,9 @@ impl IconShape for Hand {
 
 }
 
-#[cfg(feature = "solid_hand_back_fist")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandBackFist {}
 
-#[cfg(feature = "solid_hand_back_fist")]
 impl IconShape for HandBackFist {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13140,11 +11498,9 @@ impl IconShape for HandBackFist {
 
 }
 
-#[cfg(feature = "solid_hand_dots")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandDots {}
 
-#[cfg(feature = "solid_hand_dots")]
 impl IconShape for HandDots {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13156,11 +11512,9 @@ impl IconShape for HandDots {
 
 }
 
-#[cfg(feature = "solid_hand_fist")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandFist {}
 
-#[cfg(feature = "solid_hand_fist")]
 impl IconShape for HandFist {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13172,11 +11526,9 @@ impl IconShape for HandFist {
 
 }
 
-#[cfg(feature = "solid_hand_holding")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHolding {}
 
-#[cfg(feature = "solid_hand_holding")]
 impl IconShape for HandHolding {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13188,11 +11540,9 @@ impl IconShape for HandHolding {
 
 }
 
-#[cfg(feature = "solid_hand_holding_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingDollar {}
 
-#[cfg(feature = "solid_hand_holding_dollar")]
 impl IconShape for HandHoldingDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13204,11 +11554,9 @@ impl IconShape for HandHoldingDollar {
 
 }
 
-#[cfg(feature = "solid_hand_holding_droplet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingDroplet {}
 
-#[cfg(feature = "solid_hand_holding_droplet")]
 impl IconShape for HandHoldingDroplet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13220,11 +11568,9 @@ impl IconShape for HandHoldingDroplet {
 
 }
 
-#[cfg(feature = "solid_hand_holding_hand")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingHand {}
 
-#[cfg(feature = "solid_hand_holding_hand")]
 impl IconShape for HandHoldingHand {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13236,11 +11582,9 @@ impl IconShape for HandHoldingHand {
 
 }
 
-#[cfg(feature = "solid_hand_holding_heart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingHeart {}
 
-#[cfg(feature = "solid_hand_holding_heart")]
 impl IconShape for HandHoldingHeart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13252,11 +11596,9 @@ impl IconShape for HandHoldingHeart {
 
 }
 
-#[cfg(feature = "solid_hand_holding_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingMedical {}
 
-#[cfg(feature = "solid_hand_holding_medical")]
 impl IconShape for HandHoldingMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13268,11 +11610,9 @@ impl IconShape for HandHoldingMedical {
 
 }
 
-#[cfg(feature = "solid_hand_holding_usd")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingUsd {}
 
-#[cfg(feature = "solid_hand_holding_usd")]
 impl IconShape for HandHoldingUsd {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13284,11 +11624,9 @@ impl IconShape for HandHoldingUsd {
 
 }
 
-#[cfg(feature = "solid_hand_holding_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandHoldingWater {}
 
-#[cfg(feature = "solid_hand_holding_water")]
 impl IconShape for HandHoldingWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13300,11 +11638,9 @@ impl IconShape for HandHoldingWater {
 
 }
 
-#[cfg(feature = "solid_hand_lizard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandLizard {}
 
-#[cfg(feature = "solid_hand_lizard")]
 impl IconShape for HandLizard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13316,11 +11652,9 @@ impl IconShape for HandLizard {
 
 }
 
-#[cfg(feature = "solid_hand_middle_finger")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandMiddleFinger {}
 
-#[cfg(feature = "solid_hand_middle_finger")]
 impl IconShape for HandMiddleFinger {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13332,11 +11666,9 @@ impl IconShape for HandMiddleFinger {
 
 }
 
-#[cfg(feature = "solid_hand_paper")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPaper {}
 
-#[cfg(feature = "solid_hand_paper")]
 impl IconShape for HandPaper {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13348,11 +11680,9 @@ impl IconShape for HandPaper {
 
 }
 
-#[cfg(feature = "solid_hand_peace")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPeace {}
 
-#[cfg(feature = "solid_hand_peace")]
 impl IconShape for HandPeace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13364,11 +11694,9 @@ impl IconShape for HandPeace {
 
 }
 
-#[cfg(feature = "solid_hand_point_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPointDown {}
 
-#[cfg(feature = "solid_hand_point_down")]
 impl IconShape for HandPointDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13380,11 +11708,9 @@ impl IconShape for HandPointDown {
 
 }
 
-#[cfg(feature = "solid_hand_point_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPointLeft {}
 
-#[cfg(feature = "solid_hand_point_left")]
 impl IconShape for HandPointLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13396,11 +11722,9 @@ impl IconShape for HandPointLeft {
 
 }
 
-#[cfg(feature = "solid_hand_point_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPointRight {}
 
-#[cfg(feature = "solid_hand_point_right")]
 impl IconShape for HandPointRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13412,11 +11736,9 @@ impl IconShape for HandPointRight {
 
 }
 
-#[cfg(feature = "solid_hand_point_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPointUp {}
 
-#[cfg(feature = "solid_hand_point_up")]
 impl IconShape for HandPointUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13428,11 +11750,9 @@ impl IconShape for HandPointUp {
 
 }
 
-#[cfg(feature = "solid_hand_pointer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandPointer {}
 
-#[cfg(feature = "solid_hand_pointer")]
 impl IconShape for HandPointer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13444,11 +11764,9 @@ impl IconShape for HandPointer {
 
 }
 
-#[cfg(feature = "solid_hand_rock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandRock {}
 
-#[cfg(feature = "solid_hand_rock")]
 impl IconShape for HandRock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13460,11 +11778,9 @@ impl IconShape for HandRock {
 
 }
 
-#[cfg(feature = "solid_hand_scissors")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandScissors {}
 
-#[cfg(feature = "solid_hand_scissors")]
 impl IconShape for HandScissors {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13476,11 +11792,9 @@ impl IconShape for HandScissors {
 
 }
 
-#[cfg(feature = "solid_hand_sparkles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandSparkles {}
 
-#[cfg(feature = "solid_hand_sparkles")]
 impl IconShape for HandSparkles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13492,11 +11806,9 @@ impl IconShape for HandSparkles {
 
 }
 
-#[cfg(feature = "solid_hand_spock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandSpock {}
 
-#[cfg(feature = "solid_hand_spock")]
 impl IconShape for HandSpock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13508,11 +11820,9 @@ impl IconShape for HandSpock {
 
 }
 
-#[cfg(feature = "solid_handcuffs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Handcuffs {}
 
-#[cfg(feature = "solid_handcuffs")]
 impl IconShape for Handcuffs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13524,11 +11834,9 @@ impl IconShape for Handcuffs {
 
 }
 
-#[cfg(feature = "solid_hands")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hands {}
 
-#[cfg(feature = "solid_hands")]
 impl IconShape for Hands {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13540,11 +11848,9 @@ impl IconShape for Hands {
 
 }
 
-#[cfg(feature = "solid_hands_american_sign_language_interpreting")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsAmericanSignLanguageInterpreting {}
 
-#[cfg(feature = "solid_hands_american_sign_language_interpreting")]
 impl IconShape for HandsAmericanSignLanguageInterpreting {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13556,11 +11862,9 @@ impl IconShape for HandsAmericanSignLanguageInterpreting {
 
 }
 
-#[cfg(feature = "solid_hands_asl_interpreting")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsAslInterpreting {}
 
-#[cfg(feature = "solid_hands_asl_interpreting")]
 impl IconShape for HandsAslInterpreting {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13572,11 +11876,9 @@ impl IconShape for HandsAslInterpreting {
 
 }
 
-#[cfg(feature = "solid_hands_bound")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsBound {}
 
-#[cfg(feature = "solid_hands_bound")]
 impl IconShape for HandsBound {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13588,11 +11890,9 @@ impl IconShape for HandsBound {
 
 }
 
-#[cfg(feature = "solid_hands_bubbles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsBubbles {}
 
-#[cfg(feature = "solid_hands_bubbles")]
 impl IconShape for HandsBubbles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13604,11 +11904,9 @@ impl IconShape for HandsBubbles {
 
 }
 
-#[cfg(feature = "solid_hands_clapping")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsClapping {}
 
-#[cfg(feature = "solid_hands_clapping")]
 impl IconShape for HandsClapping {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13620,11 +11918,9 @@ impl IconShape for HandsClapping {
 
 }
 
-#[cfg(feature = "solid_hands_helping")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsHelping {}
 
-#[cfg(feature = "solid_hands_helping")]
 impl IconShape for HandsHelping {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13636,11 +11932,9 @@ impl IconShape for HandsHelping {
 
 }
 
-#[cfg(feature = "solid_hands_holding")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsHolding {}
 
-#[cfg(feature = "solid_hands_holding")]
 impl IconShape for HandsHolding {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13652,11 +11946,9 @@ impl IconShape for HandsHolding {
 
 }
 
-#[cfg(feature = "solid_hands_holding_child")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsHoldingChild {}
 
-#[cfg(feature = "solid_hands_holding_child")]
 impl IconShape for HandsHoldingChild {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13668,11 +11960,9 @@ impl IconShape for HandsHoldingChild {
 
 }
 
-#[cfg(feature = "solid_hands_holding_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsHoldingCircle {}
 
-#[cfg(feature = "solid_hands_holding_circle")]
 impl IconShape for HandsHoldingCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13684,11 +11974,9 @@ impl IconShape for HandsHoldingCircle {
 
 }
 
-#[cfg(feature = "solid_hands_praying")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsPraying {}
 
-#[cfg(feature = "solid_hands_praying")]
 impl IconShape for HandsPraying {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13700,11 +11988,9 @@ impl IconShape for HandsPraying {
 
 }
 
-#[cfg(feature = "solid_hands_wash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandsWash {}
 
-#[cfg(feature = "solid_hands_wash")]
 impl IconShape for HandsWash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13716,11 +12002,9 @@ impl IconShape for HandsWash {
 
 }
 
-#[cfg(feature = "solid_handshake")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Handshake {}
 
-#[cfg(feature = "solid_handshake")]
 impl IconShape for Handshake {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13732,11 +12016,9 @@ impl IconShape for Handshake {
 
 }
 
-#[cfg(feature = "solid_handshake_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandshakeAlt {}
 
-#[cfg(feature = "solid_handshake_alt")]
 impl IconShape for HandshakeAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13748,11 +12030,9 @@ impl IconShape for HandshakeAlt {
 
 }
 
-#[cfg(feature = "solid_handshake_alt_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandshakeAltSlash {}
 
-#[cfg(feature = "solid_handshake_alt_slash")]
 impl IconShape for HandshakeAltSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13764,11 +12044,9 @@ impl IconShape for HandshakeAltSlash {
 
 }
 
-#[cfg(feature = "solid_handshake_angle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandshakeAngle {}
 
-#[cfg(feature = "solid_handshake_angle")]
 impl IconShape for HandshakeAngle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13780,11 +12058,9 @@ impl IconShape for HandshakeAngle {
 
 }
 
-#[cfg(feature = "solid_handshake_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandshakeSimple {}
 
-#[cfg(feature = "solid_handshake_simple")]
 impl IconShape for HandshakeSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13796,11 +12072,9 @@ impl IconShape for HandshakeSimple {
 
 }
 
-#[cfg(feature = "solid_handshake_simple_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandshakeSimpleSlash {}
 
-#[cfg(feature = "solid_handshake_simple_slash")]
 impl IconShape for HandshakeSimpleSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13812,11 +12086,9 @@ impl IconShape for HandshakeSimpleSlash {
 
 }
 
-#[cfg(feature = "solid_handshake_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HandshakeSlash {}
 
-#[cfg(feature = "solid_handshake_slash")]
 impl IconShape for HandshakeSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13828,11 +12100,9 @@ impl IconShape for HandshakeSlash {
 
 }
 
-#[cfg(feature = "solid_hanukiah")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hanukiah {}
 
-#[cfg(feature = "solid_hanukiah")]
 impl IconShape for Hanukiah {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13844,11 +12114,9 @@ impl IconShape for Hanukiah {
 
 }
 
-#[cfg(feature = "solid_hard_drive")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HardDrive {}
 
-#[cfg(feature = "solid_hard_drive")]
 impl IconShape for HardDrive {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13860,11 +12128,9 @@ impl IconShape for HardDrive {
 
 }
 
-#[cfg(feature = "solid_hard_hat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HardHat {}
 
-#[cfg(feature = "solid_hard_hat")]
 impl IconShape for HardHat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13876,11 +12142,9 @@ impl IconShape for HardHat {
 
 }
 
-#[cfg(feature = "solid_hard_of_hearing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HardOfHearing {}
 
-#[cfg(feature = "solid_hard_of_hearing")]
 impl IconShape for HardOfHearing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13892,11 +12156,9 @@ impl IconShape for HardOfHearing {
 
 }
 
-#[cfg(feature = "solid_hashtag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hashtag {}
 
-#[cfg(feature = "solid_hashtag")]
 impl IconShape for Hashtag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13908,11 +12170,9 @@ impl IconShape for Hashtag {
 
 }
 
-#[cfg(feature = "solid_hat_cowboy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HatCowboy {}
 
-#[cfg(feature = "solid_hat_cowboy")]
 impl IconShape for HatCowboy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13924,11 +12184,9 @@ impl IconShape for HatCowboy {
 
 }
 
-#[cfg(feature = "solid_hat_cowboy_side")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HatCowboySide {}
 
-#[cfg(feature = "solid_hat_cowboy_side")]
 impl IconShape for HatCowboySide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13940,11 +12198,9 @@ impl IconShape for HatCowboySide {
 
 }
 
-#[cfg(feature = "solid_hat_hard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HatHard {}
 
-#[cfg(feature = "solid_hat_hard")]
 impl IconShape for HatHard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13956,11 +12212,9 @@ impl IconShape for HatHard {
 
 }
 
-#[cfg(feature = "solid_hat_wizard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HatWizard {}
 
-#[cfg(feature = "solid_hat_wizard")]
 impl IconShape for HatWizard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13972,11 +12226,9 @@ impl IconShape for HatWizard {
 
 }
 
-#[cfg(feature = "solid_haykal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Haykal {}
 
-#[cfg(feature = "solid_haykal")]
 impl IconShape for Haykal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -13988,11 +12240,9 @@ impl IconShape for Haykal {
 
 }
 
-#[cfg(feature = "solid_hdd")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hdd {}
 
-#[cfg(feature = "solid_hdd")]
 impl IconShape for Hdd {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14004,11 +12254,9 @@ impl IconShape for Hdd {
 
 }
 
-#[cfg(feature = "solid_head_side_cough")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeadSideCough {}
 
-#[cfg(feature = "solid_head_side_cough")]
 impl IconShape for HeadSideCough {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14020,11 +12268,9 @@ impl IconShape for HeadSideCough {
 
 }
 
-#[cfg(feature = "solid_head_side_cough_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeadSideCoughSlash {}
 
-#[cfg(feature = "solid_head_side_cough_slash")]
 impl IconShape for HeadSideCoughSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14036,11 +12282,9 @@ impl IconShape for HeadSideCoughSlash {
 
 }
 
-#[cfg(feature = "solid_head_side_mask")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeadSideMask {}
 
-#[cfg(feature = "solid_head_side_mask")]
 impl IconShape for HeadSideMask {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14052,11 +12296,9 @@ impl IconShape for HeadSideMask {
 
 }
 
-#[cfg(feature = "solid_head_side_virus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeadSideVirus {}
 
-#[cfg(feature = "solid_head_side_virus")]
 impl IconShape for HeadSideVirus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14068,11 +12310,9 @@ impl IconShape for HeadSideVirus {
 
 }
 
-#[cfg(feature = "solid_header")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Header {}
 
-#[cfg(feature = "solid_header")]
 impl IconShape for Header {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14084,11 +12324,9 @@ impl IconShape for Header {
 
 }
 
-#[cfg(feature = "solid_heading")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Heading {}
 
-#[cfg(feature = "solid_heading")]
 impl IconShape for Heading {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14100,11 +12338,9 @@ impl IconShape for Heading {
 
 }
 
-#[cfg(feature = "solid_headphones")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Headphones {}
 
-#[cfg(feature = "solid_headphones")]
 impl IconShape for Headphones {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14116,11 +12352,9 @@ impl IconShape for Headphones {
 
 }
 
-#[cfg(feature = "solid_headphones_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeadphonesAlt {}
 
-#[cfg(feature = "solid_headphones_alt")]
 impl IconShape for HeadphonesAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14132,11 +12366,9 @@ impl IconShape for HeadphonesAlt {
 
 }
 
-#[cfg(feature = "solid_headphones_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeadphonesSimple {}
 
-#[cfg(feature = "solid_headphones_simple")]
 impl IconShape for HeadphonesSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14148,11 +12380,9 @@ impl IconShape for HeadphonesSimple {
 
 }
 
-#[cfg(feature = "solid_headset")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Headset {}
 
-#[cfg(feature = "solid_headset")]
 impl IconShape for Headset {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14164,11 +12394,9 @@ impl IconShape for Headset {
 
 }
 
-#[cfg(feature = "solid_heart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Heart {}
 
-#[cfg(feature = "solid_heart")]
 impl IconShape for Heart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14180,11 +12408,9 @@ impl IconShape for Heart {
 
 }
 
-#[cfg(feature = "solid_heart_broken")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartBroken {}
 
-#[cfg(feature = "solid_heart_broken")]
 impl IconShape for HeartBroken {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14196,11 +12422,9 @@ impl IconShape for HeartBroken {
 
 }
 
-#[cfg(feature = "solid_heart_circle_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCircleBolt {}
 
-#[cfg(feature = "solid_heart_circle_bolt")]
 impl IconShape for HeartCircleBolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14212,11 +12436,9 @@ impl IconShape for HeartCircleBolt {
 
 }
 
-#[cfg(feature = "solid_heart_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCircleCheck {}
 
-#[cfg(feature = "solid_heart_circle_check")]
 impl IconShape for HeartCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14228,11 +12450,9 @@ impl IconShape for HeartCircleCheck {
 
 }
 
-#[cfg(feature = "solid_heart_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCircleExclamation {}
 
-#[cfg(feature = "solid_heart_circle_exclamation")]
 impl IconShape for HeartCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14244,11 +12464,9 @@ impl IconShape for HeartCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_heart_circle_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCircleMinus {}
 
-#[cfg(feature = "solid_heart_circle_minus")]
 impl IconShape for HeartCircleMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14260,11 +12478,9 @@ impl IconShape for HeartCircleMinus {
 
 }
 
-#[cfg(feature = "solid_heart_circle_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCirclePlus {}
 
-#[cfg(feature = "solid_heart_circle_plus")]
 impl IconShape for HeartCirclePlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14276,11 +12492,9 @@ impl IconShape for HeartCirclePlus {
 
 }
 
-#[cfg(feature = "solid_heart_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCircleXmark {}
 
-#[cfg(feature = "solid_heart_circle_xmark")]
 impl IconShape for HeartCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14292,11 +12506,9 @@ impl IconShape for HeartCircleXmark {
 
 }
 
-#[cfg(feature = "solid_heart_crack")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartCrack {}
 
-#[cfg(feature = "solid_heart_crack")]
 impl IconShape for HeartCrack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14308,11 +12520,9 @@ impl IconShape for HeartCrack {
 
 }
 
-#[cfg(feature = "solid_heart_music_camera_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartMusicCameraBolt {}
 
-#[cfg(feature = "solid_heart_music_camera_bolt")]
 impl IconShape for HeartMusicCameraBolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14324,11 +12534,9 @@ impl IconShape for HeartMusicCameraBolt {
 
 }
 
-#[cfg(feature = "solid_heart_pulse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HeartPulse {}
 
-#[cfg(feature = "solid_heart_pulse")]
 impl IconShape for HeartPulse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14340,11 +12548,9 @@ impl IconShape for HeartPulse {
 
 }
 
-#[cfg(feature = "solid_heartbeat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Heartbeat {}
 
-#[cfg(feature = "solid_heartbeat")]
 impl IconShape for Heartbeat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14356,11 +12562,9 @@ impl IconShape for Heartbeat {
 
 }
 
-#[cfg(feature = "solid_helicopter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Helicopter {}
 
-#[cfg(feature = "solid_helicopter")]
 impl IconShape for Helicopter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14372,11 +12576,9 @@ impl IconShape for Helicopter {
 
 }
 
-#[cfg(feature = "solid_helicopter_symbol")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HelicopterSymbol {}
 
-#[cfg(feature = "solid_helicopter_symbol")]
 impl IconShape for HelicopterSymbol {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14388,11 +12590,9 @@ impl IconShape for HelicopterSymbol {
 
 }
 
-#[cfg(feature = "solid_helmet_safety")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HelmetSafety {}
 
-#[cfg(feature = "solid_helmet_safety")]
 impl IconShape for HelmetSafety {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14404,11 +12604,9 @@ impl IconShape for HelmetSafety {
 
 }
 
-#[cfg(feature = "solid_helmet_un")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HelmetUn {}
 
-#[cfg(feature = "solid_helmet_un")]
 impl IconShape for HelmetUn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14420,11 +12618,9 @@ impl IconShape for HelmetUn {
 
 }
 
-#[cfg(feature = "solid_heptagon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Heptagon {}
 
-#[cfg(feature = "solid_heptagon")]
 impl IconShape for Heptagon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14436,11 +12632,9 @@ impl IconShape for Heptagon {
 
 }
 
-#[cfg(feature = "solid_hexagon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hexagon {}
 
-#[cfg(feature = "solid_hexagon")]
 impl IconShape for Hexagon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14452,11 +12646,9 @@ impl IconShape for Hexagon {
 
 }
 
-#[cfg(feature = "solid_hexagon_nodes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HexagonNodes {}
 
-#[cfg(feature = "solid_hexagon_nodes")]
 impl IconShape for HexagonNodes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14468,11 +12660,9 @@ impl IconShape for HexagonNodes {
 
 }
 
-#[cfg(feature = "solid_hexagon_nodes_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HexagonNodesBolt {}
 
-#[cfg(feature = "solid_hexagon_nodes_bolt")]
 impl IconShape for HexagonNodesBolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14484,11 +12674,9 @@ impl IconShape for HexagonNodesBolt {
 
 }
 
-#[cfg(feature = "solid_highlighter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Highlighter {}
 
-#[cfg(feature = "solid_highlighter")]
 impl IconShape for Highlighter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14500,11 +12688,9 @@ impl IconShape for Highlighter {
 
 }
 
-#[cfg(feature = "solid_hiking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hiking {}
 
-#[cfg(feature = "solid_hiking")]
 impl IconShape for Hiking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14516,11 +12702,9 @@ impl IconShape for Hiking {
 
 }
 
-#[cfg(feature = "solid_hill_avalanche")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HillAvalanche {}
 
-#[cfg(feature = "solid_hill_avalanche")]
 impl IconShape for HillAvalanche {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14532,11 +12716,9 @@ impl IconShape for HillAvalanche {
 
 }
 
-#[cfg(feature = "solid_hill_rockslide")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HillRockslide {}
 
-#[cfg(feature = "solid_hill_rockslide")]
 impl IconShape for HillRockslide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14548,11 +12730,9 @@ impl IconShape for HillRockslide {
 
 }
 
-#[cfg(feature = "solid_hippo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hippo {}
 
-#[cfg(feature = "solid_hippo")]
 impl IconShape for Hippo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14564,11 +12744,9 @@ impl IconShape for Hippo {
 
 }
 
-#[cfg(feature = "solid_history")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct History {}
 
-#[cfg(feature = "solid_history")]
 impl IconShape for History {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14580,11 +12758,9 @@ impl IconShape for History {
 
 }
 
-#[cfg(feature = "solid_hockey_puck")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HockeyPuck {}
 
-#[cfg(feature = "solid_hockey_puck")]
 impl IconShape for HockeyPuck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14596,11 +12772,9 @@ impl IconShape for HockeyPuck {
 
 }
 
-#[cfg(feature = "solid_holly_berry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HollyBerry {}
 
-#[cfg(feature = "solid_holly_berry")]
 impl IconShape for HollyBerry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14612,11 +12786,9 @@ impl IconShape for HollyBerry {
 
 }
 
-#[cfg(feature = "solid_home")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Home {}
 
-#[cfg(feature = "solid_home")]
 impl IconShape for Home {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14628,11 +12800,9 @@ impl IconShape for Home {
 
 }
 
-#[cfg(feature = "solid_home_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HomeAlt {}
 
-#[cfg(feature = "solid_home_alt")]
 impl IconShape for HomeAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14644,11 +12814,9 @@ impl IconShape for HomeAlt {
 
 }
 
-#[cfg(feature = "solid_home_lg")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HomeLg {}
 
-#[cfg(feature = "solid_home_lg")]
 impl IconShape for HomeLg {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14660,11 +12828,9 @@ impl IconShape for HomeLg {
 
 }
 
-#[cfg(feature = "solid_home_lg_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HomeLgAlt {}
 
-#[cfg(feature = "solid_home_lg_alt")]
 impl IconShape for HomeLgAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14676,11 +12842,9 @@ impl IconShape for HomeLgAlt {
 
 }
 
-#[cfg(feature = "solid_home_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HomeUser {}
 
-#[cfg(feature = "solid_home_user")]
 impl IconShape for HomeUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14692,11 +12856,9 @@ impl IconShape for HomeUser {
 
 }
 
-#[cfg(feature = "solid_horse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Horse {}
 
-#[cfg(feature = "solid_horse")]
 impl IconShape for Horse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14708,11 +12870,9 @@ impl IconShape for Horse {
 
 }
 
-#[cfg(feature = "solid_horse_head")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HorseHead {}
 
-#[cfg(feature = "solid_horse_head")]
 impl IconShape for HorseHead {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14724,11 +12884,9 @@ impl IconShape for HorseHead {
 
 }
 
-#[cfg(feature = "solid_hospital")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hospital {}
 
-#[cfg(feature = "solid_hospital")]
 impl IconShape for Hospital {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14740,11 +12898,9 @@ impl IconShape for Hospital {
 
 }
 
-#[cfg(feature = "solid_hospital_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HospitalAlt {}
 
-#[cfg(feature = "solid_hospital_alt")]
 impl IconShape for HospitalAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14756,11 +12912,9 @@ impl IconShape for HospitalAlt {
 
 }
 
-#[cfg(feature = "solid_hospital_symbol")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HospitalSymbol {}
 
-#[cfg(feature = "solid_hospital_symbol")]
 impl IconShape for HospitalSymbol {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14772,11 +12926,9 @@ impl IconShape for HospitalSymbol {
 
 }
 
-#[cfg(feature = "solid_hospital_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HospitalUser {}
 
-#[cfg(feature = "solid_hospital_user")]
 impl IconShape for HospitalUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14788,11 +12940,9 @@ impl IconShape for HospitalUser {
 
 }
 
-#[cfg(feature = "solid_hospital_wide")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HospitalWide {}
 
-#[cfg(feature = "solid_hospital_wide")]
 impl IconShape for HospitalWide {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14804,11 +12954,9 @@ impl IconShape for HospitalWide {
 
 }
 
-#[cfg(feature = "solid_hot_tub")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HotTub {}
 
-#[cfg(feature = "solid_hot_tub")]
 impl IconShape for HotTub {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14820,11 +12968,9 @@ impl IconShape for HotTub {
 
 }
 
-#[cfg(feature = "solid_hot_tub_person")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HotTubPerson {}
 
-#[cfg(feature = "solid_hot_tub_person")]
 impl IconShape for HotTubPerson {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14836,11 +12982,9 @@ impl IconShape for HotTubPerson {
 
 }
 
-#[cfg(feature = "solid_hotdog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hotdog {}
 
-#[cfg(feature = "solid_hotdog")]
 impl IconShape for Hotdog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14852,11 +12996,9 @@ impl IconShape for Hotdog {
 
 }
 
-#[cfg(feature = "solid_hotel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hotel {}
 
-#[cfg(feature = "solid_hotel")]
 impl IconShape for Hotel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14868,11 +13010,9 @@ impl IconShape for Hotel {
 
 }
 
-#[cfg(feature = "solid_hourglass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hourglass {}
 
-#[cfg(feature = "solid_hourglass")]
 impl IconShape for Hourglass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14884,11 +13024,9 @@ impl IconShape for Hourglass {
 
 }
 
-#[cfg(feature = "solid_hourglass_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hourglass1 {}
 
-#[cfg(feature = "solid_hourglass_1")]
 impl IconShape for Hourglass1 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14900,11 +13038,9 @@ impl IconShape for Hourglass1 {
 
 }
 
-#[cfg(feature = "solid_hourglass_2")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hourglass2 {}
 
-#[cfg(feature = "solid_hourglass_2")]
 impl IconShape for Hourglass2 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14916,11 +13052,9 @@ impl IconShape for Hourglass2 {
 
 }
 
-#[cfg(feature = "solid_hourglass_3")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hourglass3 {}
 
-#[cfg(feature = "solid_hourglass_3")]
 impl IconShape for Hourglass3 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14932,11 +13066,9 @@ impl IconShape for Hourglass3 {
 
 }
 
-#[cfg(feature = "solid_hourglass_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HourglassEmpty {}
 
-#[cfg(feature = "solid_hourglass_empty")]
 impl IconShape for HourglassEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14948,11 +13080,9 @@ impl IconShape for HourglassEmpty {
 
 }
 
-#[cfg(feature = "solid_hourglass_end")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HourglassEnd {}
 
-#[cfg(feature = "solid_hourglass_end")]
 impl IconShape for HourglassEnd {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14964,11 +13094,9 @@ impl IconShape for HourglassEnd {
 
 }
 
-#[cfg(feature = "solid_hourglass_half")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HourglassHalf {}
 
-#[cfg(feature = "solid_hourglass_half")]
 impl IconShape for HourglassHalf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14980,11 +13108,9 @@ impl IconShape for HourglassHalf {
 
 }
 
-#[cfg(feature = "solid_hourglass_start")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HourglassStart {}
 
-#[cfg(feature = "solid_hourglass_start")]
 impl IconShape for HourglassStart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -14996,11 +13122,9 @@ impl IconShape for HourglassStart {
 
 }
 
-#[cfg(feature = "solid_house")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct House {}
 
-#[cfg(feature = "solid_house")]
 impl IconShape for House {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15012,11 +13136,9 @@ impl IconShape for House {
 
 }
 
-#[cfg(feature = "solid_house_chimney")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseChimney {}
 
-#[cfg(feature = "solid_house_chimney")]
 impl IconShape for HouseChimney {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15028,11 +13150,9 @@ impl IconShape for HouseChimney {
 
 }
 
-#[cfg(feature = "solid_house_chimney_crack")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseChimneyCrack {}
 
-#[cfg(feature = "solid_house_chimney_crack")]
 impl IconShape for HouseChimneyCrack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15044,11 +13164,9 @@ impl IconShape for HouseChimneyCrack {
 
 }
 
-#[cfg(feature = "solid_house_chimney_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseChimneyMedical {}
 
-#[cfg(feature = "solid_house_chimney_medical")]
 impl IconShape for HouseChimneyMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15060,11 +13178,9 @@ impl IconShape for HouseChimneyMedical {
 
 }
 
-#[cfg(feature = "solid_house_chimney_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseChimneyUser {}
 
-#[cfg(feature = "solid_house_chimney_user")]
 impl IconShape for HouseChimneyUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15076,11 +13192,9 @@ impl IconShape for HouseChimneyUser {
 
 }
 
-#[cfg(feature = "solid_house_chimney_window")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseChimneyWindow {}
 
-#[cfg(feature = "solid_house_chimney_window")]
 impl IconShape for HouseChimneyWindow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15092,11 +13206,9 @@ impl IconShape for HouseChimneyWindow {
 
 }
 
-#[cfg(feature = "solid_house_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseCircleCheck {}
 
-#[cfg(feature = "solid_house_circle_check")]
 impl IconShape for HouseCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15108,11 +13220,9 @@ impl IconShape for HouseCircleCheck {
 
 }
 
-#[cfg(feature = "solid_house_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseCircleExclamation {}
 
-#[cfg(feature = "solid_house_circle_exclamation")]
 impl IconShape for HouseCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15124,11 +13234,9 @@ impl IconShape for HouseCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_house_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseCircleXmark {}
 
-#[cfg(feature = "solid_house_circle_xmark")]
 impl IconShape for HouseCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15140,11 +13248,9 @@ impl IconShape for HouseCircleXmark {
 
 }
 
-#[cfg(feature = "solid_house_crack")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseCrack {}
 
-#[cfg(feature = "solid_house_crack")]
 impl IconShape for HouseCrack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15156,11 +13262,9 @@ impl IconShape for HouseCrack {
 
 }
 
-#[cfg(feature = "solid_house_damage")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseDamage {}
 
-#[cfg(feature = "solid_house_damage")]
 impl IconShape for HouseDamage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15172,11 +13276,9 @@ impl IconShape for HouseDamage {
 
 }
 
-#[cfg(feature = "solid_house_fire")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseFire {}
 
-#[cfg(feature = "solid_house_fire")]
 impl IconShape for HouseFire {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15188,11 +13290,9 @@ impl IconShape for HouseFire {
 
 }
 
-#[cfg(feature = "solid_house_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseFlag {}
 
-#[cfg(feature = "solid_house_flag")]
 impl IconShape for HouseFlag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15204,11 +13304,9 @@ impl IconShape for HouseFlag {
 
 }
 
-#[cfg(feature = "solid_house_flood_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseFloodWater {}
 
-#[cfg(feature = "solid_house_flood_water")]
 impl IconShape for HouseFloodWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15220,11 +13318,9 @@ impl IconShape for HouseFloodWater {
 
 }
 
-#[cfg(feature = "solid_house_flood_water_circle_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseFloodWaterCircleArrowRight {}
 
-#[cfg(feature = "solid_house_flood_water_circle_arrow_right")]
 impl IconShape for HouseFloodWaterCircleArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15236,11 +13332,9 @@ impl IconShape for HouseFloodWaterCircleArrowRight {
 
 }
 
-#[cfg(feature = "solid_house_laptop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseLaptop {}
 
-#[cfg(feature = "solid_house_laptop")]
 impl IconShape for HouseLaptop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15252,11 +13346,9 @@ impl IconShape for HouseLaptop {
 
 }
 
-#[cfg(feature = "solid_house_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseLock {}
 
-#[cfg(feature = "solid_house_lock")]
 impl IconShape for HouseLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15268,11 +13360,9 @@ impl IconShape for HouseLock {
 
 }
 
-#[cfg(feature = "solid_house_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseMedical {}
 
-#[cfg(feature = "solid_house_medical")]
 impl IconShape for HouseMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15284,11 +13374,9 @@ impl IconShape for HouseMedical {
 
 }
 
-#[cfg(feature = "solid_house_medical_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseMedicalCircleCheck {}
 
-#[cfg(feature = "solid_house_medical_circle_check")]
 impl IconShape for HouseMedicalCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15300,11 +13388,9 @@ impl IconShape for HouseMedicalCircleCheck {
 
 }
 
-#[cfg(feature = "solid_house_medical_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseMedicalCircleExclamation {}
 
-#[cfg(feature = "solid_house_medical_circle_exclamation")]
 impl IconShape for HouseMedicalCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15316,11 +13402,9 @@ impl IconShape for HouseMedicalCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_house_medical_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseMedicalCircleXmark {}
 
-#[cfg(feature = "solid_house_medical_circle_xmark")]
 impl IconShape for HouseMedicalCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15332,11 +13416,9 @@ impl IconShape for HouseMedicalCircleXmark {
 
 }
 
-#[cfg(feature = "solid_house_medical_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseMedicalFlag {}
 
-#[cfg(feature = "solid_house_medical_flag")]
 impl IconShape for HouseMedicalFlag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15348,11 +13430,9 @@ impl IconShape for HouseMedicalFlag {
 
 }
 
-#[cfg(feature = "solid_house_signal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseSignal {}
 
-#[cfg(feature = "solid_house_signal")]
 impl IconShape for HouseSignal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15364,11 +13444,9 @@ impl IconShape for HouseSignal {
 
 }
 
-#[cfg(feature = "solid_house_tsunami")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseTsunami {}
 
-#[cfg(feature = "solid_house_tsunami")]
 impl IconShape for HouseTsunami {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15380,11 +13458,9 @@ impl IconShape for HouseTsunami {
 
 }
 
-#[cfg(feature = "solid_house_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HouseUser {}
 
-#[cfg(feature = "solid_house_user")]
 impl IconShape for HouseUser {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15396,11 +13472,9 @@ impl IconShape for HouseUser {
 
 }
 
-#[cfg(feature = "solid_hryvnia")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hryvnia {}
 
-#[cfg(feature = "solid_hryvnia")]
 impl IconShape for Hryvnia {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15412,11 +13486,9 @@ impl IconShape for Hryvnia {
 
 }
 
-#[cfg(feature = "solid_hryvnia_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct HryvniaSign {}
 
-#[cfg(feature = "solid_hryvnia_sign")]
 impl IconShape for HryvniaSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15428,11 +13500,9 @@ impl IconShape for HryvniaSign {
 
 }
 
-#[cfg(feature = "solid_hurricane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Hurricane {}
 
-#[cfg(feature = "solid_hurricane")]
 impl IconShape for Hurricane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15444,11 +13514,9 @@ impl IconShape for Hurricane {
 
 }
 
-#[cfg(feature = "solid_i")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct I {}
 
-#[cfg(feature = "solid_i")]
 impl IconShape for I {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15460,11 +13528,9 @@ impl IconShape for I {
 
 }
 
-#[cfg(feature = "solid_i_cursor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ICursor {}
 
-#[cfg(feature = "solid_i_cursor")]
 impl IconShape for ICursor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15476,11 +13542,9 @@ impl IconShape for ICursor {
 
 }
 
-#[cfg(feature = "solid_ice_cream")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IceCream {}
 
-#[cfg(feature = "solid_ice_cream")]
 impl IconShape for IceCream {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15492,11 +13556,9 @@ impl IconShape for IceCream {
 
 }
 
-#[cfg(feature = "solid_icicles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icicles {}
 
-#[cfg(feature = "solid_icicles")]
 impl IconShape for Icicles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15508,11 +13570,9 @@ impl IconShape for Icicles {
 
 }
 
-#[cfg(feature = "solid_icon_0")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon0 {}
 
-#[cfg(feature = "solid_icon_0")]
 impl IconShape for Icon0 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15524,11 +13584,9 @@ impl IconShape for Icon0 {
 
 }
 
-#[cfg(feature = "solid_icon_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon1 {}
 
-#[cfg(feature = "solid_icon_1")]
 impl IconShape for Icon1 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15540,11 +13598,9 @@ impl IconShape for Icon1 {
 
 }
 
-#[cfg(feature = "solid_icon_2")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon2 {}
 
-#[cfg(feature = "solid_icon_2")]
 impl IconShape for Icon2 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15556,11 +13612,9 @@ impl IconShape for Icon2 {
 
 }
 
-#[cfg(feature = "solid_icon_3")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon3 {}
 
-#[cfg(feature = "solid_icon_3")]
 impl IconShape for Icon3 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15572,11 +13626,9 @@ impl IconShape for Icon3 {
 
 }
 
-#[cfg(feature = "solid_icon_4")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon4 {}
 
-#[cfg(feature = "solid_icon_4")]
 impl IconShape for Icon4 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15588,11 +13640,9 @@ impl IconShape for Icon4 {
 
 }
 
-#[cfg(feature = "solid_icon_5")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon5 {}
 
-#[cfg(feature = "solid_icon_5")]
 impl IconShape for Icon5 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15604,11 +13654,9 @@ impl IconShape for Icon5 {
 
 }
 
-#[cfg(feature = "solid_icon_6")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon6 {}
 
-#[cfg(feature = "solid_icon_6")]
 impl IconShape for Icon6 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15620,11 +13668,9 @@ impl IconShape for Icon6 {
 
 }
 
-#[cfg(feature = "solid_icon_7")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon7 {}
 
-#[cfg(feature = "solid_icon_7")]
 impl IconShape for Icon7 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15636,11 +13682,9 @@ impl IconShape for Icon7 {
 
 }
 
-#[cfg(feature = "solid_icon_8")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon8 {}
 
-#[cfg(feature = "solid_icon_8")]
 impl IconShape for Icon8 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15652,11 +13696,9 @@ impl IconShape for Icon8 {
 
 }
 
-#[cfg(feature = "solid_icon_9")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icon9 {}
 
-#[cfg(feature = "solid_icon_9")]
 impl IconShape for Icon9 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15668,11 +13710,9 @@ impl IconShape for Icon9 {
 
 }
 
-#[cfg(feature = "solid_icon_box")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IconBox {}
 
-#[cfg(feature = "solid_icon_box")]
 impl IconShape for IconBox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15684,11 +13724,9 @@ impl IconShape for IconBox {
 
 }
 
-#[cfg(feature = "solid_icon_try")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IconTry {}
 
-#[cfg(feature = "solid_icon_try")]
 impl IconShape for IconTry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15700,11 +13738,9 @@ impl IconShape for IconTry {
 
 }
 
-#[cfg(feature = "solid_icons")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Icons {}
 
-#[cfg(feature = "solid_icons")]
 impl IconShape for Icons {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15716,11 +13752,9 @@ impl IconShape for Icons {
 
 }
 
-#[cfg(feature = "solid_id_badge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IdBadge {}
 
-#[cfg(feature = "solid_id_badge")]
 impl IconShape for IdBadge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15732,11 +13766,9 @@ impl IconShape for IdBadge {
 
 }
 
-#[cfg(feature = "solid_id_card")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IdCard {}
 
-#[cfg(feature = "solid_id_card")]
 impl IconShape for IdCard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15748,11 +13780,9 @@ impl IconShape for IdCard {
 
 }
 
-#[cfg(feature = "solid_id_card_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IdCardAlt {}
 
-#[cfg(feature = "solid_id_card_alt")]
 impl IconShape for IdCardAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15764,11 +13794,9 @@ impl IconShape for IdCardAlt {
 
 }
 
-#[cfg(feature = "solid_id_card_clip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IdCardClip {}
 
-#[cfg(feature = "solid_id_card_clip")]
 impl IconShape for IdCardClip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15780,11 +13808,9 @@ impl IconShape for IdCardClip {
 
 }
 
-#[cfg(feature = "solid_igloo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Igloo {}
 
-#[cfg(feature = "solid_igloo")]
 impl IconShape for Igloo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15796,11 +13822,9 @@ impl IconShape for Igloo {
 
 }
 
-#[cfg(feature = "solid_ils")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ils {}
 
-#[cfg(feature = "solid_ils")]
 impl IconShape for Ils {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15812,11 +13836,9 @@ impl IconShape for Ils {
 
 }
 
-#[cfg(feature = "solid_image")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Image {}
 
-#[cfg(feature = "solid_image")]
 impl IconShape for Image {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15828,11 +13850,9 @@ impl IconShape for Image {
 
 }
 
-#[cfg(feature = "solid_image_portrait")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ImagePortrait {}
 
-#[cfg(feature = "solid_image_portrait")]
 impl IconShape for ImagePortrait {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15844,11 +13864,9 @@ impl IconShape for ImagePortrait {
 
 }
 
-#[cfg(feature = "solid_images")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Images {}
 
-#[cfg(feature = "solid_images")]
 impl IconShape for Images {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15860,11 +13878,9 @@ impl IconShape for Images {
 
 }
 
-#[cfg(feature = "solid_inbox")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Inbox {}
 
-#[cfg(feature = "solid_inbox")]
 impl IconShape for Inbox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15876,11 +13892,9 @@ impl IconShape for Inbox {
 
 }
 
-#[cfg(feature = "solid_indent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Indent {}
 
-#[cfg(feature = "solid_indent")]
 impl IconShape for Indent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15892,11 +13906,9 @@ impl IconShape for Indent {
 
 }
 
-#[cfg(feature = "solid_indian_rupee")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IndianRupee {}
 
-#[cfg(feature = "solid_indian_rupee")]
 impl IconShape for IndianRupee {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15908,11 +13920,9 @@ impl IconShape for IndianRupee {
 
 }
 
-#[cfg(feature = "solid_indian_rupee_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct IndianRupeeSign {}
 
-#[cfg(feature = "solid_indian_rupee_sign")]
 impl IconShape for IndianRupeeSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15924,11 +13934,9 @@ impl IconShape for IndianRupeeSign {
 
 }
 
-#[cfg(feature = "solid_industry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Industry {}
 
-#[cfg(feature = "solid_industry")]
 impl IconShape for Industry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15940,11 +13948,9 @@ impl IconShape for Industry {
 
 }
 
-#[cfg(feature = "solid_infinity")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Infinity {}
 
-#[cfg(feature = "solid_infinity")]
 impl IconShape for Infinity {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15956,11 +13962,9 @@ impl IconShape for Infinity {
 
 }
 
-#[cfg(feature = "solid_info")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Info {}
 
-#[cfg(feature = "solid_info")]
 impl IconShape for Info {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15972,11 +13976,9 @@ impl IconShape for Info {
 
 }
 
-#[cfg(feature = "solid_info_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct InfoCircle {}
 
-#[cfg(feature = "solid_info_circle")]
 impl IconShape for InfoCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -15988,11 +13990,9 @@ impl IconShape for InfoCircle {
 
 }
 
-#[cfg(feature = "solid_inr")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Inr {}
 
-#[cfg(feature = "solid_inr")]
 impl IconShape for Inr {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16004,11 +14004,9 @@ impl IconShape for Inr {
 
 }
 
-#[cfg(feature = "solid_institution")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Institution {}
 
-#[cfg(feature = "solid_institution")]
 impl IconShape for Institution {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16020,11 +14018,9 @@ impl IconShape for Institution {
 
 }
 
-#[cfg(feature = "solid_italic")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Italic {}
 
-#[cfg(feature = "solid_italic")]
 impl IconShape for Italic {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16036,11 +14032,9 @@ impl IconShape for Italic {
 
 }
 
-#[cfg(feature = "solid_j")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct J {}
 
-#[cfg(feature = "solid_j")]
 impl IconShape for J {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16052,11 +14046,9 @@ impl IconShape for J {
 
 }
 
-#[cfg(feature = "solid_jar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Jar {}
 
-#[cfg(feature = "solid_jar")]
 impl IconShape for Jar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16068,11 +14060,9 @@ impl IconShape for Jar {
 
 }
 
-#[cfg(feature = "solid_jar_wheat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct JarWheat {}
 
-#[cfg(feature = "solid_jar_wheat")]
 impl IconShape for JarWheat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16084,11 +14074,9 @@ impl IconShape for JarWheat {
 
 }
 
-#[cfg(feature = "solid_jedi")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Jedi {}
 
-#[cfg(feature = "solid_jedi")]
 impl IconShape for Jedi {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16100,11 +14088,9 @@ impl IconShape for Jedi {
 
 }
 
-#[cfg(feature = "solid_jet_fighter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct JetFighter {}
 
-#[cfg(feature = "solid_jet_fighter")]
 impl IconShape for JetFighter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16116,11 +14102,9 @@ impl IconShape for JetFighter {
 
 }
 
-#[cfg(feature = "solid_jet_fighter_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct JetFighterUp {}
 
-#[cfg(feature = "solid_jet_fighter_up")]
 impl IconShape for JetFighterUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16132,11 +14116,9 @@ impl IconShape for JetFighterUp {
 
 }
 
-#[cfg(feature = "solid_joint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Joint {}
 
-#[cfg(feature = "solid_joint")]
 impl IconShape for Joint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16148,11 +14130,9 @@ impl IconShape for Joint {
 
 }
 
-#[cfg(feature = "solid_journal_whills")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct JournalWhills {}
 
-#[cfg(feature = "solid_journal_whills")]
 impl IconShape for JournalWhills {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16164,11 +14144,9 @@ impl IconShape for JournalWhills {
 
 }
 
-#[cfg(feature = "solid_jpy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Jpy {}
 
-#[cfg(feature = "solid_jpy")]
 impl IconShape for Jpy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16180,11 +14158,9 @@ impl IconShape for Jpy {
 
 }
 
-#[cfg(feature = "solid_jug_detergent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct JugDetergent {}
 
-#[cfg(feature = "solid_jug_detergent")]
 impl IconShape for JugDetergent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16196,11 +14172,9 @@ impl IconShape for JugDetergent {
 
 }
 
-#[cfg(feature = "solid_k")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct K {}
 
-#[cfg(feature = "solid_k")]
 impl IconShape for K {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16212,11 +14186,9 @@ impl IconShape for K {
 
 }
 
-#[cfg(feature = "solid_kaaba")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Kaaba {}
 
-#[cfg(feature = "solid_kaaba")]
 impl IconShape for Kaaba {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16228,11 +14200,9 @@ impl IconShape for Kaaba {
 
 }
 
-#[cfg(feature = "solid_key")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Key {}
 
-#[cfg(feature = "solid_key")]
 impl IconShape for Key {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16244,11 +14214,9 @@ impl IconShape for Key {
 
 }
 
-#[cfg(feature = "solid_keyboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Keyboard {}
 
-#[cfg(feature = "solid_keyboard")]
 impl IconShape for Keyboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16260,11 +14228,9 @@ impl IconShape for Keyboard {
 
 }
 
-#[cfg(feature = "solid_khanda")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Khanda {}
 
-#[cfg(feature = "solid_khanda")]
 impl IconShape for Khanda {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16276,11 +14242,9 @@ impl IconShape for Khanda {
 
 }
 
-#[cfg(feature = "solid_kip_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct KipSign {}
 
-#[cfg(feature = "solid_kip_sign")]
 impl IconShape for KipSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16292,11 +14256,9 @@ impl IconShape for KipSign {
 
 }
 
-#[cfg(feature = "solid_kiss")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Kiss {}
 
-#[cfg(feature = "solid_kiss")]
 impl IconShape for Kiss {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16308,11 +14270,9 @@ impl IconShape for Kiss {
 
 }
 
-#[cfg(feature = "solid_kiss_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct KissBeam {}
 
-#[cfg(feature = "solid_kiss_beam")]
 impl IconShape for KissBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16324,11 +14284,9 @@ impl IconShape for KissBeam {
 
 }
 
-#[cfg(feature = "solid_kiss_wink_heart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct KissWinkHeart {}
 
-#[cfg(feature = "solid_kiss_wink_heart")]
 impl IconShape for KissWinkHeart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16340,11 +14298,9 @@ impl IconShape for KissWinkHeart {
 
 }
 
-#[cfg(feature = "solid_kit_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct KitMedical {}
 
-#[cfg(feature = "solid_kit_medical")]
 impl IconShape for KitMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16356,11 +14312,9 @@ impl IconShape for KitMedical {
 
 }
 
-#[cfg(feature = "solid_kitchen_set")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct KitchenSet {}
 
-#[cfg(feature = "solid_kitchen_set")]
 impl IconShape for KitchenSet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16372,11 +14326,9 @@ impl IconShape for KitchenSet {
 
 }
 
-#[cfg(feature = "solid_kiwi_bird")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct KiwiBird {}
 
-#[cfg(feature = "solid_kiwi_bird")]
 impl IconShape for KiwiBird {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16388,11 +14340,9 @@ impl IconShape for KiwiBird {
 
 }
 
-#[cfg(feature = "solid_krw")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Krw {}
 
-#[cfg(feature = "solid_krw")]
 impl IconShape for Krw {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16404,11 +14354,9 @@ impl IconShape for Krw {
 
 }
 
-#[cfg(feature = "solid_l")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct L {}
 
-#[cfg(feature = "solid_l")]
 impl IconShape for L {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16420,11 +14368,9 @@ impl IconShape for L {
 
 }
 
-#[cfg(feature = "solid_ladder_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LadderWater {}
 
-#[cfg(feature = "solid_ladder_water")]
 impl IconShape for LadderWater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16436,11 +14382,9 @@ impl IconShape for LadderWater {
 
 }
 
-#[cfg(feature = "solid_land_mine_on")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LandMineOn {}
 
-#[cfg(feature = "solid_land_mine_on")]
 impl IconShape for LandMineOn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16452,11 +14396,9 @@ impl IconShape for LandMineOn {
 
 }
 
-#[cfg(feature = "solid_landmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Landmark {}
 
-#[cfg(feature = "solid_landmark")]
 impl IconShape for Landmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16468,11 +14410,9 @@ impl IconShape for Landmark {
 
 }
 
-#[cfg(feature = "solid_landmark_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LandmarkAlt {}
 
-#[cfg(feature = "solid_landmark_alt")]
 impl IconShape for LandmarkAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16484,11 +14424,9 @@ impl IconShape for LandmarkAlt {
 
 }
 
-#[cfg(feature = "solid_landmark_dome")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LandmarkDome {}
 
-#[cfg(feature = "solid_landmark_dome")]
 impl IconShape for LandmarkDome {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16500,11 +14438,9 @@ impl IconShape for LandmarkDome {
 
 }
 
-#[cfg(feature = "solid_landmark_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LandmarkFlag {}
 
-#[cfg(feature = "solid_landmark_flag")]
 impl IconShape for LandmarkFlag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16516,11 +14452,9 @@ impl IconShape for LandmarkFlag {
 
 }
 
-#[cfg(feature = "solid_language")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Language {}
 
-#[cfg(feature = "solid_language")]
 impl IconShape for Language {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16532,11 +14466,9 @@ impl IconShape for Language {
 
 }
 
-#[cfg(feature = "solid_laptop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Laptop {}
 
-#[cfg(feature = "solid_laptop")]
 impl IconShape for Laptop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16548,11 +14480,9 @@ impl IconShape for Laptop {
 
 }
 
-#[cfg(feature = "solid_laptop_code")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaptopCode {}
 
-#[cfg(feature = "solid_laptop_code")]
 impl IconShape for LaptopCode {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16564,11 +14494,9 @@ impl IconShape for LaptopCode {
 
 }
 
-#[cfg(feature = "solid_laptop_file")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaptopFile {}
 
-#[cfg(feature = "solid_laptop_file")]
 impl IconShape for LaptopFile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16580,11 +14508,9 @@ impl IconShape for LaptopFile {
 
 }
 
-#[cfg(feature = "solid_laptop_house")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaptopHouse {}
 
-#[cfg(feature = "solid_laptop_house")]
 impl IconShape for LaptopHouse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16596,11 +14522,9 @@ impl IconShape for LaptopHouse {
 
 }
 
-#[cfg(feature = "solid_laptop_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaptopMedical {}
 
-#[cfg(feature = "solid_laptop_medical")]
 impl IconShape for LaptopMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16612,11 +14536,9 @@ impl IconShape for LaptopMedical {
 
 }
 
-#[cfg(feature = "solid_lari_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LariSign {}
 
-#[cfg(feature = "solid_lari_sign")]
 impl IconShape for LariSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16628,11 +14550,9 @@ impl IconShape for LariSign {
 
 }
 
-#[cfg(feature = "solid_laugh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Laugh {}
 
-#[cfg(feature = "solid_laugh")]
 impl IconShape for Laugh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16644,11 +14564,9 @@ impl IconShape for Laugh {
 
 }
 
-#[cfg(feature = "solid_laugh_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaughBeam {}
 
-#[cfg(feature = "solid_laugh_beam")]
 impl IconShape for LaughBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16660,11 +14578,9 @@ impl IconShape for LaughBeam {
 
 }
 
-#[cfg(feature = "solid_laugh_squint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaughSquint {}
 
-#[cfg(feature = "solid_laugh_squint")]
 impl IconShape for LaughSquint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16676,11 +14592,9 @@ impl IconShape for LaughSquint {
 
 }
 
-#[cfg(feature = "solid_laugh_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LaughWink {}
 
-#[cfg(feature = "solid_laugh_wink")]
 impl IconShape for LaughWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16692,11 +14606,9 @@ impl IconShape for LaughWink {
 
 }
 
-#[cfg(feature = "solid_layer_group")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LayerGroup {}
 
-#[cfg(feature = "solid_layer_group")]
 impl IconShape for LayerGroup {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16708,11 +14620,9 @@ impl IconShape for LayerGroup {
 
 }
 
-#[cfg(feature = "solid_leaf")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Leaf {}
 
-#[cfg(feature = "solid_leaf")]
 impl IconShape for Leaf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16724,11 +14634,9 @@ impl IconShape for Leaf {
 
 }
 
-#[cfg(feature = "solid_left_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LeftLong {}
 
-#[cfg(feature = "solid_left_long")]
 impl IconShape for LeftLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16740,11 +14648,9 @@ impl IconShape for LeftLong {
 
 }
 
-#[cfg(feature = "solid_left_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LeftRight {}
 
-#[cfg(feature = "solid_left_right")]
 impl IconShape for LeftRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16756,11 +14662,9 @@ impl IconShape for LeftRight {
 
 }
 
-#[cfg(feature = "solid_legal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Legal {}
 
-#[cfg(feature = "solid_legal")]
 impl IconShape for Legal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16772,11 +14676,9 @@ impl IconShape for Legal {
 
 }
 
-#[cfg(feature = "solid_lemon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Lemon {}
 
-#[cfg(feature = "solid_lemon")]
 impl IconShape for Lemon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16788,11 +14690,9 @@ impl IconShape for Lemon {
 
 }
 
-#[cfg(feature = "solid_leo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Leo {}
 
-#[cfg(feature = "solid_leo")]
 impl IconShape for Leo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16804,11 +14704,9 @@ impl IconShape for Leo {
 
 }
 
-#[cfg(feature = "solid_less_than")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LessThan {}
 
-#[cfg(feature = "solid_less_than")]
 impl IconShape for LessThan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16820,11 +14718,9 @@ impl IconShape for LessThan {
 
 }
 
-#[cfg(feature = "solid_less_than_equal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LessThanEqual {}
 
-#[cfg(feature = "solid_less_than_equal")]
 impl IconShape for LessThanEqual {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16836,11 +14732,9 @@ impl IconShape for LessThanEqual {
 
 }
 
-#[cfg(feature = "solid_level_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LevelDown {}
 
-#[cfg(feature = "solid_level_down")]
 impl IconShape for LevelDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16852,11 +14746,9 @@ impl IconShape for LevelDown {
 
 }
 
-#[cfg(feature = "solid_level_down_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LevelDownAlt {}
 
-#[cfg(feature = "solid_level_down_alt")]
 impl IconShape for LevelDownAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16868,11 +14760,9 @@ impl IconShape for LevelDownAlt {
 
 }
 
-#[cfg(feature = "solid_level_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LevelUp {}
 
-#[cfg(feature = "solid_level_up")]
 impl IconShape for LevelUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16884,11 +14774,9 @@ impl IconShape for LevelUp {
 
 }
 
-#[cfg(feature = "solid_level_up_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LevelUpAlt {}
 
-#[cfg(feature = "solid_level_up_alt")]
 impl IconShape for LevelUpAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16900,11 +14788,9 @@ impl IconShape for LevelUpAlt {
 
 }
 
-#[cfg(feature = "solid_libra")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Libra {}
 
-#[cfg(feature = "solid_libra")]
 impl IconShape for Libra {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16916,11 +14802,9 @@ impl IconShape for Libra {
 
 }
 
-#[cfg(feature = "solid_life_ring")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LifeRing {}
 
-#[cfg(feature = "solid_life_ring")]
 impl IconShape for LifeRing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16932,11 +14816,9 @@ impl IconShape for LifeRing {
 
 }
 
-#[cfg(feature = "solid_lightbulb")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Lightbulb {}
 
-#[cfg(feature = "solid_lightbulb")]
 impl IconShape for Lightbulb {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16948,11 +14830,9 @@ impl IconShape for Lightbulb {
 
 }
 
-#[cfg(feature = "solid_line_chart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LineChart {}
 
-#[cfg(feature = "solid_line_chart")]
 impl IconShape for LineChart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16964,11 +14844,9 @@ impl IconShape for LineChart {
 
 }
 
-#[cfg(feature = "solid_lines_leaning")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LinesLeaning {}
 
-#[cfg(feature = "solid_lines_leaning")]
 impl IconShape for LinesLeaning {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16980,11 +14858,9 @@ impl IconShape for LinesLeaning {
 
 }
 
-#[cfg(feature = "solid_link")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Link {}
 
-#[cfg(feature = "solid_link")]
 impl IconShape for Link {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -16996,11 +14872,9 @@ impl IconShape for Link {
 
 }
 
-#[cfg(feature = "solid_link_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LinkSlash {}
 
-#[cfg(feature = "solid_link_slash")]
 impl IconShape for LinkSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17012,11 +14886,9 @@ impl IconShape for LinkSlash {
 
 }
 
-#[cfg(feature = "solid_lira_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LiraSign {}
 
-#[cfg(feature = "solid_lira_sign")]
 impl IconShape for LiraSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17028,11 +14900,9 @@ impl IconShape for LiraSign {
 
 }
 
-#[cfg(feature = "solid_list")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct List {}
 
-#[cfg(feature = "solid_list")]
 impl IconShape for List {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17044,11 +14914,9 @@ impl IconShape for List {
 
 }
 
-#[cfg(feature = "solid_list_1_2")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct List12 {}
 
-#[cfg(feature = "solid_list_1_2")]
 impl IconShape for List12 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17060,11 +14928,9 @@ impl IconShape for List12 {
 
 }
 
-#[cfg(feature = "solid_list_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListAlt {}
 
-#[cfg(feature = "solid_list_alt")]
 impl IconShape for ListAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17076,11 +14942,9 @@ impl IconShape for ListAlt {
 
 }
 
-#[cfg(feature = "solid_list_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListCheck {}
 
-#[cfg(feature = "solid_list_check")]
 impl IconShape for ListCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17092,11 +14956,9 @@ impl IconShape for ListCheck {
 
 }
 
-#[cfg(feature = "solid_list_dots")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListDots {}
 
-#[cfg(feature = "solid_list_dots")]
 impl IconShape for ListDots {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17108,11 +14970,9 @@ impl IconShape for ListDots {
 
 }
 
-#[cfg(feature = "solid_list_numeric")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListNumeric {}
 
-#[cfg(feature = "solid_list_numeric")]
 impl IconShape for ListNumeric {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17124,11 +14984,9 @@ impl IconShape for ListNumeric {
 
 }
 
-#[cfg(feature = "solid_list_ol")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListOl {}
 
-#[cfg(feature = "solid_list_ol")]
 impl IconShape for ListOl {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17140,11 +14998,9 @@ impl IconShape for ListOl {
 
 }
 
-#[cfg(feature = "solid_list_squares")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListSquares {}
 
-#[cfg(feature = "solid_list_squares")]
 impl IconShape for ListSquares {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17156,11 +15012,9 @@ impl IconShape for ListSquares {
 
 }
 
-#[cfg(feature = "solid_list_ul")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ListUl {}
 
-#[cfg(feature = "solid_list_ul")]
 impl IconShape for ListUl {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17172,11 +15026,9 @@ impl IconShape for ListUl {
 
 }
 
-#[cfg(feature = "solid_litecoin_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LitecoinSign {}
 
-#[cfg(feature = "solid_litecoin_sign")]
 impl IconShape for LitecoinSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17188,11 +15040,9 @@ impl IconShape for LitecoinSign {
 
 }
 
-#[cfg(feature = "solid_location")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Location {}
 
-#[cfg(feature = "solid_location")]
 impl IconShape for Location {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17204,11 +15054,9 @@ impl IconShape for Location {
 
 }
 
-#[cfg(feature = "solid_location_arrow")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LocationArrow {}
 
-#[cfg(feature = "solid_location_arrow")]
 impl IconShape for LocationArrow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17220,11 +15068,9 @@ impl IconShape for LocationArrow {
 
 }
 
-#[cfg(feature = "solid_location_crosshairs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LocationCrosshairs {}
 
-#[cfg(feature = "solid_location_crosshairs")]
 impl IconShape for LocationCrosshairs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17236,11 +15082,9 @@ impl IconShape for LocationCrosshairs {
 
 }
 
-#[cfg(feature = "solid_location_dot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LocationDot {}
 
-#[cfg(feature = "solid_location_dot")]
 impl IconShape for LocationDot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17252,11 +15096,9 @@ impl IconShape for LocationDot {
 
 }
 
-#[cfg(feature = "solid_location_pin")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LocationPin {}
 
-#[cfg(feature = "solid_location_pin")]
 impl IconShape for LocationPin {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17268,11 +15110,9 @@ impl IconShape for LocationPin {
 
 }
 
-#[cfg(feature = "solid_location_pin_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LocationPinLock {}
 
-#[cfg(feature = "solid_location_pin_lock")]
 impl IconShape for LocationPinLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17284,11 +15124,9 @@ impl IconShape for LocationPinLock {
 
 }
 
-#[cfg(feature = "solid_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Lock {}
 
-#[cfg(feature = "solid_lock")]
 impl IconShape for Lock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17300,11 +15138,9 @@ impl IconShape for Lock {
 
 }
 
-#[cfg(feature = "solid_lock_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LockOpen {}
 
-#[cfg(feature = "solid_lock_open")]
 impl IconShape for LockOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17316,11 +15152,9 @@ impl IconShape for LockOpen {
 
 }
 
-#[cfg(feature = "solid_locust")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Locust {}
 
-#[cfg(feature = "solid_locust")]
 impl IconShape for Locust {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17332,11 +15166,9 @@ impl IconShape for Locust {
 
 }
 
-#[cfg(feature = "solid_long_arrow_alt_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowAltDown {}
 
-#[cfg(feature = "solid_long_arrow_alt_down")]
 impl IconShape for LongArrowAltDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17348,11 +15180,9 @@ impl IconShape for LongArrowAltDown {
 
 }
 
-#[cfg(feature = "solid_long_arrow_alt_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowAltLeft {}
 
-#[cfg(feature = "solid_long_arrow_alt_left")]
 impl IconShape for LongArrowAltLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17364,11 +15194,9 @@ impl IconShape for LongArrowAltLeft {
 
 }
 
-#[cfg(feature = "solid_long_arrow_alt_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowAltRight {}
 
-#[cfg(feature = "solid_long_arrow_alt_right")]
 impl IconShape for LongArrowAltRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17380,11 +15208,9 @@ impl IconShape for LongArrowAltRight {
 
 }
 
-#[cfg(feature = "solid_long_arrow_alt_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowAltUp {}
 
-#[cfg(feature = "solid_long_arrow_alt_up")]
 impl IconShape for LongArrowAltUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17396,11 +15222,9 @@ impl IconShape for LongArrowAltUp {
 
 }
 
-#[cfg(feature = "solid_long_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowDown {}
 
-#[cfg(feature = "solid_long_arrow_down")]
 impl IconShape for LongArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17412,11 +15236,9 @@ impl IconShape for LongArrowDown {
 
 }
 
-#[cfg(feature = "solid_long_arrow_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowLeft {}
 
-#[cfg(feature = "solid_long_arrow_left")]
 impl IconShape for LongArrowLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17428,11 +15250,9 @@ impl IconShape for LongArrowLeft {
 
 }
 
-#[cfg(feature = "solid_long_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowRight {}
 
-#[cfg(feature = "solid_long_arrow_right")]
 impl IconShape for LongArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17444,11 +15264,9 @@ impl IconShape for LongArrowRight {
 
 }
 
-#[cfg(feature = "solid_long_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LongArrowUp {}
 
-#[cfg(feature = "solid_long_arrow_up")]
 impl IconShape for LongArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17460,11 +15278,9 @@ impl IconShape for LongArrowUp {
 
 }
 
-#[cfg(feature = "solid_low_vision")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LowVision {}
 
-#[cfg(feature = "solid_low_vision")]
 impl IconShape for LowVision {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17476,11 +15292,9 @@ impl IconShape for LowVision {
 
 }
 
-#[cfg(feature = "solid_luggage_cart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LuggageCart {}
 
-#[cfg(feature = "solid_luggage_cart")]
 impl IconShape for LuggageCart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17492,11 +15306,9 @@ impl IconShape for LuggageCart {
 
 }
 
-#[cfg(feature = "solid_lungs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Lungs {}
 
-#[cfg(feature = "solid_lungs")]
 impl IconShape for Lungs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17508,11 +15320,9 @@ impl IconShape for Lungs {
 
 }
 
-#[cfg(feature = "solid_lungs_virus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct LungsVirus {}
 
-#[cfg(feature = "solid_lungs_virus")]
 impl IconShape for LungsVirus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17524,11 +15334,9 @@ impl IconShape for LungsVirus {
 
 }
 
-#[cfg(feature = "solid_m")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct M {}
 
-#[cfg(feature = "solid_m")]
 impl IconShape for M {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17540,11 +15348,9 @@ impl IconShape for M {
 
 }
 
-#[cfg(feature = "solid_magic")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Magic {}
 
-#[cfg(feature = "solid_magic")]
 impl IconShape for Magic {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17556,11 +15362,9 @@ impl IconShape for Magic {
 
 }
 
-#[cfg(feature = "solid_magic_wand_sparkles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagicWandSparkles {}
 
-#[cfg(feature = "solid_magic_wand_sparkles")]
 impl IconShape for MagicWandSparkles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17572,11 +15376,9 @@ impl IconShape for MagicWandSparkles {
 
 }
 
-#[cfg(feature = "solid_magnet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Magnet {}
 
-#[cfg(feature = "solid_magnet")]
 impl IconShape for Magnet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17588,11 +15390,9 @@ impl IconShape for Magnet {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlass {}
 
-#[cfg(feature = "solid_magnifying_glass")]
 impl IconShape for MagnifyingGlass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17604,11 +15404,9 @@ impl IconShape for MagnifyingGlass {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlassArrowRight {}
 
-#[cfg(feature = "solid_magnifying_glass_arrow_right")]
 impl IconShape for MagnifyingGlassArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17620,11 +15418,9 @@ impl IconShape for MagnifyingGlassArrowRight {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass_chart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlassChart {}
 
-#[cfg(feature = "solid_magnifying_glass_chart")]
 impl IconShape for MagnifyingGlassChart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17636,11 +15432,9 @@ impl IconShape for MagnifyingGlassChart {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlassDollar {}
 
-#[cfg(feature = "solid_magnifying_glass_dollar")]
 impl IconShape for MagnifyingGlassDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17652,11 +15446,9 @@ impl IconShape for MagnifyingGlassDollar {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass_location")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlassLocation {}
 
-#[cfg(feature = "solid_magnifying_glass_location")]
 impl IconShape for MagnifyingGlassLocation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17668,11 +15460,9 @@ impl IconShape for MagnifyingGlassLocation {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlassMinus {}
 
-#[cfg(feature = "solid_magnifying_glass_minus")]
 impl IconShape for MagnifyingGlassMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17684,11 +15474,9 @@ impl IconShape for MagnifyingGlassMinus {
 
 }
 
-#[cfg(feature = "solid_magnifying_glass_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MagnifyingGlassPlus {}
 
-#[cfg(feature = "solid_magnifying_glass_plus")]
 impl IconShape for MagnifyingGlassPlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17700,11 +15488,9 @@ impl IconShape for MagnifyingGlassPlus {
 
 }
 
-#[cfg(feature = "solid_mail_bulk")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MailBulk {}
 
-#[cfg(feature = "solid_mail_bulk")]
 impl IconShape for MailBulk {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17716,11 +15502,9 @@ impl IconShape for MailBulk {
 
 }
 
-#[cfg(feature = "solid_mail_forward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MailForward {}
 
-#[cfg(feature = "solid_mail_forward")]
 impl IconShape for MailForward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17732,11 +15516,9 @@ impl IconShape for MailForward {
 
 }
 
-#[cfg(feature = "solid_mail_reply")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MailReply {}
 
-#[cfg(feature = "solid_mail_reply")]
 impl IconShape for MailReply {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17748,11 +15530,9 @@ impl IconShape for MailReply {
 
 }
 
-#[cfg(feature = "solid_mail_reply_all")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MailReplyAll {}
 
-#[cfg(feature = "solid_mail_reply_all")]
 impl IconShape for MailReplyAll {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17764,11 +15544,9 @@ impl IconShape for MailReplyAll {
 
 }
 
-#[cfg(feature = "solid_male")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Male {}
 
-#[cfg(feature = "solid_male")]
 impl IconShape for Male {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17780,11 +15558,9 @@ impl IconShape for Male {
 
 }
 
-#[cfg(feature = "solid_manat_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ManatSign {}
 
-#[cfg(feature = "solid_manat_sign")]
 impl IconShape for ManatSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17796,11 +15572,9 @@ impl IconShape for ManatSign {
 
 }
 
-#[cfg(feature = "solid_map")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Map {}
 
-#[cfg(feature = "solid_map")]
 impl IconShape for Map {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17812,11 +15586,9 @@ impl IconShape for Map {
 
 }
 
-#[cfg(feature = "solid_map_location")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapLocation {}
 
-#[cfg(feature = "solid_map_location")]
 impl IconShape for MapLocation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17828,11 +15600,9 @@ impl IconShape for MapLocation {
 
 }
 
-#[cfg(feature = "solid_map_location_dot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapLocationDot {}
 
-#[cfg(feature = "solid_map_location_dot")]
 impl IconShape for MapLocationDot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17844,11 +15614,9 @@ impl IconShape for MapLocationDot {
 
 }
 
-#[cfg(feature = "solid_map_marked")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapMarked {}
 
-#[cfg(feature = "solid_map_marked")]
 impl IconShape for MapMarked {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17860,11 +15628,9 @@ impl IconShape for MapMarked {
 
 }
 
-#[cfg(feature = "solid_map_marked_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapMarkedAlt {}
 
-#[cfg(feature = "solid_map_marked_alt")]
 impl IconShape for MapMarkedAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17876,11 +15642,9 @@ impl IconShape for MapMarkedAlt {
 
 }
 
-#[cfg(feature = "solid_map_marker")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapMarker {}
 
-#[cfg(feature = "solid_map_marker")]
 impl IconShape for MapMarker {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17892,11 +15656,9 @@ impl IconShape for MapMarker {
 
 }
 
-#[cfg(feature = "solid_map_marker_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapMarkerAlt {}
 
-#[cfg(feature = "solid_map_marker_alt")]
 impl IconShape for MapMarkerAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17908,11 +15670,9 @@ impl IconShape for MapMarkerAlt {
 
 }
 
-#[cfg(feature = "solid_map_pin")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapPin {}
 
-#[cfg(feature = "solid_map_pin")]
 impl IconShape for MapPin {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17924,11 +15684,9 @@ impl IconShape for MapPin {
 
 }
 
-#[cfg(feature = "solid_map_signs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MapSigns {}
 
-#[cfg(feature = "solid_map_signs")]
 impl IconShape for MapSigns {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17940,11 +15698,9 @@ impl IconShape for MapSigns {
 
 }
 
-#[cfg(feature = "solid_marker")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Marker {}
 
-#[cfg(feature = "solid_marker")]
 impl IconShape for Marker {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17956,11 +15712,9 @@ impl IconShape for Marker {
 
 }
 
-#[cfg(feature = "solid_mars")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mars {}
 
-#[cfg(feature = "solid_mars")]
 impl IconShape for Mars {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17972,11 +15726,9 @@ impl IconShape for Mars {
 
 }
 
-#[cfg(feature = "solid_mars_and_venus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsAndVenus {}
 
-#[cfg(feature = "solid_mars_and_venus")]
 impl IconShape for MarsAndVenus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -17988,11 +15740,9 @@ impl IconShape for MarsAndVenus {
 
 }
 
-#[cfg(feature = "solid_mars_and_venus_burst")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsAndVenusBurst {}
 
-#[cfg(feature = "solid_mars_and_venus_burst")]
 impl IconShape for MarsAndVenusBurst {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18004,11 +15754,9 @@ impl IconShape for MarsAndVenusBurst {
 
 }
 
-#[cfg(feature = "solid_mars_double")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsDouble {}
 
-#[cfg(feature = "solid_mars_double")]
 impl IconShape for MarsDouble {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18020,11 +15768,9 @@ impl IconShape for MarsDouble {
 
 }
 
-#[cfg(feature = "solid_mars_stroke")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsStroke {}
 
-#[cfg(feature = "solid_mars_stroke")]
 impl IconShape for MarsStroke {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18036,11 +15782,9 @@ impl IconShape for MarsStroke {
 
 }
 
-#[cfg(feature = "solid_mars_stroke_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsStrokeH {}
 
-#[cfg(feature = "solid_mars_stroke_h")]
 impl IconShape for MarsStrokeH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18052,11 +15796,9 @@ impl IconShape for MarsStrokeH {
 
 }
 
-#[cfg(feature = "solid_mars_stroke_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsStrokeRight {}
 
-#[cfg(feature = "solid_mars_stroke_right")]
 impl IconShape for MarsStrokeRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18068,11 +15810,9 @@ impl IconShape for MarsStrokeRight {
 
 }
 
-#[cfg(feature = "solid_mars_stroke_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsStrokeUp {}
 
-#[cfg(feature = "solid_mars_stroke_up")]
 impl IconShape for MarsStrokeUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18084,11 +15824,9 @@ impl IconShape for MarsStrokeUp {
 
 }
 
-#[cfg(feature = "solid_mars_stroke_v")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MarsStrokeV {}
 
-#[cfg(feature = "solid_mars_stroke_v")]
 impl IconShape for MarsStrokeV {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18100,11 +15838,9 @@ impl IconShape for MarsStrokeV {
 
 }
 
-#[cfg(feature = "solid_martini_glass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MartiniGlass {}
 
-#[cfg(feature = "solid_martini_glass")]
 impl IconShape for MartiniGlass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18116,11 +15852,9 @@ impl IconShape for MartiniGlass {
 
 }
 
-#[cfg(feature = "solid_martini_glass_citrus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MartiniGlassCitrus {}
 
-#[cfg(feature = "solid_martini_glass_citrus")]
 impl IconShape for MartiniGlassCitrus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18132,11 +15866,9 @@ impl IconShape for MartiniGlassCitrus {
 
 }
 
-#[cfg(feature = "solid_martini_glass_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MartiniGlassEmpty {}
 
-#[cfg(feature = "solid_martini_glass_empty")]
 impl IconShape for MartiniGlassEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18148,11 +15880,9 @@ impl IconShape for MartiniGlassEmpty {
 
 }
 
-#[cfg(feature = "solid_mask")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mask {}
 
-#[cfg(feature = "solid_mask")]
 impl IconShape for Mask {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18164,11 +15894,9 @@ impl IconShape for Mask {
 
 }
 
-#[cfg(feature = "solid_mask_face")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MaskFace {}
 
-#[cfg(feature = "solid_mask_face")]
 impl IconShape for MaskFace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18180,11 +15908,9 @@ impl IconShape for MaskFace {
 
 }
 
-#[cfg(feature = "solid_mask_ventilator")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MaskVentilator {}
 
-#[cfg(feature = "solid_mask_ventilator")]
 impl IconShape for MaskVentilator {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18196,11 +15922,9 @@ impl IconShape for MaskVentilator {
 
 }
 
-#[cfg(feature = "solid_masks_theater")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MasksTheater {}
 
-#[cfg(feature = "solid_masks_theater")]
 impl IconShape for MasksTheater {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18212,11 +15936,9 @@ impl IconShape for MasksTheater {
 
 }
 
-#[cfg(feature = "solid_mattress_pillow")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MattressPillow {}
 
-#[cfg(feature = "solid_mattress_pillow")]
 impl IconShape for MattressPillow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18228,11 +15950,9 @@ impl IconShape for MattressPillow {
 
 }
 
-#[cfg(feature = "solid_maximize")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Maximize {}
 
-#[cfg(feature = "solid_maximize")]
 impl IconShape for Maximize {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18244,11 +15964,9 @@ impl IconShape for Maximize {
 
 }
 
-#[cfg(feature = "solid_medal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Medal {}
 
-#[cfg(feature = "solid_medal")]
 impl IconShape for Medal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18260,11 +15978,9 @@ impl IconShape for Medal {
 
 }
 
-#[cfg(feature = "solid_medkit")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Medkit {}
 
-#[cfg(feature = "solid_medkit")]
 impl IconShape for Medkit {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18276,11 +15992,9 @@ impl IconShape for Medkit {
 
 }
 
-#[cfg(feature = "solid_meh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Meh {}
 
-#[cfg(feature = "solid_meh")]
 impl IconShape for Meh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18292,11 +16006,9 @@ impl IconShape for Meh {
 
 }
 
-#[cfg(feature = "solid_meh_blank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MehBlank {}
 
-#[cfg(feature = "solid_meh_blank")]
 impl IconShape for MehBlank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18308,11 +16020,9 @@ impl IconShape for MehBlank {
 
 }
 
-#[cfg(feature = "solid_meh_rolling_eyes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MehRollingEyes {}
 
-#[cfg(feature = "solid_meh_rolling_eyes")]
 impl IconShape for MehRollingEyes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18324,11 +16034,9 @@ impl IconShape for MehRollingEyes {
 
 }
 
-#[cfg(feature = "solid_memory")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Memory {}
 
-#[cfg(feature = "solid_memory")]
 impl IconShape for Memory {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18340,11 +16048,9 @@ impl IconShape for Memory {
 
 }
 
-#[cfg(feature = "solid_menorah")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Menorah {}
 
-#[cfg(feature = "solid_menorah")]
 impl IconShape for Menorah {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18356,11 +16062,9 @@ impl IconShape for Menorah {
 
 }
 
-#[cfg(feature = "solid_mercury")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mercury {}
 
-#[cfg(feature = "solid_mercury")]
 impl IconShape for Mercury {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18372,11 +16076,9 @@ impl IconShape for Mercury {
 
 }
 
-#[cfg(feature = "solid_message")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Message {}
 
-#[cfg(feature = "solid_message")]
 impl IconShape for Message {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18388,11 +16090,9 @@ impl IconShape for Message {
 
 }
 
-#[cfg(feature = "solid_meteor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Meteor {}
 
-#[cfg(feature = "solid_meteor")]
 impl IconShape for Meteor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18404,11 +16104,9 @@ impl IconShape for Meteor {
 
 }
 
-#[cfg(feature = "solid_microchip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Microchip {}
 
-#[cfg(feature = "solid_microchip")]
 impl IconShape for Microchip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18420,11 +16118,9 @@ impl IconShape for Microchip {
 
 }
 
-#[cfg(feature = "solid_microphone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Microphone {}
 
-#[cfg(feature = "solid_microphone")]
 impl IconShape for Microphone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18436,11 +16132,9 @@ impl IconShape for Microphone {
 
 }
 
-#[cfg(feature = "solid_microphone_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MicrophoneAlt {}
 
-#[cfg(feature = "solid_microphone_alt")]
 impl IconShape for MicrophoneAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18452,11 +16146,9 @@ impl IconShape for MicrophoneAlt {
 
 }
 
-#[cfg(feature = "solid_microphone_alt_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MicrophoneAltSlash {}
 
-#[cfg(feature = "solid_microphone_alt_slash")]
 impl IconShape for MicrophoneAltSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18468,11 +16160,9 @@ impl IconShape for MicrophoneAltSlash {
 
 }
 
-#[cfg(feature = "solid_microphone_lines")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MicrophoneLines {}
 
-#[cfg(feature = "solid_microphone_lines")]
 impl IconShape for MicrophoneLines {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18484,11 +16174,9 @@ impl IconShape for MicrophoneLines {
 
 }
 
-#[cfg(feature = "solid_microphone_lines_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MicrophoneLinesSlash {}
 
-#[cfg(feature = "solid_microphone_lines_slash")]
 impl IconShape for MicrophoneLinesSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18500,11 +16188,9 @@ impl IconShape for MicrophoneLinesSlash {
 
 }
 
-#[cfg(feature = "solid_microphone_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MicrophoneSlash {}
 
-#[cfg(feature = "solid_microphone_slash")]
 impl IconShape for MicrophoneSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18516,11 +16202,9 @@ impl IconShape for MicrophoneSlash {
 
 }
 
-#[cfg(feature = "solid_microscope")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Microscope {}
 
-#[cfg(feature = "solid_microscope")]
 impl IconShape for Microscope {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18532,11 +16216,9 @@ impl IconShape for Microscope {
 
 }
 
-#[cfg(feature = "solid_mill_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MillSign {}
 
-#[cfg(feature = "solid_mill_sign")]
 impl IconShape for MillSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18548,11 +16230,9 @@ impl IconShape for MillSign {
 
 }
 
-#[cfg(feature = "solid_minimize")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Minimize {}
 
-#[cfg(feature = "solid_minimize")]
 impl IconShape for Minimize {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18564,11 +16244,9 @@ impl IconShape for Minimize {
 
 }
 
-#[cfg(feature = "solid_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Minus {}
 
-#[cfg(feature = "solid_minus")]
 impl IconShape for Minus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18580,11 +16258,9 @@ impl IconShape for Minus {
 
 }
 
-#[cfg(feature = "solid_minus_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MinusCircle {}
 
-#[cfg(feature = "solid_minus_circle")]
 impl IconShape for MinusCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18596,11 +16272,9 @@ impl IconShape for MinusCircle {
 
 }
 
-#[cfg(feature = "solid_minus_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MinusSquare {}
 
-#[cfg(feature = "solid_minus_square")]
 impl IconShape for MinusSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18612,11 +16286,9 @@ impl IconShape for MinusSquare {
 
 }
 
-#[cfg(feature = "solid_mitten")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mitten {}
 
-#[cfg(feature = "solid_mitten")]
 impl IconShape for Mitten {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18628,11 +16300,9 @@ impl IconShape for Mitten {
 
 }
 
-#[cfg(feature = "solid_mobile")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mobile {}
 
-#[cfg(feature = "solid_mobile")]
 impl IconShape for Mobile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18644,11 +16314,9 @@ impl IconShape for Mobile {
 
 }
 
-#[cfg(feature = "solid_mobile_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileAlt {}
 
-#[cfg(feature = "solid_mobile_alt")]
 impl IconShape for MobileAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18660,11 +16328,9 @@ impl IconShape for MobileAlt {
 
 }
 
-#[cfg(feature = "solid_mobile_android")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileAndroid {}
 
-#[cfg(feature = "solid_mobile_android")]
 impl IconShape for MobileAndroid {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18676,11 +16342,9 @@ impl IconShape for MobileAndroid {
 
 }
 
-#[cfg(feature = "solid_mobile_android_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileAndroidAlt {}
 
-#[cfg(feature = "solid_mobile_android_alt")]
 impl IconShape for MobileAndroidAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18692,11 +16356,9 @@ impl IconShape for MobileAndroidAlt {
 
 }
 
-#[cfg(feature = "solid_mobile_button")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileButton {}
 
-#[cfg(feature = "solid_mobile_button")]
 impl IconShape for MobileButton {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18708,11 +16370,9 @@ impl IconShape for MobileButton {
 
 }
 
-#[cfg(feature = "solid_mobile_phone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobilePhone {}
 
-#[cfg(feature = "solid_mobile_phone")]
 impl IconShape for MobilePhone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18724,11 +16384,9 @@ impl IconShape for MobilePhone {
 
 }
 
-#[cfg(feature = "solid_mobile_retro")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileRetro {}
 
-#[cfg(feature = "solid_mobile_retro")]
 impl IconShape for MobileRetro {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18740,11 +16398,9 @@ impl IconShape for MobileRetro {
 
 }
 
-#[cfg(feature = "solid_mobile_screen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileScreen {}
 
-#[cfg(feature = "solid_mobile_screen")]
 impl IconShape for MobileScreen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18756,11 +16412,9 @@ impl IconShape for MobileScreen {
 
 }
 
-#[cfg(feature = "solid_mobile_screen_button")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileScreenButton {}
 
-#[cfg(feature = "solid_mobile_screen_button")]
 impl IconShape for MobileScreenButton {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18772,11 +16426,9 @@ impl IconShape for MobileScreenButton {
 
 }
 
-#[cfg(feature = "solid_mobile_vibrate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MobileVibrate {}
 
-#[cfg(feature = "solid_mobile_vibrate")]
 impl IconShape for MobileVibrate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18788,11 +16440,9 @@ impl IconShape for MobileVibrate {
 
 }
 
-#[cfg(feature = "solid_money_bill")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBill {}
 
-#[cfg(feature = "solid_money_bill")]
 impl IconShape for MoneyBill {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18804,11 +16454,9 @@ impl IconShape for MoneyBill {
 
 }
 
-#[cfg(feature = "solid_money_bill_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBill1 {}
 
-#[cfg(feature = "solid_money_bill_1")]
 impl IconShape for MoneyBill1 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18820,11 +16468,9 @@ impl IconShape for MoneyBill1 {
 
 }
 
-#[cfg(feature = "solid_money_bill_1_wave")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBill1Wave {}
 
-#[cfg(feature = "solid_money_bill_1_wave")]
 impl IconShape for MoneyBill1Wave {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18836,11 +16482,9 @@ impl IconShape for MoneyBill1Wave {
 
 }
 
-#[cfg(feature = "solid_money_bill_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBillAlt {}
 
-#[cfg(feature = "solid_money_bill_alt")]
 impl IconShape for MoneyBillAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18852,11 +16496,9 @@ impl IconShape for MoneyBillAlt {
 
 }
 
-#[cfg(feature = "solid_money_bill_transfer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBillTransfer {}
 
-#[cfg(feature = "solid_money_bill_transfer")]
 impl IconShape for MoneyBillTransfer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18868,11 +16510,9 @@ impl IconShape for MoneyBillTransfer {
 
 }
 
-#[cfg(feature = "solid_money_bill_trend_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBillTrendUp {}
 
-#[cfg(feature = "solid_money_bill_trend_up")]
 impl IconShape for MoneyBillTrendUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18884,11 +16524,9 @@ impl IconShape for MoneyBillTrendUp {
 
 }
 
-#[cfg(feature = "solid_money_bill_wave")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBillWave {}
 
-#[cfg(feature = "solid_money_bill_wave")]
 impl IconShape for MoneyBillWave {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18900,11 +16538,9 @@ impl IconShape for MoneyBillWave {
 
 }
 
-#[cfg(feature = "solid_money_bill_wave_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBillWaveAlt {}
 
-#[cfg(feature = "solid_money_bill_wave_alt")]
 impl IconShape for MoneyBillWaveAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18916,11 +16552,9 @@ impl IconShape for MoneyBillWaveAlt {
 
 }
 
-#[cfg(feature = "solid_money_bill_wheat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBillWheat {}
 
-#[cfg(feature = "solid_money_bill_wheat")]
 impl IconShape for MoneyBillWheat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18932,11 +16566,9 @@ impl IconShape for MoneyBillWheat {
 
 }
 
-#[cfg(feature = "solid_money_bills")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyBills {}
 
-#[cfg(feature = "solid_money_bills")]
 impl IconShape for MoneyBills {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18948,11 +16580,9 @@ impl IconShape for MoneyBills {
 
 }
 
-#[cfg(feature = "solid_money_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyCheck {}
 
-#[cfg(feature = "solid_money_check")]
 impl IconShape for MoneyCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18964,11 +16594,9 @@ impl IconShape for MoneyCheck {
 
 }
 
-#[cfg(feature = "solid_money_check_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyCheckAlt {}
 
-#[cfg(feature = "solid_money_check_alt")]
 impl IconShape for MoneyCheckAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18980,11 +16608,9 @@ impl IconShape for MoneyCheckAlt {
 
 }
 
-#[cfg(feature = "solid_money_check_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MoneyCheckDollar {}
 
-#[cfg(feature = "solid_money_check_dollar")]
 impl IconShape for MoneyCheckDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -18996,11 +16622,9 @@ impl IconShape for MoneyCheckDollar {
 
 }
 
-#[cfg(feature = "solid_monument")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Monument {}
 
-#[cfg(feature = "solid_monument")]
 impl IconShape for Monument {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19012,11 +16636,9 @@ impl IconShape for Monument {
 
 }
 
-#[cfg(feature = "solid_moon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Moon {}
 
-#[cfg(feature = "solid_moon")]
 impl IconShape for Moon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19028,11 +16650,9 @@ impl IconShape for Moon {
 
 }
 
-#[cfg(feature = "solid_mortar_board")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MortarBoard {}
 
-#[cfg(feature = "solid_mortar_board")]
 impl IconShape for MortarBoard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19044,11 +16664,9 @@ impl IconShape for MortarBoard {
 
 }
 
-#[cfg(feature = "solid_mortar_pestle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MortarPestle {}
 
-#[cfg(feature = "solid_mortar_pestle")]
 impl IconShape for MortarPestle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19060,11 +16678,9 @@ impl IconShape for MortarPestle {
 
 }
 
-#[cfg(feature = "solid_mosque")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mosque {}
 
-#[cfg(feature = "solid_mosque")]
 impl IconShape for Mosque {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19076,11 +16692,9 @@ impl IconShape for Mosque {
 
 }
 
-#[cfg(feature = "solid_mosquito")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mosquito {}
 
-#[cfg(feature = "solid_mosquito")]
 impl IconShape for Mosquito {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19092,11 +16706,9 @@ impl IconShape for Mosquito {
 
 }
 
-#[cfg(feature = "solid_mosquito_net")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MosquitoNet {}
 
-#[cfg(feature = "solid_mosquito_net")]
 impl IconShape for MosquitoNet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19108,11 +16720,9 @@ impl IconShape for MosquitoNet {
 
 }
 
-#[cfg(feature = "solid_motorcycle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Motorcycle {}
 
-#[cfg(feature = "solid_motorcycle")]
 impl IconShape for Motorcycle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19124,11 +16734,9 @@ impl IconShape for Motorcycle {
 
 }
 
-#[cfg(feature = "solid_mound")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mound {}
 
-#[cfg(feature = "solid_mound")]
 impl IconShape for Mound {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19140,11 +16748,9 @@ impl IconShape for Mound {
 
 }
 
-#[cfg(feature = "solid_mountain")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mountain {}
 
-#[cfg(feature = "solid_mountain")]
 impl IconShape for Mountain {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19156,11 +16762,9 @@ impl IconShape for Mountain {
 
 }
 
-#[cfg(feature = "solid_mountain_city")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MountainCity {}
 
-#[cfg(feature = "solid_mountain_city")]
 impl IconShape for MountainCity {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19172,11 +16776,9 @@ impl IconShape for MountainCity {
 
 }
 
-#[cfg(feature = "solid_mountain_sun")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MountainSun {}
 
-#[cfg(feature = "solid_mountain_sun")]
 impl IconShape for MountainSun {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19188,11 +16790,9 @@ impl IconShape for MountainSun {
 
 }
 
-#[cfg(feature = "solid_mouse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Mouse {}
 
-#[cfg(feature = "solid_mouse")]
 impl IconShape for Mouse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19204,11 +16804,9 @@ impl IconShape for Mouse {
 
 }
 
-#[cfg(feature = "solid_mouse_pointer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MousePointer {}
 
-#[cfg(feature = "solid_mouse_pointer")]
 impl IconShape for MousePointer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19220,11 +16818,9 @@ impl IconShape for MousePointer {
 
 }
 
-#[cfg(feature = "solid_mug_hot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MugHot {}
 
-#[cfg(feature = "solid_mug_hot")]
 impl IconShape for MugHot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19236,11 +16832,9 @@ impl IconShape for MugHot {
 
 }
 
-#[cfg(feature = "solid_mug_saucer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct MugSaucer {}
 
-#[cfg(feature = "solid_mug_saucer")]
 impl IconShape for MugSaucer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19252,11 +16846,9 @@ impl IconShape for MugSaucer {
 
 }
 
-#[cfg(feature = "solid_multiply")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Multiply {}
 
-#[cfg(feature = "solid_multiply")]
 impl IconShape for Multiply {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19268,11 +16860,9 @@ impl IconShape for Multiply {
 
 }
 
-#[cfg(feature = "solid_museum")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Museum {}
 
-#[cfg(feature = "solid_museum")]
 impl IconShape for Museum {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19284,11 +16874,9 @@ impl IconShape for Museum {
 
 }
 
-#[cfg(feature = "solid_music")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Music {}
 
-#[cfg(feature = "solid_music")]
 impl IconShape for Music {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19300,11 +16888,9 @@ impl IconShape for Music {
 
 }
 
-#[cfg(feature = "solid_n")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct N {}
 
-#[cfg(feature = "solid_n")]
 impl IconShape for N {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19316,11 +16902,9 @@ impl IconShape for N {
 
 }
 
-#[cfg(feature = "solid_naira_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct NairaSign {}
 
-#[cfg(feature = "solid_naira_sign")]
 impl IconShape for NairaSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19332,11 +16916,9 @@ impl IconShape for NairaSign {
 
 }
 
-#[cfg(feature = "solid_navicon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Navicon {}
 
-#[cfg(feature = "solid_navicon")]
 impl IconShape for Navicon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19348,11 +16930,9 @@ impl IconShape for Navicon {
 
 }
 
-#[cfg(feature = "solid_network_wired")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct NetworkWired {}
 
-#[cfg(feature = "solid_network_wired")]
 impl IconShape for NetworkWired {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19364,11 +16944,9 @@ impl IconShape for NetworkWired {
 
 }
 
-#[cfg(feature = "solid_neuter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Neuter {}
 
-#[cfg(feature = "solid_neuter")]
 impl IconShape for Neuter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19380,11 +16958,9 @@ impl IconShape for Neuter {
 
 }
 
-#[cfg(feature = "solid_newspaper")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Newspaper {}
 
-#[cfg(feature = "solid_newspaper")]
 impl IconShape for Newspaper {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19396,11 +16972,9 @@ impl IconShape for Newspaper {
 
 }
 
-#[cfg(feature = "solid_non_binary")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct NonBinary {}
 
-#[cfg(feature = "solid_non_binary")]
 impl IconShape for NonBinary {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19412,11 +16986,9 @@ impl IconShape for NonBinary {
 
 }
 
-#[cfg(feature = "solid_not_equal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct NotEqual {}
 
-#[cfg(feature = "solid_not_equal")]
 impl IconShape for NotEqual {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19428,11 +17000,9 @@ impl IconShape for NotEqual {
 
 }
 
-#[cfg(feature = "solid_notdef")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Notdef {}
 
-#[cfg(feature = "solid_notdef")]
 impl IconShape for Notdef {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19444,11 +17014,9 @@ impl IconShape for Notdef {
 
 }
 
-#[cfg(feature = "solid_note_sticky")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct NoteSticky {}
 
-#[cfg(feature = "solid_note_sticky")]
 impl IconShape for NoteSticky {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19460,11 +17028,9 @@ impl IconShape for NoteSticky {
 
 }
 
-#[cfg(feature = "solid_notes_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct NotesMedical {}
 
-#[cfg(feature = "solid_notes_medical")]
 impl IconShape for NotesMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19476,11 +17042,9 @@ impl IconShape for NotesMedical {
 
 }
 
-#[cfg(feature = "solid_o")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct O {}
 
-#[cfg(feature = "solid_o")]
 impl IconShape for O {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19492,11 +17056,9 @@ impl IconShape for O {
 
 }
 
-#[cfg(feature = "solid_object_group")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ObjectGroup {}
 
-#[cfg(feature = "solid_object_group")]
 impl IconShape for ObjectGroup {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19508,11 +17070,9 @@ impl IconShape for ObjectGroup {
 
 }
 
-#[cfg(feature = "solid_object_ungroup")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ObjectUngroup {}
 
-#[cfg(feature = "solid_object_ungroup")]
 impl IconShape for ObjectUngroup {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19524,11 +17084,9 @@ impl IconShape for ObjectUngroup {
 
 }
 
-#[cfg(feature = "solid_octagon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Octagon {}
 
-#[cfg(feature = "solid_octagon")]
 impl IconShape for Octagon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19540,11 +17098,9 @@ impl IconShape for Octagon {
 
 }
 
-#[cfg(feature = "solid_oil_can")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct OilCan {}
 
-#[cfg(feature = "solid_oil_can")]
 impl IconShape for OilCan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19556,11 +17112,9 @@ impl IconShape for OilCan {
 
 }
 
-#[cfg(feature = "solid_oil_well")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct OilWell {}
 
-#[cfg(feature = "solid_oil_well")]
 impl IconShape for OilWell {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19572,11 +17126,9 @@ impl IconShape for OilWell {
 
 }
 
-#[cfg(feature = "solid_om")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Om {}
 
-#[cfg(feature = "solid_om")]
 impl IconShape for Om {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19588,11 +17140,9 @@ impl IconShape for Om {
 
 }
 
-#[cfg(feature = "solid_otter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Otter {}
 
-#[cfg(feature = "solid_otter")]
 impl IconShape for Otter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19604,11 +17154,9 @@ impl IconShape for Otter {
 
 }
 
-#[cfg(feature = "solid_outdent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Outdent {}
 
-#[cfg(feature = "solid_outdent")]
 impl IconShape for Outdent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19620,11 +17168,9 @@ impl IconShape for Outdent {
 
 }
 
-#[cfg(feature = "solid_p")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct P {}
 
-#[cfg(feature = "solid_p")]
 impl IconShape for P {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19636,11 +17182,9 @@ impl IconShape for P {
 
 }
 
-#[cfg(feature = "solid_pager")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pager {}
 
-#[cfg(feature = "solid_pager")]
 impl IconShape for Pager {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19652,11 +17196,9 @@ impl IconShape for Pager {
 
 }
 
-#[cfg(feature = "solid_paint_brush")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PaintBrush {}
 
-#[cfg(feature = "solid_paint_brush")]
 impl IconShape for PaintBrush {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19668,11 +17210,9 @@ impl IconShape for PaintBrush {
 
 }
 
-#[cfg(feature = "solid_paint_roller")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PaintRoller {}
 
-#[cfg(feature = "solid_paint_roller")]
 impl IconShape for PaintRoller {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19684,11 +17224,9 @@ impl IconShape for PaintRoller {
 
 }
 
-#[cfg(feature = "solid_paintbrush")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Paintbrush {}
 
-#[cfg(feature = "solid_paintbrush")]
 impl IconShape for Paintbrush {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19700,11 +17238,9 @@ impl IconShape for Paintbrush {
 
 }
 
-#[cfg(feature = "solid_palette")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Palette {}
 
-#[cfg(feature = "solid_palette")]
 impl IconShape for Palette {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19716,11 +17252,9 @@ impl IconShape for Palette {
 
 }
 
-#[cfg(feature = "solid_pallet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pallet {}
 
-#[cfg(feature = "solid_pallet")]
 impl IconShape for Pallet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19732,11 +17266,9 @@ impl IconShape for Pallet {
 
 }
 
-#[cfg(feature = "solid_panorama")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Panorama {}
 
-#[cfg(feature = "solid_panorama")]
 impl IconShape for Panorama {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19748,11 +17280,9 @@ impl IconShape for Panorama {
 
 }
 
-#[cfg(feature = "solid_paper_plane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PaperPlane {}
 
-#[cfg(feature = "solid_paper_plane")]
 impl IconShape for PaperPlane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19764,11 +17294,9 @@ impl IconShape for PaperPlane {
 
 }
 
-#[cfg(feature = "solid_paperclip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Paperclip {}
 
-#[cfg(feature = "solid_paperclip")]
 impl IconShape for Paperclip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19780,11 +17308,9 @@ impl IconShape for Paperclip {
 
 }
 
-#[cfg(feature = "solid_parachute_box")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ParachuteBox {}
 
-#[cfg(feature = "solid_parachute_box")]
 impl IconShape for ParachuteBox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19796,11 +17322,9 @@ impl IconShape for ParachuteBox {
 
 }
 
-#[cfg(feature = "solid_paragraph")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Paragraph {}
 
-#[cfg(feature = "solid_paragraph")]
 impl IconShape for Paragraph {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19812,11 +17336,9 @@ impl IconShape for Paragraph {
 
 }
 
-#[cfg(feature = "solid_parking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Parking {}
 
-#[cfg(feature = "solid_parking")]
 impl IconShape for Parking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19828,11 +17350,9 @@ impl IconShape for Parking {
 
 }
 
-#[cfg(feature = "solid_passport")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Passport {}
 
-#[cfg(feature = "solid_passport")]
 impl IconShape for Passport {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19844,11 +17364,9 @@ impl IconShape for Passport {
 
 }
 
-#[cfg(feature = "solid_pastafarianism")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pastafarianism {}
 
-#[cfg(feature = "solid_pastafarianism")]
 impl IconShape for Pastafarianism {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19860,11 +17378,9 @@ impl IconShape for Pastafarianism {
 
 }
 
-#[cfg(feature = "solid_paste")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Paste {}
 
-#[cfg(feature = "solid_paste")]
 impl IconShape for Paste {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19876,11 +17392,9 @@ impl IconShape for Paste {
 
 }
 
-#[cfg(feature = "solid_pause")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pause {}
 
-#[cfg(feature = "solid_pause")]
 impl IconShape for Pause {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19892,11 +17406,9 @@ impl IconShape for Pause {
 
 }
 
-#[cfg(feature = "solid_pause_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PauseCircle {}
 
-#[cfg(feature = "solid_pause_circle")]
 impl IconShape for PauseCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19908,11 +17420,9 @@ impl IconShape for PauseCircle {
 
 }
 
-#[cfg(feature = "solid_paw")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Paw {}
 
-#[cfg(feature = "solid_paw")]
 impl IconShape for Paw {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19924,11 +17434,9 @@ impl IconShape for Paw {
 
 }
 
-#[cfg(feature = "solid_peace")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Peace {}
 
-#[cfg(feature = "solid_peace")]
 impl IconShape for Peace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19940,11 +17448,9 @@ impl IconShape for Peace {
 
 }
 
-#[cfg(feature = "solid_pen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pen {}
 
-#[cfg(feature = "solid_pen")]
 impl IconShape for Pen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19956,11 +17462,9 @@ impl IconShape for Pen {
 
 }
 
-#[cfg(feature = "solid_pen_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenAlt {}
 
-#[cfg(feature = "solid_pen_alt")]
 impl IconShape for PenAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19972,11 +17476,9 @@ impl IconShape for PenAlt {
 
 }
 
-#[cfg(feature = "solid_pen_clip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenClip {}
 
-#[cfg(feature = "solid_pen_clip")]
 impl IconShape for PenClip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -19988,11 +17490,9 @@ impl IconShape for PenClip {
 
 }
 
-#[cfg(feature = "solid_pen_fancy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenFancy {}
 
-#[cfg(feature = "solid_pen_fancy")]
 impl IconShape for PenFancy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20004,11 +17504,9 @@ impl IconShape for PenFancy {
 
 }
 
-#[cfg(feature = "solid_pen_nib")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenNib {}
 
-#[cfg(feature = "solid_pen_nib")]
 impl IconShape for PenNib {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20020,11 +17518,9 @@ impl IconShape for PenNib {
 
 }
 
-#[cfg(feature = "solid_pen_ruler")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenRuler {}
 
-#[cfg(feature = "solid_pen_ruler")]
 impl IconShape for PenRuler {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20036,11 +17532,9 @@ impl IconShape for PenRuler {
 
 }
 
-#[cfg(feature = "solid_pen_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenSquare {}
 
-#[cfg(feature = "solid_pen_square")]
 impl IconShape for PenSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20052,11 +17546,9 @@ impl IconShape for PenSquare {
 
 }
 
-#[cfg(feature = "solid_pen_to_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PenToSquare {}
 
-#[cfg(feature = "solid_pen_to_square")]
 impl IconShape for PenToSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20068,11 +17560,9 @@ impl IconShape for PenToSquare {
 
 }
 
-#[cfg(feature = "solid_pencil")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pencil {}
 
-#[cfg(feature = "solid_pencil")]
 impl IconShape for Pencil {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20084,11 +17574,9 @@ impl IconShape for Pencil {
 
 }
 
-#[cfg(feature = "solid_pencil_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PencilAlt {}
 
-#[cfg(feature = "solid_pencil_alt")]
 impl IconShape for PencilAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20100,11 +17588,9 @@ impl IconShape for PencilAlt {
 
 }
 
-#[cfg(feature = "solid_pencil_ruler")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PencilRuler {}
 
-#[cfg(feature = "solid_pencil_ruler")]
 impl IconShape for PencilRuler {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20116,11 +17602,9 @@ impl IconShape for PencilRuler {
 
 }
 
-#[cfg(feature = "solid_pencil_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PencilSquare {}
 
-#[cfg(feature = "solid_pencil_square")]
 impl IconShape for PencilSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20132,11 +17616,9 @@ impl IconShape for PencilSquare {
 
 }
 
-#[cfg(feature = "solid_pentagon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pentagon {}
 
-#[cfg(feature = "solid_pentagon")]
 impl IconShape for Pentagon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20148,11 +17630,9 @@ impl IconShape for Pentagon {
 
 }
 
-#[cfg(feature = "solid_people_arrows")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleArrows {}
 
-#[cfg(feature = "solid_people_arrows")]
 impl IconShape for PeopleArrows {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20164,11 +17644,9 @@ impl IconShape for PeopleArrows {
 
 }
 
-#[cfg(feature = "solid_people_arrows_left_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleArrowsLeftRight {}
 
-#[cfg(feature = "solid_people_arrows_left_right")]
 impl IconShape for PeopleArrowsLeftRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20180,11 +17658,9 @@ impl IconShape for PeopleArrowsLeftRight {
 
 }
 
-#[cfg(feature = "solid_people_carry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleCarry {}
 
-#[cfg(feature = "solid_people_carry")]
 impl IconShape for PeopleCarry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20196,11 +17672,9 @@ impl IconShape for PeopleCarry {
 
 }
 
-#[cfg(feature = "solid_people_carry_box")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleCarryBox {}
 
-#[cfg(feature = "solid_people_carry_box")]
 impl IconShape for PeopleCarryBox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20212,11 +17686,9 @@ impl IconShape for PeopleCarryBox {
 
 }
 
-#[cfg(feature = "solid_people_group")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleGroup {}
 
-#[cfg(feature = "solid_people_group")]
 impl IconShape for PeopleGroup {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20228,11 +17700,9 @@ impl IconShape for PeopleGroup {
 
 }
 
-#[cfg(feature = "solid_people_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleLine {}
 
-#[cfg(feature = "solid_people_line")]
 impl IconShape for PeopleLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20244,11 +17714,9 @@ impl IconShape for PeopleLine {
 
 }
 
-#[cfg(feature = "solid_people_pulling")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeoplePulling {}
 
-#[cfg(feature = "solid_people_pulling")]
 impl IconShape for PeoplePulling {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20260,11 +17728,9 @@ impl IconShape for PeoplePulling {
 
 }
 
-#[cfg(feature = "solid_people_robbery")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleRobbery {}
 
-#[cfg(feature = "solid_people_robbery")]
 impl IconShape for PeopleRobbery {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20276,11 +17742,9 @@ impl IconShape for PeopleRobbery {
 
 }
 
-#[cfg(feature = "solid_people_roof")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PeopleRoof {}
 
-#[cfg(feature = "solid_people_roof")]
 impl IconShape for PeopleRoof {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20292,11 +17756,9 @@ impl IconShape for PeopleRoof {
 
 }
 
-#[cfg(feature = "solid_pepper_hot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PepperHot {}
 
-#[cfg(feature = "solid_pepper_hot")]
 impl IconShape for PepperHot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20308,11 +17770,9 @@ impl IconShape for PepperHot {
 
 }
 
-#[cfg(feature = "solid_percent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Percent {}
 
-#[cfg(feature = "solid_percent")]
 impl IconShape for Percent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20324,11 +17784,9 @@ impl IconShape for Percent {
 
 }
 
-#[cfg(feature = "solid_percentage")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Percentage {}
 
-#[cfg(feature = "solid_percentage")]
 impl IconShape for Percentage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20340,11 +17798,9 @@ impl IconShape for Percentage {
 
 }
 
-#[cfg(feature = "solid_person")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Person {}
 
-#[cfg(feature = "solid_person")]
 impl IconShape for Person {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20356,11 +17812,9 @@ impl IconShape for Person {
 
 }
 
-#[cfg(feature = "solid_person_arrow_down_to_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonArrowDownToLine {}
 
-#[cfg(feature = "solid_person_arrow_down_to_line")]
 impl IconShape for PersonArrowDownToLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20372,11 +17826,9 @@ impl IconShape for PersonArrowDownToLine {
 
 }
 
-#[cfg(feature = "solid_person_arrow_up_from_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonArrowUpFromLine {}
 
-#[cfg(feature = "solid_person_arrow_up_from_line")]
 impl IconShape for PersonArrowUpFromLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20388,11 +17840,9 @@ impl IconShape for PersonArrowUpFromLine {
 
 }
 
-#[cfg(feature = "solid_person_biking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonBiking {}
 
-#[cfg(feature = "solid_person_biking")]
 impl IconShape for PersonBiking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20404,11 +17854,9 @@ impl IconShape for PersonBiking {
 
 }
 
-#[cfg(feature = "solid_person_booth")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonBooth {}
 
-#[cfg(feature = "solid_person_booth")]
 impl IconShape for PersonBooth {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20420,11 +17868,9 @@ impl IconShape for PersonBooth {
 
 }
 
-#[cfg(feature = "solid_person_breastfeeding")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonBreastfeeding {}
 
-#[cfg(feature = "solid_person_breastfeeding")]
 impl IconShape for PersonBreastfeeding {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20436,11 +17882,9 @@ impl IconShape for PersonBreastfeeding {
 
 }
 
-#[cfg(feature = "solid_person_burst")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonBurst {}
 
-#[cfg(feature = "solid_person_burst")]
 impl IconShape for PersonBurst {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20452,11 +17896,9 @@ impl IconShape for PersonBurst {
 
 }
 
-#[cfg(feature = "solid_person_cane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCane {}
 
-#[cfg(feature = "solid_person_cane")]
 impl IconShape for PersonCane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20468,11 +17910,9 @@ impl IconShape for PersonCane {
 
 }
 
-#[cfg(feature = "solid_person_chalkboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonChalkboard {}
 
-#[cfg(feature = "solid_person_chalkboard")]
 impl IconShape for PersonChalkboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20484,11 +17924,9 @@ impl IconShape for PersonChalkboard {
 
 }
 
-#[cfg(feature = "solid_person_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCircleCheck {}
 
-#[cfg(feature = "solid_person_circle_check")]
 impl IconShape for PersonCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20500,11 +17938,9 @@ impl IconShape for PersonCircleCheck {
 
 }
 
-#[cfg(feature = "solid_person_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCircleExclamation {}
 
-#[cfg(feature = "solid_person_circle_exclamation")]
 impl IconShape for PersonCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20516,11 +17952,9 @@ impl IconShape for PersonCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_person_circle_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCircleMinus {}
 
-#[cfg(feature = "solid_person_circle_minus")]
 impl IconShape for PersonCircleMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20532,11 +17966,9 @@ impl IconShape for PersonCircleMinus {
 
 }
 
-#[cfg(feature = "solid_person_circle_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCirclePlus {}
 
-#[cfg(feature = "solid_person_circle_plus")]
 impl IconShape for PersonCirclePlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20548,11 +17980,9 @@ impl IconShape for PersonCirclePlus {
 
 }
 
-#[cfg(feature = "solid_person_circle_question")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCircleQuestion {}
 
-#[cfg(feature = "solid_person_circle_question")]
 impl IconShape for PersonCircleQuestion {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20564,11 +17994,9 @@ impl IconShape for PersonCircleQuestion {
 
 }
 
-#[cfg(feature = "solid_person_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonCircleXmark {}
 
-#[cfg(feature = "solid_person_circle_xmark")]
 impl IconShape for PersonCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20580,11 +18008,9 @@ impl IconShape for PersonCircleXmark {
 
 }
 
-#[cfg(feature = "solid_person_digging")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonDigging {}
 
-#[cfg(feature = "solid_person_digging")]
 impl IconShape for PersonDigging {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20596,11 +18022,9 @@ impl IconShape for PersonDigging {
 
 }
 
-#[cfg(feature = "solid_person_dots_from_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonDotsFromLine {}
 
-#[cfg(feature = "solid_person_dots_from_line")]
 impl IconShape for PersonDotsFromLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20612,11 +18036,9 @@ impl IconShape for PersonDotsFromLine {
 
 }
 
-#[cfg(feature = "solid_person_dress")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonDress {}
 
-#[cfg(feature = "solid_person_dress")]
 impl IconShape for PersonDress {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20628,11 +18050,9 @@ impl IconShape for PersonDress {
 
 }
 
-#[cfg(feature = "solid_person_dress_burst")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonDressBurst {}
 
-#[cfg(feature = "solid_person_dress_burst")]
 impl IconShape for PersonDressBurst {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20644,11 +18064,9 @@ impl IconShape for PersonDressBurst {
 
 }
 
-#[cfg(feature = "solid_person_drowning")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonDrowning {}
 
-#[cfg(feature = "solid_person_drowning")]
 impl IconShape for PersonDrowning {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20660,11 +18078,9 @@ impl IconShape for PersonDrowning {
 
 }
 
-#[cfg(feature = "solid_person_falling")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonFalling {}
 
-#[cfg(feature = "solid_person_falling")]
 impl IconShape for PersonFalling {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20676,11 +18092,9 @@ impl IconShape for PersonFalling {
 
 }
 
-#[cfg(feature = "solid_person_falling_burst")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonFallingBurst {}
 
-#[cfg(feature = "solid_person_falling_burst")]
 impl IconShape for PersonFallingBurst {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20692,11 +18106,9 @@ impl IconShape for PersonFallingBurst {
 
 }
 
-#[cfg(feature = "solid_person_half_dress")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonHalfDress {}
 
-#[cfg(feature = "solid_person_half_dress")]
 impl IconShape for PersonHalfDress {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20708,11 +18120,9 @@ impl IconShape for PersonHalfDress {
 
 }
 
-#[cfg(feature = "solid_person_harassing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonHarassing {}
 
-#[cfg(feature = "solid_person_harassing")]
 impl IconShape for PersonHarassing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20724,11 +18134,9 @@ impl IconShape for PersonHarassing {
 
 }
 
-#[cfg(feature = "solid_person_hiking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonHiking {}
 
-#[cfg(feature = "solid_person_hiking")]
 impl IconShape for PersonHiking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20740,11 +18148,9 @@ impl IconShape for PersonHiking {
 
 }
 
-#[cfg(feature = "solid_person_military_pointing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonMilitaryPointing {}
 
-#[cfg(feature = "solid_person_military_pointing")]
 impl IconShape for PersonMilitaryPointing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20756,11 +18162,9 @@ impl IconShape for PersonMilitaryPointing {
 
 }
 
-#[cfg(feature = "solid_person_military_rifle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonMilitaryRifle {}
 
-#[cfg(feature = "solid_person_military_rifle")]
 impl IconShape for PersonMilitaryRifle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20772,11 +18176,9 @@ impl IconShape for PersonMilitaryRifle {
 
 }
 
-#[cfg(feature = "solid_person_military_to_person")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonMilitaryToPerson {}
 
-#[cfg(feature = "solid_person_military_to_person")]
 impl IconShape for PersonMilitaryToPerson {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20788,11 +18190,9 @@ impl IconShape for PersonMilitaryToPerson {
 
 }
 
-#[cfg(feature = "solid_person_praying")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonPraying {}
 
-#[cfg(feature = "solid_person_praying")]
 impl IconShape for PersonPraying {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20804,11 +18204,9 @@ impl IconShape for PersonPraying {
 
 }
 
-#[cfg(feature = "solid_person_pregnant")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonPregnant {}
 
-#[cfg(feature = "solid_person_pregnant")]
 impl IconShape for PersonPregnant {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20820,11 +18218,9 @@ impl IconShape for PersonPregnant {
 
 }
 
-#[cfg(feature = "solid_person_rays")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonRays {}
 
-#[cfg(feature = "solid_person_rays")]
 impl IconShape for PersonRays {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20836,11 +18232,9 @@ impl IconShape for PersonRays {
 
 }
 
-#[cfg(feature = "solid_person_rifle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonRifle {}
 
-#[cfg(feature = "solid_person_rifle")]
 impl IconShape for PersonRifle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20852,11 +18246,9 @@ impl IconShape for PersonRifle {
 
 }
 
-#[cfg(feature = "solid_person_running")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonRunning {}
 
-#[cfg(feature = "solid_person_running")]
 impl IconShape for PersonRunning {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20868,11 +18260,9 @@ impl IconShape for PersonRunning {
 
 }
 
-#[cfg(feature = "solid_person_shelter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonShelter {}
 
-#[cfg(feature = "solid_person_shelter")]
 impl IconShape for PersonShelter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20884,11 +18274,9 @@ impl IconShape for PersonShelter {
 
 }
 
-#[cfg(feature = "solid_person_skating")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonSkating {}
 
-#[cfg(feature = "solid_person_skating")]
 impl IconShape for PersonSkating {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20900,11 +18288,9 @@ impl IconShape for PersonSkating {
 
 }
 
-#[cfg(feature = "solid_person_skiing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonSkiing {}
 
-#[cfg(feature = "solid_person_skiing")]
 impl IconShape for PersonSkiing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20916,11 +18302,9 @@ impl IconShape for PersonSkiing {
 
 }
 
-#[cfg(feature = "solid_person_skiing_nordic")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonSkiingNordic {}
 
-#[cfg(feature = "solid_person_skiing_nordic")]
 impl IconShape for PersonSkiingNordic {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20932,11 +18316,9 @@ impl IconShape for PersonSkiingNordic {
 
 }
 
-#[cfg(feature = "solid_person_snowboarding")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonSnowboarding {}
 
-#[cfg(feature = "solid_person_snowboarding")]
 impl IconShape for PersonSnowboarding {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20948,11 +18330,9 @@ impl IconShape for PersonSnowboarding {
 
 }
 
-#[cfg(feature = "solid_person_swimming")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonSwimming {}
 
-#[cfg(feature = "solid_person_swimming")]
 impl IconShape for PersonSwimming {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20964,11 +18344,9 @@ impl IconShape for PersonSwimming {
 
 }
 
-#[cfg(feature = "solid_person_through_window")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonThroughWindow {}
 
-#[cfg(feature = "solid_person_through_window")]
 impl IconShape for PersonThroughWindow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20980,11 +18358,9 @@ impl IconShape for PersonThroughWindow {
 
 }
 
-#[cfg(feature = "solid_person_walking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonWalking {}
 
-#[cfg(feature = "solid_person_walking")]
 impl IconShape for PersonWalking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -20996,11 +18372,9 @@ impl IconShape for PersonWalking {
 
 }
 
-#[cfg(feature = "solid_person_walking_arrow_loop_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonWalkingArrowLoopLeft {}
 
-#[cfg(feature = "solid_person_walking_arrow_loop_left")]
 impl IconShape for PersonWalkingArrowLoopLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21012,11 +18386,9 @@ impl IconShape for PersonWalkingArrowLoopLeft {
 
 }
 
-#[cfg(feature = "solid_person_walking_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonWalkingArrowRight {}
 
-#[cfg(feature = "solid_person_walking_arrow_right")]
 impl IconShape for PersonWalkingArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21028,11 +18400,9 @@ impl IconShape for PersonWalkingArrowRight {
 
 }
 
-#[cfg(feature = "solid_person_walking_dashed_line_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonWalkingDashedLineArrowRight {}
 
-#[cfg(feature = "solid_person_walking_dashed_line_arrow_right")]
 impl IconShape for PersonWalkingDashedLineArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21044,11 +18414,9 @@ impl IconShape for PersonWalkingDashedLineArrowRight {
 
 }
 
-#[cfg(feature = "solid_person_walking_luggage")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonWalkingLuggage {}
 
-#[cfg(feature = "solid_person_walking_luggage")]
 impl IconShape for PersonWalkingLuggage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21060,11 +18428,9 @@ impl IconShape for PersonWalkingLuggage {
 
 }
 
-#[cfg(feature = "solid_person_walking_with_cane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PersonWalkingWithCane {}
 
-#[cfg(feature = "solid_person_walking_with_cane")]
 impl IconShape for PersonWalkingWithCane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21076,11 +18442,9 @@ impl IconShape for PersonWalkingWithCane {
 
 }
 
-#[cfg(feature = "solid_peseta_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PesetaSign {}
 
-#[cfg(feature = "solid_peseta_sign")]
 impl IconShape for PesetaSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21092,11 +18456,9 @@ impl IconShape for PesetaSign {
 
 }
 
-#[cfg(feature = "solid_peso_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PesoSign {}
 
-#[cfg(feature = "solid_peso_sign")]
 impl IconShape for PesoSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21108,11 +18470,9 @@ impl IconShape for PesoSign {
 
 }
 
-#[cfg(feature = "solid_phone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Phone {}
 
-#[cfg(feature = "solid_phone")]
 impl IconShape for Phone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21124,11 +18484,9 @@ impl IconShape for Phone {
 
 }
 
-#[cfg(feature = "solid_phone_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhoneAlt {}
 
-#[cfg(feature = "solid_phone_alt")]
 impl IconShape for PhoneAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21140,11 +18498,9 @@ impl IconShape for PhoneAlt {
 
 }
 
-#[cfg(feature = "solid_phone_flip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhoneFlip {}
 
-#[cfg(feature = "solid_phone_flip")]
 impl IconShape for PhoneFlip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21156,11 +18512,9 @@ impl IconShape for PhoneFlip {
 
 }
 
-#[cfg(feature = "solid_phone_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhoneSlash {}
 
-#[cfg(feature = "solid_phone_slash")]
 impl IconShape for PhoneSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21172,11 +18526,9 @@ impl IconShape for PhoneSlash {
 
 }
 
-#[cfg(feature = "solid_phone_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhoneSquare {}
 
-#[cfg(feature = "solid_phone_square")]
 impl IconShape for PhoneSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21188,11 +18540,9 @@ impl IconShape for PhoneSquare {
 
 }
 
-#[cfg(feature = "solid_phone_square_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhoneSquareAlt {}
 
-#[cfg(feature = "solid_phone_square_alt")]
 impl IconShape for PhoneSquareAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21204,11 +18554,9 @@ impl IconShape for PhoneSquareAlt {
 
 }
 
-#[cfg(feature = "solid_phone_volume")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhoneVolume {}
 
-#[cfg(feature = "solid_phone_volume")]
 impl IconShape for PhoneVolume {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21220,11 +18568,9 @@ impl IconShape for PhoneVolume {
 
 }
 
-#[cfg(feature = "solid_photo_film")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhotoFilm {}
 
-#[cfg(feature = "solid_photo_film")]
 impl IconShape for PhotoFilm {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21236,11 +18582,9 @@ impl IconShape for PhotoFilm {
 
 }
 
-#[cfg(feature = "solid_photo_video")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PhotoVideo {}
 
-#[cfg(feature = "solid_photo_video")]
 impl IconShape for PhotoVideo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21252,11 +18596,9 @@ impl IconShape for PhotoVideo {
 
 }
 
-#[cfg(feature = "solid_picture_in_picture")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PictureInPicture {}
 
-#[cfg(feature = "solid_picture_in_picture")]
 impl IconShape for PictureInPicture {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21268,11 +18610,9 @@ impl IconShape for PictureInPicture {
 
 }
 
-#[cfg(feature = "solid_pie_chart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PieChart {}
 
-#[cfg(feature = "solid_pie_chart")]
 impl IconShape for PieChart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21284,11 +18624,9 @@ impl IconShape for PieChart {
 
 }
 
-#[cfg(feature = "solid_piggy_bank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PiggyBank {}
 
-#[cfg(feature = "solid_piggy_bank")]
 impl IconShape for PiggyBank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21300,11 +18638,9 @@ impl IconShape for PiggyBank {
 
 }
 
-#[cfg(feature = "solid_pills")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pills {}
 
-#[cfg(feature = "solid_pills")]
 impl IconShape for Pills {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21316,11 +18652,9 @@ impl IconShape for Pills {
 
 }
 
-#[cfg(feature = "solid_ping_pong_paddle_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PingPongPaddleBall {}
 
-#[cfg(feature = "solid_ping_pong_paddle_ball")]
 impl IconShape for PingPongPaddleBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21332,11 +18666,9 @@ impl IconShape for PingPongPaddleBall {
 
 }
 
-#[cfg(feature = "solid_pisces")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pisces {}
 
-#[cfg(feature = "solid_pisces")]
 impl IconShape for Pisces {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21348,11 +18680,9 @@ impl IconShape for Pisces {
 
 }
 
-#[cfg(feature = "solid_pizza_slice")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PizzaSlice {}
 
-#[cfg(feature = "solid_pizza_slice")]
 impl IconShape for PizzaSlice {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21364,11 +18694,9 @@ impl IconShape for PizzaSlice {
 
 }
 
-#[cfg(feature = "solid_place_of_worship")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaceOfWorship {}
 
-#[cfg(feature = "solid_place_of_worship")]
 impl IconShape for PlaceOfWorship {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21380,11 +18708,9 @@ impl IconShape for PlaceOfWorship {
 
 }
 
-#[cfg(feature = "solid_plane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Plane {}
 
-#[cfg(feature = "solid_plane")]
 impl IconShape for Plane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21396,11 +18722,9 @@ impl IconShape for Plane {
 
 }
 
-#[cfg(feature = "solid_plane_arrival")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneArrival {}
 
-#[cfg(feature = "solid_plane_arrival")]
 impl IconShape for PlaneArrival {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21412,11 +18736,9 @@ impl IconShape for PlaneArrival {
 
 }
 
-#[cfg(feature = "solid_plane_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneCircleCheck {}
 
-#[cfg(feature = "solid_plane_circle_check")]
 impl IconShape for PlaneCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21428,11 +18750,9 @@ impl IconShape for PlaneCircleCheck {
 
 }
 
-#[cfg(feature = "solid_plane_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneCircleExclamation {}
 
-#[cfg(feature = "solid_plane_circle_exclamation")]
 impl IconShape for PlaneCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21444,11 +18764,9 @@ impl IconShape for PlaneCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_plane_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneCircleXmark {}
 
-#[cfg(feature = "solid_plane_circle_xmark")]
 impl IconShape for PlaneCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21460,11 +18778,9 @@ impl IconShape for PlaneCircleXmark {
 
 }
 
-#[cfg(feature = "solid_plane_departure")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneDeparture {}
 
-#[cfg(feature = "solid_plane_departure")]
 impl IconShape for PlaneDeparture {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21476,11 +18792,9 @@ impl IconShape for PlaneDeparture {
 
 }
 
-#[cfg(feature = "solid_plane_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneLock {}
 
-#[cfg(feature = "solid_plane_lock")]
 impl IconShape for PlaneLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21492,11 +18806,9 @@ impl IconShape for PlaneLock {
 
 }
 
-#[cfg(feature = "solid_plane_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneSlash {}
 
-#[cfg(feature = "solid_plane_slash")]
 impl IconShape for PlaneSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21508,11 +18820,9 @@ impl IconShape for PlaneSlash {
 
 }
 
-#[cfg(feature = "solid_plane_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlaneUp {}
 
-#[cfg(feature = "solid_plane_up")]
 impl IconShape for PlaneUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21524,11 +18834,9 @@ impl IconShape for PlaneUp {
 
 }
 
-#[cfg(feature = "solid_plant_wilt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlantWilt {}
 
-#[cfg(feature = "solid_plant_wilt")]
 impl IconShape for PlantWilt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21540,11 +18848,9 @@ impl IconShape for PlantWilt {
 
 }
 
-#[cfg(feature = "solid_plate_wheat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlateWheat {}
 
-#[cfg(feature = "solid_plate_wheat")]
 impl IconShape for PlateWheat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21556,11 +18862,9 @@ impl IconShape for PlateWheat {
 
 }
 
-#[cfg(feature = "solid_play")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Play {}
 
-#[cfg(feature = "solid_play")]
 impl IconShape for Play {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21572,11 +18876,9 @@ impl IconShape for Play {
 
 }
 
-#[cfg(feature = "solid_play_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlayCircle {}
 
-#[cfg(feature = "solid_play_circle")]
 impl IconShape for PlayCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21588,11 +18890,9 @@ impl IconShape for PlayCircle {
 
 }
 
-#[cfg(feature = "solid_plug")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Plug {}
 
-#[cfg(feature = "solid_plug")]
 impl IconShape for Plug {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21604,11 +18904,9 @@ impl IconShape for Plug {
 
 }
 
-#[cfg(feature = "solid_plug_circle_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlugCircleBolt {}
 
-#[cfg(feature = "solid_plug_circle_bolt")]
 impl IconShape for PlugCircleBolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21620,11 +18918,9 @@ impl IconShape for PlugCircleBolt {
 
 }
 
-#[cfg(feature = "solid_plug_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlugCircleCheck {}
 
-#[cfg(feature = "solid_plug_circle_check")]
 impl IconShape for PlugCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21636,11 +18932,9 @@ impl IconShape for PlugCircleCheck {
 
 }
 
-#[cfg(feature = "solid_plug_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlugCircleExclamation {}
 
-#[cfg(feature = "solid_plug_circle_exclamation")]
 impl IconShape for PlugCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21652,11 +18946,9 @@ impl IconShape for PlugCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_plug_circle_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlugCircleMinus {}
 
-#[cfg(feature = "solid_plug_circle_minus")]
 impl IconShape for PlugCircleMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21668,11 +18960,9 @@ impl IconShape for PlugCircleMinus {
 
 }
 
-#[cfg(feature = "solid_plug_circle_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlugCirclePlus {}
 
-#[cfg(feature = "solid_plug_circle_plus")]
 impl IconShape for PlugCirclePlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21684,11 +18974,9 @@ impl IconShape for PlugCirclePlus {
 
 }
 
-#[cfg(feature = "solid_plug_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlugCircleXmark {}
 
-#[cfg(feature = "solid_plug_circle_xmark")]
 impl IconShape for PlugCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21700,11 +18988,9 @@ impl IconShape for PlugCircleXmark {
 
 }
 
-#[cfg(feature = "solid_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Plus {}
 
-#[cfg(feature = "solid_plus")]
 impl IconShape for Plus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21716,11 +19002,9 @@ impl IconShape for Plus {
 
 }
 
-#[cfg(feature = "solid_plus_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlusCircle {}
 
-#[cfg(feature = "solid_plus_circle")]
 impl IconShape for PlusCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21732,11 +19016,9 @@ impl IconShape for PlusCircle {
 
 }
 
-#[cfg(feature = "solid_plus_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlusMinus {}
 
-#[cfg(feature = "solid_plus_minus")]
 impl IconShape for PlusMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21748,11 +19030,9 @@ impl IconShape for PlusMinus {
 
 }
 
-#[cfg(feature = "solid_plus_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PlusSquare {}
 
-#[cfg(feature = "solid_plus_square")]
 impl IconShape for PlusSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21764,11 +19044,9 @@ impl IconShape for PlusSquare {
 
 }
 
-#[cfg(feature = "solid_podcast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Podcast {}
 
-#[cfg(feature = "solid_podcast")]
 impl IconShape for Podcast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21780,11 +19058,9 @@ impl IconShape for Podcast {
 
 }
 
-#[cfg(feature = "solid_poll")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Poll {}
 
-#[cfg(feature = "solid_poll")]
 impl IconShape for Poll {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21796,11 +19072,9 @@ impl IconShape for Poll {
 
 }
 
-#[cfg(feature = "solid_poll_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PollH {}
 
-#[cfg(feature = "solid_poll_h")]
 impl IconShape for PollH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21812,11 +19086,9 @@ impl IconShape for PollH {
 
 }
 
-#[cfg(feature = "solid_poo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Poo {}
 
-#[cfg(feature = "solid_poo")]
 impl IconShape for Poo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21828,11 +19100,9 @@ impl IconShape for Poo {
 
 }
 
-#[cfg(feature = "solid_poo_bolt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PooBolt {}
 
-#[cfg(feature = "solid_poo_bolt")]
 impl IconShape for PooBolt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21844,11 +19114,9 @@ impl IconShape for PooBolt {
 
 }
 
-#[cfg(feature = "solid_poo_storm")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PooStorm {}
 
-#[cfg(feature = "solid_poo_storm")]
 impl IconShape for PooStorm {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21860,11 +19128,9 @@ impl IconShape for PooStorm {
 
 }
 
-#[cfg(feature = "solid_poop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Poop {}
 
-#[cfg(feature = "solid_poop")]
 impl IconShape for Poop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21876,11 +19142,9 @@ impl IconShape for Poop {
 
 }
 
-#[cfg(feature = "solid_portrait")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Portrait {}
 
-#[cfg(feature = "solid_portrait")]
 impl IconShape for Portrait {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21892,11 +19156,9 @@ impl IconShape for Portrait {
 
 }
 
-#[cfg(feature = "solid_pound_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PoundSign {}
 
-#[cfg(feature = "solid_pound_sign")]
 impl IconShape for PoundSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21908,11 +19170,9 @@ impl IconShape for PoundSign {
 
 }
 
-#[cfg(feature = "solid_power_off")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PowerOff {}
 
-#[cfg(feature = "solid_power_off")]
 impl IconShape for PowerOff {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21924,11 +19184,9 @@ impl IconShape for PowerOff {
 
 }
 
-#[cfg(feature = "solid_pray")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Pray {}
 
-#[cfg(feature = "solid_pray")]
 impl IconShape for Pray {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21940,11 +19198,9 @@ impl IconShape for Pray {
 
 }
 
-#[cfg(feature = "solid_praying_hands")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PrayingHands {}
 
-#[cfg(feature = "solid_praying_hands")]
 impl IconShape for PrayingHands {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21956,11 +19212,9 @@ impl IconShape for PrayingHands {
 
 }
 
-#[cfg(feature = "solid_prescription")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Prescription {}
 
-#[cfg(feature = "solid_prescription")]
 impl IconShape for Prescription {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21972,11 +19226,9 @@ impl IconShape for Prescription {
 
 }
 
-#[cfg(feature = "solid_prescription_bottle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PrescriptionBottle {}
 
-#[cfg(feature = "solid_prescription_bottle")]
 impl IconShape for PrescriptionBottle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -21988,11 +19240,9 @@ impl IconShape for PrescriptionBottle {
 
 }
 
-#[cfg(feature = "solid_prescription_bottle_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PrescriptionBottleAlt {}
 
-#[cfg(feature = "solid_prescription_bottle_alt")]
 impl IconShape for PrescriptionBottleAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22004,11 +19254,9 @@ impl IconShape for PrescriptionBottleAlt {
 
 }
 
-#[cfg(feature = "solid_prescription_bottle_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PrescriptionBottleMedical {}
 
-#[cfg(feature = "solid_prescription_bottle_medical")]
 impl IconShape for PrescriptionBottleMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22020,11 +19268,9 @@ impl IconShape for PrescriptionBottleMedical {
 
 }
 
-#[cfg(feature = "solid_print")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Print {}
 
-#[cfg(feature = "solid_print")]
 impl IconShape for Print {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22036,11 +19282,9 @@ impl IconShape for Print {
 
 }
 
-#[cfg(feature = "solid_procedures")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Procedures {}
 
-#[cfg(feature = "solid_procedures")]
 impl IconShape for Procedures {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22052,11 +19296,9 @@ impl IconShape for Procedures {
 
 }
 
-#[cfg(feature = "solid_project_diagram")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ProjectDiagram {}
 
-#[cfg(feature = "solid_project_diagram")]
 impl IconShape for ProjectDiagram {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22068,11 +19310,9 @@ impl IconShape for ProjectDiagram {
 
 }
 
-#[cfg(feature = "solid_pump_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PumpMedical {}
 
-#[cfg(feature = "solid_pump_medical")]
 impl IconShape for PumpMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22084,11 +19324,9 @@ impl IconShape for PumpMedical {
 
 }
 
-#[cfg(feature = "solid_pump_soap")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PumpSoap {}
 
-#[cfg(feature = "solid_pump_soap")]
 impl IconShape for PumpSoap {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22100,11 +19338,9 @@ impl IconShape for PumpSoap {
 
 }
 
-#[cfg(feature = "solid_puzzle_piece")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct PuzzlePiece {}
 
-#[cfg(feature = "solid_puzzle_piece")]
 impl IconShape for PuzzlePiece {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22116,11 +19352,9 @@ impl IconShape for PuzzlePiece {
 
 }
 
-#[cfg(feature = "solid_q")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Q {}
 
-#[cfg(feature = "solid_q")]
 impl IconShape for Q {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22132,11 +19366,9 @@ impl IconShape for Q {
 
 }
 
-#[cfg(feature = "solid_qrcode")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Qrcode {}
 
-#[cfg(feature = "solid_qrcode")]
 impl IconShape for Qrcode {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22148,11 +19380,9 @@ impl IconShape for Qrcode {
 
 }
 
-#[cfg(feature = "solid_question")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Question {}
 
-#[cfg(feature = "solid_question")]
 impl IconShape for Question {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22164,11 +19394,9 @@ impl IconShape for Question {
 
 }
 
-#[cfg(feature = "solid_question_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct QuestionCircle {}
 
-#[cfg(feature = "solid_question_circle")]
 impl IconShape for QuestionCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22180,11 +19408,9 @@ impl IconShape for QuestionCircle {
 
 }
 
-#[cfg(feature = "solid_quidditch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Quidditch {}
 
-#[cfg(feature = "solid_quidditch")]
 impl IconShape for Quidditch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22196,11 +19422,9 @@ impl IconShape for Quidditch {
 
 }
 
-#[cfg(feature = "solid_quidditch_broom_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct QuidditchBroomBall {}
 
-#[cfg(feature = "solid_quidditch_broom_ball")]
 impl IconShape for QuidditchBroomBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22212,11 +19436,9 @@ impl IconShape for QuidditchBroomBall {
 
 }
 
-#[cfg(feature = "solid_quote_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct QuoteLeft {}
 
-#[cfg(feature = "solid_quote_left")]
 impl IconShape for QuoteLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22228,11 +19450,9 @@ impl IconShape for QuoteLeft {
 
 }
 
-#[cfg(feature = "solid_quote_left_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct QuoteLeftAlt {}
 
-#[cfg(feature = "solid_quote_left_alt")]
 impl IconShape for QuoteLeftAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22244,11 +19464,9 @@ impl IconShape for QuoteLeftAlt {
 
 }
 
-#[cfg(feature = "solid_quote_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct QuoteRight {}
 
-#[cfg(feature = "solid_quote_right")]
 impl IconShape for QuoteRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22260,11 +19478,9 @@ impl IconShape for QuoteRight {
 
 }
 
-#[cfg(feature = "solid_quote_right_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct QuoteRightAlt {}
 
-#[cfg(feature = "solid_quote_right_alt")]
 impl IconShape for QuoteRightAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22276,11 +19492,9 @@ impl IconShape for QuoteRightAlt {
 
 }
 
-#[cfg(feature = "solid_quran")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Quran {}
 
-#[cfg(feature = "solid_quran")]
 impl IconShape for Quran {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22292,11 +19506,9 @@ impl IconShape for Quran {
 
 }
 
-#[cfg(feature = "solid_r")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct R {}
 
-#[cfg(feature = "solid_r")]
 impl IconShape for R {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22308,11 +19520,9 @@ impl IconShape for R {
 
 }
 
-#[cfg(feature = "solid_radiation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Radiation {}
 
-#[cfg(feature = "solid_radiation")]
 impl IconShape for Radiation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22324,11 +19534,9 @@ impl IconShape for Radiation {
 
 }
 
-#[cfg(feature = "solid_radiation_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RadiationAlt {}
 
-#[cfg(feature = "solid_radiation_alt")]
 impl IconShape for RadiationAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22340,11 +19548,9 @@ impl IconShape for RadiationAlt {
 
 }
 
-#[cfg(feature = "solid_radio")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Radio {}
 
-#[cfg(feature = "solid_radio")]
 impl IconShape for Radio {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22356,11 +19562,9 @@ impl IconShape for Radio {
 
 }
 
-#[cfg(feature = "solid_rainbow")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rainbow {}
 
-#[cfg(feature = "solid_rainbow")]
 impl IconShape for Rainbow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22372,11 +19576,9 @@ impl IconShape for Rainbow {
 
 }
 
-#[cfg(feature = "solid_random")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Random {}
 
-#[cfg(feature = "solid_random")]
 impl IconShape for Random {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22388,11 +19590,9 @@ impl IconShape for Random {
 
 }
 
-#[cfg(feature = "solid_ranking_star")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RankingStar {}
 
-#[cfg(feature = "solid_ranking_star")]
 impl IconShape for RankingStar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22404,11 +19604,9 @@ impl IconShape for RankingStar {
 
 }
 
-#[cfg(feature = "solid_receipt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Receipt {}
 
-#[cfg(feature = "solid_receipt")]
 impl IconShape for Receipt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22420,11 +19618,9 @@ impl IconShape for Receipt {
 
 }
 
-#[cfg(feature = "solid_record_vinyl")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RecordVinyl {}
 
-#[cfg(feature = "solid_record_vinyl")]
 impl IconShape for RecordVinyl {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22436,11 +19632,9 @@ impl IconShape for RecordVinyl {
 
 }
 
-#[cfg(feature = "solid_rectangle_ad")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RectangleAd {}
 
-#[cfg(feature = "solid_rectangle_ad")]
 impl IconShape for RectangleAd {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22452,11 +19646,9 @@ impl IconShape for RectangleAd {
 
 }
 
-#[cfg(feature = "solid_rectangle_list")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RectangleList {}
 
-#[cfg(feature = "solid_rectangle_list")]
 impl IconShape for RectangleList {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22468,11 +19660,9 @@ impl IconShape for RectangleList {
 
 }
 
-#[cfg(feature = "solid_rectangle_times")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RectangleTimes {}
 
-#[cfg(feature = "solid_rectangle_times")]
 impl IconShape for RectangleTimes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22484,11 +19674,9 @@ impl IconShape for RectangleTimes {
 
 }
 
-#[cfg(feature = "solid_rectangle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RectangleXmark {}
 
-#[cfg(feature = "solid_rectangle_xmark")]
 impl IconShape for RectangleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22500,11 +19688,9 @@ impl IconShape for RectangleXmark {
 
 }
 
-#[cfg(feature = "solid_recycle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Recycle {}
 
-#[cfg(feature = "solid_recycle")]
 impl IconShape for Recycle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22516,11 +19702,9 @@ impl IconShape for Recycle {
 
 }
 
-#[cfg(feature = "solid_redo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Redo {}
 
-#[cfg(feature = "solid_redo")]
 impl IconShape for Redo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22532,11 +19716,9 @@ impl IconShape for Redo {
 
 }
 
-#[cfg(feature = "solid_redo_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RedoAlt {}
 
-#[cfg(feature = "solid_redo_alt")]
 impl IconShape for RedoAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22548,11 +19730,9 @@ impl IconShape for RedoAlt {
 
 }
 
-#[cfg(feature = "solid_refresh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Refresh {}
 
-#[cfg(feature = "solid_refresh")]
 impl IconShape for Refresh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22564,11 +19744,9 @@ impl IconShape for Refresh {
 
 }
 
-#[cfg(feature = "solid_registered")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Registered {}
 
-#[cfg(feature = "solid_registered")]
 impl IconShape for Registered {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22580,11 +19758,9 @@ impl IconShape for Registered {
 
 }
 
-#[cfg(feature = "solid_remove")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Remove {}
 
-#[cfg(feature = "solid_remove")]
 impl IconShape for Remove {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22596,11 +19772,9 @@ impl IconShape for Remove {
 
 }
 
-#[cfg(feature = "solid_remove_format")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RemoveFormat {}
 
-#[cfg(feature = "solid_remove_format")]
 impl IconShape for RemoveFormat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22612,11 +19786,9 @@ impl IconShape for RemoveFormat {
 
 }
 
-#[cfg(feature = "solid_reorder")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Reorder {}
 
-#[cfg(feature = "solid_reorder")]
 impl IconShape for Reorder {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22628,11 +19800,9 @@ impl IconShape for Reorder {
 
 }
 
-#[cfg(feature = "solid_repeat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Repeat {}
 
-#[cfg(feature = "solid_repeat")]
 impl IconShape for Repeat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22644,11 +19814,9 @@ impl IconShape for Repeat {
 
 }
 
-#[cfg(feature = "solid_reply")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Reply {}
 
-#[cfg(feature = "solid_reply")]
 impl IconShape for Reply {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22660,11 +19828,9 @@ impl IconShape for Reply {
 
 }
 
-#[cfg(feature = "solid_reply_all")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ReplyAll {}
 
-#[cfg(feature = "solid_reply_all")]
 impl IconShape for ReplyAll {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22676,11 +19842,9 @@ impl IconShape for ReplyAll {
 
 }
 
-#[cfg(feature = "solid_republican")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Republican {}
 
-#[cfg(feature = "solid_republican")]
 impl IconShape for Republican {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22692,11 +19856,9 @@ impl IconShape for Republican {
 
 }
 
-#[cfg(feature = "solid_restroom")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Restroom {}
 
-#[cfg(feature = "solid_restroom")]
 impl IconShape for Restroom {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22708,11 +19870,9 @@ impl IconShape for Restroom {
 
 }
 
-#[cfg(feature = "solid_retweet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Retweet {}
 
-#[cfg(feature = "solid_retweet")]
 impl IconShape for Retweet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22724,11 +19884,9 @@ impl IconShape for Retweet {
 
 }
 
-#[cfg(feature = "solid_ribbon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ribbon {}
 
-#[cfg(feature = "solid_ribbon")]
 impl IconShape for Ribbon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22740,11 +19898,9 @@ impl IconShape for Ribbon {
 
 }
 
-#[cfg(feature = "solid_right_from_bracket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RightFromBracket {}
 
-#[cfg(feature = "solid_right_from_bracket")]
 impl IconShape for RightFromBracket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22756,11 +19912,9 @@ impl IconShape for RightFromBracket {
 
 }
 
-#[cfg(feature = "solid_right_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RightLeft {}
 
-#[cfg(feature = "solid_right_left")]
 impl IconShape for RightLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22772,11 +19926,9 @@ impl IconShape for RightLeft {
 
 }
 
-#[cfg(feature = "solid_right_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RightLong {}
 
-#[cfg(feature = "solid_right_long")]
 impl IconShape for RightLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22788,11 +19940,9 @@ impl IconShape for RightLong {
 
 }
 
-#[cfg(feature = "solid_right_to_bracket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RightToBracket {}
 
-#[cfg(feature = "solid_right_to_bracket")]
 impl IconShape for RightToBracket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22804,11 +19954,9 @@ impl IconShape for RightToBracket {
 
 }
 
-#[cfg(feature = "solid_ring")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ring {}
 
-#[cfg(feature = "solid_ring")]
 impl IconShape for Ring {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22820,11 +19968,9 @@ impl IconShape for Ring {
 
 }
 
-#[cfg(feature = "solid_rmb")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rmb {}
 
-#[cfg(feature = "solid_rmb")]
 impl IconShape for Rmb {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22836,11 +19982,9 @@ impl IconShape for Rmb {
 
 }
 
-#[cfg(feature = "solid_road")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Road {}
 
-#[cfg(feature = "solid_road")]
 impl IconShape for Road {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22852,11 +19996,9 @@ impl IconShape for Road {
 
 }
 
-#[cfg(feature = "solid_road_barrier")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadBarrier {}
 
-#[cfg(feature = "solid_road_barrier")]
 impl IconShape for RoadBarrier {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22868,11 +20010,9 @@ impl IconShape for RoadBarrier {
 
 }
 
-#[cfg(feature = "solid_road_bridge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadBridge {}
 
-#[cfg(feature = "solid_road_bridge")]
 impl IconShape for RoadBridge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22884,11 +20024,9 @@ impl IconShape for RoadBridge {
 
 }
 
-#[cfg(feature = "solid_road_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadCircleCheck {}
 
-#[cfg(feature = "solid_road_circle_check")]
 impl IconShape for RoadCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22900,11 +20038,9 @@ impl IconShape for RoadCircleCheck {
 
 }
 
-#[cfg(feature = "solid_road_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadCircleExclamation {}
 
-#[cfg(feature = "solid_road_circle_exclamation")]
 impl IconShape for RoadCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22916,11 +20052,9 @@ impl IconShape for RoadCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_road_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadCircleXmark {}
 
-#[cfg(feature = "solid_road_circle_xmark")]
 impl IconShape for RoadCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22932,11 +20066,9 @@ impl IconShape for RoadCircleXmark {
 
 }
 
-#[cfg(feature = "solid_road_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadLock {}
 
-#[cfg(feature = "solid_road_lock")]
 impl IconShape for RoadLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22948,11 +20080,9 @@ impl IconShape for RoadLock {
 
 }
 
-#[cfg(feature = "solid_road_spikes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RoadSpikes {}
 
-#[cfg(feature = "solid_road_spikes")]
 impl IconShape for RoadSpikes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22964,11 +20094,9 @@ impl IconShape for RoadSpikes {
 
 }
 
-#[cfg(feature = "solid_robot")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Robot {}
 
-#[cfg(feature = "solid_robot")]
 impl IconShape for Robot {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22980,11 +20108,9 @@ impl IconShape for Robot {
 
 }
 
-#[cfg(feature = "solid_rocket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rocket {}
 
-#[cfg(feature = "solid_rocket")]
 impl IconShape for Rocket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -22996,11 +20122,9 @@ impl IconShape for Rocket {
 
 }
 
-#[cfg(feature = "solid_rod_asclepius")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RodAsclepius {}
 
-#[cfg(feature = "solid_rod_asclepius")]
 impl IconShape for RodAsclepius {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23012,11 +20136,9 @@ impl IconShape for RodAsclepius {
 
 }
 
-#[cfg(feature = "solid_rod_snake")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RodSnake {}
 
-#[cfg(feature = "solid_rod_snake")]
 impl IconShape for RodSnake {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23028,11 +20150,9 @@ impl IconShape for RodSnake {
 
 }
 
-#[cfg(feature = "solid_rotate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rotate {}
 
-#[cfg(feature = "solid_rotate")]
 impl IconShape for Rotate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23044,11 +20164,9 @@ impl IconShape for Rotate {
 
 }
 
-#[cfg(feature = "solid_rotate_back")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RotateBack {}
 
-#[cfg(feature = "solid_rotate_back")]
 impl IconShape for RotateBack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23060,11 +20178,9 @@ impl IconShape for RotateBack {
 
 }
 
-#[cfg(feature = "solid_rotate_backward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RotateBackward {}
 
-#[cfg(feature = "solid_rotate_backward")]
 impl IconShape for RotateBackward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23076,11 +20192,9 @@ impl IconShape for RotateBackward {
 
 }
 
-#[cfg(feature = "solid_rotate_forward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RotateForward {}
 
-#[cfg(feature = "solid_rotate_forward")]
 impl IconShape for RotateForward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23092,11 +20206,9 @@ impl IconShape for RotateForward {
 
 }
 
-#[cfg(feature = "solid_rotate_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RotateLeft {}
 
-#[cfg(feature = "solid_rotate_left")]
 impl IconShape for RotateLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23108,11 +20220,9 @@ impl IconShape for RotateLeft {
 
 }
 
-#[cfg(feature = "solid_rotate_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RotateRight {}
 
-#[cfg(feature = "solid_rotate_right")]
 impl IconShape for RotateRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23124,11 +20234,9 @@ impl IconShape for RotateRight {
 
 }
 
-#[cfg(feature = "solid_rouble")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rouble {}
 
-#[cfg(feature = "solid_rouble")]
 impl IconShape for Rouble {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23140,11 +20248,9 @@ impl IconShape for Rouble {
 
 }
 
-#[cfg(feature = "solid_route")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Route {}
 
-#[cfg(feature = "solid_route")]
 impl IconShape for Route {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23156,11 +20262,9 @@ impl IconShape for Route {
 
 }
 
-#[cfg(feature = "solid_rss")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rss {}
 
-#[cfg(feature = "solid_rss")]
 impl IconShape for Rss {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23172,11 +20276,9 @@ impl IconShape for Rss {
 
 }
 
-#[cfg(feature = "solid_rss_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RssSquare {}
 
-#[cfg(feature = "solid_rss_square")]
 impl IconShape for RssSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23188,11 +20290,9 @@ impl IconShape for RssSquare {
 
 }
 
-#[cfg(feature = "solid_rub")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rub {}
 
-#[cfg(feature = "solid_rub")]
 impl IconShape for Rub {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23204,11 +20304,9 @@ impl IconShape for Rub {
 
 }
 
-#[cfg(feature = "solid_ruble")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ruble {}
 
-#[cfg(feature = "solid_ruble")]
 impl IconShape for Ruble {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23220,11 +20318,9 @@ impl IconShape for Ruble {
 
 }
 
-#[cfg(feature = "solid_ruble_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RubleSign {}
 
-#[cfg(feature = "solid_ruble_sign")]
 impl IconShape for RubleSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23236,11 +20332,9 @@ impl IconShape for RubleSign {
 
 }
 
-#[cfg(feature = "solid_rug")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rug {}
 
-#[cfg(feature = "solid_rug")]
 impl IconShape for Rug {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23252,11 +20346,9 @@ impl IconShape for Rug {
 
 }
 
-#[cfg(feature = "solid_ruler")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ruler {}
 
-#[cfg(feature = "solid_ruler")]
 impl IconShape for Ruler {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23268,11 +20360,9 @@ impl IconShape for Ruler {
 
 }
 
-#[cfg(feature = "solid_ruler_combined")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RulerCombined {}
 
-#[cfg(feature = "solid_ruler_combined")]
 impl IconShape for RulerCombined {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23284,11 +20374,9 @@ impl IconShape for RulerCombined {
 
 }
 
-#[cfg(feature = "solid_ruler_horizontal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RulerHorizontal {}
 
-#[cfg(feature = "solid_ruler_horizontal")]
 impl IconShape for RulerHorizontal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23300,11 +20388,9 @@ impl IconShape for RulerHorizontal {
 
 }
 
-#[cfg(feature = "solid_ruler_vertical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RulerVertical {}
 
-#[cfg(feature = "solid_ruler_vertical")]
 impl IconShape for RulerVertical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23316,11 +20402,9 @@ impl IconShape for RulerVertical {
 
 }
 
-#[cfg(feature = "solid_running")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Running {}
 
-#[cfg(feature = "solid_running")]
 impl IconShape for Running {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23332,11 +20416,9 @@ impl IconShape for Running {
 
 }
 
-#[cfg(feature = "solid_rupee")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Rupee {}
 
-#[cfg(feature = "solid_rupee")]
 impl IconShape for Rupee {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23348,11 +20430,9 @@ impl IconShape for Rupee {
 
 }
 
-#[cfg(feature = "solid_rupee_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RupeeSign {}
 
-#[cfg(feature = "solid_rupee_sign")]
 impl IconShape for RupeeSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23364,11 +20444,9 @@ impl IconShape for RupeeSign {
 
 }
 
-#[cfg(feature = "solid_rupiah_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct RupiahSign {}
 
-#[cfg(feature = "solid_rupiah_sign")]
 impl IconShape for RupiahSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23380,11 +20458,9 @@ impl IconShape for RupiahSign {
 
 }
 
-#[cfg(feature = "solid_s")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct S {}
 
-#[cfg(feature = "solid_s")]
 impl IconShape for S {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23396,11 +20472,9 @@ impl IconShape for S {
 
 }
 
-#[cfg(feature = "solid_sack_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SackDollar {}
 
-#[cfg(feature = "solid_sack_dollar")]
 impl IconShape for SackDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23412,11 +20486,9 @@ impl IconShape for SackDollar {
 
 }
 
-#[cfg(feature = "solid_sack_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SackXmark {}
 
-#[cfg(feature = "solid_sack_xmark")]
 impl IconShape for SackXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23428,11 +20500,9 @@ impl IconShape for SackXmark {
 
 }
 
-#[cfg(feature = "solid_sad_cry")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SadCry {}
 
-#[cfg(feature = "solid_sad_cry")]
 impl IconShape for SadCry {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23444,11 +20514,9 @@ impl IconShape for SadCry {
 
 }
 
-#[cfg(feature = "solid_sad_tear")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SadTear {}
 
-#[cfg(feature = "solid_sad_tear")]
 impl IconShape for SadTear {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23460,11 +20528,9 @@ impl IconShape for SadTear {
 
 }
 
-#[cfg(feature = "solid_sagittarius")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sagittarius {}
 
-#[cfg(feature = "solid_sagittarius")]
 impl IconShape for Sagittarius {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23476,11 +20542,9 @@ impl IconShape for Sagittarius {
 
 }
 
-#[cfg(feature = "solid_sailboat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sailboat {}
 
-#[cfg(feature = "solid_sailboat")]
 impl IconShape for Sailboat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23492,11 +20556,9 @@ impl IconShape for Sailboat {
 
 }
 
-#[cfg(feature = "solid_satellite")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Satellite {}
 
-#[cfg(feature = "solid_satellite")]
 impl IconShape for Satellite {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23508,11 +20570,9 @@ impl IconShape for Satellite {
 
 }
 
-#[cfg(feature = "solid_satellite_dish")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SatelliteDish {}
 
-#[cfg(feature = "solid_satellite_dish")]
 impl IconShape for SatelliteDish {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23524,11 +20584,9 @@ impl IconShape for SatelliteDish {
 
 }
 
-#[cfg(feature = "solid_save")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Save {}
 
-#[cfg(feature = "solid_save")]
 impl IconShape for Save {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23540,11 +20598,9 @@ impl IconShape for Save {
 
 }
 
-#[cfg(feature = "solid_scale_balanced")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ScaleBalanced {}
 
-#[cfg(feature = "solid_scale_balanced")]
 impl IconShape for ScaleBalanced {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23556,11 +20612,9 @@ impl IconShape for ScaleBalanced {
 
 }
 
-#[cfg(feature = "solid_scale_unbalanced")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ScaleUnbalanced {}
 
-#[cfg(feature = "solid_scale_unbalanced")]
 impl IconShape for ScaleUnbalanced {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23572,11 +20626,9 @@ impl IconShape for ScaleUnbalanced {
 
 }
 
-#[cfg(feature = "solid_scale_unbalanced_flip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ScaleUnbalancedFlip {}
 
-#[cfg(feature = "solid_scale_unbalanced_flip")]
 impl IconShape for ScaleUnbalancedFlip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23588,11 +20640,9 @@ impl IconShape for ScaleUnbalancedFlip {
 
 }
 
-#[cfg(feature = "solid_school")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct School {}
 
-#[cfg(feature = "solid_school")]
 impl IconShape for School {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23604,11 +20654,9 @@ impl IconShape for School {
 
 }
 
-#[cfg(feature = "solid_school_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SchoolCircleCheck {}
 
-#[cfg(feature = "solid_school_circle_check")]
 impl IconShape for SchoolCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23620,11 +20668,9 @@ impl IconShape for SchoolCircleCheck {
 
 }
 
-#[cfg(feature = "solid_school_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SchoolCircleExclamation {}
 
-#[cfg(feature = "solid_school_circle_exclamation")]
 impl IconShape for SchoolCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23636,11 +20682,9 @@ impl IconShape for SchoolCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_school_circle_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SchoolCircleXmark {}
 
-#[cfg(feature = "solid_school_circle_xmark")]
 impl IconShape for SchoolCircleXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23652,11 +20696,9 @@ impl IconShape for SchoolCircleXmark {
 
 }
 
-#[cfg(feature = "solid_school_flag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SchoolFlag {}
 
-#[cfg(feature = "solid_school_flag")]
 impl IconShape for SchoolFlag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23668,11 +20710,9 @@ impl IconShape for SchoolFlag {
 
 }
 
-#[cfg(feature = "solid_school_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SchoolLock {}
 
-#[cfg(feature = "solid_school_lock")]
 impl IconShape for SchoolLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23684,11 +20724,9 @@ impl IconShape for SchoolLock {
 
 }
 
-#[cfg(feature = "solid_scissors")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Scissors {}
 
-#[cfg(feature = "solid_scissors")]
 impl IconShape for Scissors {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23700,11 +20738,9 @@ impl IconShape for Scissors {
 
 }
 
-#[cfg(feature = "solid_scorpio")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Scorpio {}
 
-#[cfg(feature = "solid_scorpio")]
 impl IconShape for Scorpio {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23716,11 +20752,9 @@ impl IconShape for Scorpio {
 
 }
 
-#[cfg(feature = "solid_screwdriver")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Screwdriver {}
 
-#[cfg(feature = "solid_screwdriver")]
 impl IconShape for Screwdriver {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23732,11 +20766,9 @@ impl IconShape for Screwdriver {
 
 }
 
-#[cfg(feature = "solid_screwdriver_wrench")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ScrewdriverWrench {}
 
-#[cfg(feature = "solid_screwdriver_wrench")]
 impl IconShape for ScrewdriverWrench {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23748,11 +20780,9 @@ impl IconShape for ScrewdriverWrench {
 
 }
 
-#[cfg(feature = "solid_scroll")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Scroll {}
 
-#[cfg(feature = "solid_scroll")]
 impl IconShape for Scroll {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23764,11 +20794,9 @@ impl IconShape for Scroll {
 
 }
 
-#[cfg(feature = "solid_scroll_torah")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ScrollTorah {}
 
-#[cfg(feature = "solid_scroll_torah")]
 impl IconShape for ScrollTorah {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23780,11 +20808,9 @@ impl IconShape for ScrollTorah {
 
 }
 
-#[cfg(feature = "solid_sd_card")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SdCard {}
 
-#[cfg(feature = "solid_sd_card")]
 impl IconShape for SdCard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23796,11 +20822,9 @@ impl IconShape for SdCard {
 
 }
 
-#[cfg(feature = "solid_search")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Search {}
 
-#[cfg(feature = "solid_search")]
 impl IconShape for Search {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23812,11 +20836,9 @@ impl IconShape for Search {
 
 }
 
-#[cfg(feature = "solid_search_dollar")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SearchDollar {}
 
-#[cfg(feature = "solid_search_dollar")]
 impl IconShape for SearchDollar {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23828,11 +20850,9 @@ impl IconShape for SearchDollar {
 
 }
 
-#[cfg(feature = "solid_search_location")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SearchLocation {}
 
-#[cfg(feature = "solid_search_location")]
 impl IconShape for SearchLocation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23844,11 +20864,9 @@ impl IconShape for SearchLocation {
 
 }
 
-#[cfg(feature = "solid_search_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SearchMinus {}
 
-#[cfg(feature = "solid_search_minus")]
 impl IconShape for SearchMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23860,11 +20878,9 @@ impl IconShape for SearchMinus {
 
 }
 
-#[cfg(feature = "solid_search_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SearchPlus {}
 
-#[cfg(feature = "solid_search_plus")]
 impl IconShape for SearchPlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23876,11 +20892,9 @@ impl IconShape for SearchPlus {
 
 }
 
-#[cfg(feature = "solid_section")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Section {}
 
-#[cfg(feature = "solid_section")]
 impl IconShape for Section {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23892,11 +20906,9 @@ impl IconShape for Section {
 
 }
 
-#[cfg(feature = "solid_seedling")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Seedling {}
 
-#[cfg(feature = "solid_seedling")]
 impl IconShape for Seedling {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23908,11 +20920,9 @@ impl IconShape for Seedling {
 
 }
 
-#[cfg(feature = "solid_septagon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Septagon {}
 
-#[cfg(feature = "solid_septagon")]
 impl IconShape for Septagon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23924,11 +20934,9 @@ impl IconShape for Septagon {
 
 }
 
-#[cfg(feature = "solid_server")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Server {}
 
-#[cfg(feature = "solid_server")]
 impl IconShape for Server {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23940,11 +20948,9 @@ impl IconShape for Server {
 
 }
 
-#[cfg(feature = "solid_shapes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shapes {}
 
-#[cfg(feature = "solid_shapes")]
 impl IconShape for Shapes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23956,11 +20962,9 @@ impl IconShape for Shapes {
 
 }
 
-#[cfg(feature = "solid_share")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Share {}
 
-#[cfg(feature = "solid_share")]
 impl IconShape for Share {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23972,11 +20976,9 @@ impl IconShape for Share {
 
 }
 
-#[cfg(feature = "solid_share_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShareAlt {}
 
-#[cfg(feature = "solid_share_alt")]
 impl IconShape for ShareAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -23988,11 +20990,9 @@ impl IconShape for ShareAlt {
 
 }
 
-#[cfg(feature = "solid_share_alt_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShareAltSquare {}
 
-#[cfg(feature = "solid_share_alt_square")]
 impl IconShape for ShareAltSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24004,11 +21004,9 @@ impl IconShape for ShareAltSquare {
 
 }
 
-#[cfg(feature = "solid_share_from_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShareFromSquare {}
 
-#[cfg(feature = "solid_share_from_square")]
 impl IconShape for ShareFromSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24020,11 +21018,9 @@ impl IconShape for ShareFromSquare {
 
 }
 
-#[cfg(feature = "solid_share_nodes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShareNodes {}
 
-#[cfg(feature = "solid_share_nodes")]
 impl IconShape for ShareNodes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24036,11 +21032,9 @@ impl IconShape for ShareNodes {
 
 }
 
-#[cfg(feature = "solid_share_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShareSquare {}
 
-#[cfg(feature = "solid_share_square")]
 impl IconShape for ShareSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24052,11 +21046,9 @@ impl IconShape for ShareSquare {
 
 }
 
-#[cfg(feature = "solid_sheet_plastic")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SheetPlastic {}
 
-#[cfg(feature = "solid_sheet_plastic")]
 impl IconShape for SheetPlastic {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24068,11 +21060,9 @@ impl IconShape for SheetPlastic {
 
 }
 
-#[cfg(feature = "solid_shekel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shekel {}
 
-#[cfg(feature = "solid_shekel")]
 impl IconShape for Shekel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24084,11 +21074,9 @@ impl IconShape for Shekel {
 
 }
 
-#[cfg(feature = "solid_shekel_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShekelSign {}
 
-#[cfg(feature = "solid_shekel_sign")]
 impl IconShape for ShekelSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24100,11 +21088,9 @@ impl IconShape for ShekelSign {
 
 }
 
-#[cfg(feature = "solid_sheqel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sheqel {}
 
-#[cfg(feature = "solid_sheqel")]
 impl IconShape for Sheqel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24116,11 +21102,9 @@ impl IconShape for Sheqel {
 
 }
 
-#[cfg(feature = "solid_sheqel_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SheqelSign {}
 
-#[cfg(feature = "solid_sheqel_sign")]
 impl IconShape for SheqelSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24132,11 +21116,9 @@ impl IconShape for SheqelSign {
 
 }
 
-#[cfg(feature = "solid_shield")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shield {}
 
-#[cfg(feature = "solid_shield")]
 impl IconShape for Shield {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24148,11 +21130,9 @@ impl IconShape for Shield {
 
 }
 
-#[cfg(feature = "solid_shield_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldAlt {}
 
-#[cfg(feature = "solid_shield_alt")]
 impl IconShape for ShieldAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24164,11 +21144,9 @@ impl IconShape for ShieldAlt {
 
 }
 
-#[cfg(feature = "solid_shield_blank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldBlank {}
 
-#[cfg(feature = "solid_shield_blank")]
 impl IconShape for ShieldBlank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24180,11 +21158,9 @@ impl IconShape for ShieldBlank {
 
 }
 
-#[cfg(feature = "solid_shield_cat")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldCat {}
 
-#[cfg(feature = "solid_shield_cat")]
 impl IconShape for ShieldCat {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24196,11 +21172,9 @@ impl IconShape for ShieldCat {
 
 }
 
-#[cfg(feature = "solid_shield_dog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldDog {}
 
-#[cfg(feature = "solid_shield_dog")]
 impl IconShape for ShieldDog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24212,11 +21186,9 @@ impl IconShape for ShieldDog {
 
 }
 
-#[cfg(feature = "solid_shield_halved")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldHalved {}
 
-#[cfg(feature = "solid_shield_halved")]
 impl IconShape for ShieldHalved {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24228,11 +21200,9 @@ impl IconShape for ShieldHalved {
 
 }
 
-#[cfg(feature = "solid_shield_heart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldHeart {}
 
-#[cfg(feature = "solid_shield_heart")]
 impl IconShape for ShieldHeart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24244,11 +21214,9 @@ impl IconShape for ShieldHeart {
 
 }
 
-#[cfg(feature = "solid_shield_virus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShieldVirus {}
 
-#[cfg(feature = "solid_shield_virus")]
 impl IconShape for ShieldVirus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24260,11 +21228,9 @@ impl IconShape for ShieldVirus {
 
 }
 
-#[cfg(feature = "solid_ship")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ship {}
 
-#[cfg(feature = "solid_ship")]
 impl IconShape for Ship {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24276,11 +21242,9 @@ impl IconShape for Ship {
 
 }
 
-#[cfg(feature = "solid_shipping_fast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShippingFast {}
 
-#[cfg(feature = "solid_shipping_fast")]
 impl IconShape for ShippingFast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24292,11 +21256,9 @@ impl IconShape for ShippingFast {
 
 }
 
-#[cfg(feature = "solid_shirt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shirt {}
 
-#[cfg(feature = "solid_shirt")]
 impl IconShape for Shirt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24308,11 +21270,9 @@ impl IconShape for Shirt {
 
 }
 
-#[cfg(feature = "solid_shoe_prints")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShoePrints {}
 
-#[cfg(feature = "solid_shoe_prints")]
 impl IconShape for ShoePrints {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24324,11 +21284,9 @@ impl IconShape for ShoePrints {
 
 }
 
-#[cfg(feature = "solid_shop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shop {}
 
-#[cfg(feature = "solid_shop")]
 impl IconShape for Shop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24340,11 +21298,9 @@ impl IconShape for Shop {
 
 }
 
-#[cfg(feature = "solid_shop_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShopLock {}
 
-#[cfg(feature = "solid_shop_lock")]
 impl IconShape for ShopLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24356,11 +21312,9 @@ impl IconShape for ShopLock {
 
 }
 
-#[cfg(feature = "solid_shop_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShopSlash {}
 
-#[cfg(feature = "solid_shop_slash")]
 impl IconShape for ShopSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24372,11 +21326,9 @@ impl IconShape for ShopSlash {
 
 }
 
-#[cfg(feature = "solid_shopping_bag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShoppingBag {}
 
-#[cfg(feature = "solid_shopping_bag")]
 impl IconShape for ShoppingBag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24388,11 +21340,9 @@ impl IconShape for ShoppingBag {
 
 }
 
-#[cfg(feature = "solid_shopping_basket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShoppingBasket {}
 
-#[cfg(feature = "solid_shopping_basket")]
 impl IconShape for ShoppingBasket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24404,11 +21354,9 @@ impl IconShape for ShoppingBasket {
 
 }
 
-#[cfg(feature = "solid_shopping_cart")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShoppingCart {}
 
-#[cfg(feature = "solid_shopping_cart")]
 impl IconShape for ShoppingCart {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24420,11 +21368,9 @@ impl IconShape for ShoppingCart {
 
 }
 
-#[cfg(feature = "solid_shower")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shower {}
 
-#[cfg(feature = "solid_shower")]
 impl IconShape for Shower {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24436,11 +21382,9 @@ impl IconShape for Shower {
 
 }
 
-#[cfg(feature = "solid_shrimp")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shrimp {}
 
-#[cfg(feature = "solid_shrimp")]
 impl IconShape for Shrimp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24452,11 +21396,9 @@ impl IconShape for Shrimp {
 
 }
 
-#[cfg(feature = "solid_shuffle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Shuffle {}
 
-#[cfg(feature = "solid_shuffle")]
 impl IconShape for Shuffle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24468,11 +21410,9 @@ impl IconShape for Shuffle {
 
 }
 
-#[cfg(feature = "solid_shuttle_space")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShuttleSpace {}
 
-#[cfg(feature = "solid_shuttle_space")]
 impl IconShape for ShuttleSpace {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24484,11 +21424,9 @@ impl IconShape for ShuttleSpace {
 
 }
 
-#[cfg(feature = "solid_shuttle_van")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ShuttleVan {}
 
-#[cfg(feature = "solid_shuttle_van")]
 impl IconShape for ShuttleVan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24500,11 +21438,9 @@ impl IconShape for ShuttleVan {
 
 }
 
-#[cfg(feature = "solid_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sign {}
 
-#[cfg(feature = "solid_sign")]
 impl IconShape for Sign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24516,11 +21452,9 @@ impl IconShape for Sign {
 
 }
 
-#[cfg(feature = "solid_sign_hanging")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignHanging {}
 
-#[cfg(feature = "solid_sign_hanging")]
 impl IconShape for SignHanging {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24532,11 +21466,9 @@ impl IconShape for SignHanging {
 
 }
 
-#[cfg(feature = "solid_sign_in")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignIn {}
 
-#[cfg(feature = "solid_sign_in")]
 impl IconShape for SignIn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24548,11 +21480,9 @@ impl IconShape for SignIn {
 
 }
 
-#[cfg(feature = "solid_sign_in_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignInAlt {}
 
-#[cfg(feature = "solid_sign_in_alt")]
 impl IconShape for SignInAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24564,11 +21494,9 @@ impl IconShape for SignInAlt {
 
 }
 
-#[cfg(feature = "solid_sign_language")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignLanguage {}
 
-#[cfg(feature = "solid_sign_language")]
 impl IconShape for SignLanguage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24580,11 +21508,9 @@ impl IconShape for SignLanguage {
 
 }
 
-#[cfg(feature = "solid_sign_out")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignOut {}
 
-#[cfg(feature = "solid_sign_out")]
 impl IconShape for SignOut {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24596,11 +21522,9 @@ impl IconShape for SignOut {
 
 }
 
-#[cfg(feature = "solid_sign_out_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignOutAlt {}
 
-#[cfg(feature = "solid_sign_out_alt")]
 impl IconShape for SignOutAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24612,11 +21536,9 @@ impl IconShape for SignOutAlt {
 
 }
 
-#[cfg(feature = "solid_signal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Signal {}
 
-#[cfg(feature = "solid_signal")]
 impl IconShape for Signal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24628,11 +21550,9 @@ impl IconShape for Signal {
 
 }
 
-#[cfg(feature = "solid_signal_5")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Signal5 {}
 
-#[cfg(feature = "solid_signal_5")]
 impl IconShape for Signal5 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24644,11 +21564,9 @@ impl IconShape for Signal5 {
 
 }
 
-#[cfg(feature = "solid_signal_perfect")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignalPerfect {}
 
-#[cfg(feature = "solid_signal_perfect")]
 impl IconShape for SignalPerfect {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24660,11 +21578,9 @@ impl IconShape for SignalPerfect {
 
 }
 
-#[cfg(feature = "solid_signature")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Signature {}
 
-#[cfg(feature = "solid_signature")]
 impl IconShape for Signature {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24676,11 +21592,9 @@ impl IconShape for Signature {
 
 }
 
-#[cfg(feature = "solid_signing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Signing {}
 
-#[cfg(feature = "solid_signing")]
 impl IconShape for Signing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24692,11 +21606,9 @@ impl IconShape for Signing {
 
 }
 
-#[cfg(feature = "solid_signs_post")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SignsPost {}
 
-#[cfg(feature = "solid_signs_post")]
 impl IconShape for SignsPost {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24708,11 +21620,9 @@ impl IconShape for SignsPost {
 
 }
 
-#[cfg(feature = "solid_sim_card")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SimCard {}
 
-#[cfg(feature = "solid_sim_card")]
 impl IconShape for SimCard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24724,11 +21634,9 @@ impl IconShape for SimCard {
 
 }
 
-#[cfg(feature = "solid_single_quote_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SingleQuoteLeft {}
 
-#[cfg(feature = "solid_single_quote_left")]
 impl IconShape for SingleQuoteLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24740,11 +21648,9 @@ impl IconShape for SingleQuoteLeft {
 
 }
 
-#[cfg(feature = "solid_single_quote_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SingleQuoteRight {}
 
-#[cfg(feature = "solid_single_quote_right")]
 impl IconShape for SingleQuoteRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24756,11 +21662,9 @@ impl IconShape for SingleQuoteRight {
 
 }
 
-#[cfg(feature = "solid_sink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sink {}
 
-#[cfg(feature = "solid_sink")]
 impl IconShape for Sink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24772,11 +21676,9 @@ impl IconShape for Sink {
 
 }
 
-#[cfg(feature = "solid_sitemap")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sitemap {}
 
-#[cfg(feature = "solid_sitemap")]
 impl IconShape for Sitemap {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24788,11 +21690,9 @@ impl IconShape for Sitemap {
 
 }
 
-#[cfg(feature = "solid_skating")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Skating {}
 
-#[cfg(feature = "solid_skating")]
 impl IconShape for Skating {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24804,11 +21704,9 @@ impl IconShape for Skating {
 
 }
 
-#[cfg(feature = "solid_skiing")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Skiing {}
 
-#[cfg(feature = "solid_skiing")]
 impl IconShape for Skiing {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24820,11 +21718,9 @@ impl IconShape for Skiing {
 
 }
 
-#[cfg(feature = "solid_skiing_nordic")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SkiingNordic {}
 
-#[cfg(feature = "solid_skiing_nordic")]
 impl IconShape for SkiingNordic {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24836,11 +21732,9 @@ impl IconShape for SkiingNordic {
 
 }
 
-#[cfg(feature = "solid_skull")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Skull {}
 
-#[cfg(feature = "solid_skull")]
 impl IconShape for Skull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24852,11 +21746,9 @@ impl IconShape for Skull {
 
 }
 
-#[cfg(feature = "solid_skull_crossbones")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SkullCrossbones {}
 
-#[cfg(feature = "solid_skull_crossbones")]
 impl IconShape for SkullCrossbones {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24868,11 +21760,9 @@ impl IconShape for SkullCrossbones {
 
 }
 
-#[cfg(feature = "solid_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Slash {}
 
-#[cfg(feature = "solid_slash")]
 impl IconShape for Slash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24884,11 +21774,9 @@ impl IconShape for Slash {
 
 }
 
-#[cfg(feature = "solid_sleigh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sleigh {}
 
-#[cfg(feature = "solid_sleigh")]
 impl IconShape for Sleigh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24900,11 +21788,9 @@ impl IconShape for Sleigh {
 
 }
 
-#[cfg(feature = "solid_sliders")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sliders {}
 
-#[cfg(feature = "solid_sliders")]
 impl IconShape for Sliders {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24916,11 +21802,9 @@ impl IconShape for Sliders {
 
 }
 
-#[cfg(feature = "solid_sliders_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SlidersH {}
 
-#[cfg(feature = "solid_sliders_h")]
 impl IconShape for SlidersH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24932,11 +21816,9 @@ impl IconShape for SlidersH {
 
 }
 
-#[cfg(feature = "solid_smile")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Smile {}
 
-#[cfg(feature = "solid_smile")]
 impl IconShape for Smile {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24948,11 +21830,9 @@ impl IconShape for Smile {
 
 }
 
-#[cfg(feature = "solid_smile_beam")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SmileBeam {}
 
-#[cfg(feature = "solid_smile_beam")]
 impl IconShape for SmileBeam {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24964,11 +21844,9 @@ impl IconShape for SmileBeam {
 
 }
 
-#[cfg(feature = "solid_smile_wink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SmileWink {}
 
-#[cfg(feature = "solid_smile_wink")]
 impl IconShape for SmileWink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24980,11 +21858,9 @@ impl IconShape for SmileWink {
 
 }
 
-#[cfg(feature = "solid_smog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Smog {}
 
-#[cfg(feature = "solid_smog")]
 impl IconShape for Smog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -24996,11 +21872,9 @@ impl IconShape for Smog {
 
 }
 
-#[cfg(feature = "solid_smoking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Smoking {}
 
-#[cfg(feature = "solid_smoking")]
 impl IconShape for Smoking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25012,11 +21886,9 @@ impl IconShape for Smoking {
 
 }
 
-#[cfg(feature = "solid_smoking_ban")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SmokingBan {}
 
-#[cfg(feature = "solid_smoking_ban")]
 impl IconShape for SmokingBan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25028,11 +21900,9 @@ impl IconShape for SmokingBan {
 
 }
 
-#[cfg(feature = "solid_sms")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sms {}
 
-#[cfg(feature = "solid_sms")]
 impl IconShape for Sms {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25044,11 +21914,9 @@ impl IconShape for Sms {
 
 }
 
-#[cfg(feature = "solid_snowboarding")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Snowboarding {}
 
-#[cfg(feature = "solid_snowboarding")]
 impl IconShape for Snowboarding {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25060,11 +21928,9 @@ impl IconShape for Snowboarding {
 
 }
 
-#[cfg(feature = "solid_snowflake")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Snowflake {}
 
-#[cfg(feature = "solid_snowflake")]
 impl IconShape for Snowflake {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25076,11 +21942,9 @@ impl IconShape for Snowflake {
 
 }
 
-#[cfg(feature = "solid_snowman")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Snowman {}
 
-#[cfg(feature = "solid_snowman")]
 impl IconShape for Snowman {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25092,11 +21956,9 @@ impl IconShape for Snowman {
 
 }
 
-#[cfg(feature = "solid_snowplow")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Snowplow {}
 
-#[cfg(feature = "solid_snowplow")]
 impl IconShape for Snowplow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25108,11 +21970,9 @@ impl IconShape for Snowplow {
 
 }
 
-#[cfg(feature = "solid_soap")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Soap {}
 
-#[cfg(feature = "solid_soap")]
 impl IconShape for Soap {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25124,11 +21984,9 @@ impl IconShape for Soap {
 
 }
 
-#[cfg(feature = "solid_soccer_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SoccerBall {}
 
-#[cfg(feature = "solid_soccer_ball")]
 impl IconShape for SoccerBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25140,11 +21998,9 @@ impl IconShape for SoccerBall {
 
 }
 
-#[cfg(feature = "solid_socks")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Socks {}
 
-#[cfg(feature = "solid_socks")]
 impl IconShape for Socks {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25156,11 +22012,9 @@ impl IconShape for Socks {
 
 }
 
-#[cfg(feature = "solid_solar_panel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SolarPanel {}
 
-#[cfg(feature = "solid_solar_panel")]
 impl IconShape for SolarPanel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25172,11 +22026,9 @@ impl IconShape for SolarPanel {
 
 }
 
-#[cfg(feature = "solid_sort")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sort {}
 
-#[cfg(feature = "solid_sort")]
 impl IconShape for Sort {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25188,11 +22040,9 @@ impl IconShape for Sort {
 
 }
 
-#[cfg(feature = "solid_sort_alpha_asc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAlphaAsc {}
 
-#[cfg(feature = "solid_sort_alpha_asc")]
 impl IconShape for SortAlphaAsc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25204,11 +22054,9 @@ impl IconShape for SortAlphaAsc {
 
 }
 
-#[cfg(feature = "solid_sort_alpha_desc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAlphaDesc {}
 
-#[cfg(feature = "solid_sort_alpha_desc")]
 impl IconShape for SortAlphaDesc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25220,11 +22068,9 @@ impl IconShape for SortAlphaDesc {
 
 }
 
-#[cfg(feature = "solid_sort_alpha_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAlphaDown {}
 
-#[cfg(feature = "solid_sort_alpha_down")]
 impl IconShape for SortAlphaDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25236,11 +22082,9 @@ impl IconShape for SortAlphaDown {
 
 }
 
-#[cfg(feature = "solid_sort_alpha_down_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAlphaDownAlt {}
 
-#[cfg(feature = "solid_sort_alpha_down_alt")]
 impl IconShape for SortAlphaDownAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25252,11 +22096,9 @@ impl IconShape for SortAlphaDownAlt {
 
 }
 
-#[cfg(feature = "solid_sort_alpha_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAlphaUp {}
 
-#[cfg(feature = "solid_sort_alpha_up")]
 impl IconShape for SortAlphaUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25268,11 +22110,9 @@ impl IconShape for SortAlphaUp {
 
 }
 
-#[cfg(feature = "solid_sort_alpha_up_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAlphaUpAlt {}
 
-#[cfg(feature = "solid_sort_alpha_up_alt")]
 impl IconShape for SortAlphaUpAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25284,11 +22124,9 @@ impl IconShape for SortAlphaUpAlt {
 
 }
 
-#[cfg(feature = "solid_sort_amount_asc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAmountAsc {}
 
-#[cfg(feature = "solid_sort_amount_asc")]
 impl IconShape for SortAmountAsc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25300,11 +22138,9 @@ impl IconShape for SortAmountAsc {
 
 }
 
-#[cfg(feature = "solid_sort_amount_desc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAmountDesc {}
 
-#[cfg(feature = "solid_sort_amount_desc")]
 impl IconShape for SortAmountDesc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25316,11 +22152,9 @@ impl IconShape for SortAmountDesc {
 
 }
 
-#[cfg(feature = "solid_sort_amount_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAmountDown {}
 
-#[cfg(feature = "solid_sort_amount_down")]
 impl IconShape for SortAmountDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25332,11 +22166,9 @@ impl IconShape for SortAmountDown {
 
 }
 
-#[cfg(feature = "solid_sort_amount_down_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAmountDownAlt {}
 
-#[cfg(feature = "solid_sort_amount_down_alt")]
 impl IconShape for SortAmountDownAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25348,11 +22180,9 @@ impl IconShape for SortAmountDownAlt {
 
 }
 
-#[cfg(feature = "solid_sort_amount_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAmountUp {}
 
-#[cfg(feature = "solid_sort_amount_up")]
 impl IconShape for SortAmountUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25364,11 +22194,9 @@ impl IconShape for SortAmountUp {
 
 }
 
-#[cfg(feature = "solid_sort_amount_up_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAmountUpAlt {}
 
-#[cfg(feature = "solid_sort_amount_up_alt")]
 impl IconShape for SortAmountUpAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25380,11 +22208,9 @@ impl IconShape for SortAmountUpAlt {
 
 }
 
-#[cfg(feature = "solid_sort_asc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortAsc {}
 
-#[cfg(feature = "solid_sort_asc")]
 impl IconShape for SortAsc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25396,11 +22222,9 @@ impl IconShape for SortAsc {
 
 }
 
-#[cfg(feature = "solid_sort_desc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortDesc {}
 
-#[cfg(feature = "solid_sort_desc")]
 impl IconShape for SortDesc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25412,11 +22236,9 @@ impl IconShape for SortDesc {
 
 }
 
-#[cfg(feature = "solid_sort_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortDown {}
 
-#[cfg(feature = "solid_sort_down")]
 impl IconShape for SortDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25428,11 +22250,9 @@ impl IconShape for SortDown {
 
 }
 
-#[cfg(feature = "solid_sort_numeric_asc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortNumericAsc {}
 
-#[cfg(feature = "solid_sort_numeric_asc")]
 impl IconShape for SortNumericAsc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25444,11 +22264,9 @@ impl IconShape for SortNumericAsc {
 
 }
 
-#[cfg(feature = "solid_sort_numeric_desc")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortNumericDesc {}
 
-#[cfg(feature = "solid_sort_numeric_desc")]
 impl IconShape for SortNumericDesc {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25460,11 +22278,9 @@ impl IconShape for SortNumericDesc {
 
 }
 
-#[cfg(feature = "solid_sort_numeric_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortNumericDown {}
 
-#[cfg(feature = "solid_sort_numeric_down")]
 impl IconShape for SortNumericDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25476,11 +22292,9 @@ impl IconShape for SortNumericDown {
 
 }
 
-#[cfg(feature = "solid_sort_numeric_down_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortNumericDownAlt {}
 
-#[cfg(feature = "solid_sort_numeric_down_alt")]
 impl IconShape for SortNumericDownAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25492,11 +22306,9 @@ impl IconShape for SortNumericDownAlt {
 
 }
 
-#[cfg(feature = "solid_sort_numeric_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortNumericUp {}
 
-#[cfg(feature = "solid_sort_numeric_up")]
 impl IconShape for SortNumericUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25508,11 +22320,9 @@ impl IconShape for SortNumericUp {
 
 }
 
-#[cfg(feature = "solid_sort_numeric_up_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortNumericUpAlt {}
 
-#[cfg(feature = "solid_sort_numeric_up_alt")]
 impl IconShape for SortNumericUpAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25524,11 +22334,9 @@ impl IconShape for SortNumericUpAlt {
 
 }
 
-#[cfg(feature = "solid_sort_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SortUp {}
 
-#[cfg(feature = "solid_sort_up")]
 impl IconShape for SortUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25540,11 +22348,9 @@ impl IconShape for SortUp {
 
 }
 
-#[cfg(feature = "solid_spa")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Spa {}
 
-#[cfg(feature = "solid_spa")]
 impl IconShape for Spa {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25556,11 +22362,9 @@ impl IconShape for Spa {
 
 }
 
-#[cfg(feature = "solid_space_shuttle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SpaceShuttle {}
 
-#[cfg(feature = "solid_space_shuttle")]
 impl IconShape for SpaceShuttle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25572,11 +22376,9 @@ impl IconShape for SpaceShuttle {
 
 }
 
-#[cfg(feature = "solid_spaghetti_monster_flying")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SpaghettiMonsterFlying {}
 
-#[cfg(feature = "solid_spaghetti_monster_flying")]
 impl IconShape for SpaghettiMonsterFlying {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25588,11 +22390,9 @@ impl IconShape for SpaghettiMonsterFlying {
 
 }
 
-#[cfg(feature = "solid_spell_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SpellCheck {}
 
-#[cfg(feature = "solid_spell_check")]
 impl IconShape for SpellCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25604,11 +22404,9 @@ impl IconShape for SpellCheck {
 
 }
 
-#[cfg(feature = "solid_spider")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Spider {}
 
-#[cfg(feature = "solid_spider")]
 impl IconShape for Spider {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25620,11 +22418,9 @@ impl IconShape for Spider {
 
 }
 
-#[cfg(feature = "solid_spinner")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Spinner {}
 
-#[cfg(feature = "solid_spinner")]
 impl IconShape for Spinner {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25636,11 +22432,9 @@ impl IconShape for Spinner {
 
 }
 
-#[cfg(feature = "solid_spiral")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Spiral {}
 
-#[cfg(feature = "solid_spiral")]
 impl IconShape for Spiral {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25652,11 +22446,9 @@ impl IconShape for Spiral {
 
 }
 
-#[cfg(feature = "solid_splotch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Splotch {}
 
-#[cfg(feature = "solid_splotch")]
 impl IconShape for Splotch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25668,11 +22460,9 @@ impl IconShape for Splotch {
 
 }
 
-#[cfg(feature = "solid_spoon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Spoon {}
 
-#[cfg(feature = "solid_spoon")]
 impl IconShape for Spoon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25684,11 +22474,9 @@ impl IconShape for Spoon {
 
 }
 
-#[cfg(feature = "solid_spray_can")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SprayCan {}
 
-#[cfg(feature = "solid_spray_can")]
 impl IconShape for SprayCan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25700,11 +22488,9 @@ impl IconShape for SprayCan {
 
 }
 
-#[cfg(feature = "solid_spray_can_sparkles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SprayCanSparkles {}
 
-#[cfg(feature = "solid_spray_can_sparkles")]
 impl IconShape for SprayCanSparkles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25716,11 +22502,9 @@ impl IconShape for SprayCanSparkles {
 
 }
 
-#[cfg(feature = "solid_sprout")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sprout {}
 
-#[cfg(feature = "solid_sprout")]
 impl IconShape for Sprout {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25732,11 +22516,9 @@ impl IconShape for Sprout {
 
 }
 
-#[cfg(feature = "solid_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Square {}
 
-#[cfg(feature = "solid_square")]
 impl IconShape for Square {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25748,11 +22530,9 @@ impl IconShape for Square {
 
 }
 
-#[cfg(feature = "solid_square_arrow_up_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareArrowUpRight {}
 
-#[cfg(feature = "solid_square_arrow_up_right")]
 impl IconShape for SquareArrowUpRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25764,11 +22544,9 @@ impl IconShape for SquareArrowUpRight {
 
 }
 
-#[cfg(feature = "solid_square_binary")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareBinary {}
 
-#[cfg(feature = "solid_square_binary")]
 impl IconShape for SquareBinary {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25780,11 +22558,9 @@ impl IconShape for SquareBinary {
 
 }
 
-#[cfg(feature = "solid_square_caret_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareCaretDown {}
 
-#[cfg(feature = "solid_square_caret_down")]
 impl IconShape for SquareCaretDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25796,11 +22572,9 @@ impl IconShape for SquareCaretDown {
 
 }
 
-#[cfg(feature = "solid_square_caret_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareCaretLeft {}
 
-#[cfg(feature = "solid_square_caret_left")]
 impl IconShape for SquareCaretLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25812,11 +22586,9 @@ impl IconShape for SquareCaretLeft {
 
 }
 
-#[cfg(feature = "solid_square_caret_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareCaretRight {}
 
-#[cfg(feature = "solid_square_caret_right")]
 impl IconShape for SquareCaretRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25828,11 +22600,9 @@ impl IconShape for SquareCaretRight {
 
 }
 
-#[cfg(feature = "solid_square_caret_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareCaretUp {}
 
-#[cfg(feature = "solid_square_caret_up")]
 impl IconShape for SquareCaretUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25844,11 +22614,9 @@ impl IconShape for SquareCaretUp {
 
 }
 
-#[cfg(feature = "solid_square_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareCheck {}
 
-#[cfg(feature = "solid_square_check")]
 impl IconShape for SquareCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25860,11 +22628,9 @@ impl IconShape for SquareCheck {
 
 }
 
-#[cfg(feature = "solid_square_envelope")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareEnvelope {}
 
-#[cfg(feature = "solid_square_envelope")]
 impl IconShape for SquareEnvelope {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25876,11 +22642,9 @@ impl IconShape for SquareEnvelope {
 
 }
 
-#[cfg(feature = "solid_square_full")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareFull {}
 
-#[cfg(feature = "solid_square_full")]
 impl IconShape for SquareFull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25892,11 +22656,9 @@ impl IconShape for SquareFull {
 
 }
 
-#[cfg(feature = "solid_square_h")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareH {}
 
-#[cfg(feature = "solid_square_h")]
 impl IconShape for SquareH {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25908,11 +22670,9 @@ impl IconShape for SquareH {
 
 }
 
-#[cfg(feature = "solid_square_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareMinus {}
 
-#[cfg(feature = "solid_square_minus")]
 impl IconShape for SquareMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25924,11 +22684,9 @@ impl IconShape for SquareMinus {
 
 }
 
-#[cfg(feature = "solid_square_nfi")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareNfi {}
 
-#[cfg(feature = "solid_square_nfi")]
 impl IconShape for SquareNfi {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25940,11 +22698,9 @@ impl IconShape for SquareNfi {
 
 }
 
-#[cfg(feature = "solid_square_parking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareParking {}
 
-#[cfg(feature = "solid_square_parking")]
 impl IconShape for SquareParking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25956,11 +22712,9 @@ impl IconShape for SquareParking {
 
 }
 
-#[cfg(feature = "solid_square_pen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePen {}
 
-#[cfg(feature = "solid_square_pen")]
 impl IconShape for SquarePen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25972,11 +22726,9 @@ impl IconShape for SquarePen {
 
 }
 
-#[cfg(feature = "solid_square_person_confined")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePersonConfined {}
 
-#[cfg(feature = "solid_square_person_confined")]
 impl IconShape for SquarePersonConfined {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -25988,11 +22740,9 @@ impl IconShape for SquarePersonConfined {
 
 }
 
-#[cfg(feature = "solid_square_phone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePhone {}
 
-#[cfg(feature = "solid_square_phone")]
 impl IconShape for SquarePhone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26004,11 +22754,9 @@ impl IconShape for SquarePhone {
 
 }
 
-#[cfg(feature = "solid_square_phone_flip")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePhoneFlip {}
 
-#[cfg(feature = "solid_square_phone_flip")]
 impl IconShape for SquarePhoneFlip {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26020,11 +22768,9 @@ impl IconShape for SquarePhoneFlip {
 
 }
 
-#[cfg(feature = "solid_square_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePlus {}
 
-#[cfg(feature = "solid_square_plus")]
 impl IconShape for SquarePlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26036,11 +22782,9 @@ impl IconShape for SquarePlus {
 
 }
 
-#[cfg(feature = "solid_square_poll_horizontal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePollHorizontal {}
 
-#[cfg(feature = "solid_square_poll_horizontal")]
 impl IconShape for SquarePollHorizontal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26052,11 +22796,9 @@ impl IconShape for SquarePollHorizontal {
 
 }
 
-#[cfg(feature = "solid_square_poll_vertical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquarePollVertical {}
 
-#[cfg(feature = "solid_square_poll_vertical")]
 impl IconShape for SquarePollVertical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26068,11 +22810,9 @@ impl IconShape for SquarePollVertical {
 
 }
 
-#[cfg(feature = "solid_square_root_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareRootAlt {}
 
-#[cfg(feature = "solid_square_root_alt")]
 impl IconShape for SquareRootAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26084,11 +22824,9 @@ impl IconShape for SquareRootAlt {
 
 }
 
-#[cfg(feature = "solid_square_root_variable")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareRootVariable {}
 
-#[cfg(feature = "solid_square_root_variable")]
 impl IconShape for SquareRootVariable {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26100,11 +22838,9 @@ impl IconShape for SquareRootVariable {
 
 }
 
-#[cfg(feature = "solid_square_rss")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareRss {}
 
-#[cfg(feature = "solid_square_rss")]
 impl IconShape for SquareRss {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26116,11 +22852,9 @@ impl IconShape for SquareRss {
 
 }
 
-#[cfg(feature = "solid_square_share_nodes")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareShareNodes {}
 
-#[cfg(feature = "solid_square_share_nodes")]
 impl IconShape for SquareShareNodes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26132,11 +22866,9 @@ impl IconShape for SquareShareNodes {
 
 }
 
-#[cfg(feature = "solid_square_up_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareUpRight {}
 
-#[cfg(feature = "solid_square_up_right")]
 impl IconShape for SquareUpRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26148,11 +22880,9 @@ impl IconShape for SquareUpRight {
 
 }
 
-#[cfg(feature = "solid_square_virus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareVirus {}
 
-#[cfg(feature = "solid_square_virus")]
 impl IconShape for SquareVirus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26164,11 +22894,9 @@ impl IconShape for SquareVirus {
 
 }
 
-#[cfg(feature = "solid_square_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SquareXmark {}
 
-#[cfg(feature = "solid_square_xmark")]
 impl IconShape for SquareXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26180,11 +22908,9 @@ impl IconShape for SquareXmark {
 
 }
 
-#[cfg(feature = "solid_staff_aesculapius")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StaffAesculapius {}
 
-#[cfg(feature = "solid_staff_aesculapius")]
 impl IconShape for StaffAesculapius {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26196,11 +22922,9 @@ impl IconShape for StaffAesculapius {
 
 }
 
-#[cfg(feature = "solid_staff_snake")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StaffSnake {}
 
-#[cfg(feature = "solid_staff_snake")]
 impl IconShape for StaffSnake {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26212,11 +22936,9 @@ impl IconShape for StaffSnake {
 
 }
 
-#[cfg(feature = "solid_stairs")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stairs {}
 
-#[cfg(feature = "solid_stairs")]
 impl IconShape for Stairs {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26228,11 +22950,9 @@ impl IconShape for Stairs {
 
 }
 
-#[cfg(feature = "solid_stamp")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stamp {}
 
-#[cfg(feature = "solid_stamp")]
 impl IconShape for Stamp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26244,11 +22964,9 @@ impl IconShape for Stamp {
 
 }
 
-#[cfg(feature = "solid_stapler")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stapler {}
 
-#[cfg(feature = "solid_stapler")]
 impl IconShape for Stapler {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26260,11 +22978,9 @@ impl IconShape for Stapler {
 
 }
 
-#[cfg(feature = "solid_star")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Star {}
 
-#[cfg(feature = "solid_star")]
 impl IconShape for Star {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26276,11 +22992,9 @@ impl IconShape for Star {
 
 }
 
-#[cfg(feature = "solid_star_and_crescent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StarAndCrescent {}
 
-#[cfg(feature = "solid_star_and_crescent")]
 impl IconShape for StarAndCrescent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26292,11 +23006,9 @@ impl IconShape for StarAndCrescent {
 
 }
 
-#[cfg(feature = "solid_star_half")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StarHalf {}
 
-#[cfg(feature = "solid_star_half")]
 impl IconShape for StarHalf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26308,11 +23020,9 @@ impl IconShape for StarHalf {
 
 }
 
-#[cfg(feature = "solid_star_half_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StarHalfAlt {}
 
-#[cfg(feature = "solid_star_half_alt")]
 impl IconShape for StarHalfAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26324,11 +23034,9 @@ impl IconShape for StarHalfAlt {
 
 }
 
-#[cfg(feature = "solid_star_half_stroke")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StarHalfStroke {}
 
-#[cfg(feature = "solid_star_half_stroke")]
 impl IconShape for StarHalfStroke {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26340,11 +23048,9 @@ impl IconShape for StarHalfStroke {
 
 }
 
-#[cfg(feature = "solid_star_of_david")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StarOfDavid {}
 
-#[cfg(feature = "solid_star_of_david")]
 impl IconShape for StarOfDavid {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26356,11 +23062,9 @@ impl IconShape for StarOfDavid {
 
 }
 
-#[cfg(feature = "solid_star_of_life")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StarOfLife {}
 
-#[cfg(feature = "solid_star_of_life")]
 impl IconShape for StarOfLife {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26372,11 +23076,9 @@ impl IconShape for StarOfLife {
 
 }
 
-#[cfg(feature = "solid_step_backward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StepBackward {}
 
-#[cfg(feature = "solid_step_backward")]
 impl IconShape for StepBackward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26388,11 +23090,9 @@ impl IconShape for StepBackward {
 
 }
 
-#[cfg(feature = "solid_step_forward")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StepForward {}
 
-#[cfg(feature = "solid_step_forward")]
 impl IconShape for StepForward {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26404,11 +23104,9 @@ impl IconShape for StepForward {
 
 }
 
-#[cfg(feature = "solid_sterling_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SterlingSign {}
 
-#[cfg(feature = "solid_sterling_sign")]
 impl IconShape for SterlingSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26420,11 +23118,9 @@ impl IconShape for SterlingSign {
 
 }
 
-#[cfg(feature = "solid_stethoscope")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stethoscope {}
 
-#[cfg(feature = "solid_stethoscope")]
 impl IconShape for Stethoscope {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26436,11 +23132,9 @@ impl IconShape for Stethoscope {
 
 }
 
-#[cfg(feature = "solid_sticky_note")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StickyNote {}
 
-#[cfg(feature = "solid_sticky_note")]
 impl IconShape for StickyNote {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26452,11 +23146,9 @@ impl IconShape for StickyNote {
 
 }
 
-#[cfg(feature = "solid_stop")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stop {}
 
-#[cfg(feature = "solid_stop")]
 impl IconShape for Stop {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26468,11 +23160,9 @@ impl IconShape for Stop {
 
 }
 
-#[cfg(feature = "solid_stop_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StopCircle {}
 
-#[cfg(feature = "solid_stop_circle")]
 impl IconShape for StopCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26484,11 +23174,9 @@ impl IconShape for StopCircle {
 
 }
 
-#[cfg(feature = "solid_stopwatch")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stopwatch {}
 
-#[cfg(feature = "solid_stopwatch")]
 impl IconShape for Stopwatch {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26500,11 +23188,9 @@ impl IconShape for Stopwatch {
 
 }
 
-#[cfg(feature = "solid_stopwatch_20")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stopwatch20 {}
 
-#[cfg(feature = "solid_stopwatch_20")]
 impl IconShape for Stopwatch20 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26516,11 +23202,9 @@ impl IconShape for Stopwatch20 {
 
 }
 
-#[cfg(feature = "solid_store")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Store {}
 
-#[cfg(feature = "solid_store")]
 impl IconShape for Store {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26532,11 +23216,9 @@ impl IconShape for Store {
 
 }
 
-#[cfg(feature = "solid_store_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StoreAlt {}
 
-#[cfg(feature = "solid_store_alt")]
 impl IconShape for StoreAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26548,11 +23230,9 @@ impl IconShape for StoreAlt {
 
 }
 
-#[cfg(feature = "solid_store_alt_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StoreAltSlash {}
 
-#[cfg(feature = "solid_store_alt_slash")]
 impl IconShape for StoreAltSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26564,11 +23244,9 @@ impl IconShape for StoreAltSlash {
 
 }
 
-#[cfg(feature = "solid_store_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StoreSlash {}
 
-#[cfg(feature = "solid_store_slash")]
 impl IconShape for StoreSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26580,11 +23258,9 @@ impl IconShape for StoreSlash {
 
 }
 
-#[cfg(feature = "solid_stream")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stream {}
 
-#[cfg(feature = "solid_stream")]
 impl IconShape for Stream {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26596,11 +23272,9 @@ impl IconShape for Stream {
 
 }
 
-#[cfg(feature = "solid_street_view")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct StreetView {}
 
-#[cfg(feature = "solid_street_view")]
 impl IconShape for StreetView {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26612,11 +23286,9 @@ impl IconShape for StreetView {
 
 }
 
-#[cfg(feature = "solid_strikethrough")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Strikethrough {}
 
-#[cfg(feature = "solid_strikethrough")]
 impl IconShape for Strikethrough {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26628,11 +23300,9 @@ impl IconShape for Strikethrough {
 
 }
 
-#[cfg(feature = "solid_stroopwafel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Stroopwafel {}
 
-#[cfg(feature = "solid_stroopwafel")]
 impl IconShape for Stroopwafel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26644,11 +23314,9 @@ impl IconShape for Stroopwafel {
 
 }
 
-#[cfg(feature = "solid_subscript")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Subscript {}
 
-#[cfg(feature = "solid_subscript")]
 impl IconShape for Subscript {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26660,11 +23328,9 @@ impl IconShape for Subscript {
 
 }
 
-#[cfg(feature = "solid_subtract")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Subtract {}
 
-#[cfg(feature = "solid_subtract")]
 impl IconShape for Subtract {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26676,11 +23342,9 @@ impl IconShape for Subtract {
 
 }
 
-#[cfg(feature = "solid_subway")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Subway {}
 
-#[cfg(feature = "solid_subway")]
 impl IconShape for Subway {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26692,11 +23356,9 @@ impl IconShape for Subway {
 
 }
 
-#[cfg(feature = "solid_suitcase")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Suitcase {}
 
-#[cfg(feature = "solid_suitcase")]
 impl IconShape for Suitcase {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26708,11 +23370,9 @@ impl IconShape for Suitcase {
 
 }
 
-#[cfg(feature = "solid_suitcase_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SuitcaseMedical {}
 
-#[cfg(feature = "solid_suitcase_medical")]
 impl IconShape for SuitcaseMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26724,11 +23384,9 @@ impl IconShape for SuitcaseMedical {
 
 }
 
-#[cfg(feature = "solid_suitcase_rolling")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SuitcaseRolling {}
 
-#[cfg(feature = "solid_suitcase_rolling")]
 impl IconShape for SuitcaseRolling {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26740,11 +23398,9 @@ impl IconShape for SuitcaseRolling {
 
 }
 
-#[cfg(feature = "solid_sun")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sun {}
 
-#[cfg(feature = "solid_sun")]
 impl IconShape for Sun {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26756,11 +23412,9 @@ impl IconShape for Sun {
 
 }
 
-#[cfg(feature = "solid_sun_plant_wilt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SunPlantWilt {}
 
-#[cfg(feature = "solid_sun_plant_wilt")]
 impl IconShape for SunPlantWilt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26772,11 +23426,9 @@ impl IconShape for SunPlantWilt {
 
 }
 
-#[cfg(feature = "solid_superscript")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Superscript {}
 
-#[cfg(feature = "solid_superscript")]
 impl IconShape for Superscript {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26788,11 +23440,9 @@ impl IconShape for Superscript {
 
 }
 
-#[cfg(feature = "solid_surprise")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Surprise {}
 
-#[cfg(feature = "solid_surprise")]
 impl IconShape for Surprise {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26804,11 +23454,9 @@ impl IconShape for Surprise {
 
 }
 
-#[cfg(feature = "solid_swatchbook")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Swatchbook {}
 
-#[cfg(feature = "solid_swatchbook")]
 impl IconShape for Swatchbook {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26820,11 +23468,9 @@ impl IconShape for Swatchbook {
 
 }
 
-#[cfg(feature = "solid_swimmer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Swimmer {}
 
-#[cfg(feature = "solid_swimmer")]
 impl IconShape for Swimmer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26836,11 +23482,9 @@ impl IconShape for Swimmer {
 
 }
 
-#[cfg(feature = "solid_swimming_pool")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SwimmingPool {}
 
-#[cfg(feature = "solid_swimming_pool")]
 impl IconShape for SwimmingPool {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26852,11 +23496,9 @@ impl IconShape for SwimmingPool {
 
 }
 
-#[cfg(feature = "solid_synagogue")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Synagogue {}
 
-#[cfg(feature = "solid_synagogue")]
 impl IconShape for Synagogue {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26868,11 +23510,9 @@ impl IconShape for Synagogue {
 
 }
 
-#[cfg(feature = "solid_sync")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Sync {}
 
-#[cfg(feature = "solid_sync")]
 impl IconShape for Sync {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26884,11 +23524,9 @@ impl IconShape for Sync {
 
 }
 
-#[cfg(feature = "solid_sync_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct SyncAlt {}
 
-#[cfg(feature = "solid_sync_alt")]
 impl IconShape for SyncAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26900,11 +23538,9 @@ impl IconShape for SyncAlt {
 
 }
 
-#[cfg(feature = "solid_syringe")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Syringe {}
 
-#[cfg(feature = "solid_syringe")]
 impl IconShape for Syringe {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26916,11 +23552,9 @@ impl IconShape for Syringe {
 
 }
 
-#[cfg(feature = "solid_t")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct T {}
 
-#[cfg(feature = "solid_t")]
 impl IconShape for T {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26932,11 +23566,9 @@ impl IconShape for T {
 
 }
 
-#[cfg(feature = "solid_t_shirt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TShirt {}
 
-#[cfg(feature = "solid_t_shirt")]
 impl IconShape for TShirt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26948,11 +23580,9 @@ impl IconShape for TShirt {
 
 }
 
-#[cfg(feature = "solid_table")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Table {}
 
-#[cfg(feature = "solid_table")]
 impl IconShape for Table {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26964,11 +23594,9 @@ impl IconShape for Table {
 
 }
 
-#[cfg(feature = "solid_table_cells")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableCells {}
 
-#[cfg(feature = "solid_table_cells")]
 impl IconShape for TableCells {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26980,11 +23608,9 @@ impl IconShape for TableCells {
 
 }
 
-#[cfg(feature = "solid_table_cells_column_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableCellsColumnLock {}
 
-#[cfg(feature = "solid_table_cells_column_lock")]
 impl IconShape for TableCellsColumnLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -26996,11 +23622,9 @@ impl IconShape for TableCellsColumnLock {
 
 }
 
-#[cfg(feature = "solid_table_cells_large")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableCellsLarge {}
 
-#[cfg(feature = "solid_table_cells_large")]
 impl IconShape for TableCellsLarge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27012,11 +23636,9 @@ impl IconShape for TableCellsLarge {
 
 }
 
-#[cfg(feature = "solid_table_cells_row_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableCellsRowLock {}
 
-#[cfg(feature = "solid_table_cells_row_lock")]
 impl IconShape for TableCellsRowLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27028,11 +23650,9 @@ impl IconShape for TableCellsRowLock {
 
 }
 
-#[cfg(feature = "solid_table_cells_row_unlock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableCellsRowUnlock {}
 
-#[cfg(feature = "solid_table_cells_row_unlock")]
 impl IconShape for TableCellsRowUnlock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27044,11 +23664,9 @@ impl IconShape for TableCellsRowUnlock {
 
 }
 
-#[cfg(feature = "solid_table_columns")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableColumns {}
 
-#[cfg(feature = "solid_table_columns")]
 impl IconShape for TableColumns {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27060,11 +23678,9 @@ impl IconShape for TableColumns {
 
 }
 
-#[cfg(feature = "solid_table_list")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableList {}
 
-#[cfg(feature = "solid_table_list")]
 impl IconShape for TableList {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27076,11 +23692,9 @@ impl IconShape for TableList {
 
 }
 
-#[cfg(feature = "solid_table_tennis")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableTennis {}
 
-#[cfg(feature = "solid_table_tennis")]
 impl IconShape for TableTennis {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27092,11 +23706,9 @@ impl IconShape for TableTennis {
 
 }
 
-#[cfg(feature = "solid_table_tennis_paddle_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TableTennisPaddleBall {}
 
-#[cfg(feature = "solid_table_tennis_paddle_ball")]
 impl IconShape for TableTennisPaddleBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27108,11 +23720,9 @@ impl IconShape for TableTennisPaddleBall {
 
 }
 
-#[cfg(feature = "solid_tablet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tablet {}
 
-#[cfg(feature = "solid_tablet")]
 impl IconShape for Tablet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27124,11 +23734,9 @@ impl IconShape for Tablet {
 
 }
 
-#[cfg(feature = "solid_tablet_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TabletAlt {}
 
-#[cfg(feature = "solid_tablet_alt")]
 impl IconShape for TabletAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27140,11 +23748,9 @@ impl IconShape for TabletAlt {
 
 }
 
-#[cfg(feature = "solid_tablet_android")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TabletAndroid {}
 
-#[cfg(feature = "solid_tablet_android")]
 impl IconShape for TabletAndroid {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27156,11 +23762,9 @@ impl IconShape for TabletAndroid {
 
 }
 
-#[cfg(feature = "solid_tablet_button")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TabletButton {}
 
-#[cfg(feature = "solid_tablet_button")]
 impl IconShape for TabletButton {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27172,11 +23776,9 @@ impl IconShape for TabletButton {
 
 }
 
-#[cfg(feature = "solid_tablet_screen_button")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TabletScreenButton {}
 
-#[cfg(feature = "solid_tablet_screen_button")]
 impl IconShape for TabletScreenButton {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27188,11 +23790,9 @@ impl IconShape for TabletScreenButton {
 
 }
 
-#[cfg(feature = "solid_tablets")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tablets {}
 
-#[cfg(feature = "solid_tablets")]
 impl IconShape for Tablets {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27204,11 +23804,9 @@ impl IconShape for Tablets {
 
 }
 
-#[cfg(feature = "solid_tachograph_digital")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TachographDigital {}
 
-#[cfg(feature = "solid_tachograph_digital")]
 impl IconShape for TachographDigital {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27220,11 +23818,9 @@ impl IconShape for TachographDigital {
 
 }
 
-#[cfg(feature = "solid_tachometer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tachometer {}
 
-#[cfg(feature = "solid_tachometer")]
 impl IconShape for Tachometer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27236,11 +23832,9 @@ impl IconShape for Tachometer {
 
 }
 
-#[cfg(feature = "solid_tachometer_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TachometerAlt {}
 
-#[cfg(feature = "solid_tachometer_alt")]
 impl IconShape for TachometerAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27252,11 +23846,9 @@ impl IconShape for TachometerAlt {
 
 }
 
-#[cfg(feature = "solid_tachometer_alt_average")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TachometerAltAverage {}
 
-#[cfg(feature = "solid_tachometer_alt_average")]
 impl IconShape for TachometerAltAverage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27268,11 +23860,9 @@ impl IconShape for TachometerAltAverage {
 
 }
 
-#[cfg(feature = "solid_tachometer_alt_fast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TachometerAltFast {}
 
-#[cfg(feature = "solid_tachometer_alt_fast")]
 impl IconShape for TachometerAltFast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27284,11 +23874,9 @@ impl IconShape for TachometerAltFast {
 
 }
 
-#[cfg(feature = "solid_tachometer_average")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TachometerAverage {}
 
-#[cfg(feature = "solid_tachometer_average")]
 impl IconShape for TachometerAverage {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27300,11 +23888,9 @@ impl IconShape for TachometerAverage {
 
 }
 
-#[cfg(feature = "solid_tachometer_fast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TachometerFast {}
 
-#[cfg(feature = "solid_tachometer_fast")]
 impl IconShape for TachometerFast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27316,11 +23902,9 @@ impl IconShape for TachometerFast {
 
 }
 
-#[cfg(feature = "solid_tag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tag {}
 
-#[cfg(feature = "solid_tag")]
 impl IconShape for Tag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27332,11 +23916,9 @@ impl IconShape for Tag {
 
 }
 
-#[cfg(feature = "solid_tags")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tags {}
 
-#[cfg(feature = "solid_tags")]
 impl IconShape for Tags {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27348,11 +23930,9 @@ impl IconShape for Tags {
 
 }
 
-#[cfg(feature = "solid_tanakh")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tanakh {}
 
-#[cfg(feature = "solid_tanakh")]
 impl IconShape for Tanakh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27364,11 +23944,9 @@ impl IconShape for Tanakh {
 
 }
 
-#[cfg(feature = "solid_tape")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tape {}
 
-#[cfg(feature = "solid_tape")]
 impl IconShape for Tape {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27380,11 +23958,9 @@ impl IconShape for Tape {
 
 }
 
-#[cfg(feature = "solid_tarp")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tarp {}
 
-#[cfg(feature = "solid_tarp")]
 impl IconShape for Tarp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27396,11 +23972,9 @@ impl IconShape for Tarp {
 
 }
 
-#[cfg(feature = "solid_tarp_droplet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TarpDroplet {}
 
-#[cfg(feature = "solid_tarp_droplet")]
 impl IconShape for TarpDroplet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27412,11 +23986,9 @@ impl IconShape for TarpDroplet {
 
 }
 
-#[cfg(feature = "solid_tasks")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tasks {}
 
-#[cfg(feature = "solid_tasks")]
 impl IconShape for Tasks {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27428,11 +24000,9 @@ impl IconShape for Tasks {
 
 }
 
-#[cfg(feature = "solid_tasks_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TasksAlt {}
 
-#[cfg(feature = "solid_tasks_alt")]
 impl IconShape for TasksAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27444,11 +24014,9 @@ impl IconShape for TasksAlt {
 
 }
 
-#[cfg(feature = "solid_taurus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Taurus {}
 
-#[cfg(feature = "solid_taurus")]
 impl IconShape for Taurus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27460,11 +24028,9 @@ impl IconShape for Taurus {
 
 }
 
-#[cfg(feature = "solid_taxi")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Taxi {}
 
-#[cfg(feature = "solid_taxi")]
 impl IconShape for Taxi {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27476,11 +24042,9 @@ impl IconShape for Taxi {
 
 }
 
-#[cfg(feature = "solid_teeth")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Teeth {}
 
-#[cfg(feature = "solid_teeth")]
 impl IconShape for Teeth {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27492,11 +24056,9 @@ impl IconShape for Teeth {
 
 }
 
-#[cfg(feature = "solid_teeth_open")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TeethOpen {}
 
-#[cfg(feature = "solid_teeth_open")]
 impl IconShape for TeethOpen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27508,11 +24070,9 @@ impl IconShape for TeethOpen {
 
 }
 
-#[cfg(feature = "solid_teletype")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Teletype {}
 
-#[cfg(feature = "solid_teletype")]
 impl IconShape for Teletype {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27524,11 +24084,9 @@ impl IconShape for Teletype {
 
 }
 
-#[cfg(feature = "solid_television")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Television {}
 
-#[cfg(feature = "solid_television")]
 impl IconShape for Television {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27540,11 +24098,9 @@ impl IconShape for Television {
 
 }
 
-#[cfg(feature = "solid_temperature_0")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Temperature0 {}
 
-#[cfg(feature = "solid_temperature_0")]
 impl IconShape for Temperature0 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27556,11 +24112,9 @@ impl IconShape for Temperature0 {
 
 }
 
-#[cfg(feature = "solid_temperature_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Temperature1 {}
 
-#[cfg(feature = "solid_temperature_1")]
 impl IconShape for Temperature1 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27572,11 +24126,9 @@ impl IconShape for Temperature1 {
 
 }
 
-#[cfg(feature = "solid_temperature_2")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Temperature2 {}
 
-#[cfg(feature = "solid_temperature_2")]
 impl IconShape for Temperature2 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27588,11 +24140,9 @@ impl IconShape for Temperature2 {
 
 }
 
-#[cfg(feature = "solid_temperature_3")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Temperature3 {}
 
-#[cfg(feature = "solid_temperature_3")]
 impl IconShape for Temperature3 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27604,11 +24154,9 @@ impl IconShape for Temperature3 {
 
 }
 
-#[cfg(feature = "solid_temperature_4")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Temperature4 {}
 
-#[cfg(feature = "solid_temperature_4")]
 impl IconShape for Temperature4 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27620,11 +24168,9 @@ impl IconShape for Temperature4 {
 
 }
 
-#[cfg(feature = "solid_temperature_arrow_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureArrowDown {}
 
-#[cfg(feature = "solid_temperature_arrow_down")]
 impl IconShape for TemperatureArrowDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27636,11 +24182,9 @@ impl IconShape for TemperatureArrowDown {
 
 }
 
-#[cfg(feature = "solid_temperature_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureArrowUp {}
 
-#[cfg(feature = "solid_temperature_arrow_up")]
 impl IconShape for TemperatureArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27652,11 +24196,9 @@ impl IconShape for TemperatureArrowUp {
 
 }
 
-#[cfg(feature = "solid_temperature_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureDown {}
 
-#[cfg(feature = "solid_temperature_down")]
 impl IconShape for TemperatureDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27668,11 +24210,9 @@ impl IconShape for TemperatureDown {
 
 }
 
-#[cfg(feature = "solid_temperature_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureEmpty {}
 
-#[cfg(feature = "solid_temperature_empty")]
 impl IconShape for TemperatureEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27684,11 +24224,9 @@ impl IconShape for TemperatureEmpty {
 
 }
 
-#[cfg(feature = "solid_temperature_full")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureFull {}
 
-#[cfg(feature = "solid_temperature_full")]
 impl IconShape for TemperatureFull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27700,11 +24238,9 @@ impl IconShape for TemperatureFull {
 
 }
 
-#[cfg(feature = "solid_temperature_half")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureHalf {}
 
-#[cfg(feature = "solid_temperature_half")]
 impl IconShape for TemperatureHalf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27716,11 +24252,9 @@ impl IconShape for TemperatureHalf {
 
 }
 
-#[cfg(feature = "solid_temperature_high")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureHigh {}
 
-#[cfg(feature = "solid_temperature_high")]
 impl IconShape for TemperatureHigh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27732,11 +24266,9 @@ impl IconShape for TemperatureHigh {
 
 }
 
-#[cfg(feature = "solid_temperature_low")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureLow {}
 
-#[cfg(feature = "solid_temperature_low")]
 impl IconShape for TemperatureLow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27748,11 +24280,9 @@ impl IconShape for TemperatureLow {
 
 }
 
-#[cfg(feature = "solid_temperature_quarter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureQuarter {}
 
-#[cfg(feature = "solid_temperature_quarter")]
 impl IconShape for TemperatureQuarter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27764,11 +24294,9 @@ impl IconShape for TemperatureQuarter {
 
 }
 
-#[cfg(feature = "solid_temperature_three_quarters")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureThreeQuarters {}
 
-#[cfg(feature = "solid_temperature_three_quarters")]
 impl IconShape for TemperatureThreeQuarters {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27780,11 +24308,9 @@ impl IconShape for TemperatureThreeQuarters {
 
 }
 
-#[cfg(feature = "solid_temperature_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TemperatureUp {}
 
-#[cfg(feature = "solid_temperature_up")]
 impl IconShape for TemperatureUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27796,11 +24322,9 @@ impl IconShape for TemperatureUp {
 
 }
 
-#[cfg(feature = "solid_tenge")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tenge {}
 
-#[cfg(feature = "solid_tenge")]
 impl IconShape for Tenge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27812,11 +24336,9 @@ impl IconShape for Tenge {
 
 }
 
-#[cfg(feature = "solid_tenge_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TengeSign {}
 
-#[cfg(feature = "solid_tenge_sign")]
 impl IconShape for TengeSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27828,11 +24350,9 @@ impl IconShape for TengeSign {
 
 }
 
-#[cfg(feature = "solid_tent")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tent {}
 
-#[cfg(feature = "solid_tent")]
 impl IconShape for Tent {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27844,11 +24364,9 @@ impl IconShape for Tent {
 
 }
 
-#[cfg(feature = "solid_tent_arrow_down_to_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TentArrowDownToLine {}
 
-#[cfg(feature = "solid_tent_arrow_down_to_line")]
 impl IconShape for TentArrowDownToLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27860,11 +24378,9 @@ impl IconShape for TentArrowDownToLine {
 
 }
 
-#[cfg(feature = "solid_tent_arrow_left_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TentArrowLeftRight {}
 
-#[cfg(feature = "solid_tent_arrow_left_right")]
 impl IconShape for TentArrowLeftRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27876,11 +24392,9 @@ impl IconShape for TentArrowLeftRight {
 
 }
 
-#[cfg(feature = "solid_tent_arrow_turn_left")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TentArrowTurnLeft {}
 
-#[cfg(feature = "solid_tent_arrow_turn_left")]
 impl IconShape for TentArrowTurnLeft {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27892,11 +24406,9 @@ impl IconShape for TentArrowTurnLeft {
 
 }
 
-#[cfg(feature = "solid_tent_arrows_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TentArrowsDown {}
 
-#[cfg(feature = "solid_tent_arrows_down")]
 impl IconShape for TentArrowsDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27908,11 +24420,9 @@ impl IconShape for TentArrowsDown {
 
 }
 
-#[cfg(feature = "solid_tents")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tents {}
 
-#[cfg(feature = "solid_tents")]
 impl IconShape for Tents {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27924,11 +24434,9 @@ impl IconShape for Tents {
 
 }
 
-#[cfg(feature = "solid_terminal")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Terminal {}
 
-#[cfg(feature = "solid_terminal")]
 impl IconShape for Terminal {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27940,11 +24448,9 @@ impl IconShape for Terminal {
 
 }
 
-#[cfg(feature = "solid_text_height")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TextHeight {}
 
-#[cfg(feature = "solid_text_height")]
 impl IconShape for TextHeight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27956,11 +24462,9 @@ impl IconShape for TextHeight {
 
 }
 
-#[cfg(feature = "solid_text_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TextSlash {}
 
-#[cfg(feature = "solid_text_slash")]
 impl IconShape for TextSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27972,11 +24476,9 @@ impl IconShape for TextSlash {
 
 }
 
-#[cfg(feature = "solid_text_width")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TextWidth {}
 
-#[cfg(feature = "solid_text_width")]
 impl IconShape for TextWidth {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -27988,11 +24490,9 @@ impl IconShape for TextWidth {
 
 }
 
-#[cfg(feature = "solid_th")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Th {}
 
-#[cfg(feature = "solid_th")]
 impl IconShape for Th {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28004,11 +24504,9 @@ impl IconShape for Th {
 
 }
 
-#[cfg(feature = "solid_th_large")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThLarge {}
 
-#[cfg(feature = "solid_th_large")]
 impl IconShape for ThLarge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28020,11 +24518,9 @@ impl IconShape for ThLarge {
 
 }
 
-#[cfg(feature = "solid_th_list")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThList {}
 
-#[cfg(feature = "solid_th_list")]
 impl IconShape for ThList {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28036,11 +24532,9 @@ impl IconShape for ThList {
 
 }
 
-#[cfg(feature = "solid_theater_masks")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TheaterMasks {}
 
-#[cfg(feature = "solid_theater_masks")]
 impl IconShape for TheaterMasks {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28052,11 +24546,9 @@ impl IconShape for TheaterMasks {
 
 }
 
-#[cfg(feature = "solid_thermometer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thermometer {}
 
-#[cfg(feature = "solid_thermometer")]
 impl IconShape for Thermometer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28068,11 +24560,9 @@ impl IconShape for Thermometer {
 
 }
 
-#[cfg(feature = "solid_thermometer_0")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thermometer0 {}
 
-#[cfg(feature = "solid_thermometer_0")]
 impl IconShape for Thermometer0 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28084,11 +24574,9 @@ impl IconShape for Thermometer0 {
 
 }
 
-#[cfg(feature = "solid_thermometer_1")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thermometer1 {}
 
-#[cfg(feature = "solid_thermometer_1")]
 impl IconShape for Thermometer1 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28100,11 +24588,9 @@ impl IconShape for Thermometer1 {
 
 }
 
-#[cfg(feature = "solid_thermometer_2")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thermometer2 {}
 
-#[cfg(feature = "solid_thermometer_2")]
 impl IconShape for Thermometer2 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28116,11 +24602,9 @@ impl IconShape for Thermometer2 {
 
 }
 
-#[cfg(feature = "solid_thermometer_3")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thermometer3 {}
 
-#[cfg(feature = "solid_thermometer_3")]
 impl IconShape for Thermometer3 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28132,11 +24616,9 @@ impl IconShape for Thermometer3 {
 
 }
 
-#[cfg(feature = "solid_thermometer_4")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thermometer4 {}
 
-#[cfg(feature = "solid_thermometer_4")]
 impl IconShape for Thermometer4 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28148,11 +24630,9 @@ impl IconShape for Thermometer4 {
 
 }
 
-#[cfg(feature = "solid_thermometer_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThermometerEmpty {}
 
-#[cfg(feature = "solid_thermometer_empty")]
 impl IconShape for ThermometerEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28164,11 +24644,9 @@ impl IconShape for ThermometerEmpty {
 
 }
 
-#[cfg(feature = "solid_thermometer_full")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThermometerFull {}
 
-#[cfg(feature = "solid_thermometer_full")]
 impl IconShape for ThermometerFull {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28180,11 +24658,9 @@ impl IconShape for ThermometerFull {
 
 }
 
-#[cfg(feature = "solid_thermometer_half")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThermometerHalf {}
 
-#[cfg(feature = "solid_thermometer_half")]
 impl IconShape for ThermometerHalf {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28196,11 +24672,9 @@ impl IconShape for ThermometerHalf {
 
 }
 
-#[cfg(feature = "solid_thermometer_quarter")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThermometerQuarter {}
 
-#[cfg(feature = "solid_thermometer_quarter")]
 impl IconShape for ThermometerQuarter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28212,11 +24686,9 @@ impl IconShape for ThermometerQuarter {
 
 }
 
-#[cfg(feature = "solid_thermometer_three_quarters")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThermometerThreeQuarters {}
 
-#[cfg(feature = "solid_thermometer_three_quarters")]
 impl IconShape for ThermometerThreeQuarters {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28228,11 +24700,9 @@ impl IconShape for ThermometerThreeQuarters {
 
 }
 
-#[cfg(feature = "solid_thumb_tack")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThumbTack {}
 
-#[cfg(feature = "solid_thumb_tack")]
 impl IconShape for ThumbTack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28244,11 +24714,9 @@ impl IconShape for ThumbTack {
 
 }
 
-#[cfg(feature = "solid_thumb_tack_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThumbTackSlash {}
 
-#[cfg(feature = "solid_thumb_tack_slash")]
 impl IconShape for ThumbTackSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28260,11 +24728,9 @@ impl IconShape for ThumbTackSlash {
 
 }
 
-#[cfg(feature = "solid_thumbs_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThumbsDown {}
 
-#[cfg(feature = "solid_thumbs_down")]
 impl IconShape for ThumbsDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28276,11 +24742,9 @@ impl IconShape for ThumbsDown {
 
 }
 
-#[cfg(feature = "solid_thumbs_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThumbsUp {}
 
-#[cfg(feature = "solid_thumbs_up")]
 impl IconShape for ThumbsUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28292,11 +24756,9 @@ impl IconShape for ThumbsUp {
 
 }
 
-#[cfg(feature = "solid_thumbtack")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thumbtack {}
 
-#[cfg(feature = "solid_thumbtack")]
 impl IconShape for Thumbtack {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28308,11 +24770,9 @@ impl IconShape for Thumbtack {
 
 }
 
-#[cfg(feature = "solid_thumbtack_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ThumbtackSlash {}
 
-#[cfg(feature = "solid_thumbtack_slash")]
 impl IconShape for ThumbtackSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28324,11 +24784,9 @@ impl IconShape for ThumbtackSlash {
 
 }
 
-#[cfg(feature = "solid_thunderstorm")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Thunderstorm {}
 
-#[cfg(feature = "solid_thunderstorm")]
 impl IconShape for Thunderstorm {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28340,11 +24798,9 @@ impl IconShape for Thunderstorm {
 
 }
 
-#[cfg(feature = "solid_ticket")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Ticket {}
 
-#[cfg(feature = "solid_ticket")]
 impl IconShape for Ticket {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28356,11 +24812,9 @@ impl IconShape for Ticket {
 
 }
 
-#[cfg(feature = "solid_ticket_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TicketAlt {}
 
-#[cfg(feature = "solid_ticket_alt")]
 impl IconShape for TicketAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28372,11 +24826,9 @@ impl IconShape for TicketAlt {
 
 }
 
-#[cfg(feature = "solid_ticket_simple")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TicketSimple {}
 
-#[cfg(feature = "solid_ticket_simple")]
 impl IconShape for TicketSimple {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28388,11 +24840,9 @@ impl IconShape for TicketSimple {
 
 }
 
-#[cfg(feature = "solid_timeline")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Timeline {}
 
-#[cfg(feature = "solid_timeline")]
 impl IconShape for Timeline {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28404,11 +24854,9 @@ impl IconShape for Timeline {
 
 }
 
-#[cfg(feature = "solid_times")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Times {}
 
-#[cfg(feature = "solid_times")]
 impl IconShape for Times {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28420,11 +24868,9 @@ impl IconShape for Times {
 
 }
 
-#[cfg(feature = "solid_times_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TimesCircle {}
 
-#[cfg(feature = "solid_times_circle")]
 impl IconShape for TimesCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28436,11 +24882,9 @@ impl IconShape for TimesCircle {
 
 }
 
-#[cfg(feature = "solid_times_rectangle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TimesRectangle {}
 
-#[cfg(feature = "solid_times_rectangle")]
 impl IconShape for TimesRectangle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28452,11 +24896,9 @@ impl IconShape for TimesRectangle {
 
 }
 
-#[cfg(feature = "solid_times_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TimesSquare {}
 
-#[cfg(feature = "solid_times_square")]
 impl IconShape for TimesSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28468,11 +24910,9 @@ impl IconShape for TimesSquare {
 
 }
 
-#[cfg(feature = "solid_tint")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tint {}
 
-#[cfg(feature = "solid_tint")]
 impl IconShape for Tint {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28484,11 +24924,9 @@ impl IconShape for Tint {
 
 }
 
-#[cfg(feature = "solid_tint_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TintSlash {}
 
-#[cfg(feature = "solid_tint_slash")]
 impl IconShape for TintSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28500,11 +24938,9 @@ impl IconShape for TintSlash {
 
 }
 
-#[cfg(feature = "solid_tired")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tired {}
 
-#[cfg(feature = "solid_tired")]
 impl IconShape for Tired {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28516,11 +24952,9 @@ impl IconShape for Tired {
 
 }
 
-#[cfg(feature = "solid_toggle_off")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToggleOff {}
 
-#[cfg(feature = "solid_toggle_off")]
 impl IconShape for ToggleOff {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28532,11 +24966,9 @@ impl IconShape for ToggleOff {
 
 }
 
-#[cfg(feature = "solid_toggle_on")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToggleOn {}
 
-#[cfg(feature = "solid_toggle_on")]
 impl IconShape for ToggleOn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28548,11 +24980,9 @@ impl IconShape for ToggleOn {
 
 }
 
-#[cfg(feature = "solid_toilet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Toilet {}
 
-#[cfg(feature = "solid_toilet")]
 impl IconShape for Toilet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28564,11 +24994,9 @@ impl IconShape for Toilet {
 
 }
 
-#[cfg(feature = "solid_toilet_paper")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToiletPaper {}
 
-#[cfg(feature = "solid_toilet_paper")]
 impl IconShape for ToiletPaper {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28580,11 +25008,9 @@ impl IconShape for ToiletPaper {
 
 }
 
-#[cfg(feature = "solid_toilet_paper_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToiletPaperAlt {}
 
-#[cfg(feature = "solid_toilet_paper_alt")]
 impl IconShape for ToiletPaperAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28596,11 +25022,9 @@ impl IconShape for ToiletPaperAlt {
 
 }
 
-#[cfg(feature = "solid_toilet_paper_blank")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToiletPaperBlank {}
 
-#[cfg(feature = "solid_toilet_paper_blank")]
 impl IconShape for ToiletPaperBlank {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28612,11 +25036,9 @@ impl IconShape for ToiletPaperBlank {
 
 }
 
-#[cfg(feature = "solid_toilet_paper_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToiletPaperSlash {}
 
-#[cfg(feature = "solid_toilet_paper_slash")]
 impl IconShape for ToiletPaperSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28628,11 +25050,9 @@ impl IconShape for ToiletPaperSlash {
 
 }
 
-#[cfg(feature = "solid_toilet_portable")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToiletPortable {}
 
-#[cfg(feature = "solid_toilet_portable")]
 impl IconShape for ToiletPortable {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28644,11 +25064,9 @@ impl IconShape for ToiletPortable {
 
 }
 
-#[cfg(feature = "solid_toilets_portable")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToiletsPortable {}
 
-#[cfg(feature = "solid_toilets_portable")]
 impl IconShape for ToiletsPortable {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28660,11 +25078,9 @@ impl IconShape for ToiletsPortable {
 
 }
 
-#[cfg(feature = "solid_toolbox")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Toolbox {}
 
-#[cfg(feature = "solid_toolbox")]
 impl IconShape for Toolbox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28676,11 +25092,9 @@ impl IconShape for Toolbox {
 
 }
 
-#[cfg(feature = "solid_tools")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tools {}
 
-#[cfg(feature = "solid_tools")]
 impl IconShape for Tools {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28692,11 +25106,9 @@ impl IconShape for Tools {
 
 }
 
-#[cfg(feature = "solid_tooth")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tooth {}
 
-#[cfg(feature = "solid_tooth")]
 impl IconShape for Tooth {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28708,11 +25120,9 @@ impl IconShape for Tooth {
 
 }
 
-#[cfg(feature = "solid_torah")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Torah {}
 
-#[cfg(feature = "solid_torah")]
 impl IconShape for Torah {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28724,11 +25134,9 @@ impl IconShape for Torah {
 
 }
 
-#[cfg(feature = "solid_torii_gate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct ToriiGate {}
 
-#[cfg(feature = "solid_torii_gate")]
 impl IconShape for ToriiGate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28740,11 +25148,9 @@ impl IconShape for ToriiGate {
 
 }
 
-#[cfg(feature = "solid_tornado")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tornado {}
 
-#[cfg(feature = "solid_tornado")]
 impl IconShape for Tornado {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28756,11 +25162,9 @@ impl IconShape for Tornado {
 
 }
 
-#[cfg(feature = "solid_tower_broadcast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TowerBroadcast {}
 
-#[cfg(feature = "solid_tower_broadcast")]
 impl IconShape for TowerBroadcast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28772,11 +25176,9 @@ impl IconShape for TowerBroadcast {
 
 }
 
-#[cfg(feature = "solid_tower_cell")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TowerCell {}
 
-#[cfg(feature = "solid_tower_cell")]
 impl IconShape for TowerCell {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28788,11 +25190,9 @@ impl IconShape for TowerCell {
 
 }
 
-#[cfg(feature = "solid_tower_observation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TowerObservation {}
 
-#[cfg(feature = "solid_tower_observation")]
 impl IconShape for TowerObservation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28804,11 +25204,9 @@ impl IconShape for TowerObservation {
 
 }
 
-#[cfg(feature = "solid_tractor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tractor {}
 
-#[cfg(feature = "solid_tractor")]
 impl IconShape for Tractor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28820,11 +25218,9 @@ impl IconShape for Tractor {
 
 }
 
-#[cfg(feature = "solid_trademark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Trademark {}
 
-#[cfg(feature = "solid_trademark")]
 impl IconShape for Trademark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28836,11 +25232,9 @@ impl IconShape for Trademark {
 
 }
 
-#[cfg(feature = "solid_traffic_light")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrafficLight {}
 
-#[cfg(feature = "solid_traffic_light")]
 impl IconShape for TrafficLight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28852,11 +25246,9 @@ impl IconShape for TrafficLight {
 
 }
 
-#[cfg(feature = "solid_trailer")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Trailer {}
 
-#[cfg(feature = "solid_trailer")]
 impl IconShape for Trailer {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28868,11 +25260,9 @@ impl IconShape for Trailer {
 
 }
 
-#[cfg(feature = "solid_train")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Train {}
 
-#[cfg(feature = "solid_train")]
 impl IconShape for Train {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28884,11 +25274,9 @@ impl IconShape for Train {
 
 }
 
-#[cfg(feature = "solid_train_subway")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrainSubway {}
 
-#[cfg(feature = "solid_train_subway")]
 impl IconShape for TrainSubway {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28900,11 +25288,9 @@ impl IconShape for TrainSubway {
 
 }
 
-#[cfg(feature = "solid_train_tram")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrainTram {}
 
-#[cfg(feature = "solid_train_tram")]
 impl IconShape for TrainTram {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28916,11 +25302,9 @@ impl IconShape for TrainTram {
 
 }
 
-#[cfg(feature = "solid_tram")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tram {}
 
-#[cfg(feature = "solid_tram")]
 impl IconShape for Tram {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28932,11 +25316,9 @@ impl IconShape for Tram {
 
 }
 
-#[cfg(feature = "solid_transgender")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Transgender {}
 
-#[cfg(feature = "solid_transgender")]
 impl IconShape for Transgender {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28948,11 +25330,9 @@ impl IconShape for Transgender {
 
 }
 
-#[cfg(feature = "solid_transgender_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TransgenderAlt {}
 
-#[cfg(feature = "solid_transgender_alt")]
 impl IconShape for TransgenderAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28964,11 +25344,9 @@ impl IconShape for TransgenderAlt {
 
 }
 
-#[cfg(feature = "solid_trash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Trash {}
 
-#[cfg(feature = "solid_trash")]
 impl IconShape for Trash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28980,11 +25358,9 @@ impl IconShape for Trash {
 
 }
 
-#[cfg(feature = "solid_trash_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrashAlt {}
 
-#[cfg(feature = "solid_trash_alt")]
 impl IconShape for TrashAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -28996,11 +25372,9 @@ impl IconShape for TrashAlt {
 
 }
 
-#[cfg(feature = "solid_trash_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrashArrowUp {}
 
-#[cfg(feature = "solid_trash_arrow_up")]
 impl IconShape for TrashArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29012,11 +25386,9 @@ impl IconShape for TrashArrowUp {
 
 }
 
-#[cfg(feature = "solid_trash_can")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrashCan {}
 
-#[cfg(feature = "solid_trash_can")]
 impl IconShape for TrashCan {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29028,11 +25400,9 @@ impl IconShape for TrashCan {
 
 }
 
-#[cfg(feature = "solid_trash_can_arrow_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrashCanArrowUp {}
 
-#[cfg(feature = "solid_trash_can_arrow_up")]
 impl IconShape for TrashCanArrowUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29044,11 +25414,9 @@ impl IconShape for TrashCanArrowUp {
 
 }
 
-#[cfg(feature = "solid_trash_restore")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrashRestore {}
 
-#[cfg(feature = "solid_trash_restore")]
 impl IconShape for TrashRestore {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29060,11 +25428,9 @@ impl IconShape for TrashRestore {
 
 }
 
-#[cfg(feature = "solid_trash_restore_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrashRestoreAlt {}
 
-#[cfg(feature = "solid_trash_restore_alt")]
 impl IconShape for TrashRestoreAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29076,11 +25442,9 @@ impl IconShape for TrashRestoreAlt {
 
 }
 
-#[cfg(feature = "solid_tree")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tree {}
 
-#[cfg(feature = "solid_tree")]
 impl IconShape for Tree {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29092,11 +25456,9 @@ impl IconShape for Tree {
 
 }
 
-#[cfg(feature = "solid_tree_city")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TreeCity {}
 
-#[cfg(feature = "solid_tree_city")]
 impl IconShape for TreeCity {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29108,11 +25470,9 @@ impl IconShape for TreeCity {
 
 }
 
-#[cfg(feature = "solid_triangle_circle_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TriangleCircleSquare {}
 
-#[cfg(feature = "solid_triangle_circle_square")]
 impl IconShape for TriangleCircleSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29124,11 +25484,9 @@ impl IconShape for TriangleCircleSquare {
 
 }
 
-#[cfg(feature = "solid_triangle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TriangleExclamation {}
 
-#[cfg(feature = "solid_triangle_exclamation")]
 impl IconShape for TriangleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29140,11 +25498,9 @@ impl IconShape for TriangleExclamation {
 
 }
 
-#[cfg(feature = "solid_trophy")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Trophy {}
 
-#[cfg(feature = "solid_trophy")]
 impl IconShape for Trophy {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29156,11 +25512,9 @@ impl IconShape for Trophy {
 
 }
 
-#[cfg(feature = "solid_trowel")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Trowel {}
 
-#[cfg(feature = "solid_trowel")]
 impl IconShape for Trowel {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29172,11 +25526,9 @@ impl IconShape for Trowel {
 
 }
 
-#[cfg(feature = "solid_trowel_bricks")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TrowelBricks {}
 
-#[cfg(feature = "solid_trowel_bricks")]
 impl IconShape for TrowelBricks {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29188,11 +25540,9 @@ impl IconShape for TrowelBricks {
 
 }
 
-#[cfg(feature = "solid_truck")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Truck {}
 
-#[cfg(feature = "solid_truck")]
 impl IconShape for Truck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29204,11 +25554,9 @@ impl IconShape for Truck {
 
 }
 
-#[cfg(feature = "solid_truck_arrow_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckArrowRight {}
 
-#[cfg(feature = "solid_truck_arrow_right")]
 impl IconShape for TruckArrowRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29220,11 +25568,9 @@ impl IconShape for TruckArrowRight {
 
 }
 
-#[cfg(feature = "solid_truck_droplet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckDroplet {}
 
-#[cfg(feature = "solid_truck_droplet")]
 impl IconShape for TruckDroplet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29236,11 +25582,9 @@ impl IconShape for TruckDroplet {
 
 }
 
-#[cfg(feature = "solid_truck_fast")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckFast {}
 
-#[cfg(feature = "solid_truck_fast")]
 impl IconShape for TruckFast {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29252,11 +25596,9 @@ impl IconShape for TruckFast {
 
 }
 
-#[cfg(feature = "solid_truck_field")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckField {}
 
-#[cfg(feature = "solid_truck_field")]
 impl IconShape for TruckField {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29268,11 +25610,9 @@ impl IconShape for TruckField {
 
 }
 
-#[cfg(feature = "solid_truck_field_un")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckFieldUn {}
 
-#[cfg(feature = "solid_truck_field_un")]
 impl IconShape for TruckFieldUn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29284,11 +25624,9 @@ impl IconShape for TruckFieldUn {
 
 }
 
-#[cfg(feature = "solid_truck_front")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckFront {}
 
-#[cfg(feature = "solid_truck_front")]
 impl IconShape for TruckFront {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29300,11 +25638,9 @@ impl IconShape for TruckFront {
 
 }
 
-#[cfg(feature = "solid_truck_loading")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckLoading {}
 
-#[cfg(feature = "solid_truck_loading")]
 impl IconShape for TruckLoading {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29316,11 +25652,9 @@ impl IconShape for TruckLoading {
 
 }
 
-#[cfg(feature = "solid_truck_medical")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckMedical {}
 
-#[cfg(feature = "solid_truck_medical")]
 impl IconShape for TruckMedical {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29332,11 +25666,9 @@ impl IconShape for TruckMedical {
 
 }
 
-#[cfg(feature = "solid_truck_monster")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckMonster {}
 
-#[cfg(feature = "solid_truck_monster")]
 impl IconShape for TruckMonster {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29348,11 +25680,9 @@ impl IconShape for TruckMonster {
 
 }
 
-#[cfg(feature = "solid_truck_moving")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckMoving {}
 
-#[cfg(feature = "solid_truck_moving")]
 impl IconShape for TruckMoving {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29364,11 +25694,9 @@ impl IconShape for TruckMoving {
 
 }
 
-#[cfg(feature = "solid_truck_pickup")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckPickup {}
 
-#[cfg(feature = "solid_truck_pickup")]
 impl IconShape for TruckPickup {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29380,11 +25708,9 @@ impl IconShape for TruckPickup {
 
 }
 
-#[cfg(feature = "solid_truck_plane")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckPlane {}
 
-#[cfg(feature = "solid_truck_plane")]
 impl IconShape for TruckPlane {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29396,11 +25722,9 @@ impl IconShape for TruckPlane {
 
 }
 
-#[cfg(feature = "solid_truck_ramp_box")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TruckRampBox {}
 
-#[cfg(feature = "solid_truck_ramp_box")]
 impl IconShape for TruckRampBox {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29412,11 +25736,9 @@ impl IconShape for TruckRampBox {
 
 }
 
-#[cfg(feature = "solid_tshirt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tshirt {}
 
-#[cfg(feature = "solid_tshirt")]
 impl IconShape for Tshirt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29428,11 +25750,9 @@ impl IconShape for Tshirt {
 
 }
 
-#[cfg(feature = "solid_tty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tty {}
 
-#[cfg(feature = "solid_tty")]
 impl IconShape for Tty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29444,11 +25764,9 @@ impl IconShape for Tty {
 
 }
 
-#[cfg(feature = "solid_turkish_lira")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TurkishLira {}
 
-#[cfg(feature = "solid_turkish_lira")]
 impl IconShape for TurkishLira {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29460,11 +25778,9 @@ impl IconShape for TurkishLira {
 
 }
 
-#[cfg(feature = "solid_turkish_lira_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TurkishLiraSign {}
 
-#[cfg(feature = "solid_turkish_lira_sign")]
 impl IconShape for TurkishLiraSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29476,11 +25792,9 @@ impl IconShape for TurkishLiraSign {
 
 }
 
-#[cfg(feature = "solid_turn_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TurnDown {}
 
-#[cfg(feature = "solid_turn_down")]
 impl IconShape for TurnDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29492,11 +25806,9 @@ impl IconShape for TurnDown {
 
 }
 
-#[cfg(feature = "solid_turn_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TurnUp {}
 
-#[cfg(feature = "solid_turn_up")]
 impl IconShape for TurnUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29508,11 +25820,9 @@ impl IconShape for TurnUp {
 
 }
 
-#[cfg(feature = "solid_tv")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Tv {}
 
-#[cfg(feature = "solid_tv")]
 impl IconShape for Tv {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29524,11 +25834,9 @@ impl IconShape for Tv {
 
 }
 
-#[cfg(feature = "solid_tv_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct TvAlt {}
 
-#[cfg(feature = "solid_tv_alt")]
 impl IconShape for TvAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29540,11 +25848,9 @@ impl IconShape for TvAlt {
 
 }
 
-#[cfg(feature = "solid_u")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct U {}
 
-#[cfg(feature = "solid_u")]
 impl IconShape for U {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29556,11 +25862,9 @@ impl IconShape for U {
 
 }
 
-#[cfg(feature = "solid_umbrella")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Umbrella {}
 
-#[cfg(feature = "solid_umbrella")]
 impl IconShape for Umbrella {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29572,11 +25876,9 @@ impl IconShape for Umbrella {
 
 }
 
-#[cfg(feature = "solid_umbrella_beach")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UmbrellaBeach {}
 
-#[cfg(feature = "solid_umbrella_beach")]
 impl IconShape for UmbrellaBeach {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29588,11 +25890,9 @@ impl IconShape for UmbrellaBeach {
 
 }
 
-#[cfg(feature = "solid_underline")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Underline {}
 
-#[cfg(feature = "solid_underline")]
 impl IconShape for Underline {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29604,11 +25904,9 @@ impl IconShape for Underline {
 
 }
 
-#[cfg(feature = "solid_undo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Undo {}
 
-#[cfg(feature = "solid_undo")]
 impl IconShape for Undo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29620,11 +25918,9 @@ impl IconShape for Undo {
 
 }
 
-#[cfg(feature = "solid_undo_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UndoAlt {}
 
-#[cfg(feature = "solid_undo_alt")]
 impl IconShape for UndoAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29636,11 +25932,9 @@ impl IconShape for UndoAlt {
 
 }
 
-#[cfg(feature = "solid_universal_access")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UniversalAccess {}
 
-#[cfg(feature = "solid_universal_access")]
 impl IconShape for UniversalAccess {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29652,11 +25946,9 @@ impl IconShape for UniversalAccess {
 
 }
 
-#[cfg(feature = "solid_university")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct University {}
 
-#[cfg(feature = "solid_university")]
 impl IconShape for University {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29668,11 +25960,9 @@ impl IconShape for University {
 
 }
 
-#[cfg(feature = "solid_unlink")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Unlink {}
 
-#[cfg(feature = "solid_unlink")]
 impl IconShape for Unlink {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29684,11 +25974,9 @@ impl IconShape for Unlink {
 
 }
 
-#[cfg(feature = "solid_unlock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Unlock {}
 
-#[cfg(feature = "solid_unlock")]
 impl IconShape for Unlock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29700,11 +25988,9 @@ impl IconShape for Unlock {
 
 }
 
-#[cfg(feature = "solid_unlock_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UnlockAlt {}
 
-#[cfg(feature = "solid_unlock_alt")]
 impl IconShape for UnlockAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29716,11 +26002,9 @@ impl IconShape for UnlockAlt {
 
 }
 
-#[cfg(feature = "solid_unlock_keyhole")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UnlockKeyhole {}
 
-#[cfg(feature = "solid_unlock_keyhole")]
 impl IconShape for UnlockKeyhole {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29732,11 +26016,9 @@ impl IconShape for UnlockKeyhole {
 
 }
 
-#[cfg(feature = "solid_unsorted")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Unsorted {}
 
-#[cfg(feature = "solid_unsorted")]
 impl IconShape for Unsorted {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29748,11 +26030,9 @@ impl IconShape for Unsorted {
 
 }
 
-#[cfg(feature = "solid_up_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UpDown {}
 
-#[cfg(feature = "solid_up_down")]
 impl IconShape for UpDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29764,11 +26044,9 @@ impl IconShape for UpDown {
 
 }
 
-#[cfg(feature = "solid_up_down_left_right")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UpDownLeftRight {}
 
-#[cfg(feature = "solid_up_down_left_right")]
 impl IconShape for UpDownLeftRight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29780,11 +26058,9 @@ impl IconShape for UpDownLeftRight {
 
 }
 
-#[cfg(feature = "solid_up_long")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UpLong {}
 
-#[cfg(feature = "solid_up_long")]
 impl IconShape for UpLong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29796,11 +26072,9 @@ impl IconShape for UpLong {
 
 }
 
-#[cfg(feature = "solid_up_right_and_down_left_from_center")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UpRightAndDownLeftFromCenter {}
 
-#[cfg(feature = "solid_up_right_and_down_left_from_center")]
 impl IconShape for UpRightAndDownLeftFromCenter {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29812,11 +26086,9 @@ impl IconShape for UpRightAndDownLeftFromCenter {
 
 }
 
-#[cfg(feature = "solid_up_right_from_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UpRightFromSquare {}
 
-#[cfg(feature = "solid_up_right_from_square")]
 impl IconShape for UpRightFromSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29828,11 +26100,9 @@ impl IconShape for UpRightFromSquare {
 
 }
 
-#[cfg(feature = "solid_upload")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Upload {}
 
-#[cfg(feature = "solid_upload")]
 impl IconShape for Upload {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29844,11 +26114,9 @@ impl IconShape for Upload {
 
 }
 
-#[cfg(feature = "solid_usd")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Usd {}
 
-#[cfg(feature = "solid_usd")]
 impl IconShape for Usd {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29860,11 +26128,9 @@ impl IconShape for Usd {
 
 }
 
-#[cfg(feature = "solid_user")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct User {}
 
-#[cfg(feature = "solid_user")]
 impl IconShape for User {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29876,11 +26142,9 @@ impl IconShape for User {
 
 }
 
-#[cfg(feature = "solid_user_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserAlt {}
 
-#[cfg(feature = "solid_user_alt")]
 impl IconShape for UserAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29892,11 +26156,9 @@ impl IconShape for UserAlt {
 
 }
 
-#[cfg(feature = "solid_user_alt_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserAltSlash {}
 
-#[cfg(feature = "solid_user_alt_slash")]
 impl IconShape for UserAltSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29908,11 +26170,9 @@ impl IconShape for UserAltSlash {
 
 }
 
-#[cfg(feature = "solid_user_astronaut")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserAstronaut {}
 
-#[cfg(feature = "solid_user_astronaut")]
 impl IconShape for UserAstronaut {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29924,11 +26184,9 @@ impl IconShape for UserAstronaut {
 
 }
 
-#[cfg(feature = "solid_user_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserCheck {}
 
-#[cfg(feature = "solid_user_check")]
 impl IconShape for UserCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29940,11 +26198,9 @@ impl IconShape for UserCheck {
 
 }
 
-#[cfg(feature = "solid_user_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserCircle {}
 
-#[cfg(feature = "solid_user_circle")]
 impl IconShape for UserCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29956,11 +26212,9 @@ impl IconShape for UserCircle {
 
 }
 
-#[cfg(feature = "solid_user_clock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserClock {}
 
-#[cfg(feature = "solid_user_clock")]
 impl IconShape for UserClock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29972,11 +26226,9 @@ impl IconShape for UserClock {
 
 }
 
-#[cfg(feature = "solid_user_cog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserCog {}
 
-#[cfg(feature = "solid_user_cog")]
 impl IconShape for UserCog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -29988,11 +26240,9 @@ impl IconShape for UserCog {
 
 }
 
-#[cfg(feature = "solid_user_doctor")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserDoctor {}
 
-#[cfg(feature = "solid_user_doctor")]
 impl IconShape for UserDoctor {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30004,11 +26254,9 @@ impl IconShape for UserDoctor {
 
 }
 
-#[cfg(feature = "solid_user_edit")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserEdit {}
 
-#[cfg(feature = "solid_user_edit")]
 impl IconShape for UserEdit {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30020,11 +26268,9 @@ impl IconShape for UserEdit {
 
 }
 
-#[cfg(feature = "solid_user_friends")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserFriends {}
 
-#[cfg(feature = "solid_user_friends")]
 impl IconShape for UserFriends {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30036,11 +26282,9 @@ impl IconShape for UserFriends {
 
 }
 
-#[cfg(feature = "solid_user_gear")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserGear {}
 
-#[cfg(feature = "solid_user_gear")]
 impl IconShape for UserGear {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30052,11 +26296,9 @@ impl IconShape for UserGear {
 
 }
 
-#[cfg(feature = "solid_user_graduate")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserGraduate {}
 
-#[cfg(feature = "solid_user_graduate")]
 impl IconShape for UserGraduate {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30068,11 +26310,9 @@ impl IconShape for UserGraduate {
 
 }
 
-#[cfg(feature = "solid_user_group")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserGroup {}
 
-#[cfg(feature = "solid_user_group")]
 impl IconShape for UserGroup {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30084,11 +26324,9 @@ impl IconShape for UserGroup {
 
 }
 
-#[cfg(feature = "solid_user_injured")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserInjured {}
 
-#[cfg(feature = "solid_user_injured")]
 impl IconShape for UserInjured {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30100,11 +26338,9 @@ impl IconShape for UserInjured {
 
 }
 
-#[cfg(feature = "solid_user_large")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserLarge {}
 
-#[cfg(feature = "solid_user_large")]
 impl IconShape for UserLarge {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30116,11 +26352,9 @@ impl IconShape for UserLarge {
 
 }
 
-#[cfg(feature = "solid_user_large_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserLargeSlash {}
 
-#[cfg(feature = "solid_user_large_slash")]
 impl IconShape for UserLargeSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30132,11 +26366,9 @@ impl IconShape for UserLargeSlash {
 
 }
 
-#[cfg(feature = "solid_user_lock")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserLock {}
 
-#[cfg(feature = "solid_user_lock")]
 impl IconShape for UserLock {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30148,11 +26380,9 @@ impl IconShape for UserLock {
 
 }
 
-#[cfg(feature = "solid_user_md")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserMd {}
 
-#[cfg(feature = "solid_user_md")]
 impl IconShape for UserMd {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30164,11 +26394,9 @@ impl IconShape for UserMd {
 
 }
 
-#[cfg(feature = "solid_user_minus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserMinus {}
 
-#[cfg(feature = "solid_user_minus")]
 impl IconShape for UserMinus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30180,11 +26408,9 @@ impl IconShape for UserMinus {
 
 }
 
-#[cfg(feature = "solid_user_ninja")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserNinja {}
 
-#[cfg(feature = "solid_user_ninja")]
 impl IconShape for UserNinja {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30196,11 +26422,9 @@ impl IconShape for UserNinja {
 
 }
 
-#[cfg(feature = "solid_user_nurse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserNurse {}
 
-#[cfg(feature = "solid_user_nurse")]
 impl IconShape for UserNurse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30212,11 +26436,9 @@ impl IconShape for UserNurse {
 
 }
 
-#[cfg(feature = "solid_user_pen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserPen {}
 
-#[cfg(feature = "solid_user_pen")]
 impl IconShape for UserPen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30228,11 +26450,9 @@ impl IconShape for UserPen {
 
 }
 
-#[cfg(feature = "solid_user_plus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserPlus {}
 
-#[cfg(feature = "solid_user_plus")]
 impl IconShape for UserPlus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30244,11 +26464,9 @@ impl IconShape for UserPlus {
 
 }
 
-#[cfg(feature = "solid_user_secret")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserSecret {}
 
-#[cfg(feature = "solid_user_secret")]
 impl IconShape for UserSecret {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30260,11 +26478,9 @@ impl IconShape for UserSecret {
 
 }
 
-#[cfg(feature = "solid_user_shield")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserShield {}
 
-#[cfg(feature = "solid_user_shield")]
 impl IconShape for UserShield {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30276,11 +26492,9 @@ impl IconShape for UserShield {
 
 }
 
-#[cfg(feature = "solid_user_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserSlash {}
 
-#[cfg(feature = "solid_user_slash")]
 impl IconShape for UserSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30292,11 +26506,9 @@ impl IconShape for UserSlash {
 
 }
 
-#[cfg(feature = "solid_user_tag")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserTag {}
 
-#[cfg(feature = "solid_user_tag")]
 impl IconShape for UserTag {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30308,11 +26520,9 @@ impl IconShape for UserTag {
 
 }
 
-#[cfg(feature = "solid_user_tie")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserTie {}
 
-#[cfg(feature = "solid_user_tie")]
 impl IconShape for UserTie {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30324,11 +26534,9 @@ impl IconShape for UserTie {
 
 }
 
-#[cfg(feature = "solid_user_times")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserTimes {}
 
-#[cfg(feature = "solid_user_times")]
 impl IconShape for UserTimes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30340,11 +26548,9 @@ impl IconShape for UserTimes {
 
 }
 
-#[cfg(feature = "solid_user_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UserXmark {}
 
-#[cfg(feature = "solid_user_xmark")]
 impl IconShape for UserXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30356,11 +26562,9 @@ impl IconShape for UserXmark {
 
 }
 
-#[cfg(feature = "solid_users")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Users {}
 
-#[cfg(feature = "solid_users")]
 impl IconShape for Users {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30372,11 +26576,9 @@ impl IconShape for Users {
 
 }
 
-#[cfg(feature = "solid_users_between_lines")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersBetweenLines {}
 
-#[cfg(feature = "solid_users_between_lines")]
 impl IconShape for UsersBetweenLines {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30388,11 +26590,9 @@ impl IconShape for UsersBetweenLines {
 
 }
 
-#[cfg(feature = "solid_users_cog")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersCog {}
 
-#[cfg(feature = "solid_users_cog")]
 impl IconShape for UsersCog {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30404,11 +26604,9 @@ impl IconShape for UsersCog {
 
 }
 
-#[cfg(feature = "solid_users_gear")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersGear {}
 
-#[cfg(feature = "solid_users_gear")]
 impl IconShape for UsersGear {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30420,11 +26618,9 @@ impl IconShape for UsersGear {
 
 }
 
-#[cfg(feature = "solid_users_line")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersLine {}
 
-#[cfg(feature = "solid_users_line")]
 impl IconShape for UsersLine {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30436,11 +26632,9 @@ impl IconShape for UsersLine {
 
 }
 
-#[cfg(feature = "solid_users_rays")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersRays {}
 
-#[cfg(feature = "solid_users_rays")]
 impl IconShape for UsersRays {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30452,11 +26646,9 @@ impl IconShape for UsersRays {
 
 }
 
-#[cfg(feature = "solid_users_rectangle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersRectangle {}
 
-#[cfg(feature = "solid_users_rectangle")]
 impl IconShape for UsersRectangle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30468,11 +26660,9 @@ impl IconShape for UsersRectangle {
 
 }
 
-#[cfg(feature = "solid_users_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersSlash {}
 
-#[cfg(feature = "solid_users_slash")]
 impl IconShape for UsersSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30484,11 +26674,9 @@ impl IconShape for UsersSlash {
 
 }
 
-#[cfg(feature = "solid_users_viewfinder")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UsersViewfinder {}
 
-#[cfg(feature = "solid_users_viewfinder")]
 impl IconShape for UsersViewfinder {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30500,11 +26688,9 @@ impl IconShape for UsersViewfinder {
 
 }
 
-#[cfg(feature = "solid_utensil_spoon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct UtensilSpoon {}
 
-#[cfg(feature = "solid_utensil_spoon")]
 impl IconShape for UtensilSpoon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30516,11 +26702,9 @@ impl IconShape for UtensilSpoon {
 
 }
 
-#[cfg(feature = "solid_utensils")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Utensils {}
 
-#[cfg(feature = "solid_utensils")]
 impl IconShape for Utensils {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30532,11 +26716,9 @@ impl IconShape for Utensils {
 
 }
 
-#[cfg(feature = "solid_v")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct V {}
 
-#[cfg(feature = "solid_v")]
 impl IconShape for V {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30548,11 +26730,9 @@ impl IconShape for V {
 
 }
 
-#[cfg(feature = "solid_van_shuttle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VanShuttle {}
 
-#[cfg(feature = "solid_van_shuttle")]
 impl IconShape for VanShuttle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30564,11 +26744,9 @@ impl IconShape for VanShuttle {
 
 }
 
-#[cfg(feature = "solid_vault")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Vault {}
 
-#[cfg(feature = "solid_vault")]
 impl IconShape for Vault {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30580,11 +26758,9 @@ impl IconShape for Vault {
 
 }
 
-#[cfg(feature = "solid_vcard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Vcard {}
 
-#[cfg(feature = "solid_vcard")]
 impl IconShape for Vcard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30596,11 +26772,9 @@ impl IconShape for Vcard {
 
 }
 
-#[cfg(feature = "solid_vector_polygon")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VectorPolygon {}
 
-#[cfg(feature = "solid_vector_polygon")]
 impl IconShape for VectorPolygon {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30612,11 +26786,9 @@ impl IconShape for VectorPolygon {
 
 }
 
-#[cfg(feature = "solid_venus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Venus {}
 
-#[cfg(feature = "solid_venus")]
 impl IconShape for Venus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30628,11 +26800,9 @@ impl IconShape for Venus {
 
 }
 
-#[cfg(feature = "solid_venus_double")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VenusDouble {}
 
-#[cfg(feature = "solid_venus_double")]
 impl IconShape for VenusDouble {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30644,11 +26814,9 @@ impl IconShape for VenusDouble {
 
 }
 
-#[cfg(feature = "solid_venus_mars")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VenusMars {}
 
-#[cfg(feature = "solid_venus_mars")]
 impl IconShape for VenusMars {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30660,11 +26828,9 @@ impl IconShape for VenusMars {
 
 }
 
-#[cfg(feature = "solid_vest")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Vest {}
 
-#[cfg(feature = "solid_vest")]
 impl IconShape for Vest {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30676,11 +26842,9 @@ impl IconShape for Vest {
 
 }
 
-#[cfg(feature = "solid_vest_patches")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VestPatches {}
 
-#[cfg(feature = "solid_vest_patches")]
 impl IconShape for VestPatches {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30692,11 +26856,9 @@ impl IconShape for VestPatches {
 
 }
 
-#[cfg(feature = "solid_vial")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Vial {}
 
-#[cfg(feature = "solid_vial")]
 impl IconShape for Vial {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30708,11 +26870,9 @@ impl IconShape for Vial {
 
 }
 
-#[cfg(feature = "solid_vial_circle_check")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VialCircleCheck {}
 
-#[cfg(feature = "solid_vial_circle_check")]
 impl IconShape for VialCircleCheck {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30724,11 +26884,9 @@ impl IconShape for VialCircleCheck {
 
 }
 
-#[cfg(feature = "solid_vial_virus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VialVirus {}
 
-#[cfg(feature = "solid_vial_virus")]
 impl IconShape for VialVirus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30740,11 +26898,9 @@ impl IconShape for VialVirus {
 
 }
 
-#[cfg(feature = "solid_vials")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Vials {}
 
-#[cfg(feature = "solid_vials")]
 impl IconShape for Vials {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30756,11 +26912,9 @@ impl IconShape for Vials {
 
 }
 
-#[cfg(feature = "solid_video")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Video {}
 
-#[cfg(feature = "solid_video")]
 impl IconShape for Video {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30772,11 +26926,9 @@ impl IconShape for Video {
 
 }
 
-#[cfg(feature = "solid_video_camera")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VideoCamera {}
 
-#[cfg(feature = "solid_video_camera")]
 impl IconShape for VideoCamera {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30788,11 +26940,9 @@ impl IconShape for VideoCamera {
 
 }
 
-#[cfg(feature = "solid_video_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VideoSlash {}
 
-#[cfg(feature = "solid_video_slash")]
 impl IconShape for VideoSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30804,11 +26954,9 @@ impl IconShape for VideoSlash {
 
 }
 
-#[cfg(feature = "solid_vihara")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Vihara {}
 
-#[cfg(feature = "solid_vihara")]
 impl IconShape for Vihara {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30820,11 +26968,9 @@ impl IconShape for Vihara {
 
 }
 
-#[cfg(feature = "solid_virgo")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Virgo {}
 
-#[cfg(feature = "solid_virgo")]
 impl IconShape for Virgo {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30836,11 +26982,9 @@ impl IconShape for Virgo {
 
 }
 
-#[cfg(feature = "solid_virus")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Virus {}
 
-#[cfg(feature = "solid_virus")]
 impl IconShape for Virus {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30852,11 +26996,9 @@ impl IconShape for Virus {
 
 }
 
-#[cfg(feature = "solid_virus_covid")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VirusCovid {}
 
-#[cfg(feature = "solid_virus_covid")]
 impl IconShape for VirusCovid {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30868,11 +27010,9 @@ impl IconShape for VirusCovid {
 
 }
 
-#[cfg(feature = "solid_virus_covid_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VirusCovidSlash {}
 
-#[cfg(feature = "solid_virus_covid_slash")]
 impl IconShape for VirusCovidSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30884,11 +27024,9 @@ impl IconShape for VirusCovidSlash {
 
 }
 
-#[cfg(feature = "solid_virus_slash")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VirusSlash {}
 
-#[cfg(feature = "solid_virus_slash")]
 impl IconShape for VirusSlash {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30900,11 +27038,9 @@ impl IconShape for VirusSlash {
 
 }
 
-#[cfg(feature = "solid_viruses")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Viruses {}
 
-#[cfg(feature = "solid_viruses")]
 impl IconShape for Viruses {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30916,11 +27052,9 @@ impl IconShape for Viruses {
 
 }
 
-#[cfg(feature = "solid_voicemail")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Voicemail {}
 
-#[cfg(feature = "solid_voicemail")]
 impl IconShape for Voicemail {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30932,11 +27066,9 @@ impl IconShape for Voicemail {
 
 }
 
-#[cfg(feature = "solid_volcano")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Volcano {}
 
-#[cfg(feature = "solid_volcano")]
 impl IconShape for Volcano {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30948,11 +27080,9 @@ impl IconShape for Volcano {
 
 }
 
-#[cfg(feature = "solid_volleyball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Volleyball {}
 
-#[cfg(feature = "solid_volleyball")]
 impl IconShape for Volleyball {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30964,11 +27094,9 @@ impl IconShape for Volleyball {
 
 }
 
-#[cfg(feature = "solid_volleyball_ball")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolleyballBall {}
 
-#[cfg(feature = "solid_volleyball_ball")]
 impl IconShape for VolleyballBall {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30980,11 +27108,9 @@ impl IconShape for VolleyballBall {
 
 }
 
-#[cfg(feature = "solid_volume")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Volume {}
 
-#[cfg(feature = "solid_volume")]
 impl IconShape for Volume {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -30996,11 +27122,9 @@ impl IconShape for Volume {
 
 }
 
-#[cfg(feature = "solid_volume_control_phone")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeControlPhone {}
 
-#[cfg(feature = "solid_volume_control_phone")]
 impl IconShape for VolumeControlPhone {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31012,11 +27136,9 @@ impl IconShape for VolumeControlPhone {
 
 }
 
-#[cfg(feature = "solid_volume_down")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeDown {}
 
-#[cfg(feature = "solid_volume_down")]
 impl IconShape for VolumeDown {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31028,11 +27150,9 @@ impl IconShape for VolumeDown {
 
 }
 
-#[cfg(feature = "solid_volume_high")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeHigh {}
 
-#[cfg(feature = "solid_volume_high")]
 impl IconShape for VolumeHigh {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31044,11 +27164,9 @@ impl IconShape for VolumeHigh {
 
 }
 
-#[cfg(feature = "solid_volume_low")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeLow {}
 
-#[cfg(feature = "solid_volume_low")]
 impl IconShape for VolumeLow {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31060,11 +27178,9 @@ impl IconShape for VolumeLow {
 
 }
 
-#[cfg(feature = "solid_volume_medium")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeMedium {}
 
-#[cfg(feature = "solid_volume_medium")]
 impl IconShape for VolumeMedium {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31076,11 +27192,9 @@ impl IconShape for VolumeMedium {
 
 }
 
-#[cfg(feature = "solid_volume_mute")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeMute {}
 
-#[cfg(feature = "solid_volume_mute")]
 impl IconShape for VolumeMute {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31092,11 +27206,9 @@ impl IconShape for VolumeMute {
 
 }
 
-#[cfg(feature = "solid_volume_off")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeOff {}
 
-#[cfg(feature = "solid_volume_off")]
 impl IconShape for VolumeOff {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31108,11 +27220,9 @@ impl IconShape for VolumeOff {
 
 }
 
-#[cfg(feature = "solid_volume_times")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeTimes {}
 
-#[cfg(feature = "solid_volume_times")]
 impl IconShape for VolumeTimes {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31124,11 +27234,9 @@ impl IconShape for VolumeTimes {
 
 }
 
-#[cfg(feature = "solid_volume_up")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeUp {}
 
-#[cfg(feature = "solid_volume_up")]
 impl IconShape for VolumeUp {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31140,11 +27248,9 @@ impl IconShape for VolumeUp {
 
 }
 
-#[cfg(feature = "solid_volume_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VolumeXmark {}
 
-#[cfg(feature = "solid_volume_xmark")]
 impl IconShape for VolumeXmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31156,11 +27262,9 @@ impl IconShape for VolumeXmark {
 
 }
 
-#[cfg(feature = "solid_vote_yea")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VoteYea {}
 
-#[cfg(feature = "solid_vote_yea")]
 impl IconShape for VoteYea {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31172,11 +27276,9 @@ impl IconShape for VoteYea {
 
 }
 
-#[cfg(feature = "solid_vr_cardboard")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct VrCardboard {}
 
-#[cfg(feature = "solid_vr_cardboard")]
 impl IconShape for VrCardboard {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31188,11 +27290,9 @@ impl IconShape for VrCardboard {
 
 }
 
-#[cfg(feature = "solid_w")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct W {}
 
-#[cfg(feature = "solid_w")]
 impl IconShape for W {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31204,11 +27304,9 @@ impl IconShape for W {
 
 }
 
-#[cfg(feature = "solid_walkie_talkie")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WalkieTalkie {}
 
-#[cfg(feature = "solid_walkie_talkie")]
 impl IconShape for WalkieTalkie {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31220,11 +27318,9 @@ impl IconShape for WalkieTalkie {
 
 }
 
-#[cfg(feature = "solid_walking")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Walking {}
 
-#[cfg(feature = "solid_walking")]
 impl IconShape for Walking {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31236,11 +27332,9 @@ impl IconShape for Walking {
 
 }
 
-#[cfg(feature = "solid_wallet")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Wallet {}
 
-#[cfg(feature = "solid_wallet")]
 impl IconShape for Wallet {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31252,11 +27346,9 @@ impl IconShape for Wallet {
 
 }
 
-#[cfg(feature = "solid_wand_magic")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WandMagic {}
 
-#[cfg(feature = "solid_wand_magic")]
 impl IconShape for WandMagic {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31268,11 +27360,9 @@ impl IconShape for WandMagic {
 
 }
 
-#[cfg(feature = "solid_wand_magic_sparkles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WandMagicSparkles {}
 
-#[cfg(feature = "solid_wand_magic_sparkles")]
 impl IconShape for WandMagicSparkles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31284,11 +27374,9 @@ impl IconShape for WandMagicSparkles {
 
 }
 
-#[cfg(feature = "solid_wand_sparkles")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WandSparkles {}
 
-#[cfg(feature = "solid_wand_sparkles")]
 impl IconShape for WandSparkles {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31300,11 +27388,9 @@ impl IconShape for WandSparkles {
 
 }
 
-#[cfg(feature = "solid_warehouse")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Warehouse {}
 
-#[cfg(feature = "solid_warehouse")]
 impl IconShape for Warehouse {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31316,11 +27402,9 @@ impl IconShape for Warehouse {
 
 }
 
-#[cfg(feature = "solid_warning")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Warning {}
 
-#[cfg(feature = "solid_warning")]
 impl IconShape for Warning {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31332,11 +27416,9 @@ impl IconShape for Warning {
 
 }
 
-#[cfg(feature = "solid_water")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Water {}
 
-#[cfg(feature = "solid_water")]
 impl IconShape for Water {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31348,11 +27430,9 @@ impl IconShape for Water {
 
 }
 
-#[cfg(feature = "solid_water_ladder")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WaterLadder {}
 
-#[cfg(feature = "solid_water_ladder")]
 impl IconShape for WaterLadder {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31364,11 +27444,9 @@ impl IconShape for WaterLadder {
 
 }
 
-#[cfg(feature = "solid_wave_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WaveSquare {}
 
-#[cfg(feature = "solid_wave_square")]
 impl IconShape for WaveSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31380,11 +27458,9 @@ impl IconShape for WaveSquare {
 
 }
 
-#[cfg(feature = "solid_web_awesome")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WebAwesome {}
 
-#[cfg(feature = "solid_web_awesome")]
 impl IconShape for WebAwesome {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31396,11 +27472,9 @@ impl IconShape for WebAwesome {
 
 }
 
-#[cfg(feature = "solid_weight")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Weight {}
 
-#[cfg(feature = "solid_weight")]
 impl IconShape for Weight {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31412,11 +27486,9 @@ impl IconShape for Weight {
 
 }
 
-#[cfg(feature = "solid_weight_hanging")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WeightHanging {}
 
-#[cfg(feature = "solid_weight_hanging")]
 impl IconShape for WeightHanging {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31428,11 +27500,9 @@ impl IconShape for WeightHanging {
 
 }
 
-#[cfg(feature = "solid_weight_scale")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WeightScale {}
 
-#[cfg(feature = "solid_weight_scale")]
 impl IconShape for WeightScale {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31444,11 +27514,9 @@ impl IconShape for WeightScale {
 
 }
 
-#[cfg(feature = "solid_wheat_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WheatAlt {}
 
-#[cfg(feature = "solid_wheat_alt")]
 impl IconShape for WheatAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31460,11 +27528,9 @@ impl IconShape for WheatAlt {
 
 }
 
-#[cfg(feature = "solid_wheat_awn")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WheatAwn {}
 
-#[cfg(feature = "solid_wheat_awn")]
 impl IconShape for WheatAwn {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31476,11 +27542,9 @@ impl IconShape for WheatAwn {
 
 }
 
-#[cfg(feature = "solid_wheat_awn_circle_exclamation")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WheatAwnCircleExclamation {}
 
-#[cfg(feature = "solid_wheat_awn_circle_exclamation")]
 impl IconShape for WheatAwnCircleExclamation {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31492,11 +27556,9 @@ impl IconShape for WheatAwnCircleExclamation {
 
 }
 
-#[cfg(feature = "solid_wheelchair")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Wheelchair {}
 
-#[cfg(feature = "solid_wheelchair")]
 impl IconShape for Wheelchair {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31508,11 +27570,9 @@ impl IconShape for Wheelchair {
 
 }
 
-#[cfg(feature = "solid_wheelchair_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WheelchairAlt {}
 
-#[cfg(feature = "solid_wheelchair_alt")]
 impl IconShape for WheelchairAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31524,11 +27584,9 @@ impl IconShape for WheelchairAlt {
 
 }
 
-#[cfg(feature = "solid_wheelchair_move")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WheelchairMove {}
 
-#[cfg(feature = "solid_wheelchair_move")]
 impl IconShape for WheelchairMove {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31540,11 +27598,9 @@ impl IconShape for WheelchairMove {
 
 }
 
-#[cfg(feature = "solid_whiskey_glass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WhiskeyGlass {}
 
-#[cfg(feature = "solid_whiskey_glass")]
 impl IconShape for WhiskeyGlass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31556,11 +27612,9 @@ impl IconShape for WhiskeyGlass {
 
 }
 
-#[cfg(feature = "solid_wifi")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Wifi {}
 
-#[cfg(feature = "solid_wifi")]
 impl IconShape for Wifi {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31572,11 +27626,9 @@ impl IconShape for Wifi {
 
 }
 
-#[cfg(feature = "solid_wifi_3")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Wifi3 {}
 
-#[cfg(feature = "solid_wifi_3")]
 impl IconShape for Wifi3 {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31588,11 +27640,9 @@ impl IconShape for Wifi3 {
 
 }
 
-#[cfg(feature = "solid_wifi_strong")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WifiStrong {}
 
-#[cfg(feature = "solid_wifi_strong")]
 impl IconShape for WifiStrong {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31604,11 +27654,9 @@ impl IconShape for WifiStrong {
 
 }
 
-#[cfg(feature = "solid_wind")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Wind {}
 
-#[cfg(feature = "solid_wind")]
 impl IconShape for Wind {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31620,11 +27668,9 @@ impl IconShape for Wind {
 
 }
 
-#[cfg(feature = "solid_window_close")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WindowClose {}
 
-#[cfg(feature = "solid_window_close")]
 impl IconShape for WindowClose {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31636,11 +27682,9 @@ impl IconShape for WindowClose {
 
 }
 
-#[cfg(feature = "solid_window_maximize")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WindowMaximize {}
 
-#[cfg(feature = "solid_window_maximize")]
 impl IconShape for WindowMaximize {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31652,11 +27696,9 @@ impl IconShape for WindowMaximize {
 
 }
 
-#[cfg(feature = "solid_window_minimize")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WindowMinimize {}
 
-#[cfg(feature = "solid_window_minimize")]
 impl IconShape for WindowMinimize {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31668,11 +27710,9 @@ impl IconShape for WindowMinimize {
 
 }
 
-#[cfg(feature = "solid_window_restore")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WindowRestore {}
 
-#[cfg(feature = "solid_window_restore")]
 impl IconShape for WindowRestore {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31684,11 +27724,9 @@ impl IconShape for WindowRestore {
 
 }
 
-#[cfg(feature = "solid_wine_bottle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WineBottle {}
 
-#[cfg(feature = "solid_wine_bottle")]
 impl IconShape for WineBottle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31700,11 +27738,9 @@ impl IconShape for WineBottle {
 
 }
 
-#[cfg(feature = "solid_wine_glass")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WineGlass {}
 
-#[cfg(feature = "solid_wine_glass")]
 impl IconShape for WineGlass {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31716,11 +27752,9 @@ impl IconShape for WineGlass {
 
 }
 
-#[cfg(feature = "solid_wine_glass_alt")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WineGlassAlt {}
 
-#[cfg(feature = "solid_wine_glass_alt")]
 impl IconShape for WineGlassAlt {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31732,11 +27766,9 @@ impl IconShape for WineGlassAlt {
 
 }
 
-#[cfg(feature = "solid_wine_glass_empty")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WineGlassEmpty {}
 
-#[cfg(feature = "solid_wine_glass_empty")]
 impl IconShape for WineGlassEmpty {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31748,11 +27780,9 @@ impl IconShape for WineGlassEmpty {
 
 }
 
-#[cfg(feature = "solid_won")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Won {}
 
-#[cfg(feature = "solid_won")]
 impl IconShape for Won {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31764,11 +27794,9 @@ impl IconShape for Won {
 
 }
 
-#[cfg(feature = "solid_won_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct WonSign {}
 
-#[cfg(feature = "solid_won_sign")]
 impl IconShape for WonSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31780,11 +27808,9 @@ impl IconShape for WonSign {
 
 }
 
-#[cfg(feature = "solid_worm")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Worm {}
 
-#[cfg(feature = "solid_worm")]
 impl IconShape for Worm {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31796,11 +27822,9 @@ impl IconShape for Worm {
 
 }
 
-#[cfg(feature = "solid_wrench")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Wrench {}
 
-#[cfg(feature = "solid_wrench")]
 impl IconShape for Wrench {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31812,11 +27836,9 @@ impl IconShape for Wrench {
 
 }
 
-#[cfg(feature = "solid_x")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct X {}
 
-#[cfg(feature = "solid_x")]
 impl IconShape for X {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31828,11 +27850,9 @@ impl IconShape for X {
 
 }
 
-#[cfg(feature = "solid_x_ray")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct XRay {}
 
-#[cfg(feature = "solid_x_ray")]
 impl IconShape for XRay {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31844,11 +27864,9 @@ impl IconShape for XRay {
 
 }
 
-#[cfg(feature = "solid_xmark")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Xmark {}
 
-#[cfg(feature = "solid_xmark")]
 impl IconShape for Xmark {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31860,11 +27878,9 @@ impl IconShape for Xmark {
 
 }
 
-#[cfg(feature = "solid_xmark_circle")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct XmarkCircle {}
 
-#[cfg(feature = "solid_xmark_circle")]
 impl IconShape for XmarkCircle {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31876,11 +27892,9 @@ impl IconShape for XmarkCircle {
 
 }
 
-#[cfg(feature = "solid_xmark_square")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct XmarkSquare {}
 
-#[cfg(feature = "solid_xmark_square")]
 impl IconShape for XmarkSquare {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31892,11 +27906,9 @@ impl IconShape for XmarkSquare {
 
 }
 
-#[cfg(feature = "solid_xmarks_lines")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct XmarksLines {}
 
-#[cfg(feature = "solid_xmarks_lines")]
 impl IconShape for XmarksLines {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31908,11 +27920,9 @@ impl IconShape for XmarksLines {
 
 }
 
-#[cfg(feature = "solid_y")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Y {}
 
-#[cfg(feature = "solid_y")]
 impl IconShape for Y {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31924,11 +27934,9 @@ impl IconShape for Y {
 
 }
 
-#[cfg(feature = "solid_yen")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Yen {}
 
-#[cfg(feature = "solid_yen")]
 impl IconShape for Yen {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31940,11 +27948,9 @@ impl IconShape for Yen {
 
 }
 
-#[cfg(feature = "solid_yen_sign")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct YenSign {}
 
-#[cfg(feature = "solid_yen_sign")]
 impl IconShape for YenSign {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31956,11 +27962,9 @@ impl IconShape for YenSign {
 
 }
 
-#[cfg(feature = "solid_yin_yang")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct YinYang {}
 
-#[cfg(feature = "solid_yin_yang")]
 impl IconShape for YinYang {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31972,11 +27976,9 @@ impl IconShape for YinYang {
 
 }
 
-#[cfg(feature = "solid_z")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Z {}
 
-#[cfg(feature = "solid_z")]
 impl IconShape for Z {
     fn child_elements(&self) -> Element {
         rsx!(path {
@@ -31988,11 +27990,9 @@ impl IconShape for Z {
 
 }
 
-#[cfg(feature = "solid_zap")]
 #[derive(Copy, Clone, PartialEq)]
 pub struct Zap {}
 
-#[cfg(feature = "solid_zap")]
 impl IconShape for Zap {
     fn child_elements(&self) -> Element {
         rsx!(path {
