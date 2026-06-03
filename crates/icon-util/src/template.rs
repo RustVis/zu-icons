@@ -23,7 +23,7 @@ pub struct {ICON_NAME}Props {
     #[props(default = {HEIGHT})]
     pub height: Option<&'static str>,
 
-    #[props(default = {FILLE})]
+    #[props(default = {FILL})]
     pub fill: Option<&'static str>,
 
     #[props(default = {STROKE})]

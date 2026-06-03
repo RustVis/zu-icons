@@ -119,22 +119,22 @@ pub fn generate_svg_component(node_name: &str, svg_obj: &SvgObject) -> String {
         "None"
     };
     let fill = if let Some(fill) = &svg_obj.fill {
-        &format!("Some(\"{fill}\"")
+        &format!("Some(\"{fill}\")")
     } else {
         "None"
     };
     let stroke = if let Some(stroke) = &svg_obj.stroke {
-        &format!("Some(\"{stroke}\"")
+        &format!("Some(\"{stroke}\")")
     } else {
         "None"
     };
     let view_box = if let Some(view_box) = &svg_obj.view_box {
-        &format!("Some(\"{view_box}\"")
+        &format!("Some(\"{view_box}\")")
     } else {
         "None"
     };
     let xmlns = if let Some(xmlns) = &svg_obj.xmlns {
-        &format!("Some(\"{xmlns}\"")
+        &format!("Some(\"{xmlns}\")")
     } else {
         "None"
     };
@@ -143,8 +143,8 @@ pub fn generate_svg_component(node_name: &str, svg_obj: &SvgObject) -> String {
         .replace("{WIDTH}", &width)
         .replace("{HEIGHT}", &height)
         .replace("{FILL}", &fill)
-        .replace("{stroke}", &stroke)
-        .replace("{view_box}", &view_box)
-        .replace("{xmlns}", &xmlns)
+        .replace("{STROKE}", &stroke)
+        .replace("{VIEW_BOX}", &view_box)
+        .replace("{XMLNS}", &xmlns)
         .replace("{ICON_PATH}", &svg_obj.children)
 }
