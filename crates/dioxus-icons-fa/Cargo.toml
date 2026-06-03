@@ -28,8 +28,7 @@ zu-icon-util.workspace = true
 workspace = true
 
 [features]
-default = []
-all = [
+default = [
   "brands",
   "regular",
   "solid",
