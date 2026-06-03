@@ -4,11 +4,11 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
+use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Clone, PartialEq)]
+#[derive(Copy, Clone, PartialEq)]
 pub struct {ICON_NAME} {}
 
 impl IconShape for {ICON_NAME} {

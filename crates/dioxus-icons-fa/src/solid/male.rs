@@ -4,7 +4,7 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, dioxus_signals, rsx};
 
 use crate::IconShape;
 
