@@ -2,7 +2,7 @@
 [workspace]
 resolver = "3"
 members = [
-  "crates/dioxus-icon-component", 
+  "crates/dioxus-icon-component",
   "crates/dioxus-icons-bs",
   "crates/dioxus-icons-fa",
   "crates/dioxus-icons-hero",
@@ -34,8 +34,6 @@ unsafe_code = { level = "deny", priority = -1 }
 
 dead_code = "deny"
 non_snake_case = "allow"
-
-unused_imports = "allow"
 
 [workspace.lints.clippy]
 all = { level = "deny", priority = -1 }

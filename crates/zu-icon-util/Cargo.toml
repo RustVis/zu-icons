@@ -16,6 +16,7 @@ repository.workspace = true
 rust-version.workspace = true
 
 [dependencies]
+anyhow.workspace = true
 dioxus.workspace = true
 inflections.workspace = true
 regex.workspace = true
