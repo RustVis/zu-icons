@@ -8,44 +8,71 @@ use dioxus::prelude::*;
 ///
 /// Implements this trait when adding a new real icon.
 pub trait IconShape: Clone + PartialEq + 'static {
+    /// Returns the SVG child elements (paths, circles, etc.) that define the icon shape.
     fn child_elements(&self) -> Element;
 
+    /// Default title text for the SVG element.
     const TITLE: Option<&'static str> = None;
+    /// Default width of the SVG element in pixels.
     const WIDTH: Option<u32> = None;
+    /// Default height of the SVG element in pixels.
     const HEIGHT: Option<u32> = None;
+    /// Default fill color of the SVG element.
     const FILL: Option<&'static str> = None;
+    /// Default stroke color of the SVG element.
     const STROKE: Option<&'static str> = None;
+    /// Default view box string (e.g., "0 0 24 24").
     const VIEW_BOX: Option<&'static str> = None;
 }
 
+/// Props for the `Icon` component.
+///
+/// All fields are optional except `icon`. When a field is not provided,
+/// the default value from the associated `IconShape` implementation is used.
 #[derive(Clone, PartialEq, Props)]
 pub struct IconProps<T: IconShape> {
+    /// The icon shape implementation that provides SVG child elements.
     pub icon: T,
 
+    /// Optional title text rendered as a `<title>` element inside the SVG for accessibility.
     #[props(default = None)]
     pub title: Option<&'static str>,
 
+    /// Optional CSS class name(s) applied to the `<svg>` element.
     #[props(default = None)]
     pub class: Option<&'static str>,
 
+    /// Optional inline CSS styles applied to the `<svg>` element.
     #[props(default = None)]
     pub style: Option<&'static str>,
 
+    /// Optional width of the SVG element in pixels.
+    /// Falls back to `T::WIDTH` if not set.
     #[props(default = None)]
     pub width: Option<u32>,
 
+    /// Optional height of the SVG element in pixels.
+    /// Falls back to `T::HEIGHT` if not set.
     #[props(default = None)]
     pub height: Option<u32>,
 
+    /// Optional fill color for the SVG element.
+    /// Falls back to `T::FILL`, then to `"currentColor"` if not set.
     #[props(default = None)]
     pub fill: Option<&'static str>,
 
+    /// Optional stroke color for the SVG element.
+    /// Falls back to `T::STROKE` if not set.
     #[props(default = None)]
     pub stroke: Option<&'static str>,
 
+    /// Optional view box attribute (e.g., `"0 0 24 24"`).
+    /// Falls back to `T::VIEW_BOX`, then to `"0 0 16 16"` if not set.
     #[props(default = None)]
     pub view_box: Option<&'static str>,
 
+    /// Optional XML namespace override.
+    /// Defaults to `"http://www.w3.org/2000/svg"` if not set.
     #[props(default = None)]
     pub xmlns: Option<&'static str>,
 }
