@@ -6,6 +6,7 @@ members = [
   "crates/dioxus-icons-bs",
   "crates/dioxus-icons-fa",
   "crates/dioxus-icons-hero",
+  "crates/dioxus-icons-lucide",
   "crates/zu-icon-util",
 ]
 
