@@ -1,6 +1,10 @@
 [package]
-name = "icon-util"
+name = "zu-icon-util"
 version = "0.1.0"
+documentation = "https://docs.rs/zu-icon-util"
+description = "Utilities for zu-icons"
+keywords = ["web", "wasm", "icon", "utility", "zu"]
+readme = "README.md"
 
 authors.workspace = true
 categories.workspace = true
@@ -8,7 +12,6 @@ edition.workspace = true
 homepage.workspace = true
 license.workspace = true
 publish.workspace = true
-readme.workspace = true
 repository.workspace = true
 rust-version.workspace = true
 

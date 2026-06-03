@@ -8,8 +8,8 @@ use std::io::Write;
 use std::path::PathBuf;
 
 use anyhow::Error;
-use icon_util::{generate_svg_component, need_update, parse_svg_content, reset_crate_source};
 use inflections::Inflect;
+use zu_icon_util::{generate_svg_component, need_update, parse_svg_content, reset_crate_source};
 
 const SVG_DIR: &str = "../../icons/font-awesome/svgs";
 const LIB_HEADER: &str = r"// Auto Generated! DO NOT EDIT!

@@ -4,7 +4,7 @@ resolver = "3"
 members = [
   "crates/dioxus-icon-component",
   "crates/dioxus-icons-fa",
-  "crates/icon-util",
+  "crates/zu-icon-util",
 ]
 
 [workspace.package]
@@ -14,7 +14,6 @@ edition = "2024"
 homepage = "https://github.com/RustVis/dioxus-icons"
 license ="Apache-2.0"
 publish = true
-readme = "README.md"
 repository = "https://github.com/RustVis/dioxus-icons"
 rust-version = "1.85"
 
@@ -25,8 +24,8 @@ inflections = { version = "1.1.1" }
 regex = { version = "1.12.3" }
 scraper = { version = "0.27.0" }
 
-icon-util = { path = "crates/icon-util" }
 dioxus-icon-component = { path = "crates/dioxus-icon-component" }
+zu-icon-util = { path = "crates/zu-icon-util" }
 
 [workspace.lints.rust]
 unsafe_code = { level = "deny", priority = -1 }
