@@ -2,6 +2,8 @@
 // Use of this source is governed by Lesser General Public License
 // that can be found in the LICENSE file.
 
+use std::{fs, io};
+
 use roxmltree::{Document, Error, Node, NodeType};
 
 pub const UPDATE_KEY: &str = "UPDATE_DIOXUS_ICONS";
@@ -14,6 +16,13 @@ pub const TEMPLATE_FILE: &str = include_str!("template.rs");
 #[must_use]
 pub fn need_update() -> bool {
     std::env::var_os(UPDATE_KEY).is_some_and(|val| val != "0" && val != "false")
+}
+
+/// Remove all files in `src/` directory of crate
+pub fn reset_crate_source() -> Result<(), io::Error> {
+    fs::remove_dir_all("src")?;
+    fs::create_dir("src")?;
+    fs::write("src/lib.rs", "")
 }
 
 /// Get inner html of an svg file, without `<svg>` root tag.

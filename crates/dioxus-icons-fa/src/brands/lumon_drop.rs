@@ -7,7 +7,7 @@
 use dioxus::prelude::*;
 
 #[derive(Debug, Clone, PartialEq, Props)]
-pub struct ICON_NAMEProps {
+pub struct LumonDropProps {
     #[props(default = None)]
     pub title: Option<&'static str>,
 
@@ -18,10 +18,10 @@ pub struct ICON_NAMEProps {
     pub style: Option<&'static str>,
 
     #[props(default = None)]
-    pub width: Option<&'static str>,
+    pub width: Option<u32>,
 
     #[props(default = None)]
-    pub height: Option<&'static str>,
+    pub height: Option<u32>,
 
     #[props(default = None)]
     pub color: Option<&'static str>,
@@ -39,7 +39,7 @@ pub struct ICON_NAMEProps {
     pub xmlns: Option<&'static str>,
 }
 
-pub fn ICON_NAME(props: ICON_NAMEProps) -> Element {
+pub fn LumonDrop(props: LumonDropProps) -> Element {
     rsx! {
         svg {
             class: props.class,
@@ -50,9 +50,9 @@ pub fn ICON_NAME(props: ICON_NAMEProps) -> Element {
             xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
             fill: props.fill.unwrap_or("currentColor"),
             stroke: props.stroke,
-            title: props.title,
-
-            ICON_PATH
+            if let Some(title_text) = props.title {
+                title {{title_text}}
+            }
         }
     }
 }
