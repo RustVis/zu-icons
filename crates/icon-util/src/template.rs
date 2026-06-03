@@ -7,7 +7,7 @@
 use dioxus::prelude::*;
 
 #[derive(Debug, Clone, PartialEq, Props)]
-pub struct ICON_NAMEProps {
+pub struct {ICON_NAME}Props {
     #[props(default = None)]
     pub title: Option<&'static str>,
 
@@ -17,29 +17,26 @@ pub struct ICON_NAMEProps {
     #[props(default = None)]
     pub style: Option<&'static str>,
 
-    #[props(default = None)]
+    #[props(default = {WIDTH})]
     pub width: Option<&'static str>,
 
-    #[props(default = None)]
+    #[props(default = {HEIGHT})]
     pub height: Option<&'static str>,
 
-    #[props(default = None)]
-    pub color: Option<&'static str>,
-
-    #[props(default = None)]
+    #[props(default = {FILLE})]
     pub fill: Option<&'static str>,
 
-    #[props(default = None)]
+    #[props(default = {STROKE})]
     pub stroke: Option<&'static str>,
 
-    #[props(default = None)]
+    #[props(default = {VIEW_BOX})]
     pub view_box: Option<&'static str>,
 
-    #[props(default = None)]
+    #[props(default = {XMLNS})]
     pub xmlns: Option<&'static str>,
 }
 
-pub fn ICON_NAME(props: ICON_NAMEProps) -> Element {
+pub fn {ICON_NAME}(props: {ICON_NAME}Props) -> Element {
     rsx! {
         svg {
             class: props.class,
@@ -55,7 +52,7 @@ pub fn ICON_NAME(props: ICON_NAMEProps) -> Element {
                 title {{ title_text }}
             }
 
-            ICON_PATH
+            {ICON_PATH}
         }
     }
 }

@@ -19,6 +19,7 @@ rust-version.workspace = true
 dioxus.workspace = true
 
 [build-dependencies]
+anyhow.workspace = true
 icon-util.workspace = true
 inflections.workspace = true
 
@@ -35,3 +36,6 @@ all = [
 brands_lumon_drop = []
 regular_hand = []
 solid_toilet_paper = []
+
+[dev-dependencies]
+anyhow = "1.0.102"

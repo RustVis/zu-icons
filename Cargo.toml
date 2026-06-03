@@ -17,9 +17,11 @@ repository = "https://github.com/RustVis/dioxus-icons"
 rust-version = "1.85"
 
 [workspace.dependencies]
+anyhow = { version = "1.0.102" }
 dioxus = { version = "0.7.9" }
 inflections = { version = "1.1.1" }
-roxmltree = { version = "0.21.1" }
+regex = { version = "1.12.3" }
+scraper = { version = "0.27.0" }
 
 icon-util = { path = "crates/icon-util" }
 

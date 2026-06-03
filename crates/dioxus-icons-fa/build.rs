@@ -2,13 +2,15 @@
 // Use of this source is governed by Lesser General Public License
 // that can be found in the LICENSE file.
 
-use std::error::Error;
 use std::ffi::OsStr;
 use std::fs::{self, File};
-use std::io::{self, Write};
+use std::io::Write;
 use std::path::PathBuf;
 
-use icon_util::{TEMPLATE_FILE, get_svg_inner, need_update, reset_crate_source};
+use anyhow::Error;
+use icon_util::{
+    TEMPLATE_FILE, generate_svg_component, need_update, parse_svg_content, reset_crate_source,
+};
 use inflections::Inflect;
 
 const SVG_DIR: &str = "../../icons/font-awesome/svgs";
@@ -69,7 +71,7 @@ fn map_filename(name: &str) -> String {
     name.to_string()
 }
 
-fn build_icons(folder: &str) -> Result<Vec<String>, io::Error> {
+fn build_icons(folder: &str) -> Result<Vec<String>, Error> {
     let mut module_names = Vec::new();
     let mut dir = PathBuf::new();
     dir.push(SVG_DIR);
@@ -103,15 +105,14 @@ fn build_icons(folder: &str) -> Result<Vec<String>, io::Error> {
         rs_filepath.push(&module_name);
         rs_filepath.set_extension("rs");
 
-        let svg_content = fs::read_to_string(&path).unwrap();
-        let markup = get_svg_inner(&svg_content).unwrap();
-        let rs_content = TEMPLATE_FILE
-            .replace("ICON_NAME", &node_name)
-            .replace("ICON_PATH", markup);
-
-        fs::write(rs_filepath, rs_content).unwrap();
-        module_names.push((module_name, node_name));
-        break;
+        let svg_content = fs::read_to_string(&path)?;
+        if let Some(svg_obj) = parse_svg_content(&svg_content) {
+            let component_content = generate_svg_component(&node_name, &svg_obj);
+            fs::write(rs_filepath, component_content)?;
+            module_names.push((module_name, node_name));
+        } else {
+            eprintln!("Failed to parse svg file {}", path.display());
+        }
     }
 
     module_names.sort();
@@ -138,7 +139,7 @@ pub use {module_name}::{node_name};
     Ok(feature_names)
 }
 
-fn rebuild_icons() -> Result<(), Box<dyn Error>> {
+fn rebuild_icons() -> Result<(), Error> {
     println!("rebuild icons");
     let brand_features = build_icons("brands")?;
     let regular_features = build_icons("regular")?;
@@ -159,10 +160,11 @@ pub mod solid;
     Ok(())
 }
 
-fn main() {
+fn main() -> Result<(), Error> {
     // Check UPDATE_DIOXUS_ICONS=1 environment
     if need_update() {
-        reset_crate_source().unwrap();
-        rebuild_icons().unwrap();
+        reset_crate_source()?;
+        rebuild_icons()?;
     }
+    Ok(())
 }
