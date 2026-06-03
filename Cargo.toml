@@ -4,3 +4,35 @@ resolver = "3"
 members = [
   "crates/dioxus-icons-fa",
 ]
+
+[workspace.package]
+authors = ["Xu Shaohua <shaohua@biofan.org>"]
+categories = ["wasm", "web-programming"]
+edition = "2024"
+homepage = "https://github.com/RustVis/dioxus-icons"
+license ="Apache-2.0"
+publish = true
+readme = "README.md"
+repository = "https://github.com/RustVis/dioxus-icons"
+rust-version = "1.85"
+
+[workspace.dependencies]
+dioxus = { version = "0.7.9" }
+
+[workspace.lints.rust]
+unsafe_code = { level = "deny", priority = -1 }
+
+dead_code = "deny"
+
+[workspace.lints.clippy]
+all = { level = "deny", priority = -1 }
+cargo = { level = "deny", priority = -1 }
+nursery = { level = "deny", priority = -1 }
+pedantic = { level = "deny", priority = -1 }
+
+expect_used = "deny"
+multiple_crate_versions = "warn"
+panic_in_result_fn = "deny"
+panic = "deny"
+unused_result_ok = "deny"
+unwrap_used = "deny"
