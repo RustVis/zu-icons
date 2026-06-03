@@ -1,3 +1,6 @@
 [submodule "icons/font-awesome"]
 	path = icons/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome
+[submodule "icons/bootstrap"]
+	path = icons/bootstrap
+	url = https://github.com/twbs/icons
