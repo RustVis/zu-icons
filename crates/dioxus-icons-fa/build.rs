@@ -8,9 +8,7 @@ use std::io::Write;
 use std::path::PathBuf;
 
 use anyhow::Error;
-use icon_util::{
-    TEMPLATE_FILE, generate_svg_component, need_update, parse_svg_content, reset_crate_source,
-};
+use icon_util::{generate_svg_component, need_update, parse_svg_content, reset_crate_source};
 use inflections::Inflect;
 
 const SVG_DIR: &str = "../../icons/font-awesome/svgs";
@@ -20,50 +18,7 @@ const LIB_HEADER: &str = r"// Auto Generated! DO NOT EDIT!
 
 fn map_filename(name: &str) -> String {
     let names = vec![
-        "0-circle-fill",
-        "0-circle",
-        "0-square-fill",
-        "0-square",
-        "1-circle-fill",
-        "1-circle",
-        "1-square-fill",
-        "1-square",
-        "2-circle-fill",
-        "2-circle",
-        "2-square-fill",
-        "2-square",
-        "3-circle-fill",
-        "3-circle",
-        "3-square-fill",
-        "3-square",
-        "4-circle-fill",
-        "4-circle",
-        "4-square-fill",
-        "4-square",
-        "5-circle-fill",
-        "5-circle",
-        "5-square-fill",
-        "5-square",
-        "6-circle-fill",
-        "6-circle",
-        "6-square-fill",
-        "6-square",
-        "7-circle-fill",
-        "7-circle",
-        "7-square-fill",
-        "7-square",
-        "8-circle-fill",
-        "8-circle",
-        "8-square-fill",
-        "8-square",
-        "9-circle-fill",
-        "9-circle",
-        "9-square-fill",
-        "9-square",
-        "123",
-        "box",
-        "option",
-        "type",
+        "0", "1", "11ty", "2", "3", "4", "42-group", "5", "500px", "6", "7", "8", "9", "box", "try",
     ];
     if names.contains(&name) {
         return format!("icon-{name}");
@@ -141,7 +96,7 @@ pub use {module_name}::{node_name};
 
 fn rebuild_icons() -> Result<(), Error> {
     println!("rebuild icons");
-    let brand_features = build_icons("brands")?;
+    let brands_features = build_icons("brands")?;
     let regular_features = build_icons("regular")?;
     let solid_features = build_icons("solid")?;
 
@@ -154,10 +109,44 @@ pub mod solid;
     "#;
     module_file.write_all(line.as_bytes())?;
 
-    // let mut cargo_file = File::open("Cargo.toml")?;
-    // cargo_file.write_all(feature_lines.as_bytes())?;
+    let mut cargo_file = File::create("feature.list")?;
+    let (brands_group_features, brands_separated_features) =
+        to_feature_string("brands", &brands_features);
+    let (regular_group_features, regular_separated_features) =
+        to_feature_string("regular", &regular_features);
+    let (solid_group_features, solid_separated_features) =
+        to_feature_string("solid", &solid_features);
+    cargo_file.write_all(brands_group_features.as_bytes())?;
+    cargo_file.write_all(regular_group_features.as_bytes())?;
+    cargo_file.write_all(solid_group_features.as_bytes())?;
+    cargo_file.write_all(brands_separated_features.as_bytes())?;
+    cargo_file.write_all(regular_separated_features.as_bytes())?;
+    cargo_file.write_all(solid_separated_features.as_bytes())?;
 
     Ok(())
+}
+
+fn to_feature_string(group_name: &str, feature_list: &[String]) -> (String, String) {
+    let FEATURE_TEMPLATE = r#"{GROUP_NAME} = [
+{FEATURE_LIST}
+]"#;
+    let group_features = FEATURE_TEMPLATE
+        .replace("{GROUP_NAME}", group_name)
+        .replace(
+            "{FEATURE_LIST}",
+            &feature_list
+                .iter()
+                .map(|name| format!("  \"{name}\",\n"))
+                .collect::<Vec<_>>()
+                .join(""),
+        );
+
+    let separted_features = feature_list
+        .iter()
+        .map(|name| format!("{name} = []\n"))
+        .collect::<Vec<_>>()
+        .join("");
+    (group_features, separted_features)
 }
 
 fn main() -> Result<(), Error> {
