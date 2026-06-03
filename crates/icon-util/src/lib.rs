@@ -9,7 +9,7 @@ use regex::Regex;
 use scraper::{ElementRef, Html, node::Element};
 
 pub const UPDATE_KEY: &str = "UPDATE_DIOXUS_ICONS";
-pub const TEMPLATE_FILE: &str = include_str!("template.rs");
+const TEMPLATE_FILE: &str = include_str!("template.rs");
 
 /// Check whether icon crate shall be refreshed.
 ///
@@ -99,7 +99,7 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
                 .collect::<Vec<_>>();
             element_attrs.sort();
             let attrs_str = element_attrs.join("\n");
-            "            {TAG_NAME} {\n{ATTRS}\n            }"
+            "{TAG_NAME} {\n{ATTRS}\n            }"
                 .replace("{TAG_NAME}", tag_name)
                 .replace("{ATTRS}", &attrs_str)
         })
@@ -107,44 +107,40 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
         .join("\n")
 }
 
-pub fn generate_svg_component(node_name: &str, svg_obj: &SvgObject) -> String {
-    let width = if let Some(width) = &svg_obj.width {
-        &format!("Some(\"{width}\")")
+pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &SvgObject) -> String {
+    let title = if let Some(title) = title {
+        &format!("    const TITLE: Option<&'static str> = Some(\"{title}\");\n")
     } else {
-        "None"
+        ""
+    };
+    let width = if let Some(width) = &svg_obj.width {
+        &format!("    const WIDTH: Option<u32> = Some({width});\n")
+    } else {
+        ""
     };
     let height = if let Some(height) = &svg_obj.height {
-        &format!("Some(\"{height}\")")
+        &format!("    const HEIGHT: Option<u32> = Some({height});\n")
     } else {
-        "None"
+        ""
     };
     let fill = if let Some(fill) = &svg_obj.fill {
-        &format!("Some(\"{fill}\")")
+        &format!("    const FILL: Option<&'static str> = Some(\"{fill}\");\n")
     } else {
-        "None"
+        ""
     };
     let stroke = if let Some(stroke) = &svg_obj.stroke {
-        &format!("Some(\"{stroke}\")")
+        &format!("    const STROKE: Option<&'static str> = Some(\"{stroke}\");\n")
     } else {
-        "None"
+        ""
     };
     let view_box = if let Some(view_box) = &svg_obj.view_box {
-        &format!("Some(\"{view_box}\")")
+        &format!("    const VIEW_BOX: Option<&'static str> = Some(\"{view_box}\");\n")
     } else {
-        "None"
+        ""
     };
-    let xmlns = if let Some(xmlns) = &svg_obj.xmlns {
-        &format!("Some(\"{xmlns}\")")
-    } else {
-        "None"
-    };
+    let other_props = [title, width, height, fill, stroke, view_box].join("");
     TEMPLATE_FILE
         .replace("{ICON_NAME}", node_name)
-        .replace("{WIDTH}", &width)
-        .replace("{HEIGHT}", &height)
-        .replace("{FILL}", &fill)
-        .replace("{STROKE}", &stroke)
-        .replace("{VIEW_BOX}", &view_box)
-        .replace("{XMLNS}", &xmlns)
         .replace("{ICON_PATH}", &svg_obj.children)
+        .replace("{OTHER_PROPS}", &other_props)
 }
