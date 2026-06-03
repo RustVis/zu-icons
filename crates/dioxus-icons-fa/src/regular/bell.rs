@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct BellProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct Bell {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 448 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn Bell(props: BellProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for Bell {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M224 0c-13.3 0-24 10.7-24 24l0 9.7C118.6 45.3 56 115.4 56 200l0 14.5c0 37.7-10 74.7-29 107.3L5.1 359.2C1.8 365 0 371.5 0 378.2 0 399.1 16.9 416 37.8 416l372.4 0c20.9 0 37.8-16.9 37.8-37.8 0-6.7-1.8-13.3-5.1-19L421 321.7c-19-32.6-29-69.6-29-107.3l0-14.5c0-84.6-62.6-154.7-144-166.3l0-9.7c0-13.3-10.7-24-24-24zM392.4 368l-336.9 0 12.9-22.1C91.7 306 104 260.6 104 214.5l0-14.5c0-66.3 53.7-120 120-120s120 53.7 120 120l0 14.5c0 46.2 12.3 91.5 35.5 131.4L392.4 368zM156.1 464c9.9 28 36.6 48 67.9 48s58-20 67.9-48l-135.8 0z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 448 512");
+
 }

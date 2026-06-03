@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct FaceGrinSquintProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct FaceGrinSquint {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 512 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn FaceGrinSquint(props: FaceGrinSquintProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for FaceGrinSquint {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM386.7 308.9c11.9-3.7 23.9 6.3 19.6 18.1-22.4 61.3-81.3 105.1-150.3 105.1S128.1 388.2 105.7 326.9c-4.3-11.8 7.7-21.8 19.6-18.1 39.2 12.2 83.7 19.1 130.7 19.1s91.5-6.9 130.7-19.1zM122.6 143.2c4.5-6.8 13.3-9.2 20.6-5.5l79.6 40c5.4 2.7 8.8 8.2 8.8 14.3s-3.4 11.6-8.8 14.3l-79.6 40c-7.3 3.6-16.1 1.3-20.6-5.5s-3.1-15.9 3.1-21.1L159 192 125.8 164.3c-6.2-5.2-7.6-14.3-3.1-21.1zm263.6 21.1L353 192 386.2 219.7c6.2 5.2 7.6 14.3 3.1 21.1s-13.3 9.2-20.6 5.5l-79.6-40c-5.4-2.7-8.8-8.2-8.8-14.3s3.4-11.6 8.8-14.3l79.6-40c7.3-3.6 16.1-1.3 20.6 5.5s3.1 15.9-3.1 21.1z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 512 512");
+
 }

@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct SquareLetterboxdProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct SquareLetterboxd {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 448 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn SquareLetterboxd(props: SquareLetterboxdProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for SquareLetterboxd {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M384 32c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l320 0zM105.1 187C66.4 187 35 218.3 35 257s31.4 70 70.1 70c24.8 0 46.5-12.8 59-32.2l.5-.7-.4-.6c-6.5-10.6-10.2-23.1-10.2-36.5 0-13.6 3.9-26.3 10.6-37.1-12.4-19.8-34.4-32.9-59.5-32.9zM224 187c-24.8 0-46.5 12.8-59 32.2l-.5 .7 .4 .6c6.5 10.6 10.2 23.1 10.2 36.5 0 13.6-3.9 26.3-10.6 37.1 12.4 19.7 34.4 32.9 59.5 32.9 24.8 0 46.5-12.8 59-32.2l.5-.7-.4-.6c-6.5-10.6-10.2-23.1-10.2-36.5 0-13.6 3.9-26.3 10.6-37.1-12.4-19.7-34.4-32.9-59.5-32.9zm118.9 0c-24.8 0-46.5 12.8-59 32.2l-.5 .7 .4 .6c6.5 10.6 10.2 23.1 10.2 36.5 0 13.6-3.9 26.3-10.6 37.1 12.4 19.8 34.4 32.9 59.5 32.9 38.7 0 70.1-31.3 70.1-70s-31.4-70-70.1-70z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 448 512");
+
 }

@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct WpexplorerProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct Wpexplorer {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 512 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn Wpexplorer(props: WpexplorerProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for Wpexplorer {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M0 256a256 256 0 1 1 512 0 256 256 0 1 1 -512 0zm480 0a224 224 0 1 0 -448 0 224 224 0 1 0 448 0zM160.9 124.6l86.9 37.1-37.1 86.9-86.9-37.1 37.1-86.9zm110 169.1l46.6 94-14.6 0-50-100-48.9 100-14 0 51.1-106.9-22.3-9.4 6-14 68.6 29.1-6 14.3-16.5-7.1zM259.1 177.4l68.6 29.4-29.4 68.3-68.3-29.1 29.1-68.6zm80.3 42.9l54.6 23.1-23.4 54.3-54.3-23.1 23.1-54.3z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 512 512");
+
 }

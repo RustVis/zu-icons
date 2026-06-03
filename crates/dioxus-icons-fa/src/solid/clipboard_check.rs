@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct ClipboardCheckProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct ClipboardCheck {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 384 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn ClipboardCheck(props: ClipboardCheckProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for ClipboardCheck {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M256 0c23.7 0 44.4 12.9 55.4 32l8.6 0c35.3 0 64 28.7 64 64l0 352c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l8.6 0C83.6 12.9 104.3 0 128 0L256 0zm26.9 212.6c-10.7-7.8-25.7-5.4-33.5 5.3l-85.6 117.7-26.5-27.4c-9.2-9.5-24.4-9.8-33.9-.6s-9.8 24.4-.6 33.9l46.4 48c4.9 5.1 11.8 7.8 18.9 7.3s13.6-4.1 17.8-9.8L288.2 246.1c7.8-10.7 5.4-25.7-5.3-33.5zM136 64c-13.3 0-24 10.7-24 24s10.7 24 24 24l112 0c13.3 0 24-10.7 24-24s-10.7-24-24-24L136 64z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 384 512");
+
 }

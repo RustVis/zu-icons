@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct VenmoProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct Venmo {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 640 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn Venmo(props: VenmoProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for Venmo {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M67.8 202.7c2.4 5 3.9 11 3.9 19.8 0 16.2-11.5 39.8-20.7 54.9l-9.9-79.7-41 3.9 18.8 112 46.9 0c20.5-26.9 45.8-65.3 45.8-94.8 0-9.3-1.9-16.6-6.3-23.7l-37.4 7.5zm113-7.1c-42.8 0-63.5 37-63.5 71.9 0 26.9 12.8 48.5 48.4 48.5 14 0 28.5-3 37.8-7.5l5-33.6c-13.2 6.7-23.3 9.3-33.9 9.3-9.7 0-17.1-5.2-17.1-18.3 22-.2 60-9.3 60-38.8 0-18.3-13.2-31.5-36.7-31.5l0 0zm-22.5 48.9c1.1-12.9 11-22 18.6-22 4.3 0 8 2.6 8 7.7 0 10.8-19 14.2-26.6 14.2l0 0zm150.2-48.9c-15.3 0-26.1 5.8-34.3 11.2l-.4-9.3-34.8 0-18.4 116.1 40.2 0 12.7-81.4c3.5-1.7 8.6-4.1 13.8-4.1 3.9 0 7.1 1.3 7.1 6.5 0 2.2-.7 6-.9 8l-11.2 71.1 40 0 12.3-77.5c.7-4.1 1.3-10.3 1.3-14.6 0-15.5-7.1-25.9-27.4-25.9zm183.2 0c-14.9 0-25.7 4.5-37.2 12.7-4.1-7.3-12.3-12.7-24.8-12.7-14.5 0-25.3 5.8-33.3 11.6l-1.1-9.7-34.4 0-18.4 116.1 40.2 0 12.8-81.4c3.5-1.7 8.6-4.1 13.8-4.1 3.9 0 7.1 1.3 7.1 7.1 0 1.5-.4 3.9-.6 5.8l-11.4 72.6 40 0 12.7-81.4c3.7-1.9 8.6-4.1 13.6-4.1 3.9 0 7.1 1.3 7.1 7.1 0 1.5-.4 3.9-.7 5.8l-11.4 72.6 40 0 12.3-77.5c.7-4.1 1.3-10.3 1.3-14.6 0-15.5-7.1-25.9-27.7-25.9l0 0zm102.2 0c-44.7 0-64.2 34.3-64.2 70.9 0 27.8 11.2 50 45.1 50 45.8 0 65-37.5 65-73.7 0-27.4-12.3-47.2-46-47.2zm-13.4 90c-7.1 0-10.1-6.7-10.1-17.5 0-14.2 3.2-42 19-42 7.1 0 9.5 6.5 9.5 15.9 0 14.2-3.5 43.5-18.4 43.5z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 640 512");
+
 }

@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct BuyNLargeProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct BuyNLarge {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 576 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn BuyNLarge(props: BuyNLargeProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for BuyNLarge {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M288.2 32C133.5 32 8 132.3 8 256S133.5 480 288.2 480 568.4 379.7 568.4 256 442.9 32 288.2 32zM202.8 389.2l-138.5 1.4 77.2-290.7 133.4 0c63.2 0 84.9 28.6 78 72.8-.4 2.3-.9 4.6-1.5 6.9-5.6-1.3-11.4-1.9-17.2-1.9-42.3 0-76.7 33.9-76.7 75.7 0 37.1 27.1 68 62.9 74.5-18.2 37.2-56.2 60.9-117.7 61.5zM358.2 207.1l32 0-22.2 90.3-35.4 0-11.2-35.6-7.8 35.6-37.8 0 26.6-90.3 31.3 0 15 36.8 9.4-36.8zM504.1 389.2l-197.1 0 15.8-61.2c3.8 .6 7.6 .8 11.5 .8 42.3 0 76.7-33.9 76.7-75.6 0-32.6-21-60.5-50.4-71.1l21.3-82.4 92.5 0-53 205.4 103.9 0-21.2 84.1zM211.9 269.4l-24.7 0-13.8 56.5 24.7 0c16.1 0 32.1-3.2 37.9-26.6 5.6-22.3-8-29.8-24.1-29.8zM233.2 170l-21.3 0-11.7 47.7 21.4 0c18 0 35.4-14.6 39.2-30.1 4.6-18.9-9.5-17.6-27.6-17.6z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 576 512");
+
 }

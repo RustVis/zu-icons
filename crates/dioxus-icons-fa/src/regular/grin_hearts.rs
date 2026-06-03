@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct GrinHeartsProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct GrinHearts {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 512 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn GrinHearts(props: GrinHeartsProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for GrinHearts {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M464 256c0 114.9-93.1 208-208 208S48 370.9 48 256c0-3.5 .1-7.1 .3-10.6-14-13.9-29.7-33.1-39.3-56.7-5.8 21.4-8.9 44-8.9 67.3 0 141.4 114.6 256 256 256S512 397.4 512 256c0-23.3-3.1-45.9-8.9-67.3-9.6 23.7-25.4 42.8-39.3 56.7 .2 3.5 .3 7 .3 10.6zM368 58.9c11.7-6 24.5-9.6 37.7-10.6-42.1-30.4-93.8-48.3-149.7-48.3S148.4 17.9 106.3 48.3c13.2 1 26 4.6 37.7 10.6 13.8-7.1 29.3-10.9 45.1-10.9l2.9 0c8.9 0 17.6 1.2 25.8 3.5 12.4-2.3 25.2-3.5 38.2-3.5s25.8 1.2 38.2 3.5c8.2-2.3 16.9-3.5 25.8-3.5l2.9 0c15.8 0 31.3 3.8 45.1 10.9zm4.2 243.4c-34.8 10.6-74.3 16.6-116.3 16.6-41.9 0-81.4-6-116.1-16.5-11.8-3.6-23.7 6.1-19.6 17.8 19.8 55.9 73.1 95.9 135.8 95.9 62.7 0 116-40.1 135.8-96 4.1-11.6-7.8-21.4-19.6-17.8zM322.9 96L320 96c-26.5 0-48 21.5-48 48 0 53.4 66.9 95.7 89 108.2 4.4 2.5 9.6 2.5 14 0 22.1-12.5 89-54.8 89-108.2 0-26.5-21.5-48-48-48l-2.9 0c-13.5 0-26.5 5.4-36 14.9l-9.1 9.1-9.1-9.1c-9.5-9.5-22.5-14.9-36-14.9zm-188 14.9c-9.5-9.5-22.5-14.9-36-14.9L96 96c-26.5 0-48 21.5-48 48 0 53.4 66.9 95.7 89 108.2 4.4 2.5 9.6 2.5 14 0 22.1-12.5 89-54.8 89-108.2 0-26.5-21.5-48-48-48l-2.9 0c-13.5 0-26.5 5.4-36 14.9l-9.1 9.1-9.1-9.1z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 512 512");
+
 }

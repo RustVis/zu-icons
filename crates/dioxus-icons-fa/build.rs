@@ -62,7 +62,7 @@ fn build_icons(folder: &str) -> Result<Vec<String>, Error> {
 
         let svg_content = fs::read_to_string(&path)?;
         if let Some(svg_obj) = parse_svg_content(&svg_content) {
-            let component_content = generate_svg_component(&node_name, &svg_obj);
+            let component_content = generate_svg_component(&node_name, None, &svg_obj);
             fs::write(rs_filepath, component_content)?;
             module_names.push((module_name, node_name));
         } else {
@@ -102,6 +102,8 @@ fn rebuild_icons() -> Result<(), Error> {
 
     let mut module_file = File::create("src/lib.rs")?;
     let line = r#"// Auto Generated! DO NOT EDIT!
+
+pub use dioxus_icons_component::{IconShape, Icon, IconProps};
 
 pub mod brands;
 pub mod regular;

@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct SketchProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct Sketch {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 512 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn Sketch(props: SketchProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for Sketch {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M27.8 162.2l-18.5 24.9 90.5 0 6.9-130.7-78.9 105.8zM396.6 45.7L268 32 403.7 179.2 396.6 45.7zM112.5 218.3l-11.2-22-91.1 0 224.9 261.7-122.6-239.7zm2-31.2l284 0C340.6 124.3 293.3 72.9 256.6 33L114.5 187.1zm297.3 9.1l-133.9 261.8 224.8-261.7-90.9 0 0-.1zM415.7 69l-9.4-12.6 .9 17.3 6.1 113.4 90.3 0-87.9-118.1zM113.8 93.5L109.2 179.1 245 32 116.4 45.7 113.8 93.5zM401.5 196.2l-290 0c18.2 35.6 66.6 130.2 145.1 283.8L401.5 196.2z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 512 512");
+
 }

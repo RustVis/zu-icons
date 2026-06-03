@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct CloudMeatballProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct CloudMeatball {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 512 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn CloudMeatball(props: CloudMeatballProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for CloudMeatball {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M0 224c0 53 43 96 96 96l26.9 0c3.5-12.1 10.1-23.3 19.2-32.4l1.4-1.4c15-15 35.3-22.9 56.1-22.2 14.2-15.1 34.2-23.9 55.4-23.9l2 0c21.1 0 41.1 8.8 55.4 23.9 20.8-.6 41.1 7.3 56.1 22.2l1.4 1.4c9.2 9.2 15.7 20.4 19.2 32.4l26.9 0c53 0 96-43 96-96s-43-96-96-96c-.5 0-1.1 0-1.6 0 1.1-5.2 1.6-10.5 1.6-16 0-44.2-35.8-80-80-80-24.3 0-46.1 10.9-60.8 28-18.7-35.7-56.1-60-99.2-60-61.9 0-112 50.1-112 112 0 7.1 .7 14.1 1.9 20.8-38.3 12.6-65.9 48.7-65.9 91.2zM156.5 424.3c9.5 6.3 14.2 17.7 11.9 28.8-1.8 9.2 1 18.7 7.7 25.3l1.4 1.4c6.6 6.6 16.1 9.5 25.3 7.7 11.1-2.2 22.5 2.5 28.8 11.9 5.2 7.8 14 12.5 23.3 12.5l2 0c9.4 0 18.1-4.7 23.3-12.5 6.3-9.5 17.7-14.2 28.8-11.9 9.2 1.8 18.7-1 25.3-7.7l1.4-1.4c6.6-6.6 9.5-16.1 7.7-25.3-2.2-11.1 2.5-22.5 11.9-28.8 7.8-5.2 12.5-14 12.5-23.3l0-2c0-9.4-4.7-18.1-12.5-23.3-9.5-6.3-14.2-17.7-11.9-28.8 1.8-9.2-1-18.7-7.7-25.3l-1.4-1.4c-6.6-6.6-16.1-9.5-25.3-7.7-11.1 2.2-22.5-2.5-28.8-11.9-5.2-7.8-14-12.5-23.3-12.5l-2 0c-9.4 0-18.1 4.7-23.3 12.5-6.3 9.5-17.7 14.2-28.8 11.9-9.2-1.8-18.7 1-25.3 7.7l-1.4 1.4c-6.6 6.6-9.5 16.1-7.7 25.3 2.2 11.1-2.5 22.5-11.9 28.8-7.8 5.2-12.5 14-12.5 23.3l0 2c0 9.4 4.7 18.1 12.5 23.3zM48 448a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm416 0a48 48 0 1 0 0-96 48 48 0 1 0 0 96z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 512 512");
+
 }

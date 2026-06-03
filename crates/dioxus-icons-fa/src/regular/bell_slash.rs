@@ -4,57 +4,20 @@
 
 // Auto Generated! DO NOT EDIT!
 
-use dioxus::prelude::*;
+use dioxus::prelude::{Element, dioxus_core, dioxus_elements, rsx};
 
-#[derive(Debug, Clone, PartialEq, Props)]
-pub struct BellSlashProps {
-    #[props(default = None)]
-    pub title: Option<&'static str>,
+use crate::IconShape;
 
-    #[props(default = None)]
-    pub class: Option<&'static str>,
+#[derive(Clone, PartialEq)]
+pub struct BellSlash {}
 
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    #[props(default = None)]
-    pub width: Option<&'static str>,
-
-    #[props(default = None)]
-    pub height: Option<&'static str>,
-
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    #[props(default = Some("0 0 576 512"))]
-    pub view_box: Option<&'static str>,
-
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
-}
-
-pub fn BellSlash(props: BellSlashProps) -> Element {
-    rsx! {
-        svg {
-            class: props.class,
-            style: props.style,
-            height: props.height,
-            width: props.width,
-            view_box: props.view_box.unwrap_or("0 0 16 16"),
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: props.fill.unwrap_or("currentColor"),
-            stroke: props.stroke,
-
-            if let Some(title_text) = props.title {
-                title {{ title_text }}
-            }
-
-                        path {
+impl IconShape for BellSlash {
+    fn child_elements(&self) -> Element {
+        rsx!(path {
         d: "M41-24.9c-9.4-9.4-24.6-9.4-33.9 0S-2.3-.3 7 9.1l528 528c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-87.8-87.8c17.5-3.3 30.8-18.7 30.8-37.1 0-6.7-1.8-13.3-5.1-19L485 321.7c-19-32.6-29-69.6-29-107.3l0-14.5c0-84.6-62.6-154.7-144-166.3l0-9.7c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 9.7c-42.2 6-79.4 27.8-105.4 59.1L41-24.9zM192.8 126.9C214.7 98.4 249.2 80 288 80 354.3 80 408 133.7 408 200l0 14.5c0 46.2 12.3 91.5 35.5 131.4l12.9 22.1-22.6 0-241.1-241.1zM132.5 345.9c19.5-33.4 31.3-70.7 34.6-109l-46.7-46.7c-.2 3.3-.3 6.6-.3 9.9l0 14.5c0 37.7-10 74.7-29 107.3L69.1 359.2c-3.4 5.8-5.1 12.3-5.1 19 0 20.9 16.9 37.8 37.8 37.8l244.4 0-48-48-178.6 0 12.9-22.1zM220.1 464c9.9 28 36.6 48 67.9 48s58-20 67.9-48l-135.8 0z",
-            }
-        }
+            })
     }
+
+    const VIEW_BOX: Option<&'static str> = Some("0 0 576 512");
+
 }
