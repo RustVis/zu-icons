@@ -34,6 +34,8 @@ unsafe_code = { level = "deny", priority = -1 }
 dead_code = "deny"
 non_snake_case = "allow"
 
+unused_imports = "allow"
+
 [workspace.lints.clippy]
 all = { level = "deny", priority = -1 }
 cargo = { level = "deny", priority = -1 }

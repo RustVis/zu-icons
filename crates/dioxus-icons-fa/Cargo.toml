@@ -29,7 +29,11 @@ workspace = true
 
 [features]
 default = []
-
+all = [
+  "brands",
+  "regular",
+  "solid",
+]
 
 brands = [
   "brands_accessible_icon",
@@ -2897,6 +2901,7 @@ solid = [
   "solid_z",
   "solid_zap",
 ]
+
 brands_accessible_icon = []
 brands_accusoft = []
 brands_adn = []

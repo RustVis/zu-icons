@@ -14,6 +14,9 @@ use inflections::Inflect;
 const SVG_DIR: &str = "../../icons/font-awesome/svgs";
 const LIB_HEADER: &str = r"// Auto Generated! DO NOT EDIT!
 
+use dioxus::prelude::*;
+
+use crate::IconShape;
 ";
 
 fn map_filename(name: &str) -> String {
@@ -26,45 +29,51 @@ fn map_filename(name: &str) -> String {
     name.to_string()
 }
 
+#[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
+struct ModuleInfo {
+    module_name: String,
+    node_name: String,
+    feature_name: String,
+    module_content: String,
+}
+
 fn build_icons(folder: &str) -> Result<Vec<String>, Error> {
     let mut module_names = Vec::new();
+
     let mut dir = PathBuf::new();
     dir.push(SVG_DIR);
     dir.push(folder);
-
     let svg_extension = OsStr::new("svg");
 
     for entry in fs::read_dir(&dir)? {
         let entry = entry?;
         let path = entry.path();
-        println!("path: {path:?}");
         if !path.is_file() {
             continue;
         }
         if path.extension() != Some(svg_extension) {
-            println!("Ignore non svg file {path:?}");
+            eprintln!("Ignore non svg file {path:?}");
             continue;
         }
 
         let stem = path.file_stem().unwrap();
         let stem_str = stem.to_str().unwrap();
+
         let stem_str = map_filename(stem_str);
         // let data_name = &stem_str;
         let node_name = stem_str.to_pascal_case();
         let module_name = stem_str.to_snake_case();
-        let mut rs_filepath = PathBuf::new();
-        rs_filepath.push("src");
-        rs_filepath.push(folder);
-        // Ignores EEXIST
-        let _ret = fs::create_dir(&rs_filepath);
-        rs_filepath.push(&module_name);
-        rs_filepath.set_extension("rs");
 
         let svg_content = fs::read_to_string(&path)?;
         if let Some(svg_obj) = parse_svg_content(&svg_content) {
-            let component_content = generate_svg_component(&node_name, None, &svg_obj);
-            fs::write(rs_filepath, component_content)?;
-            module_names.push((module_name, node_name));
+            let feature_name = format!("{folder}_{module_name}");
+            let module_content = generate_svg_component(&feature_name, &node_name, None, &svg_obj);
+            module_names.push(ModuleInfo {
+                module_name,
+                node_name,
+                module_content,
+                feature_name,
+            });
         } else {
             eprintln!("Failed to parse svg file {}", path.display());
         }
@@ -74,20 +83,16 @@ fn build_icons(folder: &str) -> Result<Vec<String>, Error> {
 
     // Write to module file.
     let mut module_file = File::create(format!("src/{}.rs", folder))?;
-    let mut feature_names = Vec::new();
     module_file.write_all(LIB_HEADER.as_bytes())?;
-    for (module_name, node_name) in &module_names {
-        let feature_name = format!("{folder}_{module_name}");
-        let line = format!(
-            r#"
-#[cfg(feature = "{feature_name}")]
-mod {module_name};
-#[cfg(feature = "{feature_name}")]
-pub use {module_name}::{node_name};
-
-"#
-        );
-        module_file.write_all(line.as_bytes())?;
+    let mut feature_names = Vec::new();
+    for ModuleInfo {
+        module_name: _module_name,
+        node_name: _node_name,
+        feature_name,
+        module_content,
+    } in module_names
+    {
+        module_file.write_all(module_content.as_bytes())?;
         feature_names.push(feature_name);
     }
 
@@ -95,7 +100,6 @@ pub use {module_name}::{node_name};
 }
 
 fn rebuild_icons() -> Result<(), Error> {
-    println!("rebuild icons");
     let brands_features = build_icons("brands")?;
     let regular_features = build_icons("regular")?;
     let solid_features = build_icons("solid")?;
@@ -131,7 +135,8 @@ pub mod solid;
 fn to_feature_string(group_name: &str, feature_list: &[String]) -> (String, String) {
     let FEATURE_TEMPLATE = r#"{GROUP_NAME} = [
 {FEATURE_LIST}
-]"#;
+]
+"#;
     let group_features = FEATURE_TEMPLATE
         .replace("{GROUP_NAME}", group_name)
         .replace(
@@ -152,7 +157,7 @@ fn to_feature_string(group_name: &str, feature_list: &[String]) -> (String, Stri
 }
 
 fn main() -> Result<(), Error> {
-    // Check UPDATE_DIOXUS_ICONS=1 environment
+    // Check UPDATE_ZU_ICONS=1 environment
     if need_update() {
         reset_crate_source()?;
         rebuild_icons()?;

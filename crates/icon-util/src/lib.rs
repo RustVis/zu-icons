@@ -6,14 +6,14 @@ use std::{fs, io};
 
 use inflections::Inflect;
 use regex::Regex;
-use scraper::{ElementRef, Html, node::Element};
+use scraper::{node::Element, ElementRef, Html};
 
-pub const UPDATE_KEY: &str = "UPDATE_DIOXUS_ICONS";
+pub const UPDATE_KEY: &str = "UPDATE_ZU_ICONS";
 const TEMPLATE_FILE: &str = include_str!("template.rs");
 
 /// Check whether icon crate shall be refreshed.
 ///
-/// Set `UPDATE_DIOXUS_ICONS=1` environment to force update all icons.
+/// Set `UPDATE_ZU_ICONS=1` environment to force update all icons.
 #[inline]
 #[must_use]
 pub fn need_update() -> bool {
@@ -107,7 +107,12 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
         .join("\n")
 }
 
-pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &SvgObject) -> String {
+pub fn generate_svg_component(
+    feature_name: &str,
+    node_name: &str,
+    title: Option<&str>,
+    svg_obj: &SvgObject,
+) -> String {
     let title = if let Some(title) = title {
         &format!("    const TITLE: Option<&'static str> = Some(\"{title}\");\n")
     } else {
@@ -140,6 +145,7 @@ pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &Sv
     };
     let other_props = [title, width, height, fill, stroke, view_box].join("");
     TEMPLATE_FILE
+        .replace("{FEATURE_NAME}", feature_name)
         .replace("{ICON_NAME}", node_name)
         .replace("{ICON_PATH}", &svg_obj.children)
         .replace("{OTHER_PROPS}", &other_props)
