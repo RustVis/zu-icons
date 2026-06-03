@@ -1,9 +1,6 @@
 [package]
-name = "dioxus-icons-fa"
+name = "icon-util"
 version = "0.1.0"
-documentation = "https://docs.rs/dioxus-icons-fa"
-description = "Font Awesome icons for dioxus framework"
-keywords = ["web", "wasm", "icons", "font-awesome", "dioxus"]
 
 authors.workspace = true
 categories.workspace = true
@@ -16,11 +13,7 @@ repository.workspace = true
 rust-version.workspace = true
 
 [dependencies]
-dioxus.workspace = true
-
-[build-dependencies]
-icon-util.workspace = true
-inflections.workspace = true
+roxmltree.workspace = true
 
 [lints]
 workspace = true
