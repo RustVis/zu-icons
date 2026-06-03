@@ -24,8 +24,8 @@ inflections = { version = "1.1.1" }
 regex = { version = "1.12.3" }
 scraper = { version = "0.27.0" }
 
-dioxus-icon-component = { path = "crates/dioxus-icon-component" }
-zu-icon-util = { path = "crates/zu-icon-util" }
+dioxus-icon-component = { path = "crates/dioxus-icon-component", version = "0.1.0" }
+zu-icon-util = { path = "crates/zu-icon-util", version = "0.1.0" }
 
 [workspace.lints.rust]
 unsafe_code = { level = "deny", priority = -1 }
