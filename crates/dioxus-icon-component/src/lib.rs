@@ -17,14 +17,19 @@ pub trait IconShape: Clone + PartialEq + 'static {
 
     /// Default title text for the SVG element.
     const TITLE: Option<&'static str> = None;
+
     /// Default width of the SVG element in pixels.
-    const WIDTH: Option<u32> = None;
+    const WIDTH: Option<&'static str> = None;
+
     /// Default height of the SVG element in pixels.
-    const HEIGHT: Option<u32> = None;
+    const HEIGHT: Option<&'static str> = None;
+
     /// Default fill color of the SVG element.
     const FILL: Option<&'static str> = None;
+
     /// Default stroke color of the SVG element.
     const STROKE: Option<&'static str> = None;
+
     /// Default view box string (e.g., "0 0 24 24").
     const VIEW_BOX: Option<&'static str> = None;
 }
@@ -33,81 +38,42 @@ pub trait IconShape: Clone + PartialEq + 'static {
 ///
 /// All fields are optional except `icon`. When a field is not provided,
 /// the default value from the associated `IconShape` implementation is used.
-#[derive(Clone, PartialEq, Eq, Props)]
+#[derive(Clone, PartialEq, Props)]
 pub struct IconProps<T: IconShape> {
     /// The icon shape implementation that provides SVG child elements.
     pub icon: T,
 
     /// Optional title text rendered as a `<title>` element inside the SVG for accessibility.
     #[props(default = None)]
+    // TODO(Shaohua): Remove and replace with aria-name/aria-label
     pub title: Option<&'static str>,
 
-    /// Optional CSS class name(s) applied to the `<svg>` element.
-    #[props(default = None)]
-    pub class: Option<&'static str>,
-
-    /// Optional inline CSS styles applied to the `<svg>` element.
-    #[props(default = None)]
-    pub style: Option<&'static str>,
-
-    /// Optional width of the SVG element in pixels.
-    /// Falls back to `T::WIDTH` if not set.
-    #[props(default = None)]
-    pub width: Option<u32>,
-
-    /// Optional height of the SVG element in pixels.
-    /// Falls back to `T::HEIGHT` if not set.
-    #[props(default = None)]
-    pub height: Option<u32>,
-
-    /// Optional fill color for the SVG element.
-    /// Falls back to `T::FILL`, then to `"currentColor"` if not set.
-    #[props(default = None)]
-    pub fill: Option<&'static str>,
-
-    /// Optional stroke color for the SVG element.
-    /// Falls back to `T::STROKE` if not set.
-    #[props(default = None)]
-    pub stroke: Option<&'static str>,
-
-    /// Optional view box attribute (e.g., `"0 0 24 24"`).
-    /// Falls back to `T::VIEW_BOX`, then to `"0 0 16 16"` if not set.
-    #[props(default = None)]
-    pub view_box: Option<&'static str>,
-
-    /// Optional XML namespace override.
-    /// Defaults to `"http://www.w3.org/2000/svg"` if not set.
-    #[props(default = None)]
-    pub xmlns: Option<&'static str>,
+    #[props(extends = GlobalAttributes)]
+    pub attributes: Vec<Attribute>,
 }
 
 /// # Errors
 ///
 /// Returns `Err` if rendering the icon fails.
-#[component]
+#[allow(non_snake_case)]
 pub fn Icon<T: IconShape>(props: IconProps<T>) -> Element {
     rsx! {
         svg {
-            class: props.class,
-            style: props.style,
-            width: if props.width.is_some(){ props.width } else { T::WIDTH },
-            height: if props.height.is_some() { props.height } else { T::HEIGHT },
-            view_box: if props.view_box.is_some() {
-                props.view_box
-            } else if T::VIEW_BOX.is_some() {
-               T::VIEW_BOX
+            width: T::WIDTH,
+            height: T::HEIGHT,
+            view_box: if let Some(view_box_text) = T::VIEW_BOX {
+                view_box_text
             } else {
                 "0 0 16 16"
             },
-            xmlns: props.xmlns.unwrap_or("http://www.w3.org/2000/svg"),
-            fill: if props.fill.is_some() {
-                props.fill
-            } else if T::FILL.is_some() {
-                T::FILL
+            xmlns: "http://www.w3.org/2000/svg",
+            fill: if let Some(fill_text) = T::FILL {
+                fill_text
             } else {
                 "currentColor"
             },
-            stroke: props.stroke,
+
+            ..props.attributes,
 
             if let Some(title_text) = props.title {
                 title {{ title_text }}
