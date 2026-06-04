@@ -98,7 +98,7 @@ pub fn build_variant_icons(
     module_names.sort();
 
     // Write to module file.
-    let variant_module_name = variant_dirname.to_snake_case();
+    let variant_module_name = to_module_name(variant_dirname);
     let mut module_file = File::create(format!("src/{variant_module_name}.rs"))?;
     module_file.write_all(MOD_HEADER.as_bytes())?;
     for ModuleInfo {
@@ -111,6 +111,23 @@ pub fn build_variant_icons(
     }
 
     Ok(())
+}
+
+/// Convert a directory name to a valid Rust module name.
+///
+/// Strips `&` characters, collapses double spaces, and converts the result
+/// to `snake_case`. This is used when processing icon variant directories
+/// whose names may contain characters or spacing that are invalid in Rust
+/// identifiers.
+///
+/// # Example
+///
+/// ```
+/// # use zu_icons_util::module::to_module_name;
+/// assert_eq!(to_module_name("Games & Sports"), "games_sports");
+/// ```
+pub fn to_module_name(dir_name: &str) -> String {
+    dir_name.replace("&", "").replace("  ", " ").to_snake_case()
 }
 
 /// Build icon source files from a flat directory of SVG files.
@@ -181,4 +198,14 @@ pub fn build_icons(base_dir: &str, remapping_names: &[&str]) -> Result<(), Error
     }
 
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_to_module_name_games_sports() {
+        assert_eq!(to_module_name("Games & Sports"), "games_sports");
+    }
 }
