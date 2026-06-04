@@ -10,3 +10,6 @@
 [submodule "icons/lucide"]
 	path = icons/lucide
 	url = https://github.com/lucide-icons/lucide
+[submodule "icons/feather"]
+	path = icons/feather
+	url = https://github.com/feathericons/feather
