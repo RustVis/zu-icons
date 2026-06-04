@@ -34,12 +34,10 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
         .tree
         .nodes()
         .filter_map(|node| {
-            if node.value().is_element() {
-                if let Some(element) = ElementRef::wrap(node) {
-                    let element = element.value();
-                    if !element.attrs.is_empty() {
-                        return Some(element);
-                    }
+            if node.value().is_element() && let Some(element) = ElementRef::wrap(node) {
+                let element = element.value();
+                if !element.attrs.is_empty() {
+                    return Some(element);
                 }
             }
             None

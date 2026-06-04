@@ -37,6 +37,11 @@ struct ModuleInfo {
 }
 
 /// Generate icon rs files for all variant directories.
+///
+/// # Errors
+///
+/// Returns `Err` if the directory cannot be read, an SVG file cannot be parsed,
+/// or the output module file cannot be written.
 pub fn generate_variants_icons(
     variant_list: &[&str],
     svg_dir: &str,
@@ -47,11 +52,11 @@ pub fn generate_variants_icons(
     }
 
     let mut module_file = File::create("src/lib.rs")?;
-    let line = r#"// Auto Generated! DO NOT EDIT!
+    let line = r"// Auto Generated! DO NOT EDIT!
 
 pub use dioxus_icon_component::{Icon, IconProps, IconShape};
 
-    "#;
+    ";
     module_file.write_all(line.as_bytes())?;
     for feature in variant_list {
         let module_name = to_module_name(feature);
@@ -226,15 +231,16 @@ pub fn generate_icons(base_dir: &str, remapping_names: &[&str]) -> Result<(), Er
 /// # use zu_icons_util::module::to_module_name;
 /// assert_eq!(to_module_name("Games & Sports"), "games_sports");
 /// ```
+#[must_use]
 pub fn to_module_name(dir_name: &str) -> String {
     dir_name
-        .replace("&", "")
+        .replace('&', "")
         .replace("  ", " ")
         .replace("__", "_")
         .to_snake_case()
 }
 
-/// Convert a directory name to a valid Rust PascalCase node/component name.
+/// Convert a directory name to a valid Rust `PascalCase` node/component name.
 ///
 /// Strips `&` characters, collapses double spaces, and converts the result
 /// to `PascalCase`. This is used when generating a Dioxus component name
@@ -247,9 +253,10 @@ pub fn to_module_name(dir_name: &str) -> String {
 /// assert_eq!(to_node_name("Games & Sports"), "GamesSports");
 /// assert_eq!(to_node_name("fork_&_knife"), "ForkKnife");
 /// ```
+#[must_use]
 pub fn to_node_name(dir_name: &str) -> String {
     dir_name
-        .replace("&", "")
+        .replace('&', "")
         .replace("  ", " ")
         .replace("__", "_")
         .to_pascal_case()
