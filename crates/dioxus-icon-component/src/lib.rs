@@ -84,8 +84,7 @@ pub struct IconProps<T: IconShape> {
 /// # Errors
 ///
 /// Returns `Err` if rendering the icon fails.
-#[allow(non_snake_case)]
-#[allow(clippy::needless_pass_by_value)]
+#[component]
 pub fn Icon<T: IconShape>(props: IconProps<T>) -> Element {
     rsx! {
         svg {
