@@ -1,0 +1,15 @@
+[package]
+name = "dioxus-example"
+version = "0.1.0"
+publish = false
+
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+dioxus = { version = "0.7.9", features = ["web"] }
+dioxus-icons-circum = { path = "../dioxus-icons-circum" }
+
+[features]
+default = ["web"]
+web = ["dioxus/web"]
