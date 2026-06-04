@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 pub use dioxus_icon_component::{Icon, IconProps, IconShape};
 
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Activity {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Activity;
 
 impl IconShape for Activity {
     fn child_elements(&self) -> Element {
@@ -14,16 +14,19 @@ impl IconShape for Activity {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Airplay {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Airplay;
 
 impl IconShape for Airplay {
     fn child_elements(&self) -> Element {
@@ -35,16 +38,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlertCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlertCircle;
 
 impl IconShape for AlertCircle {
     fn child_elements(&self) -> Element {
@@ -67,16 +73,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlertOctagon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlertOctagon;
 
 impl IconShape for AlertOctagon {
     fn child_elements(&self) -> Element {
@@ -97,16 +106,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlertTriangle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlertTriangle;
 
 impl IconShape for AlertTriangle {
     fn child_elements(&self) -> Element {
@@ -127,16 +139,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignCenter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignCenter;
 
 impl IconShape for AlignCenter {
     fn child_elements(&self) -> Element {
@@ -166,16 +181,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignJustify {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignJustify;
 
 impl IconShape for AlignJustify {
     fn child_elements(&self) -> Element {
@@ -205,16 +223,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignLeft;
 
 impl IconShape for AlignLeft {
     fn child_elements(&self) -> Element {
@@ -244,16 +265,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignRight;
 
 impl IconShape for AlignRight {
     fn child_elements(&self) -> Element {
@@ -283,16 +307,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Anchor {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Anchor;
 
 impl IconShape for Anchor {
     fn child_elements(&self) -> Element {
@@ -312,16 +339,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Aperture {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Aperture;
 
 impl IconShape for Aperture {
     fn child_elements(&self) -> Element {
@@ -368,16 +398,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Archive {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Archive;
 
 impl IconShape for Archive {
     fn child_elements(&self) -> Element {
@@ -398,16 +431,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDown;
 
 impl IconShape for ArrowDown {
     fn child_elements(&self) -> Element {
@@ -422,16 +458,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDownCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDownCircle;
 
 impl IconShape for ArrowDownCircle {
     fn child_elements(&self) -> Element {
@@ -451,16 +490,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDownLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDownLeft;
 
 impl IconShape for ArrowDownLeft {
     fn child_elements(&self) -> Element {
@@ -475,16 +517,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDownRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDownRight;
 
 impl IconShape for ArrowDownRight {
     fn child_elements(&self) -> Element {
@@ -499,16 +544,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLeft;
 
 impl IconShape for ArrowLeft {
     fn child_elements(&self) -> Element {
@@ -523,16 +571,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLeftCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLeftCircle;
 
 impl IconShape for ArrowLeftCircle {
     fn child_elements(&self) -> Element {
@@ -552,16 +603,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowRight;
 
 impl IconShape for ArrowRight {
     fn child_elements(&self) -> Element {
@@ -576,16 +630,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowRightCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowRightCircle;
 
 impl IconShape for ArrowRightCircle {
     fn child_elements(&self) -> Element {
@@ -605,16 +662,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUp;
 
 impl IconShape for ArrowUp {
     fn child_elements(&self) -> Element {
@@ -629,16 +689,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUpCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUpCircle;
 
 impl IconShape for ArrowUpCircle {
     fn child_elements(&self) -> Element {
@@ -658,16 +721,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUpLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUpLeft;
 
 impl IconShape for ArrowUpLeft {
     fn child_elements(&self) -> Element {
@@ -682,16 +748,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUpRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUpRight;
 
 impl IconShape for ArrowUpRight {
     fn child_elements(&self) -> Element {
@@ -706,16 +775,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AtSign {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AtSign;
 
 impl IconShape for AtSign {
     fn child_elements(&self) -> Element {
@@ -729,16 +801,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Award {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Award;
 
 impl IconShape for Award {
     fn child_elements(&self) -> Element {
@@ -752,16 +827,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChart;
 
 impl IconShape for BarChart {
     fn child_elements(&self) -> Element {
@@ -785,16 +863,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChart2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChart2;
 
 impl IconShape for BarChart2 {
     fn child_elements(&self) -> Element {
@@ -818,16 +899,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Battery {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Battery;
 
 impl IconShape for Battery {
     fn child_elements(&self) -> Element {
@@ -847,16 +931,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryCharging {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryCharging;
 
 impl IconShape for BatteryCharging {
     fn child_elements(&self) -> Element {
@@ -874,16 +961,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bell {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bell;
 
 impl IconShape for Bell {
     fn child_elements(&self) -> Element {
@@ -895,16 +985,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellOff;
 
 impl IconShape for BellOff {
     fn child_elements(&self) -> Element {
@@ -928,16 +1021,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bluetooth {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bluetooth;
 
 impl IconShape for Bluetooth {
     fn child_elements(&self) -> Element {
@@ -946,16 +1042,19 @@ impl IconShape for Bluetooth {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bold {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bold;
 
 impl IconShape for Bold {
     fn child_elements(&self) -> Element {
@@ -967,16 +1066,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Book {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Book;
 
 impl IconShape for Book {
     fn child_elements(&self) -> Element {
@@ -988,16 +1090,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookOpen;
 
 impl IconShape for BookOpen {
     fn child_elements(&self) -> Element {
@@ -1009,16 +1114,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bookmark {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bookmark;
 
 impl IconShape for Bookmark {
     fn child_elements(&self) -> Element {
@@ -1027,16 +1135,19 @@ impl IconShape for Bookmark {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase;
 
 impl IconShape for Briefcase {
     fn child_elements(&self) -> Element {
@@ -1053,16 +1164,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Calendar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Calendar;
 
 impl IconShape for Calendar {
     fn child_elements(&self) -> Element {
@@ -1094,16 +1208,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Camera {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Camera;
 
 impl IconShape for Camera {
     fn child_elements(&self) -> Element {
@@ -1117,16 +1234,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CameraOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CameraOff;
 
 impl IconShape for CameraOff {
     fn child_elements(&self) -> Element {
@@ -1141,16 +1261,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Cast {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Cast;
 
 impl IconShape for Cast {
     fn child_elements(&self) -> Element {
@@ -1165,16 +1288,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Check {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Check;
 
 impl IconShape for Check {
     fn child_elements(&self) -> Element {
@@ -1183,16 +1309,19 @@ impl IconShape for Check {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckCircle;
 
 impl IconShape for CheckCircle {
     fn child_elements(&self) -> Element {
@@ -1204,16 +1333,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckSquare;
 
 impl IconShape for CheckSquare {
     fn child_elements(&self) -> Element {
@@ -1225,16 +1357,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronDown;
 
 impl IconShape for ChevronDown {
     fn child_elements(&self) -> Element {
@@ -1243,16 +1378,19 @@ impl IconShape for ChevronDown {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronLeft;
 
 impl IconShape for ChevronLeft {
     fn child_elements(&self) -> Element {
@@ -1261,16 +1399,19 @@ impl IconShape for ChevronLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronRight;
 
 impl IconShape for ChevronRight {
     fn child_elements(&self) -> Element {
@@ -1279,16 +1420,19 @@ impl IconShape for ChevronRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronUp;
 
 impl IconShape for ChevronUp {
     fn child_elements(&self) -> Element {
@@ -1297,16 +1441,19 @@ impl IconShape for ChevronUp {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronsDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronsDown;
 
 impl IconShape for ChevronsDown {
     fn child_elements(&self) -> Element {
@@ -1318,16 +1465,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronsLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronsLeft;
 
 impl IconShape for ChevronsLeft {
     fn child_elements(&self) -> Element {
@@ -1339,16 +1489,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronsRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronsRight;
 
 impl IconShape for ChevronsRight {
     fn child_elements(&self) -> Element {
@@ -1360,16 +1513,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChevronsUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChevronsUp;
 
 impl IconShape for ChevronsUp {
     fn child_elements(&self) -> Element {
@@ -1381,16 +1537,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Chrome {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Chrome;
 
 impl IconShape for Chrome {
     fn child_elements(&self) -> Element {
@@ -1424,16 +1583,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Circle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Circle;
 
 impl IconShape for Circle {
     fn child_elements(&self) -> Element {
@@ -1444,16 +1606,19 @@ impl IconShape for Circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Clipboard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Clipboard;
 
 impl IconShape for Clipboard {
     fn child_elements(&self) -> Element {
@@ -1470,16 +1635,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Clock {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Clock;
 
 impl IconShape for Clock {
     fn child_elements(&self) -> Element {
@@ -1493,16 +1661,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Cloud {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Cloud;
 
 impl IconShape for Cloud {
     fn child_elements(&self) -> Element {
@@ -1511,16 +1682,19 @@ impl IconShape for Cloud {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudDrizzle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudDrizzle;
 
 impl IconShape for CloudDrizzle {
     fn child_elements(&self) -> Element {
@@ -1565,16 +1739,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudLightning {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudLightning;
 
 impl IconShape for CloudLightning {
     fn child_elements(&self) -> Element {
@@ -1586,16 +1763,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudOff;
 
 impl IconShape for CloudOff {
     fn child_elements(&self) -> Element {
@@ -1610,16 +1790,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudRain {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudRain;
 
 impl IconShape for CloudRain {
     fn child_elements(&self) -> Element {
@@ -1646,16 +1829,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudSnow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudSnow;
 
 impl IconShape for CloudSnow {
     fn child_elements(&self) -> Element {
@@ -1700,16 +1886,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Code {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Code;
 
 impl IconShape for Code {
     fn child_elements(&self) -> Element {
@@ -1721,16 +1910,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Codepen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Codepen;
 
 impl IconShape for Codepen {
     fn child_elements(&self) -> Element {
@@ -1757,16 +1949,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Codesandbox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Codesandbox;
 
 impl IconShape for Codesandbox {
     fn child_elements(&self) -> Element {
@@ -1793,16 +1988,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Coffee {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Coffee;
 
 impl IconShape for Coffee {
     fn child_elements(&self) -> Element {
@@ -1832,16 +2030,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Columns {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Columns;
 
 impl IconShape for Columns {
     fn child_elements(&self) -> Element {
@@ -1850,16 +2051,19 @@ impl IconShape for Columns {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Command {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Command;
 
 impl IconShape for Command {
     fn child_elements(&self) -> Element {
@@ -1868,16 +2072,19 @@ impl IconShape for Command {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Compass {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Compass;
 
 impl IconShape for Compass {
     fn child_elements(&self) -> Element {
@@ -1891,16 +2098,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Copy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Copy;
 
 impl IconShape for Copy {
     fn child_elements(&self) -> Element {
@@ -1917,16 +2127,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerDownLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerDownLeft;
 
 impl IconShape for CornerDownLeft {
     fn child_elements(&self) -> Element {
@@ -1938,16 +2151,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerDownRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerDownRight;
 
 impl IconShape for CornerDownRight {
     fn child_elements(&self) -> Element {
@@ -1959,16 +2175,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerLeftDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerLeftDown;
 
 impl IconShape for CornerLeftDown {
     fn child_elements(&self) -> Element {
@@ -1980,16 +2199,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerLeftUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerLeftUp;
 
 impl IconShape for CornerLeftUp {
     fn child_elements(&self) -> Element {
@@ -2001,16 +2223,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerRightDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerRightDown;
 
 impl IconShape for CornerRightDown {
     fn child_elements(&self) -> Element {
@@ -2022,16 +2247,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerRightUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerRightUp;
 
 impl IconShape for CornerRightUp {
     fn child_elements(&self) -> Element {
@@ -2043,16 +2271,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerUpLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerUpLeft;
 
 impl IconShape for CornerUpLeft {
     fn child_elements(&self) -> Element {
@@ -2064,16 +2295,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornerUpRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornerUpRight;
 
 impl IconShape for CornerUpRight {
     fn child_elements(&self) -> Element {
@@ -2085,16 +2319,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Cpu {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Cpu;
 
 impl IconShape for Cpu {
     fn child_elements(&self) -> Element {
@@ -2162,16 +2399,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreditCard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreditCard;
 
 impl IconShape for CreditCard {
     fn child_elements(&self) -> Element {
@@ -2191,16 +2431,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Crop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Crop;
 
 impl IconShape for Crop {
     fn child_elements(&self) -> Element {
@@ -2212,16 +2455,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Crosshair {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Crosshair;
 
 impl IconShape for Crosshair {
     fn child_elements(&self) -> Element {
@@ -2256,16 +2502,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Database {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Database;
 
 impl IconShape for Database {
     fn child_elements(&self) -> Element {
@@ -2283,16 +2532,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Delete {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Delete;
 
 impl IconShape for Delete {
     fn child_elements(&self) -> Element {
@@ -2313,16 +2565,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Disc {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Disc;
 
 impl IconShape for Disc {
     fn child_elements(&self) -> Element {
@@ -2338,16 +2593,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Divide {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Divide;
 
 impl IconShape for Divide {
     fn child_elements(&self) -> Element {
@@ -2369,16 +2627,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DivideCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DivideCircle;
 
 impl IconShape for DivideCircle {
     fn child_elements(&self) -> Element {
@@ -2407,16 +2668,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DivideSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DivideSquare;
 
 impl IconShape for DivideSquare {
     fn child_elements(&self) -> Element {
@@ -2448,16 +2712,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DollarSign {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DollarSign;
 
 impl IconShape for DollarSign {
     fn child_elements(&self) -> Element {
@@ -2472,16 +2739,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Download {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Download;
 
 impl IconShape for Download {
     fn child_elements(&self) -> Element {
@@ -2499,16 +2769,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DownloadCloud {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DownloadCloud;
 
 impl IconShape for DownloadCloud {
     fn child_elements(&self) -> Element {
@@ -2526,16 +2799,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Dribbble {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Dribbble;
 
 impl IconShape for Dribbble {
     fn child_elements(&self) -> Element {
@@ -2549,16 +2825,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Droplet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Droplet;
 
 impl IconShape for Droplet {
     fn child_elements(&self) -> Element {
@@ -2567,16 +2846,19 @@ impl IconShape for Droplet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Edit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Edit;
 
 impl IconShape for Edit {
     fn child_elements(&self) -> Element {
@@ -2588,16 +2870,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Edit2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Edit2;
 
 impl IconShape for Edit2 {
     fn child_elements(&self) -> Element {
@@ -2606,16 +2891,19 @@ impl IconShape for Edit2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Edit3 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Edit3;
 
 impl IconShape for Edit3 {
     fn child_elements(&self) -> Element {
@@ -2627,16 +2915,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ExternalLink {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ExternalLink;
 
 impl IconShape for ExternalLink {
     fn child_elements(&self) -> Element {
@@ -2654,16 +2945,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Eye {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Eye;
 
 impl IconShape for Eye {
     fn child_elements(&self) -> Element {
@@ -2677,16 +2971,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyeOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyeOff;
 
 impl IconShape for EyeOff {
     fn child_elements(&self) -> Element {
@@ -2701,16 +2998,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Facebook {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Facebook;
 
 impl IconShape for Facebook {
     fn child_elements(&self) -> Element {
@@ -2719,16 +3019,19 @@ impl IconShape for Facebook {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FastForward {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FastForward;
 
 impl IconShape for FastForward {
     fn child_elements(&self) -> Element {
@@ -2740,16 +3043,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Feather {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Feather;
 
 impl IconShape for Feather {
     fn child_elements(&self) -> Element {
@@ -2770,16 +3076,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Figma {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Figma;
 
 impl IconShape for Figma {
     fn child_elements(&self) -> Element {
@@ -2800,16 +3109,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct File {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct File;
 
 impl IconShape for File {
     fn child_elements(&self) -> Element {
@@ -2821,16 +3133,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileMinus;
 
 impl IconShape for FileMinus {
     fn child_elements(&self) -> Element {
@@ -2848,16 +3163,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilePlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilePlus;
 
 impl IconShape for FilePlus {
     fn child_elements(&self) -> Element {
@@ -2881,16 +3199,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileText {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileText;
 
 impl IconShape for FileText {
     fn child_elements(&self) -> Element {
@@ -2917,16 +3238,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Film {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Film;
 
 impl IconShape for Film {
     fn child_elements(&self) -> Element {
@@ -2982,16 +3306,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Filter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Filter;
 
 impl IconShape for Filter {
     fn child_elements(&self) -> Element {
@@ -3000,16 +3327,19 @@ impl IconShape for Filter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Flag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Flag;
 
 impl IconShape for Flag {
     fn child_elements(&self) -> Element {
@@ -3024,16 +3354,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Folder {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Folder;
 
 impl IconShape for Folder {
     fn child_elements(&self) -> Element {
@@ -3042,16 +3375,19 @@ impl IconShape for Folder {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderMinus;
 
 impl IconShape for FolderMinus {
     fn child_elements(&self) -> Element {
@@ -3066,16 +3402,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderPlus;
 
 impl IconShape for FolderPlus {
     fn child_elements(&self) -> Element {
@@ -3096,16 +3435,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Framer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Framer;
 
 impl IconShape for Framer {
     fn child_elements(&self) -> Element {
@@ -3114,16 +3456,19 @@ impl IconShape for Framer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Frown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Frown;
 
 impl IconShape for Frown {
     fn child_elements(&self) -> Element {
@@ -3149,16 +3494,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Gift {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Gift;
 
 impl IconShape for Gift {
     fn child_elements(&self) -> Element {
@@ -3185,16 +3533,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitBranch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitBranch;
 
 impl IconShape for GitBranch {
     fn child_elements(&self) -> Element {
@@ -3219,16 +3570,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitCommit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitCommit;
 
 impl IconShape for GitCommit {
     fn child_elements(&self) -> Element {
@@ -3251,16 +3605,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitMerge {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitMerge;
 
 impl IconShape for GitMerge {
     fn child_elements(&self) -> Element {
@@ -3279,16 +3636,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitPullRequest {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitPullRequest;
 
 impl IconShape for GitPullRequest {
     fn child_elements(&self) -> Element {
@@ -3313,16 +3673,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Github {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Github;
 
 impl IconShape for Github {
     fn child_elements(&self) -> Element {
@@ -3331,16 +3694,19 @@ impl IconShape for Github {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Gitlab {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Gitlab;
 
 impl IconShape for Gitlab {
     fn child_elements(&self) -> Element {
@@ -3349,16 +3715,19 @@ impl IconShape for Gitlab {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Globe {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Globe;
 
 impl IconShape for Globe {
     fn child_elements(&self) -> Element {
@@ -3378,16 +3747,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Grid {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Grid;
 
 impl IconShape for Grid {
     fn child_elements(&self) -> Element {
@@ -3417,16 +3789,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HardDrive {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HardDrive;
 
 impl IconShape for HardDrive {
     fn child_elements(&self) -> Element {
@@ -3453,16 +3828,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Hash {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Hash;
 
 impl IconShape for Hash {
     fn child_elements(&self) -> Element {
@@ -3492,16 +3870,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Headphones {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Headphones;
 
 impl IconShape for Headphones {
     fn child_elements(&self) -> Element {
@@ -3513,16 +3894,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Heart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Heart;
 
 impl IconShape for Heart {
     fn child_elements(&self) -> Element {
@@ -3531,16 +3915,19 @@ impl IconShape for Heart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HelpCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HelpCircle;
 
 impl IconShape for HelpCircle {
     fn child_elements(&self) -> Element {
@@ -3560,16 +3947,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Hexagon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Hexagon;
 
 impl IconShape for Hexagon {
     fn child_elements(&self) -> Element {
@@ -3578,16 +3968,19 @@ impl IconShape for Hexagon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Home {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Home;
 
 impl IconShape for Home {
     fn child_elements(&self) -> Element {
@@ -3599,16 +3992,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IconBox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IconBox;
 
 impl IconShape for IconBox {
     fn child_elements(&self) -> Element {
@@ -3626,16 +4022,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IconType {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IconType;
 
 impl IconShape for IconType {
     fn child_elements(&self) -> Element {
@@ -3656,16 +4055,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Image {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Image;
 
 impl IconShape for Image {
     fn child_elements(&self) -> Element {
@@ -3687,16 +4089,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Inbox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Inbox;
 
 impl IconShape for Inbox {
     fn child_elements(&self) -> Element {
@@ -3708,16 +4113,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Info {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Info;
 
 impl IconShape for Info {
     fn child_elements(&self) -> Element {
@@ -3740,16 +4148,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Instagram {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Instagram;
 
 impl IconShape for Instagram {
     fn child_elements(&self) -> Element {
@@ -3772,16 +4183,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Italic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Italic;
 
 impl IconShape for Italic {
     fn child_elements(&self) -> Element {
@@ -3805,16 +4219,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Key {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Key;
 
 impl IconShape for Key {
     fn child_elements(&self) -> Element {
@@ -3823,16 +4240,19 @@ impl IconShape for Key {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Layers {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Layers;
 
 impl IconShape for Layers {
     fn child_elements(&self) -> Element {
@@ -3847,16 +4267,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Layout {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Layout;
 
 impl IconShape for Layout {
     fn child_elements(&self) -> Element {
@@ -3882,16 +4305,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LifeBuoy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LifeBuoy;
 
 impl IconShape for LifeBuoy {
     fn child_elements(&self) -> Element {
@@ -3937,16 +4363,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Link {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Link;
 
 impl IconShape for Link {
     fn child_elements(&self) -> Element {
@@ -3958,16 +4387,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Link2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Link2;
 
 impl IconShape for Link2 {
     fn child_elements(&self) -> Element {
@@ -3982,16 +4414,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Linkedin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Linkedin;
 
 impl IconShape for Linkedin {
     fn child_elements(&self) -> Element {
@@ -4011,16 +4446,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct List {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct List;
 
 impl IconShape for List {
     fn child_elements(&self) -> Element {
@@ -4062,16 +4500,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Loader {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Loader;
 
 impl IconShape for Loader {
     fn child_elements(&self) -> Element {
@@ -4125,16 +4566,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Lock {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Lock;
 
 impl IconShape for Lock {
     fn child_elements(&self) -> Element {
@@ -4151,16 +4595,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LogIn {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LogIn;
 
 impl IconShape for LogIn {
     fn child_elements(&self) -> Element {
@@ -4178,16 +4625,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LogOut {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LogOut;
 
 impl IconShape for LogOut {
     fn child_elements(&self) -> Element {
@@ -4205,16 +4655,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Mail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Mail;
 
 impl IconShape for Mail {
     fn child_elements(&self) -> Element {
@@ -4226,16 +4679,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Map {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Map;
 
 impl IconShape for Map {
     fn child_elements(&self) -> Element {
@@ -4256,16 +4712,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPin;
 
 impl IconShape for MapPin {
     fn child_elements(&self) -> Element {
@@ -4279,16 +4738,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Maximize {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Maximize;
 
 impl IconShape for Maximize {
     fn child_elements(&self) -> Element {
@@ -4297,16 +4759,19 @@ impl IconShape for Maximize {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Maximize2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Maximize2;
 
 impl IconShape for Maximize2 {
     fn child_elements(&self) -> Element {
@@ -4330,16 +4795,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Meh {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Meh;
 
 impl IconShape for Meh {
     fn child_elements(&self) -> Element {
@@ -4368,16 +4836,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Menu {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Menu;
 
 impl IconShape for Menu {
     fn child_elements(&self) -> Element {
@@ -4401,16 +4872,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MessageCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MessageCircle;
 
 impl IconShape for MessageCircle {
     fn child_elements(&self) -> Element {
@@ -4419,16 +4893,19 @@ impl IconShape for MessageCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MessageSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MessageSquare;
 
 impl IconShape for MessageSquare {
     fn child_elements(&self) -> Element {
@@ -4437,16 +4914,19 @@ impl IconShape for MessageSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Mic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Mic;
 
 impl IconShape for Mic {
     fn child_elements(&self) -> Element {
@@ -4470,16 +4950,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicOff;
 
 impl IconShape for MicOff {
     fn child_elements(&self) -> Element {
@@ -4509,16 +4992,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Minimize {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Minimize;
 
 impl IconShape for Minimize {
     fn child_elements(&self) -> Element {
@@ -4527,16 +5013,19 @@ impl IconShape for Minimize {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Minimize2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Minimize2;
 
 impl IconShape for Minimize2 {
     fn child_elements(&self) -> Element {
@@ -4560,16 +5049,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Minus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Minus;
 
 impl IconShape for Minus {
     fn child_elements(&self) -> Element {
@@ -4581,16 +5073,19 @@ impl IconShape for Minus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MinusCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MinusCircle;
 
 impl IconShape for MinusCircle {
     fn child_elements(&self) -> Element {
@@ -4607,16 +5102,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MinusSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MinusSquare;
 
 impl IconShape for MinusSquare {
     fn child_elements(&self) -> Element {
@@ -4636,16 +5134,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Monitor {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Monitor;
 
 impl IconShape for Monitor {
     fn child_elements(&self) -> Element {
@@ -4671,16 +5172,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Moon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Moon;
 
 impl IconShape for Moon {
     fn child_elements(&self) -> Element {
@@ -4689,16 +5193,19 @@ impl IconShape for Moon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MoreHorizontal {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MoreHorizontal;
 
 impl IconShape for MoreHorizontal {
     fn child_elements(&self) -> Element {
@@ -4719,16 +5226,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MoreVertical {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MoreVertical;
 
 impl IconShape for MoreVertical {
     fn child_elements(&self) -> Element {
@@ -4749,16 +5259,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MousePointer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MousePointer;
 
 impl IconShape for MousePointer {
     fn child_elements(&self) -> Element {
@@ -4770,16 +5283,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Move {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Move;
 
 impl IconShape for Move {
     fn child_elements(&self) -> Element {
@@ -4809,16 +5325,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Music {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Music;
 
 impl IconShape for Music {
     fn child_elements(&self) -> Element {
@@ -4837,16 +5356,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Navigation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Navigation;
 
 impl IconShape for Navigation {
     fn child_elements(&self) -> Element {
@@ -4855,16 +5377,19 @@ impl IconShape for Navigation {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Navigation2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Navigation2;
 
 impl IconShape for Navigation2 {
     fn child_elements(&self) -> Element {
@@ -4873,16 +5398,19 @@ impl IconShape for Navigation2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Octagon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Octagon;
 
 impl IconShape for Octagon {
     fn child_elements(&self) -> Element {
@@ -4891,16 +5419,19 @@ impl IconShape for Octagon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Package {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Package;
 
 impl IconShape for Package {
     fn child_elements(&self) -> Element {
@@ -4924,16 +5455,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Paperclip {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Paperclip;
 
 impl IconShape for Paperclip {
     fn child_elements(&self) -> Element {
@@ -4942,16 +5476,19 @@ impl IconShape for Paperclip {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Pause {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Pause;
 
 impl IconShape for Pause {
     fn child_elements(&self) -> Element {
@@ -4969,16 +5506,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PauseCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PauseCircle;
 
 impl IconShape for PauseCircle {
     fn child_elements(&self) -> Element {
@@ -5001,16 +5541,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PenTool {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PenTool;
 
 impl IconShape for PenTool {
     fn child_elements(&self) -> Element {
@@ -5030,16 +5573,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Percent {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Percent;
 
 impl IconShape for Percent {
     fn child_elements(&self) -> Element {
@@ -5061,16 +5607,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Phone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Phone;
 
 impl IconShape for Phone {
     fn child_elements(&self) -> Element {
@@ -5079,16 +5628,19 @@ impl IconShape for Phone {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneCall {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneCall;
 
 impl IconShape for PhoneCall {
     fn child_elements(&self) -> Element {
@@ -5097,16 +5649,19 @@ impl IconShape for PhoneCall {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneForwarded {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneForwarded;
 
 impl IconShape for PhoneForwarded {
     fn child_elements(&self) -> Element {
@@ -5124,16 +5679,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneIncoming {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneIncoming;
 
 impl IconShape for PhoneIncoming {
     fn child_elements(&self) -> Element {
@@ -5151,16 +5709,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneMissed {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneMissed;
 
 impl IconShape for PhoneMissed {
     fn child_elements(&self) -> Element {
@@ -5181,16 +5742,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneOff;
 
 impl IconShape for PhoneOff {
     fn child_elements(&self) -> Element {
@@ -5205,16 +5769,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneOutgoing {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneOutgoing;
 
 impl IconShape for PhoneOutgoing {
     fn child_elements(&self) -> Element {
@@ -5232,16 +5799,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChart;
 
 impl IconShape for PieChart {
     fn child_elements(&self) -> Element {
@@ -5253,16 +5823,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Play {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Play;
 
 impl IconShape for Play {
     fn child_elements(&self) -> Element {
@@ -5271,16 +5844,19 @@ impl IconShape for Play {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlayCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlayCircle;
 
 impl IconShape for PlayCircle {
     fn child_elements(&self) -> Element {
@@ -5294,16 +5870,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Plus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Plus;
 
 impl IconShape for Plus {
     fn child_elements(&self) -> Element {
@@ -5321,16 +5900,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlusCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlusCircle;
 
 impl IconShape for PlusCircle {
     fn child_elements(&self) -> Element {
@@ -5353,16 +5935,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlusSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlusSquare;
 
 impl IconShape for PlusSquare {
     fn child_elements(&self) -> Element {
@@ -5388,16 +5973,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Pocket {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Pocket;
 
 impl IconShape for Pocket {
     fn child_elements(&self) -> Element {
@@ -5409,16 +5997,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Power {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Power;
 
 impl IconShape for Power {
     fn child_elements(&self) -> Element {
@@ -5433,16 +6024,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Printer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Printer;
 
 impl IconShape for Printer {
     fn child_elements(&self) -> Element {
@@ -5460,16 +6054,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Radio {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Radio;
 
 impl IconShape for Radio {
     fn child_elements(&self) -> Element {
@@ -5483,16 +6080,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RefreshCcw {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RefreshCcw;
 
 impl IconShape for RefreshCcw {
     fn child_elements(&self) -> Element {
@@ -5507,16 +6107,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RefreshCw {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RefreshCw;
 
 impl IconShape for RefreshCw {
     fn child_elements(&self) -> Element {
@@ -5531,16 +6134,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Repeat {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Repeat;
 
 impl IconShape for Repeat {
     fn child_elements(&self) -> Element {
@@ -5558,16 +6164,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Rewind {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Rewind;
 
 impl IconShape for Rewind {
     fn child_elements(&self) -> Element {
@@ -5579,16 +6188,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RotateCcw {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RotateCcw;
 
 impl IconShape for RotateCcw {
     fn child_elements(&self) -> Element {
@@ -5600,16 +6212,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RotateCw {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RotateCw;
 
 impl IconShape for RotateCw {
     fn child_elements(&self) -> Element {
@@ -5621,16 +6236,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Rss {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Rss;
 
 impl IconShape for Rss {
     fn child_elements(&self) -> Element {
@@ -5647,16 +6265,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Save {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Save;
 
 impl IconShape for Save {
     fn child_elements(&self) -> Element {
@@ -5671,16 +6292,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Scissors {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Scissors;
 
 impl IconShape for Scissors {
     fn child_elements(&self) -> Element {
@@ -5714,16 +6338,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Search {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Search;
 
 impl IconShape for Search {
     fn child_elements(&self) -> Element {
@@ -5740,16 +6367,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Send {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Send;
 
 impl IconShape for Send {
     fn child_elements(&self) -> Element {
@@ -5764,16 +6394,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Server {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Server;
 
 impl IconShape for Server {
     fn child_elements(&self) -> Element {
@@ -5807,16 +6440,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Settings {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Settings;
 
 impl IconShape for Settings {
     fn child_elements(&self) -> Element {
@@ -5830,16 +6466,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Share {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Share;
 
 impl IconShape for Share {
     fn child_elements(&self) -> Element {
@@ -5857,16 +6496,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Share2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Share2;
 
 impl IconShape for Share2 {
     fn child_elements(&self) -> Element {
@@ -5899,16 +6541,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Shield {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Shield;
 
 impl IconShape for Shield {
     fn child_elements(&self) -> Element {
@@ -5917,16 +6562,19 @@ impl IconShape for Shield {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldOff;
 
 impl IconShape for ShieldOff {
     fn child_elements(&self) -> Element {
@@ -5944,16 +6592,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShoppingBag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShoppingBag;
 
 impl IconShape for ShoppingBag {
     fn child_elements(&self) -> Element {
@@ -5971,16 +6622,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShoppingCart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShoppingCart;
 
 impl IconShape for ShoppingCart {
     fn child_elements(&self) -> Element {
@@ -5999,16 +6653,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Shuffle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Shuffle;
 
 impl IconShape for Shuffle {
     fn child_elements(&self) -> Element {
@@ -6038,16 +6695,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sidebar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sidebar;
 
 impl IconShape for Sidebar {
     fn child_elements(&self) -> Element {
@@ -6067,16 +6727,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkipBack {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkipBack;
 
 impl IconShape for SkipBack {
     fn child_elements(&self) -> Element {
@@ -6091,16 +6754,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkipForward {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkipForward;
 
 impl IconShape for SkipForward {
     fn child_elements(&self) -> Element {
@@ -6115,16 +6781,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slack {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slack;
 
 impl IconShape for Slack {
     fn child_elements(&self) -> Element {
@@ -6154,16 +6823,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slash {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slash;
 
 impl IconShape for Slash {
     fn child_elements(&self) -> Element {
@@ -6180,16 +6852,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sliders {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sliders;
 
 impl IconShape for Sliders {
     fn child_elements(&self) -> Element {
@@ -6249,16 +6924,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Smartphone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Smartphone;
 
 impl IconShape for Smartphone {
     fn child_elements(&self) -> Element {
@@ -6278,16 +6956,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Smile {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Smile;
 
 impl IconShape for Smile {
     fn child_elements(&self) -> Element {
@@ -6313,16 +6994,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Speaker {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Speaker;
 
 impl IconShape for Speaker {
     fn child_elements(&self) -> Element {
@@ -6347,16 +7031,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Square {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Square;
 
 impl IconShape for Square {
     fn child_elements(&self) -> Element {
@@ -6370,16 +7057,19 @@ impl IconShape for Square {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Star {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Star;
 
 impl IconShape for Star {
     fn child_elements(&self) -> Element {
@@ -6388,16 +7078,19 @@ impl IconShape for Star {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StopCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StopCircle;
 
 impl IconShape for StopCircle {
     fn child_elements(&self) -> Element {
@@ -6414,16 +7107,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sun {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sun;
 
 impl IconShape for Sun {
     fn child_elements(&self) -> Element {
@@ -6482,16 +7178,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sunrise {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sunrise;
 
 impl IconShape for Sunrise {
     fn child_elements(&self) -> Element {
@@ -6539,16 +7238,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sunset {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sunset;
 
 impl IconShape for Sunset {
     fn child_elements(&self) -> Element {
@@ -6596,16 +7298,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Table {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Table;
 
 impl IconShape for Table {
     fn child_elements(&self) -> Element {
@@ -6614,16 +7319,19 @@ impl IconShape for Table {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tablet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tablet;
 
 impl IconShape for Tablet {
     fn child_elements(&self) -> Element {
@@ -6643,16 +7351,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tag;
 
 impl IconShape for Tag {
     fn child_elements(&self) -> Element {
@@ -6667,16 +7378,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Target {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Target;
 
 impl IconShape for Target {
     fn child_elements(&self) -> Element {
@@ -6697,16 +7411,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Terminal {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Terminal;
 
 impl IconShape for Terminal {
     fn child_elements(&self) -> Element {
@@ -6721,16 +7438,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Thermometer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Thermometer;
 
 impl IconShape for Thermometer {
     fn child_elements(&self) -> Element {
@@ -6739,16 +7459,19 @@ impl IconShape for Thermometer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThumbsDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThumbsDown;
 
 impl IconShape for ThumbsDown {
     fn child_elements(&self) -> Element {
@@ -6757,16 +7480,19 @@ impl IconShape for ThumbsDown {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThumbsUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThumbsUp;
 
 impl IconShape for ThumbsUp {
     fn child_elements(&self) -> Element {
@@ -6775,16 +7501,19 @@ impl IconShape for ThumbsUp {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToggleLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToggleLeft;
 
 impl IconShape for ToggleLeft {
     fn child_elements(&self) -> Element {
@@ -6803,16 +7532,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToggleRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToggleRight;
 
 impl IconShape for ToggleRight {
     fn child_elements(&self) -> Element {
@@ -6831,16 +7563,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tool {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tool;
 
 impl IconShape for Tool {
     fn child_elements(&self) -> Element {
@@ -6849,16 +7584,19 @@ impl IconShape for Tool {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Trash {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Trash;
 
 impl IconShape for Trash {
     fn child_elements(&self) -> Element {
@@ -6870,16 +7608,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Trash2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Trash2;
 
 impl IconShape for Trash2 {
     fn child_elements(&self) -> Element {
@@ -6903,16 +7644,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Trello {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Trello;
 
 impl IconShape for Trello {
     fn child_elements(&self) -> Element {
@@ -6938,16 +7682,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrendingDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrendingDown;
 
 impl IconShape for TrendingDown {
     fn child_elements(&self) -> Element {
@@ -6959,16 +7706,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrendingUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrendingUp;
 
 impl IconShape for TrendingUp {
     fn child_elements(&self) -> Element {
@@ -6980,16 +7730,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Triangle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Triangle;
 
 impl IconShape for Triangle {
     fn child_elements(&self) -> Element {
@@ -6998,16 +7751,19 @@ impl IconShape for Triangle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Truck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Truck;
 
 impl IconShape for Truck {
     fn child_elements(&self) -> Element {
@@ -7032,16 +7788,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tv {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tv;
 
 impl IconShape for Tv {
     fn child_elements(&self) -> Element {
@@ -7058,16 +7817,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Twitch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Twitch;
 
 impl IconShape for Twitch {
     fn child_elements(&self) -> Element {
@@ -7076,16 +7838,19 @@ impl IconShape for Twitch {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Twitter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Twitter;
 
 impl IconShape for Twitter {
     fn child_elements(&self) -> Element {
@@ -7094,16 +7859,19 @@ impl IconShape for Twitter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Umbrella {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Umbrella;
 
 impl IconShape for Umbrella {
     fn child_elements(&self) -> Element {
@@ -7112,16 +7880,19 @@ impl IconShape for Umbrella {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Underline {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Underline;
 
 impl IconShape for Underline {
     fn child_elements(&self) -> Element {
@@ -7136,16 +7907,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Unlock {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Unlock;
 
 impl IconShape for Unlock {
     fn child_elements(&self) -> Element {
@@ -7162,16 +7936,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Upload {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Upload;
 
 impl IconShape for Upload {
     fn child_elements(&self) -> Element {
@@ -7189,16 +7966,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UploadCloud {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UploadCloud;
 
 impl IconShape for UploadCloud {
     fn child_elements(&self) -> Element {
@@ -7219,16 +7999,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct User {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct User;
 
 impl IconShape for User {
     fn child_elements(&self) -> Element {
@@ -7242,16 +8025,19 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCheck;
 
 impl IconShape for UserCheck {
     fn child_elements(&self) -> Element {
@@ -7268,16 +8054,19 @@ polyline {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserMinus;
 
 impl IconShape for UserMinus {
     fn child_elements(&self) -> Element {
@@ -7297,16 +8086,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserPlus;
 
 impl IconShape for UserPlus {
     fn child_elements(&self) -> Element {
@@ -7332,16 +8124,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserX;
 
 impl IconShape for UserX {
     fn child_elements(&self) -> Element {
@@ -7367,16 +8162,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Users {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Users;
 
 impl IconShape for Users {
     fn child_elements(&self) -> Element {
@@ -7396,16 +8194,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Video {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Video;
 
 impl IconShape for Video {
     fn child_elements(&self) -> Element {
@@ -7422,16 +8223,19 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VideoOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VideoOff;
 
 impl IconShape for VideoOff {
     fn child_elements(&self) -> Element {
@@ -7446,16 +8250,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Voicemail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Voicemail;
 
 impl IconShape for Voicemail {
     fn child_elements(&self) -> Element {
@@ -7477,16 +8284,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Volume {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Volume;
 
 impl IconShape for Volume {
     fn child_elements(&self) -> Element {
@@ -7495,16 +8305,19 @@ impl IconShape for Volume {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Volume1 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Volume1;
 
 impl IconShape for Volume1 {
     fn child_elements(&self) -> Element {
@@ -7516,16 +8329,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Volume2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Volume2;
 
 impl IconShape for Volume2 {
     fn child_elements(&self) -> Element {
@@ -7537,16 +8353,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VolumeX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VolumeX;
 
 impl IconShape for VolumeX {
     fn child_elements(&self) -> Element {
@@ -7567,16 +8386,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Watch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Watch;
 
 impl IconShape for Watch {
     fn child_elements(&self) -> Element {
@@ -7593,16 +8415,19 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Wifi {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Wifi;
 
 impl IconShape for Wifi {
     fn child_elements(&self) -> Element {
@@ -7623,16 +8448,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiOff;
 
 impl IconShape for WifiOff {
     fn child_elements(&self) -> Element {
@@ -7665,16 +8493,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Wind {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Wind;
 
 impl IconShape for Wind {
     fn child_elements(&self) -> Element {
@@ -7683,16 +8514,19 @@ impl IconShape for Wind {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct X {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct X;
 
 impl IconShape for X {
     fn child_elements(&self) -> Element {
@@ -7710,16 +8544,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XCircle;
 
 impl IconShape for XCircle {
     fn child_elements(&self) -> Element {
@@ -7742,16 +8579,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XOctagon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XOctagon;
 
 impl IconShape for XOctagon {
     fn child_elements(&self) -> Element {
@@ -7772,16 +8612,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XSquare;
 
 impl IconShape for XSquare {
     fn child_elements(&self) -> Element {
@@ -7807,16 +8650,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Youtube {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Youtube;
 
 impl IconShape for Youtube {
     fn child_elements(&self) -> Element {
@@ -7828,16 +8674,19 @@ polygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Zap {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Zap;
 
 impl IconShape for Zap {
     fn child_elements(&self) -> Element {
@@ -7846,16 +8695,19 @@ impl IconShape for Zap {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ZapOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ZapOff;
 
 impl IconShape for ZapOff {
     fn child_elements(&self) -> Element {
@@ -7876,16 +8728,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ZoomIn {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ZoomIn;
 
 impl IconShape for ZoomIn {
     fn child_elements(&self) -> Element {
@@ -7914,16 +8769,19 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ZoomOut {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ZoomOut;
 
 impl IconShape for ZoomOut {
     fn child_elements(&self) -> Element {
@@ -7946,10 +8804,13 @@ line {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const FILL: Option<&'static str> = Some("none");
     const STROKE: Option<&'static str> = Some("currentColor");
+    const STROKE_WIDTH: Option<&'static str> = Some("2");
+    const STROKE_LINE_CAP: Option<&'static str> = Some("round");
+    const STROKE_LINE_JOIN: Option<&'static str> = Some("round");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
