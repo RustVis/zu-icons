@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-grommet"
-version = "0.1.0"
+version = "0.2.0"
 documentation = "https://docs.rs/dioxus-icons-grommet"
 description = "Grommet icons for dioxus framework"
 keywords = ["web", "wasm", "icons", "grommet", "dioxus"]
