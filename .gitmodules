@@ -49,3 +49,6 @@
 [submodule "icons/grommet-icons"]
 	path = icons/grommet-icons
 	url = https://github.com/grommet/grommet-icons
+[submodule "icons/line-awesome"]
+	path = icons/line-awesome
+	url = https://github.com/icons8/line-awesome
