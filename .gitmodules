@@ -52,3 +52,6 @@
 [submodule "icons/line-awesome"]
 	path = icons/line-awesome
 	url = https://github.com/icons8/line-awesome
+[submodule "icons/Circum-icons"]
+	path = icons/Circum-icons
+	url = https://github.com/Klarr-Agency/Circum-icons
