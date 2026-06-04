@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-game"
-version = "0.1.0"
+version = "0.2.0"
 documentation = "https://docs.rs/dioxus-icons-game"
 description = "Game icons for dioxus framework"
 keywords = ["web", "wasm", "icons", "game", "dioxus"]

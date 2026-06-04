@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AcidShield {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AcidShield;
 
 impl IconShape for AcidShield {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArmorBlueprint {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArmorBlueprint;
 
 impl IconShape for ArmorBlueprint {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PouchWithBeads {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PouchWithBeads;
 
 impl IconShape for PouchWithBeads {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SakeBottle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SakeBottle;
 
 impl IconShape for SakeBottle {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThoughtBubble {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThoughtBubble;
 
 impl IconShape for ThoughtBubble {
     fn child_elements(&self) -> Element {

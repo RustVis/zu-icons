@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Battery0 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Battery0;
 
 impl IconShape for Battery0 {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Battery100 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Battery100;
 
 impl IconShape for Battery100 {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Battery25 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Battery25;
 
 impl IconShape for Battery25 {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Battery50 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Battery50;
 
 impl IconShape for Battery50 {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Battery75 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Battery75;
 
 impl IconShape for Battery75 {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryMinus;
 
 impl IconShape for BatteryMinus {
     fn child_elements(&self) -> Element {
@@ -112,8 +112,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryPlus;
 
 impl IconShape for BatteryPlus {
     fn child_elements(&self) -> Element {

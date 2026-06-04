@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PotionOfMadness {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PotionOfMadness;
 
 impl IconShape for PotionOfMadness {
     fn child_elements(&self) -> Element {

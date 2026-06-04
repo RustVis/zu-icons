@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Amplitude {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Amplitude;
 
 impl IconShape for Amplitude {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArtificialIntelligence {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArtificialIntelligence;
 
 impl IconShape for ArtificialIntelligence {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bomber {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bomber;
 
 impl IconShape for Bomber {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Computing {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Computing;
 
 impl IconShape for Computing {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Diagram {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Diagram;
 
 impl IconShape for Diagram {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeavyFighter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeavyFighter;
 
 impl IconShape for HeavyFighter {
     fn child_elements(&self) -> Element {
@@ -112,8 +112,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Holosphere {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Holosphere;
 
 impl IconShape for Holosphere {
     fn child_elements(&self) -> Element {
@@ -130,8 +130,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LightFighter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LightFighter;
 
 impl IconShape for LightFighter {
     fn child_elements(&self) -> Element {
@@ -148,8 +148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Microscope {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Microscope;
 
 impl IconShape for Microscope {
     fn child_elements(&self) -> Element {
@@ -166,8 +166,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PowerButton {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PowerButton;
 
 impl IconShape for PowerButton {
     fn child_elements(&self) -> Element {

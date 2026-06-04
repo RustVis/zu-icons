@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardDiscard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardDiscard;
 
 impl IconShape for CardDiscard {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardDraw {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardDraw;
 
 impl IconShape for CardDraw {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardPick {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardPick;
 
 impl IconShape for CardPick {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardRandom {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardRandom;
 
 impl IconShape for CardRandom {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DragonHead {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DragonHead;
 
 impl IconShape for DragonHead {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ForwardSun {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ForwardSun;
 
 impl IconShape for ForwardSun {
     fn child_elements(&self) -> Element {
@@ -112,8 +112,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Minerals {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Minerals;
 
 impl IconShape for Minerals {
     fn child_elements(&self) -> Element {
@@ -130,8 +130,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NautilusShell {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NautilusShell;
 
 impl IconShape for NautilusShell {
     fn child_elements(&self) -> Element {
@@ -148,8 +148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NinjaStar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NinjaStar;
 
 impl IconShape for NinjaStar {
     fn child_elements(&self) -> Element {
@@ -166,8 +166,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Ore {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Ore;
 
 impl IconShape for Ore {
     fn child_elements(&self) -> Element {

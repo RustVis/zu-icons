@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BrokenArrow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BrokenArrow;
 
 impl IconShape for BrokenArrow {
     fn child_elements(&self) -> Element {

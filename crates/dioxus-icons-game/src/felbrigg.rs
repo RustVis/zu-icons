@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Dodge {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Dodge;
 
 impl IconShape for Dodge {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Overhead {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Overhead;
 
 impl IconShape for Overhead {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sideswipe {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sideswipe;
 
 impl IconShape for Sideswipe {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Thrust {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Thrust;
 
 impl IconShape for Thrust {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Underhand {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Underhand;
 
 impl IconShape for Underhand {
     fn child_elements(&self) -> Element {

@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BlackBook {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BlackBook;
 
 impl IconShape for BlackBook {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChainLightning {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChainLightning;
 
 impl IconShape for ChainLightning {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChainMail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChainMail;
 
 impl IconShape for ChainMail {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GoldBar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GoldBar;
 
 impl IconShape for GoldBar {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OrbWand {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OrbWand;
 
 impl IconShape for OrbWand {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RoundShield {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RoundShield;
 
 impl IconShape for RoundShield {
     fn child_elements(&self) -> Element {
@@ -112,8 +112,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WhiteBook {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WhiteBook;
 
 impl IconShape for WhiteBook {
     fn child_elements(&self) -> Element {

@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FingersCrossed {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FingersCrossed;
 
 impl IconShape for FingersCrossed {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShepherdsCrook {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShepherdsCrook;
 
 impl IconShape for ShepherdsCrook {
     fn child_elements(&self) -> Element {

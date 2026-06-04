@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BearFace {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BearFace;
 
 impl IconShape for BearFace {
     fn child_elements(&self) -> Element {

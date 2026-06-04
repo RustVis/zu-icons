@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract001 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract001;
 
 impl IconShape for Abstract001 {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract002 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract002;
 
 impl IconShape for Abstract002 {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract003 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract003;
 
 impl IconShape for Abstract003 {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract004 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract004;
 
 impl IconShape for Abstract004 {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract005 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract005;
 
 impl IconShape for Abstract005 {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract006 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract006;
 
 impl IconShape for Abstract006 {
     fn child_elements(&self) -> Element {
@@ -112,8 +112,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract007 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract007;
 
 impl IconShape for Abstract007 {
     fn child_elements(&self) -> Element {
@@ -130,8 +130,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract008 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract008;
 
 impl IconShape for Abstract008 {
     fn child_elements(&self) -> Element {
@@ -148,8 +148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract009 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract009;
 
 impl IconShape for Abstract009 {
     fn child_elements(&self) -> Element {
@@ -166,8 +166,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract010 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract010;
 
 impl IconShape for Abstract010 {
     fn child_elements(&self) -> Element {
@@ -184,8 +184,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract011 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract011;
 
 impl IconShape for Abstract011 {
     fn child_elements(&self) -> Element {
@@ -202,8 +202,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract012 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract012;
 
 impl IconShape for Abstract012 {
     fn child_elements(&self) -> Element {
@@ -220,8 +220,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract013 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract013;
 
 impl IconShape for Abstract013 {
     fn child_elements(&self) -> Element {
@@ -238,8 +238,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract014 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract014;
 
 impl IconShape for Abstract014 {
     fn child_elements(&self) -> Element {
@@ -256,8 +256,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract015 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract015;
 
 impl IconShape for Abstract015 {
     fn child_elements(&self) -> Element {
@@ -274,8 +274,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract016 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract016;
 
 impl IconShape for Abstract016 {
     fn child_elements(&self) -> Element {
@@ -292,8 +292,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract017 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract017;
 
 impl IconShape for Abstract017 {
     fn child_elements(&self) -> Element {
@@ -310,8 +310,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract018 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract018;
 
 impl IconShape for Abstract018 {
     fn child_elements(&self) -> Element {
@@ -328,8 +328,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract019 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract019;
 
 impl IconShape for Abstract019 {
     fn child_elements(&self) -> Element {
@@ -346,8 +346,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract020 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract020;
 
 impl IconShape for Abstract020 {
     fn child_elements(&self) -> Element {
@@ -364,8 +364,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract021 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract021;
 
 impl IconShape for Abstract021 {
     fn child_elements(&self) -> Element {
@@ -382,8 +382,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract022 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract022;
 
 impl IconShape for Abstract022 {
     fn child_elements(&self) -> Element {
@@ -400,8 +400,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract023 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract023;
 
 impl IconShape for Abstract023 {
     fn child_elements(&self) -> Element {
@@ -418,8 +418,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract024 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract024;
 
 impl IconShape for Abstract024 {
     fn child_elements(&self) -> Element {
@@ -436,8 +436,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract025 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract025;
 
 impl IconShape for Abstract025 {
     fn child_elements(&self) -> Element {
@@ -454,8 +454,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract026 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract026;
 
 impl IconShape for Abstract026 {
     fn child_elements(&self) -> Element {
@@ -472,8 +472,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract027 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract027;
 
 impl IconShape for Abstract027 {
     fn child_elements(&self) -> Element {
@@ -490,8 +490,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract028 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract028;
 
 impl IconShape for Abstract028 {
     fn child_elements(&self) -> Element {
@@ -508,8 +508,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract029 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract029;
 
 impl IconShape for Abstract029 {
     fn child_elements(&self) -> Element {
@@ -526,8 +526,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract030 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract030;
 
 impl IconShape for Abstract030 {
     fn child_elements(&self) -> Element {
@@ -544,8 +544,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract031 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract031;
 
 impl IconShape for Abstract031 {
     fn child_elements(&self) -> Element {
@@ -562,8 +562,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract032 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract032;
 
 impl IconShape for Abstract032 {
     fn child_elements(&self) -> Element {
@@ -580,8 +580,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract033 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract033;
 
 impl IconShape for Abstract033 {
     fn child_elements(&self) -> Element {
@@ -598,8 +598,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract034 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract034;
 
 impl IconShape for Abstract034 {
     fn child_elements(&self) -> Element {
@@ -616,8 +616,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract035 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract035;
 
 impl IconShape for Abstract035 {
     fn child_elements(&self) -> Element {
@@ -634,8 +634,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract036 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract036;
 
 impl IconShape for Abstract036 {
     fn child_elements(&self) -> Element {
@@ -652,8 +652,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract037 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract037;
 
 impl IconShape for Abstract037 {
     fn child_elements(&self) -> Element {
@@ -670,8 +670,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract038 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract038;
 
 impl IconShape for Abstract038 {
     fn child_elements(&self) -> Element {
@@ -688,8 +688,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract039 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract039;
 
 impl IconShape for Abstract039 {
     fn child_elements(&self) -> Element {
@@ -706,8 +706,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract040 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract040;
 
 impl IconShape for Abstract040 {
     fn child_elements(&self) -> Element {
@@ -724,8 +724,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract041 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract041;
 
 impl IconShape for Abstract041 {
     fn child_elements(&self) -> Element {
@@ -742,8 +742,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract042 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract042;
 
 impl IconShape for Abstract042 {
     fn child_elements(&self) -> Element {
@@ -760,8 +760,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract043 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract043;
 
 impl IconShape for Abstract043 {
     fn child_elements(&self) -> Element {
@@ -778,8 +778,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract044 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract044;
 
 impl IconShape for Abstract044 {
     fn child_elements(&self) -> Element {
@@ -796,8 +796,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract045 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract045;
 
 impl IconShape for Abstract045 {
     fn child_elements(&self) -> Element {
@@ -814,8 +814,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract046 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract046;
 
 impl IconShape for Abstract046 {
     fn child_elements(&self) -> Element {
@@ -832,8 +832,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract047 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract047;
 
 impl IconShape for Abstract047 {
     fn child_elements(&self) -> Element {
@@ -850,8 +850,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract048 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract048;
 
 impl IconShape for Abstract048 {
     fn child_elements(&self) -> Element {
@@ -868,8 +868,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract049 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract049;
 
 impl IconShape for Abstract049 {
     fn child_elements(&self) -> Element {
@@ -886,8 +886,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract050 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract050;
 
 impl IconShape for Abstract050 {
     fn child_elements(&self) -> Element {
@@ -904,8 +904,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract051 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract051;
 
 impl IconShape for Abstract051 {
     fn child_elements(&self) -> Element {
@@ -922,8 +922,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract052 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract052;
 
 impl IconShape for Abstract052 {
     fn child_elements(&self) -> Element {
@@ -940,8 +940,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract053 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract053;
 
 impl IconShape for Abstract053 {
     fn child_elements(&self) -> Element {
@@ -958,8 +958,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract054 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract054;
 
 impl IconShape for Abstract054 {
     fn child_elements(&self) -> Element {
@@ -976,8 +976,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract055 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract055;
 
 impl IconShape for Abstract055 {
     fn child_elements(&self) -> Element {
@@ -994,8 +994,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract056 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract056;
 
 impl IconShape for Abstract056 {
     fn child_elements(&self) -> Element {
@@ -1012,8 +1012,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract057 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract057;
 
 impl IconShape for Abstract057 {
     fn child_elements(&self) -> Element {
@@ -1030,8 +1030,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract058 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract058;
 
 impl IconShape for Abstract058 {
     fn child_elements(&self) -> Element {
@@ -1048,8 +1048,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract059 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract059;
 
 impl IconShape for Abstract059 {
     fn child_elements(&self) -> Element {
@@ -1066,8 +1066,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract060 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract060;
 
 impl IconShape for Abstract060 {
     fn child_elements(&self) -> Element {
@@ -1084,8 +1084,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract061 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract061;
 
 impl IconShape for Abstract061 {
     fn child_elements(&self) -> Element {
@@ -1102,8 +1102,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract062 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract062;
 
 impl IconShape for Abstract062 {
     fn child_elements(&self) -> Element {
@@ -1120,8 +1120,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract063 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract063;
 
 impl IconShape for Abstract063 {
     fn child_elements(&self) -> Element {
@@ -1138,8 +1138,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract064 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract064;
 
 impl IconShape for Abstract064 {
     fn child_elements(&self) -> Element {
@@ -1156,8 +1156,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract065 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract065;
 
 impl IconShape for Abstract065 {
     fn child_elements(&self) -> Element {
@@ -1174,8 +1174,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract066 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract066;
 
 impl IconShape for Abstract066 {
     fn child_elements(&self) -> Element {
@@ -1192,8 +1192,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract067 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract067;
 
 impl IconShape for Abstract067 {
     fn child_elements(&self) -> Element {
@@ -1210,8 +1210,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract068 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract068;
 
 impl IconShape for Abstract068 {
     fn child_elements(&self) -> Element {
@@ -1228,8 +1228,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract069 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract069;
 
 impl IconShape for Abstract069 {
     fn child_elements(&self) -> Element {
@@ -1246,8 +1246,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract070 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract070;
 
 impl IconShape for Abstract070 {
     fn child_elements(&self) -> Element {
@@ -1264,8 +1264,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract071 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract071;
 
 impl IconShape for Abstract071 {
     fn child_elements(&self) -> Element {
@@ -1282,8 +1282,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract072 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract072;
 
 impl IconShape for Abstract072 {
     fn child_elements(&self) -> Element {
@@ -1300,8 +1300,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract073 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract073;
 
 impl IconShape for Abstract073 {
     fn child_elements(&self) -> Element {
@@ -1318,8 +1318,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract074 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract074;
 
 impl IconShape for Abstract074 {
     fn child_elements(&self) -> Element {
@@ -1336,8 +1336,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract075 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract075;
 
 impl IconShape for Abstract075 {
     fn child_elements(&self) -> Element {
@@ -1354,8 +1354,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract076 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract076;
 
 impl IconShape for Abstract076 {
     fn child_elements(&self) -> Element {
@@ -1372,8 +1372,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract077 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract077;
 
 impl IconShape for Abstract077 {
     fn child_elements(&self) -> Element {
@@ -1390,8 +1390,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract078 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract078;
 
 impl IconShape for Abstract078 {
     fn child_elements(&self) -> Element {
@@ -1408,8 +1408,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract079 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract079;
 
 impl IconShape for Abstract079 {
     fn child_elements(&self) -> Element {
@@ -1426,8 +1426,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract080 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract080;
 
 impl IconShape for Abstract080 {
     fn child_elements(&self) -> Element {
@@ -1444,8 +1444,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract081 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract081;
 
 impl IconShape for Abstract081 {
     fn child_elements(&self) -> Element {
@@ -1462,8 +1462,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract082 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract082;
 
 impl IconShape for Abstract082 {
     fn child_elements(&self) -> Element {
@@ -1480,8 +1480,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract083 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract083;
 
 impl IconShape for Abstract083 {
     fn child_elements(&self) -> Element {
@@ -1498,8 +1498,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract084 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract084;
 
 impl IconShape for Abstract084 {
     fn child_elements(&self) -> Element {
@@ -1516,8 +1516,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract085 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract085;
 
 impl IconShape for Abstract085 {
     fn child_elements(&self) -> Element {
@@ -1534,8 +1534,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract086 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract086;
 
 impl IconShape for Abstract086 {
     fn child_elements(&self) -> Element {
@@ -1552,8 +1552,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract087 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract087;
 
 impl IconShape for Abstract087 {
     fn child_elements(&self) -> Element {
@@ -1570,8 +1570,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract088 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract088;
 
 impl IconShape for Abstract088 {
     fn child_elements(&self) -> Element {
@@ -1588,8 +1588,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract089 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract089;
 
 impl IconShape for Abstract089 {
     fn child_elements(&self) -> Element {
@@ -1606,8 +1606,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract090 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract090;
 
 impl IconShape for Abstract090 {
     fn child_elements(&self) -> Element {
@@ -1624,8 +1624,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract091 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract091;
 
 impl IconShape for Abstract091 {
     fn child_elements(&self) -> Element {
@@ -1642,8 +1642,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract092 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract092;
 
 impl IconShape for Abstract092 {
     fn child_elements(&self) -> Element {
@@ -1660,8 +1660,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract093 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract093;
 
 impl IconShape for Abstract093 {
     fn child_elements(&self) -> Element {
@@ -1678,8 +1678,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract094 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract094;
 
 impl IconShape for Abstract094 {
     fn child_elements(&self) -> Element {
@@ -1696,8 +1696,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract095 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract095;
 
 impl IconShape for Abstract095 {
     fn child_elements(&self) -> Element {
@@ -1714,8 +1714,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract096 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract096;
 
 impl IconShape for Abstract096 {
     fn child_elements(&self) -> Element {
@@ -1732,8 +1732,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract097 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract097;
 
 impl IconShape for Abstract097 {
     fn child_elements(&self) -> Element {
@@ -1750,8 +1750,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract098 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract098;
 
 impl IconShape for Abstract098 {
     fn child_elements(&self) -> Element {
@@ -1768,8 +1768,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract099 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract099;
 
 impl IconShape for Abstract099 {
     fn child_elements(&self) -> Element {
@@ -1786,8 +1786,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract100 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract100;
 
 impl IconShape for Abstract100 {
     fn child_elements(&self) -> Element {
@@ -1804,8 +1804,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract101 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract101;
 
 impl IconShape for Abstract101 {
     fn child_elements(&self) -> Element {
@@ -1822,8 +1822,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract102 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract102;
 
 impl IconShape for Abstract102 {
     fn child_elements(&self) -> Element {
@@ -1840,8 +1840,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract103 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract103;
 
 impl IconShape for Abstract103 {
     fn child_elements(&self) -> Element {
@@ -1858,8 +1858,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract104 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract104;
 
 impl IconShape for Abstract104 {
     fn child_elements(&self) -> Element {
@@ -1876,8 +1876,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract105 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract105;
 
 impl IconShape for Abstract105 {
     fn child_elements(&self) -> Element {
@@ -1894,8 +1894,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract106 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract106;
 
 impl IconShape for Abstract106 {
     fn child_elements(&self) -> Element {
@@ -1912,8 +1912,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract107 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract107;
 
 impl IconShape for Abstract107 {
     fn child_elements(&self) -> Element {
@@ -1930,8 +1930,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract108 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract108;
 
 impl IconShape for Abstract108 {
     fn child_elements(&self) -> Element {
@@ -1948,8 +1948,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract109 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract109;
 
 impl IconShape for Abstract109 {
     fn child_elements(&self) -> Element {
@@ -1966,8 +1966,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract110 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract110;
 
 impl IconShape for Abstract110 {
     fn child_elements(&self) -> Element {
@@ -1984,8 +1984,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract111 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract111;
 
 impl IconShape for Abstract111 {
     fn child_elements(&self) -> Element {
@@ -2002,8 +2002,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract112 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract112;
 
 impl IconShape for Abstract112 {
     fn child_elements(&self) -> Element {
@@ -2020,8 +2020,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract113 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract113;
 
 impl IconShape for Abstract113 {
     fn child_elements(&self) -> Element {
@@ -2038,8 +2038,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract114 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract114;
 
 impl IconShape for Abstract114 {
     fn child_elements(&self) -> Element {
@@ -2056,8 +2056,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract115 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract115;
 
 impl IconShape for Abstract115 {
     fn child_elements(&self) -> Element {
@@ -2074,8 +2074,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract116 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract116;
 
 impl IconShape for Abstract116 {
     fn child_elements(&self) -> Element {
@@ -2092,8 +2092,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract117 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract117;
 
 impl IconShape for Abstract117 {
     fn child_elements(&self) -> Element {
@@ -2110,8 +2110,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract118 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract118;
 
 impl IconShape for Abstract118 {
     fn child_elements(&self) -> Element {
@@ -2128,8 +2128,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract119 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract119;
 
 impl IconShape for Abstract119 {
     fn child_elements(&self) -> Element {
@@ -2146,8 +2146,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract120 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract120;
 
 impl IconShape for Abstract120 {
     fn child_elements(&self) -> Element {
@@ -2164,8 +2164,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Abstract121 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Abstract121;
 
 impl IconShape for Abstract121 {
     fn child_elements(&self) -> Element {

@@ -12,10 +12,10 @@ pub mod aussiesim;
 #[cfg(feature = "badges")]
 pub mod badges;
 
-#[cfg(feature = "carl-olsen")]
+#[cfg(feature = "carl_olsen")]
 pub mod carl_olsen;
 
-#[cfg(feature = "caro-asercion")]
+#[cfg(feature = "caro_asercion")]
 pub mod caro_asercion;
 
 #[cfg(feature = "cathelineau")]
@@ -42,34 +42,34 @@ pub mod generalace135;
 #[cfg(feature = "guard13007")]
 pub mod guard13007;
 
-#[cfg(feature = "heavenly-dog")]
+#[cfg(feature = "heavenly_dog")]
 pub mod heavenly_dog;
 
 #[cfg(feature = "irongamer")]
 pub mod irongamer;
 
-#[cfg(feature = "john-colburn")]
+#[cfg(feature = "john_colburn")]
 pub mod john_colburn;
 
-#[cfg(feature = "john-redman")]
+#[cfg(feature = "john_redman")]
 pub mod john_redman;
 
-#[cfg(feature = "kier-heyl")]
+#[cfg(feature = "kier_heyl")]
 pub mod kier_heyl;
 
 #[cfg(feature = "lorc")]
 pub mod lorc;
 
-#[cfg(feature = "lord-berandas")]
+#[cfg(feature = "lord_berandas")]
 pub mod lord_berandas;
 
 #[cfg(feature = "lucasms")]
 pub mod lucasms;
 
-#[cfg(feature = "pepijn-poolman")]
+#[cfg(feature = "pepijn_poolman")]
 pub mod pepijn_poolman;
 
-#[cfg(feature = "pierre-leducq")]
+#[cfg(feature = "pierre_leducq")]
 pub mod pierre_leducq;
 
 #[cfg(feature = "priorblue")]
@@ -99,10 +99,10 @@ pub mod spencerdub;
 #[cfg(feature = "starseeker")]
 pub mod starseeker;
 
-#[cfg(feature = "various-artists")]
+#[cfg(feature = "various_artists")]
 pub mod various_artists;
 
-#[cfg(feature = "viscious-speed")]
+#[cfg(feature = "viscious_speed")]
 pub mod viscious_speed;
 
 #[cfg(feature = "willdabeast")]

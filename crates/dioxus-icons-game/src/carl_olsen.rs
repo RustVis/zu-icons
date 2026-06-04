@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BrutalHelm {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BrutalHelm;
 
 impl IconShape for BrutalHelm {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Crossbow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Crossbow;
 
 impl IconShape for Crossbow {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Flame {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Flame;
 
 impl IconShape for Flame {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MiteAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MiteAlt;
 
 impl IconShape for MiteAlt {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpiderAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpiderAlt;
 
 impl IconShape for SpiderAlt {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpiderFace {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpiderFace;
 
 impl IconShape for SpiderFace {
     fn child_elements(&self) -> Element {

@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Accordion {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Accordion;
 
 impl IconShape for Accordion {
     fn child_elements(&self) -> Element {
@@ -22,8 +22,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Anteater {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Anteater;
 
 impl IconShape for Anteater {
     fn child_elements(&self) -> Element {
@@ -40,8 +40,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchaeopteryxFossil {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchaeopteryxFossil;
 
 impl IconShape for ArchaeopteryxFossil {
     fn child_elements(&self) -> Element {
@@ -58,8 +58,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Armchair {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Armchair;
 
 impl IconShape for Armchair {
     fn child_elements(&self) -> Element {
@@ -76,8 +76,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Artichoke {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Artichoke;
 
 impl IconShape for Artichoke {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Astrolabe {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Astrolabe;
 
 impl IconShape for Astrolabe {
     fn child_elements(&self) -> Element {
@@ -112,8 +112,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Axolotl {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Axolotl;
 
 impl IconShape for Axolotl {
     fn child_elements(&self) -> Element {
@@ -130,8 +130,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Badger {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Badger;
 
 impl IconShape for Badger {
     fn child_elements(&self) -> Element {
@@ -148,8 +148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarnOwl {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarnOwl;
 
 impl IconShape for BarnOwl {
     fn child_elements(&self) -> Element {
@@ -166,8 +166,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bassoon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bassoon;
 
 impl IconShape for Bassoon {
     fn child_elements(&self) -> Element {
@@ -184,8 +184,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BirchTrees {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BirchTrees;
 
 impl IconShape for BirchTrees {
     fn child_elements(&self) -> Element {
@@ -202,8 +202,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Blender {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Blender;
 
 impl IconShape for Blender {
     fn child_elements(&self) -> Element {
@@ -220,8 +220,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Boar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Boar;
 
 impl IconShape for Boar {
     fn child_elements(&self) -> Element {
@@ -238,8 +238,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoardingPass {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoardingPass;
 
 impl IconShape for BoardingPass {
     fn child_elements(&self) -> Element {
@@ -256,8 +256,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Boba {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Boba;
 
 impl IconShape for Boba {
     fn child_elements(&self) -> Element {
@@ -274,8 +274,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BokChoy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BokChoy;
 
 impl IconShape for BokChoy {
     fn child_elements(&self) -> Element {
@@ -292,8 +292,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BowlOfRice {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BowlOfRice;
 
 impl IconShape for BowlOfRice {
     fn child_elements(&self) -> Element {
@@ -310,8 +310,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BucketWheelExcavator {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BucketWheelExcavator;
 
 impl IconShape for BucketWheelExcavator {
     fn child_elements(&self) -> Element {
@@ -328,8 +328,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BunnySlippers {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BunnySlippers;
 
 impl IconShape for BunnySlippers {
     fn child_elements(&self) -> Element {
@@ -346,8 +346,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BusStop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BusStop;
 
 impl IconShape for BusStop {
     fn child_elements(&self) -> Element {
@@ -364,8 +364,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CanadianGoose {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CanadianGoose;
 
 impl IconShape for CanadianGoose {
     fn child_elements(&self) -> Element {
@@ -382,8 +382,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Capybara {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Capybara;
 
 impl IconShape for Capybara {
     fn child_elements(&self) -> Element {
@@ -400,8 +400,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Charcuterie {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Charcuterie;
 
 impl IconShape for Charcuterie {
     fn child_elements(&self) -> Element {
@@ -418,8 +418,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Clarinet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Clarinet;
 
 impl IconShape for Clarinet {
     fn child_elements(&self) -> Element {
@@ -436,8 +436,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloakedFigureOnHorseback {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloakedFigureOnHorseback;
 
 impl IconShape for CloakedFigureOnHorseback {
     fn child_elements(&self) -> Element {
@@ -454,8 +454,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockTower {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockTower;
 
 impl IconShape for ClockTower {
     fn child_elements(&self) -> Element {
@@ -472,8 +472,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Clothesline {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Clothesline;
 
 impl IconShape for Clothesline {
     fn child_elements(&self) -> Element {
@@ -490,8 +490,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Coinflip {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Coinflip;
 
 impl IconShape for Coinflip {
     fn child_elements(&self) -> Element {
@@ -508,8 +508,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CootieCatcher {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CootieCatcher;
 
 impl IconShape for CootieCatcher {
     fn child_elements(&self) -> Element {
@@ -526,8 +526,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Deer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Deer;
 
 impl IconShape for Deer {
     fn child_elements(&self) -> Element {
@@ -544,8 +544,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeerHead {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeerHead;
 
 impl IconShape for DeerHead {
     fn child_elements(&self) -> Element {
@@ -562,8 +562,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Dodo {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Dodo;
 
 impl IconShape for Dodo {
     fn child_elements(&self) -> Element {
@@ -580,8 +580,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DrumKit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DrumKit;
 
 impl IconShape for DrumKit {
     fn child_elements(&self) -> Element {
@@ -598,8 +598,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Dumpling {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Dumpling;
 
 impl IconShape for Dumpling {
     fn child_elements(&self) -> Element {
@@ -616,8 +616,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DumplingBao {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DumplingBao;
 
 impl IconShape for DumplingBao {
     fn child_elements(&self) -> Element {
@@ -634,8 +634,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Earbuds {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Earbuds;
 
 impl IconShape for Earbuds {
     fn child_elements(&self) -> Element {
@@ -652,8 +652,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Easel {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Easel;
 
 impl IconShape for Easel {
     fn child_elements(&self) -> Element {
@@ -670,8 +670,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Fox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Fox;
 
 impl IconShape for Fox {
     fn child_elements(&self) -> Element {
@@ -688,8 +688,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FrenchHorn {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FrenchHorn;
 
 impl IconShape for FrenchHorn {
     fn child_elements(&self) -> Element {
@@ -706,8 +706,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Fridge {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Fridge;
 
 impl IconShape for Fridge {
     fn child_elements(&self) -> Element {
@@ -724,8 +724,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FroeAndMallet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FroeAndMallet;
 
 impl IconShape for FroeAndMallet {
     fn child_elements(&self) -> Element {
@@ -742,8 +742,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FrogMouthHelm {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FrogMouthHelm;
 
 impl IconShape for FrogMouthHelm {
     fn child_elements(&self) -> Element {
@@ -760,8 +760,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Goblin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Goblin;
 
 impl IconShape for Goblin {
     fn child_elements(&self) -> Element {
@@ -778,8 +778,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GrandPiano {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GrandPiano;
 
 impl IconShape for GrandPiano {
     fn child_elements(&self) -> Element {
@@ -796,8 +796,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Gyroscope {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Gyroscope;
 
 impl IconShape for Gyroscope {
     fn child_elements(&self) -> Element {
@@ -814,8 +814,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Hedgehog {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Hedgehog;
 
 impl IconShape for Hedgehog {
     fn child_elements(&self) -> Element {
@@ -832,8 +832,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeraldicSun {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeraldicSun;
 
 impl IconShape for HeraldicSun {
     fn child_elements(&self) -> Element {
@@ -850,8 +850,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Heron {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Heron;
 
 impl IconShape for Heron {
     fn child_elements(&self) -> Element {
@@ -868,8 +868,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HyenaHead {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HyenaHead;
 
 impl IconShape for HyenaHead {
     fn child_elements(&self) -> Element {
@@ -886,8 +886,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MasonJar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MasonJar;
 
 impl IconShape for MasonJar {
     fn child_elements(&self) -> Element {
@@ -904,8 +904,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MedievalVillage01 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MedievalVillage01;
 
 impl IconShape for MedievalVillage01 {
     fn child_elements(&self) -> Element {
@@ -922,8 +922,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Mole {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Mole;
 
 impl IconShape for Mole {
     fn child_elements(&self) -> Element {
@@ -940,8 +940,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MountainClimbing {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MountainClimbing;
 
 impl IconShape for MountainClimbing {
     fn child_elements(&self) -> Element {
@@ -958,8 +958,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Ophanim {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Ophanim;
 
 impl IconShape for Ophanim {
     fn child_elements(&self) -> Element {
@@ -976,8 +976,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Orrery {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Orrery;
 
 impl IconShape for Orrery {
     fn child_elements(&self) -> Element {
@@ -994,8 +994,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Pangolin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Pangolin;
 
 impl IconShape for Pangolin {
     fn child_elements(&self) -> Element {
@@ -1012,8 +1012,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperBagCrumpled {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperBagCrumpled;
 
 impl IconShape for PaperBagCrumpled {
     fn child_elements(&self) -> Element {
@@ -1030,8 +1030,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperBagFolded {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperBagFolded;
 
 impl IconShape for PaperBagFolded {
     fn child_elements(&self) -> Element {
@@ -1048,8 +1048,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperBagOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperBagOpen;
 
 impl IconShape for PaperBagOpen {
     fn child_elements(&self) -> Element {
@@ -1066,8 +1066,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperCrane {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperCrane;
 
 impl IconShape for PaperCrane {
     fn child_elements(&self) -> Element {
@@ -1084,8 +1084,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperFrog {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperFrog;
 
 impl IconShape for PaperFrog {
     fn child_elements(&self) -> Element {
@@ -1102,8 +1102,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhilosopherBust {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhilosopherBust;
 
 impl IconShape for PhilosopherBust {
     fn child_elements(&self) -> Element {
@@ -1120,8 +1120,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Pianist {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Pianist;
 
 impl IconShape for Pianist {
     fn child_elements(&self) -> Element {
@@ -1138,8 +1138,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PipeOrgan {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PipeOrgan;
 
 impl IconShape for PipeOrgan {
     fn child_elements(&self) -> Element {
@@ -1156,8 +1156,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Porcupine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Porcupine;
 
 impl IconShape for Porcupine {
     fn child_elements(&self) -> Element {
@@ -1174,8 +1174,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrankGlasses {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrankGlasses;
 
 impl IconShape for PrankGlasses {
     fn child_elements(&self) -> Element {
@@ -1192,8 +1192,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PressureCooker {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PressureCooker;
 
 impl IconShape for PressureCooker {
     fn child_elements(&self) -> Element {
@@ -1210,8 +1210,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RiceCooker {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RiceCooker;
 
 impl IconShape for RiceCooker {
     fn child_elements(&self) -> Element {
@@ -1228,8 +1228,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Ricochet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Ricochet;
 
 impl IconShape for Ricochet {
     fn child_elements(&self) -> Element {
@@ -1246,8 +1246,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RollingSuitcase {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RollingSuitcase;
 
 impl IconShape for RollingSuitcase {
     fn child_elements(&self) -> Element {
@@ -1264,8 +1264,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RotaryPhone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RotaryPhone;
 
 impl IconShape for RotaryPhone {
     fn child_elements(&self) -> Element {
@@ -1282,8 +1282,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RoundPotion {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RoundPotion;
 
 impl IconShape for RoundPotion {
     fn child_elements(&self) -> Element {
@@ -1300,8 +1300,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Saucepan {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Saucepan;
 
 impl IconShape for Saucepan {
     fn child_elements(&self) -> Element {
@@ -1318,8 +1318,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SauropodSkeleton {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SauropodSkeleton;
 
 impl IconShape for SauropodSkeleton {
     fn child_elements(&self) -> Element {
@@ -1336,8 +1336,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SchrodingersCatAlive {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SchrodingersCatAlive;
 
 impl IconShape for SchrodingersCatAlive {
     fn child_elements(&self) -> Element {
@@ -1354,8 +1354,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SchrodingersCatDead {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SchrodingersCatDead;
 
 impl IconShape for SchrodingersCatDead {
     fn child_elements(&self) -> Element {
@@ -1372,8 +1372,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SewingMachine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SewingMachine;
 
 impl IconShape for SewingMachine {
     fn child_elements(&self) -> Element {
@@ -1390,8 +1390,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sink {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sink;
 
 impl IconShape for Sink {
     fn child_elements(&self) -> Element {
@@ -1408,8 +1408,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Skateboarding01 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Skateboarding01;
 
 impl IconShape for Skateboarding01 {
     fn child_elements(&self) -> Element {
@@ -1426,8 +1426,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Skateboarding02 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Skateboarding02;
 
 impl IconShape for Skateboarding02 {
     fn child_elements(&self) -> Element {
@@ -1444,8 +1444,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlotMachine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlotMachine;
 
 impl IconShape for SlotMachine {
     fn child_elements(&self) -> Element {
@@ -1462,8 +1462,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Sloth {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Sloth;
 
 impl IconShape for Sloth {
     fn child_elements(&self) -> Element {
@@ -1480,8 +1480,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SodaBottle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SodaBottle;
 
 impl IconShape for SodaBottle {
     fn child_elements(&self) -> Element {
@@ -1498,8 +1498,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SolderingIron {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SolderingIron;
 
 impl IconShape for SolderingIron {
     fn child_elements(&self) -> Element {
@@ -1516,8 +1516,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpinningWheel {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpinningWheel;
 
 impl IconShape for SpinningWheel {
     fn child_elements(&self) -> Element {
@@ -1534,8 +1534,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Stapler {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Stapler;
 
 impl IconShape for Stapler {
     fn child_elements(&self) -> Element {
@@ -1552,8 +1552,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StaplerHeavyDuty {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StaplerHeavyDuty;
 
 impl IconShape for StaplerHeavyDuty {
     fn child_elements(&self) -> Element {
@@ -1570,8 +1570,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StaplerPneumatic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StaplerPneumatic;
 
 impl IconShape for StaplerPneumatic {
     fn child_elements(&self) -> Element {
@@ -1588,8 +1588,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Steamroller {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Steamroller;
 
 impl IconShape for Steamroller {
     fn child_elements(&self) -> Element {
@@ -1606,8 +1606,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubwayPass {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubwayPass;
 
 impl IconShape for SubwayPass {
     fn child_elements(&self) -> Element {
@@ -1624,8 +1624,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubwayTrain {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubwayTrain;
 
 impl IconShape for SubwayTrain {
     fn child_elements(&self) -> Element {
@@ -1642,8 +1642,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot00TheFool {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot00TheFool;
 
 impl IconShape for Tarot00TheFool {
     fn child_elements(&self) -> Element {
@@ -1660,8 +1660,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot01TheMagician {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot01TheMagician;
 
 impl IconShape for Tarot01TheMagician {
     fn child_elements(&self) -> Element {
@@ -1678,8 +1678,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot02TheHighPriestess {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot02TheHighPriestess;
 
 impl IconShape for Tarot02TheHighPriestess {
     fn child_elements(&self) -> Element {
@@ -1696,8 +1696,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot03TheEmpress {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot03TheEmpress;
 
 impl IconShape for Tarot03TheEmpress {
     fn child_elements(&self) -> Element {
@@ -1714,8 +1714,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot04TheEmperor {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot04TheEmperor;
 
 impl IconShape for Tarot04TheEmperor {
     fn child_elements(&self) -> Element {
@@ -1732,8 +1732,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot05TheHierophant {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot05TheHierophant;
 
 impl IconShape for Tarot05TheHierophant {
     fn child_elements(&self) -> Element {
@@ -1750,8 +1750,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot06TheLovers {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot06TheLovers;
 
 impl IconShape for Tarot06TheLovers {
     fn child_elements(&self) -> Element {
@@ -1768,8 +1768,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot07TheChariot {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot07TheChariot;
 
 impl IconShape for Tarot07TheChariot {
     fn child_elements(&self) -> Element {
@@ -1786,8 +1786,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot08Strength {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot08Strength;
 
 impl IconShape for Tarot08Strength {
     fn child_elements(&self) -> Element {
@@ -1804,8 +1804,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot09TheHermit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot09TheHermit;
 
 impl IconShape for Tarot09TheHermit {
     fn child_elements(&self) -> Element {
@@ -1822,8 +1822,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot10WheelOfFortune {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot10WheelOfFortune;
 
 impl IconShape for Tarot10WheelOfFortune {
     fn child_elements(&self) -> Element {
@@ -1840,8 +1840,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot11Justice {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot11Justice;
 
 impl IconShape for Tarot11Justice {
     fn child_elements(&self) -> Element {
@@ -1858,8 +1858,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot12TheHangedMan {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot12TheHangedMan;
 
 impl IconShape for Tarot12TheHangedMan {
     fn child_elements(&self) -> Element {
@@ -1876,8 +1876,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot13Death {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot13Death;
 
 impl IconShape for Tarot13Death {
     fn child_elements(&self) -> Element {
@@ -1894,8 +1894,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot14Temperance {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot14Temperance;
 
 impl IconShape for Tarot14Temperance {
     fn child_elements(&self) -> Element {
@@ -1912,8 +1912,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot15TheDevil {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot15TheDevil;
 
 impl IconShape for Tarot15TheDevil {
     fn child_elements(&self) -> Element {
@@ -1930,8 +1930,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot16TheTower {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot16TheTower;
 
 impl IconShape for Tarot16TheTower {
     fn child_elements(&self) -> Element {
@@ -1948,8 +1948,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot17TheStar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot17TheStar;
 
 impl IconShape for Tarot17TheStar {
     fn child_elements(&self) -> Element {
@@ -1966,8 +1966,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot18TheMoon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot18TheMoon;
 
 impl IconShape for Tarot18TheMoon {
     fn child_elements(&self) -> Element {
@@ -1984,8 +1984,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot19TheSun {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot19TheSun;
 
 impl IconShape for Tarot19TheSun {
     fn child_elements(&self) -> Element {
@@ -2002,8 +2002,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot20Judgement {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot20Judgement;
 
 impl IconShape for Tarot20Judgement {
     fn child_elements(&self) -> Element {
@@ -2020,8 +2020,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tarot21TheWorld {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tarot21TheWorld;
 
 impl IconShape for Tarot21TheWorld {
     fn child_elements(&self) -> Element {
@@ -2038,8 +2038,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TeslaCoil {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TeslaCoil;
 
 impl IconShape for TeslaCoil {
     fn child_elements(&self) -> Element {
@@ -2056,8 +2056,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TestTubeHeld {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TestTubeHeld;
 
 impl IconShape for TestTubeHeld {
     fn child_elements(&self) -> Element {
@@ -2074,8 +2074,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TestTubeRack {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TestTubeRack;
 
 impl IconShape for TestTubeRack {
     fn child_elements(&self) -> Element {
@@ -2092,8 +2092,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Toothbrush {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Toothbrush;
 
 impl IconShape for Toothbrush {
     fn child_elements(&self) -> Element {
@@ -2110,8 +2110,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Treehouse {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Treehouse;
 
 impl IconShape for Treehouse {
     fn child_elements(&self) -> Element {
@@ -2128,8 +2128,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Trombone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Trombone;
 
 impl IconShape for Trombone {
     fn child_elements(&self) -> Element {
@@ -2146,8 +2146,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Tuba {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Tuba;
 
 impl IconShape for Tuba {
     fn child_elements(&self) -> Element {
@@ -2164,8 +2164,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VenusFlytrap {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VenusFlytrap;
 
 impl IconShape for VenusFlytrap {
     fn child_elements(&self) -> Element {
@@ -2182,8 +2182,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Vhs {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Vhs;
 
 impl IconShape for Vhs {
     fn child_elements(&self) -> Element {
@@ -2200,8 +2200,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WarlordHelmet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WarlordHelmet;
 
 impl IconShape for WarlordHelmet {
     fn child_elements(&self) -> Element {
@@ -2218,8 +2218,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaterMill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaterMill;
 
 impl IconShape for WaterMill {
     fn child_elements(&self) -> Element {
@@ -2236,8 +2236,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WillowTree {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WillowTree;
 
 impl IconShape for WillowTree {
     fn child_elements(&self) -> Element {
@@ -2254,8 +2254,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Windchimes {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Windchimes;
 
 impl IconShape for Windchimes {
     fn child_elements(&self) -> Element {
@@ -2272,8 +2272,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Wok {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Wok;
 
 impl IconShape for Wok {
     fn child_elements(&self) -> Element {

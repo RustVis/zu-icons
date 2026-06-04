@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArmoredPants {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArmoredPants;
 
 impl IconShape for ArmoredPants {
     fn child_elements(&self) -> Element {

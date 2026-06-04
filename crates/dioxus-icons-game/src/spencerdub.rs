@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DigitalTrace {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DigitalTrace;
 
 impl IconShape for DigitalTrace {
     fn child_elements(&self) -> Element {
