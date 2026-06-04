@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAddToQueue {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAddToQueue;
 
 impl IconShape for BxsAddToQueue {
     fn child_elements(&self) -> Element {
@@ -17,14 +17,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAdjust {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAdjust;
 
 impl IconShape for BxsAdjust {
     fn child_elements(&self) -> Element {
@@ -33,14 +33,14 @@ impl IconShape for BxsAdjust {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAdjustAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAdjustAlt;
 
 impl IconShape for BxsAdjustAlt {
     fn child_elements(&self) -> Element {
@@ -49,14 +49,14 @@ impl IconShape for BxsAdjustAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAlarm {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAlarm;
 
 impl IconShape for BxsAlarm {
     fn child_elements(&self) -> Element {
@@ -65,14 +65,14 @@ impl IconShape for BxsAlarm {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAlarmAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAlarmAdd;
 
 impl IconShape for BxsAlarmAdd {
     fn child_elements(&self) -> Element {
@@ -81,14 +81,14 @@ impl IconShape for BxsAlarmAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAlarmExclamation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAlarmExclamation;
 
 impl IconShape for BxsAlarmExclamation {
     fn child_elements(&self) -> Element {
@@ -97,14 +97,14 @@ impl IconShape for BxsAlarmExclamation {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAlarmOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAlarmOff;
 
 impl IconShape for BxsAlarmOff {
     fn child_elements(&self) -> Element {
@@ -113,14 +113,14 @@ impl IconShape for BxsAlarmOff {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAlarmSnooze {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAlarmSnooze;
 
 impl IconShape for BxsAlarmSnooze {
     fn child_elements(&self) -> Element {
@@ -129,14 +129,14 @@ impl IconShape for BxsAlarmSnooze {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAlbum {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAlbum;
 
 impl IconShape for BxsAlbum {
     fn child_elements(&self) -> Element {
@@ -145,14 +145,14 @@ impl IconShape for BxsAlbum {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAmbulance {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAmbulance;
 
 impl IconShape for BxsAmbulance {
     fn child_elements(&self) -> Element {
@@ -161,14 +161,14 @@ impl IconShape for BxsAmbulance {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAnalyse {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAnalyse;
 
 impl IconShape for BxsAnalyse {
     fn child_elements(&self) -> Element {
@@ -180,14 +180,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAngry {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAngry;
 
 impl IconShape for BxsAngry {
     fn child_elements(&self) -> Element {
@@ -196,14 +196,14 @@ impl IconShape for BxsAngry {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArch;
 
 impl IconShape for BxsArch {
     fn child_elements(&self) -> Element {
@@ -212,14 +212,14 @@ impl IconShape for BxsArch {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArchive {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArchive;
 
 impl IconShape for BxsArchive {
     fn child_elements(&self) -> Element {
@@ -228,14 +228,14 @@ impl IconShape for BxsArchive {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArchiveIn {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArchiveIn;
 
 impl IconShape for BxsArchiveIn {
     fn child_elements(&self) -> Element {
@@ -244,14 +244,14 @@ impl IconShape for BxsArchiveIn {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArchiveOut {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArchiveOut;
 
 impl IconShape for BxsArchiveOut {
     fn child_elements(&self) -> Element {
@@ -260,14 +260,14 @@ impl IconShape for BxsArchiveOut {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArea {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArea;
 
 impl IconShape for BxsArea {
     fn child_elements(&self) -> Element {
@@ -276,14 +276,14 @@ impl IconShape for BxsArea {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowFromBottom {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowFromBottom;
 
 impl IconShape for BxsArrowFromBottom {
     fn child_elements(&self) -> Element {
@@ -292,14 +292,14 @@ impl IconShape for BxsArrowFromBottom {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowFromLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowFromLeft;
 
 impl IconShape for BxsArrowFromLeft {
     fn child_elements(&self) -> Element {
@@ -308,14 +308,14 @@ impl IconShape for BxsArrowFromLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowFromRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowFromRight;
 
 impl IconShape for BxsArrowFromRight {
     fn child_elements(&self) -> Element {
@@ -324,14 +324,14 @@ impl IconShape for BxsArrowFromRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowFromTop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowFromTop;
 
 impl IconShape for BxsArrowFromTop {
     fn child_elements(&self) -> Element {
@@ -340,14 +340,14 @@ impl IconShape for BxsArrowFromTop {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowToBottom {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowToBottom;
 
 impl IconShape for BxsArrowToBottom {
     fn child_elements(&self) -> Element {
@@ -356,14 +356,14 @@ impl IconShape for BxsArrowToBottom {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowToLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowToLeft;
 
 impl IconShape for BxsArrowToLeft {
     fn child_elements(&self) -> Element {
@@ -372,14 +372,14 @@ impl IconShape for BxsArrowToLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowToRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowToRight;
 
 impl IconShape for BxsArrowToRight {
     fn child_elements(&self) -> Element {
@@ -388,14 +388,14 @@ impl IconShape for BxsArrowToRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsArrowToTop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsArrowToTop;
 
 impl IconShape for BxsArrowToTop {
     fn child_elements(&self) -> Element {
@@ -404,14 +404,14 @@ impl IconShape for BxsArrowToTop {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsAward {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsAward;
 
 impl IconShape for BxsAward {
     fn child_elements(&self) -> Element {
@@ -420,14 +420,14 @@ impl IconShape for BxsAward {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBabyCarriage {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBabyCarriage;
 
 impl IconShape for BxsBabyCarriage {
     fn child_elements(&self) -> Element {
@@ -436,14 +436,14 @@ impl IconShape for BxsBabyCarriage {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBackpack {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBackpack;
 
 impl IconShape for BxsBackpack {
     fn child_elements(&self) -> Element {
@@ -455,14 +455,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBadge {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBadge;
 
 impl IconShape for BxsBadge {
     fn child_elements(&self) -> Element {
@@ -471,14 +471,14 @@ impl IconShape for BxsBadge {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBadgeCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBadgeCheck;
 
 impl IconShape for BxsBadgeCheck {
     fn child_elements(&self) -> Element {
@@ -487,14 +487,14 @@ impl IconShape for BxsBadgeCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBadgeDollar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBadgeDollar;
 
 impl IconShape for BxsBadgeDollar {
     fn child_elements(&self) -> Element {
@@ -503,14 +503,14 @@ impl IconShape for BxsBadgeDollar {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBaguette {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBaguette;
 
 impl IconShape for BxsBaguette {
     fn child_elements(&self) -> Element {
@@ -519,14 +519,14 @@ impl IconShape for BxsBaguette {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBall {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBall;
 
 impl IconShape for BxsBall {
     fn child_elements(&self) -> Element {
@@ -535,14 +535,14 @@ impl IconShape for BxsBall {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBalloon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBalloon;
 
 impl IconShape for BxsBalloon {
     fn child_elements(&self) -> Element {
@@ -551,14 +551,14 @@ impl IconShape for BxsBalloon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBandAid {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBandAid;
 
 impl IconShape for BxsBandAid {
     fn child_elements(&self) -> Element {
@@ -567,14 +567,14 @@ impl IconShape for BxsBandAid {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBank {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBank;
 
 impl IconShape for BxsBank {
     fn child_elements(&self) -> Element {
@@ -583,14 +583,14 @@ impl IconShape for BxsBank {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBarChartAlt2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBarChartAlt2;
 
 impl IconShape for BxsBarChartAlt2 {
     fn child_elements(&self) -> Element {
@@ -599,14 +599,14 @@ impl IconShape for BxsBarChartAlt2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBarChartSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBarChartSquare;
 
 impl IconShape for BxsBarChartSquare {
     fn child_elements(&self) -> Element {
@@ -615,14 +615,14 @@ impl IconShape for BxsBarChartSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBarcode {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBarcode;
 
 impl IconShape for BxsBarcode {
     fn child_elements(&self) -> Element {
@@ -631,14 +631,14 @@ impl IconShape for BxsBarcode {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBaseball {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBaseball;
 
 impl IconShape for BxsBaseball {
     fn child_elements(&self) -> Element {
@@ -647,14 +647,14 @@ impl IconShape for BxsBaseball {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBasket {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBasket;
 
 impl IconShape for BxsBasket {
     fn child_elements(&self) -> Element {
@@ -663,14 +663,14 @@ impl IconShape for BxsBasket {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBasketball {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBasketball;
 
 impl IconShape for BxsBasketball {
     fn child_elements(&self) -> Element {
@@ -679,14 +679,14 @@ impl IconShape for BxsBasketball {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBath {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBath;
 
 impl IconShape for BxsBath {
     fn child_elements(&self) -> Element {
@@ -695,14 +695,14 @@ impl IconShape for BxsBath {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBattery {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBattery;
 
 impl IconShape for BxsBattery {
     fn child_elements(&self) -> Element {
@@ -711,14 +711,14 @@ impl IconShape for BxsBattery {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBatteryCharging {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBatteryCharging;
 
 impl IconShape for BxsBatteryCharging {
     fn child_elements(&self) -> Element {
@@ -727,14 +727,14 @@ impl IconShape for BxsBatteryCharging {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBatteryFull {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBatteryFull;
 
 impl IconShape for BxsBatteryFull {
     fn child_elements(&self) -> Element {
@@ -743,14 +743,14 @@ impl IconShape for BxsBatteryFull {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBatteryLow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBatteryLow;
 
 impl IconShape for BxsBatteryLow {
     fn child_elements(&self) -> Element {
@@ -759,14 +759,14 @@ impl IconShape for BxsBatteryLow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBed {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBed;
 
 impl IconShape for BxsBed {
     fn child_elements(&self) -> Element {
@@ -775,14 +775,14 @@ impl IconShape for BxsBed {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBeenHere {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBeenHere;
 
 impl IconShape for BxsBeenHere {
     fn child_elements(&self) -> Element {
@@ -791,14 +791,14 @@ impl IconShape for BxsBeenHere {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBeer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBeer;
 
 impl IconShape for BxsBeer {
     fn child_elements(&self) -> Element {
@@ -807,14 +807,14 @@ impl IconShape for BxsBeer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBell {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBell;
 
 impl IconShape for BxsBell {
     fn child_elements(&self) -> Element {
@@ -823,14 +823,14 @@ impl IconShape for BxsBell {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBellMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBellMinus;
 
 impl IconShape for BxsBellMinus {
     fn child_elements(&self) -> Element {
@@ -839,14 +839,14 @@ impl IconShape for BxsBellMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBellOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBellOff;
 
 impl IconShape for BxsBellOff {
     fn child_elements(&self) -> Element {
@@ -855,14 +855,14 @@ impl IconShape for BxsBellOff {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBellPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBellPlus;
 
 impl IconShape for BxsBellPlus {
     fn child_elements(&self) -> Element {
@@ -871,14 +871,14 @@ impl IconShape for BxsBellPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBellRing {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBellRing;
 
 impl IconShape for BxsBellRing {
     fn child_elements(&self) -> Element {
@@ -887,14 +887,14 @@ impl IconShape for BxsBellRing {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBible {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBible;
 
 impl IconShape for BxsBible {
     fn child_elements(&self) -> Element {
@@ -903,14 +903,14 @@ impl IconShape for BxsBible {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBinoculars {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBinoculars;
 
 impl IconShape for BxsBinoculars {
     fn child_elements(&self) -> Element {
@@ -919,14 +919,14 @@ impl IconShape for BxsBinoculars {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBlanket {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBlanket;
 
 impl IconShape for BxsBlanket {
     fn child_elements(&self) -> Element {
@@ -935,14 +935,14 @@ impl IconShape for BxsBlanket {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBolt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBolt;
 
 impl IconShape for BxsBolt {
     fn child_elements(&self) -> Element {
@@ -951,14 +951,14 @@ impl IconShape for BxsBolt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBoltCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBoltCircle;
 
 impl IconShape for BxsBoltCircle {
     fn child_elements(&self) -> Element {
@@ -967,14 +967,14 @@ impl IconShape for BxsBoltCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBomb {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBomb;
 
 impl IconShape for BxsBomb {
     fn child_elements(&self) -> Element {
@@ -983,14 +983,14 @@ impl IconShape for BxsBomb {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBone;
 
 impl IconShape for BxsBone {
     fn child_elements(&self) -> Element {
@@ -999,14 +999,14 @@ impl IconShape for BxsBone {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBong {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBong;
 
 impl IconShape for BxsBong {
     fn child_elements(&self) -> Element {
@@ -1015,14 +1015,14 @@ impl IconShape for BxsBong {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBook {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBook;
 
 impl IconShape for BxsBook {
     fn child_elements(&self) -> Element {
@@ -1031,14 +1031,14 @@ impl IconShape for BxsBook {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookAdd;
 
 impl IconShape for BxsBookAdd {
     fn child_elements(&self) -> Element {
@@ -1047,14 +1047,14 @@ impl IconShape for BxsBookAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookAlt;
 
 impl IconShape for BxsBookAlt {
     fn child_elements(&self) -> Element {
@@ -1063,14 +1063,14 @@ impl IconShape for BxsBookAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookBookmark {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookBookmark;
 
 impl IconShape for BxsBookBookmark {
     fn child_elements(&self) -> Element {
@@ -1079,14 +1079,14 @@ impl IconShape for BxsBookBookmark {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookContent {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookContent;
 
 impl IconShape for BxsBookContent {
     fn child_elements(&self) -> Element {
@@ -1095,14 +1095,14 @@ impl IconShape for BxsBookContent {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookHeart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookHeart;
 
 impl IconShape for BxsBookHeart {
     fn child_elements(&self) -> Element {
@@ -1111,14 +1111,14 @@ impl IconShape for BxsBookHeart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookOpen;
 
 impl IconShape for BxsBookOpen {
     fn child_elements(&self) -> Element {
@@ -1127,14 +1127,14 @@ impl IconShape for BxsBookOpen {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookReader {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookReader;
 
 impl IconShape for BxsBookReader {
     fn child_elements(&self) -> Element {
@@ -1148,14 +1148,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmark {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmark;
 
 impl IconShape for BxsBookmark {
     fn child_elements(&self) -> Element {
@@ -1164,14 +1164,14 @@ impl IconShape for BxsBookmark {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkAlt;
 
 impl IconShape for BxsBookmarkAlt {
     fn child_elements(&self) -> Element {
@@ -1180,14 +1180,14 @@ impl IconShape for BxsBookmarkAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkAltMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkAltMinus;
 
 impl IconShape for BxsBookmarkAltMinus {
     fn child_elements(&self) -> Element {
@@ -1196,14 +1196,14 @@ impl IconShape for BxsBookmarkAltMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkAltPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkAltPlus;
 
 impl IconShape for BxsBookmarkAltPlus {
     fn child_elements(&self) -> Element {
@@ -1212,14 +1212,14 @@ impl IconShape for BxsBookmarkAltPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkHeart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkHeart;
 
 impl IconShape for BxsBookmarkHeart {
     fn child_elements(&self) -> Element {
@@ -1228,14 +1228,14 @@ impl IconShape for BxsBookmarkHeart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkMinus;
 
 impl IconShape for BxsBookmarkMinus {
     fn child_elements(&self) -> Element {
@@ -1244,14 +1244,14 @@ impl IconShape for BxsBookmarkMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkPlus;
 
 impl IconShape for BxsBookmarkPlus {
     fn child_elements(&self) -> Element {
@@ -1260,14 +1260,14 @@ impl IconShape for BxsBookmarkPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarkStar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarkStar;
 
 impl IconShape for BxsBookmarkStar {
     fn child_elements(&self) -> Element {
@@ -1279,14 +1279,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBookmarks {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBookmarks;
 
 impl IconShape for BxsBookmarks {
     fn child_elements(&self) -> Element {
@@ -1298,14 +1298,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBot {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBot;
 
 impl IconShape for BxsBot {
     fn child_elements(&self) -> Element {
@@ -1314,14 +1314,14 @@ impl IconShape for BxsBot {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBowlHot {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBowlHot;
 
 impl IconShape for BxsBowlHot {
     fn child_elements(&self) -> Element {
@@ -1330,14 +1330,14 @@ impl IconShape for BxsBowlHot {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBowlRice {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBowlRice;
 
 impl IconShape for BxsBowlRice {
     fn child_elements(&self) -> Element {
@@ -1346,14 +1346,14 @@ impl IconShape for BxsBowlRice {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBowlingBall {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBowlingBall;
 
 impl IconShape for BxsBowlingBall {
     fn child_elements(&self) -> Element {
@@ -1362,14 +1362,14 @@ impl IconShape for BxsBowlingBall {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBox;
 
 impl IconShape for BxsBox {
     fn child_elements(&self) -> Element {
@@ -1378,14 +1378,14 @@ impl IconShape for BxsBox {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBrain {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBrain;
 
 impl IconShape for BxsBrain {
     fn child_elements(&self) -> Element {
@@ -1394,14 +1394,14 @@ impl IconShape for BxsBrain {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBriefcase {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBriefcase;
 
 impl IconShape for BxsBriefcase {
     fn child_elements(&self) -> Element {
@@ -1410,14 +1410,14 @@ impl IconShape for BxsBriefcase {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBriefcaseAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBriefcaseAlt;
 
 impl IconShape for BxsBriefcaseAlt {
     fn child_elements(&self) -> Element {
@@ -1426,14 +1426,14 @@ impl IconShape for BxsBriefcaseAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBriefcaseAlt2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBriefcaseAlt2;
 
 impl IconShape for BxsBriefcaseAlt2 {
     fn child_elements(&self) -> Element {
@@ -1442,14 +1442,14 @@ impl IconShape for BxsBriefcaseAlt2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBrightness {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBrightness;
 
 impl IconShape for BxsBrightness {
     fn child_elements(&self) -> Element {
@@ -1458,14 +1458,14 @@ impl IconShape for BxsBrightness {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBrightnessHalf {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBrightnessHalf;
 
 impl IconShape for BxsBrightnessHalf {
     fn child_elements(&self) -> Element {
@@ -1474,14 +1474,14 @@ impl IconShape for BxsBrightnessHalf {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBrush {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBrush;
 
 impl IconShape for BxsBrush {
     fn child_elements(&self) -> Element {
@@ -1490,14 +1490,14 @@ impl IconShape for BxsBrush {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBrushAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBrushAlt;
 
 impl IconShape for BxsBrushAlt {
     fn child_elements(&self) -> Element {
@@ -1506,14 +1506,14 @@ impl IconShape for BxsBrushAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBug {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBug;
 
 impl IconShape for BxsBug {
     fn child_elements(&self) -> Element {
@@ -1522,14 +1522,14 @@ impl IconShape for BxsBug {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBugAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBugAlt;
 
 impl IconShape for BxsBugAlt {
     fn child_elements(&self) -> Element {
@@ -1538,14 +1538,14 @@ impl IconShape for BxsBugAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBuilding {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBuilding;
 
 impl IconShape for BxsBuilding {
     fn child_elements(&self) -> Element {
@@ -1554,14 +1554,14 @@ impl IconShape for BxsBuilding {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBuildingHouse {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBuildingHouse;
 
 impl IconShape for BxsBuildingHouse {
     fn child_elements(&self) -> Element {
@@ -1573,14 +1573,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBuildings {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBuildings;
 
 impl IconShape for BxsBuildings {
     fn child_elements(&self) -> Element {
@@ -1592,14 +1592,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBulb {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBulb;
 
 impl IconShape for BxsBulb {
     fn child_elements(&self) -> Element {
@@ -1608,14 +1608,14 @@ impl IconShape for BxsBulb {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBullseye {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBullseye;
 
 impl IconShape for BxsBullseye {
     fn child_elements(&self) -> Element {
@@ -1627,14 +1627,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBuoy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBuoy;
 
 impl IconShape for BxsBuoy {
     fn child_elements(&self) -> Element {
@@ -1643,14 +1643,14 @@ impl IconShape for BxsBuoy {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBus;
 
 impl IconShape for BxsBus {
     fn child_elements(&self) -> Element {
@@ -1659,14 +1659,14 @@ impl IconShape for BxsBus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBusSchool {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBusSchool;
 
 impl IconShape for BxsBusSchool {
     fn child_elements(&self) -> Element {
@@ -1675,14 +1675,14 @@ impl IconShape for BxsBusSchool {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsBusiness {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsBusiness;
 
 impl IconShape for BxsBusiness {
     fn child_elements(&self) -> Element {
@@ -1691,14 +1691,14 @@ impl IconShape for BxsBusiness {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCabinet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCabinet;
 
 impl IconShape for BxsCabinet {
     fn child_elements(&self) -> Element {
@@ -1707,14 +1707,14 @@ impl IconShape for BxsCabinet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCableCar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCableCar;
 
 impl IconShape for BxsCableCar {
     fn child_elements(&self) -> Element {
@@ -1723,14 +1723,14 @@ impl IconShape for BxsCableCar {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCake {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCake;
 
 impl IconShape for BxsCake {
     fn child_elements(&self) -> Element {
@@ -1739,14 +1739,14 @@ impl IconShape for BxsCake {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalculator {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalculator;
 
 impl IconShape for BxsCalculator {
     fn child_elements(&self) -> Element {
@@ -1755,14 +1755,14 @@ impl IconShape for BxsCalculator {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendar;
 
 impl IconShape for BxsCalendar {
     fn child_elements(&self) -> Element {
@@ -1771,14 +1771,14 @@ impl IconShape for BxsCalendar {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarAlt;
 
 impl IconShape for BxsCalendarAlt {
     fn child_elements(&self) -> Element {
@@ -1787,14 +1787,14 @@ impl IconShape for BxsCalendarAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarCheck;
 
 impl IconShape for BxsCalendarCheck {
     fn child_elements(&self) -> Element {
@@ -1803,14 +1803,14 @@ impl IconShape for BxsCalendarCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarEdit;
 
 impl IconShape for BxsCalendarEdit {
     fn child_elements(&self) -> Element {
@@ -1819,14 +1819,14 @@ impl IconShape for BxsCalendarEdit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarEvent {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarEvent;
 
 impl IconShape for BxsCalendarEvent {
     fn child_elements(&self) -> Element {
@@ -1835,14 +1835,14 @@ impl IconShape for BxsCalendarEvent {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarExclamation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarExclamation;
 
 impl IconShape for BxsCalendarExclamation {
     fn child_elements(&self) -> Element {
@@ -1851,14 +1851,14 @@ impl IconShape for BxsCalendarExclamation {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarHeart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarHeart;
 
 impl IconShape for BxsCalendarHeart {
     fn child_elements(&self) -> Element {
@@ -1867,14 +1867,14 @@ impl IconShape for BxsCalendarHeart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarMinus;
 
 impl IconShape for BxsCalendarMinus {
     fn child_elements(&self) -> Element {
@@ -1883,14 +1883,14 @@ impl IconShape for BxsCalendarMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarPlus;
 
 impl IconShape for BxsCalendarPlus {
     fn child_elements(&self) -> Element {
@@ -1899,14 +1899,14 @@ impl IconShape for BxsCalendarPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarStar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarStar;
 
 impl IconShape for BxsCalendarStar {
     fn child_elements(&self) -> Element {
@@ -1915,14 +1915,14 @@ impl IconShape for BxsCalendarStar {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarWeek {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarWeek;
 
 impl IconShape for BxsCalendarWeek {
     fn child_elements(&self) -> Element {
@@ -1931,14 +1931,14 @@ impl IconShape for BxsCalendarWeek {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCalendarX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCalendarX;
 
 impl IconShape for BxsCalendarX {
     fn child_elements(&self) -> Element {
@@ -1947,14 +1947,14 @@ impl IconShape for BxsCalendarX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCamera {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCamera;
 
 impl IconShape for BxsCamera {
     fn child_elements(&self) -> Element {
@@ -1966,14 +1966,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCameraHome {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCameraHome;
 
 impl IconShape for BxsCameraHome {
     fn child_elements(&self) -> Element {
@@ -1987,14 +1987,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCameraMovie {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCameraMovie;
 
 impl IconShape for BxsCameraMovie {
     fn child_elements(&self) -> Element {
@@ -2003,14 +2003,14 @@ impl IconShape for BxsCameraMovie {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCameraOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCameraOff;
 
 impl IconShape for BxsCameraOff {
     fn child_elements(&self) -> Element {
@@ -2019,14 +2019,14 @@ impl IconShape for BxsCameraOff {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCameraPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCameraPlus;
 
 impl IconShape for BxsCameraPlus {
     fn child_elements(&self) -> Element {
@@ -2038,14 +2038,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCapsule {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCapsule;
 
 impl IconShape for BxsCapsule {
     fn child_elements(&self) -> Element {
@@ -2054,14 +2054,14 @@ impl IconShape for BxsCapsule {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaptions {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaptions;
 
 impl IconShape for BxsCaptions {
     fn child_elements(&self) -> Element {
@@ -2070,14 +2070,14 @@ impl IconShape for BxsCaptions {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCar;
 
 impl IconShape for BxsCar {
     fn child_elements(&self) -> Element {
@@ -2086,14 +2086,14 @@ impl IconShape for BxsCar {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCarBattery {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCarBattery;
 
 impl IconShape for BxsCarBattery {
     fn child_elements(&self) -> Element {
@@ -2102,14 +2102,14 @@ impl IconShape for BxsCarBattery {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCarCrash {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCarCrash;
 
 impl IconShape for BxsCarCrash {
     fn child_elements(&self) -> Element {
@@ -2118,14 +2118,14 @@ impl IconShape for BxsCarCrash {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCarGarage {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCarGarage;
 
 impl IconShape for BxsCarGarage {
     fn child_elements(&self) -> Element {
@@ -2137,14 +2137,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCarMechanic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCarMechanic;
 
 impl IconShape for BxsCarMechanic {
     fn child_elements(&self) -> Element {
@@ -2153,14 +2153,14 @@ impl IconShape for BxsCarMechanic {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCarWash {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCarWash;
 
 impl IconShape for BxsCarWash {
     fn child_elements(&self) -> Element {
@@ -2169,14 +2169,14 @@ impl IconShape for BxsCarWash {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCard;
 
 impl IconShape for BxsCard {
     fn child_elements(&self) -> Element {
@@ -2185,14 +2185,14 @@ impl IconShape for BxsCard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretDownCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretDownCircle;
 
 impl IconShape for BxsCaretDownCircle {
     fn child_elements(&self) -> Element {
@@ -2201,14 +2201,14 @@ impl IconShape for BxsCaretDownCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretDownSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretDownSquare;
 
 impl IconShape for BxsCaretDownSquare {
     fn child_elements(&self) -> Element {
@@ -2217,14 +2217,14 @@ impl IconShape for BxsCaretDownSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretLeftCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretLeftCircle;
 
 impl IconShape for BxsCaretLeftCircle {
     fn child_elements(&self) -> Element {
@@ -2233,14 +2233,14 @@ impl IconShape for BxsCaretLeftCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretLeftSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretLeftSquare;
 
 impl IconShape for BxsCaretLeftSquare {
     fn child_elements(&self) -> Element {
@@ -2249,14 +2249,14 @@ impl IconShape for BxsCaretLeftSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretRightCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretRightCircle;
 
 impl IconShape for BxsCaretRightCircle {
     fn child_elements(&self) -> Element {
@@ -2265,14 +2265,14 @@ impl IconShape for BxsCaretRightCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretRightSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretRightSquare;
 
 impl IconShape for BxsCaretRightSquare {
     fn child_elements(&self) -> Element {
@@ -2281,14 +2281,14 @@ impl IconShape for BxsCaretRightSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretUpCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretUpCircle;
 
 impl IconShape for BxsCaretUpCircle {
     fn child_elements(&self) -> Element {
@@ -2297,14 +2297,14 @@ impl IconShape for BxsCaretUpCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCaretUpSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCaretUpSquare;
 
 impl IconShape for BxsCaretUpSquare {
     fn child_elements(&self) -> Element {
@@ -2313,14 +2313,14 @@ impl IconShape for BxsCaretUpSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCarousel {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCarousel;
 
 impl IconShape for BxsCarousel {
     fn child_elements(&self) -> Element {
@@ -2329,14 +2329,14 @@ impl IconShape for BxsCarousel {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCart;
 
 impl IconShape for BxsCart {
     fn child_elements(&self) -> Element {
@@ -2355,14 +2355,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCartAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCartAdd;
 
 impl IconShape for BxsCartAdd {
     fn child_elements(&self) -> Element {
@@ -2381,14 +2381,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCartAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCartAlt;
 
 impl IconShape for BxsCartAlt {
     fn child_elements(&self) -> Element {
@@ -2407,14 +2407,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCartDownload {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCartDownload;
 
 impl IconShape for BxsCartDownload {
     fn child_elements(&self) -> Element {
@@ -2433,14 +2433,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCastle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCastle;
 
 impl IconShape for BxsCastle {
     fn child_elements(&self) -> Element {
@@ -2449,14 +2449,14 @@ impl IconShape for BxsCastle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCat {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCat;
 
 impl IconShape for BxsCat {
     fn child_elements(&self) -> Element {
@@ -2468,14 +2468,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCategory {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCategory;
 
 impl IconShape for BxsCategory {
     fn child_elements(&self) -> Element {
@@ -2484,14 +2484,14 @@ impl IconShape for BxsCategory {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCategoryAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCategoryAlt;
 
 impl IconShape for BxsCategoryAlt {
     fn child_elements(&self) -> Element {
@@ -2500,14 +2500,14 @@ impl IconShape for BxsCategoryAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCctv {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCctv;
 
 impl IconShape for BxsCctv {
     fn child_elements(&self) -> Element {
@@ -2516,14 +2516,14 @@ impl IconShape for BxsCctv {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCertification {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCertification;
 
 impl IconShape for BxsCertification {
     fn child_elements(&self) -> Element {
@@ -2532,14 +2532,14 @@ impl IconShape for BxsCertification {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChalkboard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChalkboard;
 
 impl IconShape for BxsChalkboard {
     fn child_elements(&self) -> Element {
@@ -2548,14 +2548,14 @@ impl IconShape for BxsChalkboard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChart;
 
 impl IconShape for BxsChart {
     fn child_elements(&self) -> Element {
@@ -2564,14 +2564,14 @@ impl IconShape for BxsChart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChat {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChat;
 
 impl IconShape for BxsChat {
     fn child_elements(&self) -> Element {
@@ -2583,14 +2583,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheckCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheckCircle;
 
 impl IconShape for BxsCheckCircle {
     fn child_elements(&self) -> Element {
@@ -2599,14 +2599,14 @@ impl IconShape for BxsCheckCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheckShield {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheckShield;
 
 impl IconShape for BxsCheckShield {
     fn child_elements(&self) -> Element {
@@ -2615,14 +2615,14 @@ impl IconShape for BxsCheckShield {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheckSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheckSquare;
 
 impl IconShape for BxsCheckSquare {
     fn child_elements(&self) -> Element {
@@ -2631,14 +2631,14 @@ impl IconShape for BxsCheckSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheckbox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheckbox;
 
 impl IconShape for BxsCheckbox {
     fn child_elements(&self) -> Element {
@@ -2647,14 +2647,14 @@ impl IconShape for BxsCheckbox {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheckboxChecked {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheckboxChecked;
 
 impl IconShape for BxsCheckboxChecked {
     fn child_elements(&self) -> Element {
@@ -2663,14 +2663,14 @@ impl IconShape for BxsCheckboxChecked {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheckboxMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheckboxMinus;
 
 impl IconShape for BxsCheckboxMinus {
     fn child_elements(&self) -> Element {
@@ -2679,14 +2679,14 @@ impl IconShape for BxsCheckboxMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCheese {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCheese;
 
 impl IconShape for BxsCheese {
     fn child_elements(&self) -> Element {
@@ -2695,14 +2695,14 @@ impl IconShape for BxsCheese {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChess {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChess;
 
 impl IconShape for BxsChess {
     fn child_elements(&self) -> Element {
@@ -2714,14 +2714,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronDown;
 
 impl IconShape for BxsChevronDown {
     fn child_elements(&self) -> Element {
@@ -2730,14 +2730,14 @@ impl IconShape for BxsChevronDown {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronDownCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronDownCircle;
 
 impl IconShape for BxsChevronDownCircle {
     fn child_elements(&self) -> Element {
@@ -2746,14 +2746,14 @@ impl IconShape for BxsChevronDownCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronDownSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronDownSquare;
 
 impl IconShape for BxsChevronDownSquare {
     fn child_elements(&self) -> Element {
@@ -2762,14 +2762,14 @@ impl IconShape for BxsChevronDownSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronLeft;
 
 impl IconShape for BxsChevronLeft {
     fn child_elements(&self) -> Element {
@@ -2778,14 +2778,14 @@ impl IconShape for BxsChevronLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronLeftCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronLeftCircle;
 
 impl IconShape for BxsChevronLeftCircle {
     fn child_elements(&self) -> Element {
@@ -2794,14 +2794,14 @@ impl IconShape for BxsChevronLeftCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronLeftSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronLeftSquare;
 
 impl IconShape for BxsChevronLeftSquare {
     fn child_elements(&self) -> Element {
@@ -2810,14 +2810,14 @@ impl IconShape for BxsChevronLeftSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronRight;
 
 impl IconShape for BxsChevronRight {
     fn child_elements(&self) -> Element {
@@ -2826,14 +2826,14 @@ impl IconShape for BxsChevronRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronRightCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronRightCircle;
 
 impl IconShape for BxsChevronRightCircle {
     fn child_elements(&self) -> Element {
@@ -2842,14 +2842,14 @@ impl IconShape for BxsChevronRightCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronRightSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronRightSquare;
 
 impl IconShape for BxsChevronRightSquare {
     fn child_elements(&self) -> Element {
@@ -2858,14 +2858,14 @@ impl IconShape for BxsChevronRightSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronUp;
 
 impl IconShape for BxsChevronUp {
     fn child_elements(&self) -> Element {
@@ -2874,14 +2874,14 @@ impl IconShape for BxsChevronUp {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronUpCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronUpCircle;
 
 impl IconShape for BxsChevronUpCircle {
     fn child_elements(&self) -> Element {
@@ -2890,14 +2890,14 @@ impl IconShape for BxsChevronUpCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronUpSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronUpSquare;
 
 impl IconShape for BxsChevronUpSquare {
     fn child_elements(&self) -> Element {
@@ -2906,14 +2906,14 @@ impl IconShape for BxsChevronUpSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronsDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronsDown;
 
 impl IconShape for BxsChevronsDown {
     fn child_elements(&self) -> Element {
@@ -2925,14 +2925,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronsLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronsLeft;
 
 impl IconShape for BxsChevronsLeft {
     fn child_elements(&self) -> Element {
@@ -2944,14 +2944,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronsRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronsRight;
 
 impl IconShape for BxsChevronsRight {
     fn child_elements(&self) -> Element {
@@ -2963,14 +2963,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChevronsUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChevronsUp;
 
 impl IconShape for BxsChevronsUp {
     fn child_elements(&self) -> Element {
@@ -2982,14 +2982,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChip {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChip;
 
 impl IconShape for BxsChip {
     fn child_elements(&self) -> Element {
@@ -2998,14 +2998,14 @@ impl IconShape for BxsChip {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsChurch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsChurch;
 
 impl IconShape for BxsChurch {
     fn child_elements(&self) -> Element {
@@ -3014,14 +3014,14 @@ impl IconShape for BxsChurch {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCircle;
 
 impl IconShape for BxsCircle {
     fn child_elements(&self) -> Element {
@@ -3030,14 +3030,14 @@ impl IconShape for BxsCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCircleHalf {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCircleHalf;
 
 impl IconShape for BxsCircleHalf {
     fn child_elements(&self) -> Element {
@@ -3046,14 +3046,14 @@ impl IconShape for BxsCircleHalf {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCircleQuarter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCircleQuarter;
 
 impl IconShape for BxsCircleQuarter {
     fn child_elements(&self) -> Element {
@@ -3062,14 +3062,14 @@ impl IconShape for BxsCircleQuarter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCircleThreeQuarter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCircleThreeQuarter;
 
 impl IconShape for BxsCircleThreeQuarter {
     fn child_elements(&self) -> Element {
@@ -3078,14 +3078,14 @@ impl IconShape for BxsCircleThreeQuarter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCity {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCity;
 
 impl IconShape for BxsCity {
     fn child_elements(&self) -> Element {
@@ -3094,14 +3094,14 @@ impl IconShape for BxsCity {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsClinic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsClinic;
 
 impl IconShape for BxsClinic {
     fn child_elements(&self) -> Element {
@@ -3110,14 +3110,14 @@ impl IconShape for BxsClinic {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCloud {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCloud;
 
 impl IconShape for BxsCloud {
     fn child_elements(&self) -> Element {
@@ -3126,14 +3126,14 @@ impl IconShape for BxsCloud {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCloudDownload {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCloudDownload;
 
 impl IconShape for BxsCloudDownload {
     fn child_elements(&self) -> Element {
@@ -3142,14 +3142,14 @@ impl IconShape for BxsCloudDownload {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCloudLightning {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCloudLightning;
 
 impl IconShape for BxsCloudLightning {
     fn child_elements(&self) -> Element {
@@ -3158,14 +3158,14 @@ impl IconShape for BxsCloudLightning {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCloudRain {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCloudRain;
 
 impl IconShape for BxsCloudRain {
     fn child_elements(&self) -> Element {
@@ -3177,14 +3177,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCloudUpload {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCloudUpload;
 
 impl IconShape for BxsCloudUpload {
     fn child_elements(&self) -> Element {
@@ -3193,14 +3193,14 @@ impl IconShape for BxsCloudUpload {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoffee {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoffee;
 
 impl IconShape for BxsCoffee {
     fn child_elements(&self) -> Element {
@@ -3209,14 +3209,14 @@ impl IconShape for BxsCoffee {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoffeeAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoffeeAlt;
 
 impl IconShape for BxsCoffeeAlt {
     fn child_elements(&self) -> Element {
@@ -3225,14 +3225,14 @@ impl IconShape for BxsCoffeeAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoffeeBean {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoffeeBean;
 
 impl IconShape for BxsCoffeeBean {
     fn child_elements(&self) -> Element {
@@ -3244,14 +3244,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoffeeTogo {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoffeeTogo;
 
 impl IconShape for BxsCoffeeTogo {
     fn child_elements(&self) -> Element {
@@ -3260,14 +3260,14 @@ impl IconShape for BxsCoffeeTogo {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCog {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCog;
 
 impl IconShape for BxsCog {
     fn child_elements(&self) -> Element {
@@ -3276,14 +3276,14 @@ impl IconShape for BxsCog {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoin;
 
 impl IconShape for BxsCoin {
     fn child_elements(&self) -> Element {
@@ -3292,14 +3292,14 @@ impl IconShape for BxsCoin {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoinStack {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoinStack;
 
 impl IconShape for BxsCoinStack {
     fn child_elements(&self) -> Element {
@@ -3317,14 +3317,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCollection {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCollection;
 
 impl IconShape for BxsCollection {
     fn child_elements(&self) -> Element {
@@ -3333,14 +3333,14 @@ impl IconShape for BxsCollection {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsColor {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsColor;
 
 impl IconShape for BxsColor {
     fn child_elements(&self) -> Element {
@@ -3349,14 +3349,14 @@ impl IconShape for BxsColor {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsColorFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsColorFill;
 
 impl IconShape for BxsColorFill {
     fn child_elements(&self) -> Element {
@@ -3365,14 +3365,14 @@ impl IconShape for BxsColorFill {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsComment {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsComment;
 
 impl IconShape for BxsComment {
     fn child_elements(&self) -> Element {
@@ -3381,14 +3381,14 @@ impl IconShape for BxsComment {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentAdd;
 
 impl IconShape for BxsCommentAdd {
     fn child_elements(&self) -> Element {
@@ -3397,14 +3397,14 @@ impl IconShape for BxsCommentAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentCheck;
 
 impl IconShape for BxsCommentCheck {
     fn child_elements(&self) -> Element {
@@ -3413,14 +3413,14 @@ impl IconShape for BxsCommentCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentDetail;
 
 impl IconShape for BxsCommentDetail {
     fn child_elements(&self) -> Element {
@@ -3429,14 +3429,14 @@ impl IconShape for BxsCommentDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentDots {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentDots;
 
 impl IconShape for BxsCommentDots {
     fn child_elements(&self) -> Element {
@@ -3445,14 +3445,14 @@ impl IconShape for BxsCommentDots {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentEdit;
 
 impl IconShape for BxsCommentEdit {
     fn child_elements(&self) -> Element {
@@ -3461,14 +3461,14 @@ impl IconShape for BxsCommentEdit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentError {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentError;
 
 impl IconShape for BxsCommentError {
     fn child_elements(&self) -> Element {
@@ -3477,14 +3477,14 @@ impl IconShape for BxsCommentError {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentMinus;
 
 impl IconShape for BxsCommentMinus {
     fn child_elements(&self) -> Element {
@@ -3493,14 +3493,14 @@ impl IconShape for BxsCommentMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCommentX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCommentX;
 
 impl IconShape for BxsCommentX {
     fn child_elements(&self) -> Element {
@@ -3509,14 +3509,14 @@ impl IconShape for BxsCommentX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCompass {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCompass;
 
 impl IconShape for BxsCompass {
     fn child_elements(&self) -> Element {
@@ -3530,14 +3530,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsComponent {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsComponent;
 
 impl IconShape for BxsComponent {
     fn child_elements(&self) -> Element {
@@ -3546,14 +3546,14 @@ impl IconShape for BxsComponent {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsConfused {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsConfused;
 
 impl IconShape for BxsConfused {
     fn child_elements(&self) -> Element {
@@ -3562,14 +3562,14 @@ impl IconShape for BxsConfused {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsContact {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsContact;
 
 impl IconShape for BxsContact {
     fn child_elements(&self) -> Element {
@@ -3578,14 +3578,14 @@ impl IconShape for BxsContact {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsConversation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsConversation;
 
 impl IconShape for BxsConversation {
     fn child_elements(&self) -> Element {
@@ -3597,14 +3597,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCookie {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCookie;
 
 impl IconShape for BxsCookie {
     fn child_elements(&self) -> Element {
@@ -3613,14 +3613,14 @@ impl IconShape for BxsCookie {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCool {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCool;
 
 impl IconShape for BxsCool {
     fn child_elements(&self) -> Element {
@@ -3629,14 +3629,14 @@ impl IconShape for BxsCool {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCopy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCopy;
 
 impl IconShape for BxsCopy {
     fn child_elements(&self) -> Element {
@@ -3648,14 +3648,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCopyAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCopyAlt;
 
 impl IconShape for BxsCopyAlt {
     fn child_elements(&self) -> Element {
@@ -3667,14 +3667,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCopyright {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCopyright;
 
 impl IconShape for BxsCopyright {
     fn child_elements(&self) -> Element {
@@ -3683,14 +3683,14 @@ impl IconShape for BxsCopyright {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCoupon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCoupon;
 
 impl IconShape for BxsCoupon {
     fn child_elements(&self) -> Element {
@@ -3699,14 +3699,14 @@ impl IconShape for BxsCoupon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCreditCard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCreditCard;
 
 impl IconShape for BxsCreditCard {
     fn child_elements(&self) -> Element {
@@ -3715,14 +3715,14 @@ impl IconShape for BxsCreditCard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCreditCardAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCreditCardAlt;
 
 impl IconShape for BxsCreditCardAlt {
     fn child_elements(&self) -> Element {
@@ -3731,14 +3731,14 @@ impl IconShape for BxsCreditCardAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCreditCardFront {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCreditCardFront;
 
 impl IconShape for BxsCreditCardFront {
     fn child_elements(&self) -> Element {
@@ -3747,14 +3747,14 @@ impl IconShape for BxsCreditCardFront {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCricketBall {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCricketBall;
 
 impl IconShape for BxsCricketBall {
     fn child_elements(&self) -> Element {
@@ -3763,14 +3763,14 @@ impl IconShape for BxsCricketBall {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCrop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCrop;
 
 impl IconShape for BxsCrop {
     fn child_elements(&self) -> Element {
@@ -3782,14 +3782,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCrown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCrown;
 
 impl IconShape for BxsCrown {
     fn child_elements(&self) -> Element {
@@ -3798,14 +3798,14 @@ impl IconShape for BxsCrown {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCube {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCube;
 
 impl IconShape for BxsCube {
     fn child_elements(&self) -> Element {
@@ -3814,14 +3814,14 @@ impl IconShape for BxsCube {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCubeAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCubeAlt;
 
 impl IconShape for BxsCubeAlt {
     fn child_elements(&self) -> Element {
@@ -3830,14 +3830,14 @@ impl IconShape for BxsCubeAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCuboid {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCuboid;
 
 impl IconShape for BxsCuboid {
     fn child_elements(&self) -> Element {
@@ -3846,14 +3846,14 @@ impl IconShape for BxsCuboid {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCustomize {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCustomize;
 
 impl IconShape for BxsCustomize {
     fn child_elements(&self) -> Element {
@@ -3862,14 +3862,14 @@ impl IconShape for BxsCustomize {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsCylinder {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsCylinder;
 
 impl IconShape for BxsCylinder {
     fn child_elements(&self) -> Element {
@@ -3878,14 +3878,14 @@ impl IconShape for BxsCylinder {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDashboard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDashboard;
 
 impl IconShape for BxsDashboard {
     fn child_elements(&self) -> Element {
@@ -3894,14 +3894,14 @@ impl IconShape for BxsDashboard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsData {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsData;
 
 impl IconShape for BxsData {
     fn child_elements(&self) -> Element {
@@ -3913,14 +3913,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDetail;
 
 impl IconShape for BxsDetail {
     fn child_elements(&self) -> Element {
@@ -3929,14 +3929,14 @@ impl IconShape for BxsDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDevices {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDevices;
 
 impl IconShape for BxsDevices {
     fn child_elements(&self) -> Element {
@@ -3945,14 +3945,14 @@ impl IconShape for BxsDevices {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDiamond {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDiamond;
 
 impl IconShape for BxsDiamond {
     fn child_elements(&self) -> Element {
@@ -3961,14 +3961,14 @@ impl IconShape for BxsDiamond {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDice1 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDice1;
 
 impl IconShape for BxsDice1 {
     fn child_elements(&self) -> Element {
@@ -3977,14 +3977,14 @@ impl IconShape for BxsDice1 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDice2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDice2;
 
 impl IconShape for BxsDice2 {
     fn child_elements(&self) -> Element {
@@ -3993,14 +3993,14 @@ impl IconShape for BxsDice2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDice3 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDice3;
 
 impl IconShape for BxsDice3 {
     fn child_elements(&self) -> Element {
@@ -4009,14 +4009,14 @@ impl IconShape for BxsDice3 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDice4 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDice4;
 
 impl IconShape for BxsDice4 {
     fn child_elements(&self) -> Element {
@@ -4025,14 +4025,14 @@ impl IconShape for BxsDice4 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDice5 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDice5;
 
 impl IconShape for BxsDice5 {
     fn child_elements(&self) -> Element {
@@ -4041,14 +4041,14 @@ impl IconShape for BxsDice5 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDice6 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDice6;
 
 impl IconShape for BxsDice6 {
     fn child_elements(&self) -> Element {
@@ -4057,14 +4057,14 @@ impl IconShape for BxsDice6 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDirectionLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDirectionLeft;
 
 impl IconShape for BxsDirectionLeft {
     fn child_elements(&self) -> Element {
@@ -4073,14 +4073,14 @@ impl IconShape for BxsDirectionLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDirectionRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDirectionRight;
 
 impl IconShape for BxsDirectionRight {
     fn child_elements(&self) -> Element {
@@ -4089,14 +4089,14 @@ impl IconShape for BxsDirectionRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDirections {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDirections;
 
 impl IconShape for BxsDirections {
     fn child_elements(&self) -> Element {
@@ -4105,14 +4105,14 @@ impl IconShape for BxsDirections {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDisc {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDisc;
 
 impl IconShape for BxsDisc {
     fn child_elements(&self) -> Element {
@@ -4126,14 +4126,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDiscount {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDiscount;
 
 impl IconShape for BxsDiscount {
     fn child_elements(&self) -> Element {
@@ -4142,14 +4142,14 @@ impl IconShape for BxsDiscount {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDish {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDish;
 
 impl IconShape for BxsDish {
     fn child_elements(&self) -> Element {
@@ -4158,14 +4158,14 @@ impl IconShape for BxsDish {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDislike {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDislike;
 
 impl IconShape for BxsDislike {
     fn child_elements(&self) -> Element {
@@ -4174,14 +4174,14 @@ impl IconShape for BxsDislike {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDizzy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDizzy;
 
 impl IconShape for BxsDizzy {
     fn child_elements(&self) -> Element {
@@ -4190,14 +4190,14 @@ impl IconShape for BxsDizzy {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDockBottom {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDockBottom;
 
 impl IconShape for BxsDockBottom {
     fn child_elements(&self) -> Element {
@@ -4206,14 +4206,14 @@ impl IconShape for BxsDockBottom {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDockLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDockLeft;
 
 impl IconShape for BxsDockLeft {
     fn child_elements(&self) -> Element {
@@ -4222,14 +4222,14 @@ impl IconShape for BxsDockLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDockRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDockRight;
 
 impl IconShape for BxsDockRight {
     fn child_elements(&self) -> Element {
@@ -4238,14 +4238,14 @@ impl IconShape for BxsDockRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDockTop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDockTop;
 
 impl IconShape for BxsDockTop {
     fn child_elements(&self) -> Element {
@@ -4254,14 +4254,14 @@ impl IconShape for BxsDockTop {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDog {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDog;
 
 impl IconShape for BxsDog {
     fn child_elements(&self) -> Element {
@@ -4273,14 +4273,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDollarCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDollarCircle;
 
 impl IconShape for BxsDollarCircle {
     fn child_elements(&self) -> Element {
@@ -4289,14 +4289,14 @@ impl IconShape for BxsDollarCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDonateBlood {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDonateBlood;
 
 impl IconShape for BxsDonateBlood {
     fn child_elements(&self) -> Element {
@@ -4305,14 +4305,14 @@ impl IconShape for BxsDonateBlood {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDonateHeart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDonateHeart;
 
 impl IconShape for BxsDonateHeart {
     fn child_elements(&self) -> Element {
@@ -4321,14 +4321,14 @@ impl IconShape for BxsDonateHeart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDoorOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDoorOpen;
 
 impl IconShape for BxsDoorOpen {
     fn child_elements(&self) -> Element {
@@ -4337,14 +4337,14 @@ impl IconShape for BxsDoorOpen {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDoughnutChart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDoughnutChart;
 
 impl IconShape for BxsDoughnutChart {
     fn child_elements(&self) -> Element {
@@ -4356,14 +4356,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDownArrow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDownArrow;
 
 impl IconShape for BxsDownArrow {
     fn child_elements(&self) -> Element {
@@ -4372,14 +4372,14 @@ impl IconShape for BxsDownArrow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDownArrowAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDownArrowAlt;
 
 impl IconShape for BxsDownArrowAlt {
     fn child_elements(&self) -> Element {
@@ -4388,14 +4388,14 @@ impl IconShape for BxsDownArrowAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDownArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDownArrowCircle;
 
 impl IconShape for BxsDownArrowCircle {
     fn child_elements(&self) -> Element {
@@ -4404,14 +4404,14 @@ impl IconShape for BxsDownArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDownArrowSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDownArrowSquare;
 
 impl IconShape for BxsDownArrowSquare {
     fn child_elements(&self) -> Element {
@@ -4420,14 +4420,14 @@ impl IconShape for BxsDownArrowSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDownload {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDownload;
 
 impl IconShape for BxsDownload {
     fn child_elements(&self) -> Element {
@@ -4436,14 +4436,14 @@ impl IconShape for BxsDownload {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDownvote {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDownvote;
 
 impl IconShape for BxsDownvote {
     fn child_elements(&self) -> Element {
@@ -4452,14 +4452,14 @@ impl IconShape for BxsDownvote {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDrink {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDrink;
 
 impl IconShape for BxsDrink {
     fn child_elements(&self) -> Element {
@@ -4468,14 +4468,14 @@ impl IconShape for BxsDrink {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDroplet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDroplet;
 
 impl IconShape for BxsDroplet {
     fn child_elements(&self) -> Element {
@@ -4484,14 +4484,14 @@ impl IconShape for BxsDroplet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDropletHalf {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDropletHalf;
 
 impl IconShape for BxsDropletHalf {
     fn child_elements(&self) -> Element {
@@ -4500,14 +4500,14 @@ impl IconShape for BxsDropletHalf {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDryer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDryer;
 
 impl IconShape for BxsDryer {
     fn child_elements(&self) -> Element {
@@ -4519,14 +4519,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsDuplicate {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsDuplicate;
 
 impl IconShape for BxsDuplicate {
     fn child_elements(&self) -> Element {
@@ -4538,14 +4538,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEdit;
 
 impl IconShape for BxsEdit {
     fn child_elements(&self) -> Element {
@@ -4557,14 +4557,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEditAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEditAlt;
 
 impl IconShape for BxsEditAlt {
     fn child_elements(&self) -> Element {
@@ -4573,14 +4573,14 @@ impl IconShape for BxsEditAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEditLocation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEditLocation;
 
 impl IconShape for BxsEditLocation {
     fn child_elements(&self) -> Element {
@@ -4589,14 +4589,14 @@ impl IconShape for BxsEditLocation {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEject {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEject;
 
 impl IconShape for BxsEject {
     fn child_elements(&self) -> Element {
@@ -4605,14 +4605,14 @@ impl IconShape for BxsEject {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEnvelope {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEnvelope;
 
 impl IconShape for BxsEnvelope {
     fn child_elements(&self) -> Element {
@@ -4621,14 +4621,14 @@ impl IconShape for BxsEnvelope {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEnvelopeOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEnvelopeOpen;
 
 impl IconShape for BxsEnvelopeOpen {
     fn child_elements(&self) -> Element {
@@ -4637,14 +4637,14 @@ impl IconShape for BxsEnvelopeOpen {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEraser {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEraser;
 
 impl IconShape for BxsEraser {
     fn child_elements(&self) -> Element {
@@ -4653,14 +4653,14 @@ impl IconShape for BxsEraser {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsError {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsError;
 
 impl IconShape for BxsError {
     fn child_elements(&self) -> Element {
@@ -4669,14 +4669,14 @@ impl IconShape for BxsError {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsErrorAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsErrorAlt;
 
 impl IconShape for BxsErrorAlt {
     fn child_elements(&self) -> Element {
@@ -4685,14 +4685,14 @@ impl IconShape for BxsErrorAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsErrorCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsErrorCircle;
 
 impl IconShape for BxsErrorCircle {
     fn child_elements(&self) -> Element {
@@ -4701,14 +4701,14 @@ impl IconShape for BxsErrorCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEvStation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEvStation;
 
 impl IconShape for BxsEvStation {
     fn child_elements(&self) -> Element {
@@ -4717,14 +4717,14 @@ impl IconShape for BxsEvStation {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsExit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsExit;
 
 impl IconShape for BxsExit {
     fn child_elements(&self) -> Element {
@@ -4733,14 +4733,14 @@ impl IconShape for BxsExit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsExtension {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsExtension;
 
 impl IconShape for BxsExtension {
     fn child_elements(&self) -> Element {
@@ -4749,14 +4749,14 @@ impl IconShape for BxsExtension {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsEyedropper {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsEyedropper;
 
 impl IconShape for BxsEyedropper {
     fn child_elements(&self) -> Element {
@@ -4765,14 +4765,14 @@ impl IconShape for BxsEyedropper {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFace {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFace;
 
 impl IconShape for BxsFace {
     fn child_elements(&self) -> Element {
@@ -4791,14 +4791,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFaceMask {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFaceMask;
 
 impl IconShape for BxsFaceMask {
     fn child_elements(&self) -> Element {
@@ -4817,14 +4817,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFactory {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFactory;
 
 impl IconShape for BxsFactory {
     fn child_elements(&self) -> Element {
@@ -4833,14 +4833,14 @@ impl IconShape for BxsFactory {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFastForwardCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFastForwardCircle;
 
 impl IconShape for BxsFastForwardCircle {
     fn child_elements(&self) -> Element {
@@ -4849,14 +4849,14 @@ impl IconShape for BxsFastForwardCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFile {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFile;
 
 impl IconShape for BxsFile {
     fn child_elements(&self) -> Element {
@@ -4865,14 +4865,14 @@ impl IconShape for BxsFile {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileArchive {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileArchive;
 
 impl IconShape for BxsFileArchive {
     fn child_elements(&self) -> Element {
@@ -4884,14 +4884,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileBlank {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileBlank;
 
 impl IconShape for BxsFileBlank {
     fn child_elements(&self) -> Element {
@@ -4900,14 +4900,14 @@ impl IconShape for BxsFileBlank {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileCss {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileCss;
 
 impl IconShape for BxsFileCss {
     fn child_elements(&self) -> Element {
@@ -4916,14 +4916,14 @@ impl IconShape for BxsFileCss {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileDoc {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileDoc;
 
 impl IconShape for BxsFileDoc {
     fn child_elements(&self) -> Element {
@@ -4938,14 +4938,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileExport {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileExport;
 
 impl IconShape for BxsFileExport {
     fn child_elements(&self) -> Element {
@@ -4954,14 +4954,14 @@ impl IconShape for BxsFileExport {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileFind {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileFind;
 
 impl IconShape for BxsFileFind {
     fn child_elements(&self) -> Element {
@@ -4975,14 +4975,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileGif {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileGif;
 
 impl IconShape for BxsFileGif {
     fn child_elements(&self) -> Element {
@@ -4991,14 +4991,14 @@ impl IconShape for BxsFileGif {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileHtml {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileHtml;
 
 impl IconShape for BxsFileHtml {
     fn child_elements(&self) -> Element {
@@ -5007,14 +5007,14 @@ impl IconShape for BxsFileHtml {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileImage {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileImage;
 
 impl IconShape for BxsFileImage {
     fn child_elements(&self) -> Element {
@@ -5023,14 +5023,14 @@ impl IconShape for BxsFileImage {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileImport {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileImport;
 
 impl IconShape for BxsFileImport {
     fn child_elements(&self) -> Element {
@@ -5039,14 +5039,14 @@ impl IconShape for BxsFileImport {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileJpg {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileJpg;
 
 impl IconShape for BxsFileJpg {
     fn child_elements(&self) -> Element {
@@ -5058,14 +5058,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileJs {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileJs;
 
 impl IconShape for BxsFileJs {
     fn child_elements(&self) -> Element {
@@ -5074,14 +5074,14 @@ impl IconShape for BxsFileJs {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileJson {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileJson;
 
 impl IconShape for BxsFileJson {
     fn child_elements(&self) -> Element {
@@ -5093,14 +5093,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileMd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileMd;
 
 impl IconShape for BxsFileMd {
     fn child_elements(&self) -> Element {
@@ -5112,14 +5112,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFilePdf {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFilePdf;
 
 impl IconShape for BxsFilePdf {
     fn child_elements(&self) -> Element {
@@ -5131,14 +5131,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFilePlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFilePlus;
 
 impl IconShape for BxsFilePlus {
     fn child_elements(&self) -> Element {
@@ -5147,14 +5147,14 @@ impl IconShape for BxsFilePlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFilePng {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFilePng;
 
 impl IconShape for BxsFilePng {
     fn child_elements(&self) -> Element {
@@ -5166,14 +5166,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFileTxt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFileTxt;
 
 impl IconShape for BxsFileTxt {
     fn child_elements(&self) -> Element {
@@ -5182,14 +5182,14 @@ impl IconShape for BxsFileTxt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFilm {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFilm;
 
 impl IconShape for BxsFilm {
     fn child_elements(&self) -> Element {
@@ -5198,14 +5198,14 @@ impl IconShape for BxsFilm {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFilterAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFilterAlt;
 
 impl IconShape for BxsFilterAlt {
     fn child_elements(&self) -> Element {
@@ -5214,14 +5214,14 @@ impl IconShape for BxsFilterAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFirstAid {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFirstAid;
 
 impl IconShape for BxsFirstAid {
     fn child_elements(&self) -> Element {
@@ -5230,14 +5230,14 @@ impl IconShape for BxsFirstAid {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFlag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFlag;
 
 impl IconShape for BxsFlag {
     fn child_elements(&self) -> Element {
@@ -5246,14 +5246,14 @@ impl IconShape for BxsFlag {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFlagAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFlagAlt;
 
 impl IconShape for BxsFlagAlt {
     fn child_elements(&self) -> Element {
@@ -5262,14 +5262,14 @@ impl IconShape for BxsFlagAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFlagCheckered {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFlagCheckered;
 
 impl IconShape for BxsFlagCheckered {
     fn child_elements(&self) -> Element {
@@ -5281,14 +5281,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFlame {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFlame;
 
 impl IconShape for BxsFlame {
     fn child_elements(&self) -> Element {
@@ -5297,14 +5297,14 @@ impl IconShape for BxsFlame {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFlask {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFlask;
 
 impl IconShape for BxsFlask {
     fn child_elements(&self) -> Element {
@@ -5313,14 +5313,14 @@ impl IconShape for BxsFlask {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFlorist {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFlorist;
 
 impl IconShape for BxsFlorist {
     fn child_elements(&self) -> Element {
@@ -5329,14 +5329,14 @@ impl IconShape for BxsFlorist {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFolder {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFolder;
 
 impl IconShape for BxsFolder {
     fn child_elements(&self) -> Element {
@@ -5345,14 +5345,14 @@ impl IconShape for BxsFolder {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFolderMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFolderMinus;
 
 impl IconShape for BxsFolderMinus {
     fn child_elements(&self) -> Element {
@@ -5361,14 +5361,14 @@ impl IconShape for BxsFolderMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFolderOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFolderOpen;
 
 impl IconShape for BxsFolderOpen {
     fn child_elements(&self) -> Element {
@@ -5377,14 +5377,14 @@ impl IconShape for BxsFolderOpen {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFolderPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFolderPlus;
 
 impl IconShape for BxsFolderPlus {
     fn child_elements(&self) -> Element {
@@ -5393,14 +5393,14 @@ impl IconShape for BxsFolderPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFoodMenu {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFoodMenu;
 
 impl IconShape for BxsFoodMenu {
     fn child_elements(&self) -> Element {
@@ -5409,14 +5409,14 @@ impl IconShape for BxsFoodMenu {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsFridge {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsFridge;
 
 impl IconShape for BxsFridge {
     fn child_elements(&self) -> Element {
@@ -5425,14 +5425,14 @@ impl IconShape for BxsFridge {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGame {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGame;
 
 impl IconShape for BxsGame {
     fn child_elements(&self) -> Element {
@@ -5441,14 +5441,14 @@ impl IconShape for BxsGame {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGasPump {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGasPump;
 
 impl IconShape for BxsGasPump {
     fn child_elements(&self) -> Element {
@@ -5457,14 +5457,14 @@ impl IconShape for BxsGasPump {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGhost {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGhost;
 
 impl IconShape for BxsGhost {
     fn child_elements(&self) -> Element {
@@ -5473,14 +5473,14 @@ impl IconShape for BxsGhost {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGift {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGift;
 
 impl IconShape for BxsGift {
     fn child_elements(&self) -> Element {
@@ -5489,14 +5489,14 @@ impl IconShape for BxsGift {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGraduation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGraduation;
 
 impl IconShape for BxsGraduation {
     fn child_elements(&self) -> Element {
@@ -5508,14 +5508,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGrid {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGrid;
 
 impl IconShape for BxsGrid {
     fn child_elements(&self) -> Element {
@@ -5524,14 +5524,14 @@ impl IconShape for BxsGrid {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGridAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGridAlt;
 
 impl IconShape for BxsGridAlt {
     fn child_elements(&self) -> Element {
@@ -5540,14 +5540,14 @@ impl IconShape for BxsGridAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGroup {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGroup;
 
 impl IconShape for BxsGroup {
     fn child_elements(&self) -> Element {
@@ -5559,14 +5559,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsGuitarAmp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsGuitarAmp;
 
 impl IconShape for BxsGuitarAmp {
     fn child_elements(&self) -> Element {
@@ -5578,14 +5578,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHand {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHand;
 
 impl IconShape for BxsHand {
     fn child_elements(&self) -> Element {
@@ -5594,14 +5594,14 @@ impl IconShape for BxsHand {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHandDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHandDown;
 
 impl IconShape for BxsHandDown {
     fn child_elements(&self) -> Element {
@@ -5610,14 +5610,14 @@ impl IconShape for BxsHandDown {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHandLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHandLeft;
 
 impl IconShape for BxsHandLeft {
     fn child_elements(&self) -> Element {
@@ -5626,14 +5626,14 @@ impl IconShape for BxsHandLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHandRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHandRight;
 
 impl IconShape for BxsHandRight {
     fn child_elements(&self) -> Element {
@@ -5642,14 +5642,14 @@ impl IconShape for BxsHandRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHandUp {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHandUp;
 
 impl IconShape for BxsHandUp {
     fn child_elements(&self) -> Element {
@@ -5658,14 +5658,14 @@ impl IconShape for BxsHandUp {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHappy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHappy;
 
 impl IconShape for BxsHappy {
     fn child_elements(&self) -> Element {
@@ -5674,14 +5674,14 @@ impl IconShape for BxsHappy {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHappyAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHappyAlt;
 
 impl IconShape for BxsHappyAlt {
     fn child_elements(&self) -> Element {
@@ -5690,14 +5690,14 @@ impl IconShape for BxsHappyAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHappyBeaming {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHappyBeaming;
 
 impl IconShape for BxsHappyBeaming {
     fn child_elements(&self) -> Element {
@@ -5706,14 +5706,14 @@ impl IconShape for BxsHappyBeaming {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHappyHeartEyes {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHappyHeartEyes;
 
 impl IconShape for BxsHappyHeartEyes {
     fn child_elements(&self) -> Element {
@@ -5722,14 +5722,14 @@ impl IconShape for BxsHappyHeartEyes {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHardHat {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHardHat;
 
 impl IconShape for BxsHardHat {
     fn child_elements(&self) -> Element {
@@ -5738,14 +5738,14 @@ impl IconShape for BxsHardHat {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHdd;
 
 impl IconShape for BxsHdd {
     fn child_elements(&self) -> Element {
@@ -5754,14 +5754,14 @@ impl IconShape for BxsHdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHeart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHeart;
 
 impl IconShape for BxsHeart {
     fn child_elements(&self) -> Element {
@@ -5770,14 +5770,14 @@ impl IconShape for BxsHeart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHeartCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHeartCircle;
 
 impl IconShape for BxsHeartCircle {
     fn child_elements(&self) -> Element {
@@ -5786,14 +5786,14 @@ impl IconShape for BxsHeartCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHeartSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHeartSquare;
 
 impl IconShape for BxsHeartSquare {
     fn child_elements(&self) -> Element {
@@ -5802,14 +5802,14 @@ impl IconShape for BxsHeartSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHelpCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHelpCircle;
 
 impl IconShape for BxsHelpCircle {
     fn child_elements(&self) -> Element {
@@ -5818,14 +5818,14 @@ impl IconShape for BxsHelpCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHide {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHide;
 
 impl IconShape for BxsHide {
     fn child_elements(&self) -> Element {
@@ -5834,14 +5834,14 @@ impl IconShape for BxsHide {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHome {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHome;
 
 impl IconShape for BxsHome {
     fn child_elements(&self) -> Element {
@@ -5850,14 +5850,14 @@ impl IconShape for BxsHome {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHomeAlt2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHomeAlt2;
 
 impl IconShape for BxsHomeAlt2 {
     fn child_elements(&self) -> Element {
@@ -5866,14 +5866,14 @@ impl IconShape for BxsHomeAlt2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHomeCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHomeCircle;
 
 impl IconShape for BxsHomeCircle {
     fn child_elements(&self) -> Element {
@@ -5882,14 +5882,14 @@ impl IconShape for BxsHomeCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHomeHeart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHomeHeart;
 
 impl IconShape for BxsHomeHeart {
     fn child_elements(&self) -> Element {
@@ -5898,14 +5898,14 @@ impl IconShape for BxsHomeHeart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHomeSmile {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHomeSmile;
 
 impl IconShape for BxsHomeSmile {
     fn child_elements(&self) -> Element {
@@ -5914,14 +5914,14 @@ impl IconShape for BxsHomeSmile {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHot {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHot;
 
 impl IconShape for BxsHot {
     fn child_elements(&self) -> Element {
@@ -5930,14 +5930,14 @@ impl IconShape for BxsHot {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHotel {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHotel;
 
 impl IconShape for BxsHotel {
     fn child_elements(&self) -> Element {
@@ -5951,14 +5951,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHourglass {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHourglass;
 
 impl IconShape for BxsHourglass {
     fn child_elements(&self) -> Element {
@@ -5967,14 +5967,14 @@ impl IconShape for BxsHourglass {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHourglassBottom {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHourglassBottom;
 
 impl IconShape for BxsHourglassBottom {
     fn child_elements(&self) -> Element {
@@ -5983,14 +5983,14 @@ impl IconShape for BxsHourglassBottom {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsHourglassTop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsHourglassTop;
 
 impl IconShape for BxsHourglassTop {
     fn child_elements(&self) -> Element {
@@ -5999,14 +5999,14 @@ impl IconShape for BxsHourglassTop {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsIdCard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsIdCard;
 
 impl IconShape for BxsIdCard {
     fn child_elements(&self) -> Element {
@@ -6015,14 +6015,14 @@ impl IconShape for BxsIdCard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsImage {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsImage;
 
 impl IconShape for BxsImage {
     fn child_elements(&self) -> Element {
@@ -6031,14 +6031,14 @@ impl IconShape for BxsImage {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsImageAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsImageAdd;
 
 impl IconShape for BxsImageAdd {
     fn child_elements(&self) -> Element {
@@ -6050,14 +6050,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsImageAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsImageAlt;
 
 impl IconShape for BxsImageAlt {
     fn child_elements(&self) -> Element {
@@ -6066,14 +6066,14 @@ impl IconShape for BxsImageAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsInbox {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsInbox;
 
 impl IconShape for BxsInbox {
     fn child_elements(&self) -> Element {
@@ -6082,14 +6082,14 @@ impl IconShape for BxsInbox {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsInfoCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsInfoCircle;
 
 impl IconShape for BxsInfoCircle {
     fn child_elements(&self) -> Element {
@@ -6098,14 +6098,14 @@ impl IconShape for BxsInfoCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsInfoSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsInfoSquare;
 
 impl IconShape for BxsInfoSquare {
     fn child_elements(&self) -> Element {
@@ -6114,14 +6114,14 @@ impl IconShape for BxsInfoSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsInjection {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsInjection;
 
 impl IconShape for BxsInjection {
     fn child_elements(&self) -> Element {
@@ -6130,14 +6130,14 @@ impl IconShape for BxsInjection {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsInstitution {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsInstitution;
 
 impl IconShape for BxsInstitution {
     fn child_elements(&self) -> Element {
@@ -6154,14 +6154,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsInvader {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsInvader;
 
 impl IconShape for BxsInvader {
     fn child_elements(&self) -> Element {
@@ -6170,14 +6170,14 @@ impl IconShape for BxsInvader {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsJoystick {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsJoystick;
 
 impl IconShape for BxsJoystick {
     fn child_elements(&self) -> Element {
@@ -6186,14 +6186,14 @@ impl IconShape for BxsJoystick {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsJoystickAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsJoystickAlt;
 
 impl IconShape for BxsJoystickAlt {
     fn child_elements(&self) -> Element {
@@ -6202,14 +6202,14 @@ impl IconShape for BxsJoystickAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsJoystickButton {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsJoystickButton;
 
 impl IconShape for BxsJoystickButton {
     fn child_elements(&self) -> Element {
@@ -6218,14 +6218,14 @@ impl IconShape for BxsJoystickButton {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsKey {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsKey;
 
 impl IconShape for BxsKey {
     fn child_elements(&self) -> Element {
@@ -6234,14 +6234,14 @@ impl IconShape for BxsKey {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsKeyboard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsKeyboard;
 
 impl IconShape for BxsKeyboard {
     fn child_elements(&self) -> Element {
@@ -6250,14 +6250,14 @@ impl IconShape for BxsKeyboard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLabel {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLabel;
 
 impl IconShape for BxsLabel {
     fn child_elements(&self) -> Element {
@@ -6266,14 +6266,14 @@ impl IconShape for BxsLabel {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLandmark {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLandmark;
 
 impl IconShape for BxsLandmark {
     fn child_elements(&self) -> Element {
@@ -6282,14 +6282,14 @@ impl IconShape for BxsLandmark {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLandscape {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLandscape;
 
 impl IconShape for BxsLandscape {
     fn child_elements(&self) -> Element {
@@ -6303,14 +6303,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLaugh {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLaugh;
 
 impl IconShape for BxsLaugh {
     fn child_elements(&self) -> Element {
@@ -6319,14 +6319,14 @@ impl IconShape for BxsLaugh {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLayer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLayer;
 
 impl IconShape for BxsLayer {
     fn child_elements(&self) -> Element {
@@ -6341,14 +6341,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLayerMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLayerMinus;
 
 impl IconShape for BxsLayerMinus {
     fn child_elements(&self) -> Element {
@@ -6360,14 +6360,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLayerPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLayerPlus;
 
 impl IconShape for BxsLayerPlus {
     fn child_elements(&self) -> Element {
@@ -6379,14 +6379,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLayout {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLayout;
 
 impl IconShape for BxsLayout {
     fn child_elements(&self) -> Element {
@@ -6395,14 +6395,14 @@ impl IconShape for BxsLayout {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeaf {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeaf;
 
 impl IconShape for BxsLeaf {
     fn child_elements(&self) -> Element {
@@ -6411,14 +6411,14 @@ impl IconShape for BxsLeaf {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeftArrow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeftArrow;
 
 impl IconShape for BxsLeftArrow {
     fn child_elements(&self) -> Element {
@@ -6427,14 +6427,14 @@ impl IconShape for BxsLeftArrow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeftArrowAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeftArrowAlt;
 
 impl IconShape for BxsLeftArrowAlt {
     fn child_elements(&self) -> Element {
@@ -6443,14 +6443,14 @@ impl IconShape for BxsLeftArrowAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeftArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeftArrowCircle;
 
 impl IconShape for BxsLeftArrowCircle {
     fn child_elements(&self) -> Element {
@@ -6459,14 +6459,14 @@ impl IconShape for BxsLeftArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeftArrowSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeftArrowSquare;
 
 impl IconShape for BxsLeftArrowSquare {
     fn child_elements(&self) -> Element {
@@ -6475,14 +6475,14 @@ impl IconShape for BxsLeftArrowSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeftDownArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeftDownArrowCircle;
 
 impl IconShape for BxsLeftDownArrowCircle {
     fn child_elements(&self) -> Element {
@@ -6491,14 +6491,14 @@ impl IconShape for BxsLeftDownArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLeftTopArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLeftTopArrowCircle;
 
 impl IconShape for BxsLeftTopArrowCircle {
     fn child_elements(&self) -> Element {
@@ -6507,14 +6507,14 @@ impl IconShape for BxsLeftTopArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLemon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLemon;
 
 impl IconShape for BxsLemon {
     fn child_elements(&self) -> Element {
@@ -6523,14 +6523,14 @@ impl IconShape for BxsLemon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLike {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLike;
 
 impl IconShape for BxsLike {
     fn child_elements(&self) -> Element {
@@ -6539,14 +6539,14 @@ impl IconShape for BxsLike {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLocationPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLocationPlus;
 
 impl IconShape for BxsLocationPlus {
     fn child_elements(&self) -> Element {
@@ -6555,14 +6555,14 @@ impl IconShape for BxsLocationPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLock {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLock;
 
 impl IconShape for BxsLock {
     fn child_elements(&self) -> Element {
@@ -6571,14 +6571,14 @@ impl IconShape for BxsLock {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLockAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLockAlt;
 
 impl IconShape for BxsLockAlt {
     fn child_elements(&self) -> Element {
@@ -6587,14 +6587,14 @@ impl IconShape for BxsLockAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLockOpen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLockOpen;
 
 impl IconShape for BxsLockOpen {
     fn child_elements(&self) -> Element {
@@ -6603,14 +6603,14 @@ impl IconShape for BxsLockOpen {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLockOpenAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLockOpenAlt;
 
 impl IconShape for BxsLockOpenAlt {
     fn child_elements(&self) -> Element {
@@ -6619,14 +6619,14 @@ impl IconShape for BxsLockOpenAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLogIn {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLogIn;
 
 impl IconShape for BxsLogIn {
     fn child_elements(&self) -> Element {
@@ -6635,14 +6635,14 @@ impl IconShape for BxsLogIn {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLogInCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLogInCircle;
 
 impl IconShape for BxsLogInCircle {
     fn child_elements(&self) -> Element {
@@ -6651,14 +6651,14 @@ impl IconShape for BxsLogInCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLogOut {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLogOut;
 
 impl IconShape for BxsLogOut {
     fn child_elements(&self) -> Element {
@@ -6667,14 +6667,14 @@ impl IconShape for BxsLogOut {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLogOutCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLogOutCircle;
 
 impl IconShape for BxsLogOutCircle {
     fn child_elements(&self) -> Element {
@@ -6683,14 +6683,14 @@ impl IconShape for BxsLogOutCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsLowVision {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsLowVision;
 
 impl IconShape for BxsLowVision {
     fn child_elements(&self) -> Element {
@@ -6699,14 +6699,14 @@ impl IconShape for BxsLowVision {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMagicWand {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMagicWand;
 
 impl IconShape for BxsMagicWand {
     fn child_elements(&self) -> Element {
@@ -6715,14 +6715,14 @@ impl IconShape for BxsMagicWand {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMagnet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMagnet;
 
 impl IconShape for BxsMagnet {
     fn child_elements(&self) -> Element {
@@ -6731,14 +6731,14 @@ impl IconShape for BxsMagnet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMap {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMap;
 
 impl IconShape for BxsMap {
     fn child_elements(&self) -> Element {
@@ -6747,14 +6747,14 @@ impl IconShape for BxsMap {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMapAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMapAlt;
 
 impl IconShape for BxsMapAlt {
     fn child_elements(&self) -> Element {
@@ -6763,14 +6763,14 @@ impl IconShape for BxsMapAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMapPin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMapPin;
 
 impl IconShape for BxsMapPin {
     fn child_elements(&self) -> Element {
@@ -6782,14 +6782,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMask {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMask;
 
 impl IconShape for BxsMask {
     fn child_elements(&self) -> Element {
@@ -6798,14 +6798,14 @@ impl IconShape for BxsMask {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMedal {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMedal;
 
 impl IconShape for BxsMedal {
     fn child_elements(&self) -> Element {
@@ -6814,14 +6814,14 @@ impl IconShape for BxsMedal {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMegaphone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMegaphone;
 
 impl IconShape for BxsMegaphone {
     fn child_elements(&self) -> Element {
@@ -6830,14 +6830,14 @@ impl IconShape for BxsMegaphone {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMeh {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMeh;
 
 impl IconShape for BxsMeh {
     fn child_elements(&self) -> Element {
@@ -6846,14 +6846,14 @@ impl IconShape for BxsMeh {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMehAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMehAlt;
 
 impl IconShape for BxsMehAlt {
     fn child_elements(&self) -> Element {
@@ -6862,14 +6862,14 @@ impl IconShape for BxsMehAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMehBlank {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMehBlank;
 
 impl IconShape for BxsMehBlank {
     fn child_elements(&self) -> Element {
@@ -6878,14 +6878,14 @@ impl IconShape for BxsMehBlank {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMemoryCard {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMemoryCard;
 
 impl IconShape for BxsMemoryCard {
     fn child_elements(&self) -> Element {
@@ -6894,14 +6894,14 @@ impl IconShape for BxsMemoryCard {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessage {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessage;
 
 impl IconShape for BxsMessage {
     fn child_elements(&self) -> Element {
@@ -6910,14 +6910,14 @@ impl IconShape for BxsMessage {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAdd;
 
 impl IconShape for BxsMessageAdd {
     fn child_elements(&self) -> Element {
@@ -6926,14 +6926,14 @@ impl IconShape for BxsMessageAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAlt;
 
 impl IconShape for BxsMessageAlt {
     fn child_elements(&self) -> Element {
@@ -6942,14 +6942,14 @@ impl IconShape for BxsMessageAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltAdd;
 
 impl IconShape for BxsMessageAltAdd {
     fn child_elements(&self) -> Element {
@@ -6958,14 +6958,14 @@ impl IconShape for BxsMessageAltAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltCheck;
 
 impl IconShape for BxsMessageAltCheck {
     fn child_elements(&self) -> Element {
@@ -6974,14 +6974,14 @@ impl IconShape for BxsMessageAltCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltDetail;
 
 impl IconShape for BxsMessageAltDetail {
     fn child_elements(&self) -> Element {
@@ -6990,14 +6990,14 @@ impl IconShape for BxsMessageAltDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltDots {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltDots;
 
 impl IconShape for BxsMessageAltDots {
     fn child_elements(&self) -> Element {
@@ -7006,14 +7006,14 @@ impl IconShape for BxsMessageAltDots {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltEdit;
 
 impl IconShape for BxsMessageAltEdit {
     fn child_elements(&self) -> Element {
@@ -7022,14 +7022,14 @@ impl IconShape for BxsMessageAltEdit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltError {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltError;
 
 impl IconShape for BxsMessageAltError {
     fn child_elements(&self) -> Element {
@@ -7038,14 +7038,14 @@ impl IconShape for BxsMessageAltError {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltMinus;
 
 impl IconShape for BxsMessageAltMinus {
     fn child_elements(&self) -> Element {
@@ -7054,14 +7054,14 @@ impl IconShape for BxsMessageAltMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageAltX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageAltX;
 
 impl IconShape for BxsMessageAltX {
     fn child_elements(&self) -> Element {
@@ -7070,14 +7070,14 @@ impl IconShape for BxsMessageAltX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageCheck;
 
 impl IconShape for BxsMessageCheck {
     fn child_elements(&self) -> Element {
@@ -7086,14 +7086,14 @@ impl IconShape for BxsMessageCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageDetail;
 
 impl IconShape for BxsMessageDetail {
     fn child_elements(&self) -> Element {
@@ -7102,14 +7102,14 @@ impl IconShape for BxsMessageDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageDots {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageDots;
 
 impl IconShape for BxsMessageDots {
     fn child_elements(&self) -> Element {
@@ -7118,14 +7118,14 @@ impl IconShape for BxsMessageDots {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageEdit;
 
 impl IconShape for BxsMessageEdit {
     fn child_elements(&self) -> Element {
@@ -7134,14 +7134,14 @@ impl IconShape for BxsMessageEdit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageError {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageError;
 
 impl IconShape for BxsMessageError {
     fn child_elements(&self) -> Element {
@@ -7150,14 +7150,14 @@ impl IconShape for BxsMessageError {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageMinus;
 
 impl IconShape for BxsMessageMinus {
     fn child_elements(&self) -> Element {
@@ -7166,14 +7166,14 @@ impl IconShape for BxsMessageMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRounded {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRounded;
 
 impl IconShape for BxsMessageRounded {
     fn child_elements(&self) -> Element {
@@ -7182,14 +7182,14 @@ impl IconShape for BxsMessageRounded {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedAdd;
 
 impl IconShape for BxsMessageRoundedAdd {
     fn child_elements(&self) -> Element {
@@ -7198,14 +7198,14 @@ impl IconShape for BxsMessageRoundedAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedCheck;
 
 impl IconShape for BxsMessageRoundedCheck {
     fn child_elements(&self) -> Element {
@@ -7214,14 +7214,14 @@ impl IconShape for BxsMessageRoundedCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedDetail;
 
 impl IconShape for BxsMessageRoundedDetail {
     fn child_elements(&self) -> Element {
@@ -7230,14 +7230,14 @@ impl IconShape for BxsMessageRoundedDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedDots {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedDots;
 
 impl IconShape for BxsMessageRoundedDots {
     fn child_elements(&self) -> Element {
@@ -7246,14 +7246,14 @@ impl IconShape for BxsMessageRoundedDots {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedEdit;
 
 impl IconShape for BxsMessageRoundedEdit {
     fn child_elements(&self) -> Element {
@@ -7262,14 +7262,14 @@ impl IconShape for BxsMessageRoundedEdit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedError {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedError;
 
 impl IconShape for BxsMessageRoundedError {
     fn child_elements(&self) -> Element {
@@ -7278,14 +7278,14 @@ impl IconShape for BxsMessageRoundedError {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedMinus;
 
 impl IconShape for BxsMessageRoundedMinus {
     fn child_elements(&self) -> Element {
@@ -7294,14 +7294,14 @@ impl IconShape for BxsMessageRoundedMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageRoundedX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageRoundedX;
 
 impl IconShape for BxsMessageRoundedX {
     fn child_elements(&self) -> Element {
@@ -7310,14 +7310,14 @@ impl IconShape for BxsMessageRoundedX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquare;
 
 impl IconShape for BxsMessageSquare {
     fn child_elements(&self) -> Element {
@@ -7326,14 +7326,14 @@ impl IconShape for BxsMessageSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareAdd {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareAdd;
 
 impl IconShape for BxsMessageSquareAdd {
     fn child_elements(&self) -> Element {
@@ -7342,14 +7342,14 @@ impl IconShape for BxsMessageSquareAdd {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareCheck;
 
 impl IconShape for BxsMessageSquareCheck {
     fn child_elements(&self) -> Element {
@@ -7358,14 +7358,14 @@ impl IconShape for BxsMessageSquareCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareDetail;
 
 impl IconShape for BxsMessageSquareDetail {
     fn child_elements(&self) -> Element {
@@ -7374,14 +7374,14 @@ impl IconShape for BxsMessageSquareDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareDots {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareDots;
 
 impl IconShape for BxsMessageSquareDots {
     fn child_elements(&self) -> Element {
@@ -7390,14 +7390,14 @@ impl IconShape for BxsMessageSquareDots {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareEdit {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareEdit;
 
 impl IconShape for BxsMessageSquareEdit {
     fn child_elements(&self) -> Element {
@@ -7406,14 +7406,14 @@ impl IconShape for BxsMessageSquareEdit {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareError {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareError;
 
 impl IconShape for BxsMessageSquareError {
     fn child_elements(&self) -> Element {
@@ -7422,14 +7422,14 @@ impl IconShape for BxsMessageSquareError {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareMinus;
 
 impl IconShape for BxsMessageSquareMinus {
     fn child_elements(&self) -> Element {
@@ -7438,14 +7438,14 @@ impl IconShape for BxsMessageSquareMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageSquareX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageSquareX;
 
 impl IconShape for BxsMessageSquareX {
     fn child_elements(&self) -> Element {
@@ -7454,14 +7454,14 @@ impl IconShape for BxsMessageSquareX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMessageX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMessageX;
 
 impl IconShape for BxsMessageX {
     fn child_elements(&self) -> Element {
@@ -7470,14 +7470,14 @@ impl IconShape for BxsMessageX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMeteor {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMeteor;
 
 impl IconShape for BxsMeteor {
     fn child_elements(&self) -> Element {
@@ -7486,14 +7486,14 @@ impl IconShape for BxsMeteor {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMicrochip {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMicrochip;
 
 impl IconShape for BxsMicrochip {
     fn child_elements(&self) -> Element {
@@ -7502,14 +7502,14 @@ impl IconShape for BxsMicrochip {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMicrophone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMicrophone;
 
 impl IconShape for BxsMicrophone {
     fn child_elements(&self) -> Element {
@@ -7521,14 +7521,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMicrophoneAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMicrophoneAlt;
 
 impl IconShape for BxsMicrophoneAlt {
     fn child_elements(&self) -> Element {
@@ -7540,14 +7540,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMicrophoneOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMicrophoneOff;
 
 impl IconShape for BxsMicrophoneOff {
     fn child_elements(&self) -> Element {
@@ -7559,14 +7559,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMinusCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMinusCircle;
 
 impl IconShape for BxsMinusCircle {
     fn child_elements(&self) -> Element {
@@ -7575,14 +7575,14 @@ impl IconShape for BxsMinusCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMinusSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMinusSquare;
 
 impl IconShape for BxsMinusSquare {
     fn child_elements(&self) -> Element {
@@ -7591,14 +7591,14 @@ impl IconShape for BxsMinusSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMobile {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMobile;
 
 impl IconShape for BxsMobile {
     fn child_elements(&self) -> Element {
@@ -7607,14 +7607,14 @@ impl IconShape for BxsMobile {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMobileVibration {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMobileVibration;
 
 impl IconShape for BxsMobileVibration {
     fn child_elements(&self) -> Element {
@@ -7623,14 +7623,14 @@ impl IconShape for BxsMobileVibration {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMoon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMoon;
 
 impl IconShape for BxsMoon {
     fn child_elements(&self) -> Element {
@@ -7639,14 +7639,14 @@ impl IconShape for BxsMoon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMouse {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMouse;
 
 impl IconShape for BxsMouse {
     fn child_elements(&self) -> Element {
@@ -7655,14 +7655,14 @@ impl IconShape for BxsMouse {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMouseAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMouseAlt;
 
 impl IconShape for BxsMouseAlt {
     fn child_elements(&self) -> Element {
@@ -7671,14 +7671,14 @@ impl IconShape for BxsMouseAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMovie {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMovie;
 
 impl IconShape for BxsMovie {
     fn child_elements(&self) -> Element {
@@ -7687,14 +7687,14 @@ impl IconShape for BxsMovie {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMoviePlay {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMoviePlay;
 
 impl IconShape for BxsMoviePlay {
     fn child_elements(&self) -> Element {
@@ -7703,14 +7703,14 @@ impl IconShape for BxsMoviePlay {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsMusic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsMusic;
 
 impl IconShape for BxsMusic {
     fn child_elements(&self) -> Element {
@@ -7719,14 +7719,14 @@ impl IconShape for BxsMusic {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNavigation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNavigation;
 
 impl IconShape for BxsNavigation {
     fn child_elements(&self) -> Element {
@@ -7735,14 +7735,14 @@ impl IconShape for BxsNavigation {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNetworkChart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNetworkChart;
 
 impl IconShape for BxsNetworkChart {
     fn child_elements(&self) -> Element {
@@ -7751,14 +7751,14 @@ impl IconShape for BxsNetworkChart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNews {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNews;
 
 impl IconShape for BxsNews {
     fn child_elements(&self) -> Element {
@@ -7767,14 +7767,14 @@ impl IconShape for BxsNews {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNoEntry {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNoEntry;
 
 impl IconShape for BxsNoEntry {
     fn child_elements(&self) -> Element {
@@ -7783,14 +7783,14 @@ impl IconShape for BxsNoEntry {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNote {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNote;
 
 impl IconShape for BxsNote {
     fn child_elements(&self) -> Element {
@@ -7799,14 +7799,14 @@ impl IconShape for BxsNote {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNotepad {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNotepad;
 
 impl IconShape for BxsNotepad {
     fn child_elements(&self) -> Element {
@@ -7815,14 +7815,14 @@ impl IconShape for BxsNotepad {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNotification {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNotification;
 
 impl IconShape for BxsNotification {
     fn child_elements(&self) -> Element {
@@ -7836,14 +7836,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsNotificationOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsNotificationOff;
 
 impl IconShape for BxsNotificationOff {
     fn child_elements(&self) -> Element {
@@ -7857,14 +7857,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsObjectsHorizontalCenter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsObjectsHorizontalCenter;
 
 impl IconShape for BxsObjectsHorizontalCenter {
     fn child_elements(&self) -> Element {
@@ -7873,14 +7873,14 @@ impl IconShape for BxsObjectsHorizontalCenter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsObjectsHorizontalLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsObjectsHorizontalLeft;
 
 impl IconShape for BxsObjectsHorizontalLeft {
     fn child_elements(&self) -> Element {
@@ -7903,14 +7903,14 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsObjectsHorizontalRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsObjectsHorizontalRight;
 
 impl IconShape for BxsObjectsHorizontalRight {
     fn child_elements(&self) -> Element {
@@ -7933,14 +7933,14 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsObjectsVerticalBottom {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsObjectsVerticalBottom;
 
 impl IconShape for BxsObjectsVerticalBottom {
     fn child_elements(&self) -> Element {
@@ -7963,14 +7963,14 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsObjectsVerticalCenter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsObjectsVerticalCenter;
 
 impl IconShape for BxsObjectsVerticalCenter {
     fn child_elements(&self) -> Element {
@@ -7979,14 +7979,14 @@ impl IconShape for BxsObjectsVerticalCenter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsObjectsVerticalTop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsObjectsVerticalTop;
 
 impl IconShape for BxsObjectsVerticalTop {
     fn child_elements(&self) -> Element {
@@ -8009,14 +8009,14 @@ rect {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsOffer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsOffer;
 
 impl IconShape for BxsOffer {
     fn child_elements(&self) -> Element {
@@ -8025,14 +8025,14 @@ impl IconShape for BxsOffer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPackage {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPackage;
 
 impl IconShape for BxsPackage {
     fn child_elements(&self) -> Element {
@@ -8041,14 +8041,14 @@ impl IconShape for BxsPackage {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPaint {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPaint;
 
 impl IconShape for BxsPaint {
     fn child_elements(&self) -> Element {
@@ -8057,14 +8057,14 @@ impl IconShape for BxsPaint {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPaintRoll {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPaintRoll;
 
 impl IconShape for BxsPaintRoll {
     fn child_elements(&self) -> Element {
@@ -8076,14 +8076,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPalette {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPalette;
 
 impl IconShape for BxsPalette {
     fn child_elements(&self) -> Element {
@@ -8092,14 +8092,14 @@ impl IconShape for BxsPalette {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPaperPlane {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPaperPlane;
 
 impl IconShape for BxsPaperPlane {
     fn child_elements(&self) -> Element {
@@ -8108,14 +8108,14 @@ impl IconShape for BxsPaperPlane {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsParking {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsParking;
 
 impl IconShape for BxsParking {
     fn child_elements(&self) -> Element {
@@ -8124,14 +8124,14 @@ impl IconShape for BxsParking {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsParty {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsParty;
 
 impl IconShape for BxsParty {
     fn child_elements(&self) -> Element {
@@ -8140,14 +8140,14 @@ impl IconShape for BxsParty {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPaste {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPaste;
 
 impl IconShape for BxsPaste {
     fn child_elements(&self) -> Element {
@@ -8159,14 +8159,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPear {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPear;
 
 impl IconShape for BxsPear {
     fn child_elements(&self) -> Element {
@@ -8175,14 +8175,14 @@ impl IconShape for BxsPear {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPen {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPen;
 
 impl IconShape for BxsPen {
     fn child_elements(&self) -> Element {
@@ -8191,14 +8191,14 @@ impl IconShape for BxsPen {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPencil {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPencil;
 
 impl IconShape for BxsPencil {
     fn child_elements(&self) -> Element {
@@ -8207,14 +8207,14 @@ impl IconShape for BxsPencil {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPhone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPhone;
 
 impl IconShape for BxsPhone {
     fn child_elements(&self) -> Element {
@@ -8223,14 +8223,14 @@ impl IconShape for BxsPhone {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPhoneCall {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPhoneCall;
 
 impl IconShape for BxsPhoneCall {
     fn child_elements(&self) -> Element {
@@ -8242,14 +8242,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPhoneIncoming {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPhoneIncoming;
 
 impl IconShape for BxsPhoneIncoming {
     fn child_elements(&self) -> Element {
@@ -8261,14 +8261,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPhoneOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPhoneOff;
 
 impl IconShape for BxsPhoneOff {
     fn child_elements(&self) -> Element {
@@ -8277,14 +8277,14 @@ impl IconShape for BxsPhoneOff {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPhoneOutgoing {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPhoneOutgoing;
 
 impl IconShape for BxsPhoneOutgoing {
     fn child_elements(&self) -> Element {
@@ -8296,14 +8296,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPhotoAlbum {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPhotoAlbum;
 
 impl IconShape for BxsPhotoAlbum {
     fn child_elements(&self) -> Element {
@@ -8312,14 +8312,14 @@ impl IconShape for BxsPhotoAlbum {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPiano {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPiano;
 
 impl IconShape for BxsPiano {
     fn child_elements(&self) -> Element {
@@ -8328,14 +8328,14 @@ impl IconShape for BxsPiano {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPieChart {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPieChart;
 
 impl IconShape for BxsPieChart {
     fn child_elements(&self) -> Element {
@@ -8344,14 +8344,14 @@ impl IconShape for BxsPieChart {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPieChartAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPieChartAlt;
 
 impl IconShape for BxsPieChartAlt {
     fn child_elements(&self) -> Element {
@@ -8360,14 +8360,14 @@ impl IconShape for BxsPieChartAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPieChartAlt2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPieChartAlt2;
 
 impl IconShape for BxsPieChartAlt2 {
     fn child_elements(&self) -> Element {
@@ -8379,14 +8379,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPin;
 
 impl IconShape for BxsPin {
     fn child_elements(&self) -> Element {
@@ -8395,14 +8395,14 @@ impl IconShape for BxsPin {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPizza {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPizza;
 
 impl IconShape for BxsPizza {
     fn child_elements(&self) -> Element {
@@ -8411,14 +8411,14 @@ impl IconShape for BxsPizza {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlane {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlane;
 
 impl IconShape for BxsPlane {
     fn child_elements(&self) -> Element {
@@ -8427,14 +8427,14 @@ impl IconShape for BxsPlane {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlaneAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlaneAlt;
 
 impl IconShape for BxsPlaneAlt {
     fn child_elements(&self) -> Element {
@@ -8443,14 +8443,14 @@ impl IconShape for BxsPlaneAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlaneLand {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlaneLand;
 
 impl IconShape for BxsPlaneLand {
     fn child_elements(&self) -> Element {
@@ -8459,14 +8459,14 @@ impl IconShape for BxsPlaneLand {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlaneTakeOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlaneTakeOff;
 
 impl IconShape for BxsPlaneTakeOff {
     fn child_elements(&self) -> Element {
@@ -8475,14 +8475,14 @@ impl IconShape for BxsPlaneTakeOff {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlanet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlanet;
 
 impl IconShape for BxsPlanet {
     fn child_elements(&self) -> Element {
@@ -8491,14 +8491,14 @@ impl IconShape for BxsPlanet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlaylist {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlaylist;
 
 impl IconShape for BxsPlaylist {
     fn child_elements(&self) -> Element {
@@ -8510,14 +8510,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlug {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlug;
 
 impl IconShape for BxsPlug {
     fn child_elements(&self) -> Element {
@@ -8526,14 +8526,14 @@ impl IconShape for BxsPlug {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlusCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlusCircle;
 
 impl IconShape for BxsPlusCircle {
     fn child_elements(&self) -> Element {
@@ -8542,14 +8542,14 @@ impl IconShape for BxsPlusCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPlusSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPlusSquare;
 
 impl IconShape for BxsPlusSquare {
     fn child_elements(&self) -> Element {
@@ -8558,14 +8558,14 @@ impl IconShape for BxsPlusSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPointer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPointer;
 
 impl IconShape for BxsPointer {
     fn child_elements(&self) -> Element {
@@ -8574,14 +8574,14 @@ impl IconShape for BxsPointer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPolygon {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPolygon;
 
 impl IconShape for BxsPolygon {
     fn child_elements(&self) -> Element {
@@ -8590,14 +8590,14 @@ impl IconShape for BxsPolygon {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPopsicle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPopsicle;
 
 impl IconShape for BxsPopsicle {
     fn child_elements(&self) -> Element {
@@ -8606,14 +8606,14 @@ impl IconShape for BxsPopsicle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPrinter {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPrinter;
 
 impl IconShape for BxsPrinter {
     fn child_elements(&self) -> Element {
@@ -8622,14 +8622,14 @@ impl IconShape for BxsPrinter {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPurchaseTag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPurchaseTag;
 
 impl IconShape for BxsPurchaseTag {
     fn child_elements(&self) -> Element {
@@ -8638,14 +8638,14 @@ impl IconShape for BxsPurchaseTag {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPurchaseTagAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPurchaseTagAlt;
 
 impl IconShape for BxsPurchaseTagAlt {
     fn child_elements(&self) -> Element {
@@ -8654,14 +8654,14 @@ impl IconShape for BxsPurchaseTagAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsPyramid {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsPyramid;
 
 impl IconShape for BxsPyramid {
     fn child_elements(&self) -> Element {
@@ -8670,14 +8670,14 @@ impl IconShape for BxsPyramid {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsQuoteAltLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsQuoteAltLeft;
 
 impl IconShape for BxsQuoteAltLeft {
     fn child_elements(&self) -> Element {
@@ -8686,14 +8686,14 @@ impl IconShape for BxsQuoteAltLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsQuoteAltRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsQuoteAltRight;
 
 impl IconShape for BxsQuoteAltRight {
     fn child_elements(&self) -> Element {
@@ -8702,14 +8702,14 @@ impl IconShape for BxsQuoteAltRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsQuoteLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsQuoteLeft;
 
 impl IconShape for BxsQuoteLeft {
     fn child_elements(&self) -> Element {
@@ -8718,14 +8718,14 @@ impl IconShape for BxsQuoteLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsQuoteRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsQuoteRight;
 
 impl IconShape for BxsQuoteRight {
     fn child_elements(&self) -> Element {
@@ -8734,14 +8734,14 @@ impl IconShape for BxsQuoteRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsQuoteSingleLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsQuoteSingleLeft;
 
 impl IconShape for BxsQuoteSingleLeft {
     fn child_elements(&self) -> Element {
@@ -8750,14 +8750,14 @@ impl IconShape for BxsQuoteSingleLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsQuoteSingleRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsQuoteSingleRight;
 
 impl IconShape for BxsQuoteSingleRight {
     fn child_elements(&self) -> Element {
@@ -8766,14 +8766,14 @@ impl IconShape for BxsQuoteSingleRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRadiation {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRadiation;
 
 impl IconShape for BxsRadiation {
     fn child_elements(&self) -> Element {
@@ -8787,14 +8787,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRadio {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRadio;
 
 impl IconShape for BxsRadio {
     fn child_elements(&self) -> Element {
@@ -8803,14 +8803,14 @@ impl IconShape for BxsRadio {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsReceipt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsReceipt;
 
 impl IconShape for BxsReceipt {
     fn child_elements(&self) -> Element {
@@ -8819,14 +8819,14 @@ impl IconShape for BxsReceipt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRectangle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRectangle;
 
 impl IconShape for BxsRectangle {
     fn child_elements(&self) -> Element {
@@ -8835,14 +8835,14 @@ impl IconShape for BxsRectangle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRegistered {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRegistered;
 
 impl IconShape for BxsRegistered {
     fn child_elements(&self) -> Element {
@@ -8854,14 +8854,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRename {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRename;
 
 impl IconShape for BxsRename {
     fn child_elements(&self) -> Element {
@@ -8873,14 +8873,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsReport {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsReport;
 
 impl IconShape for BxsReport {
     fn child_elements(&self) -> Element {
@@ -8889,14 +8889,14 @@ impl IconShape for BxsReport {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRewindCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRewindCircle;
 
 impl IconShape for BxsRewindCircle {
     fn child_elements(&self) -> Element {
@@ -8905,14 +8905,14 @@ impl IconShape for BxsRewindCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRightArrow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRightArrow;
 
 impl IconShape for BxsRightArrow {
     fn child_elements(&self) -> Element {
@@ -8921,14 +8921,14 @@ impl IconShape for BxsRightArrow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRightArrowAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRightArrowAlt;
 
 impl IconShape for BxsRightArrowAlt {
     fn child_elements(&self) -> Element {
@@ -8937,14 +8937,14 @@ impl IconShape for BxsRightArrowAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRightArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRightArrowCircle;
 
 impl IconShape for BxsRightArrowCircle {
     fn child_elements(&self) -> Element {
@@ -8953,14 +8953,14 @@ impl IconShape for BxsRightArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRightArrowSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRightArrowSquare;
 
 impl IconShape for BxsRightArrowSquare {
     fn child_elements(&self) -> Element {
@@ -8969,14 +8969,14 @@ impl IconShape for BxsRightArrowSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRightDownArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRightDownArrowCircle;
 
 impl IconShape for BxsRightDownArrowCircle {
     fn child_elements(&self) -> Element {
@@ -8985,14 +8985,14 @@ impl IconShape for BxsRightDownArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRightTopArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRightTopArrowCircle;
 
 impl IconShape for BxsRightTopArrowCircle {
     fn child_elements(&self) -> Element {
@@ -9001,14 +9001,14 @@ impl IconShape for BxsRightTopArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRocket {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRocket;
 
 impl IconShape for BxsRocket {
     fn child_elements(&self) -> Element {
@@ -9017,14 +9017,14 @@ impl IconShape for BxsRocket {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsRuler {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsRuler;
 
 impl IconShape for BxsRuler {
     fn child_elements(&self) -> Element {
@@ -9033,14 +9033,14 @@ impl IconShape for BxsRuler {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSad {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSad;
 
 impl IconShape for BxsSad {
     fn child_elements(&self) -> Element {
@@ -9049,14 +9049,14 @@ impl IconShape for BxsSad {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSave {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSave;
 
 impl IconShape for BxsSave {
     fn child_elements(&self) -> Element {
@@ -9065,14 +9065,14 @@ impl IconShape for BxsSave {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSchool {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSchool;
 
 impl IconShape for BxsSchool {
     fn child_elements(&self) -> Element {
@@ -9084,14 +9084,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSearch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSearch;
 
 impl IconShape for BxsSearch {
     fn child_elements(&self) -> Element {
@@ -9100,14 +9100,14 @@ impl IconShape for BxsSearch {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSearchAlt2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSearchAlt2;
 
 impl IconShape for BxsSearchAlt2 {
     fn child_elements(&self) -> Element {
@@ -9116,14 +9116,14 @@ impl IconShape for BxsSearchAlt2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSelectMultiple {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSelectMultiple;
 
 impl IconShape for BxsSelectMultiple {
     fn child_elements(&self) -> Element {
@@ -9135,14 +9135,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSend {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSend;
 
 impl IconShape for BxsSend {
     fn child_elements(&self) -> Element {
@@ -9151,14 +9151,14 @@ impl IconShape for BxsSend {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsServer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsServer;
 
 impl IconShape for BxsServer {
     fn child_elements(&self) -> Element {
@@ -9167,14 +9167,14 @@ impl IconShape for BxsServer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShapes {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShapes;
 
 impl IconShape for BxsShapes {
     fn child_elements(&self) -> Element {
@@ -9183,14 +9183,14 @@ impl IconShape for BxsShapes {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShare;
 
 impl IconShape for BxsShare {
     fn child_elements(&self) -> Element {
@@ -9199,14 +9199,14 @@ impl IconShape for BxsShare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShareAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShareAlt;
 
 impl IconShape for BxsShareAlt {
     fn child_elements(&self) -> Element {
@@ -9215,14 +9215,14 @@ impl IconShape for BxsShareAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShield {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShield;
 
 impl IconShape for BxsShield {
     fn child_elements(&self) -> Element {
@@ -9231,14 +9231,14 @@ impl IconShape for BxsShield {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShieldAlt2 {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShieldAlt2;
 
 impl IconShape for BxsShieldAlt2 {
     fn child_elements(&self) -> Element {
@@ -9247,14 +9247,14 @@ impl IconShape for BxsShieldAlt2 {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShieldMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShieldMinus;
 
 impl IconShape for BxsShieldMinus {
     fn child_elements(&self) -> Element {
@@ -9263,14 +9263,14 @@ impl IconShape for BxsShieldMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShieldPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShieldPlus;
 
 impl IconShape for BxsShieldPlus {
     fn child_elements(&self) -> Element {
@@ -9279,14 +9279,14 @@ impl IconShape for BxsShieldPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShieldX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShieldX;
 
 impl IconShape for BxsShieldX {
     fn child_elements(&self) -> Element {
@@ -9295,14 +9295,14 @@ impl IconShape for BxsShieldX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShip {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShip;
 
 impl IconShape for BxsShip {
     fn child_elements(&self) -> Element {
@@ -9311,14 +9311,14 @@ impl IconShape for BxsShip {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShocked {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShocked;
 
 impl IconShape for BxsShocked {
     fn child_elements(&self) -> Element {
@@ -9327,14 +9327,14 @@ impl IconShape for BxsShocked {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShoppingBag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShoppingBag;
 
 impl IconShape for BxsShoppingBag {
     fn child_elements(&self) -> Element {
@@ -9343,14 +9343,14 @@ impl IconShape for BxsShoppingBag {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShoppingBagAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShoppingBagAlt;
 
 impl IconShape for BxsShoppingBagAlt {
     fn child_elements(&self) -> Element {
@@ -9359,14 +9359,14 @@ impl IconShape for BxsShoppingBagAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShoppingBags {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShoppingBags;
 
 impl IconShape for BxsShoppingBags {
     fn child_elements(&self) -> Element {
@@ -9378,14 +9378,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShow;
 
 impl IconShape for BxsShow {
     fn child_elements(&self) -> Element {
@@ -9397,14 +9397,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsShower {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsShower;
 
 impl IconShape for BxsShower {
     fn child_elements(&self) -> Element {
@@ -9413,14 +9413,14 @@ impl IconShape for BxsShower {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSkipNextCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSkipNextCircle;
 
 impl IconShape for BxsSkipNextCircle {
     fn child_elements(&self) -> Element {
@@ -9429,14 +9429,14 @@ impl IconShape for BxsSkipNextCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSkipPreviousCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSkipPreviousCircle;
 
 impl IconShape for BxsSkipPreviousCircle {
     fn child_elements(&self) -> Element {
@@ -9445,14 +9445,14 @@ impl IconShape for BxsSkipPreviousCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSkull {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSkull;
 
 impl IconShape for BxsSkull {
     fn child_elements(&self) -> Element {
@@ -9461,14 +9461,14 @@ impl IconShape for BxsSkull {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSleepy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSleepy;
 
 impl IconShape for BxsSleepy {
     fn child_elements(&self) -> Element {
@@ -9477,14 +9477,14 @@ impl IconShape for BxsSleepy {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSlideshow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSlideshow;
 
 impl IconShape for BxsSlideshow {
     fn child_elements(&self) -> Element {
@@ -9493,14 +9493,14 @@ impl IconShape for BxsSlideshow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSmile {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSmile;
 
 impl IconShape for BxsSmile {
     fn child_elements(&self) -> Element {
@@ -9509,14 +9509,14 @@ impl IconShape for BxsSmile {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSortAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSortAlt;
 
 impl IconShape for BxsSortAlt {
     fn child_elements(&self) -> Element {
@@ -9525,14 +9525,14 @@ impl IconShape for BxsSortAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSpa {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSpa;
 
 impl IconShape for BxsSpa {
     fn child_elements(&self) -> Element {
@@ -9544,14 +9544,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSpeaker {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSpeaker;
 
 impl IconShape for BxsSpeaker {
     fn child_elements(&self) -> Element {
@@ -9565,14 +9565,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSprayCan {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSprayCan;
 
 impl IconShape for BxsSprayCan {
     fn child_elements(&self) -> Element {
@@ -9581,14 +9581,14 @@ impl IconShape for BxsSprayCan {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSpreadsheet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSpreadsheet;
 
 impl IconShape for BxsSpreadsheet {
     fn child_elements(&self) -> Element {
@@ -9597,14 +9597,14 @@ impl IconShape for BxsSpreadsheet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSquare;
 
 impl IconShape for BxsSquare {
     fn child_elements(&self) -> Element {
@@ -9613,14 +9613,14 @@ impl IconShape for BxsSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSquareRounded {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSquareRounded;
 
 impl IconShape for BxsSquareRounded {
     fn child_elements(&self) -> Element {
@@ -9629,14 +9629,14 @@ impl IconShape for BxsSquareRounded {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsStar {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsStar;
 
 impl IconShape for BxsStar {
     fn child_elements(&self) -> Element {
@@ -9645,14 +9645,14 @@ impl IconShape for BxsStar {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsStarHalf {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsStarHalf;
 
 impl IconShape for BxsStarHalf {
     fn child_elements(&self) -> Element {
@@ -9661,14 +9661,14 @@ impl IconShape for BxsStarHalf {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSticker {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSticker;
 
 impl IconShape for BxsSticker {
     fn child_elements(&self) -> Element {
@@ -9680,14 +9680,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsStopwatch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsStopwatch;
 
 impl IconShape for BxsStopwatch {
     fn child_elements(&self) -> Element {
@@ -9696,14 +9696,14 @@ impl IconShape for BxsStopwatch {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsStore {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsStore;
 
 impl IconShape for BxsStore {
     fn child_elements(&self) -> Element {
@@ -9712,14 +9712,14 @@ impl IconShape for BxsStore {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsStoreAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsStoreAlt;
 
 impl IconShape for BxsStoreAlt {
     fn child_elements(&self) -> Element {
@@ -9728,14 +9728,14 @@ impl IconShape for BxsStoreAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSun {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSun;
 
 impl IconShape for BxsSun {
     fn child_elements(&self) -> Element {
@@ -9744,14 +9744,14 @@ impl IconShape for BxsSun {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsSushi {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsSushi;
 
 impl IconShape for BxsSushi {
     fn child_elements(&self) -> Element {
@@ -9766,14 +9766,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTShirt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTShirt;
 
 impl IconShape for BxsTShirt {
     fn child_elements(&self) -> Element {
@@ -9782,14 +9782,14 @@ impl IconShape for BxsTShirt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTachometer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTachometer;
 
 impl IconShape for BxsTachometer {
     fn child_elements(&self) -> Element {
@@ -9798,14 +9798,14 @@ impl IconShape for BxsTachometer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTag {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTag;
 
 impl IconShape for BxsTag {
     fn child_elements(&self) -> Element {
@@ -9814,14 +9814,14 @@ impl IconShape for BxsTag {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTagAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTagAlt;
 
 impl IconShape for BxsTagAlt {
     fn child_elements(&self) -> Element {
@@ -9830,14 +9830,14 @@ impl IconShape for BxsTagAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTagX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTagX;
 
 impl IconShape for BxsTagX {
     fn child_elements(&self) -> Element {
@@ -9846,14 +9846,14 @@ impl IconShape for BxsTagX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTaxi {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTaxi;
 
 impl IconShape for BxsTaxi {
     fn child_elements(&self) -> Element {
@@ -9862,14 +9862,14 @@ impl IconShape for BxsTaxi {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTennisBall {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTennisBall;
 
 impl IconShape for BxsTennisBall {
     fn child_elements(&self) -> Element {
@@ -9881,14 +9881,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTerminal {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTerminal;
 
 impl IconShape for BxsTerminal {
     fn child_elements(&self) -> Element {
@@ -9897,14 +9897,14 @@ impl IconShape for BxsTerminal {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsThermometer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsThermometer;
 
 impl IconShape for BxsThermometer {
     fn child_elements(&self) -> Element {
@@ -9916,14 +9916,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTime {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTime;
 
 impl IconShape for BxsTime {
     fn child_elements(&self) -> Element {
@@ -9932,14 +9932,14 @@ impl IconShape for BxsTime {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTimeFive {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTimeFive;
 
 impl IconShape for BxsTimeFive {
     fn child_elements(&self) -> Element {
@@ -9948,14 +9948,14 @@ impl IconShape for BxsTimeFive {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTimer {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTimer;
 
 impl IconShape for BxsTimer {
     fn child_elements(&self) -> Element {
@@ -9964,14 +9964,14 @@ impl IconShape for BxsTimer {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTired {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTired;
 
 impl IconShape for BxsTired {
     fn child_elements(&self) -> Element {
@@ -9980,14 +9980,14 @@ impl IconShape for BxsTired {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsToTop {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsToTop;
 
 impl IconShape for BxsToTop {
     fn child_elements(&self) -> Element {
@@ -9996,14 +9996,14 @@ impl IconShape for BxsToTop {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsToggleLeft {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsToggleLeft;
 
 impl IconShape for BxsToggleLeft {
     fn child_elements(&self) -> Element {
@@ -10012,14 +10012,14 @@ impl IconShape for BxsToggleLeft {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsToggleRight {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsToggleRight;
 
 impl IconShape for BxsToggleRight {
     fn child_elements(&self) -> Element {
@@ -10028,14 +10028,14 @@ impl IconShape for BxsToggleRight {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTone;
 
 impl IconShape for BxsTone {
     fn child_elements(&self) -> Element {
@@ -10044,14 +10044,14 @@ impl IconShape for BxsTone {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTorch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTorch;
 
 impl IconShape for BxsTorch {
     fn child_elements(&self) -> Element {
@@ -10060,14 +10060,14 @@ impl IconShape for BxsTorch {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTraffic {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTraffic;
 
 impl IconShape for BxsTraffic {
     fn child_elements(&self) -> Element {
@@ -10076,14 +10076,14 @@ impl IconShape for BxsTraffic {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTrafficBarrier {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTrafficBarrier;
 
 impl IconShape for BxsTrafficBarrier {
     fn child_elements(&self) -> Element {
@@ -10092,14 +10092,14 @@ impl IconShape for BxsTrafficBarrier {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTrafficCone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTrafficCone;
 
 impl IconShape for BxsTrafficCone {
     fn child_elements(&self) -> Element {
@@ -10108,14 +10108,14 @@ impl IconShape for BxsTrafficCone {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTrain {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTrain;
 
 impl IconShape for BxsTrain {
     fn child_elements(&self) -> Element {
@@ -10124,14 +10124,14 @@ impl IconShape for BxsTrain {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTrash {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTrash;
 
 impl IconShape for BxsTrash {
     fn child_elements(&self) -> Element {
@@ -10140,14 +10140,14 @@ impl IconShape for BxsTrash {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTrashAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTrashAlt;
 
 impl IconShape for BxsTrashAlt {
     fn child_elements(&self) -> Element {
@@ -10156,14 +10156,14 @@ impl IconShape for BxsTrashAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTree {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTree;
 
 impl IconShape for BxsTree {
     fn child_elements(&self) -> Element {
@@ -10172,14 +10172,14 @@ impl IconShape for BxsTree {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTreeAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTreeAlt;
 
 impl IconShape for BxsTreeAlt {
     fn child_elements(&self) -> Element {
@@ -10188,14 +10188,14 @@ impl IconShape for BxsTreeAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTrophy {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTrophy;
 
 impl IconShape for BxsTrophy {
     fn child_elements(&self) -> Element {
@@ -10204,14 +10204,14 @@ impl IconShape for BxsTrophy {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTruck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTruck;
 
 impl IconShape for BxsTruck {
     fn child_elements(&self) -> Element {
@@ -10220,14 +10220,14 @@ impl IconShape for BxsTruck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsTv {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsTv;
 
 impl IconShape for BxsTv {
     fn child_elements(&self) -> Element {
@@ -10236,14 +10236,14 @@ impl IconShape for BxsTv {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUniversalAccess {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUniversalAccess;
 
 impl IconShape for BxsUniversalAccess {
     fn child_elements(&self) -> Element {
@@ -10252,14 +10252,14 @@ impl IconShape for BxsUniversalAccess {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUpArrow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUpArrow;
 
 impl IconShape for BxsUpArrow {
     fn child_elements(&self) -> Element {
@@ -10268,14 +10268,14 @@ impl IconShape for BxsUpArrow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUpArrowAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUpArrowAlt;
 
 impl IconShape for BxsUpArrowAlt {
     fn child_elements(&self) -> Element {
@@ -10284,14 +10284,14 @@ impl IconShape for BxsUpArrowAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUpArrowCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUpArrowCircle;
 
 impl IconShape for BxsUpArrowCircle {
     fn child_elements(&self) -> Element {
@@ -10300,14 +10300,14 @@ impl IconShape for BxsUpArrowCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUpArrowSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUpArrowSquare;
 
 impl IconShape for BxsUpArrowSquare {
     fn child_elements(&self) -> Element {
@@ -10316,14 +10316,14 @@ impl IconShape for BxsUpArrowSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUpsideDown {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUpsideDown;
 
 impl IconShape for BxsUpsideDown {
     fn child_elements(&self) -> Element {
@@ -10332,14 +10332,14 @@ impl IconShape for BxsUpsideDown {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUpvote {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUpvote;
 
 impl IconShape for BxsUpvote {
     fn child_elements(&self) -> Element {
@@ -10348,14 +10348,14 @@ impl IconShape for BxsUpvote {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUser {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUser;
 
 impl IconShape for BxsUser {
     fn child_elements(&self) -> Element {
@@ -10364,14 +10364,14 @@ impl IconShape for BxsUser {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserAccount {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserAccount;
 
 impl IconShape for BxsUserAccount {
     fn child_elements(&self) -> Element {
@@ -10383,14 +10383,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserBadge {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserBadge;
 
 impl IconShape for BxsUserBadge {
     fn child_elements(&self) -> Element {
@@ -10399,14 +10399,14 @@ impl IconShape for BxsUserBadge {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserCheck {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserCheck;
 
 impl IconShape for BxsUserCheck {
     fn child_elements(&self) -> Element {
@@ -10415,14 +10415,14 @@ impl IconShape for BxsUserCheck {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserCircle;
 
 impl IconShape for BxsUserCircle {
     fn child_elements(&self) -> Element {
@@ -10431,14 +10431,14 @@ impl IconShape for BxsUserCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserDetail {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserDetail;
 
 impl IconShape for BxsUserDetail {
     fn child_elements(&self) -> Element {
@@ -10447,14 +10447,14 @@ impl IconShape for BxsUserDetail {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserMinus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserMinus;
 
 impl IconShape for BxsUserMinus {
     fn child_elements(&self) -> Element {
@@ -10463,14 +10463,14 @@ impl IconShape for BxsUserMinus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserPin {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserPin;
 
 impl IconShape for BxsUserPin {
     fn child_elements(&self) -> Element {
@@ -10479,14 +10479,14 @@ impl IconShape for BxsUserPin {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserPlus;
 
 impl IconShape for BxsUserPlus {
     fn child_elements(&self) -> Element {
@@ -10495,14 +10495,14 @@ impl IconShape for BxsUserPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserRectangle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserRectangle;
 
 impl IconShape for BxsUserRectangle {
     fn child_elements(&self) -> Element {
@@ -10511,14 +10511,14 @@ impl IconShape for BxsUserRectangle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserVoice {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserVoice;
 
 impl IconShape for BxsUserVoice {
     fn child_elements(&self) -> Element {
@@ -10530,14 +10530,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsUserX {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsUserX;
 
 impl IconShape for BxsUserX {
     fn child_elements(&self) -> Element {
@@ -10546,14 +10546,14 @@ impl IconShape for BxsUserX {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVector {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVector;
 
 impl IconShape for BxsVector {
     fn child_elements(&self) -> Element {
@@ -10562,14 +10562,14 @@ impl IconShape for BxsVector {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVial {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVial;
 
 impl IconShape for BxsVial {
     fn child_elements(&self) -> Element {
@@ -10578,14 +10578,14 @@ impl IconShape for BxsVial {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVideo {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVideo;
 
 impl IconShape for BxsVideo {
     fn child_elements(&self) -> Element {
@@ -10594,14 +10594,14 @@ impl IconShape for BxsVideo {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVideoOff {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVideoOff;
 
 impl IconShape for BxsVideoOff {
     fn child_elements(&self) -> Element {
@@ -10610,14 +10610,14 @@ impl IconShape for BxsVideoOff {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVideoPlus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVideoPlus;
 
 impl IconShape for BxsVideoPlus {
     fn child_elements(&self) -> Element {
@@ -10626,14 +10626,14 @@ impl IconShape for BxsVideoPlus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVideoRecording {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVideoRecording;
 
 impl IconShape for BxsVideoRecording {
     fn child_elements(&self) -> Element {
@@ -10642,14 +10642,14 @@ impl IconShape for BxsVideoRecording {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVideos {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVideos;
 
 impl IconShape for BxsVideos {
     fn child_elements(&self) -> Element {
@@ -10661,14 +10661,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVirus {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVirus;
 
 impl IconShape for BxsVirus {
     fn child_elements(&self) -> Element {
@@ -10677,14 +10677,14 @@ impl IconShape for BxsVirus {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVirusBlock {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVirusBlock;
 
 impl IconShape for BxsVirusBlock {
     fn child_elements(&self) -> Element {
@@ -10693,14 +10693,14 @@ impl IconShape for BxsVirusBlock {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVolume {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVolume;
 
 impl IconShape for BxsVolume {
     fn child_elements(&self) -> Element {
@@ -10709,14 +10709,14 @@ impl IconShape for BxsVolume {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVolumeFull {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVolumeFull;
 
 impl IconShape for BxsVolumeFull {
     fn child_elements(&self) -> Element {
@@ -10728,14 +10728,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVolumeLow {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVolumeLow;
 
 impl IconShape for BxsVolumeLow {
     fn child_elements(&self) -> Element {
@@ -10744,14 +10744,14 @@ impl IconShape for BxsVolumeLow {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsVolumeMute {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsVolumeMute;
 
 impl IconShape for BxsVolumeMute {
     fn child_elements(&self) -> Element {
@@ -10760,14 +10760,14 @@ impl IconShape for BxsVolumeMute {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWallet {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWallet;
 
 impl IconShape for BxsWallet {
     fn child_elements(&self) -> Element {
@@ -10776,14 +10776,14 @@ impl IconShape for BxsWallet {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWalletAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWalletAlt;
 
 impl IconShape for BxsWalletAlt {
     fn child_elements(&self) -> Element {
@@ -10795,14 +10795,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWasher {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWasher;
 
 impl IconShape for BxsWasher {
     fn child_elements(&self) -> Element {
@@ -10814,14 +10814,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWatch {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWatch;
 
 impl IconShape for BxsWatch {
     fn child_elements(&self) -> Element {
@@ -10833,14 +10833,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWatchAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWatchAlt;
 
 impl IconShape for BxsWatchAlt {
     fn child_elements(&self) -> Element {
@@ -10849,14 +10849,14 @@ impl IconShape for BxsWatchAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWebcam {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWebcam;
 
 impl IconShape for BxsWebcam {
     fn child_elements(&self) -> Element {
@@ -10868,14 +10868,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWidget {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWidget;
 
 impl IconShape for BxsWidget {
     fn child_elements(&self) -> Element {
@@ -10884,14 +10884,14 @@ impl IconShape for BxsWidget {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWindowAlt {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWindowAlt;
 
 impl IconShape for BxsWindowAlt {
     fn child_elements(&self) -> Element {
@@ -10900,14 +10900,14 @@ impl IconShape for BxsWindowAlt {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWine;
 
 impl IconShape for BxsWine {
     fn child_elements(&self) -> Element {
@@ -10916,14 +10916,14 @@ impl IconShape for BxsWine {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWinkSmile {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWinkSmile;
 
 impl IconShape for BxsWinkSmile {
     fn child_elements(&self) -> Element {
@@ -10932,14 +10932,14 @@ impl IconShape for BxsWinkSmile {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWinkTongue {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWinkTongue;
 
 impl IconShape for BxsWinkTongue {
     fn child_elements(&self) -> Element {
@@ -10951,14 +10951,14 @@ path {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsWrench {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsWrench;
 
 impl IconShape for BxsWrench {
     fn child_elements(&self) -> Element {
@@ -10967,14 +10967,14 @@ impl IconShape for BxsWrench {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsXCircle {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsXCircle;
 
 impl IconShape for BxsXCircle {
     fn child_elements(&self) -> Element {
@@ -10983,14 +10983,14 @@ impl IconShape for BxsXCircle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsXSquare {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsXSquare;
 
 impl IconShape for BxsXSquare {
     fn child_elements(&self) -> Element {
@@ -10999,14 +10999,14 @@ impl IconShape for BxsXSquare {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsYinYang {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsYinYang;
 
 impl IconShape for BxsYinYang {
     fn child_elements(&self) -> Element {
@@ -11020,14 +11020,14 @@ circle {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsZap {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsZap;
 
 impl IconShape for BxsZap {
     fn child_elements(&self) -> Element {
@@ -11036,14 +11036,14 @@ impl IconShape for BxsZap {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsZoomIn {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsZoomIn;
 
 impl IconShape for BxsZoomIn {
     fn child_elements(&self) -> Element {
@@ -11052,14 +11052,14 @@ impl IconShape for BxsZoomIn {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BxsZoomOut {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BxsZoomOut;
 
 impl IconShape for BxsZoomOut {
     fn child_elements(&self) -> Element {
@@ -11068,8 +11068,8 @@ impl IconShape for BxsZoomOut {
             })
     }
 
-    const WIDTH: Option<u32> = Some(24);
-    const HEIGHT: Option<u32> = Some(24);
+    const WIDTH: Option<&'static str> = Some("24");
+    const HEIGHT: Option<&'static str> = Some("24");
     const VIEW_BOX: Option<&'static str> = Some("0 0 24 24");
 
 }
