@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AcornDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AcornDuotone;
 
 impl IconShape for AcornDuotone {
     fn child_elements(&self) -> Element {
@@ -48,8 +48,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AddressBookDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AddressBookDuotone;
 
 impl IconShape for AddressBookDuotone {
     fn child_elements(&self) -> Element {
@@ -132,8 +132,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AddressBookTabsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AddressBookTabsDuotone;
 
 impl IconShape for AddressBookTabsDuotone {
     fn child_elements(&self) -> Element {
@@ -215,8 +215,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirTrafficControlDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirTrafficControlDuotone;
 
 impl IconShape for AirTrafficControlDuotone {
     fn child_elements(&self) -> Element {
@@ -278,8 +278,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplaneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplaneDuotone;
 
 impl IconShape for AirplaneDuotone {
     fn child_elements(&self) -> Element {
@@ -306,8 +306,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplaneInFlightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplaneInFlightDuotone;
 
 impl IconShape for AirplaneInFlightDuotone {
     fn child_elements(&self) -> Element {
@@ -345,8 +345,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplaneLandingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplaneLandingDuotone;
 
 impl IconShape for AirplaneLandingDuotone {
     fn child_elements(&self) -> Element {
@@ -384,8 +384,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplaneTakeoffDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplaneTakeoffDuotone;
 
 impl IconShape for AirplaneTakeoffDuotone {
     fn child_elements(&self) -> Element {
@@ -423,8 +423,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplaneTaxiingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplaneTaxiingDuotone;
 
 impl IconShape for AirplaneTaxiingDuotone {
     fn child_elements(&self) -> Element {
@@ -461,8 +461,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplaneTiltDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplaneTiltDuotone;
 
 impl IconShape for AirplaneTiltDuotone {
     fn child_elements(&self) -> Element {
@@ -489,8 +489,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AirplayDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AirplayDuotone;
 
 impl IconShape for AirplayDuotone {
     fn child_elements(&self) -> Element {
@@ -525,8 +525,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlarmDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlarmDuotone;
 
 impl IconShape for AlarmDuotone {
     fn child_elements(&self) -> Element {
@@ -587,8 +587,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlienDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlienDuotone;
 
 impl IconShape for AlienDuotone {
     fn child_elements(&self) -> Element {
@@ -643,8 +643,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignBottomDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignBottomDuotone;
 
 impl IconShape for AlignBottomDuotone {
     fn child_elements(&self) -> Element {
@@ -712,8 +712,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignBottomSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignBottomSimpleDuotone;
 
 impl IconShape for AlignBottomSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -759,8 +759,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignCenterHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignCenterHorizontalDuotone;
 
 impl IconShape for AlignCenterHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -848,8 +848,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignCenterHorizontalSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignCenterHorizontalSimpleDuotone;
 
 impl IconShape for AlignCenterHorizontalSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -906,8 +906,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignCenterVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignCenterVerticalDuotone;
 
 impl IconShape for AlignCenterVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -997,8 +997,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignCenterVerticalSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignCenterVerticalSimpleDuotone;
 
 impl IconShape for AlignCenterVerticalSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -1055,8 +1055,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignLeftDuotone;
 
 impl IconShape for AlignLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -1122,8 +1122,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignLeftSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignLeftSimpleDuotone;
 
 impl IconShape for AlignLeftSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -1169,8 +1169,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignRightDuotone;
 
 impl IconShape for AlignRightDuotone {
     fn child_elements(&self) -> Element {
@@ -1238,8 +1238,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignRightSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignRightSimpleDuotone;
 
 impl IconShape for AlignRightSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -1285,8 +1285,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignTopDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignTopDuotone;
 
 impl IconShape for AlignTopDuotone {
     fn child_elements(&self) -> Element {
@@ -1354,8 +1354,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AlignTopSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AlignTopSimpleDuotone;
 
 impl IconShape for AlignTopSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -1401,8 +1401,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AmazonLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AmazonLogoDuotone;
 
 impl IconShape for AmazonLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -1457,8 +1457,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AmbulanceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AmbulanceDuotone;
 
 impl IconShape for AmbulanceDuotone {
     fn child_elements(&self) -> Element {
@@ -1557,8 +1557,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AnchorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AnchorDuotone;
 
 impl IconShape for AnchorDuotone {
     fn child_elements(&self) -> Element {
@@ -1619,8 +1619,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AnchorSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AnchorSimpleDuotone;
 
 impl IconShape for AnchorSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -1670,8 +1670,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AndroidLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AndroidLogoDuotone;
 
 impl IconShape for AndroidLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -1730,8 +1730,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AngleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AngleDuotone;
 
 impl IconShape for AngleDuotone {
     fn child_elements(&self) -> Element {
@@ -1777,8 +1777,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AngularLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AngularLogoDuotone;
 
 impl IconShape for AngularLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -1824,8 +1824,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ApertureDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ApertureDuotone;
 
 impl IconShape for ApertureDuotone {
     fn child_elements(&self) -> Element {
@@ -1920,8 +1920,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AppStoreLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AppStoreLogoDuotone;
 
 impl IconShape for AppStoreLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -2006,8 +2006,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AppWindowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AppWindowDuotone;
 
 impl IconShape for AppWindowDuotone {
     fn child_elements(&self) -> Element {
@@ -2052,8 +2052,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AppleLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AppleLogoDuotone;
 
 impl IconShape for AppleLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -2088,8 +2088,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ApplePodcastsLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ApplePodcastsLogoDuotone;
 
 impl IconShape for ApplePodcastsLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -2148,8 +2148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ApproximateEqualsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ApproximateEqualsDuotone;
 
 impl IconShape for ApproximateEqualsDuotone {
     fn child_elements(&self) -> Element {
@@ -2188,8 +2188,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveDuotone;
 
 impl IconShape for ArchiveDuotone {
     fn child_elements(&self) -> Element {
@@ -2239,8 +2239,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArmchairDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArmchairDuotone;
 
 impl IconShape for ArmchairDuotone {
     fn child_elements(&self) -> Element {
@@ -2286,8 +2286,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowArcLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowArcLeftDuotone;
 
 impl IconShape for ArrowArcLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -2322,8 +2322,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowArcRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowArcRightDuotone;
 
 impl IconShape for ArrowArcRightDuotone {
     fn child_elements(&self) -> Element {
@@ -2358,8 +2358,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendDoubleUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendDoubleUpLeftDuotone;
 
 impl IconShape for ArrowBendDoubleUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -2402,8 +2402,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendDoubleUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendDoubleUpRightDuotone;
 
 impl IconShape for ArrowBendDoubleUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -2446,8 +2446,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendDownLeftDuotone;
 
 impl IconShape for ArrowBendDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -2482,8 +2482,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendDownRightDuotone;
 
 impl IconShape for ArrowBendDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -2518,8 +2518,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendLeftDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendLeftDownDuotone;
 
 impl IconShape for ArrowBendLeftDownDuotone {
     fn child_elements(&self) -> Element {
@@ -2554,8 +2554,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendLeftUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendLeftUpDuotone;
 
 impl IconShape for ArrowBendLeftUpDuotone {
     fn child_elements(&self) -> Element {
@@ -2590,8 +2590,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendRightDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendRightDownDuotone;
 
 impl IconShape for ArrowBendRightDownDuotone {
     fn child_elements(&self) -> Element {
@@ -2626,8 +2626,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendRightUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendRightUpDuotone;
 
 impl IconShape for ArrowBendRightUpDuotone {
     fn child_elements(&self) -> Element {
@@ -2662,8 +2662,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendUpLeftDuotone;
 
 impl IconShape for ArrowBendUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -2698,8 +2698,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowBendUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowBendUpRightDuotone;
 
 impl IconShape for ArrowBendUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -2734,8 +2734,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleDownDuotone;
 
 impl IconShape for ArrowCircleDownDuotone {
     fn child_elements(&self) -> Element {
@@ -2785,8 +2785,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleDownLeftDuotone;
 
 impl IconShape for ArrowCircleDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -2836,8 +2836,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleDownRightDuotone;
 
 impl IconShape for ArrowCircleDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -2887,8 +2887,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleLeftDuotone;
 
 impl IconShape for ArrowCircleLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -2938,8 +2938,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleRightDuotone;
 
 impl IconShape for ArrowCircleRightDuotone {
     fn child_elements(&self) -> Element {
@@ -2989,8 +2989,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleUpDuotone;
 
 impl IconShape for ArrowCircleUpDuotone {
     fn child_elements(&self) -> Element {
@@ -3040,8 +3040,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleUpLeftDuotone;
 
 impl IconShape for ArrowCircleUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3091,8 +3091,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCircleUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCircleUpRightDuotone;
 
 impl IconShape for ArrowCircleUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -3142,8 +3142,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowClockwiseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowClockwiseDuotone;
 
 impl IconShape for ArrowClockwiseDuotone {
     fn child_elements(&self) -> Element {
@@ -3180,8 +3180,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowCounterClockwiseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowCounterClockwiseDuotone;
 
 impl IconShape for ArrowCounterClockwiseDuotone {
     fn child_elements(&self) -> Element {
@@ -3218,8 +3218,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDownDuotone;
 
 impl IconShape for ArrowDownDuotone {
     fn child_elements(&self) -> Element {
@@ -3257,8 +3257,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDownLeftDuotone;
 
 impl IconShape for ArrowDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3296,8 +3296,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowDownRightDuotone;
 
 impl IconShape for ArrowDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -3335,8 +3335,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowDownLeftDuotone;
 
 impl IconShape for ArrowElbowDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3371,8 +3371,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowDownRightDuotone;
 
 impl IconShape for ArrowElbowDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -3407,8 +3407,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowLeftDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowLeftDownDuotone;
 
 impl IconShape for ArrowElbowLeftDownDuotone {
     fn child_elements(&self) -> Element {
@@ -3443,8 +3443,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowLeftDuotone;
 
 impl IconShape for ArrowElbowLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3479,8 +3479,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowLeftUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowLeftUpDuotone;
 
 impl IconShape for ArrowElbowLeftUpDuotone {
     fn child_elements(&self) -> Element {
@@ -3515,8 +3515,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowRightDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowRightDownDuotone;
 
 impl IconShape for ArrowElbowRightDownDuotone {
     fn child_elements(&self) -> Element {
@@ -3551,8 +3551,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowRightDuotone;
 
 impl IconShape for ArrowElbowRightDuotone {
     fn child_elements(&self) -> Element {
@@ -3587,8 +3587,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowRightUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowRightUpDuotone;
 
 impl IconShape for ArrowElbowRightUpDuotone {
     fn child_elements(&self) -> Element {
@@ -3623,8 +3623,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowUpLeftDuotone;
 
 impl IconShape for ArrowElbowUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3659,8 +3659,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowElbowUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowElbowUpRightDuotone;
 
 impl IconShape for ArrowElbowUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -3695,8 +3695,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatDownDuotone;
 
 impl IconShape for ArrowFatDownDuotone {
     fn child_elements(&self) -> Element {
@@ -3723,8 +3723,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLeftDuotone;
 
 impl IconShape for ArrowFatLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3751,8 +3751,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLineDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLineDownDuotone;
 
 impl IconShape for ArrowFatLineDownDuotone {
     fn child_elements(&self) -> Element {
@@ -3790,8 +3790,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLineLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLineLeftDuotone;
 
 impl IconShape for ArrowFatLineLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -3829,8 +3829,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLineRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLineRightDuotone;
 
 impl IconShape for ArrowFatLineRightDuotone {
     fn child_elements(&self) -> Element {
@@ -3868,8 +3868,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLineUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLineUpDuotone;
 
 impl IconShape for ArrowFatLineUpDuotone {
     fn child_elements(&self) -> Element {
@@ -3907,8 +3907,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLinesDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLinesDownDuotone;
 
 impl IconShape for ArrowFatLinesDownDuotone {
     fn child_elements(&self) -> Element {
@@ -3957,8 +3957,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLinesLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLinesLeftDuotone;
 
 impl IconShape for ArrowFatLinesLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4007,8 +4007,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLinesRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLinesRightDuotone;
 
 impl IconShape for ArrowFatLinesRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4057,8 +4057,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatLinesUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatLinesUpDuotone;
 
 impl IconShape for ArrowFatLinesUpDuotone {
     fn child_elements(&self) -> Element {
@@ -4107,8 +4107,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatRightDuotone;
 
 impl IconShape for ArrowFatRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4135,8 +4135,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowFatUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowFatUpDuotone;
 
 impl IconShape for ArrowFatUpDuotone {
     fn child_elements(&self) -> Element {
@@ -4163,8 +4163,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLeftDuotone;
 
 impl IconShape for ArrowLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4202,8 +4202,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineDownDuotone;
 
 impl IconShape for ArrowLineDownDuotone {
     fn child_elements(&self) -> Element {
@@ -4252,8 +4252,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineDownLeftDuotone;
 
 impl IconShape for ArrowLineDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4302,8 +4302,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineDownRightDuotone;
 
 impl IconShape for ArrowLineDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4352,8 +4352,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineLeftDuotone;
 
 impl IconShape for ArrowLineLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4402,8 +4402,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineRightDuotone;
 
 impl IconShape for ArrowLineRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4452,8 +4452,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineUpDuotone;
 
 impl IconShape for ArrowLineUpDuotone {
     fn child_elements(&self) -> Element {
@@ -4502,8 +4502,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineUpLeftDuotone;
 
 impl IconShape for ArrowLineUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4552,8 +4552,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowLineUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowLineUpRightDuotone;
 
 impl IconShape for ArrowLineUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4602,8 +4602,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowRightDuotone;
 
 impl IconShape for ArrowRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4641,8 +4641,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareDownDuotone;
 
 impl IconShape for ArrowSquareDownDuotone {
     fn child_elements(&self) -> Element {
@@ -4696,8 +4696,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareDownLeftDuotone;
 
 impl IconShape for ArrowSquareDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4753,8 +4753,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareDownRightDuotone;
 
 impl IconShape for ArrowSquareDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -4810,8 +4810,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareInDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareInDuotone;
 
 impl IconShape for ArrowSquareInDuotone {
     fn child_elements(&self) -> Element {
@@ -4861,8 +4861,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareLeftDuotone;
 
 impl IconShape for ArrowSquareLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -4918,8 +4918,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareOutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareOutDuotone;
 
 impl IconShape for ArrowSquareOutDuotone {
     fn child_elements(&self) -> Element {
@@ -4969,8 +4969,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareRightDuotone;
 
 impl IconShape for ArrowSquareRightDuotone {
     fn child_elements(&self) -> Element {
@@ -5026,8 +5026,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareUpDuotone;
 
 impl IconShape for ArrowSquareUpDuotone {
     fn child_elements(&self) -> Element {
@@ -5081,8 +5081,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareUpLeftDuotone;
 
 impl IconShape for ArrowSquareUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -5138,8 +5138,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowSquareUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowSquareUpRightDuotone;
 
 impl IconShape for ArrowSquareUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -5195,8 +5195,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUDownLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUDownLeftDuotone;
 
 impl IconShape for ArrowUDownLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -5231,8 +5231,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUDownRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUDownRightDuotone;
 
 impl IconShape for ArrowUDownRightDuotone {
     fn child_elements(&self) -> Element {
@@ -5267,8 +5267,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowULeftDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowULeftDownDuotone;
 
 impl IconShape for ArrowULeftDownDuotone {
     fn child_elements(&self) -> Element {
@@ -5303,8 +5303,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowULeftUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowULeftUpDuotone;
 
 impl IconShape for ArrowULeftUpDuotone {
     fn child_elements(&self) -> Element {
@@ -5339,8 +5339,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowURightDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowURightDownDuotone;
 
 impl IconShape for ArrowURightDownDuotone {
     fn child_elements(&self) -> Element {
@@ -5375,8 +5375,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowURightUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowURightUpDuotone;
 
 impl IconShape for ArrowURightUpDuotone {
     fn child_elements(&self) -> Element {
@@ -5411,8 +5411,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUUpLeftDuotone;
 
 impl IconShape for ArrowUUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -5447,8 +5447,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUUpRightDuotone;
 
 impl IconShape for ArrowUUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -5483,8 +5483,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUpDuotone;
 
 impl IconShape for ArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -5522,8 +5522,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUpLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUpLeftDuotone;
 
 impl IconShape for ArrowUpLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -5561,8 +5561,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowUpRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowUpRightDuotone;
 
 impl IconShape for ArrowUpRightDuotone {
     fn child_elements(&self) -> Element {
@@ -5600,8 +5600,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsClockwiseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsClockwiseDuotone;
 
 impl IconShape for ArrowsClockwiseDuotone {
     fn child_elements(&self) -> Element {
@@ -5654,8 +5654,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsCounterClockwiseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsCounterClockwiseDuotone;
 
 impl IconShape for ArrowsCounterClockwiseDuotone {
     fn child_elements(&self) -> Element {
@@ -5708,8 +5708,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsDownUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsDownUpDuotone;
 
 impl IconShape for ArrowsDownUpDuotone {
     fn child_elements(&self) -> Element {
@@ -5769,8 +5769,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsHorizontalDuotone;
 
 impl IconShape for ArrowsHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -5816,8 +5816,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsInCardinalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsInCardinalDuotone;
 
 impl IconShape for ArrowsInCardinalDuotone {
     fn child_elements(&self) -> Element {
@@ -5916,8 +5916,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsInDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsInDuotone;
 
 impl IconShape for ArrowsInDuotone {
     fn child_elements(&self) -> Element {
@@ -6016,8 +6016,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsInLineHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsInLineHorizontalDuotone;
 
 impl IconShape for ArrowsInLineHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -6089,8 +6089,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsInLineVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsInLineVerticalDuotone;
 
 impl IconShape for ArrowsInLineVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -6162,8 +6162,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsInSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsInSimpleDuotone;
 
 impl IconShape for ArrowsInSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -6224,8 +6224,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsLeftRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsLeftRightDuotone;
 
 impl IconShape for ArrowsLeftRightDuotone {
     fn child_elements(&self) -> Element {
@@ -6285,8 +6285,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsMergeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsMergeDuotone;
 
 impl IconShape for ArrowsMergeDuotone {
     fn child_elements(&self) -> Element {
@@ -6329,8 +6329,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsOutCardinalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsOutCardinalDuotone;
 
 impl IconShape for ArrowsOutCardinalDuotone {
     fn child_elements(&self) -> Element {
@@ -6429,8 +6429,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsOutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsOutDuotone;
 
 impl IconShape for ArrowsOutDuotone {
     fn child_elements(&self) -> Element {
@@ -6528,8 +6528,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsOutLineHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsOutLineHorizontalDuotone;
 
 impl IconShape for ArrowsOutLineHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -6601,8 +6601,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsOutLineVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsOutLineVerticalDuotone;
 
 impl IconShape for ArrowsOutLineVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -6674,8 +6674,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsOutSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsOutSimpleDuotone;
 
 impl IconShape for ArrowsOutSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -6736,8 +6736,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsSplitDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsSplitDuotone;
 
 impl IconShape for ArrowsSplitDuotone {
     fn child_elements(&self) -> Element {
@@ -6788,8 +6788,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArrowsVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArrowsVerticalDuotone;
 
 impl IconShape for ArrowsVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -6835,8 +6835,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArticleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArticleDuotone;
 
 impl IconShape for ArticleDuotone {
     fn child_elements(&self) -> Element {
@@ -6904,8 +6904,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArticleMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArticleMediumDuotone;
 
 impl IconShape for ArticleMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -7020,8 +7020,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArticleNyTimesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArticleNyTimesDuotone;
 
 impl IconShape for ArticleNyTimesDuotone {
     fn child_elements(&self) -> Element {
@@ -7114,8 +7114,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AsclepiusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AsclepiusDuotone;
 
 impl IconShape for AsclepiusDuotone {
     fn child_elements(&self) -> Element {
@@ -7169,8 +7169,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AsteriskDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AsteriskDuotone;
 
 impl IconShape for AsteriskDuotone {
     fn child_elements(&self) -> Element {
@@ -7224,8 +7224,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AsteriskSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AsteriskSimpleDuotone;
 
 impl IconShape for AsteriskSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -7301,8 +7301,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AtDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AtDuotone;
 
 impl IconShape for AtDuotone {
     fn child_elements(&self) -> Element {
@@ -7339,8 +7339,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AtomDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AtomDuotone;
 
 impl IconShape for AtomDuotone {
     fn child_elements(&self) -> Element {
@@ -7392,8 +7392,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AvocadoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AvocadoDuotone;
 
 impl IconShape for AvocadoDuotone {
     fn child_elements(&self) -> Element {
@@ -7430,8 +7430,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AxeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AxeDuotone;
 
 impl IconShape for AxeDuotone {
     fn child_elements(&self) -> Element {
@@ -7474,8 +7474,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BabyCarriageDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BabyCarriageDuotone;
 
 impl IconShape for BabyCarriageDuotone {
     fn child_elements(&self) -> Element {
@@ -7539,8 +7539,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BabyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BabyDuotone;
 
 impl IconShape for BabyDuotone {
     fn child_elements(&self) -> Element {
@@ -7597,8 +7597,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BackpackDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BackpackDuotone;
 
 impl IconShape for BackpackDuotone {
     fn child_elements(&self) -> Element {
@@ -7674,8 +7674,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BackspaceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BackspaceDuotone;
 
 impl IconShape for BackspaceDuotone {
     fn child_elements(&self) -> Element {
@@ -7724,8 +7724,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BagDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BagDuotone;
 
 impl IconShape for BagDuotone {
     fn child_elements(&self) -> Element {
@@ -7768,8 +7768,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BagSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BagSimpleDuotone;
 
 impl IconShape for BagSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -7812,8 +7812,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BalloonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BalloonDuotone;
 
 impl IconShape for BalloonDuotone {
     fn child_elements(&self) -> Element {
@@ -7856,8 +7856,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BandaidsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BandaidsDuotone;
 
 impl IconShape for BandaidsDuotone {
     fn child_elements(&self) -> Element {
@@ -7920,8 +7920,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BankDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BankDuotone;
 
 impl IconShape for BankDuotone {
     fn child_elements(&self) -> Element {
@@ -8014,8 +8014,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarbellDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarbellDuotone;
 
 impl IconShape for BarbellDuotone {
     fn child_elements(&self) -> Element {
@@ -8119,8 +8119,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarcodeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarcodeDuotone;
 
 impl IconShape for BarcodeDuotone {
     fn child_elements(&self) -> Element {
@@ -8218,8 +8218,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarnDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarnDuotone;
 
 impl IconShape for BarnDuotone {
     fn child_elements(&self) -> Element {
@@ -8323,8 +8323,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarricadeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarricadeDuotone;
 
 impl IconShape for BarricadeDuotone {
     fn child_elements(&self) -> Element {
@@ -8414,8 +8414,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BaseballCapDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BaseballCapDuotone;
 
 impl IconShape for BaseballCapDuotone {
     fn child_elements(&self) -> Element {
@@ -8458,8 +8458,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BaseballDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BaseballDuotone;
 
 impl IconShape for BaseballDuotone {
     fn child_elements(&self) -> Element {
@@ -8562,8 +8562,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BaseballHelmetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BaseballHelmetDuotone;
 
 impl IconShape for BaseballHelmetDuotone {
     fn child_elements(&self) -> Element {
@@ -8614,8 +8614,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BasketDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BasketDuotone;
 
 impl IconShape for BasketDuotone {
     fn child_elements(&self) -> Element {
@@ -8683,8 +8683,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BasketballDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BasketballDuotone;
 
 impl IconShape for BasketballDuotone {
     fn child_elements(&self) -> Element {
@@ -8755,8 +8755,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BathtubDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BathtubDuotone;
 
 impl IconShape for BathtubDuotone {
     fn child_elements(&self) -> Element {
@@ -8824,8 +8824,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryChargingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryChargingDuotone;
 
 impl IconShape for BatteryChargingDuotone {
     fn child_elements(&self) -> Element {
@@ -8879,8 +8879,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryChargingVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryChargingVerticalDuotone;
 
 impl IconShape for BatteryChargingVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -8934,8 +8934,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryEmptyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryEmptyDuotone;
 
 impl IconShape for BatteryEmptyDuotone {
     fn child_elements(&self) -> Element {
@@ -8981,8 +8981,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryFullDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryFullDuotone;
 
 impl IconShape for BatteryFullDuotone {
     fn child_elements(&self) -> Element {
@@ -9072,8 +9072,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryHighDuotone;
 
 impl IconShape for BatteryHighDuotone {
     fn child_elements(&self) -> Element {
@@ -9152,8 +9152,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryLowDuotone;
 
 impl IconShape for BatteryLowDuotone {
     fn child_elements(&self) -> Element {
@@ -9210,8 +9210,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryMediumDuotone;
 
 impl IconShape for BatteryMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -9279,8 +9279,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryPlusDuotone;
 
 impl IconShape for BatteryPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -9348,8 +9348,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryPlusVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryPlusVerticalDuotone;
 
 impl IconShape for BatteryPlusVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -9417,8 +9417,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryVerticalEmptyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryVerticalEmptyDuotone;
 
 impl IconShape for BatteryVerticalEmptyDuotone {
     fn child_elements(&self) -> Element {
@@ -9464,8 +9464,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryVerticalFullDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryVerticalFullDuotone;
 
 impl IconShape for BatteryVerticalFullDuotone {
     fn child_elements(&self) -> Element {
@@ -9555,8 +9555,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryVerticalHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryVerticalHighDuotone;
 
 impl IconShape for BatteryVerticalHighDuotone {
     fn child_elements(&self) -> Element {
@@ -9635,8 +9635,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryVerticalLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryVerticalLowDuotone;
 
 impl IconShape for BatteryVerticalLowDuotone {
     fn child_elements(&self) -> Element {
@@ -9693,8 +9693,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryVerticalMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryVerticalMediumDuotone;
 
 impl IconShape for BatteryVerticalMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -9762,8 +9762,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryWarningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryWarningDuotone;
 
 impl IconShape for BatteryWarningDuotone {
     fn child_elements(&self) -> Element {
@@ -9825,8 +9825,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BatteryWarningVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BatteryWarningVerticalDuotone;
 
 impl IconShape for BatteryWarningVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -9888,8 +9888,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BeachBallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BeachBallDuotone;
 
 impl IconShape for BeachBallDuotone {
     fn child_elements(&self) -> Element {
@@ -9950,8 +9950,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BeanieDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BeanieDuotone;
 
 impl IconShape for BeanieDuotone {
     fn child_elements(&self) -> Element {
@@ -10033,8 +10033,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BedDuotone;
 
 impl IconShape for BedDuotone {
     fn child_elements(&self) -> Element {
@@ -10091,8 +10091,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BeerBottleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BeerBottleDuotone;
 
 impl IconShape for BeerBottleDuotone {
     fn child_elements(&self) -> Element {
@@ -10156,8 +10156,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BeerSteinDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BeerSteinDuotone;
 
 impl IconShape for BeerSteinDuotone {
     fn child_elements(&self) -> Element {
@@ -10222,8 +10222,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BehanceLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BehanceLogoDuotone;
 
 impl IconShape for BehanceLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -10273,8 +10273,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellDuotone;
 
 impl IconShape for BellDuotone {
     fn child_elements(&self) -> Element {
@@ -10309,8 +10309,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellRingingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellRingingDuotone;
 
 impl IconShape for BellRingingDuotone {
     fn child_elements(&self) -> Element {
@@ -10361,8 +10361,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellSimpleDuotone;
 
 impl IconShape for BellSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -10400,8 +10400,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellSimpleRingingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellSimpleRingingDuotone;
 
 impl IconShape for BellSimpleRingingDuotone {
     fn child_elements(&self) -> Element {
@@ -10455,8 +10455,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellSimpleSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellSimpleSlashDuotone;
 
 impl IconShape for BellSimpleSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -10513,8 +10513,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellSimpleZDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellSimpleZDuotone;
 
 impl IconShape for BellSimpleZDuotone {
     fn child_elements(&self) -> Element {
@@ -10560,8 +10560,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellSlashDuotone;
 
 impl IconShape for BellSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -10615,8 +10615,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BellZDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BellZDuotone;
 
 impl IconShape for BellZDuotone {
     fn child_elements(&self) -> Element {
@@ -10659,8 +10659,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BeltDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BeltDuotone;
 
 impl IconShape for BeltDuotone {
     fn child_elements(&self) -> Element {
@@ -10767,8 +10767,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BezierCurveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BezierCurveDuotone;
 
 impl IconShape for BezierCurveDuotone {
     fn child_elements(&self) -> Element {
@@ -10869,8 +10869,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BicycleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BicycleDuotone;
 
 impl IconShape for BicycleDuotone {
     fn child_elements(&self) -> Element {
@@ -10941,8 +10941,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BinaryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BinaryDuotone;
 
 impl IconShape for BinaryDuotone {
     fn child_elements(&self) -> Element {
@@ -11003,8 +11003,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BinocularsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BinocularsDuotone;
 
 impl IconShape for BinocularsDuotone {
     fn child_elements(&self) -> Element {
@@ -11078,8 +11078,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BiohazardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BiohazardDuotone;
 
 impl IconShape for BiohazardDuotone {
     fn child_elements(&self) -> Element {
@@ -11134,8 +11134,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BirdDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BirdDuotone;
 
 impl IconShape for BirdDuotone {
     fn child_elements(&self) -> Element {
@@ -11178,8 +11178,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BlueprintDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BlueprintDuotone;
 
 impl IconShape for BlueprintDuotone {
     fn child_elements(&self) -> Element {
@@ -11250,8 +11250,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BluetoothConnectedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BluetoothConnectedDuotone;
 
 impl IconShape for BluetoothConnectedDuotone {
     fn child_elements(&self) -> Element {
@@ -11322,8 +11322,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BluetoothDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BluetoothDuotone;
 
 impl IconShape for BluetoothDuotone {
     fn child_elements(&self) -> Element {
@@ -11384,8 +11384,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BluetoothSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BluetoothSlashDuotone;
 
 impl IconShape for BluetoothSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -11446,8 +11446,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BluetoothXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BluetoothXDuotone;
 
 impl IconShape for BluetoothXDuotone {
     fn child_elements(&self) -> Element {
@@ -11530,8 +11530,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoatDuotone;
 
 impl IconShape for BoatDuotone {
     fn child_elements(&self) -> Element {
@@ -11590,8 +11590,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BombDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BombDuotone;
 
 impl IconShape for BombDuotone {
     fn child_elements(&self) -> Element {
@@ -11634,8 +11634,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoneDuotone;
 
 impl IconShape for BoneDuotone {
     fn child_elements(&self) -> Element {
@@ -11662,8 +11662,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookBookmarkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookBookmarkDuotone;
 
 impl IconShape for BookBookmarkDuotone {
     fn child_elements(&self) -> Element {
@@ -11706,8 +11706,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookDuotone;
 
 impl IconShape for BookDuotone {
     fn child_elements(&self) -> Element {
@@ -11742,8 +11742,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookOpenDuotone;
 
 impl IconShape for BookOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -11778,8 +11778,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookOpenTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookOpenTextDuotone;
 
 impl IconShape for BookOpenTextDuotone {
     fn child_elements(&self) -> Element {
@@ -11847,8 +11847,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookOpenUserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookOpenUserDuotone;
 
 impl IconShape for BookOpenUserDuotone {
     fn child_elements(&self) -> Element {
@@ -11891,8 +11891,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookmarkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookmarkDuotone;
 
 impl IconShape for BookmarkDuotone {
     fn child_elements(&self) -> Element {
@@ -11927,8 +11927,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookmarkSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookmarkSimpleDuotone;
 
 impl IconShape for BookmarkSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -11955,8 +11955,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookmarksDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookmarksDuotone;
 
 impl IconShape for BookmarksDuotone {
     fn child_elements(&self) -> Element {
@@ -11991,8 +11991,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookmarksSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookmarksSimpleDuotone;
 
 impl IconShape for BookmarksSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -12027,8 +12027,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BooksDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BooksDuotone;
 
 impl IconShape for BooksDuotone {
     fn child_elements(&self) -> Element {
@@ -12129,8 +12129,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BootDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BootDuotone;
 
 impl IconShape for BootDuotone {
     fn child_elements(&self) -> Element {
@@ -12190,8 +12190,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoulesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoulesDuotone;
 
 impl IconShape for BoulesDuotone {
     fn child_elements(&self) -> Element {
@@ -12253,8 +12253,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoundingBoxDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoundingBoxDuotone;
 
 impl IconShape for BoundingBoxDuotone {
     fn child_elements(&self) -> Element {
@@ -12393,8 +12393,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BowlFoodDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BowlFoodDuotone;
 
 impl IconShape for BowlFoodDuotone {
     fn child_elements(&self) -> Element {
@@ -12445,8 +12445,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BowlSteamDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BowlSteamDuotone;
 
 impl IconShape for BowlSteamDuotone {
     fn child_elements(&self) -> Element {
@@ -12497,8 +12497,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BowlingBallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BowlingBallDuotone;
 
 impl IconShape for BowlingBallDuotone {
     fn child_elements(&self) -> Element {
@@ -12544,8 +12544,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoxArrowDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoxArrowDownDuotone;
 
 impl IconShape for BoxArrowDownDuotone {
     fn child_elements(&self) -> Element {
@@ -12602,8 +12602,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoxArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoxArrowUpDuotone;
 
 impl IconShape for BoxArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -12660,8 +12660,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BoxingGloveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BoxingGloveDuotone;
 
 impl IconShape for BoxingGloveDuotone {
     fn child_elements(&self) -> Element {
@@ -12710,8 +12710,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BracketsAngleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BracketsAngleDuotone;
 
 impl IconShape for BracketsAngleDuotone {
     fn child_elements(&self) -> Element {
@@ -12746,8 +12746,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BracketsCurlyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BracketsCurlyDuotone;
 
 impl IconShape for BracketsCurlyDuotone {
     fn child_elements(&self) -> Element {
@@ -12782,8 +12782,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BracketsRoundDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BracketsRoundDuotone;
 
 impl IconShape for BracketsRoundDuotone {
     fn child_elements(&self) -> Element {
@@ -12818,8 +12818,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BracketsSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BracketsSquareDuotone;
 
 impl IconShape for BracketsSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -12857,8 +12857,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BrainDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BrainDuotone;
 
 impl IconShape for BrainDuotone {
     fn child_elements(&self) -> Element {
@@ -12925,8 +12925,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BrandyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BrandyDuotone;
 
 impl IconShape for BrandyDuotone {
     fn child_elements(&self) -> Element {
@@ -12986,8 +12986,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BreadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BreadDuotone;
 
 impl IconShape for BreadDuotone {
     fn child_elements(&self) -> Element {
@@ -13038,8 +13038,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BridgeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BridgeDuotone;
 
 impl IconShape for BridgeDuotone {
     fn child_elements(&self) -> Element {
@@ -13121,8 +13121,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BriefcaseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BriefcaseDuotone;
 
 impl IconShape for BriefcaseDuotone {
     fn child_elements(&self) -> Element {
@@ -13180,8 +13180,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BriefcaseMetalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BriefcaseMetalDuotone;
 
 impl IconShape for BriefcaseMetalDuotone {
     fn child_elements(&self) -> Element {
@@ -13246,8 +13246,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BroadcastDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BroadcastDuotone;
 
 impl IconShape for BroadcastDuotone {
     fn child_elements(&self) -> Element {
@@ -13310,8 +13310,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BroomDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BroomDuotone;
 
 impl IconShape for BroomDuotone {
     fn child_elements(&self) -> Element {
@@ -13357,8 +13357,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BrowserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BrowserDuotone;
 
 impl IconShape for BrowserDuotone {
     fn child_elements(&self) -> Element {
@@ -13400,8 +13400,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BrowsersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BrowsersDuotone;
 
 impl IconShape for BrowsersDuotone {
     fn child_elements(&self) -> Element {
@@ -13451,8 +13451,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BugBeetleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BugBeetleDuotone;
 
 impl IconShape for BugBeetleDuotone {
     fn child_elements(&self) -> Element {
@@ -13571,8 +13571,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BugDroidDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BugDroidDuotone;
 
 impl IconShape for BugDroidDuotone {
     fn child_elements(&self) -> Element {
@@ -13642,8 +13642,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BugDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BugDuotone;
 
 impl IconShape for BugDuotone {
     fn child_elements(&self) -> Element {
@@ -13746,8 +13746,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BuildingApartmentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BuildingApartmentDuotone;
 
 impl IconShape for BuildingApartmentDuotone {
     fn child_elements(&self) -> Element {
@@ -13881,8 +13881,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BuildingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BuildingDuotone;
 
 impl IconShape for BuildingDuotone {
     fn child_elements(&self) -> Element {
@@ -14019,8 +14019,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BuildingOfficeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BuildingOfficeDuotone;
 
 impl IconShape for BuildingOfficeDuotone {
     fn child_elements(&self) -> Element {
@@ -14157,8 +14157,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BuildingsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BuildingsDuotone;
 
 impl IconShape for BuildingsDuotone {
     fn child_elements(&self) -> Element {
@@ -14248,8 +14248,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BulldozerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BulldozerDuotone;
 
 impl IconShape for BulldozerDuotone {
     fn child_elements(&self) -> Element {
@@ -14333,8 +14333,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BusDuotone;
 
 impl IconShape for BusDuotone {
     fn child_elements(&self) -> Element {
@@ -14442,8 +14442,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ButterflyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ButterflyDuotone;
 
 impl IconShape for ButterflyDuotone {
     fn child_elements(&self) -> Element {
@@ -14489,8 +14489,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CableCarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CableCarDuotone;
 
 impl IconShape for CableCarDuotone {
     fn child_elements(&self) -> Element {
@@ -14576,8 +14576,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CactusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CactusDuotone;
 
 impl IconShape for CactusDuotone {
     fn child_elements(&self) -> Element {
@@ -14615,8 +14615,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CakeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CakeDuotone;
 
 impl IconShape for CakeDuotone {
     fn child_elements(&self) -> Element {
@@ -14674,8 +14674,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalculatorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalculatorDuotone;
 
 impl IconShape for CalculatorDuotone {
     fn child_elements(&self) -> Element {
@@ -14751,8 +14751,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarBlankDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarBlankDuotone;
 
 impl IconShape for CalendarBlankDuotone {
     fn child_elements(&self) -> Element {
@@ -14816,8 +14816,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarCheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarCheckDuotone;
 
 impl IconShape for CalendarCheckDuotone {
     fn child_elements(&self) -> Element {
@@ -14889,8 +14889,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarDotDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarDotDuotone;
 
 impl IconShape for CalendarDotDuotone {
     fn child_elements(&self) -> Element {
@@ -14959,8 +14959,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarDotsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarDotsDuotone;
 
 impl IconShape for CalendarDotsDuotone {
     fn child_elements(&self) -> Element {
@@ -15049,8 +15049,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarDuotone;
 
 impl IconShape for CalendarDuotone {
     fn child_elements(&self) -> Element {
@@ -15130,8 +15130,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarHeartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarHeartDuotone;
 
 impl IconShape for CalendarHeartDuotone {
     fn child_elements(&self) -> Element {
@@ -15194,8 +15194,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarMinusDuotone;
 
 impl IconShape for CalendarMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -15270,8 +15270,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarPlusDuotone;
 
 impl IconShape for CalendarPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -15357,8 +15357,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarSlashDuotone;
 
 impl IconShape for CalendarSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -15426,8 +15426,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarStarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarStarDuotone;
 
 impl IconShape for CalendarStarDuotone {
     fn child_elements(&self) -> Element {
@@ -15488,8 +15488,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarXDuotone;
 
 impl IconShape for CalendarXDuotone {
     fn child_elements(&self) -> Element {
@@ -15575,8 +15575,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CallBellDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CallBellDuotone;
 
 impl IconShape for CallBellDuotone {
     fn child_elements(&self) -> Element {
@@ -15644,8 +15644,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CameraDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CameraDuotone;
 
 impl IconShape for CameraDuotone {
     fn child_elements(&self) -> Element {
@@ -15682,8 +15682,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CameraPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CameraPlusDuotone;
 
 impl IconShape for CameraPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -15734,8 +15734,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CameraRotateDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CameraRotateDuotone;
 
 impl IconShape for CameraRotateDuotone {
     fn child_elements(&self) -> Element {
@@ -15794,8 +15794,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CameraSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CameraSlashDuotone;
 
 impl IconShape for CameraSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -15849,8 +15849,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CampfireDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CampfireDuotone;
 
 impl IconShape for CampfireDuotone {
     fn child_elements(&self) -> Element {
@@ -15907,8 +15907,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CarBatteryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CarBatteryDuotone;
 
 impl IconShape for CarBatteryDuotone {
     fn child_elements(&self) -> Element {
@@ -15992,8 +15992,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CarDuotone;
 
 impl IconShape for CarDuotone {
     fn child_elements(&self) -> Element {
@@ -16077,8 +16077,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CarProfileDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CarProfileDuotone;
 
 impl IconShape for CarProfileDuotone {
     fn child_elements(&self) -> Element {
@@ -16159,8 +16159,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CarSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CarSimpleDuotone;
 
 impl IconShape for CarSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -16198,8 +16198,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardholderDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardholderDuotone;
 
 impl IconShape for CardholderDuotone {
     fn child_elements(&self) -> Element {
@@ -16249,8 +16249,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardsDuotone;
 
 impl IconShape for CardsDuotone {
     fn child_elements(&self) -> Element {
@@ -16293,8 +16293,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CardsThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CardsThreeDuotone;
 
 impl IconShape for CardsThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -16351,8 +16351,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleDoubleDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleDoubleDownDuotone;
 
 impl IconShape for CaretCircleDoubleDownDuotone {
     fn child_elements(&self) -> Element {
@@ -16399,8 +16399,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleDoubleLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleDoubleLeftDuotone;
 
 impl IconShape for CaretCircleDoubleLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -16447,8 +16447,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleDoubleRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleDoubleRightDuotone;
 
 impl IconShape for CaretCircleDoubleRightDuotone {
     fn child_elements(&self) -> Element {
@@ -16495,8 +16495,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleDoubleUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleDoubleUpDuotone;
 
 impl IconShape for CaretCircleDoubleUpDuotone {
     fn child_elements(&self) -> Element {
@@ -16543,8 +16543,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleDownDuotone;
 
 impl IconShape for CaretCircleDownDuotone {
     fn child_elements(&self) -> Element {
@@ -16583,8 +16583,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleLeftDuotone;
 
 impl IconShape for CaretCircleLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -16623,8 +16623,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleRightDuotone;
 
 impl IconShape for CaretCircleRightDuotone {
     fn child_elements(&self) -> Element {
@@ -16663,8 +16663,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleUpDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleUpDownDuotone;
 
 impl IconShape for CaretCircleUpDownDuotone {
     fn child_elements(&self) -> Element {
@@ -16711,8 +16711,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretCircleUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretCircleUpDuotone;
 
 impl IconShape for CaretCircleUpDuotone {
     fn child_elements(&self) -> Element {
@@ -16751,8 +16751,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretDoubleDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretDoubleDownDuotone;
 
 impl IconShape for CaretDoubleDownDuotone {
     fn child_elements(&self) -> Element {
@@ -16787,8 +16787,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretDoubleLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretDoubleLeftDuotone;
 
 impl IconShape for CaretDoubleLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -16823,8 +16823,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretDoubleRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretDoubleRightDuotone;
 
 impl IconShape for CaretDoubleRightDuotone {
     fn child_elements(&self) -> Element {
@@ -16859,8 +16859,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretDoubleUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretDoubleUpDuotone;
 
 impl IconShape for CaretDoubleUpDuotone {
     fn child_elements(&self) -> Element {
@@ -16895,8 +16895,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretDownDuotone;
 
 impl IconShape for CaretDownDuotone {
     fn child_elements(&self) -> Element {
@@ -16923,8 +16923,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretLeftDuotone;
 
 impl IconShape for CaretLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -16951,8 +16951,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretLineDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretLineDownDuotone;
 
 impl IconShape for CaretLineDownDuotone {
     fn child_elements(&self) -> Element {
@@ -16990,8 +16990,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretLineLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretLineLeftDuotone;
 
 impl IconShape for CaretLineLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -17029,8 +17029,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretLineRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretLineRightDuotone;
 
 impl IconShape for CaretLineRightDuotone {
     fn child_elements(&self) -> Element {
@@ -17068,8 +17068,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretLineUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretLineUpDuotone;
 
 impl IconShape for CaretLineUpDuotone {
     fn child_elements(&self) -> Element {
@@ -17107,8 +17107,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretRightDuotone;
 
 impl IconShape for CaretRightDuotone {
     fn child_elements(&self) -> Element {
@@ -17135,8 +17135,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretUpDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretUpDownDuotone;
 
 impl IconShape for CaretUpDownDuotone {
     fn child_elements(&self) -> Element {
@@ -17175,8 +17175,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CaretUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CaretUpDuotone;
 
 impl IconShape for CaretUpDuotone {
     fn child_elements(&self) -> Element {
@@ -17203,8 +17203,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CarrotDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CarrotDuotone;
 
 impl IconShape for CarrotDuotone {
     fn child_elements(&self) -> Element {
@@ -17286,8 +17286,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CashRegisterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CashRegisterDuotone;
 
 impl IconShape for CashRegisterDuotone {
     fn child_elements(&self) -> Element {
@@ -17399,8 +17399,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CassetteTapeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CassetteTapeDuotone;
 
 impl IconShape for CassetteTapeDuotone {
     fn child_elements(&self) -> Element {
@@ -17493,8 +17493,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CastleTurretDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CastleTurretDuotone;
 
 impl IconShape for CastleTurretDuotone {
     fn child_elements(&self) -> Element {
@@ -17540,8 +17540,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CatDuotone;
 
 impl IconShape for CatDuotone {
     fn child_elements(&self) -> Element {
@@ -17630,8 +17630,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalFullDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalFullDuotone;
 
 impl IconShape for CellSignalFullDuotone {
     fn child_elements(&self) -> Element {
@@ -17658,8 +17658,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalHighDuotone;
 
 impl IconShape for CellSignalHighDuotone {
     fn child_elements(&self) -> Element {
@@ -17697,8 +17697,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalLowDuotone;
 
 impl IconShape for CellSignalLowDuotone {
     fn child_elements(&self) -> Element {
@@ -17736,8 +17736,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalMediumDuotone;
 
 impl IconShape for CellSignalMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -17775,8 +17775,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalNoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalNoneDuotone;
 
 impl IconShape for CellSignalNoneDuotone {
     fn child_elements(&self) -> Element {
@@ -17799,8 +17799,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalSlashDuotone;
 
 impl IconShape for CellSignalSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -17846,8 +17846,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellSignalXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellSignalXDuotone;
 
 impl IconShape for CellSignalXDuotone {
     fn child_elements(&self) -> Element {
@@ -17896,8 +17896,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CellTowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CellTowerDuotone;
 
 impl IconShape for CellTowerDuotone {
     fn child_elements(&self) -> Element {
@@ -17962,8 +17962,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CertificateDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CertificateDuotone;
 
 impl IconShape for CertificateDuotone {
     fn child_elements(&self) -> Element {
@@ -18030,8 +18030,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChairDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChairDuotone;
 
 impl IconShape for ChairDuotone {
     fn child_elements(&self) -> Element {
@@ -18130,8 +18130,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChalkboardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChalkboardDuotone;
 
 impl IconShape for ChalkboardDuotone {
     fn child_elements(&self) -> Element {
@@ -18185,8 +18185,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChalkboardSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChalkboardSimpleDuotone;
 
 impl IconShape for ChalkboardSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -18232,8 +18232,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChalkboardTeacherDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChalkboardTeacherDuotone;
 
 impl IconShape for ChalkboardTeacherDuotone {
     fn child_elements(&self) -> Element {
@@ -18278,8 +18278,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChampagneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChampagneDuotone;
 
 impl IconShape for ChampagneDuotone {
     fn child_elements(&self) -> Element {
@@ -18354,8 +18354,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChargingStationDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChargingStationDuotone;
 
 impl IconShape for ChargingStationDuotone {
     fn child_elements(&self) -> Element {
@@ -18409,8 +18409,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartBarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartBarDuotone;
 
 impl IconShape for ChartBarDuotone {
     fn child_elements(&self) -> Element {
@@ -18467,8 +18467,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartBarHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartBarHorizontalDuotone;
 
 impl IconShape for ChartBarHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -18525,8 +18525,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartDonutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartDonutDuotone;
 
 impl IconShape for ChartDonutDuotone {
     fn child_elements(&self) -> Element {
@@ -18575,8 +18575,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartLineDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartLineDownDuotone;
 
 impl IconShape for ChartLineDownDuotone {
     fn child_elements(&self) -> Element {
@@ -18619,8 +18619,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartLineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartLineDuotone;
 
 impl IconShape for ChartLineDuotone {
     fn child_elements(&self) -> Element {
@@ -18655,8 +18655,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartLineUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartLineUpDuotone;
 
 impl IconShape for ChartLineUpDuotone {
     fn child_elements(&self) -> Element {
@@ -18699,8 +18699,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartPieDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartPieDuotone;
 
 impl IconShape for ChartPieDuotone {
     fn child_elements(&self) -> Element {
@@ -18751,8 +18751,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartPieSliceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartPieSliceDuotone;
 
 impl IconShape for ChartPieSliceDuotone {
     fn child_elements(&self) -> Element {
@@ -18787,8 +18787,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartPolarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartPolarDuotone;
 
 impl IconShape for ChartPolarDuotone {
     fn child_elements(&self) -> Element {
@@ -18851,8 +18851,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChartScatterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChartScatterDuotone;
 
 impl IconShape for ChartScatterDuotone {
     fn child_elements(&self) -> Element {
@@ -18909,8 +18909,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCenteredDotsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCenteredDotsDuotone;
 
 impl IconShape for ChatCenteredDotsDuotone {
     fn child_elements(&self) -> Element {
@@ -18952,8 +18952,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCenteredDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCenteredDuotone;
 
 impl IconShape for ChatCenteredDuotone {
     fn child_elements(&self) -> Element {
@@ -18980,8 +18980,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCenteredSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCenteredSlashDuotone;
 
 impl IconShape for ChatCenteredSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -19027,8 +19027,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCenteredTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCenteredTextDuotone;
 
 impl IconShape for ChatCenteredTextDuotone {
     fn child_elements(&self) -> Element {
@@ -19077,8 +19077,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCircleDotsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCircleDotsDuotone;
 
 impl IconShape for ChatCircleDotsDuotone {
     fn child_elements(&self) -> Element {
@@ -19120,8 +19120,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCircleDuotone;
 
 impl IconShape for ChatCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -19148,8 +19148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCircleSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCircleSlashDuotone;
 
 impl IconShape for ChatCircleSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -19195,8 +19195,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatCircleTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatCircleTextDuotone;
 
 impl IconShape for ChatCircleTextDuotone {
     fn child_elements(&self) -> Element {
@@ -19245,8 +19245,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatDotsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatDotsDuotone;
 
 impl IconShape for ChatDotsDuotone {
     fn child_elements(&self) -> Element {
@@ -19288,8 +19288,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatDuotone;
 
 impl IconShape for ChatDuotone {
     fn child_elements(&self) -> Element {
@@ -19316,8 +19316,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatSlashDuotone;
 
 impl IconShape for ChatSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -19363,8 +19363,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatTeardropDotsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatTeardropDotsDuotone;
 
 impl IconShape for ChatTeardropDotsDuotone {
     fn child_elements(&self) -> Element {
@@ -19406,8 +19406,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatTeardropDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatTeardropDuotone;
 
 impl IconShape for ChatTeardropDuotone {
     fn child_elements(&self) -> Element {
@@ -19434,8 +19434,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatTeardropSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatTeardropSlashDuotone;
 
 impl IconShape for ChatTeardropSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -19481,8 +19481,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatTeardropTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatTeardropTextDuotone;
 
 impl IconShape for ChatTeardropTextDuotone {
     fn child_elements(&self) -> Element {
@@ -19531,8 +19531,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatTextDuotone;
 
 impl IconShape for ChatTextDuotone {
     fn child_elements(&self) -> Element {
@@ -19581,8 +19581,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatsCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatsCircleDuotone;
 
 impl IconShape for ChatsCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -19617,8 +19617,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatsDuotone;
 
 impl IconShape for ChatsDuotone {
     fn child_elements(&self) -> Element {
@@ -19653,8 +19653,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChatsTeardropDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChatsTeardropDuotone;
 
 impl IconShape for ChatsTeardropDuotone {
     fn child_elements(&self) -> Element {
@@ -19689,8 +19689,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckCircleDuotone;
 
 impl IconShape for CheckCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -19729,8 +19729,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckDuotone;
 
 impl IconShape for CheckDuotone {
     fn child_elements(&self) -> Element {
@@ -19757,8 +19757,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckFatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckFatDuotone;
 
 impl IconShape for CheckFatDuotone {
     fn child_elements(&self) -> Element {
@@ -19785,8 +19785,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckSquareDuotone;
 
 impl IconShape for CheckSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -19829,8 +19829,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckSquareOffsetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckSquareOffsetDuotone;
 
 impl IconShape for CheckSquareOffsetDuotone {
     fn child_elements(&self) -> Element {
@@ -19865,8 +19865,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheckerboardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheckerboardDuotone;
 
 impl IconShape for CheckerboardDuotone {
     fn child_elements(&self) -> Element {
@@ -19923,8 +19923,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChecksDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChecksDuotone;
 
 impl IconShape for ChecksDuotone {
     fn child_elements(&self) -> Element {
@@ -19963,8 +19963,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheersDuotone;
 
 impl IconShape for CheersDuotone {
     fn child_elements(&self) -> Element {
@@ -20107,8 +20107,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CheeseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CheeseDuotone;
 
 impl IconShape for CheeseDuotone {
     fn child_elements(&self) -> Element {
@@ -20159,8 +20159,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChefHatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChefHatDuotone;
 
 impl IconShape for ChefHatDuotone {
     fn child_elements(&self) -> Element {
@@ -20236,8 +20236,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CherriesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CherriesDuotone;
 
 impl IconShape for CherriesDuotone {
     fn child_elements(&self) -> Element {
@@ -20298,8 +20298,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ChurchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ChurchDuotone;
 
 impl IconShape for ChurchDuotone {
     fn child_elements(&self) -> Element {
@@ -20368,8 +20368,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CigaretteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CigaretteDuotone;
 
 impl IconShape for CigaretteDuotone {
     fn child_elements(&self) -> Element {
@@ -20427,8 +20427,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CigaretteSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CigaretteSlashDuotone;
 
 impl IconShape for CigaretteSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -20501,8 +20501,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CircleDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CircleDashedDuotone;
 
 impl IconShape for CircleDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -20571,8 +20571,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CircleDuotone;
 
 impl IconShape for CircleDuotone {
     fn child_elements(&self) -> Element {
@@ -20603,8 +20603,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CircleHalfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CircleHalfDuotone;
 
 impl IconShape for CircleHalfDuotone {
     fn child_elements(&self) -> Element {
@@ -20644,8 +20644,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CircleHalfTiltDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CircleHalfTiltDuotone;
 
 impl IconShape for CircleHalfTiltDuotone {
     fn child_elements(&self) -> Element {
@@ -20685,8 +20685,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CircleNotchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CircleNotchDuotone;
 
 impl IconShape for CircleNotchDuotone {
     fn child_elements(&self) -> Element {
@@ -20715,8 +20715,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CirclesFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CirclesFourDuotone;
 
 impl IconShape for CirclesFourDuotone {
     fn child_elements(&self) -> Element {
@@ -20795,8 +20795,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CirclesThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CirclesThreeDuotone;
 
 impl IconShape for CirclesThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -20859,8 +20859,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CirclesThreePlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CirclesThreePlusDuotone;
 
 impl IconShape for CirclesThreePlusDuotone {
     fn child_elements(&self) -> Element {
@@ -20945,8 +20945,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CircuitryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CircuitryDuotone;
 
 impl IconShape for CircuitryDuotone {
     fn child_elements(&self) -> Element {
@@ -21024,8 +21024,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CityDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CityDuotone;
 
 impl IconShape for CityDuotone {
     fn child_elements(&self) -> Element {
@@ -21158,8 +21158,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClipboardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClipboardDuotone;
 
 impl IconShape for ClipboardDuotone {
     fn child_elements(&self) -> Element {
@@ -21194,8 +21194,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClipboardTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClipboardTextDuotone;
 
 impl IconShape for ClipboardTextDuotone {
     fn child_elements(&self) -> Element {
@@ -21252,8 +21252,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockAfternoonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockAfternoonDuotone;
 
 impl IconShape for ClockAfternoonDuotone {
     fn child_elements(&self) -> Element {
@@ -21292,8 +21292,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockClockwiseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockClockwiseDuotone;
 
 impl IconShape for ClockClockwiseDuotone {
     fn child_elements(&self) -> Element {
@@ -21338,8 +21338,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockCountdownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockCountdownDuotone;
 
 impl IconShape for ClockCountdownDuotone {
     fn child_elements(&self) -> Element {
@@ -21391,8 +21391,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockCounterClockwiseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockCounterClockwiseDuotone;
 
 impl IconShape for ClockCounterClockwiseDuotone {
     fn child_elements(&self) -> Element {
@@ -21437,8 +21437,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockDuotone;
 
 impl IconShape for ClockDuotone {
     fn child_elements(&self) -> Element {
@@ -21477,8 +21477,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClockUserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClockUserDuotone;
 
 impl IconShape for ClockUserDuotone {
     fn child_elements(&self) -> Element {
@@ -21531,8 +21531,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClosedCaptioningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClosedCaptioningDuotone;
 
 impl IconShape for ClosedCaptioningDuotone {
     fn child_elements(&self) -> Element {
@@ -21583,8 +21583,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudArrowDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudArrowDownDuotone;
 
 impl IconShape for CloudArrowDownDuotone {
     fn child_elements(&self) -> Element {
@@ -21638,8 +21638,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudArrowUpDuotone;
 
 impl IconShape for CloudArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -21693,8 +21693,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudCheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudCheckDuotone;
 
 impl IconShape for CloudCheckDuotone {
     fn child_elements(&self) -> Element {
@@ -21729,8 +21729,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudDuotone;
 
 impl IconShape for CloudDuotone {
     fn child_elements(&self) -> Element {
@@ -21757,8 +21757,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudFogDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudFogDuotone;
 
 impl IconShape for CloudFogDuotone {
     fn child_elements(&self) -> Element {
@@ -21818,8 +21818,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudLightningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudLightningDuotone;
 
 impl IconShape for CloudLightningDuotone {
     fn child_elements(&self) -> Element {
@@ -21854,8 +21854,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudMoonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudMoonDuotone;
 
 impl IconShape for CloudMoonDuotone {
     fn child_elements(&self) -> Element {
@@ -21890,8 +21890,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudRainDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudRainDuotone;
 
 impl IconShape for CloudRainDuotone {
     fn child_elements(&self) -> Element {
@@ -21940,8 +21940,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudSlashDuotone;
 
 impl IconShape for CloudSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -21995,8 +21995,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudSnowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudSnowDuotone;
 
 impl IconShape for CloudSnowDuotone {
     fn child_elements(&self) -> Element {
@@ -22048,8 +22048,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudSunDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudSunDuotone;
 
 impl IconShape for CloudSunDuotone {
     fn child_elements(&self) -> Element {
@@ -22128,8 +22128,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudWarningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudWarningDuotone;
 
 impl IconShape for CloudWarningDuotone {
     fn child_elements(&self) -> Element {
@@ -22172,8 +22172,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudXDuotone;
 
 impl IconShape for CloudXDuotone {
     fn child_elements(&self) -> Element {
@@ -22222,8 +22222,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloverDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloverDuotone;
 
 impl IconShape for CloverDuotone {
     fn child_elements(&self) -> Element {
@@ -22293,8 +22293,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ClubDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ClubDuotone;
 
 impl IconShape for ClubDuotone {
     fn child_elements(&self) -> Element {
@@ -22321,8 +22321,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CoatHangerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CoatHangerDuotone;
 
 impl IconShape for CoatHangerDuotone {
     fn child_elements(&self) -> Element {
@@ -22349,8 +22349,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CodaLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CodaLogoDuotone;
 
 impl IconShape for CodaLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -22377,8 +22377,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CodeBlockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CodeBlockDuotone;
 
 impl IconShape for CodeBlockDuotone {
     fn child_elements(&self) -> Element {
@@ -22425,8 +22425,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CodeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CodeDuotone;
 
 impl IconShape for CodeDuotone {
     fn child_elements(&self) -> Element {
@@ -22472,8 +22472,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CodeSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CodeSimpleDuotone;
 
 impl IconShape for CodeSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -22508,8 +22508,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CodepenLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CodepenLogoDuotone;
 
 impl IconShape for CodepenLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -22588,8 +22588,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CodesandboxLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CodesandboxLogoDuotone;
 
 impl IconShape for CodesandboxLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -22667,8 +22667,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CoffeeBeanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CoffeeBeanDuotone;
 
 impl IconShape for CoffeeBeanDuotone {
     fn child_elements(&self) -> Element {
@@ -22711,8 +22711,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CoffeeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CoffeeDuotone;
 
 impl IconShape for CoffeeDuotone {
     fn child_elements(&self) -> Element {
@@ -22791,8 +22791,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CoinDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CoinDuotone;
 
 impl IconShape for CoinDuotone {
     fn child_elements(&self) -> Element {
@@ -22866,8 +22866,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CoinVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CoinVerticalDuotone;
 
 impl IconShape for CoinVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -22941,8 +22941,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CoinsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CoinsDuotone;
 
 impl IconShape for CoinsDuotone {
     fn child_elements(&self) -> Element {
@@ -23036,8 +23036,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ColumnsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ColumnsDuotone;
 
 impl IconShape for ColumnsDuotone {
     fn child_elements(&self) -> Element {
@@ -23096,8 +23096,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ColumnsPlusLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ColumnsPlusLeftDuotone;
 
 impl IconShape for ColumnsPlusLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -23178,8 +23178,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ColumnsPlusRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ColumnsPlusRightDuotone;
 
 impl IconShape for ColumnsPlusRightDuotone {
     fn child_elements(&self) -> Element {
@@ -23260,8 +23260,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CommandDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CommandDuotone;
 
 impl IconShape for CommandDuotone {
     fn child_elements(&self) -> Element {
@@ -23339,8 +23339,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CompassDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CompassDuotone;
 
 impl IconShape for CompassDuotone {
     fn child_elements(&self) -> Element {
@@ -23377,8 +23377,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CompassRoseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CompassRoseDuotone;
 
 impl IconShape for CompassRoseDuotone {
     fn child_elements(&self) -> Element {
@@ -23461,8 +23461,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CompassToolDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CompassToolDuotone;
 
 impl IconShape for CompassToolDuotone {
     fn child_elements(&self) -> Element {
@@ -23534,8 +23534,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ComputerTowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ComputerTowerDuotone;
 
 impl IconShape for ComputerTowerDuotone {
     fn child_elements(&self) -> Element {
@@ -23599,8 +23599,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ConfettiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ConfettiDuotone;
 
 impl IconShape for ConfettiDuotone {
     fn child_elements(&self) -> Element {
@@ -23694,8 +23694,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ContactlessPaymentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ContactlessPaymentDuotone;
 
 impl IconShape for ContactlessPaymentDuotone {
     fn child_elements(&self) -> Element {
@@ -23750,8 +23750,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ControlDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ControlDuotone;
 
 impl IconShape for ControlDuotone {
     fn child_elements(&self) -> Element {
@@ -23778,8 +23778,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CookieDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CookieDuotone;
 
 impl IconShape for CookieDuotone {
     fn child_elements(&self) -> Element {
@@ -23826,8 +23826,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CookingPotDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CookingPotDuotone;
 
 impl IconShape for CookingPotDuotone {
     fn child_elements(&self) -> Element {
@@ -23909,8 +23909,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyDuotone;
 
 impl IconShape for CopyDuotone {
     fn child_elements(&self) -> Element {
@@ -23948,8 +23948,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopySimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopySimpleDuotone;
 
 impl IconShape for CopySimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -23990,8 +23990,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyleftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyleftDuotone;
 
 impl IconShape for CopyleftDuotone {
     fn child_elements(&self) -> Element {
@@ -24030,8 +24030,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyrightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyrightDuotone;
 
 impl IconShape for CopyrightDuotone {
     fn child_elements(&self) -> Element {
@@ -24070,8 +24070,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornersInDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornersInDuotone;
 
 impl IconShape for CornersInDuotone {
     fn child_elements(&self) -> Element {
@@ -24126,8 +24126,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CornersOutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CornersOutDuotone;
 
 impl IconShape for CornersOutDuotone {
     fn child_elements(&self) -> Element {
@@ -24181,8 +24181,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CouchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CouchDuotone;
 
 impl IconShape for CouchDuotone {
     fn child_elements(&self) -> Element {
@@ -24250,8 +24250,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CourtBasketballDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CourtBasketballDuotone;
 
 impl IconShape for CourtBasketballDuotone {
     fn child_elements(&self) -> Element {
@@ -24313,8 +24313,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CowDuotone;
 
 impl IconShape for CowDuotone {
     fn child_elements(&self) -> Element {
@@ -24421,8 +24421,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CowboyHatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CowboyHatDuotone;
 
 impl IconShape for CowboyHatDuotone {
     fn child_elements(&self) -> Element {
@@ -24468,8 +24468,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CpuDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CpuDuotone;
 
 impl IconShape for CpuDuotone {
     fn child_elements(&self) -> Element {
@@ -24599,8 +24599,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CraneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CraneDuotone;
 
 impl IconShape for CraneDuotone {
     fn child_elements(&self) -> Element {
@@ -24657,8 +24657,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CraneTowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CraneTowerDuotone;
 
 impl IconShape for CraneTowerDuotone {
     fn child_elements(&self) -> Element {
@@ -24726,8 +24726,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreditCardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreditCardDuotone;
 
 impl IconShape for CreditCardDuotone {
     fn child_elements(&self) -> Element {
@@ -24791,8 +24791,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CricketDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CricketDuotone;
 
 impl IconShape for CricketDuotone {
     fn child_elements(&self) -> Element {
@@ -24859,8 +24859,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CropDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CropDuotone;
 
 impl IconShape for CropDuotone {
     fn child_elements(&self) -> Element {
@@ -24920,8 +24920,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CrossDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CrossDuotone;
 
 impl IconShape for CrossDuotone {
     fn child_elements(&self) -> Element {
@@ -24948,8 +24948,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CrosshairDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CrosshairDuotone;
 
 impl IconShape for CrosshairDuotone {
     fn child_elements(&self) -> Element {
@@ -25034,8 +25034,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CrosshairSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CrosshairSimpleDuotone;
 
 impl IconShape for CrosshairSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -25110,8 +25110,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CrownCrossDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CrownCrossDuotone;
 
 impl IconShape for CrownCrossDuotone {
     fn child_elements(&self) -> Element {
@@ -25160,8 +25160,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CrownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CrownDuotone;
 
 impl IconShape for CrownDuotone {
     fn child_elements(&self) -> Element {
@@ -25234,8 +25234,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CrownSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CrownSimpleDuotone;
 
 impl IconShape for CrownSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -25262,8 +25262,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CubeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CubeDuotone;
 
 impl IconShape for CubeDuotone {
     fn child_elements(&self) -> Element {
@@ -25309,8 +25309,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CubeFocusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CubeFocusDuotone;
 
 impl IconShape for CubeFocusDuotone {
     fn child_elements(&self) -> Element {
@@ -25388,8 +25388,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CubeTransparentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CubeTransparentDuotone;
 
 impl IconShape for CubeTransparentDuotone {
     fn child_elements(&self) -> Element {
@@ -25474,8 +25474,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyBtcDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyBtcDuotone;
 
 impl IconShape for CurrencyBtcDuotone {
     fn child_elements(&self) -> Element {
@@ -25568,8 +25568,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyCircleDollarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyCircleDollarDuotone;
 
 impl IconShape for CurrencyCircleDollarDuotone {
     fn child_elements(&self) -> Element {
@@ -25630,8 +25630,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyCnyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyCnyDuotone;
 
 impl IconShape for CurrencyCnyDuotone {
     fn child_elements(&self) -> Element {
@@ -25691,8 +25691,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyDollarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyDollarDuotone;
 
 impl IconShape for CurrencyDollarDuotone {
     fn child_elements(&self) -> Element {
@@ -25734,8 +25734,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyDollarSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyDollarSimpleDuotone;
 
 impl IconShape for CurrencyDollarSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -25788,8 +25788,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyEthDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyEthDuotone;
 
 impl IconShape for CurrencyEthDuotone {
     fn child_elements(&self) -> Element {
@@ -25835,8 +25835,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyEurDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyEurDuotone;
 
 impl IconShape for CurrencyEurDuotone {
     fn child_elements(&self) -> Element {
@@ -25885,8 +25885,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyGbpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyGbpDuotone;
 
 impl IconShape for CurrencyGbpDuotone {
     fn child_elements(&self) -> Element {
@@ -25924,8 +25924,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyInrDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyInrDuotone;
 
 impl IconShape for CurrencyInrDuotone {
     fn child_elements(&self) -> Element {
@@ -25974,8 +25974,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyJpyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyJpyDuotone;
 
 impl IconShape for CurrencyJpyDuotone {
     fn child_elements(&self) -> Element {
@@ -26035,8 +26035,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyKrwDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyKrwDuotone;
 
 impl IconShape for CurrencyKrwDuotone {
     fn child_elements(&self) -> Element {
@@ -26074,8 +26074,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyKztDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyKztDuotone;
 
 impl IconShape for CurrencyKztDuotone {
     fn child_elements(&self) -> Element {
@@ -26130,8 +26130,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyNgnDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyNgnDuotone;
 
 impl IconShape for CurrencyNgnDuotone {
     fn child_elements(&self) -> Element {
@@ -26180,8 +26180,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CurrencyRubDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CurrencyRubDuotone;
 
 impl IconShape for CurrencyRubDuotone {
     fn child_elements(&self) -> Element {
@@ -26219,8 +26219,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CursorClickDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CursorClickDuotone;
 
 impl IconShape for CursorClickDuotone {
     fn child_elements(&self) -> Element {
@@ -26291,8 +26291,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CursorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CursorDuotone;
 
 impl IconShape for CursorDuotone {
     fn child_elements(&self) -> Element {
@@ -26319,8 +26319,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CursorTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CursorTextDuotone;
 
 impl IconShape for CursorTextDuotone {
     fn child_elements(&self) -> Element {
@@ -26374,8 +26374,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CylinderDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CylinderDuotone;
 
 impl IconShape for CylinderDuotone {
     fn child_elements(&self) -> Element {
@@ -26416,8 +26416,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DatabaseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DatabaseDuotone;
 
 impl IconShape for DatabaseDuotone {
     fn child_elements(&self) -> Element {
@@ -26466,8 +26466,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeskDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeskDuotone;
 
 impl IconShape for DeskDuotone {
     fn child_elements(&self) -> Element {
@@ -26566,8 +26566,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DesktopDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DesktopDuotone;
 
 impl IconShape for DesktopDuotone {
     fn child_elements(&self) -> Element {
@@ -26632,8 +26632,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DesktopTowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DesktopTowerDuotone;
 
 impl IconShape for DesktopTowerDuotone {
     fn child_elements(&self) -> Element {
@@ -26725,8 +26725,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DetectiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DetectiveDuotone;
 
 impl IconShape for DetectiveDuotone {
     fn child_elements(&self) -> Element {
@@ -26807,8 +26807,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DevToLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DevToLogoDuotone;
 
 impl IconShape for DevToLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -26878,8 +26878,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceMobileCameraDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceMobileCameraDuotone;
 
 impl IconShape for DeviceMobileCameraDuotone {
     fn child_elements(&self) -> Element {
@@ -26921,8 +26921,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceMobileDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceMobileDuotone;
 
 impl IconShape for DeviceMobileDuotone {
     fn child_elements(&self) -> Element {
@@ -26978,8 +26978,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceMobileSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceMobileSlashDuotone;
 
 impl IconShape for DeviceMobileSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -27030,8 +27030,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceMobileSpeakerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceMobileSpeakerDuotone;
 
 impl IconShape for DeviceMobileSpeakerDuotone {
     fn child_elements(&self) -> Element {
@@ -27079,8 +27079,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceRotateDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceRotateDuotone;
 
 impl IconShape for DeviceRotateDuotone {
     fn child_elements(&self) -> Element {
@@ -27136,8 +27136,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceTabletCameraDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceTabletCameraDuotone;
 
 impl IconShape for DeviceTabletCameraDuotone {
     fn child_elements(&self) -> Element {
@@ -27179,8 +27179,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceTabletDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceTabletDuotone;
 
 impl IconShape for DeviceTabletDuotone {
     fn child_elements(&self) -> Element {
@@ -27237,8 +27237,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DeviceTabletSpeakerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DeviceTabletSpeakerDuotone;
 
 impl IconShape for DeviceTabletSpeakerDuotone {
     fn child_elements(&self) -> Element {
@@ -27286,8 +27286,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DevicesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DevicesDuotone;
 
 impl IconShape for DevicesDuotone {
     fn child_elements(&self) -> Element {
@@ -27349,8 +27349,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiamondDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiamondDuotone;
 
 impl IconShape for DiamondDuotone {
     fn child_elements(&self) -> Element {
@@ -27387,8 +27387,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiamondsFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiamondsFourDuotone;
 
 impl IconShape for DiamondsFourDuotone {
     fn child_elements(&self) -> Element {
@@ -27483,8 +27483,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiceFiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiceFiveDuotone;
 
 impl IconShape for DiceFiveDuotone {
     fn child_elements(&self) -> Element {
@@ -27544,8 +27544,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiceFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiceFourDuotone;
 
 impl IconShape for DiceFourDuotone {
     fn child_elements(&self) -> Element {
@@ -27600,8 +27600,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiceOneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiceOneDuotone;
 
 impl IconShape for DiceOneDuotone {
     fn child_elements(&self) -> Element {
@@ -27641,8 +27641,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiceSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiceSixDuotone;
 
 impl IconShape for DiceSixDuotone {
     fn child_elements(&self) -> Element {
@@ -27707,8 +27707,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiceThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiceThreeDuotone;
 
 impl IconShape for DiceThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -27758,8 +27758,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiceTwoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiceTwoDuotone;
 
 impl IconShape for DiceTwoDuotone {
     fn child_elements(&self) -> Element {
@@ -27804,8 +27804,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiscDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiscDuotone;
 
 impl IconShape for DiscDuotone {
     fn child_elements(&self) -> Element {
@@ -27866,8 +27866,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiscoBallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiscoBallDuotone;
 
 impl IconShape for DiscoBallDuotone {
     fn child_elements(&self) -> Element {
@@ -27974,8 +27974,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DiscordLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DiscordLogoDuotone;
 
 impl IconShape for DiscordLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -28036,8 +28036,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DivideDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DivideDuotone;
 
 impl IconShape for DivideDuotone {
     fn child_elements(&self) -> Element {
@@ -28080,8 +28080,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DnaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DnaDuotone;
 
 impl IconShape for DnaDuotone {
     fn child_elements(&self) -> Element {
@@ -28168,8 +28168,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DogDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DogDuotone;
 
 impl IconShape for DogDuotone {
     fn child_elements(&self) -> Element {
@@ -28252,8 +28252,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DoorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DoorDuotone;
 
 impl IconShape for DoorDuotone {
     fn child_elements(&self) -> Element {
@@ -28296,8 +28296,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DoorOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DoorOpenDuotone;
 
 impl IconShape for DoorOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -28351,8 +28351,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotDuotone;
 
 impl IconShape for DotDuotone {
     fn child_elements(&self) -> Element {
@@ -28378,8 +28378,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotOutlineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotOutlineDuotone;
 
 impl IconShape for DotOutlineDuotone {
     fn child_elements(&self) -> Element {
@@ -28409,8 +28409,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsNineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsNineDuotone;
 
 impl IconShape for DotsNineDuotone {
     fn child_elements(&self) -> Element {
@@ -28478,8 +28478,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsSixDuotone;
 
 impl IconShape for DotsSixDuotone {
     fn child_elements(&self) -> Element {
@@ -28532,8 +28532,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsSixVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsSixVerticalDuotone;
 
 impl IconShape for DotsSixVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -28586,8 +28586,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsThreeCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsThreeCircleDuotone;
 
 impl IconShape for DotsThreeCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -28632,8 +28632,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsThreeCircleVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsThreeCircleVerticalDuotone;
 
 impl IconShape for DotsThreeCircleVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -28678,8 +28678,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsThreeDuotone;
 
 impl IconShape for DotsThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -28717,8 +28717,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsThreeOutlineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsThreeOutlineDuotone;
 
 impl IconShape for DotsThreeOutlineDuotone {
     fn child_elements(&self) -> Element {
@@ -28778,8 +28778,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsThreeOutlineVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsThreeOutlineVerticalDuotone;
 
 impl IconShape for DotsThreeOutlineVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -28839,8 +28839,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DotsThreeVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DotsThreeVerticalDuotone;
 
 impl IconShape for DotsThreeVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -28878,8 +28878,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DownloadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DownloadDuotone;
 
 impl IconShape for DownloadDuotone {
     fn child_elements(&self) -> Element {
@@ -28934,8 +28934,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DownloadSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DownloadSimpleDuotone;
 
 impl IconShape for DownloadSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -28981,8 +28981,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DressDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DressDuotone;
 
 impl IconShape for DressDuotone {
     fn child_elements(&self) -> Element {
@@ -29042,8 +29042,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DresserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DresserDuotone;
 
 impl IconShape for DresserDuotone {
     fn child_elements(&self) -> Element {
@@ -29133,8 +29133,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DribbbleLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DribbbleLogoDuotone;
 
 impl IconShape for DribbbleLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -29189,8 +29189,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DroneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DroneDuotone;
 
 impl IconShape for DroneDuotone {
     fn child_elements(&self) -> Element {
@@ -29316,8 +29316,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DropDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DropDuotone;
 
 impl IconShape for DropDuotone {
     fn child_elements(&self) -> Element {
@@ -29352,8 +29352,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DropHalfBottomDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DropHalfBottomDuotone;
 
 impl IconShape for DropHalfBottomDuotone {
     fn child_elements(&self) -> Element {
@@ -29391,8 +29391,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DropHalfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DropHalfDuotone;
 
 impl IconShape for DropHalfDuotone {
     fn child_elements(&self) -> Element {
@@ -29430,8 +29430,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DropSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DropSimpleDuotone;
 
 impl IconShape for DropSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -29458,8 +29458,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DropSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DropSlashDuotone;
 
 impl IconShape for DropSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -29505,8 +29505,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DropboxLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DropboxLogoDuotone;
 
 impl IconShape for DropboxLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -29577,8 +29577,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EarDuotone;
 
 impl IconShape for EarDuotone {
     fn child_elements(&self) -> Element {
@@ -29613,8 +29613,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EarSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EarSlashDuotone;
 
 impl IconShape for EarSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -29684,8 +29684,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EggCrackDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EggCrackDuotone;
 
 impl IconShape for EggCrackDuotone {
     fn child_elements(&self) -> Element {
@@ -29720,8 +29720,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EggDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EggDuotone;
 
 impl IconShape for EggDuotone {
     fn child_elements(&self) -> Element {
@@ -29748,8 +29748,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EjectDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EjectDuotone;
 
 impl IconShape for EjectDuotone {
     fn child_elements(&self) -> Element {
@@ -29798,8 +29798,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EjectSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EjectSimpleDuotone;
 
 impl IconShape for EjectSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -29837,8 +29837,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ElevatorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ElevatorDuotone;
 
 impl IconShape for ElevatorDuotone {
     fn child_elements(&self) -> Element {
@@ -29902,8 +29902,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EmptyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EmptyDuotone;
 
 impl IconShape for EmptyDuotone {
     fn child_elements(&self) -> Element {
@@ -29945,8 +29945,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EngineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EngineDuotone;
 
 impl IconShape for EngineDuotone {
     fn child_elements(&self) -> Element {
@@ -30017,8 +30017,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EnvelopeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EnvelopeDuotone;
 
 impl IconShape for EnvelopeDuotone {
     fn child_elements(&self) -> Element {
@@ -30075,8 +30075,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EnvelopeOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EnvelopeOpenDuotone;
 
 impl IconShape for EnvelopeOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -30133,8 +30133,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EnvelopeSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EnvelopeSimpleDuotone;
 
 impl IconShape for EnvelopeSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -30169,8 +30169,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EnvelopeSimpleOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EnvelopeSimpleOpenDuotone;
 
 impl IconShape for EnvelopeSimpleOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -30205,8 +30205,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EqualizerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EqualizerDuotone;
 
 impl IconShape for EqualizerDuotone {
     fn child_elements(&self) -> Element {
@@ -30357,8 +30357,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EqualsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EqualsDuotone;
 
 impl IconShape for EqualsDuotone {
     fn child_elements(&self) -> Element {
@@ -30401,8 +30401,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EraserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EraserDuotone;
 
 impl IconShape for EraserDuotone {
     fn child_elements(&self) -> Element {
@@ -30440,8 +30440,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EscalatorDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EscalatorDownDuotone;
 
 impl IconShape for EscalatorDownDuotone {
     fn child_elements(&self) -> Element {
@@ -30487,8 +30487,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EscalatorUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EscalatorUpDuotone;
 
 impl IconShape for EscalatorUpDuotone {
     fn child_elements(&self) -> Element {
@@ -30534,8 +30534,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ExamDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ExamDuotone;
 
 impl IconShape for ExamDuotone {
     fn child_elements(&self) -> Element {
@@ -30603,8 +30603,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ExclamationMarkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ExclamationMarkDuotone;
 
 impl IconShape for ExclamationMarkDuotone {
     fn child_elements(&self) -> Element {
@@ -30643,8 +30643,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ExcludeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ExcludeDuotone;
 
 impl IconShape for ExcludeDuotone {
     fn child_elements(&self) -> Element {
@@ -30687,8 +30687,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ExcludeSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ExcludeSquareDuotone;
 
 impl IconShape for ExcludeSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -30733,8 +30733,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ExportDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ExportDuotone;
 
 impl IconShape for ExportDuotone {
     fn child_elements(&self) -> Element {
@@ -30783,8 +30783,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyeClosedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyeClosedDuotone;
 
 impl IconShape for EyeClosedDuotone {
     fn child_elements(&self) -> Element {
@@ -30858,8 +30858,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyeDuotone;
 
 impl IconShape for EyeDuotone {
     fn child_elements(&self) -> Element {
@@ -30896,8 +30896,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyeSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyeSlashDuotone;
 
 impl IconShape for EyeSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -30959,8 +30959,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyedropperDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyedropperDuotone;
 
 impl IconShape for EyedropperDuotone {
     fn child_elements(&self) -> Element {
@@ -30995,8 +30995,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyedropperSampleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyedropperSampleDuotone;
 
 impl IconShape for EyedropperSampleDuotone {
     fn child_elements(&self) -> Element {
@@ -31046,8 +31046,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyeglassesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyeglassesDuotone;
 
 impl IconShape for EyeglassesDuotone {
     fn child_elements(&self) -> Element {
@@ -31121,8 +31121,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct EyesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct EyesDuotone;
 
 impl IconShape for EyesDuotone {
     fn child_elements(&self) -> Element {
@@ -31191,8 +31191,8 @@ ellipse {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FaceMaskDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FaceMaskDuotone;
 
 impl IconShape for FaceMaskDuotone {
     fn child_elements(&self) -> Element {
@@ -31257,8 +31257,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FacebookLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FacebookLogoDuotone;
 
 impl IconShape for FacebookLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -31308,8 +31308,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FactoryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FactoryDuotone;
 
 impl IconShape for FactoryDuotone {
     fn child_elements(&self) -> Element {
@@ -31377,8 +31377,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FadersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FadersDuotone;
 
 impl IconShape for FadersDuotone {
     fn child_elements(&self) -> Element {
@@ -31499,8 +31499,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FadersHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FadersHorizontalDuotone;
 
 impl IconShape for FadersHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -31588,8 +31588,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FalloutShelterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FalloutShelterDuotone;
 
 impl IconShape for FalloutShelterDuotone {
     fn child_elements(&self) -> Element {
@@ -31642,8 +31642,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FanDuotone;
 
 impl IconShape for FanDuotone {
     fn child_elements(&self) -> Element {
@@ -31704,8 +31704,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FarmDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FarmDuotone;
 
 impl IconShape for FarmDuotone {
     fn child_elements(&self) -> Element {
@@ -31792,8 +31792,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FastForwardCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FastForwardCircleDuotone;
 
 impl IconShape for FastForwardCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -31838,8 +31838,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FastForwardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FastForwardDuotone;
 
 impl IconShape for FastForwardDuotone {
     fn child_elements(&self) -> Element {
@@ -31878,8 +31878,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FeatherDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FeatherDuotone;
 
 impl IconShape for FeatherDuotone {
     fn child_elements(&self) -> Element {
@@ -31939,8 +31939,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FediverseLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FediverseLogoDuotone;
 
 impl IconShape for FediverseLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -32145,8 +32145,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FigmaLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FigmaLogoDuotone;
 
 impl IconShape for FigmaLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -32217,8 +32217,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileArchiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileArchiveDuotone;
 
 impl IconShape for FileArchiveDuotone {
     fn child_elements(&self) -> Element {
@@ -32297,8 +32297,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileArrowDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileArrowDownDuotone;
 
 impl IconShape for FileArrowDownDuotone {
     fn child_elements(&self) -> Element {
@@ -32352,8 +32352,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileArrowUpDuotone;
 
 impl IconShape for FileArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -32407,8 +32407,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileAudioDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileAudioDuotone;
 
 impl IconShape for FileAudioDuotone {
     fn child_elements(&self) -> Element {
@@ -32463,8 +32463,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCDuotone;
 
 impl IconShape for FileCDuotone {
     fn child_elements(&self) -> Element {
@@ -32507,8 +32507,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCSharpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCSharpDuotone;
 
 impl IconShape for FileCSharpDuotone {
     fn child_elements(&self) -> Element {
@@ -32595,8 +32595,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCloudDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCloudDuotone;
 
 impl IconShape for FileCloudDuotone {
     fn child_elements(&self) -> Element {
@@ -32643,8 +32643,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCodeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCodeDuotone;
 
 impl IconShape for FileCodeDuotone {
     fn child_elements(&self) -> Element {
@@ -32695,8 +32695,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCppDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCppDuotone;
 
 impl IconShape for FileCppDuotone {
     fn child_elements(&self) -> Element {
@@ -32783,8 +32783,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCssDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCssDuotone;
 
 impl IconShape for FileCssDuotone {
     fn child_elements(&self) -> Element {
@@ -32843,8 +32843,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileCsvDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileCsvDuotone;
 
 impl IconShape for FileCsvDuotone {
     fn child_elements(&self) -> Element {
@@ -32903,8 +32903,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileDashedDuotone;
 
 impl IconShape for FileDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -32985,8 +32985,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileDocDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileDocDuotone;
 
 impl IconShape for FileDocDuotone {
     fn child_elements(&self) -> Element {
@@ -33048,8 +33048,8 @@ ellipse {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileDuotone;
 
 impl IconShape for FileDuotone {
     fn child_elements(&self) -> Element {
@@ -33084,8 +33084,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileHtmlDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileHtmlDuotone;
 
 impl IconShape for FileHtmlDuotone {
     fn child_elements(&self) -> Element {
@@ -33191,8 +33191,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileImageDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileImageDuotone;
 
 impl IconShape for FileImageDuotone {
     fn child_elements(&self) -> Element {
@@ -33239,8 +33239,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileIniDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileIniDuotone;
 
 impl IconShape for FileIniDuotone {
     fn child_elements(&self) -> Element {
@@ -33305,8 +33305,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileJpgDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileJpgDuotone;
 
 impl IconShape for FileJpgDuotone {
     fn child_elements(&self) -> Element {
@@ -33365,8 +33365,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileJsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileJsDuotone;
 
 impl IconShape for FileJsDuotone {
     fn child_elements(&self) -> Element {
@@ -33417,8 +33417,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileJsxDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileJsxDuotone;
 
 impl IconShape for FileJsxDuotone {
     fn child_elements(&self) -> Element {
@@ -33491,8 +33491,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileLockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileLockDuotone;
 
 impl IconShape for FileLockDuotone {
     fn child_elements(&self) -> Element {
@@ -33553,8 +33553,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileMagnifyingGlassDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileMagnifyingGlassDuotone;
 
 impl IconShape for FileMagnifyingGlassDuotone {
     fn child_elements(&self) -> Element {
@@ -33610,8 +33610,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileMdDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileMdDuotone;
 
 impl IconShape for FileMdDuotone {
     fn child_elements(&self) -> Element {
@@ -33662,8 +33662,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileMinusDuotone;
 
 impl IconShape for FileMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -33709,8 +33709,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilePdfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilePdfDuotone;
 
 impl IconShape for FilePdfDuotone {
     fn child_elements(&self) -> Element {
@@ -33780,8 +33780,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilePlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilePlusDuotone;
 
 impl IconShape for FilePlusDuotone {
     fn child_elements(&self) -> Element {
@@ -33838,8 +33838,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilePngDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilePngDuotone;
 
 impl IconShape for FilePngDuotone {
     fn child_elements(&self) -> Element {
@@ -33898,8 +33898,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilePptDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilePptDuotone;
 
 impl IconShape for FilePptDuotone {
     fn child_elements(&self) -> Element {
@@ -33972,8 +33972,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilePyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilePyDuotone;
 
 impl IconShape for FilePyDuotone {
     fn child_elements(&self) -> Element {
@@ -34035,8 +34035,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileRsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileRsDuotone;
 
 impl IconShape for FileRsDuotone {
     fn child_elements(&self) -> Element {
@@ -34098,8 +34098,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileSqlDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileSqlDuotone;
 
 impl IconShape for FileSqlDuotone {
     fn child_elements(&self) -> Element {
@@ -34172,8 +34172,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileSvgDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileSvgDuotone;
 
 impl IconShape for FileSvgDuotone {
     fn child_elements(&self) -> Element {
@@ -34232,8 +34232,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileTextDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileTextDuotone;
 
 impl IconShape for FileTextDuotone {
     fn child_elements(&self) -> Element {
@@ -34290,8 +34290,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileTsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileTsDuotone;
 
 impl IconShape for FileTsDuotone {
     fn child_elements(&self) -> Element {
@@ -34356,8 +34356,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileTsxDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileTsxDuotone;
 
 impl IconShape for FileTsxDuotone {
     fn child_elements(&self) -> Element {
@@ -34444,8 +34444,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileTxtDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileTxtDuotone;
 
 impl IconShape for FileTxtDuotone {
     fn child_elements(&self) -> Element {
@@ -34546,8 +34546,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileVideoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileVideoDuotone;
 
 impl IconShape for FileVideoDuotone {
     fn child_elements(&self) -> Element {
@@ -34606,8 +34606,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileVueDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileVueDuotone;
 
 impl IconShape for FileVueDuotone {
     fn child_elements(&self) -> Element {
@@ -34677,8 +34677,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileXDuotone;
 
 impl IconShape for FileXDuotone {
     fn child_elements(&self) -> Element {
@@ -34735,8 +34735,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileXlsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileXlsDuotone;
 
 impl IconShape for FileXlsDuotone {
     fn child_elements(&self) -> Element {
@@ -34809,8 +34809,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FileZipDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FileZipDuotone;
 
 impl IconShape for FileZipDuotone {
     fn child_elements(&self) -> Element {
@@ -34872,8 +34872,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilesDuotone;
 
 impl IconShape for FilesDuotone {
     fn child_elements(&self) -> Element {
@@ -34930,8 +34930,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilmReelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilmReelDuotone;
 
 impl IconShape for FilmReelDuotone {
     fn child_elements(&self) -> Element {
@@ -35011,8 +35011,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilmScriptDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilmScriptDuotone;
 
 impl IconShape for FilmScriptDuotone {
     fn child_elements(&self) -> Element {
@@ -35062,8 +35062,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilmSlateDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilmSlateDuotone;
 
 impl IconShape for FilmSlateDuotone {
     fn child_elements(&self) -> Element {
@@ -35124,8 +35124,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FilmStripDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FilmStripDuotone;
 
 impl IconShape for FilmStripDuotone {
     fn child_elements(&self) -> Element {
@@ -35237,8 +35237,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FingerprintDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FingerprintDuotone;
 
 impl IconShape for FingerprintDuotone {
     fn child_elements(&self) -> Element {
@@ -35315,8 +35315,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FingerprintSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FingerprintSimpleDuotone;
 
 impl IconShape for FingerprintSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -35385,8 +35385,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FinnTheHumanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FinnTheHumanDuotone;
 
 impl IconShape for FinnTheHumanDuotone {
     fn child_elements(&self) -> Element {
@@ -35435,8 +35435,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FireDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FireDuotone;
 
 impl IconShape for FireDuotone {
     fn child_elements(&self) -> Element {
@@ -35471,8 +35471,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FireExtinguisherDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FireExtinguisherDuotone;
 
 impl IconShape for FireExtinguisherDuotone {
     fn child_elements(&self) -> Element {
@@ -35537,8 +35537,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FireSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FireSimpleDuotone;
 
 impl IconShape for FireSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -35565,8 +35565,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FireTruckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FireTruckDuotone;
 
 impl IconShape for FireTruckDuotone {
     fn child_elements(&self) -> Element {
@@ -35709,8 +35709,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FirstAidDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FirstAidDuotone;
 
 impl IconShape for FirstAidDuotone {
     fn child_elements(&self) -> Element {
@@ -35737,8 +35737,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FirstAidKitDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FirstAidKitDuotone;
 
 impl IconShape for FirstAidKitDuotone {
     fn child_elements(&self) -> Element {
@@ -35803,8 +35803,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FishDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FishDuotone;
 
 impl IconShape for FishDuotone {
     fn child_elements(&self) -> Element {
@@ -35844,8 +35844,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FishSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FishSimpleDuotone;
 
 impl IconShape for FishSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -35885,8 +35885,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagBannerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagBannerDuotone;
 
 impl IconShape for FlagBannerDuotone {
     fn child_elements(&self) -> Element {
@@ -35913,8 +35913,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagBannerFoldDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagBannerFoldDuotone;
 
 impl IconShape for FlagBannerFoldDuotone {
     fn child_elements(&self) -> Element {
@@ -35949,8 +35949,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagCheckeredDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagCheckeredDuotone;
 
 impl IconShape for FlagCheckeredDuotone {
     fn child_elements(&self) -> Element {
@@ -36015,8 +36015,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagDuotone;
 
 impl IconShape for FlagDuotone {
     fn child_elements(&self) -> Element {
@@ -36054,8 +36054,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagPennantDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagPennantDuotone;
 
 impl IconShape for FlagPennantDuotone {
     fn child_elements(&self) -> Element {
@@ -36082,8 +36082,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlameDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlameDuotone;
 
 impl IconShape for FlameDuotone {
     fn child_elements(&self) -> Element {
@@ -36118,8 +36118,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlashlightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlashlightDuotone;
 
 impl IconShape for FlashlightDuotone {
     fn child_elements(&self) -> Element {
@@ -36168,8 +36168,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlaskDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlaskDuotone;
 
 impl IconShape for FlaskDuotone {
     fn child_elements(&self) -> Element {
@@ -36215,8 +36215,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlipHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlipHorizontalDuotone;
 
 impl IconShape for FlipHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -36251,8 +36251,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlipVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlipVerticalDuotone;
 
 impl IconShape for FlipVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -36287,8 +36287,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FloppyDiskBackDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FloppyDiskBackDuotone;
 
 impl IconShape for FloppyDiskBackDuotone {
     fn child_elements(&self) -> Element {
@@ -36333,8 +36333,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FloppyDiskDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FloppyDiskDuotone;
 
 impl IconShape for FloppyDiskDuotone {
     fn child_elements(&self) -> Element {
@@ -36380,8 +36380,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlowArrowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlowArrowDuotone;
 
 impl IconShape for FlowArrowDuotone {
     fn child_elements(&self) -> Element {
@@ -36428,8 +36428,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlowerDuotone;
 
 impl IconShape for FlowerDuotone {
     fn child_elements(&self) -> Element {
@@ -36506,8 +36506,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlowerLotusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlowerLotusDuotone;
 
 impl IconShape for FlowerLotusDuotone {
     fn child_elements(&self) -> Element {
@@ -36570,8 +36570,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlowerTulipDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlowerTulipDuotone;
 
 impl IconShape for FlowerTulipDuotone {
     fn child_elements(&self) -> Element {
@@ -36634,8 +36634,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlyingSaucerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlyingSaucerDuotone;
 
 impl IconShape for FlyingSaucerDuotone {
     fn child_elements(&self) -> Element {
@@ -36703,8 +36703,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderDashedDuotone;
 
 impl IconShape for FolderDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -36777,8 +36777,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderDuotone;
 
 impl IconShape for FolderDuotone {
     fn child_elements(&self) -> Element {
@@ -36813,8 +36813,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderLockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderLockDuotone;
 
 impl IconShape for FolderLockDuotone {
     fn child_elements(&self) -> Element {
@@ -36875,8 +36875,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderMinusDuotone;
 
 impl IconShape for FolderMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -36922,8 +36922,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderOpenDuotone;
 
 impl IconShape for FolderOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -36958,8 +36958,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderPlusDuotone;
 
 impl IconShape for FolderPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -37016,8 +37016,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimpleDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimpleDashedDuotone;
 
 impl IconShape for FolderSimpleDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -37090,8 +37090,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimpleDuotone;
 
 impl IconShape for FolderSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -37118,8 +37118,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimpleLockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimpleLockDuotone;
 
 impl IconShape for FolderSimpleLockDuotone {
     fn child_elements(&self) -> Element {
@@ -37168,8 +37168,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimpleMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimpleMinusDuotone;
 
 impl IconShape for FolderSimpleMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -37207,8 +37207,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimplePlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimplePlusDuotone;
 
 impl IconShape for FolderSimplePlusDuotone {
     fn child_elements(&self) -> Element {
@@ -37257,8 +37257,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimpleStarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimpleStarDuotone;
 
 impl IconShape for FolderSimpleStarDuotone {
     fn child_elements(&self) -> Element {
@@ -37293,8 +37293,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderSimpleUserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderSimpleUserDuotone;
 
 impl IconShape for FolderSimpleUserDuotone {
     fn child_elements(&self) -> Element {
@@ -37341,8 +37341,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderStarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderStarDuotone;
 
 impl IconShape for FolderStarDuotone {
     fn child_elements(&self) -> Element {
@@ -37385,8 +37385,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FolderUserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FolderUserDuotone;
 
 impl IconShape for FolderUserDuotone {
     fn child_elements(&self) -> Element {
@@ -37441,8 +37441,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FoldersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FoldersDuotone;
 
 impl IconShape for FoldersDuotone {
     fn child_elements(&self) -> Element {
@@ -37477,8 +37477,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FootballDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FootballDuotone;
 
 impl IconShape for FootballDuotone {
     fn child_elements(&self) -> Element {
@@ -37560,8 +37560,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FootballHelmetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FootballHelmetDuotone;
 
 impl IconShape for FootballHelmetDuotone {
     fn child_elements(&self) -> Element {
@@ -37601,8 +37601,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FootprintsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FootprintsDuotone;
 
 impl IconShape for FootprintsDuotone {
     fn child_elements(&self) -> Element {
@@ -37665,8 +37665,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ForkKnifeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ForkKnifeDuotone;
 
 impl IconShape for ForkKnifeDuotone {
     fn child_elements(&self) -> Element {
@@ -37723,8 +37723,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FourKDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FourKDuotone;
 
 impl IconShape for FourKDuotone {
     fn child_elements(&self) -> Element {
@@ -37809,8 +37809,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FrameCornersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FrameCornersDuotone;
 
 impl IconShape for FrameCornersDuotone {
     fn child_elements(&self) -> Element {
@@ -37861,8 +37861,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FramerLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FramerLogoDuotone;
 
 impl IconShape for FramerLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -37889,8 +37889,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FunctionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FunctionDuotone;
 
 impl IconShape for FunctionDuotone {
     fn child_elements(&self) -> Element {
@@ -37928,8 +37928,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FunnelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FunnelDuotone;
 
 impl IconShape for FunnelDuotone {
     fn child_elements(&self) -> Element {
@@ -37956,8 +37956,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FunnelSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FunnelSimpleDuotone;
 
 impl IconShape for FunnelSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -38010,8 +38010,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FunnelSimpleXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FunnelSimpleXDuotone;
 
 impl IconShape for FunnelSimpleXDuotone {
     fn child_elements(&self) -> Element {
@@ -38082,8 +38082,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FunnelXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FunnelXDuotone;
 
 impl IconShape for FunnelXDuotone {
     fn child_elements(&self) -> Element {
@@ -38132,8 +38132,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GameControllerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GameControllerDuotone;
 
 impl IconShape for GameControllerDuotone {
     fn child_elements(&self) -> Element {
@@ -38201,8 +38201,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GarageDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GarageDuotone;
 
 impl IconShape for GarageDuotone {
     fn child_elements(&self) -> Element {
@@ -38273,8 +38273,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GasCanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GasCanDuotone;
 
 impl IconShape for GasCanDuotone {
     fn child_elements(&self) -> Element {
@@ -38342,8 +38342,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GasPumpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GasPumpDuotone;
 
 impl IconShape for GasPumpDuotone {
     fn child_elements(&self) -> Element {
@@ -38400,8 +38400,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GaugeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GaugeDuotone;
 
 impl IconShape for GaugeDuotone {
     fn child_elements(&self) -> Element {
@@ -38472,8 +38472,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GavelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GavelDuotone;
 
 impl IconShape for GavelDuotone {
     fn child_elements(&self) -> Element {
@@ -38562,8 +38562,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GearDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GearDuotone;
 
 impl IconShape for GearDuotone {
     fn child_elements(&self) -> Element {
@@ -38600,8 +38600,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GearFineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GearFineDuotone;
 
 impl IconShape for GearFineDuotone {
     fn child_elements(&self) -> Element {
@@ -38764,8 +38764,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GearSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GearSixDuotone;
 
 impl IconShape for GearSixDuotone {
     fn child_elements(&self) -> Element {
@@ -38802,8 +38802,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GenderFemaleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GenderFemaleDuotone;
 
 impl IconShape for GenderFemaleDuotone {
     fn child_elements(&self) -> Element {
@@ -38856,8 +38856,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GenderIntersexDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GenderIntersexDuotone;
 
 impl IconShape for GenderIntersexDuotone {
     fn child_elements(&self) -> Element {
@@ -38929,8 +38929,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GenderMaleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GenderMaleDuotone;
 
 impl IconShape for GenderMaleDuotone {
     fn child_elements(&self) -> Element {
@@ -38980,8 +38980,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GenderNeuterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GenderNeuterDuotone;
 
 impl IconShape for GenderNeuterDuotone {
     fn child_elements(&self) -> Element {
@@ -39023,8 +39023,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GenderNonbinaryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GenderNonbinaryDuotone;
 
 impl IconShape for GenderNonbinaryDuotone {
     fn child_elements(&self) -> Element {
@@ -39088,8 +39088,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GenderTransgenderDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GenderTransgenderDuotone;
 
 impl IconShape for GenderTransgenderDuotone {
     fn child_elements(&self) -> Element {
@@ -39150,8 +39150,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GhostDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GhostDuotone;
 
 impl IconShape for GhostDuotone {
     fn child_elements(&self) -> Element {
@@ -39188,8 +39188,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GifDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GifDuotone;
 
 impl IconShape for GifDuotone {
     fn child_elements(&self) -> Element {
@@ -39246,8 +39246,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GiftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GiftDuotone;
 
 impl IconShape for GiftDuotone {
     fn child_elements(&self) -> Element {
@@ -39313,8 +39313,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitBranchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitBranchDuotone;
 
 impl IconShape for GitBranchDuotone {
     fn child_elements(&self) -> Element {
@@ -39384,8 +39384,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitCommitDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitCommitDuotone;
 
 impl IconShape for GitCommitDuotone {
     fn child_elements(&self) -> Element {
@@ -39438,8 +39438,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitDiffDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitDiffDuotone;
 
 impl IconShape for GitDiffDuotone {
     fn child_elements(&self) -> Element {
@@ -39518,8 +39518,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitForkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitForkDuotone;
 
 impl IconShape for GitForkDuotone {
     fn child_elements(&self) -> Element {
@@ -39595,8 +39595,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitMergeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitMergeDuotone;
 
 impl IconShape for GitMergeDuotone {
     fn child_elements(&self) -> Element {
@@ -39655,8 +39655,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitPullRequestDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitPullRequestDuotone;
 
 impl IconShape for GitPullRequestDuotone {
     fn child_elements(&self) -> Element {
@@ -39740,8 +39740,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GithubLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GithubLogoDuotone;
 
 impl IconShape for GithubLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -39788,8 +39788,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitlabLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitlabLogoDuotone;
 
 impl IconShape for GitlabLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -39838,8 +39838,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GitlabLogoSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GitlabLogoSimpleDuotone;
 
 impl IconShape for GitlabLogoSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -39866,8 +39866,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeDuotone;
 
 impl IconShape for GlobeDuotone {
     fn child_elements(&self) -> Element {
@@ -39928,8 +39928,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeHemisphereEastDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeHemisphereEastDuotone;
 
 impl IconShape for GlobeHemisphereEastDuotone {
     fn child_elements(&self) -> Element {
@@ -39978,8 +39978,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeHemisphereWestDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeHemisphereWestDuotone;
 
 impl IconShape for GlobeHemisphereWestDuotone {
     fn child_elements(&self) -> Element {
@@ -40036,8 +40036,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeSimpleDuotone;
 
 impl IconShape for GlobeSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -40087,8 +40087,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeSimpleXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeSimpleXDuotone;
 
 impl IconShape for GlobeSimpleXDuotone {
     fn child_elements(&self) -> Element {
@@ -40158,8 +40158,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeStandDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeStandDuotone;
 
 impl IconShape for GlobeStandDuotone {
     fn child_elements(&self) -> Element {
@@ -40220,8 +40220,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobeXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobeXDuotone;
 
 impl IconShape for GlobeXDuotone {
     fn child_elements(&self) -> Element {
@@ -40302,8 +40302,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GogglesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GogglesDuotone;
 
 impl IconShape for GogglesDuotone {
     fn child_elements(&self) -> Element {
@@ -40383,8 +40383,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GolfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GolfDuotone;
 
 impl IconShape for GolfDuotone {
     fn child_elements(&self) -> Element {
@@ -40444,8 +40444,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GoodreadsLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GoodreadsLogoDuotone;
 
 impl IconShape for GoodreadsLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40480,8 +40480,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GoogleCardboardLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GoogleCardboardLogoDuotone;
 
 impl IconShape for GoogleCardboardLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40528,8 +40528,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GoogleChromeLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GoogleChromeLogoDuotone;
 
 impl IconShape for GoogleChromeLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40603,8 +40603,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GoogleDriveLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GoogleDriveLogoDuotone;
 
 impl IconShape for GoogleDriveLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40672,8 +40672,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GoogleLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GoogleLogoDuotone;
 
 impl IconShape for GoogleLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40702,8 +40702,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GooglePhotosLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GooglePhotosLogoDuotone;
 
 impl IconShape for GooglePhotosLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40758,8 +40758,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GooglePlayLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GooglePlayLogoDuotone;
 
 impl IconShape for GooglePlayLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40808,8 +40808,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GooglePodcastsLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GooglePodcastsLogoDuotone;
 
 impl IconShape for GooglePodcastsLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -40927,8 +40927,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GpsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GpsDuotone;
 
 impl IconShape for GpsDuotone {
     fn child_elements(&self) -> Element {
@@ -41003,8 +41003,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GpsFixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GpsFixDuotone;
 
 impl IconShape for GpsFixDuotone {
     fn child_elements(&self) -> Element {
@@ -41087,8 +41087,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GpsSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GpsSlashDuotone;
 
 impl IconShape for GpsSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -41180,8 +41180,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GradientDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GradientDuotone;
 
 impl IconShape for GradientDuotone {
     fn child_elements(&self) -> Element {
@@ -41313,8 +41313,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GraduationCapDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GraduationCapDuotone;
 
 impl IconShape for GraduationCapDuotone {
     fn child_elements(&self) -> Element {
@@ -41357,8 +41357,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GrainsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GrainsDuotone;
 
 impl IconShape for GrainsDuotone {
     fn child_elements(&self) -> Element {
@@ -41418,8 +41418,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GrainsSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GrainsSlashDuotone;
 
 impl IconShape for GrainsSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -41497,8 +41497,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GraphDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GraphDuotone;
 
 impl IconShape for GraphDuotone {
     fn child_elements(&self) -> Element {
@@ -41613,8 +41613,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GraphicsCardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GraphicsCardDuotone;
 
 impl IconShape for GraphicsCardDuotone {
     fn child_elements(&self) -> Element {
@@ -41716,8 +41716,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GreaterThanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GreaterThanDuotone;
 
 impl IconShape for GreaterThanDuotone {
     fn child_elements(&self) -> Element {
@@ -41744,8 +41744,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GreaterThanOrEqualDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GreaterThanOrEqualDuotone;
 
 impl IconShape for GreaterThanOrEqualDuotone {
     fn child_elements(&self) -> Element {
@@ -41783,8 +41783,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GridFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GridFourDuotone;
 
 impl IconShape for GridFourDuotone {
     fn child_elements(&self) -> Element {
@@ -41841,8 +41841,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GridNineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GridNineDuotone;
 
 impl IconShape for GridNineDuotone {
     fn child_elements(&self) -> Element {
@@ -41921,8 +41921,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GuitarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GuitarDuotone;
 
 impl IconShape for GuitarDuotone {
     fn child_elements(&self) -> Element {
@@ -42014,8 +42014,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HairDryerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HairDryerDuotone;
 
 impl IconShape for HairDryerDuotone {
     fn child_elements(&self) -> Element {
@@ -42068,8 +42068,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HamburgerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HamburgerDuotone;
 
 impl IconShape for HamburgerDuotone {
     fn child_elements(&self) -> Element {
@@ -42127,8 +42127,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HammerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HammerDuotone;
 
 impl IconShape for HammerDuotone {
     fn child_elements(&self) -> Element {
@@ -42181,8 +42181,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandArrowDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandArrowDownDuotone;
 
 impl IconShape for HandArrowDownDuotone {
     fn child_elements(&self) -> Element {
@@ -42236,8 +42236,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandArrowUpDuotone;
 
 impl IconShape for HandArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -42291,8 +42291,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandCoinsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandCoinsDuotone;
 
 impl IconShape for HandCoinsDuotone {
     fn child_elements(&self) -> Element {
@@ -42349,8 +42349,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandDepositDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandDepositDuotone;
 
 impl IconShape for HandDepositDuotone {
     fn child_elements(&self) -> Element {
@@ -42412,8 +42412,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandDuotone;
 
 impl IconShape for HandDuotone {
     fn child_elements(&self) -> Element {
@@ -42448,8 +42448,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandEyeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandEyeDuotone;
 
 impl IconShape for HandEyeDuotone {
     fn child_elements(&self) -> Element {
@@ -42505,8 +42505,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandFistDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandFistDuotone;
 
 impl IconShape for HandFistDuotone {
     fn child_elements(&self) -> Element {
@@ -42549,8 +42549,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandGrabbingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandGrabbingDuotone;
 
 impl IconShape for HandGrabbingDuotone {
     fn child_elements(&self) -> Element {
@@ -42593,8 +42593,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandHeartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandHeartDuotone;
 
 impl IconShape for HandHeartDuotone {
     fn child_elements(&self) -> Element {
@@ -42641,8 +42641,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandPalmDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandPalmDuotone;
 
 impl IconShape for HandPalmDuotone {
     fn child_elements(&self) -> Element {
@@ -42685,8 +42685,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandPeaceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandPeaceDuotone;
 
 impl IconShape for HandPeaceDuotone {
     fn child_elements(&self) -> Element {
@@ -42745,8 +42745,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandPointingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandPointingDuotone;
 
 impl IconShape for HandPointingDuotone {
     fn child_elements(&self) -> Element {
@@ -42773,8 +42773,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandSoapDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandSoapDuotone;
 
 impl IconShape for HandSoapDuotone {
     fn child_elements(&self) -> Element {
@@ -42828,8 +42828,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandSwipeLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandSwipeLeftDuotone;
 
 impl IconShape for HandSwipeLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -42875,8 +42875,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandSwipeRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandSwipeRightDuotone;
 
 impl IconShape for HandSwipeRightDuotone {
     fn child_elements(&self) -> Element {
@@ -42922,8 +42922,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandTapDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandTapDuotone;
 
 impl IconShape for HandTapDuotone {
     fn child_elements(&self) -> Element {
@@ -42958,8 +42958,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandWavingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandWavingDuotone;
 
 impl IconShape for HandWavingDuotone {
     fn child_elements(&self) -> Element {
@@ -43018,8 +43018,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandWithdrawDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandWithdrawDuotone;
 
 impl IconShape for HandWithdrawDuotone {
     fn child_elements(&self) -> Element {
@@ -43081,8 +43081,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandbagDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandbagDuotone;
 
 impl IconShape for HandbagDuotone {
     fn child_elements(&self) -> Element {
@@ -43117,8 +43117,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandbagSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandbagSimpleDuotone;
 
 impl IconShape for HandbagSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -43153,8 +43153,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandsClappingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandsClappingDuotone;
 
 impl IconShape for HandsClappingDuotone {
     fn child_elements(&self) -> Element {
@@ -43254,8 +43254,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandsPrayingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandsPrayingDuotone;
 
 impl IconShape for HandsPrayingDuotone {
     fn child_elements(&self) -> Element {
@@ -43310,8 +43310,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HandshakeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HandshakeDuotone;
 
 impl IconShape for HandshakeDuotone {
     fn child_elements(&self) -> Element {
@@ -43378,8 +43378,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HardDriveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HardDriveDuotone;
 
 impl IconShape for HardDriveDuotone {
     fn child_elements(&self) -> Element {
@@ -43419,8 +43419,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HardDrivesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HardDrivesDuotone;
 
 impl IconShape for HardDrivesDuotone {
     fn child_elements(&self) -> Element {
@@ -43485,8 +43485,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HardHatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HardHatDuotone;
 
 impl IconShape for HardHatDuotone {
     fn child_elements(&self) -> Element {
@@ -43545,8 +43545,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HashDuotone;
 
 impl IconShape for HashDuotone {
     fn child_elements(&self) -> Element {
@@ -43609,8 +43609,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HashStraightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HashStraightDuotone;
 
 impl IconShape for HashStraightDuotone {
     fn child_elements(&self) -> Element {
@@ -43676,8 +43676,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeadCircuitDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeadCircuitDuotone;
 
 impl IconShape for HeadCircuitDuotone {
     fn child_elements(&self) -> Element {
@@ -43743,8 +43743,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeadlightsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeadlightsDuotone;
 
 impl IconShape for HeadlightsDuotone {
     fn child_elements(&self) -> Element {
@@ -43815,8 +43815,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeadphonesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeadphonesDuotone;
 
 impl IconShape for HeadphonesDuotone {
     fn child_elements(&self) -> Element {
@@ -43847,8 +43847,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeadsetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeadsetDuotone;
 
 impl IconShape for HeadsetDuotone {
     fn child_elements(&self) -> Element {
@@ -43887,8 +43887,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeartBreakDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeartBreakDuotone;
 
 impl IconShape for HeartBreakDuotone {
     fn child_elements(&self) -> Element {
@@ -43915,8 +43915,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeartDuotone;
 
 impl IconShape for HeartDuotone {
     fn child_elements(&self) -> Element {
@@ -43943,8 +43943,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeartHalfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeartHalfDuotone;
 
 impl IconShape for HeartHalfDuotone {
     fn child_elements(&self) -> Element {
@@ -43982,8 +43982,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeartStraightBreakDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeartStraightBreakDuotone;
 
 impl IconShape for HeartStraightBreakDuotone {
     fn child_elements(&self) -> Element {
@@ -44010,8 +44010,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeartStraightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeartStraightDuotone;
 
 impl IconShape for HeartStraightDuotone {
     fn child_elements(&self) -> Element {
@@ -44038,8 +44038,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HeartbeatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HeartbeatDuotone;
 
 impl IconShape for HeartbeatDuotone {
     fn child_elements(&self) -> Element {
@@ -44074,8 +44074,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HexagonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HexagonDuotone;
 
 impl IconShape for HexagonDuotone {
     fn child_elements(&self) -> Element {
@@ -44102,8 +44102,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HighDefinitionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HighDefinitionDuotone;
 
 impl IconShape for HighDefinitionDuotone {
     fn child_elements(&self) -> Element {
@@ -44188,8 +44188,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HighHeelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HighHeelDuotone;
 
 impl IconShape for HighHeelDuotone {
     fn child_elements(&self) -> Element {
@@ -44224,8 +44224,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HighlighterCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HighlighterCircleDuotone;
 
 impl IconShape for HighlighterCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -44270,8 +44270,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HighlighterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HighlighterDuotone;
 
 impl IconShape for HighlighterDuotone {
     fn child_elements(&self) -> Element {
@@ -44314,8 +44314,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HockeyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HockeyDuotone;
 
 impl IconShape for HockeyDuotone {
     fn child_elements(&self) -> Element {
@@ -44387,8 +44387,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HoodieDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HoodieDuotone;
 
 impl IconShape for HoodieDuotone {
     fn child_elements(&self) -> Element {
@@ -44445,8 +44445,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HorseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HorseDuotone;
 
 impl IconShape for HorseDuotone {
     fn child_elements(&self) -> Element {
@@ -44486,8 +44486,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HospitalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HospitalDuotone;
 
 impl IconShape for HospitalDuotone {
     fn child_elements(&self) -> Element {
@@ -44563,8 +44563,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassDuotone;
 
 impl IconShape for HourglassDuotone {
     fn child_elements(&self) -> Element {
@@ -44603,8 +44603,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassHighDuotone;
 
 impl IconShape for HourglassHighDuotone {
     fn child_elements(&self) -> Element {
@@ -44650,8 +44650,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassLowDuotone;
 
 impl IconShape for HourglassLowDuotone {
     fn child_elements(&self) -> Element {
@@ -44697,8 +44697,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassMediumDuotone;
 
 impl IconShape for HourglassMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -44755,8 +44755,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassSimpleDuotone;
 
 impl IconShape for HourglassSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -44795,8 +44795,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassSimpleHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassSimpleHighDuotone;
 
 impl IconShape for HourglassSimpleHighDuotone {
     fn child_elements(&self) -> Element {
@@ -44842,8 +44842,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassSimpleLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassSimpleLowDuotone;
 
 impl IconShape for HourglassSimpleLowDuotone {
     fn child_elements(&self) -> Element {
@@ -44889,8 +44889,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HourglassSimpleMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HourglassSimpleMediumDuotone;
 
 impl IconShape for HourglassSimpleMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -44947,8 +44947,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HouseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HouseDuotone;
 
 impl IconShape for HouseDuotone {
     fn child_elements(&self) -> Element {
@@ -44975,8 +44975,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HouseLineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HouseLineDuotone;
 
 impl IconShape for HouseLineDuotone {
     fn child_elements(&self) -> Element {
@@ -45044,8 +45044,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HouseSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HouseSimpleDuotone;
 
 impl IconShape for HouseSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -45072,8 +45072,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HurricaneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HurricaneDuotone;
 
 impl IconShape for HurricaneDuotone {
     fn child_elements(&self) -> Element {
@@ -45110,8 +45110,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IceCreamDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IceCreamDuotone;
 
 impl IconShape for IceCreamDuotone {
     fn child_elements(&self) -> Element {
@@ -45168,8 +45168,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IdentificationBadgeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IdentificationBadgeDuotone;
 
 impl IconShape for IdentificationBadgeDuotone {
     fn child_elements(&self) -> Element {
@@ -45230,8 +45230,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IdentificationCardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IdentificationCardDuotone;
 
 impl IconShape for IdentificationCardDuotone {
     fn child_elements(&self) -> Element {
@@ -45302,8 +45302,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ImageBrokenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ImageBrokenDuotone;
 
 impl IconShape for ImageBrokenDuotone {
     fn child_elements(&self) -> Element {
@@ -45346,8 +45346,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ImageDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ImageDuotone;
 
 impl IconShape for ImageDuotone {
     fn child_elements(&self) -> Element {
@@ -45399,8 +45399,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ImageSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ImageSquareDuotone;
 
 impl IconShape for ImageSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -45449,8 +45449,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ImagesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ImagesDuotone;
 
 impl IconShape for ImagesDuotone {
     fn child_elements(&self) -> Element {
@@ -45502,8 +45502,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ImagesSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ImagesSquareDuotone;
 
 impl IconShape for ImagesSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -45560,8 +45560,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InfinityDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InfinityDuotone;
 
 impl IconShape for InfinityDuotone {
     fn child_elements(&self) -> Element {
@@ -45588,8 +45588,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InfoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InfoDuotone;
 
 impl IconShape for InfoDuotone {
     fn child_elements(&self) -> Element {
@@ -45633,8 +45633,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InstagramLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InstagramLogoDuotone;
 
 impl IconShape for InstagramLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -45679,8 +45679,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IntersectDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IntersectDuotone;
 
 impl IconShape for IntersectDuotone {
     fn child_elements(&self) -> Element {
@@ -45719,8 +45719,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IntersectSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IntersectSquareDuotone;
 
 impl IconShape for IntersectSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -45764,8 +45764,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IntersectThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IntersectThreeDuotone;
 
 impl IconShape for IntersectThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -45822,8 +45822,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IntersectionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IntersectionDuotone;
 
 impl IconShape for IntersectionDuotone {
     fn child_elements(&self) -> Element {
@@ -45850,8 +45850,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InvoiceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InvoiceDuotone;
 
 impl IconShape for InvoiceDuotone {
     fn child_elements(&self) -> Element {
@@ -45941,8 +45941,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IslandDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IslandDuotone;
 
 impl IconShape for IslandDuotone {
     fn child_elements(&self) -> Element {
@@ -46033,8 +46033,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct JarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct JarDuotone;
 
 impl IconShape for JarDuotone {
     fn child_elements(&self) -> Element {
@@ -46099,8 +46099,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct JarLabelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct JarLabelDuotone;
 
 impl IconShape for JarLabelDuotone {
     fn child_elements(&self) -> Element {
@@ -46186,8 +46186,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct JeepDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct JeepDuotone;
 
 impl IconShape for JeepDuotone {
     fn child_elements(&self) -> Element {
@@ -46273,8 +46273,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct JoystickDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct JoystickDuotone;
 
 impl IconShape for JoystickDuotone {
     fn child_elements(&self) -> Element {
@@ -46347,8 +46347,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct KanbanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct KanbanDuotone;
 
 impl IconShape for KanbanDuotone {
     fn child_elements(&self) -> Element {
@@ -46426,8 +46426,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct KeyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct KeyDuotone;
 
 impl IconShape for KeyDuotone {
     fn child_elements(&self) -> Element {
@@ -46459,8 +46459,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct KeyReturnDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct KeyReturnDuotone;
 
 impl IconShape for KeyReturnDuotone {
     fn child_elements(&self) -> Element {
@@ -46511,8 +46511,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct KeyboardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct KeyboardDuotone;
 
 impl IconShape for KeyboardDuotone {
     fn child_elements(&self) -> Element {
@@ -46602,8 +46602,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct KeyholeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct KeyholeDuotone;
 
 impl IconShape for KeyholeDuotone {
     fn child_elements(&self) -> Element {
@@ -46640,8 +46640,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct KnifeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct KnifeDuotone;
 
 impl IconShape for KnifeDuotone {
     fn child_elements(&self) -> Element {
@@ -46668,8 +46668,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LadderDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LadderDuotone;
 
 impl IconShape for LadderDuotone {
     fn child_elements(&self) -> Element {
@@ -46776,8 +46776,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LadderSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LadderSimpleDuotone;
 
 impl IconShape for LadderSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -46854,8 +46854,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LampDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LampDuotone;
 
 impl IconShape for LampDuotone {
     fn child_elements(&self) -> Element {
@@ -46915,8 +46915,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LampPendantDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LampPendantDuotone;
 
 impl IconShape for LampPendantDuotone {
     fn child_elements(&self) -> Element {
@@ -46962,8 +46962,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LaptopDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LaptopDuotone;
 
 impl IconShape for LaptopDuotone {
     fn child_elements(&self) -> Element {
@@ -47009,8 +47009,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LassoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LassoDuotone;
 
 impl IconShape for LassoDuotone {
     fn child_elements(&self) -> Element {
@@ -47051,8 +47051,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LastfmLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LastfmLogoDuotone;
 
 impl IconShape for LastfmLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -47079,8 +47079,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LayoutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LayoutDuotone;
 
 impl IconShape for LayoutDuotone {
     fn child_elements(&self) -> Element {
@@ -47133,8 +47133,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LeafDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LeafDuotone;
 
 impl IconShape for LeafDuotone {
     fn child_elements(&self) -> Element {
@@ -47172,8 +47172,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LecternDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LecternDuotone;
 
 impl IconShape for LecternDuotone {
     fn child_elements(&self) -> Element {
@@ -47233,8 +47233,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LegoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LegoDuotone;
 
 impl IconShape for LegoDuotone {
     fn child_elements(&self) -> Element {
@@ -47329,8 +47329,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LegoSmileyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LegoSmileyDuotone;
 
 impl IconShape for LegoSmileyDuotone {
     fn child_elements(&self) -> Element {
@@ -47399,8 +47399,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LessThanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LessThanDuotone;
 
 impl IconShape for LessThanDuotone {
     fn child_elements(&self) -> Element {
@@ -47427,8 +47427,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LessThanOrEqualDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LessThanOrEqualDuotone;
 
 impl IconShape for LessThanOrEqualDuotone {
     fn child_elements(&self) -> Element {
@@ -47466,8 +47466,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LetterCircleHDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LetterCircleHDuotone;
 
 impl IconShape for LetterCircleHDuotone {
     fn child_elements(&self) -> Element {
@@ -47531,8 +47531,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LetterCirclePDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LetterCirclePDuotone;
 
 impl IconShape for LetterCirclePDuotone {
     fn child_elements(&self) -> Element {
@@ -47571,8 +47571,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LetterCircleVDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LetterCircleVDuotone;
 
 impl IconShape for LetterCircleVDuotone {
     fn child_elements(&self) -> Element {
@@ -47611,8 +47611,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LifebuoyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LifebuoyDuotone;
 
 impl IconShape for LifebuoyDuotone {
     fn child_elements(&self) -> Element {
@@ -47699,8 +47699,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LightbulbDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LightbulbDuotone;
 
 impl IconShape for LightbulbDuotone {
     fn child_elements(&self) -> Element {
@@ -47746,8 +47746,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LightbulbFilamentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LightbulbFilamentDuotone;
 
 impl IconShape for LightbulbFilamentDuotone {
     fn child_elements(&self) -> Element {
@@ -47804,8 +47804,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LighthouseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LighthouseDuotone;
 
 impl IconShape for LighthouseDuotone {
     fn child_elements(&self) -> Element {
@@ -47877,8 +47877,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LightningADuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LightningADuotone;
 
 impl IconShape for LightningADuotone {
     fn child_elements(&self) -> Element {
@@ -47924,8 +47924,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LightningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LightningDuotone;
 
 impl IconShape for LightningDuotone {
     fn child_elements(&self) -> Element {
@@ -47952,8 +47952,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LightningSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LightningSlashDuotone;
 
 impl IconShape for LightningSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -47999,8 +47999,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LineSegmentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LineSegmentDuotone;
 
 impl IconShape for LineSegmentDuotone {
     fn child_elements(&self) -> Element {
@@ -48058,8 +48058,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LineSegmentsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LineSegmentsDuotone;
 
 impl IconShape for LineSegmentsDuotone {
     fn child_elements(&self) -> Element {
@@ -48171,8 +48171,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LineVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LineVerticalDuotone;
 
 impl IconShape for LineVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -48202,8 +48202,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkBreakDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkBreakDuotone;
 
 impl IconShape for LinkBreakDuotone {
     fn child_elements(&self) -> Element {
@@ -48282,8 +48282,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkDuotone;
 
 impl IconShape for LinkDuotone {
     fn child_elements(&self) -> Element {
@@ -48318,8 +48318,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkSimpleBreakDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkSimpleBreakDuotone;
 
 impl IconShape for LinkSimpleBreakDuotone {
     fn child_elements(&self) -> Element {
@@ -48354,8 +48354,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkSimpleDuotone;
 
 impl IconShape for LinkSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -48401,8 +48401,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkSimpleHorizontalBreakDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkSimpleHorizontalBreakDuotone;
 
 impl IconShape for LinkSimpleHorizontalBreakDuotone {
     fn child_elements(&self) -> Element {
@@ -48441,8 +48441,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkSimpleHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkSimpleHorizontalDuotone;
 
 impl IconShape for LinkSimpleHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -48492,8 +48492,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinkedinLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinkedinLogoDuotone;
 
 impl IconShape for LinkedinLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -48563,8 +48563,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinktreeLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinktreeLogoDuotone;
 
 impl IconShape for LinktreeLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -48640,8 +48640,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinuxLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinuxLogoDuotone;
 
 impl IconShape for LinuxLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -48694,8 +48694,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListBulletsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListBulletsDuotone;
 
 impl IconShape for ListBulletsDuotone {
     fn child_elements(&self) -> Element {
@@ -48765,8 +48765,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListChecksDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListChecksDuotone;
 
 impl IconShape for ListChecksDuotone {
     fn child_elements(&self) -> Element {
@@ -48845,8 +48845,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListDashesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListDashesDuotone;
 
 impl IconShape for ListDashesDuotone {
     fn child_elements(&self) -> Element {
@@ -48934,8 +48934,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListDuotone;
 
 impl IconShape for ListDuotone {
     fn child_elements(&self) -> Element {
@@ -48990,8 +48990,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListHeartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListHeartDuotone;
 
 impl IconShape for ListHeartDuotone {
     fn child_elements(&self) -> Element {
@@ -49053,8 +49053,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListMagnifyingGlassDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListMagnifyingGlassDuotone;
 
 impl IconShape for ListMagnifyingGlassDuotone {
     fn child_elements(&self) -> Element {
@@ -49129,8 +49129,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListNumbersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListNumbersDuotone;
 
 impl IconShape for ListNumbersDuotone {
     fn child_elements(&self) -> Element {
@@ -49198,8 +49198,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListPlusDuotone;
 
 impl IconShape for ListPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -49276,8 +49276,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ListStarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ListStarDuotone;
 
 impl IconShape for ListStarDuotone {
     fn child_elements(&self) -> Element {
@@ -49339,8 +49339,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockDuotone;
 
 impl IconShape for LockDuotone {
     fn child_elements(&self) -> Element {
@@ -49388,8 +49388,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockKeyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockKeyDuotone;
 
 impl IconShape for LockKeyDuotone {
     fn child_elements(&self) -> Element {
@@ -49449,8 +49449,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockKeyOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockKeyOpenDuotone;
 
 impl IconShape for LockKeyOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -49510,8 +49510,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockLaminatedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockLaminatedDuotone;
 
 impl IconShape for LockLaminatedDuotone {
     fn child_elements(&self) -> Element {
@@ -49587,8 +49587,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockLaminatedOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockLaminatedOpenDuotone;
 
 impl IconShape for LockLaminatedOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -49664,8 +49664,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockOpenDuotone;
 
 impl IconShape for LockOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -49713,8 +49713,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockSimpleDuotone;
 
 impl IconShape for LockSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -49757,8 +49757,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockSimpleOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockSimpleOpenDuotone;
 
 impl IconShape for LockSimpleOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -49801,8 +49801,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LockersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LockersDuotone;
 
 impl IconShape for LockersDuotone {
     fn child_elements(&self) -> Element {
@@ -49906,8 +49906,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LogDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LogDuotone;
 
 impl IconShape for LogDuotone {
     fn child_elements(&self) -> Element {
@@ -49983,8 +49983,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MagicWandDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MagicWandDuotone;
 
 impl IconShape for MagicWandDuotone {
     fn child_elements(&self) -> Element {
@@ -50093,8 +50093,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MagnetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MagnetDuotone;
 
 impl IconShape for MagnetDuotone {
     fn child_elements(&self) -> Element {
@@ -50147,8 +50147,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MagnetStraightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MagnetStraightDuotone;
 
 impl IconShape for MagnetStraightDuotone {
     fn child_elements(&self) -> Element {
@@ -50201,8 +50201,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MagnifyingGlassDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MagnifyingGlassDuotone;
 
 impl IconShape for MagnifyingGlassDuotone {
     fn child_elements(&self) -> Element {
@@ -50244,8 +50244,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MagnifyingGlassMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MagnifyingGlassMinusDuotone;
 
 impl IconShape for MagnifyingGlassMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -50298,8 +50298,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MagnifyingGlassPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MagnifyingGlassPlusDuotone;
 
 impl IconShape for MagnifyingGlassPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -50363,8 +50363,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailboxDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailboxDuotone;
 
 impl IconShape for MailboxDuotone {
     fn child_elements(&self) -> Element {
@@ -50418,8 +50418,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinAreaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinAreaDuotone;
 
 impl IconShape for MapPinAreaDuotone {
     fn child_elements(&self) -> Element {
@@ -50459,8 +50459,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinDuotone;
 
 impl IconShape for MapPinDuotone {
     fn child_elements(&self) -> Element {
@@ -50497,8 +50497,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinLineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinLineDuotone;
 
 impl IconShape for MapPinLineDuotone {
     fn child_elements(&self) -> Element {
@@ -50545,8 +50545,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinPlusDuotone;
 
 impl IconShape for MapPinPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -50595,8 +50595,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinSimpleAreaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinSimpleAreaDuotone;
 
 impl IconShape for MapPinSimpleAreaDuotone {
     fn child_elements(&self) -> Element {
@@ -50646,8 +50646,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinSimpleDuotone;
 
 impl IconShape for MapPinSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -50689,8 +50689,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapPinSimpleLineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapPinSimpleLineDuotone;
 
 impl IconShape for MapPinSimpleLineDuotone {
     fn child_elements(&self) -> Element {
@@ -50742,8 +50742,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MapTrifoldDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MapTrifoldDuotone;
 
 impl IconShape for MapTrifoldDuotone {
     fn child_elements(&self) -> Element {
@@ -50792,8 +50792,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MarkdownLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MarkdownLogoDuotone;
 
 impl IconShape for MarkdownLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -50855,8 +50855,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MarkerCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MarkerCircleDuotone;
 
 impl IconShape for MarkerCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -50909,8 +50909,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MartiniDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MartiniDuotone;
 
 impl IconShape for MartiniDuotone {
     fn child_elements(&self) -> Element {
@@ -50970,8 +50970,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MaskHappyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MaskHappyDuotone;
 
 impl IconShape for MaskHappyDuotone {
     fn child_elements(&self) -> Element {
@@ -51022,8 +51022,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MaskSadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MaskSadDuotone;
 
 impl IconShape for MaskSadDuotone {
     fn child_elements(&self) -> Element {
@@ -51074,8 +51074,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MastodonLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MastodonLogoDuotone;
 
 impl IconShape for MastodonLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -51118,8 +51118,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MathOperationsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MathOperationsDuotone;
 
 impl IconShape for MathOperationsDuotone {
     fn child_elements(&self) -> Element {
@@ -51219,8 +51219,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MatrixLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MatrixLogoDuotone;
 
 impl IconShape for MatrixLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -51285,8 +51285,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MedalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MedalDuotone;
 
 impl IconShape for MedalDuotone {
     fn child_elements(&self) -> Element {
@@ -51335,8 +51335,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MedalMilitaryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MedalMilitaryDuotone;
 
 impl IconShape for MedalMilitaryDuotone {
     fn child_elements(&self) -> Element {
@@ -51405,8 +51405,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MediumLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MediumLogoDuotone;
 
 impl IconShape for MediumLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -51466,8 +51466,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MegaphoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MegaphoneDuotone;
 
 impl IconShape for MegaphoneDuotone {
     fn child_elements(&self) -> Element {
@@ -51502,8 +51502,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MegaphoneSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MegaphoneSimpleDuotone;
 
 impl IconShape for MegaphoneSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -51538,8 +51538,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MemberOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MemberOfDuotone;
 
 impl IconShape for MemberOfDuotone {
     fn child_elements(&self) -> Element {
@@ -51577,8 +51577,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MemoryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MemoryDuotone;
 
 impl IconShape for MemoryDuotone {
     fn child_elements(&self) -> Element {
@@ -51715,8 +51715,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MessengerLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MessengerLogoDuotone;
 
 impl IconShape for MessengerLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -51751,8 +51751,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MetaLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MetaLogoDuotone;
 
 impl IconShape for MetaLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -51783,8 +51783,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MeteorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MeteorDuotone;
 
 impl IconShape for MeteorDuotone {
     fn child_elements(&self) -> Element {
@@ -51867,8 +51867,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MetronomeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MetronomeDuotone;
 
 impl IconShape for MetronomeDuotone {
     fn child_elements(&self) -> Element {
@@ -51917,8 +51917,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrophoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrophoneDuotone;
 
 impl IconShape for MicrophoneDuotone {
     fn child_elements(&self) -> Element {
@@ -51972,8 +51972,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrophoneSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrophoneSlashDuotone;
 
 impl IconShape for MicrophoneSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -52050,8 +52050,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrophoneStageDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrophoneStageDuotone;
 
 impl IconShape for MicrophoneStageDuotone {
     fn child_elements(&self) -> Element {
@@ -52110,8 +52110,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicroscopeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicroscopeDuotone;
 
 impl IconShape for MicroscopeDuotone {
     fn child_elements(&self) -> Element {
@@ -52176,8 +52176,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrosoftExcelLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrosoftExcelLogoDuotone;
 
 impl IconShape for MicrosoftExcelLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -52286,8 +52286,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrosoftOutlookLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrosoftOutlookLogoDuotone;
 
 impl IconShape for MicrosoftOutlookLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -52370,8 +52370,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrosoftPowerpointLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrosoftPowerpointLogoDuotone;
 
 impl IconShape for MicrosoftPowerpointLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -52455,8 +52455,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrosoftTeamsLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrosoftTeamsLogoDuotone;
 
 impl IconShape for MicrosoftTeamsLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -52545,8 +52545,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MicrosoftWordLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MicrosoftWordLogoDuotone;
 
 impl IconShape for MicrosoftWordLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -52619,8 +52619,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MinusCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MinusCircleDuotone;
 
 impl IconShape for MinusCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -52661,8 +52661,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MinusDuotone;
 
 impl IconShape for MinusDuotone {
     fn child_elements(&self) -> Element {
@@ -52696,8 +52696,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MinusSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MinusSquareDuotone;
 
 impl IconShape for MinusSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -52743,8 +52743,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MoneyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MoneyDuotone;
 
 impl IconShape for MoneyDuotone {
     fn child_elements(&self) -> Element {
@@ -52834,8 +52834,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MoneyWavyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MoneyWavyDuotone;
 
 impl IconShape for MoneyWavyDuotone {
     fn child_elements(&self) -> Element {
@@ -52894,8 +52894,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MonitorArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MonitorArrowUpDuotone;
 
 impl IconShape for MonitorArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -52962,8 +52962,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MonitorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MonitorDuotone;
 
 impl IconShape for MonitorDuotone {
     fn child_elements(&self) -> Element {
@@ -53011,8 +53011,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MonitorPlayDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MonitorPlayDuotone;
 
 impl IconShape for MonitorPlayDuotone {
     fn child_elements(&self) -> Element {
@@ -53063,8 +53063,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MoonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MoonDuotone;
 
 impl IconShape for MoonDuotone {
     fn child_elements(&self) -> Element {
@@ -53091,8 +53091,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MoonStarsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MoonStarsDuotone;
 
 impl IconShape for MoonStarsDuotone {
     fn child_elements(&self) -> Element {
@@ -53163,8 +53163,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MopedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MopedDuotone;
 
 impl IconShape for MopedDuotone {
     fn child_elements(&self) -> Element {
@@ -53225,8 +53225,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MopedFrontDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MopedFrontDuotone;
 
 impl IconShape for MopedFrontDuotone {
     fn child_elements(&self) -> Element {
@@ -53307,8 +53307,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MosqueDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MosqueDuotone;
 
 impl IconShape for MosqueDuotone {
     fn child_elements(&self) -> Element {
@@ -53362,8 +53362,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MotorcycleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MotorcycleDuotone;
 
 impl IconShape for MotorcycleDuotone {
     fn child_elements(&self) -> Element {
@@ -53426,8 +53426,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MountainsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MountainsDuotone;
 
 impl IconShape for MountainsDuotone {
     fn child_elements(&self) -> Element {
@@ -53493,8 +53493,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MouseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MouseDuotone;
 
 impl IconShape for MouseDuotone {
     fn child_elements(&self) -> Element {
@@ -53547,8 +53547,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MouseLeftClickDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MouseLeftClickDuotone;
 
 impl IconShape for MouseLeftClickDuotone {
     fn child_elements(&self) -> Element {
@@ -53601,8 +53601,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MouseMiddleClickDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MouseMiddleClickDuotone;
 
 impl IconShape for MouseMiddleClickDuotone {
     fn child_elements(&self) -> Element {
@@ -53682,8 +53682,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MouseRightClickDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MouseRightClickDuotone;
 
 impl IconShape for MouseRightClickDuotone {
     fn child_elements(&self) -> Element {
@@ -53736,8 +53736,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MouseScrollDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MouseScrollDuotone;
 
 impl IconShape for MouseScrollDuotone {
     fn child_elements(&self) -> Element {
@@ -53799,8 +53799,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MouseSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MouseSimpleDuotone;
 
 impl IconShape for MouseSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -53846,8 +53846,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MusicNoteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MusicNoteDuotone;
 
 impl IconShape for MusicNoteDuotone {
     fn child_elements(&self) -> Element {
@@ -53886,8 +53886,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MusicNoteSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MusicNoteSimpleDuotone;
 
 impl IconShape for MusicNoteSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -53926,8 +53926,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MusicNotesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MusicNotesDuotone;
 
 impl IconShape for MusicNotesDuotone {
     fn child_elements(&self) -> Element {
@@ -53993,8 +53993,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MusicNotesMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MusicNotesMinusDuotone;
 
 impl IconShape for MusicNotesMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -54082,8 +54082,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MusicNotesPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MusicNotesPlusDuotone;
 
 impl IconShape for MusicNotesPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -54182,8 +54182,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MusicNotesSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MusicNotesSimpleDuotone;
 
 impl IconShape for MusicNotesSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -54238,8 +54238,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NavigationArrowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NavigationArrowDuotone;
 
 impl IconShape for NavigationArrowDuotone {
     fn child_elements(&self) -> Element {
@@ -54266,8 +54266,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NeedleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NeedleDuotone;
 
 impl IconShape for NeedleDuotone {
     fn child_elements(&self) -> Element {
@@ -54305,8 +54305,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NetworkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NetworkDuotone;
 
 impl IconShape for NetworkDuotone {
     fn child_elements(&self) -> Element {
@@ -54425,8 +54425,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NetworkSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NetworkSlashDuotone;
 
 impl IconShape for NetworkSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -54532,8 +54532,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NetworkXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NetworkXDuotone;
 
 impl IconShape for NetworkXDuotone {
     fn child_elements(&self) -> Element {
@@ -54654,8 +54654,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NewspaperClippingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NewspaperClippingDuotone;
 
 impl IconShape for NewspaperClippingDuotone {
     fn child_elements(&self) -> Element {
@@ -54715,8 +54715,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NewspaperDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NewspaperDuotone;
 
 impl IconShape for NewspaperDuotone {
     fn child_elements(&self) -> Element {
@@ -54773,8 +54773,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotEqualsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotEqualsDuotone;
 
 impl IconShape for NotEqualsDuotone {
     fn child_elements(&self) -> Element {
@@ -54828,8 +54828,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotMemberOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotMemberOfDuotone;
 
 impl IconShape for NotMemberOfDuotone {
     fn child_elements(&self) -> Element {
@@ -54878,8 +54878,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotSubsetOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotSubsetOfDuotone;
 
 impl IconShape for NotSubsetOfDuotone {
     fn child_elements(&self) -> Element {
@@ -54917,8 +54917,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotSupersetOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotSupersetOfDuotone;
 
 impl IconShape for NotSupersetOfDuotone {
     fn child_elements(&self) -> Element {
@@ -54967,8 +54967,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotchesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotchesDuotone;
 
 impl IconShape for NotchesDuotone {
     fn child_elements(&self) -> Element {
@@ -54995,8 +54995,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NoteBlankDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NoteBlankDuotone;
 
 impl IconShape for NoteBlankDuotone {
     fn child_elements(&self) -> Element {
@@ -55031,8 +55031,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NoteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NoteDuotone;
 
 impl IconShape for NoteDuotone {
     fn child_elements(&self) -> Element {
@@ -55100,8 +55100,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotePencilDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotePencilDuotone;
 
 impl IconShape for NotePencilDuotone {
     fn child_elements(&self) -> Element {
@@ -55147,8 +55147,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotebookDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotebookDuotone;
 
 impl IconShape for NotebookDuotone {
     fn child_elements(&self) -> Element {
@@ -55212,8 +55212,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotepadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotepadDuotone;
 
 impl IconShape for NotepadDuotone {
     fn child_elements(&self) -> Element {
@@ -55295,8 +55295,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotificationDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotificationDuotone;
 
 impl IconShape for NotificationDuotone {
     fn child_elements(&self) -> Element {
@@ -55335,8 +55335,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NotionLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NotionLogoDuotone;
 
 impl IconShape for NotionLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -55393,8 +55393,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NuclearPlantDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NuclearPlantDuotone;
 
 impl IconShape for NuclearPlantDuotone {
     fn child_elements(&self) -> Element {
@@ -55456,8 +55456,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleEightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleEightDuotone;
 
 impl IconShape for NumberCircleEightDuotone {
     fn child_elements(&self) -> Element {
@@ -55508,8 +55508,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleFiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleFiveDuotone;
 
 impl IconShape for NumberCircleFiveDuotone {
     fn child_elements(&self) -> Element {
@@ -55548,8 +55548,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleFourDuotone;
 
 impl IconShape for NumberCircleFourDuotone {
     fn child_elements(&self) -> Element {
@@ -55588,8 +55588,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleNineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleNineDuotone;
 
 impl IconShape for NumberCircleNineDuotone {
     fn child_elements(&self) -> Element {
@@ -55641,8 +55641,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleOneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleOneDuotone;
 
 impl IconShape for NumberCircleOneDuotone {
     fn child_elements(&self) -> Element {
@@ -55681,8 +55681,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleSevenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleSevenDuotone;
 
 impl IconShape for NumberCircleSevenDuotone {
     fn child_elements(&self) -> Element {
@@ -55721,8 +55721,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleSixDuotone;
 
 impl IconShape for NumberCircleSixDuotone {
     fn child_elements(&self) -> Element {
@@ -55774,8 +55774,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleThreeDuotone;
 
 impl IconShape for NumberCircleThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -55814,8 +55814,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleTwoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleTwoDuotone;
 
 impl IconShape for NumberCircleTwoDuotone {
     fn child_elements(&self) -> Element {
@@ -55854,8 +55854,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberCircleZeroDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberCircleZeroDuotone;
 
 impl IconShape for NumberCircleZeroDuotone {
     fn child_elements(&self) -> Element {
@@ -55896,8 +55896,8 @@ ellipse {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberEightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberEightDuotone;
 
 impl IconShape for NumberEightDuotone {
     fn child_elements(&self) -> Element {
@@ -55936,8 +55936,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberFiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberFiveDuotone;
 
 impl IconShape for NumberFiveDuotone {
     fn child_elements(&self) -> Element {
@@ -55964,8 +55964,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberFourDuotone;
 
 impl IconShape for NumberFourDuotone {
     fn child_elements(&self) -> Element {
@@ -55992,8 +55992,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberNineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberNineDuotone;
 
 impl IconShape for NumberNineDuotone {
     fn child_elements(&self) -> Element {
@@ -56033,8 +56033,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberOneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberOneDuotone;
 
 impl IconShape for NumberOneDuotone {
     fn child_elements(&self) -> Element {
@@ -56061,8 +56061,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSevenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSevenDuotone;
 
 impl IconShape for NumberSevenDuotone {
     fn child_elements(&self) -> Element {
@@ -56089,8 +56089,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSixDuotone;
 
 impl IconShape for NumberSixDuotone {
     fn child_elements(&self) -> Element {
@@ -56130,8 +56130,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareEightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareEightDuotone;
 
 impl IconShape for NumberSquareEightDuotone {
     fn child_elements(&self) -> Element {
@@ -56186,8 +56186,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareFiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareFiveDuotone;
 
 impl IconShape for NumberSquareFiveDuotone {
     fn child_elements(&self) -> Element {
@@ -56230,8 +56230,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareFourDuotone;
 
 impl IconShape for NumberSquareFourDuotone {
     fn child_elements(&self) -> Element {
@@ -56274,8 +56274,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareNineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareNineDuotone;
 
 impl IconShape for NumberSquareNineDuotone {
     fn child_elements(&self) -> Element {
@@ -56331,8 +56331,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareOneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareOneDuotone;
 
 impl IconShape for NumberSquareOneDuotone {
     fn child_elements(&self) -> Element {
@@ -56375,8 +56375,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareSevenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareSevenDuotone;
 
 impl IconShape for NumberSquareSevenDuotone {
     fn child_elements(&self) -> Element {
@@ -56419,8 +56419,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareSixDuotone;
 
 impl IconShape for NumberSquareSixDuotone {
     fn child_elements(&self) -> Element {
@@ -56476,8 +56476,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareThreeDuotone;
 
 impl IconShape for NumberSquareThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -56520,8 +56520,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareTwoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareTwoDuotone;
 
 impl IconShape for NumberSquareTwoDuotone {
     fn child_elements(&self) -> Element {
@@ -56564,8 +56564,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberSquareZeroDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberSquareZeroDuotone;
 
 impl IconShape for NumberSquareZeroDuotone {
     fn child_elements(&self) -> Element {
@@ -56611,8 +56611,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberThreeDuotone;
 
 impl IconShape for NumberThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -56639,8 +56639,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberTwoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberTwoDuotone;
 
 impl IconShape for NumberTwoDuotone {
     fn child_elements(&self) -> Element {
@@ -56667,8 +56667,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumberZeroDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumberZeroDuotone;
 
 impl IconShape for NumberZeroDuotone {
     fn child_elements(&self) -> Element {
@@ -56698,8 +56698,8 @@ ellipse {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NumpadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NumpadDuotone;
 
 impl IconShape for NumpadDuotone {
     fn child_elements(&self) -> Element {
@@ -56768,8 +56768,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NutDuotone;
 
 impl IconShape for NutDuotone {
     fn child_elements(&self) -> Element {
@@ -56806,8 +56806,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct NyTimesLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct NyTimesLogoDuotone;
 
 impl IconShape for NyTimesLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -56866,8 +56866,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OctagonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OctagonDuotone;
 
 impl IconShape for OctagonDuotone {
     fn child_elements(&self) -> Element {
@@ -56893,8 +56893,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OfficeChairDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OfficeChairDuotone;
 
 impl IconShape for OfficeChairDuotone {
     fn child_elements(&self) -> Element {
@@ -56948,8 +56948,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OnigiriDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OnigiriDuotone;
 
 impl IconShape for OnigiriDuotone {
     fn child_elements(&self) -> Element {
@@ -56984,8 +56984,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OpenAiLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OpenAiLogoDuotone;
 
 impl IconShape for OpenAiLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -57060,8 +57060,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OptionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OptionDuotone;
 
 impl IconShape for OptionDuotone {
     fn child_elements(&self) -> Element {
@@ -57099,8 +57099,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OrangeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OrangeDuotone;
 
 impl IconShape for OrangeDuotone {
     fn child_elements(&self) -> Element {
@@ -57155,8 +57155,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OrangeSliceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OrangeSliceDuotone;
 
 impl IconShape for OrangeSliceDuotone {
     fn child_elements(&self) -> Element {
@@ -57224,8 +57224,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct OvenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct OvenDuotone;
 
 impl IconShape for OvenDuotone {
     fn child_elements(&self) -> Element {
@@ -57285,8 +57285,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PackageDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PackageDuotone;
 
 impl IconShape for PackageDuotone {
     fn child_elements(&self) -> Element {
@@ -57340,8 +57340,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaintBrushBroadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaintBrushBroadDuotone;
 
 impl IconShape for PaintBrushBroadDuotone {
     fn child_elements(&self) -> Element {
@@ -57390,8 +57390,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaintBrushDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaintBrushDuotone;
 
 impl IconShape for PaintBrushDuotone {
     fn child_elements(&self) -> Element {
@@ -57434,8 +57434,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaintBrushHouseholdDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaintBrushHouseholdDuotone;
 
 impl IconShape for PaintBrushHouseholdDuotone {
     fn child_elements(&self) -> Element {
@@ -57495,8 +57495,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaintBucketDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaintBucketDuotone;
 
 impl IconShape for PaintBucketDuotone {
     fn child_elements(&self) -> Element {
@@ -57556,8 +57556,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaintRollerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaintRollerDuotone;
 
 impl IconShape for PaintRollerDuotone {
     fn child_elements(&self) -> Element {
@@ -57611,8 +57611,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaletteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaletteDuotone;
 
 impl IconShape for PaletteDuotone {
     fn child_elements(&self) -> Element {
@@ -57659,8 +57659,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PanoramaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PanoramaDuotone;
 
 impl IconShape for PanoramaDuotone {
     fn child_elements(&self) -> Element {
@@ -57708,8 +57708,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PantsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PantsDuotone;
 
 impl IconShape for PantsDuotone {
     fn child_elements(&self) -> Element {
@@ -57774,8 +57774,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperPlaneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperPlaneDuotone;
 
 impl IconShape for PaperPlaneDuotone {
     fn child_elements(&self) -> Element {
@@ -57813,8 +57813,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperPlaneRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperPlaneRightDuotone;
 
 impl IconShape for PaperPlaneRightDuotone {
     fn child_elements(&self) -> Element {
@@ -57852,8 +57852,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperPlaneTiltDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperPlaneTiltDuotone;
 
 impl IconShape for PaperPlaneTiltDuotone {
     fn child_elements(&self) -> Element {
@@ -57891,8 +57891,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperclipDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperclipDuotone;
 
 impl IconShape for PaperclipDuotone {
     fn child_elements(&self) -> Element {
@@ -57919,8 +57919,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaperclipHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaperclipHorizontalDuotone;
 
 impl IconShape for PaperclipHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -57947,8 +57947,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ParachuteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ParachuteDuotone;
 
 impl IconShape for ParachuteDuotone {
     fn child_elements(&self) -> Element {
@@ -58017,8 +58017,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ParagraphDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ParagraphDuotone;
 
 impl IconShape for ParagraphDuotone {
     fn child_elements(&self) -> Element {
@@ -58067,8 +58067,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ParallelogramDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ParallelogramDuotone;
 
 impl IconShape for ParallelogramDuotone {
     fn child_elements(&self) -> Element {
@@ -58095,8 +58095,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ParkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ParkDuotone;
 
 impl IconShape for ParkDuotone {
     fn child_elements(&self) -> Element {
@@ -58199,8 +58199,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PasswordDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PasswordDuotone;
 
 impl IconShape for PasswordDuotone {
     fn child_elements(&self) -> Element {
@@ -58340,8 +58340,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PathDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PathDuotone;
 
 impl IconShape for PathDuotone {
     fn child_elements(&self) -> Element {
@@ -58380,8 +58380,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PatreonLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PatreonLogoDuotone;
 
 impl IconShape for PatreonLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -58408,8 +58408,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PauseCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PauseCircleDuotone;
 
 impl IconShape for PauseCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -58461,8 +58461,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PauseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PauseDuotone;
 
 impl IconShape for PauseDuotone {
     fn child_elements(&self) -> Element {
@@ -58517,8 +58517,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PawPrintDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PawPrintDuotone;
 
 impl IconShape for PawPrintDuotone {
     fn child_elements(&self) -> Element {
@@ -58609,8 +58609,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PaypalLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PaypalLogoDuotone;
 
 impl IconShape for PaypalLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -58645,8 +58645,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PeaceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PeaceDuotone;
 
 impl IconShape for PeaceDuotone {
     fn child_elements(&self) -> Element {
@@ -58710,8 +58710,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PenDuotone;
 
 impl IconShape for PenDuotone {
     fn child_elements(&self) -> Element {
@@ -58768,8 +58768,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PenNibDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PenNibDuotone;
 
 impl IconShape for PenNibDuotone {
     fn child_elements(&self) -> Element {
@@ -58825,8 +58825,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PenNibStraightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PenNibStraightDuotone;
 
 impl IconShape for PenNibStraightDuotone {
     fn child_elements(&self) -> Element {
@@ -58882,8 +58882,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilCircleDuotone;
 
 impl IconShape for PencilCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -58947,8 +58947,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilDuotone;
 
 impl IconShape for PencilDuotone {
     fn child_elements(&self) -> Element {
@@ -59008,8 +59008,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilLineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilLineDuotone;
 
 impl IconShape for PencilLineDuotone {
     fn child_elements(&self) -> Element {
@@ -59066,8 +59066,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilRulerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilRulerDuotone;
 
 impl IconShape for PencilRulerDuotone {
     fn child_elements(&self) -> Element {
@@ -59180,8 +59180,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilSimpleDuotone;
 
 impl IconShape for PencilSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -59219,8 +59219,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilSimpleLineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilSimpleLineDuotone;
 
 impl IconShape for PencilSimpleLineDuotone {
     fn child_elements(&self) -> Element {
@@ -59269,8 +59269,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilSimpleSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilSimpleSlashDuotone;
 
 impl IconShape for PencilSimpleSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -59327,8 +59327,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PencilSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PencilSlashDuotone;
 
 impl IconShape for PencilSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -59418,8 +59418,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PentagonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PentagonDuotone;
 
 impl IconShape for PentagonDuotone {
     fn child_elements(&self) -> Element {
@@ -59446,8 +59446,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PentagramDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PentagramDuotone;
 
 impl IconShape for PentagramDuotone {
     fn child_elements(&self) -> Element {
@@ -59474,8 +59474,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PepperDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PepperDuotone;
 
 impl IconShape for PepperDuotone {
     fn child_elements(&self) -> Element {
@@ -59518,8 +59518,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PercentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PercentDuotone;
 
 impl IconShape for PercentDuotone {
     fn child_elements(&self) -> Element {
@@ -59577,8 +59577,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonArmsSpreadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonArmsSpreadDuotone;
 
 impl IconShape for PersonArmsSpreadDuotone {
     fn child_elements(&self) -> Element {
@@ -59621,8 +59621,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonDuotone;
 
 impl IconShape for PersonDuotone {
     fn child_elements(&self) -> Element {
@@ -59665,8 +59665,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleBikeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleBikeDuotone;
 
 impl IconShape for PersonSimpleBikeDuotone {
     fn child_elements(&self) -> Element {
@@ -59731,8 +59731,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleCircleDuotone;
 
 impl IconShape for PersonSimpleCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -59798,8 +59798,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleDuotone;
 
 impl IconShape for PersonSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -59857,8 +59857,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleHikeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleHikeDuotone;
 
 impl IconShape for PersonSimpleHikeDuotone {
     fn child_elements(&self) -> Element {
@@ -59925,8 +59925,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleRunDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleRunDuotone;
 
 impl IconShape for PersonSimpleRunDuotone {
     fn child_elements(&self) -> Element {
@@ -59981,8 +59981,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleSkiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleSkiDuotone;
 
 impl IconShape for PersonSimpleSkiDuotone {
     fn child_elements(&self) -> Element {
@@ -60048,8 +60048,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleSnowboardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleSnowboardDuotone;
 
 impl IconShape for PersonSimpleSnowboardDuotone {
     fn child_elements(&self) -> Element {
@@ -60122,8 +60122,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleSwimDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleSwimDuotone;
 
 impl IconShape for PersonSimpleSwimDuotone {
     fn child_elements(&self) -> Element {
@@ -60193,8 +60193,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleTaiChiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleTaiChiDuotone;
 
 impl IconShape for PersonSimpleTaiChiDuotone {
     fn child_elements(&self) -> Element {
@@ -60252,8 +60252,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleThrowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleThrowDuotone;
 
 impl IconShape for PersonSimpleThrowDuotone {
     fn child_elements(&self) -> Element {
@@ -60313,8 +60313,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PersonSimpleWalkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PersonSimpleWalkDuotone;
 
 impl IconShape for PersonSimpleWalkDuotone {
     fn child_elements(&self) -> Element {
@@ -60372,8 +60372,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PerspectiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PerspectiveDuotone;
 
 impl IconShape for PerspectiveDuotone {
     fn child_elements(&self) -> Element {
@@ -60411,8 +60411,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneCallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneCallDuotone;
 
 impl IconShape for PhoneCallDuotone {
     fn child_elements(&self) -> Element {
@@ -60455,8 +60455,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneDisconnectDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneDisconnectDuotone;
 
 impl IconShape for PhoneDisconnectDuotone {
     fn child_elements(&self) -> Element {
@@ -60494,8 +60494,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneDuotone;
 
 impl IconShape for PhoneDuotone {
     fn child_elements(&self) -> Element {
@@ -60522,8 +60522,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneIncomingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneIncomingDuotone;
 
 impl IconShape for PhoneIncomingDuotone {
     fn child_elements(&self) -> Element {
@@ -60569,8 +60569,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneListDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneListDuotone;
 
 impl IconShape for PhoneListDuotone {
     fn child_elements(&self) -> Element {
@@ -60619,8 +60619,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneOutgoingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneOutgoingDuotone;
 
 impl IconShape for PhoneOutgoingDuotone {
     fn child_elements(&self) -> Element {
@@ -60666,8 +60666,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhonePauseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhonePauseDuotone;
 
 impl IconShape for PhonePauseDuotone {
     fn child_elements(&self) -> Element {
@@ -60716,8 +60716,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhonePlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhonePlusDuotone;
 
 impl IconShape for PhonePlusDuotone {
     fn child_elements(&self) -> Element {
@@ -60766,8 +60766,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneSlashDuotone;
 
 impl IconShape for PhoneSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -60813,8 +60813,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneTransferDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneTransferDuotone;
 
 impl IconShape for PhoneTransferDuotone {
     fn child_elements(&self) -> Element {
@@ -60860,8 +60860,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhoneXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhoneXDuotone;
 
 impl IconShape for PhoneXDuotone {
     fn child_elements(&self) -> Element {
@@ -60910,8 +60910,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PhosphorLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PhosphorLogoDuotone;
 
 impl IconShape for PhosphorLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -60972,8 +60972,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PiDuotone;
 
 impl IconShape for PiDuotone {
     fn child_elements(&self) -> Element {
@@ -61019,8 +61019,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PianoKeysDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PianoKeysDuotone;
 
 impl IconShape for PianoKeysDuotone {
     fn child_elements(&self) -> Element {
@@ -61099,8 +61099,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PicnicTableDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PicnicTableDuotone;
 
 impl IconShape for PicnicTableDuotone {
     fn child_elements(&self) -> Element {
@@ -61163,8 +61163,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PictureInPictureDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PictureInPictureDuotone;
 
 impl IconShape for PictureInPictureDuotone {
     fn child_elements(&self) -> Element {
@@ -61203,8 +61203,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PiggyBankDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PiggyBankDuotone;
 
 impl IconShape for PiggyBankDuotone {
     fn child_elements(&self) -> Element {
@@ -61266,8 +61266,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PillDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PillDuotone;
 
 impl IconShape for PillDuotone {
     fn child_elements(&self) -> Element {
@@ -61321,8 +61321,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PingPongDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PingPongDuotone;
 
 impl IconShape for PingPongDuotone {
     fn child_elements(&self) -> Element {
@@ -61360,8 +61360,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PintGlassDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PintGlassDuotone;
 
 impl IconShape for PintGlassDuotone {
     fn child_elements(&self) -> Element {
@@ -61399,8 +61399,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PinterestLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PinterestLogoDuotone;
 
 impl IconShape for PinterestLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -61438,8 +61438,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PinwheelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PinwheelDuotone;
 
 impl IconShape for PinwheelDuotone {
     fn child_elements(&self) -> Element {
@@ -61505,8 +61505,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PipeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PipeDuotone;
 
 impl IconShape for PipeDuotone {
     fn child_elements(&self) -> Element {
@@ -61609,8 +61609,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PipeWrenchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PipeWrenchDuotone;
 
 impl IconShape for PipeWrenchDuotone {
     fn child_elements(&self) -> Element {
@@ -61653,8 +61653,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PixLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PixLogoDuotone;
 
 impl IconShape for PixLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -61707,8 +61707,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PizzaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PizzaDuotone;
 
 impl IconShape for PizzaDuotone {
     fn child_elements(&self) -> Element {
@@ -61759,8 +61759,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlaceholderDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlaceholderDuotone;
 
 impl IconShape for PlaceholderDuotone {
     fn child_elements(&self) -> Element {
@@ -61817,8 +61817,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlanetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlanetDuotone;
 
 impl IconShape for PlanetDuotone {
     fn child_elements(&self) -> Element {
@@ -61857,8 +61857,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlantDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlantDuotone;
 
 impl IconShape for PlantDuotone {
     fn child_elements(&self) -> Element {
@@ -61916,8 +61916,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlayCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlayCircleDuotone;
 
 impl IconShape for PlayCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -61953,8 +61953,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlayDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlayDuotone;
 
 impl IconShape for PlayDuotone {
     fn child_elements(&self) -> Element {
@@ -61981,8 +61981,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlayPauseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlayPauseDuotone;
 
 impl IconShape for PlayPauseDuotone {
     fn child_elements(&self) -> Element {
@@ -62031,8 +62031,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlaylistDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlaylistDuotone;
 
 impl IconShape for PlaylistDuotone {
     fn child_elements(&self) -> Element {
@@ -62104,8 +62104,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlugChargingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlugChargingDuotone;
 
 impl IconShape for PlugChargingDuotone {
     fn child_elements(&self) -> Element {
@@ -62175,8 +62175,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlugDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlugDuotone;
 
 impl IconShape for PlugDuotone {
     fn child_elements(&self) -> Element {
@@ -62247,8 +62247,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlugsConnectedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlugsConnectedDuotone;
 
 impl IconShape for PlugsConnectedDuotone {
     fn child_elements(&self) -> Element {
@@ -62364,8 +62364,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlugsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlugsDuotone;
 
 impl IconShape for PlugsDuotone {
     fn child_elements(&self) -> Element {
@@ -62484,8 +62484,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlusCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlusCircleDuotone;
 
 impl IconShape for PlusCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -62537,8 +62537,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlusDuotone;
 
 impl IconShape for PlusDuotone {
     fn child_elements(&self) -> Element {
@@ -62583,8 +62583,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlusMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlusMinusDuotone;
 
 impl IconShape for PlusMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -62650,8 +62650,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PlusSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PlusSquareDuotone;
 
 impl IconShape for PlusSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -62708,8 +62708,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PokerChipDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PokerChipDuotone;
 
 impl IconShape for PokerChipDuotone {
     fn child_elements(&self) -> Element {
@@ -62836,8 +62836,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PoliceCarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PoliceCarDuotone;
 
 impl IconShape for PoliceCarDuotone {
     fn child_elements(&self) -> Element {
@@ -62932,8 +62932,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PolygonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PolygonDuotone;
 
 impl IconShape for PolygonDuotone {
     fn child_elements(&self) -> Element {
@@ -63056,8 +63056,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PopcornDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PopcornDuotone;
 
 impl IconShape for PopcornDuotone {
     fn child_elements(&self) -> Element {
@@ -63118,8 +63118,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PopsicleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PopsicleDuotone;
 
 impl IconShape for PopsicleDuotone {
     fn child_elements(&self) -> Element {
@@ -63176,8 +63176,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PottedPlantDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PottedPlantDuotone;
 
 impl IconShape for PottedPlantDuotone {
     fn child_elements(&self) -> Element {
@@ -63253,8 +63253,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PowerDuotone;
 
 impl IconShape for PowerDuotone {
     fn child_elements(&self) -> Element {
@@ -63294,8 +63294,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrescriptionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrescriptionDuotone;
 
 impl IconShape for PrescriptionDuotone {
     fn child_elements(&self) -> Element {
@@ -63344,8 +63344,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PresentationChartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PresentationChartDuotone;
 
 impl IconShape for PresentationChartDuotone {
     fn child_elements(&self) -> Element {
@@ -63446,8 +63446,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PresentationDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PresentationDuotone;
 
 impl IconShape for PresentationDuotone {
     fn child_elements(&self) -> Element {
@@ -63515,8 +63515,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrinterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrinterDuotone;
 
 impl IconShape for PrinterDuotone {
     fn child_elements(&self) -> Element {
@@ -63567,8 +63567,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProhibitDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProhibitDuotone;
 
 impl IconShape for ProhibitDuotone {
     fn child_elements(&self) -> Element {
@@ -63609,8 +63609,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProhibitInsetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProhibitInsetDuotone;
 
 impl IconShape for ProhibitInsetDuotone {
     fn child_elements(&self) -> Element {
@@ -63651,8 +63651,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProjectorScreenChartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProjectorScreenChartDuotone;
 
 impl IconShape for ProjectorScreenChartDuotone {
     fn child_elements(&self) -> Element {
@@ -63773,8 +63773,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProjectorScreenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProjectorScreenDuotone;
 
 impl IconShape for ProjectorScreenDuotone {
     fn child_elements(&self) -> Element {
@@ -63862,8 +63862,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PulseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PulseDuotone;
 
 impl IconShape for PulseDuotone {
     fn child_elements(&self) -> Element {
@@ -63890,8 +63890,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PushPinDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PushPinDuotone;
 
 impl IconShape for PushPinDuotone {
     fn child_elements(&self) -> Element {
@@ -63929,8 +63929,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PushPinSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PushPinSimpleDuotone;
 
 impl IconShape for PushPinSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -64004,8 +64004,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PushPinSimpleSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PushPinSimpleSlashDuotone;
 
 impl IconShape for PushPinSimpleSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -64090,8 +64090,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PushPinSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PushPinSlashDuotone;
 
 impl IconShape for PushPinSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -64148,8 +64148,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PuzzlePieceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PuzzlePieceDuotone;
 
 impl IconShape for PuzzlePieceDuotone {
     fn child_elements(&self) -> Element {
@@ -64176,8 +64176,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct QrCodeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct QrCodeDuotone;
 
 impl IconShape for QrCodeDuotone {
     fn child_elements(&self) -> Element {
@@ -64293,8 +64293,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct QuestionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct QuestionDuotone;
 
 impl IconShape for QuestionDuotone {
     fn child_elements(&self) -> Element {
@@ -64338,8 +64338,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct QuestionMarkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct QuestionMarkDuotone;
 
 impl IconShape for QuestionMarkDuotone {
     fn child_elements(&self) -> Element {
@@ -64375,8 +64375,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct QueueDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct QueueDuotone;
 
 impl IconShape for QueueDuotone {
     fn child_elements(&self) -> Element {
@@ -64436,8 +64436,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct QuotesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct QuotesDuotone;
 
 impl IconShape for QuotesDuotone {
     fn child_elements(&self) -> Element {
@@ -64476,8 +64476,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RabbitDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RabbitDuotone;
 
 impl IconShape for RabbitDuotone {
     fn child_elements(&self) -> Element {
@@ -64538,8 +64538,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RacquetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RacquetDuotone;
 
 impl IconShape for RacquetDuotone {
     fn child_elements(&self) -> Element {
@@ -64642,8 +64642,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RadicalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RadicalDuotone;
 
 impl IconShape for RadicalDuotone {
     fn child_elements(&self) -> Element {
@@ -64670,8 +64670,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RadioButtonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RadioButtonDuotone;
 
 impl IconShape for RadioButtonDuotone {
     fn child_elements(&self) -> Element {
@@ -64712,8 +64712,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RadioDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RadioDuotone;
 
 impl IconShape for RadioDuotone {
     fn child_elements(&self) -> Element {
@@ -64794,8 +64794,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RadioactiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RadioactiveDuotone;
 
 impl IconShape for RadioactiveDuotone {
     fn child_elements(&self) -> Element {
@@ -64851,8 +64851,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RainbowCloudDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RainbowCloudDuotone;
 
 impl IconShape for RainbowCloudDuotone {
     fn child_elements(&self) -> Element {
@@ -64903,8 +64903,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RainbowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RainbowDuotone;
 
 impl IconShape for RainbowDuotone {
     fn child_elements(&self) -> Element {
@@ -64947,8 +64947,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RankingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RankingDuotone;
 
 impl IconShape for RankingDuotone {
     fn child_elements(&self) -> Element {
@@ -65014,8 +65014,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReadCvLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReadCvLogoDuotone;
 
 impl IconShape for ReadCvLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -65085,8 +65085,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReceiptDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReceiptDuotone;
 
 impl IconShape for ReceiptDuotone {
     fn child_elements(&self) -> Element {
@@ -65135,8 +65135,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReceiptXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReceiptXDuotone;
 
 impl IconShape for ReceiptXDuotone {
     fn child_elements(&self) -> Element {
@@ -65185,8 +65185,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RecordDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RecordDuotone;
 
 impl IconShape for RecordDuotone {
     fn child_elements(&self) -> Element {
@@ -65225,8 +65225,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RectangleDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RectangleDashedDuotone;
 
 impl IconShape for RectangleDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -65325,8 +65325,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RectangleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RectangleDuotone;
 
 impl IconShape for RectangleDuotone {
     fn child_elements(&self) -> Element {
@@ -65361,8 +65361,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RecycleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RecycleDuotone;
 
 impl IconShape for RecycleDuotone {
     fn child_elements(&self) -> Element {
@@ -65429,8 +65429,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RedditLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RedditLogoDuotone;
 
 impl IconShape for RedditLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -65493,8 +65493,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RepeatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RepeatDuotone;
 
 impl IconShape for RepeatDuotone {
     fn child_elements(&self) -> Element {
@@ -65545,8 +65545,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RepeatOnceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RepeatOnceDuotone;
 
 impl IconShape for RepeatOnceDuotone {
     fn child_elements(&self) -> Element {
@@ -65605,8 +65605,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReplitLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReplitLogoDuotone;
 
 impl IconShape for ReplitLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -65641,8 +65641,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ResizeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ResizeDuotone;
 
 impl IconShape for ResizeDuotone {
     fn child_elements(&self) -> Element {
@@ -65721,8 +65721,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RewindCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RewindCircleDuotone;
 
 impl IconShape for RewindCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -65767,8 +65767,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RewindDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RewindDuotone;
 
 impl IconShape for RewindDuotone {
     fn child_elements(&self) -> Element {
@@ -65807,8 +65807,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RoadHorizonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RoadHorizonDuotone;
 
 impl IconShape for RoadHorizonDuotone {
     fn child_elements(&self) -> Element {
@@ -65893,8 +65893,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RobotDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RobotDuotone;
 
 impl IconShape for RobotDuotone {
     fn child_elements(&self) -> Element {
@@ -65980,8 +65980,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RocketDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RocketDuotone;
 
 impl IconShape for RocketDuotone {
     fn child_elements(&self) -> Element {
@@ -66044,8 +66044,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RocketLaunchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RocketLaunchDuotone;
 
 impl IconShape for RocketLaunchDuotone {
     fn child_elements(&self) -> Element {
@@ -66104,8 +66104,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RowsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RowsDuotone;
 
 impl IconShape for RowsDuotone {
     fn child_elements(&self) -> Element {
@@ -66160,8 +66160,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RowsPlusBottomDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RowsPlusBottomDuotone;
 
 impl IconShape for RowsPlusBottomDuotone {
     fn child_elements(&self) -> Element {
@@ -66238,8 +66238,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RowsPlusTopDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RowsPlusTopDuotone;
 
 impl IconShape for RowsPlusTopDuotone {
     fn child_elements(&self) -> Element {
@@ -66316,8 +66316,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RssDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RssDuotone;
 
 impl IconShape for RssDuotone {
     fn child_elements(&self) -> Element {
@@ -66365,8 +66365,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RssSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RssSimpleDuotone;
 
 impl IconShape for RssSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -66406,8 +66406,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RugDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RugDuotone;
 
 impl IconShape for RugDuotone {
     fn child_elements(&self) -> Element {
@@ -66533,8 +66533,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RulerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RulerDuotone;
 
 impl IconShape for RulerDuotone {
     fn child_elements(&self) -> Element {
@@ -66604,8 +66604,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SailboatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SailboatDuotone;
 
 impl IconShape for SailboatDuotone {
     fn child_elements(&self) -> Element {
@@ -66652,8 +66652,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScalesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScalesDuotone;
 
 impl IconShape for ScalesDuotone {
     fn child_elements(&self) -> Element {
@@ -66725,8 +66725,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScanDuotone;
 
 impl IconShape for ScanDuotone {
     fn child_elements(&self) -> Element {
@@ -66791,8 +66791,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScanSmileyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScanSmileyDuotone;
 
 impl IconShape for ScanSmileyDuotone {
     fn child_elements(&self) -> Element {
@@ -66873,8 +66873,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScissorsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScissorsDuotone;
 
 impl IconShape for ScissorsDuotone {
     fn child_elements(&self) -> Element {
@@ -66954,8 +66954,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScooterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScooterDuotone;
 
 impl IconShape for ScooterDuotone {
     fn child_elements(&self) -> Element {
@@ -67018,8 +67018,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScreencastDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScreencastDuotone;
 
 impl IconShape for ScreencastDuotone {
     fn child_elements(&self) -> Element {
@@ -67070,8 +67070,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScrewdriverDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScrewdriverDuotone;
 
 impl IconShape for ScrewdriverDuotone {
     fn child_elements(&self) -> Element {
@@ -67122,8 +67122,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScribbleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScribbleDuotone;
 
 impl IconShape for ScribbleDuotone {
     fn child_elements(&self) -> Element {
@@ -67150,8 +67150,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScribbleLoopDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScribbleLoopDuotone;
 
 impl IconShape for ScribbleLoopDuotone {
     fn child_elements(&self) -> Element {
@@ -67178,8 +67178,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ScrollDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ScrollDuotone;
 
 impl IconShape for ScrollDuotone {
     fn child_elements(&self) -> Element {
@@ -67236,8 +67236,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SealCheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SealCheckDuotone;
 
 impl IconShape for SealCheckDuotone {
     fn child_elements(&self) -> Element {
@@ -67272,8 +67272,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SealDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SealDuotone;
 
 impl IconShape for SealDuotone {
     fn child_elements(&self) -> Element {
@@ -67300,8 +67300,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SealPercentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SealPercentDuotone;
 
 impl IconShape for SealPercentDuotone {
     fn child_elements(&self) -> Element {
@@ -67359,8 +67359,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SealQuestionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SealQuestionDuotone;
 
 impl IconShape for SealQuestionDuotone {
     fn child_elements(&self) -> Element {
@@ -67400,8 +67400,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SealWarningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SealWarningDuotone;
 
 impl IconShape for SealWarningDuotone {
     fn child_elements(&self) -> Element {
@@ -67444,8 +67444,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SeatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SeatDuotone;
 
 impl IconShape for SeatDuotone {
     fn child_elements(&self) -> Element {
@@ -67483,8 +67483,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SeatbeltDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SeatbeltDuotone;
 
 impl IconShape for SeatbeltDuotone {
     fn child_elements(&self) -> Element {
@@ -67543,8 +67543,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SecurityCameraDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SecurityCameraDuotone;
 
 impl IconShape for SecurityCameraDuotone {
     fn child_elements(&self) -> Element {
@@ -67601,8 +67601,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionAllDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionAllDuotone;
 
 impl IconShape for SelectionAllDuotone {
     fn child_elements(&self) -> Element {
@@ -67711,8 +67711,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionBackgroundDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionBackgroundDuotone;
 
 impl IconShape for SelectionBackgroundDuotone {
     fn child_elements(&self) -> Element {
@@ -67789,8 +67789,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionDuotone;
 
 impl IconShape for SelectionDuotone {
     fn child_elements(&self) -> Element {
@@ -67888,8 +67888,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionForegroundDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionForegroundDuotone;
 
 impl IconShape for SelectionForegroundDuotone {
     fn child_elements(&self) -> Element {
@@ -67996,8 +67996,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionInverseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionInverseDuotone;
 
 impl IconShape for SelectionInverseDuotone {
     fn child_elements(&self) -> Element {
@@ -68065,8 +68065,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionPlusDuotone;
 
 impl IconShape for SelectionPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -68178,8 +68178,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SelectionSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SelectionSlashDuotone;
 
 impl IconShape for SelectionSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -68272,8 +68272,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShapesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShapesDuotone;
 
 impl IconShape for ShapesDuotone {
     fn child_elements(&self) -> Element {
@@ -68334,8 +68334,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShareDuotone;
 
 impl IconShape for ShareDuotone {
     fn child_elements(&self) -> Element {
@@ -68378,8 +68378,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShareFatDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShareFatDuotone;
 
 impl IconShape for ShareFatDuotone {
     fn child_elements(&self) -> Element {
@@ -68406,8 +68406,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShareNetworkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShareNetworkDuotone;
 
 impl IconShape for ShareNetworkDuotone {
     fn child_elements(&self) -> Element {
@@ -68486,8 +68486,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldCheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldCheckDuotone;
 
 impl IconShape for ShieldCheckDuotone {
     fn child_elements(&self) -> Element {
@@ -68522,8 +68522,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldCheckeredDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldCheckeredDuotone;
 
 impl IconShape for ShieldCheckeredDuotone {
     fn child_elements(&self) -> Element {
@@ -68576,8 +68576,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldChevronDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldChevronDuotone;
 
 impl IconShape for ShieldChevronDuotone {
     fn child_elements(&self) -> Element {
@@ -68612,8 +68612,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldDuotone;
 
 impl IconShape for ShieldDuotone {
     fn child_elements(&self) -> Element {
@@ -68640,8 +68640,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldPlusDuotone;
 
 impl IconShape for ShieldPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -68690,8 +68690,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldSlashDuotone;
 
 impl IconShape for ShieldSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -68737,8 +68737,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldStarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldStarDuotone;
 
 impl IconShape for ShieldStarDuotone {
     fn child_elements(&self) -> Element {
@@ -68820,8 +68820,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShieldWarningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShieldWarningDuotone;
 
 impl IconShape for ShieldWarningDuotone {
     fn child_elements(&self) -> Element {
@@ -68864,8 +68864,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShippingContainerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShippingContainerDuotone;
 
 impl IconShape for ShippingContainerDuotone {
     fn child_elements(&self) -> Element {
@@ -68925,8 +68925,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShirtFoldedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShirtFoldedDuotone;
 
 impl IconShape for ShirtFoldedDuotone {
     fn child_elements(&self) -> Element {
@@ -68995,8 +68995,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShootingStarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShootingStarDuotone;
 
 impl IconShape for ShootingStarDuotone {
     fn child_elements(&self) -> Element {
@@ -69056,8 +69056,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShoppingBagDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShoppingBagDuotone;
 
 impl IconShape for ShoppingBagDuotone {
     fn child_elements(&self) -> Element {
@@ -69100,8 +69100,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShoppingBagOpenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShoppingBagOpenDuotone;
 
 impl IconShape for ShoppingBagOpenDuotone {
     fn child_elements(&self) -> Element {
@@ -69151,8 +69151,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShoppingCartDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShoppingCartDuotone;
 
 impl IconShape for ShoppingCartDuotone {
     fn child_elements(&self) -> Element {
@@ -69207,8 +69207,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShoppingCartSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShoppingCartSimpleDuotone;
 
 impl IconShape for ShoppingCartSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -69245,8 +69245,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShovelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShovelDuotone;
 
 impl IconShape for ShovelDuotone {
     fn child_elements(&self) -> Element {
@@ -69295,8 +69295,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShowerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShowerDuotone;
 
 impl IconShape for ShowerDuotone {
     fn child_elements(&self) -> Element {
@@ -69343,8 +69343,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShrimpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShrimpDuotone;
 
 impl IconShape for ShrimpDuotone {
     fn child_elements(&self) -> Element {
@@ -69428,8 +69428,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShuffleAngularDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShuffleAngularDuotone;
 
 impl IconShape for ShuffleAngularDuotone {
     fn child_elements(&self) -> Element {
@@ -69488,8 +69488,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShuffleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShuffleDuotone;
 
 impl IconShape for ShuffleDuotone {
     fn child_elements(&self) -> Element {
@@ -69548,8 +69548,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShuffleSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShuffleSimpleDuotone;
 
 impl IconShape for ShuffleSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -69617,8 +69617,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SidebarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SidebarDuotone;
 
 impl IconShape for SidebarDuotone {
     fn child_elements(&self) -> Element {
@@ -69693,8 +69693,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SidebarSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SidebarSimpleDuotone;
 
 impl IconShape for SidebarSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -69736,8 +69736,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SigmaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SigmaDuotone;
 
 impl IconShape for SigmaDuotone {
     fn child_elements(&self) -> Element {
@@ -69764,8 +69764,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SignInDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SignInDuotone;
 
 impl IconShape for SignInDuotone {
     fn child_elements(&self) -> Element {
@@ -69811,8 +69811,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SignOutDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SignOutDuotone;
 
 impl IconShape for SignOutDuotone {
     fn child_elements(&self) -> Element {
@@ -69858,8 +69858,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SignatureDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SignatureDuotone;
 
 impl IconShape for SignatureDuotone {
     fn child_elements(&self) -> Element {
@@ -69901,8 +69901,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SignpostDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SignpostDuotone;
 
 impl IconShape for SignpostDuotone {
     fn child_elements(&self) -> Element {
@@ -69951,8 +69951,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SimCardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SimCardDuotone;
 
 impl IconShape for SimCardDuotone {
     fn child_elements(&self) -> Element {
@@ -70015,8 +70015,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SirenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SirenDuotone;
 
 impl IconShape for SirenDuotone {
     fn child_elements(&self) -> Element {
@@ -70096,8 +70096,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SketchLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SketchLogoDuotone;
 
 impl IconShape for SketchLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -70143,8 +70143,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkipBackCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkipBackCircleDuotone;
 
 impl IconShape for SkipBackCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -70190,8 +70190,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkipBackDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkipBackDuotone;
 
 impl IconShape for SkipBackDuotone {
     fn child_elements(&self) -> Element {
@@ -70229,8 +70229,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkipForwardCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkipForwardCircleDuotone;
 
 impl IconShape for SkipForwardCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -70276,8 +70276,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkipForwardDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkipForwardDuotone;
 
 impl IconShape for SkipForwardDuotone {
     fn child_elements(&self) -> Element {
@@ -70315,8 +70315,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkullDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkullDuotone;
 
 impl IconShape for SkullDuotone {
     fn child_elements(&self) -> Element {
@@ -70385,8 +70385,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SkypeLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SkypeLogoDuotone;
 
 impl IconShape for SkypeLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -70421,8 +70421,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlackLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlackLogoDuotone;
 
 impl IconShape for SlackLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -70522,8 +70522,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlidersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlidersDuotone;
 
 impl IconShape for SlidersDuotone {
     fn child_elements(&self) -> Element {
@@ -70652,8 +70652,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlidersHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlidersHorizontalDuotone;
 
 impl IconShape for SlidersHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -70744,8 +70744,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlideshowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlideshowDuotone;
 
 impl IconShape for SlideshowDuotone {
     fn child_elements(&self) -> Element {
@@ -70802,8 +70802,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyAngryDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyAngryDuotone;
 
 impl IconShape for SmileyAngryDuotone {
     fn child_elements(&self) -> Element {
@@ -70860,8 +70860,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyBlankDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyBlankDuotone;
 
 impl IconShape for SmileyBlankDuotone {
     fn child_elements(&self) -> Element {
@@ -70901,8 +70901,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyDuotone;
 
 impl IconShape for SmileyDuotone {
     fn child_elements(&self) -> Element {
@@ -70951,8 +70951,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyMehDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyMehDuotone;
 
 impl IconShape for SmileyMehDuotone {
     fn child_elements(&self) -> Element {
@@ -71003,8 +71003,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyMeltingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyMeltingDuotone;
 
 impl IconShape for SmileyMeltingDuotone {
     fn child_elements(&self) -> Element {
@@ -71049,8 +71049,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyNervousDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyNervousDuotone;
 
 impl IconShape for SmileyNervousDuotone {
     fn child_elements(&self) -> Element {
@@ -71098,8 +71098,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileySadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileySadDuotone;
 
 impl IconShape for SmileySadDuotone {
     fn child_elements(&self) -> Element {
@@ -71147,8 +71147,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyStickerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyStickerDuotone;
 
 impl IconShape for SmileyStickerDuotone {
     fn child_elements(&self) -> Element {
@@ -71193,8 +71193,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyWinkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyWinkDuotone;
 
 impl IconShape for SmileyWinkDuotone {
     fn child_elements(&self) -> Element {
@@ -71249,8 +71249,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SmileyXEyesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SmileyXEyesDuotone;
 
 impl IconShape for SmileyXEyesDuotone {
     fn child_elements(&self) -> Element {
@@ -71329,8 +71329,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SnapchatLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SnapchatLogoDuotone;
 
 impl IconShape for SnapchatLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -71379,8 +71379,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SneakerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SneakerDuotone;
 
 impl IconShape for SneakerDuotone {
     fn child_elements(&self) -> Element {
@@ -71451,8 +71451,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SneakerMoveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SneakerMoveDuotone;
 
 impl IconShape for SneakerMoveDuotone {
     fn child_elements(&self) -> Element {
@@ -71509,8 +71509,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SnowflakeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SnowflakeDuotone;
 
 impl IconShape for SnowflakeDuotone {
     fn child_elements(&self) -> Element {
@@ -71610,8 +71610,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SoccerBallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SoccerBallDuotone;
 
 impl IconShape for SoccerBallDuotone {
     fn child_elements(&self) -> Element {
@@ -71763,8 +71763,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SockDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SockDuotone;
 
 impl IconShape for SockDuotone {
     fn child_elements(&self) -> Element {
@@ -71814,8 +71814,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SolarPanelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SolarPanelDuotone;
 
 impl IconShape for SolarPanelDuotone {
     fn child_elements(&self) -> Element {
@@ -71938,8 +71938,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SolarRoofDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SolarRoofDuotone;
 
 impl IconShape for SolarRoofDuotone {
     fn child_elements(&self) -> Element {
@@ -72018,8 +72018,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SortAscendingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SortAscendingDuotone;
 
 impl IconShape for SortAscendingDuotone {
     fn child_elements(&self) -> Element {
@@ -72087,8 +72087,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SortDescendingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SortDescendingDuotone;
 
 impl IconShape for SortDescendingDuotone {
     fn child_elements(&self) -> Element {
@@ -72156,8 +72156,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SoundcloudLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SoundcloudLogoDuotone;
 
 impl IconShape for SoundcloudLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -72228,8 +72228,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpadeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpadeDuotone;
 
 impl IconShape for SpadeDuotone {
     fn child_elements(&self) -> Element {
@@ -72256,8 +72256,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SparkleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SparkleDuotone;
 
 impl IconShape for SparkleDuotone {
     fn child_elements(&self) -> Element {
@@ -72328,8 +72328,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerHifiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerHifiDuotone;
 
 impl IconShape for SpeakerHifiDuotone {
     fn child_elements(&self) -> Element {
@@ -72376,8 +72376,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerHighDuotone;
 
 impl IconShape for SpeakerHighDuotone {
     fn child_elements(&self) -> Element {
@@ -72431,8 +72431,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerLowDuotone;
 
 impl IconShape for SpeakerLowDuotone {
     fn child_elements(&self) -> Element {
@@ -72478,8 +72478,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerNoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerNoneDuotone;
 
 impl IconShape for SpeakerNoneDuotone {
     fn child_elements(&self) -> Element {
@@ -72517,8 +72517,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerSimpleHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerSimpleHighDuotone;
 
 impl IconShape for SpeakerSimpleHighDuotone {
     fn child_elements(&self) -> Element {
@@ -72567,8 +72567,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerSimpleLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerSimpleLowDuotone;
 
 impl IconShape for SpeakerSimpleLowDuotone {
     fn child_elements(&self) -> Element {
@@ -72606,8 +72606,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerSimpleNoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerSimpleNoneDuotone;
 
 impl IconShape for SpeakerSimpleNoneDuotone {
     fn child_elements(&self) -> Element {
@@ -72634,8 +72634,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerSimpleSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerSimpleSlashDuotone;
 
 impl IconShape for SpeakerSimpleSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -72703,8 +72703,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerSimpleXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerSimpleXDuotone;
 
 impl IconShape for SpeakerSimpleXDuotone {
     fn child_elements(&self) -> Element {
@@ -72753,8 +72753,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerSlashDuotone;
 
 impl IconShape for SpeakerSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -72827,8 +72827,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeakerXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeakerXDuotone;
 
 impl IconShape for SpeakerXDuotone {
     fn child_elements(&self) -> Element {
@@ -72888,8 +72888,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpeedometerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpeedometerDuotone;
 
 impl IconShape for SpeedometerDuotone {
     fn child_elements(&self) -> Element {
@@ -72935,8 +72935,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SphereDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SphereDuotone;
 
 impl IconShape for SphereDuotone {
     fn child_elements(&self) -> Element {
@@ -72983,8 +72983,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpinnerBallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpinnerBallDuotone;
 
 impl IconShape for SpinnerBallDuotone {
     fn child_elements(&self) -> Element {
@@ -73045,8 +73045,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpinnerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpinnerDuotone;
 
 impl IconShape for SpinnerDuotone {
     fn child_elements(&self) -> Element {
@@ -73155,8 +73155,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpinnerGapDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpinnerGapDuotone;
 
 impl IconShape for SpinnerGapDuotone {
     fn child_elements(&self) -> Element {
@@ -73254,8 +73254,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpiralDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpiralDuotone;
 
 impl IconShape for SpiralDuotone {
     fn child_elements(&self) -> Element {
@@ -73282,8 +73282,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SplitHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SplitHorizontalDuotone;
 
 impl IconShape for SplitHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -73366,8 +73366,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SplitVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SplitVerticalDuotone;
 
 impl IconShape for SplitVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -73450,8 +73450,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SpotifyLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SpotifyLogoDuotone;
 
 impl IconShape for SpotifyLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -73506,8 +73506,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SprayBottleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SprayBottleDuotone;
 
 impl IconShape for SprayBottleDuotone {
     fn child_elements(&self) -> Element {
@@ -73542,8 +73542,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquareDuotone;
 
 impl IconShape for SquareDuotone {
     fn child_elements(&self) -> Element {
@@ -73578,8 +73578,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquareHalfBottomDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquareHalfBottomDuotone;
 
 impl IconShape for SquareHalfBottomDuotone {
     fn child_elements(&self) -> Element {
@@ -73621,8 +73621,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquareHalfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquareHalfDuotone;
 
 impl IconShape for SquareHalfDuotone {
     fn child_elements(&self) -> Element {
@@ -73664,8 +73664,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquareLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquareLogoDuotone;
 
 impl IconShape for SquareLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -73710,8 +73710,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquareSplitHorizontalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquareSplitHorizontalDuotone;
 
 impl IconShape for SquareSplitHorizontalDuotone {
     fn child_elements(&self) -> Element {
@@ -73757,8 +73757,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquareSplitVerticalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquareSplitVerticalDuotone;
 
 impl IconShape for SquareSplitVerticalDuotone {
     fn child_elements(&self) -> Element {
@@ -73804,8 +73804,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SquaresFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SquaresFourDuotone;
 
 impl IconShape for SquaresFourDuotone {
     fn child_elements(&self) -> Element {
@@ -73900,8 +73900,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackDuotone;
 
 impl IconShape for StackDuotone {
     fn child_elements(&self) -> Element {
@@ -73944,8 +73944,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackMinusDuotone;
 
 impl IconShape for StackMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -73999,8 +73999,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackOverflowLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackOverflowLogoDuotone;
 
 impl IconShape for StackOverflowLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -74074,8 +74074,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackPlusDuotone;
 
 impl IconShape for StackPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -74140,8 +74140,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackSimpleDuotone;
 
 impl IconShape for StackSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -74176,8 +74176,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StairsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StairsDuotone;
 
 impl IconShape for StairsDuotone {
     fn child_elements(&self) -> Element {
@@ -74238,8 +74238,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StampDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StampDuotone;
 
 impl IconShape for StampDuotone {
     fn child_elements(&self) -> Element {
@@ -74289,8 +74289,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StandardDefinitionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StandardDefinitionDuotone;
 
 impl IconShape for StandardDefinitionDuotone {
     fn child_elements(&self) -> Element {
@@ -74350,8 +74350,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StarAndCrescentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StarAndCrescentDuotone;
 
 impl IconShape for StarAndCrescentDuotone {
     fn child_elements(&self) -> Element {
@@ -74390,8 +74390,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StarDuotone;
 
 impl IconShape for StarDuotone {
     fn child_elements(&self) -> Element {
@@ -74418,8 +74418,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StarFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StarFourDuotone;
 
 impl IconShape for StarFourDuotone {
     fn child_elements(&self) -> Element {
@@ -74448,8 +74448,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StarHalfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StarHalfDuotone;
 
 impl IconShape for StarHalfDuotone {
     fn child_elements(&self) -> Element {
@@ -74487,8 +74487,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StarOfDavidDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StarOfDavidDuotone;
 
 impl IconShape for StarOfDavidDuotone {
     fn child_elements(&self) -> Element {
@@ -74523,8 +74523,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SteamLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SteamLogoDuotone;
 
 impl IconShape for SteamLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -74606,8 +74606,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SteeringWheelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SteeringWheelDuotone;
 
 impl IconShape for SteeringWheelDuotone {
     fn child_elements(&self) -> Element {
@@ -74665,8 +74665,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StepsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StepsDuotone;
 
 impl IconShape for StepsDuotone {
     fn child_elements(&self) -> Element {
@@ -74693,8 +74693,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StethoscopeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StethoscopeDuotone;
 
 impl IconShape for StethoscopeDuotone {
     fn child_elements(&self) -> Element {
@@ -74746,8 +74746,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StickerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StickerDuotone;
 
 impl IconShape for StickerDuotone {
     fn child_elements(&self) -> Element {
@@ -74782,8 +74782,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StoolDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StoolDuotone;
 
 impl IconShape for StoolDuotone {
     fn child_elements(&self) -> Element {
@@ -74851,8 +74851,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StopCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StopCircleDuotone;
 
 impl IconShape for StopCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -74891,8 +74891,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StopDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StopDuotone;
 
 impl IconShape for StopDuotone {
     fn child_elements(&self) -> Element {
@@ -74927,8 +74927,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StorefrontDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StorefrontDuotone;
 
 impl IconShape for StorefrontDuotone {
     fn child_elements(&self) -> Element {
@@ -74995,8 +74995,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StrategyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StrategyDuotone;
 
 impl IconShape for StrategyDuotone {
     fn child_elements(&self) -> Element {
@@ -75087,8 +75087,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StripeLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StripeLogoDuotone;
 
 impl IconShape for StripeLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -75131,8 +75131,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StudentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StudentDuotone;
 
 impl IconShape for StudentDuotone {
     fn child_elements(&self) -> Element {
@@ -75186,8 +75186,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubsetOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubsetOfDuotone;
 
 impl IconShape for SubsetOfDuotone {
     fn child_elements(&self) -> Element {
@@ -75225,8 +75225,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubsetProperOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubsetProperOfDuotone;
 
 impl IconShape for SubsetProperOfDuotone {
     fn child_elements(&self) -> Element {
@@ -75253,8 +75253,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubtitlesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubtitlesDuotone;
 
 impl IconShape for SubtitlesDuotone {
     fn child_elements(&self) -> Element {
@@ -75333,8 +75333,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubtitlesSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubtitlesSlashDuotone;
 
 impl IconShape for SubtitlesSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -75428,8 +75428,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubtractDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubtractDuotone;
 
 impl IconShape for SubtractDuotone {
     fn child_elements(&self) -> Element {
@@ -75466,8 +75466,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubtractSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubtractSquareDuotone;
 
 impl IconShape for SubtractSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -75505,8 +75505,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SubwayDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SubwayDuotone;
 
 impl IconShape for SubwayDuotone {
     fn child_elements(&self) -> Element {
@@ -75600,8 +75600,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SuitcaseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SuitcaseDuotone;
 
 impl IconShape for SuitcaseDuotone {
     fn child_elements(&self) -> Element {
@@ -75644,8 +75644,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SuitcaseRollingDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SuitcaseRollingDuotone;
 
 impl IconShape for SuitcaseRollingDuotone {
     fn child_elements(&self) -> Element {
@@ -75743,8 +75743,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SuitcaseSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SuitcaseSimpleDuotone;
 
 impl IconShape for SuitcaseSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -75794,8 +75794,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SunDimDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SunDimDuotone;
 
 impl IconShape for SunDimDuotone {
     fn child_elements(&self) -> Element {
@@ -75914,8 +75914,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SunDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SunDuotone;
 
 impl IconShape for SunDuotone {
     fn child_elements(&self) -> Element {
@@ -76034,8 +76034,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SunHorizonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SunHorizonDuotone;
 
 impl IconShape for SunHorizonDuotone {
     fn child_elements(&self) -> Element {
@@ -76128,8 +76128,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SunglassesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SunglassesDuotone;
 
 impl IconShape for SunglassesDuotone {
     fn child_elements(&self) -> Element {
@@ -76198,8 +76198,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SupersetOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SupersetOfDuotone;
 
 impl IconShape for SupersetOfDuotone {
     fn child_elements(&self) -> Element {
@@ -76237,8 +76237,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SupersetProperOfDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SupersetProperOfDuotone;
 
 impl IconShape for SupersetProperOfDuotone {
     fn child_elements(&self) -> Element {
@@ -76265,8 +76265,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SwapDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SwapDuotone;
 
 impl IconShape for SwapDuotone {
     fn child_elements(&self) -> Element {
@@ -76317,8 +76317,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SwatchesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SwatchesDuotone;
 
 impl IconShape for SwatchesDuotone {
     fn child_elements(&self) -> Element {
@@ -76366,8 +76366,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SwimmingPoolDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SwimmingPoolDuotone;
 
 impl IconShape for SwimmingPoolDuotone {
     fn child_elements(&self) -> Element {
@@ -76457,8 +76457,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SwordDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SwordDuotone;
 
 impl IconShape for SwordDuotone {
     fn child_elements(&self) -> Element {
@@ -76517,8 +76517,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SynagogueDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SynagogueDuotone;
 
 impl IconShape for SynagogueDuotone {
     fn child_elements(&self) -> Element {
@@ -76632,8 +76632,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SyringeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SyringeDuotone;
 
 impl IconShape for SyringeDuotone {
     fn child_elements(&self) -> Element {
@@ -76726,8 +76726,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TShirtDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TShirtDuotone;
 
 impl IconShape for TShirtDuotone {
     fn child_elements(&self) -> Element {
@@ -76774,8 +76774,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TableDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TableDuotone;
 
 impl IconShape for TableDuotone {
     fn child_elements(&self) -> Element {
@@ -76838,8 +76838,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TabsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TabsDuotone;
 
 impl IconShape for TabsDuotone {
     fn child_elements(&self) -> Element {
@@ -76893,8 +76893,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TagChevronDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TagChevronDuotone;
 
 impl IconShape for TagChevronDuotone {
     fn child_elements(&self) -> Element {
@@ -76921,8 +76921,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TagDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TagDuotone;
 
 impl IconShape for TagDuotone {
     fn child_elements(&self) -> Element {
@@ -76954,8 +76954,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TagSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TagSimpleDuotone;
 
 impl IconShape for TagSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -76982,8 +76982,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TargetDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TargetDuotone;
 
 impl IconShape for TargetDuotone {
     fn child_elements(&self) -> Element {
@@ -77031,8 +77031,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TaxiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TaxiDuotone;
 
 impl IconShape for TaxiDuotone {
     fn child_elements(&self) -> Element {
@@ -77124,8 +77124,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TeaBagDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TeaBagDuotone;
 
 impl IconShape for TeaBagDuotone {
     fn child_elements(&self) -> Element {
@@ -77160,8 +77160,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TelegramLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TelegramLogoDuotone;
 
 impl IconShape for TelegramLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -77211,8 +77211,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TelevisionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TelevisionDuotone;
 
 impl IconShape for TelevisionDuotone {
     fn child_elements(&self) -> Element {
@@ -77272,8 +77272,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TelevisionSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TelevisionSimpleDuotone;
 
 impl IconShape for TelevisionSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -77316,8 +77316,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TennisBallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TennisBallDuotone;
 
 impl IconShape for TennisBallDuotone {
     fn child_elements(&self) -> Element {
@@ -77366,8 +77366,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TentDuotone;
 
 impl IconShape for TentDuotone {
     fn child_elements(&self) -> Element {
@@ -77402,8 +77402,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TerminalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TerminalDuotone;
 
 impl IconShape for TerminalDuotone {
     fn child_elements(&self) -> Element {
@@ -77441,8 +77441,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TerminalWindowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TerminalWindowDuotone;
 
 impl IconShape for TerminalWindowDuotone {
     fn child_elements(&self) -> Element {
@@ -77496,8 +77496,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TestTubeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TestTubeDuotone;
 
 impl IconShape for TestTubeDuotone {
     fn child_elements(&self) -> Element {
@@ -77532,8 +77532,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextAUnderlineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextAUnderlineDuotone;
 
 impl IconShape for TextAUnderlineDuotone {
     fn child_elements(&self) -> Element {
@@ -77582,8 +77582,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextAaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextAaDuotone;
 
 impl IconShape for TextAaDuotone {
     fn child_elements(&self) -> Element {
@@ -77647,8 +77647,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextAlignCenterDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextAlignCenterDuotone;
 
 impl IconShape for TextAlignCenterDuotone {
     fn child_elements(&self) -> Element {
@@ -77711,8 +77711,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextAlignJustifyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextAlignJustifyDuotone;
 
 impl IconShape for TextAlignJustifyDuotone {
     fn child_elements(&self) -> Element {
@@ -77778,8 +77778,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextAlignLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextAlignLeftDuotone;
 
 impl IconShape for TextAlignLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -77842,8 +77842,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextAlignRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextAlignRightDuotone;
 
 impl IconShape for TextAlignRightDuotone {
     fn child_elements(&self) -> Element {
@@ -77906,8 +77906,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextBDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextBDuotone;
 
 impl IconShape for TextBDuotone {
     fn child_elements(&self) -> Element {
@@ -77934,8 +77934,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextColumnsDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextColumnsDuotone;
 
 impl IconShape for TextColumnsDuotone {
     fn child_elements(&self) -> Element {
@@ -78045,8 +78045,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHDuotone;
 
 impl IconShape for TextHDuotone {
     fn child_elements(&self) -> Element {
@@ -78101,8 +78101,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHFiveDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHFiveDuotone;
 
 impl IconShape for TextHFiveDuotone {
     fn child_elements(&self) -> Element {
@@ -78162,8 +78162,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHFourDuotone;
 
 impl IconShape for TextHFourDuotone {
     fn child_elements(&self) -> Element {
@@ -78223,8 +78223,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHOneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHOneDuotone;
 
 impl IconShape for TextHOneDuotone {
     fn child_elements(&self) -> Element {
@@ -78284,8 +78284,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHSixDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHSixDuotone;
 
 impl IconShape for TextHSixDuotone {
     fn child_elements(&self) -> Element {
@@ -78358,8 +78358,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHThreeDuotone;
 
 impl IconShape for TextHThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -78419,8 +78419,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextHTwoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextHTwoDuotone;
 
 impl IconShape for TextHTwoDuotone {
     fn child_elements(&self) -> Element {
@@ -78480,8 +78480,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextIndentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextIndentDuotone;
 
 impl IconShape for TextIndentDuotone {
     fn child_elements(&self) -> Element {
@@ -78544,8 +78544,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextItalicDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextItalicDuotone;
 
 impl IconShape for TextItalicDuotone {
     fn child_elements(&self) -> Element {
@@ -78597,8 +78597,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextOutdentDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextOutdentDuotone;
 
 impl IconShape for TextOutdentDuotone {
     fn child_elements(&self) -> Element {
@@ -78658,8 +78658,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextStrikethroughDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextStrikethroughDuotone;
 
 impl IconShape for TextStrikethroughDuotone {
     fn child_elements(&self) -> Element {
@@ -78705,8 +78705,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextSubscriptDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextSubscriptDuotone;
 
 impl IconShape for TextSubscriptDuotone {
     fn child_elements(&self) -> Element {
@@ -78755,8 +78755,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextSuperscriptDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextSuperscriptDuotone;
 
 impl IconShape for TextSuperscriptDuotone {
     fn child_elements(&self) -> Element {
@@ -78805,8 +78805,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextTDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextTDuotone;
 
 impl IconShape for TextTDuotone {
     fn child_elements(&self) -> Element {
@@ -78855,8 +78855,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextTSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextTSlashDuotone;
 
 impl IconShape for TextTSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -78935,8 +78935,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextUnderlineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextUnderlineDuotone;
 
 impl IconShape for TextUnderlineDuotone {
     fn child_elements(&self) -> Element {
@@ -78974,8 +78974,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TextboxDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TextboxDuotone;
 
 impl IconShape for TextboxDuotone {
     fn child_elements(&self) -> Element {
@@ -79047,8 +79047,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThermometerColdDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThermometerColdDuotone;
 
 impl IconShape for ThermometerColdDuotone {
     fn child_elements(&self) -> Element {
@@ -79151,8 +79151,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThermometerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThermometerDuotone;
 
 impl IconShape for ThermometerDuotone {
     fn child_elements(&self) -> Element {
@@ -79210,8 +79210,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThermometerHotDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThermometerHotDuotone;
 
 impl IconShape for ThermometerHotDuotone {
     fn child_elements(&self) -> Element {
@@ -79275,8 +79275,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThermometerSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThermometerSimpleDuotone;
 
 impl IconShape for ThermometerSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -79324,8 +79324,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThreadsLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThreadsLogoDuotone;
 
 impl IconShape for ThreadsLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -79355,8 +79355,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThreeDDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThreeDDuotone;
 
 impl IconShape for ThreeDDuotone {
     fn child_elements(&self) -> Element {
@@ -79416,8 +79416,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThumbsDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThumbsDownDuotone;
 
 impl IconShape for ThumbsDownDuotone {
     fn child_elements(&self) -> Element {
@@ -79452,8 +79452,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ThumbsUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ThumbsUpDuotone;
 
 impl IconShape for ThumbsUpDuotone {
     fn child_elements(&self) -> Element {
@@ -79488,8 +79488,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TicketDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TicketDuotone;
 
 impl IconShape for TicketDuotone {
     fn child_elements(&self) -> Element {
@@ -79527,8 +79527,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TidalLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TidalLogoDuotone;
 
 impl IconShape for TidalLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -79623,8 +79623,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TiktokLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TiktokLogoDuotone;
 
 impl IconShape for TiktokLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -79651,8 +79651,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TildeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TildeDuotone;
 
 impl IconShape for TildeDuotone {
     fn child_elements(&self) -> Element {
@@ -79683,8 +79683,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TimerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TimerDuotone;
 
 impl IconShape for TimerDuotone {
     fn child_elements(&self) -> Element {
@@ -79737,8 +79737,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TipJarDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TipJarDuotone;
 
 impl IconShape for TipJarDuotone {
     fn child_elements(&self) -> Element {
@@ -79833,8 +79833,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TipiDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TipiDuotone;
 
 impl IconShape for TipiDuotone {
     fn child_elements(&self) -> Element {
@@ -79869,8 +79869,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TireDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TireDuotone;
 
 impl IconShape for TireDuotone {
     fn child_elements(&self) -> Element {
@@ -79942,8 +79942,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToggleLeftDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToggleLeftDuotone;
 
 impl IconShape for ToggleLeftDuotone {
     fn child_elements(&self) -> Element {
@@ -79986,8 +79986,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToggleRightDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToggleRightDuotone;
 
 impl IconShape for ToggleRightDuotone {
     fn child_elements(&self) -> Element {
@@ -80030,8 +80030,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToiletDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToiletDuotone;
 
 impl IconShape for ToiletDuotone {
     fn child_elements(&self) -> Element {
@@ -80089,8 +80089,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToiletPaperDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToiletPaperDuotone;
 
 impl IconShape for ToiletPaperDuotone {
     fn child_elements(&self) -> Element {
@@ -80169,8 +80169,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToolboxDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToolboxDuotone;
 
 impl IconShape for ToolboxDuotone {
     fn child_elements(&self) -> Element {
@@ -80242,8 +80242,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToothDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToothDuotone;
 
 impl IconShape for ToothDuotone {
     fn child_elements(&self) -> Element {
@@ -80292,8 +80292,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TornadoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TornadoDuotone;
 
 impl IconShape for TornadoDuotone {
     fn child_elements(&self) -> Element {
@@ -80393,8 +80393,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToteDuotone;
 
 impl IconShape for ToteDuotone {
     fn child_elements(&self) -> Element {
@@ -80429,8 +80429,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ToteSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ToteSimpleDuotone;
 
 impl IconShape for ToteSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -80465,8 +80465,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TowelDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TowelDuotone;
 
 impl IconShape for TowelDuotone {
     fn child_elements(&self) -> Element {
@@ -80504,8 +80504,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TractorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TractorDuotone;
 
 impl IconShape for TractorDuotone {
     fn child_elements(&self) -> Element {
@@ -80617,8 +80617,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrademarkDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrademarkDuotone;
 
 impl IconShape for TrademarkDuotone {
     fn child_elements(&self) -> Element {
@@ -80679,8 +80679,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrademarkRegisteredDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrademarkRegisteredDuotone;
 
 impl IconShape for TrademarkRegisteredDuotone {
     fn child_elements(&self) -> Element {
@@ -80730,8 +80730,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrafficConeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrafficConeDuotone;
 
 impl IconShape for TrafficConeDuotone {
     fn child_elements(&self) -> Element {
@@ -80791,8 +80791,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrafficSignDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrafficSignDuotone;
 
 impl IconShape for TrafficSignDuotone {
     fn child_elements(&self) -> Element {
@@ -80845,8 +80845,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrafficSignalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrafficSignalDuotone;
 
 impl IconShape for TrafficSignalDuotone {
     fn child_elements(&self) -> Element {
@@ -80941,8 +80941,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrainDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrainDuotone;
 
 impl IconShape for TrainDuotone {
     fn child_elements(&self) -> Element {
@@ -81041,8 +81041,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrainRegionalDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrainRegionalDuotone;
 
 impl IconShape for TrainRegionalDuotone {
     fn child_elements(&self) -> Element {
@@ -81121,8 +81121,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrainSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrainSimpleDuotone;
 
 impl IconShape for TrainSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -81196,8 +81196,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TramDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TramDuotone;
 
 impl IconShape for TramDuotone {
     fn child_elements(&self) -> Element {
@@ -81293,8 +81293,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TranslateDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TranslateDuotone;
 
 impl IconShape for TranslateDuotone {
     fn child_elements(&self) -> Element {
@@ -81374,8 +81374,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrashDuotone;
 
 impl IconShape for TrashDuotone {
     fn child_elements(&self) -> Element {
@@ -81443,8 +81443,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrashSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrashSimpleDuotone;
 
 impl IconShape for TrashSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -81493,8 +81493,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrayArrowDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrayArrowDownDuotone;
 
 impl IconShape for TrayArrowDownDuotone {
     fn child_elements(&self) -> Element {
@@ -81552,8 +81552,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrayArrowUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrayArrowUpDuotone;
 
 impl IconShape for TrayArrowUpDuotone {
     fn child_elements(&self) -> Element {
@@ -81611,8 +81611,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrayDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrayDuotone;
 
 impl IconShape for TrayDuotone {
     fn child_elements(&self) -> Element {
@@ -81651,8 +81651,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TreasureChestDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TreasureChestDuotone;
 
 impl IconShape for TreasureChestDuotone {
     fn child_elements(&self) -> Element {
@@ -81734,8 +81734,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TreeDuotone;
 
 impl IconShape for TreeDuotone {
     fn child_elements(&self) -> Element {
@@ -81795,8 +81795,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TreeEvergreenDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TreeEvergreenDuotone;
 
 impl IconShape for TreeEvergreenDuotone {
     fn child_elements(&self) -> Element {
@@ -81834,8 +81834,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TreePalmDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TreePalmDuotone;
 
 impl IconShape for TreePalmDuotone {
     fn child_elements(&self) -> Element {
@@ -81909,8 +81909,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TreeStructureDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TreeStructureDuotone;
 
 impl IconShape for TreeStructureDuotone {
     fn child_elements(&self) -> Element {
@@ -82004,8 +82004,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TreeViewDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TreeViewDuotone;
 
 impl IconShape for TreeViewDuotone {
     fn child_elements(&self) -> Element {
@@ -82099,8 +82099,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrendDownDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrendDownDuotone;
 
 impl IconShape for TrendDownDuotone {
     fn child_elements(&self) -> Element {
@@ -82135,8 +82135,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrendUpDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrendUpDuotone;
 
 impl IconShape for TrendUpDuotone {
     fn child_elements(&self) -> Element {
@@ -82171,8 +82171,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TriangleDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TriangleDashedDuotone;
 
 impl IconShape for TriangleDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -82248,8 +82248,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TriangleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TriangleDuotone;
 
 impl IconShape for TriangleDuotone {
     fn child_elements(&self) -> Element {
@@ -82276,8 +82276,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrolleyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrolleyDuotone;
 
 impl IconShape for TrolleyDuotone {
     fn child_elements(&self) -> Element {
@@ -82325,8 +82325,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrolleySuitcaseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrolleySuitcaseDuotone;
 
 impl IconShape for TrolleySuitcaseDuotone {
     fn child_elements(&self) -> Element {
@@ -82398,8 +82398,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrophyDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrophyDuotone;
 
 impl IconShape for TrophyDuotone {
     fn child_elements(&self) -> Element {
@@ -82464,8 +82464,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TruckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TruckDuotone;
 
 impl IconShape for TruckDuotone {
     fn child_elements(&self) -> Element {
@@ -82550,8 +82550,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TruckTrailerDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TruckTrailerDuotone;
 
 impl IconShape for TruckTrailerDuotone {
     fn child_elements(&self) -> Element {
@@ -82631,8 +82631,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TumblrLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TumblrLogoDuotone;
 
 impl IconShape for TumblrLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -82659,8 +82659,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TwitchLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TwitchLogoDuotone;
 
 impl IconShape for TwitchLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -82709,8 +82709,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TwitterLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TwitterLogoDuotone;
 
 impl IconShape for TwitterLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -82737,8 +82737,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UmbrellaDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UmbrellaDuotone;
 
 impl IconShape for UmbrellaDuotone {
     fn child_elements(&self) -> Element {
@@ -82785,8 +82785,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UmbrellaSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UmbrellaSimpleDuotone;
 
 impl IconShape for UmbrellaSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -82821,8 +82821,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UnionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UnionDuotone;
 
 impl IconShape for UnionDuotone {
     fn child_elements(&self) -> Element {
@@ -82849,8 +82849,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UniteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UniteDuotone;
 
 impl IconShape for UniteDuotone {
     fn child_elements(&self) -> Element {
@@ -82889,8 +82889,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UniteSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UniteSquareDuotone;
 
 impl IconShape for UniteSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -82917,8 +82917,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UploadDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UploadDuotone;
 
 impl IconShape for UploadDuotone {
     fn child_elements(&self) -> Element {
@@ -82973,8 +82973,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UploadSimpleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UploadSimpleDuotone;
 
 impl IconShape for UploadSimpleDuotone {
     fn child_elements(&self) -> Element {
@@ -83020,8 +83020,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UsbDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UsbDuotone;
 
 impl IconShape for UsbDuotone {
     fn child_elements(&self) -> Element {
@@ -83103,8 +83103,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCheckDuotone;
 
 impl IconShape for UserCheckDuotone {
     fn child_elements(&self) -> Element {
@@ -83151,8 +83151,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCircleCheckDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCircleCheckDuotone;
 
 impl IconShape for UserCircleCheckDuotone {
     fn child_elements(&self) -> Element {
@@ -83205,8 +83205,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCircleDashedDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCircleDashedDuotone;
 
 impl IconShape for UserCircleDashedDuotone {
     fn child_elements(&self) -> Element {
@@ -83275,8 +83275,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCircleDuotone;
 
 impl IconShape for UserCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -83323,8 +83323,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCircleGearDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCircleGearDuotone;
 
 impl IconShape for UserCircleGearDuotone {
     fn child_elements(&self) -> Element {
@@ -83445,8 +83445,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCircleMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCircleMinusDuotone;
 
 impl IconShape for UserCircleMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -83502,8 +83502,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserCirclePlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserCirclePlusDuotone;
 
 impl IconShape for UserCirclePlusDuotone {
     fn child_elements(&self) -> Element {
@@ -83570,8 +83570,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserDuotone;
 
 impl IconShape for UserDuotone {
     fn child_elements(&self) -> Element {
@@ -83610,8 +83610,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserFocusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserFocusDuotone;
 
 impl IconShape for UserFocusDuotone {
     fn child_elements(&self) -> Element {
@@ -83682,8 +83682,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserGearDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserGearDuotone;
 
 impl IconShape for UserGearDuotone {
     fn child_elements(&self) -> Element {
@@ -83798,8 +83798,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserListDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserListDuotone;
 
 impl IconShape for UserListDuotone {
     fn child_elements(&self) -> Element {
@@ -83871,8 +83871,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserMinusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserMinusDuotone;
 
 impl IconShape for UserMinusDuotone {
     fn child_elements(&self) -> Element {
@@ -83922,8 +83922,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserPlusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserPlusDuotone;
 
 impl IconShape for UserPlusDuotone {
     fn child_elements(&self) -> Element {
@@ -83984,8 +83984,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserRectangleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserRectangleDuotone;
 
 impl IconShape for UserRectangleDuotone {
     fn child_elements(&self) -> Element {
@@ -84034,8 +84034,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserSoundDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserSoundDuotone;
 
 impl IconShape for UserSoundDuotone {
     fn child_elements(&self) -> Element {
@@ -84090,8 +84090,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserSquareDuotone;
 
 impl IconShape for UserSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -84140,8 +84140,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UserSwitchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UserSwitchDuotone;
 
 impl IconShape for UserSwitchDuotone {
     fn child_elements(&self) -> Element {
@@ -84210,8 +84210,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UsersDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UsersDuotone;
 
 impl IconShape for UsersDuotone {
     fn child_elements(&self) -> Element {
@@ -84266,8 +84266,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UsersFourDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UsersFourDuotone;
 
 impl IconShape for UsersFourDuotone {
     fn child_elements(&self) -> Element {
@@ -84362,8 +84362,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct UsersThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct UsersThreeDuotone;
 
 impl IconShape for UsersThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -84446,8 +84446,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VanDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VanDuotone;
 
 impl IconShape for VanDuotone {
     fn child_elements(&self) -> Element {
@@ -84538,8 +84538,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VaultDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VaultDuotone;
 
 impl IconShape for VaultDuotone {
     fn child_elements(&self) -> Element {
@@ -84618,8 +84618,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VectorThreeDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VectorThreeDuotone;
 
 impl IconShape for VectorThreeDuotone {
     fn child_elements(&self) -> Element {
@@ -84681,8 +84681,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VectorTwoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VectorTwoDuotone;
 
 impl IconShape for VectorTwoDuotone {
     fn child_elements(&self) -> Element {
@@ -84725,8 +84725,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VibrateDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VibrateDuotone;
 
 impl IconShape for VibrateDuotone {
     fn child_elements(&self) -> Element {
@@ -84807,8 +84807,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VideoCameraDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VideoCameraDuotone;
 
 impl IconShape for VideoCameraDuotone {
     fn child_elements(&self) -> Element {
@@ -84851,8 +84851,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VideoCameraSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VideoCameraSlashDuotone;
 
 impl IconShape for VideoCameraSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -84910,8 +84910,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VideoConferenceDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VideoConferenceDuotone;
 
 impl IconShape for VideoConferenceDuotone {
     fn child_elements(&self) -> Element {
@@ -84992,8 +84992,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VideoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VideoDuotone;
 
 impl IconShape for VideoDuotone {
     fn child_elements(&self) -> Element {
@@ -85043,8 +85043,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VignetteDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VignetteDuotone;
 
 impl IconShape for VignetteDuotone {
     fn child_elements(&self) -> Element {
@@ -85086,8 +85086,8 @@ ellipse {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VinylRecordDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VinylRecordDuotone;
 
 impl IconShape for VinylRecordDuotone {
     fn child_elements(&self) -> Element {
@@ -85142,8 +85142,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VirtualRealityDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VirtualRealityDuotone;
 
 impl IconShape for VirtualRealityDuotone {
     fn child_elements(&self) -> Element {
@@ -85205,8 +85205,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VirusDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VirusDuotone;
 
 impl IconShape for VirusDuotone {
     fn child_elements(&self) -> Element {
@@ -85343,8 +85343,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VisorDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VisorDuotone;
 
 impl IconShape for VisorDuotone {
     fn child_elements(&self) -> Element {
@@ -85382,8 +85382,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VoicemailDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VoicemailDuotone;
 
 impl IconShape for VoicemailDuotone {
     fn child_elements(&self) -> Element {
@@ -85441,8 +85441,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VolleyballDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VolleyballDuotone;
 
 impl IconShape for VolleyballDuotone {
     fn child_elements(&self) -> Element {
@@ -85532,8 +85532,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WallDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WallDuotone;
 
 impl IconShape for WallDuotone {
     fn child_elements(&self) -> Element {
@@ -85636,8 +85636,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WalletDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WalletDuotone;
 
 impl IconShape for WalletDuotone {
     fn child_elements(&self) -> Element {
@@ -85669,8 +85669,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WarehouseDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WarehouseDuotone;
 
 impl IconShape for WarehouseDuotone {
     fn child_elements(&self) -> Element {
@@ -85755,8 +85755,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WarningCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WarningCircleDuotone;
 
 impl IconShape for WarningCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -85802,8 +85802,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WarningDiamondDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WarningDiamondDuotone;
 
 impl IconShape for WarningDiamondDuotone {
     fn child_elements(&self) -> Element {
@@ -85856,8 +85856,8 @@ rect {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WarningDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WarningDuotone;
 
 impl IconShape for WarningDuotone {
     fn child_elements(&self) -> Element {
@@ -85900,8 +85900,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WarningOctagonDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WarningOctagonDuotone;
 
 impl IconShape for WarningOctagonDuotone {
     fn child_elements(&self) -> Element {
@@ -85943,8 +85943,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WashingMachineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WashingMachineDuotone;
 
 impl IconShape for WashingMachineDuotone {
     fn child_elements(&self) -> Element {
@@ -86014,8 +86014,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WatchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WatchDuotone;
 
 impl IconShape for WatchDuotone {
     fn child_elements(&self) -> Element {
@@ -86069,8 +86069,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaveSawtoothDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaveSawtoothDuotone;
 
 impl IconShape for WaveSawtoothDuotone {
     fn child_elements(&self) -> Element {
@@ -86097,8 +86097,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaveSineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaveSineDuotone;
 
 impl IconShape for WaveSineDuotone {
     fn child_elements(&self) -> Element {
@@ -86125,8 +86125,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaveSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaveSquareDuotone;
 
 impl IconShape for WaveSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -86153,8 +86153,8 @@ polyline {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaveTriangleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaveTriangleDuotone;
 
 impl IconShape for WaveTriangleDuotone {
     fn child_elements(&self) -> Element {
@@ -86181,8 +86181,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaveformDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaveformDuotone;
 
 impl IconShape for WaveformDuotone {
     fn child_elements(&self) -> Element {
@@ -86259,8 +86259,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WaveformSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WaveformSlashDuotone;
 
 impl IconShape for WaveformSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -86370,8 +86370,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WavesDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WavesDuotone;
 
 impl IconShape for WavesDuotone {
     fn child_elements(&self) -> Element {
@@ -86414,8 +86414,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WebcamDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WebcamDuotone;
 
 impl IconShape for WebcamDuotone {
     fn child_elements(&self) -> Element {
@@ -86476,8 +86476,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WebcamSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WebcamSlashDuotone;
 
 impl IconShape for WebcamSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -86561,8 +86561,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WebhooksLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WebhooksLogoDuotone;
 
 impl IconShape for WebhooksLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -86634,8 +86634,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WechatLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WechatLogoDuotone;
 
 impl IconShape for WechatLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -86680,8 +86680,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WhatsappLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WhatsappLogoDuotone;
 
 impl IconShape for WhatsappLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -86716,8 +86716,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WheelchairDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WheelchairDuotone;
 
 impl IconShape for WheelchairDuotone {
     fn child_elements(&self) -> Element {
@@ -86764,8 +86764,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WheelchairMotionDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WheelchairMotionDuotone;
 
 impl IconShape for WheelchairMotionDuotone {
     fn child_elements(&self) -> Element {
@@ -86812,8 +86812,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiHighDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiHighDuotone;
 
 impl IconShape for WifiHighDuotone {
     fn child_elements(&self) -> Element {
@@ -86840,8 +86840,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiLowDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiLowDuotone;
 
 impl IconShape for WifiLowDuotone {
     fn child_elements(&self) -> Element {
@@ -86876,8 +86876,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiMediumDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiMediumDuotone;
 
 impl IconShape for WifiMediumDuotone {
     fn child_elements(&self) -> Element {
@@ -86912,8 +86912,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiNoneDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiNoneDuotone;
 
 impl IconShape for WifiNoneDuotone {
     fn child_elements(&self) -> Element {
@@ -86936,8 +86936,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiSlashDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiSlashDuotone;
 
 impl IconShape for WifiSlashDuotone {
     fn child_elements(&self) -> Element {
@@ -86983,8 +86983,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WifiXDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WifiXDuotone;
 
 impl IconShape for WifiXDuotone {
     fn child_elements(&self) -> Element {
@@ -87033,8 +87033,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WindDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WindDuotone;
 
 impl IconShape for WindDuotone {
     fn child_elements(&self) -> Element {
@@ -87091,8 +87091,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WindmillDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WindmillDuotone;
 
 impl IconShape for WindmillDuotone {
     fn child_elements(&self) -> Element {
@@ -87160,8 +87160,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WindowsLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WindowsLogoDuotone;
 
 impl IconShape for WindowsLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -87224,8 +87224,8 @@ polygon {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WineDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WineDuotone;
 
 impl IconShape for WineDuotone {
     fn child_elements(&self) -> Element {
@@ -87282,8 +87282,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WrenchDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WrenchDuotone;
 
 impl IconShape for WrenchDuotone {
     fn child_elements(&self) -> Element {
@@ -87310,8 +87310,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XCircleDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XCircleDuotone;
 
 impl IconShape for XCircleDuotone {
     fn child_elements(&self) -> Element {
@@ -87364,8 +87364,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XDuotone;
 
 impl IconShape for XDuotone {
     fn child_elements(&self) -> Element {
@@ -87408,8 +87408,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XLogoDuotone;
 
 impl IconShape for XLogoDuotone {
     fn child_elements(&self) -> Element {
@@ -87458,8 +87458,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct XSquareDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct XSquareDuotone;
 
 impl IconShape for XSquareDuotone {
     fn child_elements(&self) -> Element {
@@ -87516,8 +87516,8 @@ line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct YarnDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct YarnDuotone;
 
 impl IconShape for YarnDuotone {
     fn child_elements(&self) -> Element {
@@ -87607,8 +87607,8 @@ path {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct YinYangDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct YinYangDuotone;
 
 impl IconShape for YinYangDuotone {
     fn child_elements(&self) -> Element {
@@ -87655,8 +87655,8 @@ circle {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct YoutubeLogoDuotone {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct YoutubeLogoDuotone;
 
 impl IconShape for YoutubeLogoDuotone {
     fn child_elements(&self) -> Element {
