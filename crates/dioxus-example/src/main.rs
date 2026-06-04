@@ -36,7 +36,7 @@ pub fn Hero() -> Element {
                     Icon {
                         width: "1em",
                         height: "1em",
-                        fill: "none",
+                        fill: "RED",
                         title: "Alarm",
                         icon: AlarmOff {}
                     }
