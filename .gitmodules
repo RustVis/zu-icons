@@ -43,3 +43,6 @@
 [submodule "icons/radix-icons"]
 	path = icons/radix-icons
 	url = https://github.com/radix-ui/icons
+[submodule "icons/phosphor-icons"]
+	path = icons/phosphor-icons
+	url = https://github.com/phosphor-icons/core
