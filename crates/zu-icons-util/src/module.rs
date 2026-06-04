@@ -98,7 +98,8 @@ pub fn build_variant_icons(
     module_names.sort();
 
     // Write to module file.
-    let mut module_file = File::create(format!("src/{variant_dirname}.rs"))?;
+    let variant_module_name = variant_dirname.to_snake_case();
+    let mut module_file = File::create(format!("src/{variant_module_name}.rs"))?;
     module_file.write_all(MOD_HEADER.as_bytes())?;
     for ModuleInfo {
         module_name: _module_name,
