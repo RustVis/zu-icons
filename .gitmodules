@@ -34,3 +34,6 @@
 [submodule "icons/devicons"]
 	path = icons/devicons
 	url = https://github.com/vorillaz/devicons.git
+[submodule "icons/game-icons"]
+	path = icons/game-icons
+	url = https://github.com/game-icons/icons
