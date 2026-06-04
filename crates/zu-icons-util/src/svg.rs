@@ -1,8 +1,15 @@
 use inflections::Inflect;
-use scraper::{node::Element, ElementRef, Html};
+use scraper::{ElementRef, Html, node::Element};
 
 const TEMPLATE_FILE: &str = include_str!("template.rs");
 
+/// Parsed representation of an SVG file.
+///
+/// Extracts the root `<svg>` element's attributes (`viewBox`, `xmlns`, `width`,
+/// `height`, `fill`, `stroke`) and the rendered child elements as a string.
+///
+/// The `children` field contains the SVG child elements (paths, groups, filters,
+/// etc.) formatted for use inside a Dioxus `rsx!()` macro.
 #[derive(Debug)]
 pub struct SvgObject {
     pub view_box: Option<String>,
@@ -14,6 +21,13 @@ pub struct SvgObject {
     pub children: String,
 }
 
+/// Parse SVG content and extract its structure.
+///
+/// Parses the SVG string using an HTML5 parser, extracts root `<svg>` attributes
+/// and all descendant elements with attributes. Elements that have no attributes
+/// (e.g. `<defs>`, `<feMerge>`) are excluded from the child list.
+///
+/// Returns `None` if the SVG contains no elements with attributes.
 pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
     let fragment = Html::parse_fragment(svg_content);
     let elements: Vec<_> = fragment
@@ -57,26 +71,51 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
     })
 }
 
+/// Converts an SVG attribute name to its Rust-friendly form for use in `rsx!()`.
+///
+/// SVG attributes on child elements are mapped to matching Dioxus attribute names
+/// inside the generated `rsx!()` macro. This function handles special cases:
+///
+/// - `data-*` attributes are dropped — they are metadata, not rendered.
+/// - `p-id` is dropped — it is stripped by the HTML5 parser anyway and serves
+///   no purpose in the generated component.
+/// - `in` is prefixed with an underscore (`_in`) to avoid collision with Rust's
+///   reserved keyword.
+/// - `filterUnits` is kept as-is because `to_snake_case()` from the `inflections`
+///   crate does not reliably convert it (camelCase boundary detection differs).
+/// - All other attributes are converted to `snake_case` via `inflections`.
 fn convert_svg_child_name(name: &str) -> Option<String> {
-    // Ignores data- attributes
+    // Drop data-* attributes (metadata, not rendered)
     if name.starts_with("data-") {
         return None;
     }
-    // Ignores specific attributes
+    // Drop specific attributes that should not appear in the generated component
     let skipped_names = &["p-id"];
     if skipped_names.contains(&name) {
         return None;
     }
-    // Special attributes
+    // Prefix `in` with underscore to avoid Rust keyword conflict
     if name == "in" {
         return Some("_in".to_owned());
     }
+    // Keep `filterUnits` as-is (inflections does not reliably camelCase it)
     if name == "filterUnits" {
         return Some(name.to_owned());
     }
+    // Default: convert to snake_case
     Some(name.to_snake_case())
 }
 
+/// Format a list of child elements into an `rsx!()`-compatible string.
+///
+/// Each element is rendered as:
+/// ```text
+/// TAG_NAME {
+///         attr1: "value1",
+///         attr2: "value2",
+///             }
+/// ```
+/// Attributes are sorted alphabetically for deterministic output.
 fn extract_svg_child_elements(elements: &[&Element]) -> String {
     elements
         .iter()
@@ -85,11 +124,7 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
             let mut element_attrs = element
                 .attrs()
                 .filter_map(|(name, value)| {
-                    if let Some(name) = convert_svg_child_name(name) {
-                        Some(format!("        {name}: \"{value}\","))
-                    } else {
-                        None
-                    }
+                    convert_svg_child_name(name).map(|name| format!("        {name}: \"{value}\","))
                 })
                 .collect::<Vec<_>>();
             element_attrs.sort();
@@ -102,6 +137,16 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
         .join("\n")
 }
 
+/// Generate a complete Dioxus icon component source from an `SvgObject`.
+///
+/// The output is a Rust source string containing a unit struct with an
+/// `IconShape` implementation, filled from the template file.
+///
+/// # Parameters
+///
+/// * `node_name` — `PascalCase` name for the generated struct (e.g. `"WhatsApp"`).
+/// * `title` — Optional default title text rendered as a `<title>` element.
+/// * `svg_obj` — The parsed SVG data.
 #[must_use]
 pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &SvgObject) -> String {
     let title = title.map_or(String::new(), |t| {
