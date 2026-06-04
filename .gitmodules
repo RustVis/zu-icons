@@ -19,3 +19,6 @@
 [submodule "icons/octicons"]
 	path = icons/octicons
 	url = https://github.com/primer/octicons
+[submodule "icons/ionicons"]
+	path = icons/ionicons
+	url = https://github.com/ionic-team/ionicons
