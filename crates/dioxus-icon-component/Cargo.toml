@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icon-component"
-version = "0.1.0"
+version = "0.1.1"
 documentation = "https://docs.rs/dioxus-icon-component"
 description = "Common icon component for Dioxus"
 keywords = ["web", "wasm", "icon", "dioxus", "zu"]
