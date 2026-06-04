@@ -4,6 +4,7 @@ resolver = "3"
 members = [
   "crates/dioxus-icon-component",
   "crates/dioxus-icons-ant",
+  "crates/dioxus-icons-box",
   "crates/dioxus-icons-bs",
   "crates/dioxus-icons-circum",
   "crates/dioxus-icons-dev",
