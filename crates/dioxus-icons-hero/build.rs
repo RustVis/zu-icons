@@ -6,8 +6,8 @@ use std::fs::File;
 use std::io::Write;
 
 use anyhow::Error;
-use zu_icon_util::module::build_variant_icons;
-use zu_icon_util::{need_update, reset_crate_source};
+use zu_icons_util::module::build_variant_icons;
+use zu_icons_util::{need_update, reset_crate_source};
 
 const SVG_DIR: &str = "../../icons/heroicons/src/24";
 

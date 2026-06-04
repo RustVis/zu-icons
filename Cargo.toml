@@ -8,7 +8,7 @@ members = [
   "crates/dioxus-icons-feather",
   "crates/dioxus-icons-hero",
   "crates/dioxus-icons-lucide",
-  "crates/zu-icon-util",
+  "crates/zu-icons-util",
 ]
 
 [workspace.package]
@@ -29,7 +29,7 @@ regex = { version = "1.12.3" }
 scraper = { version = "0.27.0" }
 
 dioxus-icon-component = { path = "crates/dioxus-icon-component", version = "0.1.0" }
-zu-icon-util = { path = "crates/zu-icon-util", version = "0.2.1" }
+zu-icons-util = { path = "crates/zu-icons-util", version = "0.2.1" }
 
 [workspace.lints.rust]
 unsafe_code = { level = "deny", priority = -1 }

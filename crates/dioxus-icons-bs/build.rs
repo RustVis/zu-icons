@@ -3,8 +3,8 @@
 // that can be found in the LICENSE file.
 
 use anyhow::Error;
-use zu_icon_util::module::build_icons;
-use zu_icon_util::{need_update, reset_crate_source};
+use zu_icons_util::module::build_icons;
+use zu_icons_util::{need_update, reset_crate_source};
 
 const SVG_DIR: &str = "../../icons/bootstrap/icons";
 
