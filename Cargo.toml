@@ -8,6 +8,7 @@ members = [
   "crates/dioxus-icons-dev",
   "crates/dioxus-icons-fa",
   "crates/dioxus-icons-feather",
+  "crates/dioxus-icons-game",
   "crates/dioxus-icons-hero",
   "crates/dioxus-icons-ionic",
   "crates/dioxus-icons-lucide",
