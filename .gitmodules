@@ -22,3 +22,6 @@
 [submodule "icons/ionicons"]
 	path = icons/ionicons
 	url = https://github.com/ionic-team/ionicons
+[submodule "icons/simple-icons"]
+	path = icons/simple-icons
+	url = https://github.com/simple-icons/simple-icons
