@@ -14,7 +14,7 @@ members = [
   "crates/dioxus-icons-grommet",
   "crates/dioxus-icons-hero",
   "crates/dioxus-icons-ionic",
-  "crates/dioxus-icons-line-awesome",
+#  "crates/dioxus-icons-line-awesome",
   "crates/dioxus-icons-lucide",
   "crates/dioxus-icons-oct",
   "crates/dioxus-icons-phosphor",
@@ -34,7 +34,7 @@ homepage = "https://github.com/RustVis/dioxus-icons"
 license ="Apache-2.0"
 publish = true
 repository = "https://github.com/RustVis/dioxus-icons"
-rust-version = "1.85"
+rust-version = "1.88"
 
 [workspace.dependencies]
 anyhow = { version = "1.0.102" }
