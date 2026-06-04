@@ -1,5 +1,4 @@
 use inflections::Inflect;
-use regex::Regex;
 use scraper::{ElementRef, Html, node::Element};
 
 const TEMPLATE_FILE: &str = include_str!("template.rs");
@@ -58,6 +57,26 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
     })
 }
 
+fn convert_svg_child_name(name: &str) -> Option<String> {
+    // Ignores data- attributes
+    if name.starts_with("data-") {
+        return None;
+    }
+    // Ignores specific attributes
+    let skipped_names = &["fill", "p-id"];
+    if skipped_names.contains(&name) {
+        return None;
+    }
+    // Special attributes
+    if name == "in" {
+        return Some("_in".to_owned());
+    }
+    if name == "filterUnits" {
+        return Some(name.to_owned());
+    }
+    Some(name.to_snake_case())
+}
+
 fn extract_svg_child_elements(elements: &[&Element]) -> String {
     elements
         .iter()
@@ -66,12 +85,11 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
             let mut element_attrs = element
                 .attrs()
                 .filter_map(|(name, value)| {
-                    if let Ok(re) = Regex::new(r"^data-.*$") {
-                        if !re.is_match(name) && name != "fill" {
-                            return Some(format!("        {}: \"{value}\",", name.to_snake_case()));
-                        }
+                    if let Some(name) = convert_svg_child_name(name) {
+                        Some(format!("        {name}: \"{value}\","))
+                    } else {
+                        None
                     }
-                    None
                 })
                 .collect::<Vec<_>>();
             element_attrs.sort();
