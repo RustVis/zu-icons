@@ -16,3 +16,6 @@
 [submodule "icons/vscode"]
 	path = icons/vscode
 	url = https://github.com/microsoft/vscode-codicons
+[submodule "icons/octicons"]
+	path = icons/octicons
+	url = https://github.com/primer/octicons
