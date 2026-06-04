@@ -28,3 +28,6 @@
 [submodule "icons/tabler-icons"]
 	path = icons/tabler-icons
 	url = https://github.com/tabler/tabler-icons.git
+[submodule "icons/ant-design-icons"]
+	path = icons/ant-design-icons
+	url = https://github.com/ant-design/ant-design-icons
