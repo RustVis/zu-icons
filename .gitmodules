@@ -25,3 +25,6 @@
 [submodule "icons/simple-icons"]
 	path = icons/simple-icons
 	url = https://github.com/simple-icons/simple-icons
+[submodule "icons/tabler-icons"]
+	path = icons/tabler-icons
+	url = https://github.com/tabler/tabler-icons.git
