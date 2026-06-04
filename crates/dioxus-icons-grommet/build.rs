@@ -3,7 +3,7 @@
 // that can be found in the LICENSE file.
 
 use anyhow::Error;
-use zu_icons_util::module::build_icons;
+use zu_icons_util::module::generate_icons;
 use zu_icons_util::{need_update, reset_crate_source};
 
 const SVG_DIR: &str = "../../icons/grommet-icons/public/img";
@@ -11,7 +11,7 @@ const SVG_DIR: &str = "../../icons/grommet-icons/public/img";
 const REMAPPING_NAMES: &[&str] = &["123", "box", "option", "try", "type"];
 
 fn rebuild_icons() -> Result<(), Error> {
-    build_icons(SVG_DIR, REMAPPING_NAMES)
+    generate_icons(SVG_DIR, REMAPPING_NAMES)
 }
 
 fn main() -> Result<(), Error> {

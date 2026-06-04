@@ -21,7 +21,6 @@ dioxus-icon-component.workspace = true
 
 [build-dependencies]
 anyhow.workspace = true
-inflections.workspace = true
 zu-icons-util.workspace = true
 
 [lints]

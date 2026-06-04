@@ -2,38 +2,18 @@
 // Use of this source is governed by Lesser General Public License
 // that can be found in the LICENSE file.
 
-use std::fs::File;
-use std::io::Write;
-
 use anyhow::Error;
-use zu_icons_util::module::build_variant_icons;
+use zu_icons_util::module::generate_variants_icons;
 use zu_icons_util::{need_update, reset_crate_source};
 
 const SVG_DIR: &str = "../../icons/font-awesome/svgs";
 const REMAPPING_NAMES: &[&str] = &[
     "0", "1", "11ty", "2", "3", "4", "42-group", "5", "500px", "6", "7", "8", "9", "box", "try",
 ];
+const VARIANT_LIST: &[&str] = &["brands", "regular", "solid"];
 
 fn rebuild_icons() -> Result<(), Error> {
-    build_variant_icons(SVG_DIR, "brands", REMAPPING_NAMES)?;
-    build_variant_icons(SVG_DIR, "regular", REMAPPING_NAMES)?;
-    build_variant_icons(SVG_DIR, "solid", REMAPPING_NAMES)?;
-
-    let mut module_file = File::create("src/lib.rs")?;
-    let line = r#"// Auto Generated! DO NOT EDIT!
-
-pub use dioxus_icon_component::{Icon, IconProps, IconShape};
-
-#[cfg(feature = "brands")]
-pub mod brands;
-#[cfg(feature = "regular")]
-pub mod regular;
-#[cfg(feature = "solid")]
-pub mod solid;
-    "#;
-    module_file.write_all(line.as_bytes())?;
-
-    Ok(())
+    generate_variants_icons(VARIANT_LIST, SVG_DIR, REMAPPING_NAMES)
 }
 
 fn main() -> Result<(), Error> {

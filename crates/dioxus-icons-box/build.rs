@@ -2,11 +2,8 @@
 // Use of this source is governed by Lesser General Public License
 // that can be found in the LICENSE file.
 
-use std::fs::File;
-use std::io::Write;
-
 use anyhow::Error;
-use zu_icons_util::module::{build_variant_icons, to_module_name};
+use zu_icons_util::module::generate_variants_icons;
 use zu_icons_util::{need_update, reset_crate_source};
 
 const SVG_DIR: &str = "../../icons/box-icons/svg";
@@ -14,28 +11,7 @@ const REMAPPING_NAMES: &[&str] = &["box", "option", "try"];
 const VARIANT_LIST: &[&str] = &["logos", "regular", "solid"];
 
 fn rebuild_icons() -> Result<(), Error> {
-    for feature in VARIANT_LIST {
-        build_variant_icons(SVG_DIR, feature, REMAPPING_NAMES)?;
-    }
-
-    let mut module_file = File::create("src/lib.rs")?;
-    let line = r#"// Auto Generated! DO NOT EDIT!
-
-pub use dioxus_icon_component::{Icon, IconProps, IconShape};
-
-    "#;
-    module_file.write_all(line.as_bytes())?;
-    for feature in VARIANT_LIST {
-        let module_name = to_module_name(feature);
-        let feature_line = r#"
-#[cfg(feature = "{MODULE_NAME}")]
-pub mod {MODULE_NAME};
-"#
-        .replace("{MODULE_NAME}", &module_name);
-        module_file.write_all(feature_line.as_bytes())?;
-    }
-
-    Ok(())
+    generate_variants_icons(VARIANT_LIST, SVG_DIR, REMAPPING_NAMES)
 }
 
 fn main() -> Result<(), Error> {
