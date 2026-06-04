@@ -9,6 +9,10 @@ use dioxus::prelude::*;
 /// Implements this trait when adding a new real icon.
 pub trait IconShape: Clone + PartialEq + 'static {
     /// Returns the SVG child elements (paths, circles, etc.) that define the icon shape.
+    ///
+    /// # Errors
+    ///
+    /// Returns `Err` if rendering the child elements fails.
     fn child_elements(&self) -> Element;
 
     /// Default title text for the SVG element.
@@ -29,7 +33,7 @@ pub trait IconShape: Clone + PartialEq + 'static {
 ///
 /// All fields are optional except `icon`. When a field is not provided,
 /// the default value from the associated `IconShape` implementation is used.
-#[derive(Clone, PartialEq, Props)]
+#[derive(Clone, PartialEq, Eq, Props)]
 pub struct IconProps<T: IconShape> {
     /// The icon shape implementation that provides SVG child elements.
     pub icon: T,
@@ -77,7 +81,11 @@ pub struct IconProps<T: IconShape> {
     pub xmlns: Option<&'static str>,
 }
 
+/// # Errors
+///
+/// Returns `Err` if rendering the icon fails.
 #[allow(non_snake_case)]
+#[allow(clippy::needless_pass_by_value)]
 pub fn Icon<T: IconShape>(props: IconProps<T>) -> Element {
     rsx! {
         svg {
