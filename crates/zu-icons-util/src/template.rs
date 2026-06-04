@@ -1,5 +1,5 @@
 
-#[derive(Copy, Clone, PartialEq)]
+#[derive(Copy, Clone, PartialEq, Eq)]
 pub struct {ICON_NAME} {}
 
 impl IconShape for {ICON_NAME} {
