@@ -5,6 +5,7 @@ members = [
   "crates/dioxus-icon-component",
   "crates/dioxus-icons-ant",
   "crates/dioxus-icons-bs",
+  "crates/dioxus-icons-circum",
   "crates/dioxus-icons-dev",
   "crates/dioxus-icons-fa",
   "crates/dioxus-icons-feather",
