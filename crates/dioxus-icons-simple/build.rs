@@ -29,6 +29,7 @@ const REMAPPING_NAMES: &[&str] = &[
     "9gag",
     "box",
     "element",
+    "icon",
     "option",
     "try",
     "type",
