@@ -14,6 +14,7 @@ members = [
   "crates/dioxus-icons-lucide",
   "crates/dioxus-icons-oct",
   "crates/dioxus-icons-radix",
+  "crates/dioxus-icons-remix",
   "crates/dioxus-icons-simple",
   "crates/dioxus-icons-tabler",
   "crates/dioxus-icons-vsc",
