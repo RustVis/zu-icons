@@ -19,7 +19,6 @@ rust-version.workspace = true
 anyhow.workspace = true
 dioxus.workspace = true
 inflections.workspace = true
-regex.workspace = true
 scraper.workspace = true
 
 [lints]

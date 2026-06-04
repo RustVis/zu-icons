@@ -3,6 +3,7 @@
 resolver = "3"
 members = [
   "crates/dioxus-icon-component",
+  "crates/dioxus-icons-ant",
   "crates/dioxus-icons-bs",
   "crates/dioxus-icons-fa",
   "crates/dioxus-icons-feather",
@@ -30,7 +31,6 @@ rust-version = "1.85"
 anyhow = { version = "1.0.102" }
 dioxus = { version = "0.7.9", default-features = false, features = ["html", "macro", "signals"] }
 inflections = { version = "1.1.1" }
-regex = { version = "1.12.3" }
 scraper = { version = "0.27.0" }
 
 dioxus-icon-component = { path = "crates/dioxus-icon-component", version = "0.1.1" }
