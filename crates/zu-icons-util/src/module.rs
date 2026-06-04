@@ -36,6 +36,15 @@ struct ModuleInfo {
     module_content: String,
 }
 
+/// Build icon source files for a variant directory.
+///
+/// Scans SVG files in `base_dir/{variant_dirname}`, parses them, and generates
+/// a Dioxus component module file at `src/{variant_dirname}.rs`.
+///
+/// # Errors
+///
+/// Returns `Err` if the directory cannot be read, an SVG file cannot be parsed,
+/// or the output module file cannot be written.
 pub fn build_variant_icons(
     base_dir: &str,
     variant_dirname: &str,
@@ -55,12 +64,18 @@ pub fn build_variant_icons(
             continue;
         }
         if path.extension() != Some(svg_extension) {
-            eprintln!("Ignore non svg file {path:?}");
+            eprintln!("Ignore non svg file {}", path.display());
             continue;
         }
 
-        let stem = path.file_stem().unwrap();
-        let stem_str = stem.to_str().unwrap();
+        let Some(stem) = path.file_stem() else {
+            eprintln!("Ignore file without stem: {}", path.display());
+            continue;
+        };
+        let Some(stem_str) = stem.to_str() else {
+            eprintln!("Ignore file with non-utf-8 name: {}", path.display());
+            continue;
+        };
 
         let stem_str = map_filename(stem_str, remapping_names);
         // let data_name = &stem_str;
@@ -83,7 +98,7 @@ pub fn build_variant_icons(
     module_names.sort();
 
     // Write to module file.
-    let mut module_file = File::create(format!("src/{}.rs", variant_dirname))?;
+    let mut module_file = File::create(format!("src/{variant_dirname}.rs"))?;
     module_file.write_all(MOD_HEADER.as_bytes())?;
     for ModuleInfo {
         module_name: _module_name,
@@ -97,6 +112,15 @@ pub fn build_variant_icons(
     Ok(())
 }
 
+/// Build icon source files from a flat directory of SVG files.
+///
+/// Scans SVG files in `base_dir`, parses them, and generates
+/// the main Dioxus component module at `src/lib.rs`.
+///
+/// # Errors
+///
+/// Returns `Err` if the directory cannot be read, an SVG file cannot be parsed,
+/// or the output module file cannot be written.
 pub fn build_icons(base_dir: &str, remapping_names: &[&str]) -> Result<(), Error> {
     let mut module_names = Vec::new();
 
@@ -110,12 +134,18 @@ pub fn build_icons(base_dir: &str, remapping_names: &[&str]) -> Result<(), Error
             continue;
         }
         if path.extension() != Some(svg_extension) {
-            eprintln!("Ignore non svg file {path:?}");
+            eprintln!("Ignore non svg file {}", path.display());
             continue;
         }
 
-        let stem = path.file_stem().unwrap();
-        let stem_str = stem.to_str().unwrap();
+        let Some(stem) = path.file_stem() else {
+            eprintln!("Ignore file without stem: {}", path.display());
+            continue;
+        };
+        let Some(stem_str) = stem.to_str() else {
+            eprintln!("Ignore file with non-utf-8 name: {}", path.display());
+            continue;
+        };
 
         let stem_str = map_filename(stem_str, remapping_names);
         // let data_name = &stem_str;

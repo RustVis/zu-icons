@@ -19,6 +19,10 @@ pub fn need_update() -> bool {
 }
 
 /// Remove all files in `src/` directory of crate
+///
+/// # Errors
+///
+/// Returns `Err` if the `src/` directory cannot be removed or recreated.
 pub fn reset_crate_source() -> Result<(), io::Error> {
     fs::remove_dir_all("src")?;
     fs::create_dir("src")?;

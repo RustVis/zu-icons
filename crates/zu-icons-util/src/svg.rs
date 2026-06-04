@@ -45,7 +45,7 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
     let fill = svg_element.attr("fill").map(String::from);
     let stroke = svg_element.attr("stroke").map(String::from);
 
-    let children = extract_svg_child_elements(&child_elements);
+    let children = extract_svg_child_elements(child_elements);
 
     Some(SvgObject {
         view_box,
@@ -84,37 +84,26 @@ fn extract_svg_child_elements(elements: &[&Element]) -> String {
         .join("\n")
 }
 
+#[must_use]
 pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &SvgObject) -> String {
-    let title = if let Some(title) = title {
-        &format!("    const TITLE: Option<&'static str> = Some(\"{title}\");\n")
-    } else {
-        ""
-    };
-    let width = if let Some(width) = &svg_obj.width {
-        &format!("    const WIDTH: Option<u32> = Some({width});\n")
-    } else {
-        ""
-    };
-    let height = if let Some(height) = &svg_obj.height {
-        &format!("    const HEIGHT: Option<u32> = Some({height});\n")
-    } else {
-        ""
-    };
-    let fill = if let Some(fill) = &svg_obj.fill {
-        &format!("    const FILL: Option<&'static str> = Some(\"{fill}\");\n")
-    } else {
-        ""
-    };
-    let stroke = if let Some(stroke) = &svg_obj.stroke {
-        &format!("    const STROKE: Option<&'static str> = Some(\"{stroke}\");\n")
-    } else {
-        ""
-    };
-    let view_box = if let Some(view_box) = &svg_obj.view_box {
-        &format!("    const VIEW_BOX: Option<&'static str> = Some(\"{view_box}\");\n")
-    } else {
-        ""
-    };
+    let title = title.map_or(String::new(), |t| {
+        format!("    const TITLE: Option<&'static str> = Some(\"{t}\");\n")
+    });
+    let width = svg_obj.width.as_ref().map_or(String::new(), |w| {
+        format!("    const WIDTH: Option<u32> = Some({w});\n")
+    });
+    let height = svg_obj.height.as_ref().map_or(String::new(), |h| {
+        format!("    const HEIGHT: Option<u32> = Some({h});\n")
+    });
+    let fill = svg_obj.fill.as_ref().map_or(String::new(), |f| {
+        format!("    const FILL: Option<&'static str> = Some(\"{f}\");\n")
+    });
+    let stroke = svg_obj.stroke.as_ref().map_or(String::new(), |s| {
+        format!("    const STROKE: Option<&'static str> = Some(\"{s}\");\n")
+    });
+    let view_box = svg_obj.view_box.as_ref().map_or(String::new(), |v| {
+        format!("    const VIEW_BOX: Option<&'static str> = Some(\"{v}\");\n")
+    });
     let other_props = [title, width, height, fill, stroke, view_box].join("");
     TEMPLATE_FILE
         .replace("{ICON_NAME}", node_name)
