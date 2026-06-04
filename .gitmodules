@@ -40,3 +40,6 @@
 [submodule "icons/RemixIcon"]
 	path = icons/RemixIcon
 	url = https://github.com/Remix-Design/RemixIcon
+[submodule "icons/radix-icons"]
+	path = icons/radix-icons
+	url = https://github.com/radix-ui/icons
