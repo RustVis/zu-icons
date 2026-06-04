@@ -4,8 +4,8 @@ use dioxus::prelude::*;
 
 use crate::IconShape;
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AdvertisementFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AdvertisementFill;
 
 impl IconShape for AdvertisementFill {
     fn child_elements(&self) -> Element {
@@ -19,8 +19,8 @@ impl IconShape for AdvertisementFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AdvertisementLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AdvertisementLine;
 
 impl IconShape for AdvertisementLine {
     fn child_elements(&self) -> Element {
@@ -34,8 +34,8 @@ impl IconShape for AdvertisementLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Archive2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Archive2Fill;
 
 impl IconShape for Archive2Fill {
     fn child_elements(&self) -> Element {
@@ -49,8 +49,8 @@ impl IconShape for Archive2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Archive2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Archive2Line;
 
 impl IconShape for Archive2Line {
     fn child_elements(&self) -> Element {
@@ -64,8 +64,8 @@ impl IconShape for Archive2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveDrawerFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveDrawerFill;
 
 impl IconShape for ArchiveDrawerFill {
     fn child_elements(&self) -> Element {
@@ -79,8 +79,8 @@ impl IconShape for ArchiveDrawerFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveDrawerLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveDrawerLine;
 
 impl IconShape for ArchiveDrawerLine {
     fn child_elements(&self) -> Element {
@@ -94,8 +94,8 @@ impl IconShape for ArchiveDrawerLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveFill;
 
 impl IconShape for ArchiveFill {
     fn child_elements(&self) -> Element {
@@ -109,8 +109,8 @@ impl IconShape for ArchiveFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveLine;
 
 impl IconShape for ArchiveLine {
     fn child_elements(&self) -> Element {
@@ -124,8 +124,8 @@ impl IconShape for ArchiveLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveStackFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveStackFill;
 
 impl IconShape for ArchiveStackFill {
     fn child_elements(&self) -> Element {
@@ -139,8 +139,8 @@ impl IconShape for ArchiveStackFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ArchiveStackLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ArchiveStackLine;
 
 impl IconShape for ArchiveStackLine {
     fn child_elements(&self) -> Element {
@@ -154,8 +154,8 @@ impl IconShape for ArchiveStackLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AreaChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AreaChartFill;
 
 impl IconShape for AreaChartFill {
     fn child_elements(&self) -> Element {
@@ -169,8 +169,8 @@ impl IconShape for AreaChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AreaChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AreaChartLine;
 
 impl IconShape for AreaChartLine {
     fn child_elements(&self) -> Element {
@@ -184,8 +184,8 @@ impl IconShape for AreaChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AtFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AtFill;
 
 impl IconShape for AtFill {
     fn child_elements(&self) -> Element {
@@ -199,8 +199,8 @@ impl IconShape for AtFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AtLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AtLine;
 
 impl IconShape for AtLine {
     fn child_elements(&self) -> Element {
@@ -214,8 +214,8 @@ impl IconShape for AtLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AttachmentFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AttachmentFill;
 
 impl IconShape for AttachmentFill {
     fn child_elements(&self) -> Element {
@@ -229,8 +229,8 @@ impl IconShape for AttachmentFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AttachmentLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AttachmentLine;
 
 impl IconShape for AttachmentLine {
     fn child_elements(&self) -> Element {
@@ -244,8 +244,8 @@ impl IconShape for AttachmentLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AwardFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AwardFill;
 
 impl IconShape for AwardFill {
     fn child_elements(&self) -> Element {
@@ -259,8 +259,8 @@ impl IconShape for AwardFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct AwardLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct AwardLine;
 
 impl IconShape for AwardLine {
     fn child_elements(&self) -> Element {
@@ -274,8 +274,8 @@ impl IconShape for AwardLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChart2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChart2Fill;
 
 impl IconShape for BarChart2Fill {
     fn child_elements(&self) -> Element {
@@ -289,8 +289,8 @@ impl IconShape for BarChart2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChart2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChart2Line;
 
 impl IconShape for BarChart2Line {
     fn child_elements(&self) -> Element {
@@ -304,8 +304,8 @@ impl IconShape for BarChart2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartBoxAiFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartBoxAiFill;
 
 impl IconShape for BarChartBoxAiFill {
     fn child_elements(&self) -> Element {
@@ -319,8 +319,8 @@ impl IconShape for BarChartBoxAiFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartBoxAiLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartBoxAiLine;
 
 impl IconShape for BarChartBoxAiLine {
     fn child_elements(&self) -> Element {
@@ -334,8 +334,8 @@ impl IconShape for BarChartBoxAiLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartBoxFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartBoxFill;
 
 impl IconShape for BarChartBoxFill {
     fn child_elements(&self) -> Element {
@@ -349,8 +349,8 @@ impl IconShape for BarChartBoxFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartBoxLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartBoxLine;
 
 impl IconShape for BarChartBoxLine {
     fn child_elements(&self) -> Element {
@@ -364,8 +364,8 @@ impl IconShape for BarChartBoxLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartFill;
 
 impl IconShape for BarChartFill {
     fn child_elements(&self) -> Element {
@@ -379,8 +379,8 @@ impl IconShape for BarChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartGroupedFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartGroupedFill;
 
 impl IconShape for BarChartGroupedFill {
     fn child_elements(&self) -> Element {
@@ -394,8 +394,8 @@ impl IconShape for BarChartGroupedFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartGroupedLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartGroupedLine;
 
 impl IconShape for BarChartGroupedLine {
     fn child_elements(&self) -> Element {
@@ -409,8 +409,8 @@ impl IconShape for BarChartGroupedLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartHorizontalFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartHorizontalFill;
 
 impl IconShape for BarChartHorizontalFill {
     fn child_elements(&self) -> Element {
@@ -424,8 +424,8 @@ impl IconShape for BarChartHorizontalFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartHorizontalLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartHorizontalLine;
 
 impl IconShape for BarChartHorizontalLine {
     fn child_elements(&self) -> Element {
@@ -439,8 +439,8 @@ impl IconShape for BarChartHorizontalLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BarChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BarChartLine;
 
 impl IconShape for BarChartLine {
     fn child_elements(&self) -> Element {
@@ -454,8 +454,8 @@ impl IconShape for BarChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bookmark2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bookmark2Fill;
 
 impl IconShape for Bookmark2Fill {
     fn child_elements(&self) -> Element {
@@ -469,8 +469,8 @@ impl IconShape for Bookmark2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bookmark2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bookmark2Line;
 
 impl IconShape for Bookmark2Line {
     fn child_elements(&self) -> Element {
@@ -484,8 +484,8 @@ impl IconShape for Bookmark2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bookmark3Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bookmark3Fill;
 
 impl IconShape for Bookmark3Fill {
     fn child_elements(&self) -> Element {
@@ -499,8 +499,8 @@ impl IconShape for Bookmark3Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Bookmark3Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Bookmark3Line;
 
 impl IconShape for Bookmark3Line {
     fn child_elements(&self) -> Element {
@@ -514,8 +514,8 @@ impl IconShape for Bookmark3Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookmarkFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookmarkFill;
 
 impl IconShape for BookmarkFill {
     fn child_elements(&self) -> Element {
@@ -529,8 +529,8 @@ impl IconShape for BookmarkFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BookmarkLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BookmarkLine;
 
 impl IconShape for BookmarkLine {
     fn child_elements(&self) -> Element {
@@ -544,8 +544,8 @@ impl IconShape for BookmarkLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase2Fill;
 
 impl IconShape for Briefcase2Fill {
     fn child_elements(&self) -> Element {
@@ -559,8 +559,8 @@ impl IconShape for Briefcase2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase2Line;
 
 impl IconShape for Briefcase2Line {
     fn child_elements(&self) -> Element {
@@ -574,8 +574,8 @@ impl IconShape for Briefcase2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase3Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase3Fill;
 
 impl IconShape for Briefcase3Fill {
     fn child_elements(&self) -> Element {
@@ -589,8 +589,8 @@ impl IconShape for Briefcase3Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase3Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase3Line;
 
 impl IconShape for Briefcase3Line {
     fn child_elements(&self) -> Element {
@@ -604,8 +604,8 @@ impl IconShape for Briefcase3Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase4Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase4Fill;
 
 impl IconShape for Briefcase4Fill {
     fn child_elements(&self) -> Element {
@@ -619,8 +619,8 @@ impl IconShape for Briefcase4Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase4Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase4Line;
 
 impl IconShape for Briefcase4Line {
     fn child_elements(&self) -> Element {
@@ -634,8 +634,8 @@ impl IconShape for Briefcase4Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase5Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase5Fill;
 
 impl IconShape for Briefcase5Fill {
     fn child_elements(&self) -> Element {
@@ -649,8 +649,8 @@ impl IconShape for Briefcase5Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Briefcase5Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Briefcase5Line;
 
 impl IconShape for Briefcase5Line {
     fn child_elements(&self) -> Element {
@@ -664,8 +664,8 @@ impl IconShape for Briefcase5Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BriefcaseFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BriefcaseFill;
 
 impl IconShape for BriefcaseFill {
     fn child_elements(&self) -> Element {
@@ -679,8 +679,8 @@ impl IconShape for BriefcaseFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BriefcaseLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BriefcaseLine;
 
 impl IconShape for BriefcaseLine {
     fn child_elements(&self) -> Element {
@@ -694,8 +694,8 @@ impl IconShape for BriefcaseLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BubbleChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BubbleChartFill;
 
 impl IconShape for BubbleChartFill {
     fn child_elements(&self) -> Element {
@@ -709,8 +709,8 @@ impl IconShape for BubbleChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct BubbleChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct BubbleChartLine;
 
 impl IconShape for BubbleChartLine {
     fn child_elements(&self) -> Element {
@@ -724,8 +724,8 @@ impl IconShape for BubbleChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalculatorFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalculatorFill;
 
 impl IconShape for CalculatorFill {
     fn child_elements(&self) -> Element {
@@ -739,8 +739,8 @@ impl IconShape for CalculatorFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalculatorLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalculatorLine;
 
 impl IconShape for CalculatorLine {
     fn child_elements(&self) -> Element {
@@ -754,8 +754,8 @@ impl IconShape for CalculatorLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Calendar2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Calendar2Fill;
 
 impl IconShape for Calendar2Fill {
     fn child_elements(&self) -> Element {
@@ -769,8 +769,8 @@ impl IconShape for Calendar2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Calendar2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Calendar2Line;
 
 impl IconShape for Calendar2Line {
     fn child_elements(&self) -> Element {
@@ -784,8 +784,8 @@ impl IconShape for Calendar2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarCheckFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarCheckFill;
 
 impl IconShape for CalendarCheckFill {
     fn child_elements(&self) -> Element {
@@ -799,8 +799,8 @@ impl IconShape for CalendarCheckFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarCheckLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarCheckLine;
 
 impl IconShape for CalendarCheckLine {
     fn child_elements(&self) -> Element {
@@ -814,8 +814,8 @@ impl IconShape for CalendarCheckLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarCloseFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarCloseFill;
 
 impl IconShape for CalendarCloseFill {
     fn child_elements(&self) -> Element {
@@ -829,8 +829,8 @@ impl IconShape for CalendarCloseFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarCloseLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarCloseLine;
 
 impl IconShape for CalendarCloseLine {
     fn child_elements(&self) -> Element {
@@ -844,8 +844,8 @@ impl IconShape for CalendarCloseLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarEventFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarEventFill;
 
 impl IconShape for CalendarEventFill {
     fn child_elements(&self) -> Element {
@@ -859,8 +859,8 @@ impl IconShape for CalendarEventFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarEventLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarEventLine;
 
 impl IconShape for CalendarEventLine {
     fn child_elements(&self) -> Element {
@@ -874,8 +874,8 @@ impl IconShape for CalendarEventLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarFill;
 
 impl IconShape for CalendarFill {
     fn child_elements(&self) -> Element {
@@ -889,8 +889,8 @@ impl IconShape for CalendarFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarLine;
 
 impl IconShape for CalendarLine {
     fn child_elements(&self) -> Element {
@@ -904,8 +904,8 @@ impl IconShape for CalendarLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarScheduleFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarScheduleFill;
 
 impl IconShape for CalendarScheduleFill {
     fn child_elements(&self) -> Element {
@@ -919,8 +919,8 @@ impl IconShape for CalendarScheduleFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarScheduleLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarScheduleLine;
 
 impl IconShape for CalendarScheduleLine {
     fn child_elements(&self) -> Element {
@@ -934,8 +934,8 @@ impl IconShape for CalendarScheduleLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarTodoFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarTodoFill;
 
 impl IconShape for CalendarTodoFill {
     fn child_elements(&self) -> Element {
@@ -949,8 +949,8 @@ impl IconShape for CalendarTodoFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CalendarTodoLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CalendarTodoLine;
 
 impl IconShape for CalendarTodoLine {
     fn child_elements(&self) -> Element {
@@ -964,8 +964,8 @@ impl IconShape for CalendarTodoLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudFill;
 
 impl IconShape for CloudFill {
     fn child_elements(&self) -> Element {
@@ -979,8 +979,8 @@ impl IconShape for CloudFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudLine;
 
 impl IconShape for CloudLine {
     fn child_elements(&self) -> Element {
@@ -994,8 +994,8 @@ impl IconShape for CloudLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudOffFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudOffFill;
 
 impl IconShape for CloudOffFill {
     fn child_elements(&self) -> Element {
@@ -1009,8 +1009,8 @@ impl IconShape for CloudOffFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CloudOffLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CloudOffLine;
 
 impl IconShape for CloudOffLine {
     fn child_elements(&self) -> Element {
@@ -1024,8 +1024,8 @@ impl IconShape for CloudOffLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyleftFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyleftFill;
 
 impl IconShape for CopyleftFill {
     fn child_elements(&self) -> Element {
@@ -1039,8 +1039,8 @@ impl IconShape for CopyleftFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyleftLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyleftLine;
 
 impl IconShape for CopyleftLine {
     fn child_elements(&self) -> Element {
@@ -1054,8 +1054,8 @@ impl IconShape for CopyleftLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyrightFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyrightFill;
 
 impl IconShape for CopyrightFill {
     fn child_elements(&self) -> Element {
@@ -1069,8 +1069,8 @@ impl IconShape for CopyrightFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CopyrightLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CopyrightLine;
 
 impl IconShape for CopyrightLine {
     fn child_elements(&self) -> Element {
@@ -1084,8 +1084,8 @@ impl IconShape for CopyrightLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsByFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsByFill;
 
 impl IconShape for CreativeCommonsByFill {
     fn child_elements(&self) -> Element {
@@ -1099,8 +1099,8 @@ impl IconShape for CreativeCommonsByFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsByLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsByLine;
 
 impl IconShape for CreativeCommonsByLine {
     fn child_elements(&self) -> Element {
@@ -1114,8 +1114,8 @@ impl IconShape for CreativeCommonsByLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsFill;
 
 impl IconShape for CreativeCommonsFill {
     fn child_elements(&self) -> Element {
@@ -1129,8 +1129,8 @@ impl IconShape for CreativeCommonsFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsLine;
 
 impl IconShape for CreativeCommonsLine {
     fn child_elements(&self) -> Element {
@@ -1144,8 +1144,8 @@ impl IconShape for CreativeCommonsLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsNcFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsNcFill;
 
 impl IconShape for CreativeCommonsNcFill {
     fn child_elements(&self) -> Element {
@@ -1159,8 +1159,8 @@ impl IconShape for CreativeCommonsNcFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsNcLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsNcLine;
 
 impl IconShape for CreativeCommonsNcLine {
     fn child_elements(&self) -> Element {
@@ -1174,8 +1174,8 @@ impl IconShape for CreativeCommonsNcLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsNdFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsNdFill;
 
 impl IconShape for CreativeCommonsNdFill {
     fn child_elements(&self) -> Element {
@@ -1189,8 +1189,8 @@ impl IconShape for CreativeCommonsNdFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsNdLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsNdLine;
 
 impl IconShape for CreativeCommonsNdLine {
     fn child_elements(&self) -> Element {
@@ -1204,8 +1204,8 @@ impl IconShape for CreativeCommonsNdLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsSaFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsSaFill;
 
 impl IconShape for CreativeCommonsSaFill {
     fn child_elements(&self) -> Element {
@@ -1219,8 +1219,8 @@ impl IconShape for CreativeCommonsSaFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsSaLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsSaLine;
 
 impl IconShape for CreativeCommonsSaLine {
     fn child_elements(&self) -> Element {
@@ -1234,8 +1234,8 @@ impl IconShape for CreativeCommonsSaLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsZeroFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsZeroFill;
 
 impl IconShape for CreativeCommonsZeroFill {
     fn child_elements(&self) -> Element {
@@ -1249,8 +1249,8 @@ impl IconShape for CreativeCommonsZeroFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CreativeCommonsZeroLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CreativeCommonsZeroLine;
 
 impl IconShape for CreativeCommonsZeroLine {
     fn child_elements(&self) -> Element {
@@ -1264,8 +1264,8 @@ impl IconShape for CreativeCommonsZeroLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CustomerService2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CustomerService2Fill;
 
 impl IconShape for CustomerService2Fill {
     fn child_elements(&self) -> Element {
@@ -1279,8 +1279,8 @@ impl IconShape for CustomerService2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CustomerService2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CustomerService2Line;
 
 impl IconShape for CustomerService2Line {
     fn child_elements(&self) -> Element {
@@ -1294,8 +1294,8 @@ impl IconShape for CustomerService2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CustomerServiceFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CustomerServiceFill;
 
 impl IconShape for CustomerServiceFill {
     fn child_elements(&self) -> Element {
@@ -1309,8 +1309,8 @@ impl IconShape for CustomerServiceFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct CustomerServiceLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct CustomerServiceLine;
 
 impl IconShape for CustomerServiceLine {
     fn child_elements(&self) -> Element {
@@ -1324,8 +1324,8 @@ impl IconShape for CustomerServiceLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DonutChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DonutChartFill;
 
 impl IconShape for DonutChartFill {
     fn child_elements(&self) -> Element {
@@ -1339,8 +1339,8 @@ impl IconShape for DonutChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct DonutChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct DonutChartLine;
 
 impl IconShape for DonutChartLine {
     fn child_elements(&self) -> Element {
@@ -1354,8 +1354,8 @@ impl IconShape for DonutChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Flag2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Flag2Fill;
 
 impl IconShape for Flag2Fill {
     fn child_elements(&self) -> Element {
@@ -1369,8 +1369,8 @@ impl IconShape for Flag2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Flag2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Flag2Line;
 
 impl IconShape for Flag2Line {
     fn child_elements(&self) -> Element {
@@ -1384,8 +1384,8 @@ impl IconShape for Flag2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagFill;
 
 impl IconShape for FlagFill {
     fn child_elements(&self) -> Element {
@@ -1399,8 +1399,8 @@ impl IconShape for FlagFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagLine;
 
 impl IconShape for FlagLine {
     fn child_elements(&self) -> Element {
@@ -1414,8 +1414,8 @@ impl IconShape for FlagLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagOffFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagOffFill;
 
 impl IconShape for FlagOffFill {
     fn child_elements(&self) -> Element {
@@ -1429,8 +1429,8 @@ impl IconShape for FlagOffFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct FlagOffLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct FlagOffLine;
 
 impl IconShape for FlagOffLine {
     fn child_elements(&self) -> Element {
@@ -1444,8 +1444,8 @@ impl IconShape for FlagOffLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobalFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobalFill;
 
 impl IconShape for GlobalFill {
     fn child_elements(&self) -> Element {
@@ -1459,8 +1459,8 @@ impl IconShape for GlobalFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobalLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobalLine;
 
 impl IconShape for GlobalLine {
     fn child_elements(&self) -> Element {
@@ -1474,8 +1474,8 @@ impl IconShape for GlobalLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobalOffFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobalOffFill;
 
 impl IconShape for GlobalOffFill {
     fn child_elements(&self) -> Element {
@@ -1489,8 +1489,8 @@ impl IconShape for GlobalOffFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct GlobalOffLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct GlobalOffLine;
 
 impl IconShape for GlobalOffLine {
     fn child_elements(&self) -> Element {
@@ -1504,8 +1504,8 @@ impl IconShape for GlobalOffLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HonourFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HonourFill;
 
 impl IconShape for HonourFill {
     fn child_elements(&self) -> Element {
@@ -1519,8 +1519,8 @@ impl IconShape for HonourFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct HonourLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct HonourLine;
 
 impl IconShape for HonourLine {
     fn child_elements(&self) -> Element {
@@ -1534,8 +1534,8 @@ impl IconShape for HonourLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IdCardFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IdCardFill;
 
 impl IconShape for IdCardFill {
     fn child_elements(&self) -> Element {
@@ -1549,8 +1549,8 @@ impl IconShape for IdCardFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct IdCardLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct IdCardLine;
 
 impl IconShape for IdCardLine {
     fn child_elements(&self) -> Element {
@@ -1564,8 +1564,8 @@ impl IconShape for IdCardLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Inbox2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Inbox2Fill;
 
 impl IconShape for Inbox2Fill {
     fn child_elements(&self) -> Element {
@@ -1579,8 +1579,8 @@ impl IconShape for Inbox2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Inbox2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Inbox2Line;
 
 impl IconShape for Inbox2Line {
     fn child_elements(&self) -> Element {
@@ -1594,8 +1594,8 @@ impl IconShape for Inbox2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InboxArchiveFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InboxArchiveFill;
 
 impl IconShape for InboxArchiveFill {
     fn child_elements(&self) -> Element {
@@ -1609,8 +1609,8 @@ impl IconShape for InboxArchiveFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InboxArchiveLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InboxArchiveLine;
 
 impl IconShape for InboxArchiveLine {
     fn child_elements(&self) -> Element {
@@ -1624,8 +1624,8 @@ impl IconShape for InboxArchiveLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InboxFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InboxFill;
 
 impl IconShape for InboxFill {
     fn child_elements(&self) -> Element {
@@ -1639,8 +1639,8 @@ impl IconShape for InboxFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InboxLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InboxLine;
 
 impl IconShape for InboxLine {
     fn child_elements(&self) -> Element {
@@ -1654,8 +1654,8 @@ impl IconShape for InboxLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InboxUnarchiveFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InboxUnarchiveFill;
 
 impl IconShape for InboxUnarchiveFill {
     fn child_elements(&self) -> Element {
@@ -1669,8 +1669,8 @@ impl IconShape for InboxUnarchiveFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InboxUnarchiveLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InboxUnarchiveLine;
 
 impl IconShape for InboxUnarchiveLine {
     fn child_elements(&self) -> Element {
@@ -1684,8 +1684,8 @@ impl IconShape for InboxUnarchiveLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InfoCardFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InfoCardFill;
 
 impl IconShape for InfoCardFill {
     fn child_elements(&self) -> Element {
@@ -1699,8 +1699,8 @@ impl IconShape for InfoCardFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct InfoCardLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct InfoCardLine;
 
 impl IconShape for InfoCardLine {
     fn child_elements(&self) -> Element {
@@ -1714,8 +1714,8 @@ impl IconShape for InfoCardLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LineChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LineChartFill;
 
 impl IconShape for LineChartFill {
     fn child_elements(&self) -> Element {
@@ -1729,8 +1729,8 @@ impl IconShape for LineChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LineChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LineChartLine;
 
 impl IconShape for LineChartLine {
     fn child_elements(&self) -> Element {
@@ -1744,8 +1744,8 @@ impl IconShape for LineChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinksFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinksFill;
 
 impl IconShape for LinksFill {
     fn child_elements(&self) -> Element {
@@ -1759,8 +1759,8 @@ impl IconShape for LinksFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct LinksLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct LinksLine;
 
 impl IconShape for LinksLine {
     fn child_elements(&self) -> Element {
@@ -1774,8 +1774,8 @@ impl IconShape for LinksLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailAddFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailAddFill;
 
 impl IconShape for MailAddFill {
     fn child_elements(&self) -> Element {
@@ -1789,8 +1789,8 @@ impl IconShape for MailAddFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailAddLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailAddLine;
 
 impl IconShape for MailAddLine {
     fn child_elements(&self) -> Element {
@@ -1804,8 +1804,8 @@ impl IconShape for MailAddLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailAiFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailAiFill;
 
 impl IconShape for MailAiFill {
     fn child_elements(&self) -> Element {
@@ -1819,8 +1819,8 @@ impl IconShape for MailAiFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailAiLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailAiLine;
 
 impl IconShape for MailAiLine {
     fn child_elements(&self) -> Element {
@@ -1834,8 +1834,8 @@ impl IconShape for MailAiLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailCheckFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailCheckFill;
 
 impl IconShape for MailCheckFill {
     fn child_elements(&self) -> Element {
@@ -1849,8 +1849,8 @@ impl IconShape for MailCheckFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailCheckLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailCheckLine;
 
 impl IconShape for MailCheckLine {
     fn child_elements(&self) -> Element {
@@ -1864,8 +1864,8 @@ impl IconShape for MailCheckLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailCloseFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailCloseFill;
 
 impl IconShape for MailCloseFill {
     fn child_elements(&self) -> Element {
@@ -1879,8 +1879,8 @@ impl IconShape for MailCloseFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailCloseLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailCloseLine;
 
 impl IconShape for MailCloseLine {
     fn child_elements(&self) -> Element {
@@ -1894,8 +1894,8 @@ impl IconShape for MailCloseLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailDownloadFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailDownloadFill;
 
 impl IconShape for MailDownloadFill {
     fn child_elements(&self) -> Element {
@@ -1909,8 +1909,8 @@ impl IconShape for MailDownloadFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailDownloadLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailDownloadLine;
 
 impl IconShape for MailDownloadLine {
     fn child_elements(&self) -> Element {
@@ -1924,8 +1924,8 @@ impl IconShape for MailDownloadLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailFill;
 
 impl IconShape for MailFill {
     fn child_elements(&self) -> Element {
@@ -1939,8 +1939,8 @@ impl IconShape for MailFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailForbidFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailForbidFill;
 
 impl IconShape for MailForbidFill {
     fn child_elements(&self) -> Element {
@@ -1954,8 +1954,8 @@ impl IconShape for MailForbidFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailForbidLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailForbidLine;
 
 impl IconShape for MailForbidLine {
     fn child_elements(&self) -> Element {
@@ -1969,8 +1969,8 @@ impl IconShape for MailForbidLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailLine;
 
 impl IconShape for MailLine {
     fn child_elements(&self) -> Element {
@@ -1984,8 +1984,8 @@ impl IconShape for MailLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailLockFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailLockFill;
 
 impl IconShape for MailLockFill {
     fn child_elements(&self) -> Element {
@@ -1999,8 +1999,8 @@ impl IconShape for MailLockFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailLockLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailLockLine;
 
 impl IconShape for MailLockLine {
     fn child_elements(&self) -> Element {
@@ -2014,8 +2014,8 @@ impl IconShape for MailLockLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailOpenFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailOpenFill;
 
 impl IconShape for MailOpenFill {
     fn child_elements(&self) -> Element {
@@ -2029,8 +2029,8 @@ impl IconShape for MailOpenFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailOpenLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailOpenLine;
 
 impl IconShape for MailOpenLine {
     fn child_elements(&self) -> Element {
@@ -2044,8 +2044,8 @@ impl IconShape for MailOpenLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailSendFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailSendFill;
 
 impl IconShape for MailSendFill {
     fn child_elements(&self) -> Element {
@@ -2059,8 +2059,8 @@ impl IconShape for MailSendFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailSendLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailSendLine;
 
 impl IconShape for MailSendLine {
     fn child_elements(&self) -> Element {
@@ -2074,8 +2074,8 @@ impl IconShape for MailSendLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailSettingsFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailSettingsFill;
 
 impl IconShape for MailSettingsFill {
     fn child_elements(&self) -> Element {
@@ -2089,8 +2089,8 @@ impl IconShape for MailSettingsFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailSettingsLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailSettingsLine;
 
 impl IconShape for MailSettingsLine {
     fn child_elements(&self) -> Element {
@@ -2104,8 +2104,8 @@ impl IconShape for MailSettingsLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailStarFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailStarFill;
 
 impl IconShape for MailStarFill {
     fn child_elements(&self) -> Element {
@@ -2119,8 +2119,8 @@ impl IconShape for MailStarFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailStarLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailStarLine;
 
 impl IconShape for MailStarLine {
     fn child_elements(&self) -> Element {
@@ -2134,8 +2134,8 @@ impl IconShape for MailStarLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailUnreadFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailUnreadFill;
 
 impl IconShape for MailUnreadFill {
     fn child_elements(&self) -> Element {
@@ -2149,8 +2149,8 @@ impl IconShape for MailUnreadFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailUnreadLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailUnreadLine;
 
 impl IconShape for MailUnreadLine {
     fn child_elements(&self) -> Element {
@@ -2164,8 +2164,8 @@ impl IconShape for MailUnreadLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailVolumeFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailVolumeFill;
 
 impl IconShape for MailVolumeFill {
     fn child_elements(&self) -> Element {
@@ -2179,8 +2179,8 @@ impl IconShape for MailVolumeFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MailVolumeLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MailVolumeLine;
 
 impl IconShape for MailVolumeLine {
     fn child_elements(&self) -> Element {
@@ -2194,8 +2194,8 @@ impl IconShape for MailVolumeLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Medal2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Medal2Fill;
 
 impl IconShape for Medal2Fill {
     fn child_elements(&self) -> Element {
@@ -2209,8 +2209,8 @@ impl IconShape for Medal2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Medal2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Medal2Line;
 
 impl IconShape for Medal2Line {
     fn child_elements(&self) -> Element {
@@ -2224,8 +2224,8 @@ impl IconShape for Medal2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MedalFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MedalFill;
 
 impl IconShape for MedalFill {
     fn child_elements(&self) -> Element {
@@ -2239,8 +2239,8 @@ impl IconShape for MedalFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MedalLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MedalLine;
 
 impl IconShape for MedalLine {
     fn child_elements(&self) -> Element {
@@ -2254,8 +2254,8 @@ impl IconShape for MedalLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Megaphone2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Megaphone2Fill;
 
 impl IconShape for Megaphone2Fill {
     fn child_elements(&self) -> Element {
@@ -2269,8 +2269,8 @@ impl IconShape for Megaphone2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Megaphone2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Megaphone2Line;
 
 impl IconShape for Megaphone2Line {
     fn child_elements(&self) -> Element {
@@ -2284,8 +2284,8 @@ impl IconShape for Megaphone2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MegaphoneFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MegaphoneFill;
 
 impl IconShape for MegaphoneFill {
     fn child_elements(&self) -> Element {
@@ -2299,8 +2299,8 @@ impl IconShape for MegaphoneFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct MegaphoneLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct MegaphoneLine;
 
 impl IconShape for MegaphoneLine {
     fn child_elements(&self) -> Element {
@@ -2314,8 +2314,8 @@ impl IconShape for MegaphoneLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PassExpiredFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PassExpiredFill;
 
 impl IconShape for PassExpiredFill {
     fn child_elements(&self) -> Element {
@@ -2329,8 +2329,8 @@ impl IconShape for PassExpiredFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PassExpiredLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PassExpiredLine;
 
 impl IconShape for PassExpiredLine {
     fn child_elements(&self) -> Element {
@@ -2344,8 +2344,8 @@ impl IconShape for PassExpiredLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PassPendingFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PassPendingFill;
 
 impl IconShape for PassPendingFill {
     fn child_elements(&self) -> Element {
@@ -2359,8 +2359,8 @@ impl IconShape for PassPendingFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PassPendingLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PassPendingLine;
 
 impl IconShape for PassPendingLine {
     fn child_elements(&self) -> Element {
@@ -2374,8 +2374,8 @@ impl IconShape for PassPendingLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PassValidFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PassValidFill;
 
 impl IconShape for PassValidFill {
     fn child_elements(&self) -> Element {
@@ -2389,8 +2389,8 @@ impl IconShape for PassValidFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PassValidLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PassValidLine;
 
 impl IconShape for PassValidLine {
     fn child_elements(&self) -> Element {
@@ -2404,8 +2404,8 @@ impl IconShape for PassValidLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChart2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChart2Fill;
 
 impl IconShape for PieChart2Fill {
     fn child_elements(&self) -> Element {
@@ -2419,8 +2419,8 @@ impl IconShape for PieChart2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChart2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChart2Line;
 
 impl IconShape for PieChart2Line {
     fn child_elements(&self) -> Element {
@@ -2434,8 +2434,8 @@ impl IconShape for PieChart2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChartBoxFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChartBoxFill;
 
 impl IconShape for PieChartBoxFill {
     fn child_elements(&self) -> Element {
@@ -2449,8 +2449,8 @@ impl IconShape for PieChartBoxFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChartBoxLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChartBoxLine;
 
 impl IconShape for PieChartBoxLine {
     fn child_elements(&self) -> Element {
@@ -2464,8 +2464,8 @@ impl IconShape for PieChartBoxLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChartFill;
 
 impl IconShape for PieChartFill {
     fn child_elements(&self) -> Element {
@@ -2479,8 +2479,8 @@ impl IconShape for PieChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PieChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PieChartLine;
 
 impl IconShape for PieChartLine {
     fn child_elements(&self) -> Element {
@@ -2494,8 +2494,8 @@ impl IconShape for PieChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PresentationFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PresentationFill;
 
 impl IconShape for PresentationFill {
     fn child_elements(&self) -> Element {
@@ -2509,8 +2509,8 @@ impl IconShape for PresentationFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PresentationLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PresentationLine;
 
 impl IconShape for PresentationLine {
     fn child_elements(&self) -> Element {
@@ -2524,8 +2524,8 @@ impl IconShape for PresentationLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrinterCloudFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrinterCloudFill;
 
 impl IconShape for PrinterCloudFill {
     fn child_elements(&self) -> Element {
@@ -2539,8 +2539,8 @@ impl IconShape for PrinterCloudFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrinterCloudLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrinterCloudLine;
 
 impl IconShape for PrinterCloudLine {
     fn child_elements(&self) -> Element {
@@ -2554,8 +2554,8 @@ impl IconShape for PrinterCloudLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrinterFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrinterFill;
 
 impl IconShape for PrinterFill {
     fn child_elements(&self) -> Element {
@@ -2569,8 +2569,8 @@ impl IconShape for PrinterFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct PrinterLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct PrinterLine;
 
 impl IconShape for PrinterLine {
     fn child_elements(&self) -> Element {
@@ -2584,8 +2584,8 @@ impl IconShape for PrinterLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProfileFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProfileFill;
 
 impl IconShape for ProfileFill {
     fn child_elements(&self) -> Element {
@@ -2599,8 +2599,8 @@ impl IconShape for ProfileFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProfileLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProfileLine;
 
 impl IconShape for ProfileLine {
     fn child_elements(&self) -> Element {
@@ -2614,8 +2614,8 @@ impl IconShape for ProfileLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Projector2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Projector2Fill;
 
 impl IconShape for Projector2Fill {
     fn child_elements(&self) -> Element {
@@ -2629,8 +2629,8 @@ impl IconShape for Projector2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Projector2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Projector2Line;
 
 impl IconShape for Projector2Line {
     fn child_elements(&self) -> Element {
@@ -2644,8 +2644,8 @@ impl IconShape for Projector2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProjectorFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProjectorFill;
 
 impl IconShape for ProjectorFill {
     fn child_elements(&self) -> Element {
@@ -2659,8 +2659,8 @@ impl IconShape for ProjectorFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ProjectorLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ProjectorLine;
 
 impl IconShape for ProjectorLine {
     fn child_elements(&self) -> Element {
@@ -2674,8 +2674,8 @@ impl IconShape for ProjectorLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RecordMailFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RecordMailFill;
 
 impl IconShape for RecordMailFill {
     fn child_elements(&self) -> Element {
@@ -2689,8 +2689,8 @@ impl IconShape for RecordMailFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RecordMailLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RecordMailLine;
 
 impl IconShape for RecordMailLine {
     fn child_elements(&self) -> Element {
@@ -2704,8 +2704,8 @@ impl IconShape for RecordMailLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RegisteredFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RegisteredFill;
 
 impl IconShape for RegisteredFill {
     fn child_elements(&self) -> Element {
@@ -2719,8 +2719,8 @@ impl IconShape for RegisteredFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct RegisteredLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct RegisteredLine;
 
 impl IconShape for RegisteredLine {
     fn child_elements(&self) -> Element {
@@ -2734,8 +2734,8 @@ impl IconShape for RegisteredLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReplyAllFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReplyAllFill;
 
 impl IconShape for ReplyAllFill {
     fn child_elements(&self) -> Element {
@@ -2749,8 +2749,8 @@ impl IconShape for ReplyAllFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReplyAllLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReplyAllLine;
 
 impl IconShape for ReplyAllLine {
     fn child_elements(&self) -> Element {
@@ -2764,8 +2764,8 @@ impl IconShape for ReplyAllLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReplyFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReplyFill;
 
 impl IconShape for ReplyFill {
     fn child_elements(&self) -> Element {
@@ -2779,8 +2779,8 @@ impl IconShape for ReplyFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ReplyLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ReplyLine;
 
 impl IconShape for ReplyLine {
     fn child_elements(&self) -> Element {
@@ -2794,8 +2794,8 @@ impl IconShape for ReplyLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SendInsFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SendInsFill;
 
 impl IconShape for SendInsFill {
     fn child_elements(&self) -> Element {
@@ -2809,8 +2809,8 @@ impl IconShape for SendInsFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SendInsLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SendInsLine;
 
 impl IconShape for SendInsLine {
     fn child_elements(&self) -> Element {
@@ -2824,8 +2824,8 @@ impl IconShape for SendInsLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SendPlane2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SendPlane2Fill;
 
 impl IconShape for SendPlane2Fill {
     fn child_elements(&self) -> Element {
@@ -2839,8 +2839,8 @@ impl IconShape for SendPlane2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SendPlane2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SendPlane2Line;
 
 impl IconShape for SendPlane2Line {
     fn child_elements(&self) -> Element {
@@ -2854,8 +2854,8 @@ impl IconShape for SendPlane2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SendPlaneFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SendPlaneFill;
 
 impl IconShape for SendPlaneFill {
     fn child_elements(&self) -> Element {
@@ -2869,8 +2869,8 @@ impl IconShape for SendPlaneFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SendPlaneLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SendPlaneLine;
 
 impl IconShape for SendPlaneLine {
     fn child_elements(&self) -> Element {
@@ -2884,8 +2884,8 @@ impl IconShape for SendPlaneLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SeoFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SeoFill;
 
 impl IconShape for SeoFill {
     fn child_elements(&self) -> Element {
@@ -2899,8 +2899,8 @@ impl IconShape for SeoFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SeoLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SeoLine;
 
 impl IconShape for SeoLine {
     fn child_elements(&self) -> Element {
@@ -2914,8 +2914,8 @@ impl IconShape for SeoLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ServiceFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ServiceFill;
 
 impl IconShape for ServiceFill {
     fn child_elements(&self) -> Element {
@@ -2929,8 +2929,8 @@ impl IconShape for ServiceFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ServiceLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ServiceLine;
 
 impl IconShape for ServiceLine {
     fn child_elements(&self) -> Element {
@@ -2944,8 +2944,8 @@ impl IconShape for ServiceLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShakeHandsFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShakeHandsFill;
 
 impl IconShape for ShakeHandsFill {
     fn child_elements(&self) -> Element {
@@ -2959,8 +2959,8 @@ impl IconShape for ShakeHandsFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct ShakeHandsLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct ShakeHandsLine;
 
 impl IconShape for ShakeHandsLine {
     fn child_elements(&self) -> Element {
@@ -2974,8 +2974,8 @@ impl IconShape for ShakeHandsLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slideshow2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slideshow2Fill;
 
 impl IconShape for Slideshow2Fill {
     fn child_elements(&self) -> Element {
@@ -2989,8 +2989,8 @@ impl IconShape for Slideshow2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slideshow2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slideshow2Line;
 
 impl IconShape for Slideshow2Line {
     fn child_elements(&self) -> Element {
@@ -3004,8 +3004,8 @@ impl IconShape for Slideshow2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slideshow3Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slideshow3Fill;
 
 impl IconShape for Slideshow3Fill {
     fn child_elements(&self) -> Element {
@@ -3019,8 +3019,8 @@ impl IconShape for Slideshow3Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slideshow3Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slideshow3Line;
 
 impl IconShape for Slideshow3Line {
     fn child_elements(&self) -> Element {
@@ -3034,8 +3034,8 @@ impl IconShape for Slideshow3Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slideshow4Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slideshow4Fill;
 
 impl IconShape for Slideshow4Fill {
     fn child_elements(&self) -> Element {
@@ -3049,8 +3049,8 @@ impl IconShape for Slideshow4Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Slideshow4Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Slideshow4Line;
 
 impl IconShape for Slideshow4Line {
     fn child_elements(&self) -> Element {
@@ -3064,8 +3064,8 @@ impl IconShape for Slideshow4Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlideshowFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlideshowFill;
 
 impl IconShape for SlideshowFill {
     fn child_elements(&self) -> Element {
@@ -3079,8 +3079,8 @@ impl IconShape for SlideshowFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct SlideshowLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct SlideshowLine;
 
 impl IconShape for SlideshowLine {
     fn child_elements(&self) -> Element {
@@ -3094,8 +3094,8 @@ impl IconShape for SlideshowLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackFill;
 
 impl IconShape for StackFill {
     fn child_elements(&self) -> Element {
@@ -3109,8 +3109,8 @@ impl IconShape for StackFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackLine;
 
 impl IconShape for StackLine {
     fn child_elements(&self) -> Element {
@@ -3124,8 +3124,8 @@ impl IconShape for StackLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackedChartFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackedChartFill;
 
 impl IconShape for StackedChartFill {
     fn child_elements(&self) -> Element {
@@ -3139,8 +3139,8 @@ impl IconShape for StackedChartFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct StackedChartLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct StackedChartLine;
 
 impl IconShape for StackedChartLine {
     fn child_elements(&self) -> Element {
@@ -3154,8 +3154,8 @@ impl IconShape for StackedChartLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrademarkFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrademarkFill;
 
 impl IconShape for TrademarkFill {
     fn child_elements(&self) -> Element {
@@ -3169,8 +3169,8 @@ impl IconShape for TrademarkFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TrademarkLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TrademarkLine;
 
 impl IconShape for TrademarkLine {
     fn child_elements(&self) -> Element {
@@ -3184,8 +3184,8 @@ impl IconShape for TrademarkLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TriangularFlagFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TriangularFlagFill;
 
 impl IconShape for TriangularFlagFill {
     fn child_elements(&self) -> Element {
@@ -3199,8 +3199,8 @@ impl IconShape for TriangularFlagFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct TriangularFlagLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct TriangularFlagLine;
 
 impl IconShape for TriangularFlagLine {
     fn child_elements(&self) -> Element {
@@ -3214,8 +3214,8 @@ impl IconShape for TriangularFlagLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VerifiedBadgeFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VerifiedBadgeFill;
 
 impl IconShape for VerifiedBadgeFill {
     fn child_elements(&self) -> Element {
@@ -3229,8 +3229,8 @@ impl IconShape for VerifiedBadgeFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct VerifiedBadgeLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct VerifiedBadgeLine;
 
 impl IconShape for VerifiedBadgeLine {
     fn child_elements(&self) -> Element {
@@ -3244,8 +3244,8 @@ impl IconShape for VerifiedBadgeLine {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Window2Fill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Window2Fill;
 
 impl IconShape for Window2Fill {
     fn child_elements(&self) -> Element {
@@ -3259,8 +3259,8 @@ impl IconShape for Window2Fill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct Window2Line {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct Window2Line;
 
 impl IconShape for Window2Line {
     fn child_elements(&self) -> Element {
@@ -3274,8 +3274,8 @@ impl IconShape for Window2Line {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WindowFill {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WindowFill;
 
 impl IconShape for WindowFill {
     fn child_elements(&self) -> Element {
@@ -3289,8 +3289,8 @@ impl IconShape for WindowFill {
 
 }
 
-#[derive(Copy, Clone, PartialEq)]
-pub struct WindowLine {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct WindowLine;
 
 impl IconShape for WindowLine {
     fn child_elements(&self) -> Element {
