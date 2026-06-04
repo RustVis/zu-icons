@@ -1,5 +1,5 @@
 use inflections::Inflect;
-use scraper::{ElementRef, Html, node::Element};
+use scraper::{node::Element, ElementRef, Html};
 
 const TEMPLATE_FILE: &str = include_str!("template.rs");
 
@@ -63,7 +63,7 @@ fn convert_svg_child_name(name: &str) -> Option<String> {
         return None;
     }
     // Ignores specific attributes
-    let skipped_names = &["fill", "p-id"];
+    let skipped_names = &["p-id"];
     if skipped_names.contains(&name) {
         return None;
     }
