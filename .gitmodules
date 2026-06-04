@@ -37,3 +37,6 @@
 [submodule "icons/game-icons"]
 	path = icons/game-icons
 	url = https://github.com/game-icons/icons
+[submodule "icons/RemixIcon"]
+	path = icons/RemixIcon
+	url = https://github.com/Remix-Design/RemixIcon
