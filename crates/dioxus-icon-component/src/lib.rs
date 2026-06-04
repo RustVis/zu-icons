@@ -25,13 +25,26 @@ pub trait IconShape: Clone + PartialEq + 'static {
     const HEIGHT: Option<&'static str> = None;
 
     /// Default fill color of the SVG element.
-    const FILL: Option<&'static str> = None;
+    const FILL: Option<&'static str> = Some("currentColor");
 
     /// Default stroke color of the SVG element.
     const STROKE: Option<&'static str> = None;
 
+    /// Default stroke width of the SVG element (e.g., "2").
+    const STROKE_WIDTH: Option<&'static str> = None;
+
+    /// Default stroke line cap style (e.g., "round", "butt", "square").
+    const STROKE_LINE_CAP: Option<&'static str> = None;
+
+    /// Default stroke line join style (e.g., "round", "miter", "bevel").
+    const STROKE_LINE_JOIN: Option<&'static str> = None;
+
     /// Default view box string (e.g., "0 0 24 24").
     const VIEW_BOX: Option<&'static str> = None;
+
+    /// Default XML namespace for the SVG element.
+    /// Falls back to `"http://www.w3.org/2000/svg"` if not set.
+    const XMLNS: Option<&'static str> = Some("http://www.w3.org/2000/svg");
 }
 
 /// Props for the `Icon` component.
@@ -45,9 +58,10 @@ pub struct IconProps<T: IconShape> {
 
     /// Optional title text rendered as a `<title>` element inside the SVG for accessibility.
     #[props(default = None)]
-    // TODO(Shaohua): Remove and replace with aria-name/aria-label
     pub title: Option<&'static str>,
 
+    /// Additional HTML/SVG global attributes to spread onto the `<svg>` element.
+    /// Allows passing standard attributes like `id`, `aria-*`, event handlers, etc.
     #[props(extends = GlobalAttributes)]
     pub attributes: Vec<Attribute>,
 }
@@ -61,17 +75,13 @@ pub fn Icon<T: IconShape>(props: IconProps<T>) -> Element {
         svg {
             width: T::WIDTH,
             height: T::HEIGHT,
-            view_box: if let Some(view_box_text) = T::VIEW_BOX {
-                view_box_text
-            } else {
-                "0 0 16 16"
-            },
-            xmlns: "http://www.w3.org/2000/svg",
-            fill: if let Some(fill_text) = T::FILL {
-                fill_text
-            } else {
-                "currentColor"
-            },
+            fill: T::FILL,
+            stroke: T::STROKE,
+            stroke_width: T::STROKE_WIDTH,
+            stroke_linecap: T::STROKE_LINE_CAP,
+            stroke_linejoin: T::STROKE_LINE_JOIN,
+            view_box: T::VIEW_BOX,
+            xmlns: T::XMLNS,
 
             ..props.attributes,
 

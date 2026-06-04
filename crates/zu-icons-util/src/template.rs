@@ -1,6 +1,6 @@
 
-#[derive(Copy, Clone, PartialEq, Eq)]
-pub struct {ICON_NAME} {}
+#[derive(Default, Copy, Clone, PartialEq, Eq)]
+pub struct {ICON_NAME};
 
 impl IconShape for {ICON_NAME} {
     fn child_elements(&self) -> Element {

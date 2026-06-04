@@ -15,7 +15,7 @@ members = [
   "crates/dioxus-icons-grommet",
   "crates/dioxus-icons-hero",
   "crates/dioxus-icons-ionic",
-#  "crates/dioxus-icons-line-awesome",
+  "crates/dioxus-icons-line-awesome",
   "crates/dioxus-icons-lucide",
   "crates/dioxus-icons-oct",
   "crates/dioxus-icons-phosphor",

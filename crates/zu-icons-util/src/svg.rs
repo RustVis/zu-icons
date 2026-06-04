@@ -18,6 +18,9 @@ pub struct SvgObject {
     pub height: Option<String>,
     pub fill: Option<String>,
     pub stroke: Option<String>,
+    pub stroke_width: Option<String>,
+    pub stroke_line_cap: Option<String>,
+    pub stroke_line_join: Option<String>,
     pub children: String,
 }
 
@@ -55,6 +58,9 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
     let height = svg_element.attr("height").map(String::from);
     let fill = svg_element.attr("fill").map(String::from);
     let stroke = svg_element.attr("stroke").map(String::from);
+    let stroke_width = svg_element.attr("stroke-width").map(String::from);
+    let stroke_line_cap = svg_element.attr("stroke-linecap").map(String::from);
+    let stroke_line_join = svg_element.attr("stroke-linejoin").map(String::from);
 
     let children = extract_svg_child_elements(child_elements);
 
@@ -65,6 +71,9 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
         height,
         fill,
         stroke,
+        stroke_width,
+        stroke_line_cap,
+        stroke_line_join,
         children,
     })
 }
@@ -151,10 +160,10 @@ pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &Sv
         format!("    const TITLE: Option<&'static str> = Some(\"{t}\");\n")
     });
     let width = svg_obj.width.as_ref().map_or(String::new(), |w| {
-        format!("    const WIDTH: Option<u32> = Some({w});\n")
+        format!("    const WIDTH: Option<&'static str> = Some(\"{w}\");\n")
     });
     let height = svg_obj.height.as_ref().map_or(String::new(), |h| {
-        format!("    const HEIGHT: Option<u32> = Some({h});\n")
+        format!("    const HEIGHT: Option<&'static str> = Some(\"{h}\");\n")
     });
     let fill = svg_obj.fill.as_ref().map_or(String::new(), |f| {
         format!("    const FILL: Option<&'static str> = Some(\"{f}\");\n")
@@ -162,10 +171,22 @@ pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &Sv
     let stroke = svg_obj.stroke.as_ref().map_or(String::new(), |s| {
         format!("    const STROKE: Option<&'static str> = Some(\"{s}\");\n")
     });
+    let stroke_width = svg_obj.stroke_width.as_ref().map_or(String::new(), |s| {
+        format!("    const STROKE_WIDTH: Option<&'static str> = Some(\"{s}\");\n")
+    });
+    let stroke_line_cap = svg_obj.stroke_line_cap.as_ref().map_or(String::new(), |s| {
+        format!("    const STROKE_LINE_CAP: Option<&'static str> = Some(\"{s}\");\n")
+    });
+    let stroke_line_join = svg_obj.stroke_line_join.as_ref().map_or(String::new(), |s| {
+        format!("    const STROKE_LINE_JOIN: Option<&'static str> = Some(\"{s}\");\n")
+    });
     let view_box = svg_obj.view_box.as_ref().map_or(String::new(), |v| {
         format!("    const VIEW_BOX: Option<&'static str> = Some(\"{v}\");\n")
     });
-    let other_props = [title, width, height, fill, stroke, view_box].join("");
+    let xmlns = svg_obj.xmlns.as_ref().map_or(String::new(), |v| {
+        format!("    const XMLNS: Option<&'static str> = Some(\"{v}\");\n")
+    });
+    let other_props = [title, width, height, fill, stroke, stroke_width, stroke_line_cap, stroke_line_join, view_box, xmlns].join("");
     TEMPLATE_FILE
         .replace("{ICON_NAME}", node_name)
         .replace("{ICON_PATH}", &svg_obj.children)
