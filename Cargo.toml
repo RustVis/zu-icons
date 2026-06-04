@@ -8,6 +8,7 @@ members = [
   "crates/dioxus-icons-feather",
   "crates/dioxus-icons-hero",
   "crates/dioxus-icons-lucide",
+  "crates/dioxus-icons-vsc",
   "crates/zu-icons-util",
 ]
 

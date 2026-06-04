@@ -1,0 +1,28 @@
+[package]
+name = "dioxus-icons-vsc"
+version = "0.1.0"
+documentation = "https://docs.rs/dioxus-icons-vsc"
+description = "Visual Studio Code icons for dioxus framework"
+keywords = ["web", "wasm", "icons", "vscode", "dioxus"]
+readme = "README.md"
+
+authors.workspace = true
+categories.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+publish.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+dioxus.workspace = true
+dioxus-icon-component.workspace = true
+
+[build-dependencies]
+anyhow.workspace = true
+inflections.workspace = true
+zu-icons-util.workspace = true
+
+[lints]
+workspace = true
