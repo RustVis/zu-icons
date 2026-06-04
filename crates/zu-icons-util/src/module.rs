@@ -79,8 +79,8 @@ pub fn build_variant_icons(
 
         let stem_str = map_filename(stem_str, remapping_names);
         // let data_name = &stem_str;
-        let node_name = stem_str.to_pascal_case();
-        let module_name = stem_str.to_snake_case();
+        let node_name = to_node_name(&stem_str);
+        let module_name = to_module_name(&stem_str);
 
         let svg_content = fs::read_to_string(&path)?;
         if let Some(svg_obj) = parse_svg_content(&svg_content) {
@@ -127,7 +127,32 @@ pub fn build_variant_icons(
 /// assert_eq!(to_module_name("Games & Sports"), "games_sports");
 /// ```
 pub fn to_module_name(dir_name: &str) -> String {
-    dir_name.replace("&", "").replace("  ", " ").to_snake_case()
+    dir_name
+        .replace("&", "")
+        .replace("  ", " ")
+        .replace("__", "_")
+        .to_snake_case()
+}
+
+/// Convert a directory name to a valid Rust PascalCase node/component name.
+///
+/// Strips `&` characters, collapses double spaces, and converts the result
+/// to `PascalCase`. This is used when generating a Dioxus component name
+/// from an SVG filename or variant directory name.
+///
+/// # Example
+///
+/// ```
+/// # use zu_icons_util::module::to_node_name;
+/// assert_eq!(to_node_name("Games & Sports"), "GamesSports");
+/// assert_eq!(to_node_name("fork_&_knife"), "ForkKnife");
+/// ```
+pub fn to_node_name(dir_name: &str) -> String {
+    dir_name
+        .replace("&", "")
+        .replace("  ", " ")
+        .replace("__", "_")
+        .to_pascal_case()
 }
 
 /// Build icon source files from a flat directory of SVG files.
@@ -167,8 +192,8 @@ pub fn build_icons(base_dir: &str, remapping_names: &[&str]) -> Result<(), Error
 
         let stem_str = map_filename(stem_str, remapping_names);
         // let data_name = &stem_str;
-        let node_name = stem_str.to_pascal_case();
-        let module_name = stem_str.to_snake_case();
+        let node_name = to_node_name(&stem_str);
+        let module_name = to_module_name(&stem_str);
 
         let svg_content = fs::read_to_string(&path)?;
         if let Some(svg_obj) = parse_svg_content(&svg_content) {
@@ -207,5 +232,11 @@ mod tests {
     #[test]
     fn test_to_module_name_games_sports() {
         assert_eq!(to_module_name("Games & Sports"), "games_sports");
+    }
+
+    #[test]
+    fn test_to_node_name_games_sports() {
+        assert_eq!(to_node_name("Games & Sports"), "GamesSports");
+        assert_eq!(to_node_name("fork_&_knife"), "ForkKnife");
     }
 }
