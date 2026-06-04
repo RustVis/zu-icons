@@ -46,3 +46,6 @@
 [submodule "icons/phosphor-icons"]
 	path = icons/phosphor-icons
 	url = https://github.com/phosphor-icons/core
+[submodule "icons/grommet-icons"]
+	path = icons/grommet-icons
+	url = https://github.com/grommet/grommet-icons
