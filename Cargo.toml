@@ -13,6 +13,7 @@ members = [
   "crates/dioxus-icons-ionic",
   "crates/dioxus-icons-lucide",
   "crates/dioxus-icons-oct",
+  "crates/dioxus-icons-radix",
   "crates/dioxus-icons-simple",
   "crates/dioxus-icons-tabler",
   "crates/dioxus-icons-vsc",
