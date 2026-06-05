@@ -58,3 +58,6 @@
 [submodule "icons/box-icons"]
 	path = icons/box-icons
 	url = https://github.com/box-icons/boxicons
+[submodule "icons/material-design-icons"]
+	path = icons/material-design-icons
+	url = https://github.com/google/material-design-icons
