@@ -85,8 +85,9 @@ fn test_generate_component() {
     let svg_obj = parse_svg_content(svg_content).expect("valid svg");
     let component = generate_svg_component("Twitch", None, &svg_obj);
 
-    // Struct definition
-    assert!(component.contains("pub struct Twitch {}"));
+    // Struct definition (unit struct with derive)
+    assert!(component.contains("pub struct Twitch;"));
+    assert!(component.contains("#[derive(Default, Copy, Clone, PartialEq, Eq)]"));
     assert!(component.contains("impl IconShape for Twitch"));
 
     // All child elements (only those with attributes)

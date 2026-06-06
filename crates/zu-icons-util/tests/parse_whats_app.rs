@@ -69,9 +69,9 @@ fn test_generate_component() {
     let svg_obj = parse_svg_content(svg_content).expect("valid svg");
     let component = generate_svg_component("WhatsApp", None, &svg_obj);
 
-    // Struct definition
-    assert!(component.contains("pub struct WhatsApp {}"));
-    assert!(component.contains("#[derive(Copy, Clone, PartialEq)]"));
+    // Struct definition (unit struct with derive)
+    assert!(component.contains("pub struct WhatsApp;"));
+    assert!(component.contains("#[derive(Default, Copy, Clone, PartialEq, Eq)]"));
 
     // Impl block
     assert!(component.contains("impl IconShape for WhatsApp"));
@@ -83,8 +83,8 @@ fn test_generate_component() {
     assert!(!component.contains("p_id:"));
 
     // Extracted SVG attributes
-    assert!(component.contains("const WIDTH: Option<u32> = Some(200);"));
-    assert!(component.contains("const HEIGHT: Option<u32> = Some(200);"));
+    assert!(component.contains("const WIDTH: Option<&'static str> = Some(\"200\");"));
+    assert!(component.contains("const HEIGHT: Option<&'static str> = Some(\"200\");"));
     assert!(component.contains("const VIEW_BOX: Option<&'static str> = Some(\"0 0 1024 1024\");"));
 
     // No title, no fill, no stroke
