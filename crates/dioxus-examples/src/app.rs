@@ -1,6 +1,7 @@
 use dioxus::prelude::*;
 
 use crate::pages::ant_page::AntPage;
+use crate::pages::bootstrap_page::BootstrapPage;
 use crate::pages::circum_page::CircumPage;
 use crate::pages::home_page::Home;
 
@@ -14,6 +15,8 @@ pub enum Route {
     AntPage {},
     #[route("/dioxus-icons-circum")]
     CircumPage {},
+    #[route("/dioxus-icons-bootstrap")]
+    BootstrapPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -42,6 +45,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::AntPage {},
                 "Ant Icons"
+            }
+            Link {
+                to: Route::BootstrapPage {},
+                "Bootstrap Icons"
             }
             Link {
                 to: Route::CircumPage {},
