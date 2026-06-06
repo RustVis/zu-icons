@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-dev"
-version = "0.2.0"
+version = "0.2.1"
 documentation = "https://docs.rs/dioxus-icons-dev"
 description = "Devicons for dioxus framework"
 keywords = ["web", "wasm", "icons", "devicons", "dioxus"]
