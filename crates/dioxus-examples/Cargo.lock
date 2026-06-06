@@ -698,6 +698,7 @@ dependencies = [
  "dioxus-icons-lucide",
  "dioxus-icons-md",
  "dioxus-icons-oct",
+ "dioxus-icons-phosphor",
 ]
 
 [[package]]
@@ -1011,6 +1012,16 @@ dependencies = [
 [[package]]
 name = "dioxus-icons-oct"
 version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-phosphor"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "dioxus",
