@@ -16,6 +16,7 @@ rust-version = "1.88"
 [dependencies]
 dioxus = { version = "0.7.9", features = ["router", "web"] }
 dioxus-icons-ant = { path = "../dioxus-icons-ant" }
+dioxus-icons-bs = { path = "../dioxus-icons-bs" }
 dioxus-icons-circum = { path = "../dioxus-icons-circum" }
 
 [profile.release]
