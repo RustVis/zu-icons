@@ -700,6 +700,8 @@ dependencies = [
  "dioxus-icons-oct",
  "dioxus-icons-phosphor",
  "dioxus-icons-radix",
+ "dioxus-icons-remix",
+ "dioxus-icons-simple",
 ]
 
 [[package]]
@@ -1032,7 +1034,27 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-radix"
-version = "0.2.0"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-remix"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-simple"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "dioxus",

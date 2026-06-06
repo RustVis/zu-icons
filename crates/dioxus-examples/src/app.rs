@@ -19,6 +19,7 @@ use crate::pages::octicon_page::OcticonPage;
 use crate::pages::phosphor_page::PhosphorPage;
 use crate::pages::radix_page::RadixPage;
 use crate::pages::remix_page::RemixPage;
+use crate::pages::simple_page::SimplePage;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -62,6 +63,8 @@ pub enum Route {
     RadixPage {},
     #[route("/dioxus-icons-remix")]
     RemixPage {},
+    #[route("/dioxus-icons-simple")]
+    SimplePage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -158,6 +161,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::RemixPage {},
                 "Remix Icons"
+            }
+            Link {
+                to: Route::SimplePage {},
+                "Simple Icons"
             }
         }
 
