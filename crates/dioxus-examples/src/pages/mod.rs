@@ -1,2 +1,1 @@
-mod ant_page;
-pub use ant_page::AntPage;
+pub mod ant_page;
