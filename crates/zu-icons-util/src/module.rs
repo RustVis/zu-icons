@@ -22,6 +22,7 @@ pub use dioxus_icon_component::{Icon, IconProps, IconShape};
 
 ";
 
+#[must_use]
 pub fn map_filename(name: &str, remapping_names: &[&str]) -> String {
     if remapping_names.contains(&name) {
         return format!("icon-{name}");
