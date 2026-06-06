@@ -696,6 +696,7 @@ dependencies = [
  "dioxus-icons-ionic",
  "dioxus-icons-line-awesome",
  "dioxus-icons-lucide",
+ "dioxus-icons-md",
 ]
 
 [[package]]
@@ -988,7 +989,17 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-lucide"
-version = "0.2.0"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-md"
+version = "0.1.0"
 dependencies = [
  "anyhow",
  "dioxus",
