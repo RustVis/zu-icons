@@ -1,3 +1,7 @@
+// Copyright (c) 2024 Xu Shaohua <shaohua@biofan.org>. All rights reserved.
+// Use of this source is governed by Apache-2.0 License
+// that can be found in the LICENSE file.
+
 use inflections::Inflect;
 use scraper::{ElementRef, Html, node::Element};
 
@@ -37,7 +41,9 @@ pub fn parse_svg_content(svg_content: &str) -> Option<SvgObject> {
         .tree
         .nodes()
         .filter_map(|node| {
-            if node.value().is_element() && let Some(element) = ElementRef::wrap(node) {
+            if node.value().is_element()
+                && let Some(element) = ElementRef::wrap(node)
+            {
                 let element = element.value();
                 if !element.attrs.is_empty() {
                     return Some(element);
@@ -177,16 +183,31 @@ pub fn generate_svg_component(node_name: &str, title: Option<&str>, svg_obj: &Sv
     let stroke_line_cap = svg_obj.stroke_line_cap.as_ref().map_or(String::new(), |s| {
         format!("    const STROKE_LINE_CAP: Option<&'static str> = Some(\"{s}\");\n")
     });
-    let stroke_line_join = svg_obj.stroke_line_join.as_ref().map_or(String::new(), |s| {
-        format!("    const STROKE_LINE_JOIN: Option<&'static str> = Some(\"{s}\");\n")
-    });
+    let stroke_line_join = svg_obj
+        .stroke_line_join
+        .as_ref()
+        .map_or(String::new(), |s| {
+            format!("    const STROKE_LINE_JOIN: Option<&'static str> = Some(\"{s}\");\n")
+        });
     let view_box = svg_obj.view_box.as_ref().map_or(String::new(), |v| {
         format!("    const VIEW_BOX: Option<&'static str> = Some(\"{v}\");\n")
     });
     let xmlns = svg_obj.xmlns.as_ref().map_or(String::new(), |v| {
         format!("    const XMLNS: Option<&'static str> = Some(\"{v}\");\n")
     });
-    let other_props = [title, width, height, fill, stroke, stroke_width, stroke_line_cap, stroke_line_join, view_box, xmlns].join("");
+    let other_props = [
+        title,
+        width,
+        height,
+        fill,
+        stroke,
+        stroke_width,
+        stroke_line_cap,
+        stroke_line_join,
+        view_box,
+        xmlns,
+    ]
+    .join("");
     TEMPLATE_FILE
         .replace("{ICON_NAME}", node_name)
         .replace("{ICON_PATH}", &svg_obj.children)
