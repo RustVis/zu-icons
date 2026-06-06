@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-md"
-version = "0.1.0"
+version = "0.1.1"
 documentation = "https://docs.rs/dioxus-icons-md"
 description = "Material design icons for dioxus framework"
 keywords = ["wasm", "icons", "md", "material-design", "dioxus"]
