@@ -21,6 +21,7 @@ dioxus-icons-bs = { path = "../dioxus-icons-bs" }
 dioxus-icons-circum = { path = "../dioxus-icons-circum" }
 dioxus-icons-dev = { path = "../dioxus-icons-dev" }
 dioxus-icons-fa = { path = "../dioxus-icons-fa" }
+dioxus-icons-feather = { path = "../dioxus-icons-feather" }
 
 [profile.release]
 lto = true
