@@ -691,6 +691,7 @@ dependencies = [
  "dioxus-icons-fa",
  "dioxus-icons-feather",
  "dioxus-icons-game",
+ "dioxus-icons-grommet",
 ]
 
 [[package]]
@@ -933,7 +934,17 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-game"
-version = "0.2.1"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-grommet"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "dioxus",

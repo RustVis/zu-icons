@@ -23,6 +23,7 @@ dioxus-icons-dev = { path = "../dioxus-icons-dev" }
 dioxus-icons-fa = { path = "../dioxus-icons-fa" }
 dioxus-icons-feather = { path = "../dioxus-icons-feather" }
 dioxus-icons-game = { path = "../dioxus-icons-game" }
+dioxus-icons-grommet = { path = "../dioxus-icons-grommet" }
 
 [profile.release]
 lto = true
