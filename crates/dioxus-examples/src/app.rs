@@ -4,6 +4,7 @@ use crate::pages::ant_page::AntPage;
 use crate::pages::bootstrap_page::BootstrapPage;
 use crate::pages::box_page::BoxPage;
 use crate::pages::circum_page::CircumPage;
+use crate::pages::dev_page::DevPage;
 use crate::pages::home_page::Home;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
@@ -20,6 +21,8 @@ pub enum Route {
     CircumPage {},
     #[route("/dioxus-icons-bootstrap")]
     BootstrapPage {},
+    #[route("/dioxus-icons-dev")]
+    DevPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -60,6 +63,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::CircumPage {},
                 "Circum Icons"
+            }
+            Link {
+                to: Route::DevPage {},
+                "Dev Icons"
             }
         }
 

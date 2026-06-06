@@ -19,6 +19,7 @@ dioxus-icons-ant = { path = "../dioxus-icons-ant", default-features = false, fea
 dioxus-icons-box = { path = "../dioxus-icons-box" }
 dioxus-icons-bs = { path = "../dioxus-icons-bs" }
 dioxus-icons-circum = { path = "../dioxus-icons-circum" }
+dioxus-icons-dev = { path = "../dioxus-icons-dev" }
 
 [profile.release]
 lto = true
