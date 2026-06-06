@@ -32,6 +32,7 @@ dioxus-icons-md = { path = "../dioxus-icons-md" }
 dioxus-icons-oct = { path = "../dioxus-icons-oct" }
 dioxus-icons-phosphor = { path = "../dioxus-icons-phosphor" }
 dioxus-icons-radix = { path = "../dioxus-icons-radix" }
+dioxus-icons-remix = { path = "../dioxus-icons-remix" }
 
 [profile.release]
 lto = true
