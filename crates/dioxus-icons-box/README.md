@@ -7,7 +7,7 @@
 ![Minimum rustc version](https://img.shields.io/badge/rustc-1.88+-green.svg)
 ![License](https://img.shields.io/crates/l/dioxus-icons-box.svg)
 
-Ant Design icons for dioxus framework
+[Box icons](https://github.com/box-icons/boxicons) for dioxus framework
 
 - [Document](https://docs.rs/dioxus-icons-box)
 
@@ -33,8 +33,6 @@ fn page() -> Element {
         h1 { "Using box icons" }
 
         Icon {
-            width: "32",
-            height: "32",
             icon: BxlAdobe 
         }
     }

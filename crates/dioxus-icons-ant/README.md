@@ -7,7 +7,7 @@
 ![Minimum rustc version](https://img.shields.io/badge/rustc-1.88+-green.svg)
 ![License](https://img.shields.io/crates/l/dioxus-icons-ant.svg)
 
-Ant Design icons for dioxus framework
+[Ant Design icons](https://github.com/ant-design/ant-design-icons) for dioxus framework
 
 - [Document](https://docs.rs/dioxus-icons-ant)
 

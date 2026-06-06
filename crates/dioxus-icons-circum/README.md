@@ -7,7 +7,7 @@
 ![Minimum rustc version](https://img.shields.io/badge/rustc-1.88+-green.svg)
 ![License](https://img.shields.io/crates/l/dioxus-icons-circum.svg)
 
-Circum icons for dioxus framework
+[Circum icons](https://github.com/Klarr-Agency/Circum-icons) for dioxus framework
 
 - [Document](https://docs.rs/dioxus-icons-circum)
 
@@ -50,4 +50,4 @@ This project is licensed under the Apache-2.0 license.
 
 Icon Library|License|Version
 ---|---|---
-[Circum Icons](github.com/Klarr-Agency/Circum-icons)|[MPL-2.0 License](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE)|[2.0.2](https://github.com/Klarr-Agency/Circum-Icons/commit/cec1364b5199f55e946a9a8360385a958b98cc60)
+[Circum Icons](https://github.com/Klarr-Agency/Circum-icons)|[MPL-2.0 License](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE)|[2.0.2](https://github.com/Klarr-Agency/Circum-Icons/commit/cec1364b5199f55e946a9a8360385a958b98cc60)

@@ -7,7 +7,7 @@
 ![Minimum rustc version](https://img.shields.io/badge/rustc-1.88+-green.svg)
 ![License](https://img.shields.io/crates/l/dioxus-icons-bs.svg)
 
-Bootstrap icons for dioxus
+[Bootstrap icons](https://github.com/twbs/icons) for dioxus
 
 - [Document](https://docs.rs/dioxus-icons-bs)
 
@@ -32,8 +32,6 @@ fn page() -> Element {
         h1 { "Using bs design icons" }
 
         Icon {
-            width: "32",
-            height: "32",
             icon: Airplane
         }
     }
