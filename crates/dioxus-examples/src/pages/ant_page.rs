@@ -1,7 +1,8 @@
 use dioxus::prelude::*;
 
-use dioxus_icons_ant::Icon;
-use dioxus_icons_ant::filled::{AccountBook, Alert, AlipayCircle, AlipaySquare, Aliwangwang};
+use dioxus_icons_ant::filled;
+use dioxus_icons_ant::outlined;
+use dioxus_icons_ant::{Icon, twotone};
 
 /// Ant Icons page
 #[component]
@@ -9,7 +10,10 @@ pub fn AntPage() -> Element {
     rsx! {
         div {
             id: "ant-icons",
+
             h1 { "Ant Design icons for Dioxus." }
+
+            h2 { "Filled" }
 
             div {
                 display: "flex",
@@ -24,7 +28,7 @@ pub fn AntPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: AccountBook,
+                        icon: filled::AccountBook,
                     }
                     span { "AccountBook" }
                 }
@@ -36,7 +40,7 @@ pub fn AntPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: Alert,
+                        icon: filled::Alert,
                     }
                     span { "Alert" }
                 }
@@ -48,7 +52,7 @@ pub fn AntPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: AlipayCircle,
+                        icon: filled::AlipayCircle,
                     }
                     span { "AlipayCircle" }
                 }
@@ -60,7 +64,7 @@ pub fn AntPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: AlipaySquare,
+                        icon: filled::AlipaySquare,
                     }
                     span { "AlipaySquare" }
                 }
@@ -72,9 +76,147 @@ pub fn AntPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: Aliwangwang,
+                        icon: filled::Aliwangwang,
                     }
                     span { "Aliwangwang" }
+                }
+            }
+
+            h2 { "Outlined" }
+
+            div {
+                display: "flex",
+                flex_direction: "row",
+                gap: "24px",
+                flex_wrap: "wrap",
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: outlined::AccountBook,
+                    }
+                    span { "AccountBook" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: outlined::Alert,
+                    }
+                    span { "Alert" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: outlined::Appstore,
+                    }
+                    span { "Appstore" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: outlined::Bell,
+                    }
+                    span { "Bell" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: outlined::Book,
+                    }
+                    span { "Book" }
+                }
+            }
+
+            h2 { "Twotone" }
+
+            div {
+                display: "flex",
+                flex_direction: "row",
+                gap: "24px",
+                flex_wrap: "wrap",
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: twotone::AccountBook,
+                    }
+                    span { "AccountBook" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: twotone::Alert,
+                    }
+                    span { "Alert" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: twotone::Api,
+                    }
+                    span { "Api" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: twotone::Appstore,
+                    }
+                    span { "Appstore" }
+                }
+
+                div {
+                    display: "flex",
+                    flex_direction: "column",
+                    align_items: "center",
+                    Icon {
+                        width: "32",
+                        height: "32",
+                        icon: twotone::Audio,
+                    }
+                    span { "Audio" }
                 }
             }
         }

@@ -1,9 +1,6 @@
 use dioxus::prelude::*;
 
-use dioxus_icons_box::Icon;
-use dioxus_icons_box::logos::{BxlAdobe, BxlAirbnb, BxlAmazon, BxlAndroid, BxlApple};
-use dioxus_icons_box::regular::{BxAlarm, BxAlbum, BxAnchor, BxArchive, BxCalendar};
-use dioxus_icons_box::solid::{BxsAlarm, BxsAlbum, BxsAmbulance, BxsArchive, BxsCalendar};
+use dioxus_icons_box::{Icon, logos, regular, solid};
 
 /// Box Icons page
 #[component]
@@ -29,7 +26,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxAlarm,
+                        icon: regular::BxAlarm,
                     }
                     span { "BxAlarm" }
                 }
@@ -41,7 +38,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxAlbum,
+                        icon: regular::BxAlbum,
                     }
                     span { "BxAlbum" }
                 }
@@ -53,7 +50,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxAnchor,
+                        icon: regular::BxAnchor,
                     }
                     span { "BxAnchor" }
                 }
@@ -65,7 +62,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxArchive,
+                        icon: regular::BxArchive,
                     }
                     span { "BxArchive" }
                 }
@@ -77,7 +74,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxCalendar,
+                        icon: regular::BxCalendar,
                     }
                     span { "BxCalendar" }
                 }
@@ -98,7 +95,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxsAlarm,
+                        icon: solid::BxsAlarm,
                     }
                     span { "BxsAlarm" }
                 }
@@ -110,7 +107,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxsAlbum,
+                        icon: solid::BxsAlbum,
                     }
                     span { "BxsAlbum" }
                 }
@@ -122,7 +119,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxsAmbulance,
+                        icon: solid::BxsAmbulance,
                     }
                     span { "BxsAmbulance" }
                 }
@@ -134,7 +131,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxsArchive,
+                        icon: solid::BxsArchive,
                     }
                     span { "BxsArchive" }
                 }
@@ -146,7 +143,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxsCalendar,
+                        icon: solid::BxsCalendar,
                     }
                     span { "BxsCalendar" }
                 }
@@ -167,7 +164,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxlAdobe,
+                        icon: logos::BxlAdobe,
                     }
                     span { "BxlAdobe" }
                 }
@@ -179,7 +176,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxlAirbnb,
+                        icon: logos::BxlAirbnb,
                     }
                     span { "BxlAirbnb" }
                 }
@@ -191,7 +188,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxlAmazon,
+                        icon: logos::BxlAmazon,
                     }
                     span { "BxlAmazon" }
                 }
@@ -203,7 +200,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxlAndroid,
+                        icon: logos::BxlAndroid,
                     }
                     span { "BxlAndroid" }
                 }
@@ -215,7 +212,7 @@ pub fn BoxPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: BxlApple,
+                        icon: logos::BxlApple,
                     }
                     span { "BxlApple" }
                 }

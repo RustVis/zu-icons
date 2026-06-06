@@ -2,6 +2,7 @@ use dioxus::prelude::*;
 
 use crate::pages::ant_page::AntPage;
 use crate::pages::bootstrap_page::BootstrapPage;
+use crate::pages::box_page::BoxPage;
 use crate::pages::circum_page::CircumPage;
 use crate::pages::home_page::Home;
 
@@ -13,6 +14,8 @@ pub enum Route {
     Home {},
     #[route("/dioxus-icons-ant")]
     AntPage {},
+    #[route("/dioxus-icons-box")]
+    BoxPage {},
     #[route("/dioxus-icons-circum")]
     CircumPage {},
     #[route("/dioxus-icons-bootstrap")]
@@ -45,6 +48,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::AntPage {},
                 "Ant Icons"
+            }
+            Link {
+                to: Route::BoxPage {},
+                "Box Icons"
             }
             Link {
                 to: Route::BootstrapPage {},
