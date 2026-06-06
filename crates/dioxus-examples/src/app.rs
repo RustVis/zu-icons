@@ -15,6 +15,7 @@ use crate::pages::ionic_page::IonicPage;
 use crate::pages::line_awesome_page::LineAwesomePage;
 use crate::pages::lucide_page::LucidePage;
 use crate::pages::material_page::MaterialPage;
+use crate::pages::octicon_page::OcticonPage;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -50,6 +51,8 @@ pub enum Route {
     LucidePage {},
     #[route("/dioxus-icons-md")]
     MaterialPage {},
+    #[route("/dioxus-icons-oct")]
+    OcticonPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -130,6 +133,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::MaterialPage {},
                 "Material Icons"
+            }
+            Link {
+                to: Route::OcticonPage {},
+                "Octicon Icons"
             }
         }
 

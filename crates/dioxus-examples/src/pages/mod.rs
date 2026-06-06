@@ -13,3 +13,4 @@ pub mod ionic_page;
 pub mod line_awesome_page;
 pub mod lucide_page;
 pub mod material_page;
+pub mod octicon_page;
