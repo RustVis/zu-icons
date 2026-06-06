@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-line-awesome"
-version = "0.2.0"
+version = "0.2.1"
 documentation = "https://docs.rs/dioxus-icons-line-awesome"
 description = "Icon8 Line awesome icons for dioxus framework"
 keywords = ["web", "wasm", "icon8", "line-awesome", "dioxus"]
