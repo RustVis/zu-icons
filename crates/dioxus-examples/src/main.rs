@@ -3,6 +3,7 @@ use dioxus::prelude::*;
 mod pages;
 
 use pages::ant_page::AntPage;
+use pages::circum_page::CircumPage;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -12,6 +13,8 @@ enum Route {
     Home {},
     #[route("/dioxus-icons-ant")]
     AntPage {},
+    #[route("/dioxus-icons-circum")]
+    CircumPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -64,6 +67,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::AntPage {},
                 "Ant Icons"
+            }
+            Link {
+                to: Route::CircumPage {},
+                "Circum Icons"
             }
         }
 

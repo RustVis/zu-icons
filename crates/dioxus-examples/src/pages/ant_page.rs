@@ -9,8 +9,7 @@ pub fn AntPage() -> Element {
     rsx! {
         div {
             id: "ant-icons",
-            h1 { "Dioxus Icons - Ant Design" }
-            p { "Ant Design icons for Dioxus." }
+            h1 { "Ant Design icons for Dioxus" }
 
             div {
                 display: "flex",
