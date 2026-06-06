@@ -15,3 +15,4 @@ pub mod lucide_page;
 pub mod material_page;
 pub mod octicon_page;
 pub mod phosphor_page;
+pub mod radix_page;
