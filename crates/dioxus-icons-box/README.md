@@ -9,7 +9,7 @@
 
 Ant Design icons for dioxus framework
 
-- [Documentation](https://docs.rs/dioxus-icons-box)
+- [Document](https://docs.rs/dioxus-icons-box)
 
 ## Example
 
