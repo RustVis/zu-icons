@@ -14,6 +14,7 @@ Ant Design icons for dioxus framework
 ## Example
 
 First add to dependencies:
+
 ```toml
 [dependencies]
 dioxus-icons-box = { "0.2" }
@@ -24,7 +25,7 @@ Then use svg icon component container and icon paths
 ```rust
 use dioxus::prelude::*;
 use dioxus_icons_box::Icon;
-use dioxus_icons_box::solid::BxsAddToQueue;
+use dioxus_icons_box::logos::BxlAdobe;
 
 #[comonent]
 fn page() -> Element {
@@ -34,7 +35,7 @@ fn page() -> Element {
         Icon {
             width: "32",
             height: "32",
-            icon: BxsAddToQueue
+            icon: BxlAdobe 
         }
     }
 }
@@ -50,4 +51,4 @@ This project is licensed under the Apache-2.0 license.
 
 Icon Library|License|Version
 ---|---|---
-[Box Icons](https://github.com/box-design/box-design-icons)|[MIT License](https://github.com/box-design/box-design-icons/blob/master/LICENSE)|[6.2.3](https://github.com/box-design/box-design-icons/commit/64ae08f55b6b4cf589854e276ceea0951b69432d)
+[Box Icons](https://github.com/box-icons/boxicons)|[MIT License](https://github.com/box-icons/boxicons/blob/main/LICENSE)|[2.1.4](https://github.com/box-icons/boxicons/commit/9ffa9136e8681886bb7bd2145cd4098717ce1c11)
