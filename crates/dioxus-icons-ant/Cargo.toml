@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-ant"
-version = "0.2.0"
+version = "0.2.1"
 documentation = "https://docs.rs/dioxus-icons-ant"
 description = "Ant Design icons for dioxus framework"
 keywords = ["web", "wasm", "icons", "ant-design", "dioxus"]
