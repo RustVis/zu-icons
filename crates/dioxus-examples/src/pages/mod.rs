@@ -11,3 +11,4 @@ pub mod hero_page;
 pub mod home_page;
 pub mod ionic_page;
 pub mod line_awesome_page;
+pub mod lucide_page;
