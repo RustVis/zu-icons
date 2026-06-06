@@ -21,6 +21,7 @@ use crate::pages::radix_page::RadixPage;
 use crate::pages::remix_page::RemixPage;
 use crate::pages::simple_page::SimplePage;
 use crate::pages::tabler_page::TablerPage;
+use crate::pages::vsc_page::VscPage;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -68,6 +69,8 @@ pub enum Route {
     SimplePage {},
     #[route("/dioxus-icons-tabler")]
     TablerPage {},
+    #[route("/dioxus-icons-vsc")]
+    VscPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -172,6 +175,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::TablerPage {},
                 "Tabler Icons"
+            }
+            Link {
+                to: Route::VscPage {},
+                "VSC Icons"
             }
         }
 

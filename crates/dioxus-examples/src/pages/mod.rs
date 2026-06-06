@@ -19,3 +19,4 @@ pub mod radix_page;
 pub mod remix_page;
 pub mod simple_page;
 pub mod tabler_page;
+pub mod vsc_page;
