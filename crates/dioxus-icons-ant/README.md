@@ -1,13 +1,15 @@
 
 # About
 
-Ant Design icons for dioxus framework
-
 [![Latest version](https://img.shields.io/crates/v/dioxus-icons-ant.svg)](https://crates.io/crates/dioxus-icons-ant)
 ![Build status](https://github.com/RustVis/zu-icons/actions/workflows/ci.yml/badge.svg)
 [![Documentation](https://docs.rs/dioxus-icons-ant/badge.svg)](https://docs.rs/dioxus-icons-ant)
 ![Minimum rustc version](https://img.shields.io/badge/rustc-1.88+-green.svg)
 ![License](https://img.shields.io/crates/l/dioxus-icons-ant.svg)
+
+Ant Design icons for dioxus framework
+
+- [Documentation](https://docs.rs/dioxus-icons-ant)
 
 ## Example
 
