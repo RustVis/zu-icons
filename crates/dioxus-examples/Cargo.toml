@@ -20,6 +20,7 @@ dioxus-icons-box = { path = "../dioxus-icons-box" }
 dioxus-icons-bs = { path = "../dioxus-icons-bs" }
 dioxus-icons-circum = { path = "../dioxus-icons-circum" }
 dioxus-icons-dev = { path = "../dioxus-icons-dev" }
+dioxus-icons-fa = { path = "../dioxus-icons-fa" }
 
 [profile.release]
 lto = true

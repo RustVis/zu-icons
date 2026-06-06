@@ -688,6 +688,7 @@ dependencies = [
  "dioxus-icons-bs",
  "dioxus-icons-circum",
  "dioxus-icons-dev",
+ "dioxus-icons-fa",
 ]
 
 [[package]]
@@ -900,7 +901,17 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-dev"
-version = "0.2.0"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-fa"
+version = "0.2.1"
 dependencies = [
  "anyhow",
  "dioxus",
