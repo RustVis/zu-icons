@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-circum"
-version = "0.2.1"
+version = "0.2.2"
 documentation = "https://docs.rs/dioxus-icons-circum"
 description = "Circum icons for dioxus framework"
 keywords = ["web", "wasm", "icons", "circum", "dioxus"]
