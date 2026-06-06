@@ -9,6 +9,7 @@ use crate::pages::fa_page::FaPage;
 use crate::pages::feather_page::FeatherPage;
 use crate::pages::game_page::GamePage;
 use crate::pages::grommet_page::GrommetPage;
+use crate::pages::hero_page::HeroPage;
 use crate::pages::home_page::Home;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
@@ -35,6 +36,8 @@ pub enum Route {
     GamePage {},
     #[route("/dioxus-icons-grommet")]
     GrommetPage {},
+    #[route("/dioxus-icons-hero")]
+    HeroPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -95,6 +98,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::GrommetPage {},
                 "Grommet Icons"
+            }
+            Link {
+                to: Route::HeroPage {},
+                "Hero Icons"
             }
         }
 

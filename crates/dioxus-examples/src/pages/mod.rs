@@ -7,4 +7,5 @@ pub mod fa_page;
 pub mod feather_page;
 pub mod game_page;
 pub mod grommet_page;
+pub mod hero_page;
 pub mod home_page;
