@@ -1,50 +1,102 @@
-# Development
+# Dioxus Icons Demo
 
-Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
+A demo application showcasing icon packs for the [Dioxus](https://dioxuslabs.com/learn/0.7) framework.
+
+## Supported Icon Packs
+
+| Page | Icon Crate | Description |
+|------|-----------|-------------|
+| Ant Icons | `dioxus-icons-ant` | Ant Design icons (filled, outlined, twotone) |
+| Box Icons | `dioxus-icons-box` | Box Icons |
+| Bootstrap Icons | `dioxus-icons-bs` | Bootstrap icons |
+| Circum Icons | `dioxus-icons-circum` | Circum icons |
+| Dev Icons | `dioxus-icons-dev` | Devicons |
+| FA Icons | `dioxus-icons-fa` | Font Awesome icons |
+| Feather Icons | `dioxus-icons-feather` | Feather icons |
+| Game Icons | `dioxus-icons-game` | Game icons |
+| Grommet Icons | `dioxus-icons-grommet` | Grommet icons |
+| Hero Icons | `dioxus-icons-hero` | Heroicons |
+| Ionic Icons | `dioxus-icons-ionic` | Ionicons |
+| Line Awesome Icons | `dioxus-icons-line-awesome` | Line Awesome icons |
+| Lucide Icons | `dioxus-icons-lucide` | Lucide icons |
+| Material Icons | `dioxus-icons-md` | Material Design icons |
+| Octicon Icons | `dioxus-icons-oct` | GitHub Octicons |
+| Phosphor Icons | `dioxus-icons-phosphor` | Phosphor icons |
+| Radix Icons | `dioxus-icons-radix` | Radix UI icons |
+| Remix Icons | `dioxus-icons-remix` | Remix icons |
+| Simple Icons | `dioxus-icons-simple` | Simple Icons (brand/technology SVGs) |
+| Tabler Icons | `dioxus-icons-tabler` | Tabler icons (outline, filled) |
+| VSC Icons | `dioxus-icons-vsc` | VS Code codicons |
+
+## Project Structure
 
 ```
 project/
-├─ assets/ # Any assets that are used by the app should be placed here
+├─ assets/          # Static assets (favicon, CSS, header)
 ├─ src/
-│  ├─ main.rs # main.rs is the entry point to your application and currently contains all components for the app
-├─ Cargo.toml # The Cargo.toml file defines the dependencies and feature flags for your project
+│  ├─ main.rs       # Entry point
+│  ├─ app.rs        # Router, layout, navbar
+│  ├─ pages/
+│  │  ├─ mod.rs
+│  │  ├─ home_page.rs
+│  │  ├─ ant_page.rs
+│  │  ├─ bootstrap_page.rs
+│  │  ├─ box_page.rs
+│  │  ├─ circum_page.rs
+│  │  ├─ dev_page.rs
+│  │  ├─ fa_page.rs
+│  │  ├─ feather_page.rs
+│  │  ├─ game_page.rs
+│  │  ├─ grommet_page.rs
+│  │  ├─ hero_page.rs
+│  │  ├─ ionic_page.rs
+│  │  ├─ line_awesome_page.rs
+│  │  ├─ lucide_page.rs
+│  │  ├─ material_page.rs
+│  │  ├─ octicon_page.rs
+│  │  ├─ phosphor_page.rs
+│  │  ├─ radix_page.rs
+│  │  ├─ remix_page.rs
+│  │  ├─ simple_page.rs
+│  │  ├─ tabler_page.rs
+│  │  └─ vsc_page.rs
+├─ Cargo.toml
+├─ Dioxus.toml
+└─ tailwind.css
 ```
 
-### Automatic Tailwind (Dioxus 0.7+)
+## Getting Started
 
-As of Dioxus 0.7, there no longer is a need to manually install tailwind. Simply `dx serve` and you're good to go!
+### Prerequisites
 
-Automatic tailwind is supported by checking for a file called `tailwind.css` in your app's manifest directory (next to Cargo.toml). To customize the file, use the dioxus.toml:
-
-```toml
-[application]
-tailwind_input = "my.css"
-tailwind_output = "assets/out.css" # also customize the location of the out file!
-```
-
-### Tailwind Manual Install
-
-To use tailwind plugins or manually customize tailwind, you can can install the Tailwind CLI and use it directly.
-
-### Tailwind
-1. Install npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
-2. Install the Tailwind CSS CLI: https://tailwindcss.com/docs/installation/tailwind-cli
-3. Run the following command in the root of the project to start the Tailwind CSS compiler:
+Install the Dioxus CLI:
 
 ```bash
-npx @tailwindcss/cli -i ./input.css -o ./assets/tailwind.css --watch
+curl -sSL http://dioxus.dev/install.sh | sh
 ```
 
-### Serving Your App
+### Serve
 
-Run the following command in the root of your project to start developing with the default platform:
+Run the following command to start the development server:
 
 ```bash
 dx serve
 ```
 
-To run for a different platform, use the `--platform platform` flag. E.g.
+To run for a different platform:
+
 ```bash
 dx serve --platform desktop
 ```
 
+### Tailwind CSS
+
+As of Dioxus 0.7, Tailwind is processed automatically. A `tailwind.css` file in the project root is detected automatically by `dx serve`.
+
+To customize, edit `tailwind.css` or configure `Dioxus.toml`:
+
+```toml
+[application]
+tailwind_input = "tailwind.css"
+tailwind_output = "assets/out.css"
+```
