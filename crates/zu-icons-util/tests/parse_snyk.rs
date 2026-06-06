@@ -3,13 +3,11 @@ use zu_icons_util::svg::{generate_svg_component, parse_svg_content};
 #[test]
 fn test_parse_svg() {
     let svg_content = include_str!("devicons/snyk.svg");
-    let result = parse_svg_content(svg_content);
-    assert!(
-        result.is_some(),
-        "parse_svg_content should return Some for valid SVG"
-    );
-
-    let svg_obj = result.unwrap();
+    let svg_obj = parse_svg_content(svg_content);
+    assert!(svg_obj.is_some());
+    let Some(svg_obj) = svg_obj else {
+        return;
+    };
 
     // SVG element attributes
     assert_eq!(svg_obj.view_box.as_deref(), Some("0 0 600 600"));
@@ -49,6 +47,7 @@ fn test_parse_svg() {
 #[test]
 fn test_generate_component() {
     let svg_content = include_str!("devicons/snyk.svg");
+    #[allow(clippy::expect_used)]
     let svg_obj = parse_svg_content(svg_content).expect("valid svg");
     let component = generate_svg_component("Snyk", None, &svg_obj);
 
