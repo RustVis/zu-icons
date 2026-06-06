@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-box"
-version = "0.2.1"
+version = "0.2.2"
 documentation = "https://docs.rs/dioxus-icons-box"
 description = "Box icons for dioxus framework"
 keywords = ["web", "wasm", "icons", "box", "dioxus"]
