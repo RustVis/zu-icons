@@ -8,7 +8,7 @@ use inflections::Inflect;
 
 use crate::svg::{generate_svg_component, parse_svg_content};
 
-const MOD_HEADER: &str = r"// Auto Generated! DO NOT EDIT!
+pub const MOD_HEADER: &str = r"// Auto Generated! DO NOT EDIT!
 
 use dioxus::prelude::*;
 
@@ -22,7 +22,7 @@ pub use dioxus_icon_component::{Icon, IconProps, IconShape};
 
 ";
 
-fn map_filename(name: &str, remapping_names: &[&str]) -> String {
+pub fn map_filename(name: &str, remapping_names: &[&str]) -> String {
     if remapping_names.contains(&name) {
         return format!("icon-{name}");
     }
@@ -30,10 +30,10 @@ fn map_filename(name: &str, remapping_names: &[&str]) -> String {
 }
 
 #[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
-struct ModuleInfo {
-    module_name: String,
-    node_name: String,
-    module_content: String,
+pub struct ModuleInfo {
+    pub module_name: String,
+    pub node_name: String,
+    pub module_content: String,
 }
 
 /// Generate icon rs files for all variant directories.
