@@ -60,6 +60,34 @@ pub struct IconProps<T: IconShape> {
     #[props(default = None)]
     pub title: Option<&'static str>,
 
+    /// Default width of the SVG element in pixels.
+    #[props(default = None)]
+    pub width: Option<&'static str>,
+
+    /// Default height of the SVG element in pixels.
+    #[props(default = None)]
+    pub height: Option<&'static str>,
+
+    /// Default fill color of the SVG element.
+    #[props(default = None)]
+    pub fill: Option<&'static str>,
+
+    /// Default stroke color of the SVG element.
+    #[props(default = None)]
+    pub stroke: Option<&'static str>,
+
+    /// Default stroke width of the SVG element (e.g., "2").
+    #[props(default = None)]
+    pub stroke_width: Option<&'static str>,
+
+    /// Default stroke line cap style (e.g., "round", "butt", "square").
+    #[props(default = None)]
+    pub stroke_line_cap: Option<&'static str>,
+
+    /// Default stroke line join style (e.g., "round", "miter", "bevel").
+    #[props(default = None)]
+    pub stroke_line_join: Option<&'static str>,
+
     /// Additional HTML/SVG global attributes to spread onto the `<svg>` element.
     /// Allows passing standard attributes like `id`, `aria-*`, event handlers, etc.
     #[props(extends = GlobalAttributes)]
@@ -73,13 +101,41 @@ pub struct IconProps<T: IconShape> {
 pub fn Icon<T: IconShape>(props: IconProps<T>) -> Element {
     rsx! {
         svg {
-            width: T::WIDTH,
-            height: T::HEIGHT,
-            fill: T::FILL,
-            stroke: T::STROKE,
-            stroke_width: T::STROKE_WIDTH,
-            stroke_linecap: T::STROKE_LINE_CAP,
-            stroke_linejoin: T::STROKE_LINE_JOIN,
+            width: if props.width.is_some() {
+                props.width
+            } else {
+                T::WIDTH
+            },
+            height: if props.height.is_some() {
+                props.height
+            } else {
+                T::HEIGHT
+            },
+            fill: if props.fill.is_some() {
+                props.fill
+            } else {
+                T::FILL
+            },
+            stroke: if props.stroke.is_some() {
+                props.stroke
+            } else {
+                T::STROKE
+            },
+            stroke_width: if props.stroke_width.is_some() {
+                props.stroke_width
+            } else {
+                T::STROKE_WIDTH
+            },
+            stroke_linecap: if props.stroke_line_cap.is_some() {
+                props.stroke_line_cap
+            } else {
+                T::STROKE_LINE_CAP
+            },
+            stroke_linejoin: if props.stroke_line_join.is_some() {
+                props.stroke_line_join
+            } else {
+                T::STROKE_LINE_JOIN
+            },
             view_box: T::VIEW_BOX,
             xmlns: T::XMLNS,
 
