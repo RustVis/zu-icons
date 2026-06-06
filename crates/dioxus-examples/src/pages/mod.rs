@@ -9,3 +9,4 @@ pub mod game_page;
 pub mod grommet_page;
 pub mod hero_page;
 pub mod home_page;
+pub mod ionic_page;

@@ -11,6 +11,7 @@ use crate::pages::game_page::GamePage;
 use crate::pages::grommet_page::GrommetPage;
 use crate::pages::hero_page::HeroPage;
 use crate::pages::home_page::Home;
+use crate::pages::ionic_page::IonicPage;
 
 #[derive(Debug, Clone, Routable, PartialEq)]
 #[rustfmt::skip]
@@ -38,6 +39,8 @@ pub enum Route {
     GrommetPage {},
     #[route("/dioxus-icons-hero")]
     HeroPage {},
+    #[route("/dioxus-icons-ionic")]
+    IonicPage {},
 }
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
@@ -102,6 +105,10 @@ fn Navbar() -> Element {
             Link {
                 to: Route::HeroPage {},
                 "Hero Icons"
+            }
+            Link {
+                to: Route::IonicPage {},
+                "Ionic Icons"
             }
         }
 
