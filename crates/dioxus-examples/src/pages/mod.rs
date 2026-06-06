@@ -18,3 +18,4 @@ pub mod phosphor_page;
 pub mod radix_page;
 pub mod remix_page;
 pub mod simple_page;
+pub mod tabler_page;

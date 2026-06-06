@@ -702,6 +702,7 @@ dependencies = [
  "dioxus-icons-radix",
  "dioxus-icons-remix",
  "dioxus-icons-simple",
+ "dioxus-icons-tabler",
 ]
 
 [[package]]
@@ -1054,7 +1055,17 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-simple"
-version = "0.3.0"
+version = "0.3.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-tabler"
+version = "0.2.0"
 dependencies = [
  "anyhow",
  "dioxus",

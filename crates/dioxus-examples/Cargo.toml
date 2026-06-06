@@ -34,6 +34,7 @@ dioxus-icons-phosphor = { path = "../dioxus-icons-phosphor" }
 dioxus-icons-radix = { path = "../dioxus-icons-radix" }
 dioxus-icons-remix = { path = "../dioxus-icons-remix" }
 dioxus-icons-simple = { path = "../dioxus-icons-simple" }
+dioxus-icons-tabler = { path = "../dioxus-icons-tabler" }
 
 [profile.release]
 lto = true
