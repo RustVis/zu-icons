@@ -1,6 +1,6 @@
 [package]
 name = "dioxus-icons-feather"
-version = "0.2.0"
+version = "0.2.1"
 documentation = "https://docs.rs/dioxus-icons-feather"
 description = "Feather icons for dioxus framework"
 keywords = ["web", "wasm", "icons", "feather", "dioxus"]
