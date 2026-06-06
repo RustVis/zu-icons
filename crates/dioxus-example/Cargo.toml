@@ -3,13 +3,20 @@ name = "dioxus-example"
 version = "0.1.0"
 publish = false
 
-authors.workspace = true
-edition.workspace = true
+authors = ["Xu Shaohua <shaohua@biofan.org>"]
+categories = ["wasm", "web-programming"]
+edition = "2024"
+homepage = "https://github.com/RustVis/zu-icons"
+license = "Apache-2.0"
+repository = "https://github.com/RustVis/zu-icons"
+rust-version = "1.88"
+
+[workspace]
 
 [dependencies]
 dioxus = { version = "0.7.9", features = ["web"] }
 dioxus-icons-circum = { path = "../dioxus-icons-circum" }
 
-[features]
-default = ["web"]
-web = ["dioxus/web"]
+[profile.release]
+lto = true
+opt-level = 's'
