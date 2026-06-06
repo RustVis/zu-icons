@@ -694,6 +694,7 @@ dependencies = [
  "dioxus-icons-grommet",
  "dioxus-icons-hero",
  "dioxus-icons-ionic",
+ "dioxus-icons-line-awesome",
 ]
 
 [[package]]
@@ -966,6 +967,16 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-ionic"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-line-awesome"
 version = "0.2.1"
 dependencies = [
  "anyhow",

@@ -26,6 +26,7 @@ dioxus-icons-game = { path = "../dioxus-icons-game" }
 dioxus-icons-grommet = { path = "../dioxus-icons-grommet" }
 dioxus-icons-hero = { path = "../dioxus-icons-hero" }
 dioxus-icons-ionic = { path = "../dioxus-icons-ionic" }
+dioxus-icons-line-awesome = { path = "../dioxus-icons-line-awesome" }
 
 [profile.release]
 lto = true
