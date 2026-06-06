@@ -29,7 +29,7 @@ use dioxus_icons_dev::Adonisjs
 #[comonent]
 fn page() -> Element {
     rsx!{
-        h1 { "Using dev design icons" }
+        h1 { "Using dev icons" }
 
         Icon {
             width: "32",

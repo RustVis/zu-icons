@@ -7,7 +7,7 @@
 ![Minimum rustc version](https://img.shields.io/badge/rustc-1.88+-green.svg)
 ![License](https://img.shields.io/crates/l/dioxus-icons-fa.svg)
 
-[Font Awesome icons](https://github.com/FortAwesome/Font-Awesome) for Dioxus
+[Font Awesome icons](https://github.com/FortAwesome/Font-Awesome) for dioxus framework
 
 - [Document](https://docs.rs/dioxus-icons-fa)
 
@@ -29,7 +29,7 @@ use dioxus_icons_fa::regular::AddressBook;
 #[comonent]
 fn page() -> Element {
     rsx!{
-        h1 { "Using font awesome design icons" }
+        h1 { "Using font awesome icons" }
 
         Icon {
             width: "32",

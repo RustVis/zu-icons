@@ -29,7 +29,7 @@ use dioxus_icons_bs::Airplane;
 #[comonent]
 fn page() -> Element {
     rsx!{
-        h1 { "Using bs design icons" }
+        h1 { "Using bs icons" }
 
         Icon {
             icon: Airplane

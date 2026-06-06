@@ -29,7 +29,7 @@ use dioxus_icons_circum::AirportSign1,
 #[comonent]
 fn page() -> Element {
     rsx!{
-        h1 { "Using circum design icons" }
+        h1 { "Using circum icons" }
 
         Icon {
             width: "32",
