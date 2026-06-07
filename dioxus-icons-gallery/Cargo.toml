@@ -8,6 +8,7 @@ members = [
   "crates/dev-examples",
   "crates/fa-examples",
   "crates/feather-examples",
+  "crates/grommet-examples",
 ]
 
 [workspace.package]

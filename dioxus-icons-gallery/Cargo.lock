@@ -967,6 +967,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-icons-grommet"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "dioxus-interpreter-js"
 version = "0.7.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1452,6 +1462,16 @@ dependencies = [
  "serde_json",
  "wasm-bindgen",
  "web-sys",
+]
+
+[[package]]
+name = "grommet-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-grommet",
+ "zu-icons-util",
 ]
 
 [[package]]
