@@ -2,7 +2,7 @@ use dioxus::prelude::*;
 
 use dioxus_icons_simple::{
     Apple, Bitcoin, Discord, Docker, Dribbble, Ethereum, Figma, Firefox, Github, Google, Icon,
-    Javascript, Linux, Meta, Netflix, Notion, Npm, Python, React, Rust, Slack, Spotify, Steam,
+    Javascript, Linux, Meta, Netflix, Notion, Npm, Python, React, Rust, Slackware, Spotify, Steam,
     Stripe, Tesla, Twitch, Typescript, Vim, Youtube,
 };
 
@@ -243,9 +243,9 @@ pub fn SimplePage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: Slack,
+                        icon: Slackware,
                     }
-                    span { "Slack" }
+                    span { "Slackware" }
                 }
             }
 

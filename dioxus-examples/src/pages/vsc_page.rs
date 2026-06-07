@@ -1,10 +1,10 @@
 use dioxus::prelude::*;
 
 use dioxus_icons_vsc::{
-    Bell, Bookmark, Browser, Bug, Calendar, Check, Cloud, Code, Debug, Edit, Extensions, File,
-    Folder, Gear, GitBranch, GitMerge, Globe, Heart, Home, Icon, Key, Layers, Lightbulb, Lock,
-    Mail, Map, PieChart, Play, Remote, Rocket, Search, Settings, Shield, SourceControl, Star,
-    Terminal, Trash, User,
+    Account, Bell, Bookmark, Browser, Bug, Calendar, Check, Cloud, Code, Debug, Edit, Extensions,
+    File, Folder, Gear, GitBranch, GitMerge, Globe, Heart, Home, Icon, Key, Layers, Lightbulb,
+    Lock, Mail, Map, PieChart, Play, Remote, Rocket, Search, Settings, Shield, SourceControl,
+    StarFull, Terminal, Trash,
 };
 
 /// VSCode Icons page
@@ -55,9 +55,9 @@ pub fn VscPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: Star,
+                        icon: StarFull,
                     }
-                    span { "Star" }
+                    span { "StarFull" }
                 }
 
                 div {
@@ -481,9 +481,9 @@ pub fn VscPage() -> Element {
                     Icon {
                         width: "32",
                         height: "32",
-                        icon: User,
+                        icon: Account,
                     }
-                    span { "User" }
+                    span { "Account" }
                 }
             }
         }
