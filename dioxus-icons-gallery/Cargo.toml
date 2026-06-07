@@ -17,6 +17,7 @@ members = [
   "crates/radix-examples",
   "crates/simple-examples",
   "crates/tabler-examples",
+  "crates/vsc-examples",
 ]
 
 [workspace.package]

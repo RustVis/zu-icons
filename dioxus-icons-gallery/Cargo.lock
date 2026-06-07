@@ -1057,6 +1057,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-icons-vsc"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "dioxus-interpreter-js"
 version = "0.7.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3597,6 +3607,16 @@ name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
+
+[[package]]
+name = "vsc-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-vsc",
+ "zu-icons-util",
+]
 
 [[package]]
 name = "walkdir"
