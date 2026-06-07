@@ -977,6 +977,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-icons-hero"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "dioxus-interpreter-js"
 version = "0.7.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1513,6 +1523,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "54b4a22553d4242c49fddb9ba998a99962b5cc6f22cb5a3482bec22522403ce4"
 dependencies = [
  "http",
+]
+
+[[package]]
+name = "hero-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-hero",
+ "zu-icons-util",
 ]
 
 [[package]]
