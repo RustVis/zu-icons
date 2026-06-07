@@ -13,6 +13,7 @@ members = [
   "crates/ionic-examples",
   "crates/line-awesome-examples",
   "crates/lucide-examples",
+  "crates/md-examples",
   "crates/oct-examples",
   "crates/phosphor-examples",
   "crates/radix-examples",
