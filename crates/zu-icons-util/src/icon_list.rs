@@ -11,6 +11,7 @@ use std::{
 };
 
 use anyhow::{Context, Error};
+use inflections::Inflect;
 
 const ICON_TEMPLATE_STR: &str = r#"
 div {
@@ -162,6 +163,42 @@ pub fn generate_icon_components_container<P: AsRef<Path>>(
         .replace("{CONTAINER_NAME}", component_name)
         .replace("{ICON_COMPONENTS}", &icon_components.join(""));
     file.write_all(content.as_bytes())?;
+
+    Ok(())
+}
+
+pub fn generate_default_icon_page(
+    crate_path: &str,
+    output_rs_file: &str,
+    module_name: &str,
+) -> Result<(), Error> {
+    let icons = get_default_icon_crate_info(crate_path)?;
+    assert!(!icons.is_empty());
+    let mut icon_components = Vec::new();
+    for icon_name in &icons {
+        icon_components.push(generate_icon_component(module_name, icon_name));
+    }
+    generate_icon_components_container(module_name, output_rs_file, "IconsPage", &icon_components)?;
+
+    Ok(())
+}
+
+pub fn generate_variant_icon_pages(crate_path: &str, module_name: &str) -> Result<(), Error> {
+    let all_icons = get_variant_icon_crate_info(crate_path)?;
+    assert!(!all_icons.is_empty());
+    for (feature_name, icons) in &all_icons {
+        let mut icon_components = Vec::new();
+        let module_feature_name = format!("{module_name}::{feature_name}");
+        for icon_name in icons {
+            icon_components.push(generate_icon_component(&module_feature_name, icon_name));
+        }
+        generate_icon_components_container(
+            module_name,
+            &format!("src/{feature_name}_page.rs"),
+            &format!("{}Page", feature_name.to_pascal_case()),
+            &icon_components,
+        )?;
+    }
 
     Ok(())
 }
