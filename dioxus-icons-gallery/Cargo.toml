@@ -8,6 +8,7 @@ members = [
   "crates/dev-examples",
   "crates/fa-examples",
   "crates/feather-examples",
+  "crates/game-examples",
   "crates/grommet-examples",
   "crates/hero-examples",
   "crates/ionic-examples",

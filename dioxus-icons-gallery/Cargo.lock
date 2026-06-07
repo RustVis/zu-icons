@@ -967,6 +967,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-icons-game"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "dioxus-icons-grommet"
 version = "0.2.1"
 dependencies = [
@@ -1470,6 +1480,16 @@ dependencies = [
  "memchr",
  "pin-project-lite",
  "slab",
+]
+
+[[package]]
+name = "game-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-game",
+ "zu-icons-util",
 ]
 
 [[package]]
