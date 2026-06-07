@@ -50,7 +50,7 @@ scraper = { version = "0.27.0" }
 toml = { version = "1.1.2" }
 
 dioxus-icon-component = { path = "crates/dioxus-icon-component", version = "0.2.1" }
-zu-icons-util = { path = "crates/zu-icons-util", version = "0.5.1" }
+zu-icons-util = { path = "crates/zu-icons-util", version = "0.5.2" }
 
 [workspace.lints.rust]
 unsafe_code = { level = "deny", priority = -1 }
