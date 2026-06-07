@@ -4,7 +4,7 @@ use zu_icons_util::icon_list::{
 };
 use zu_icons_util::need_update_icons_page;
 
-const CRATE_PATH: &str = "../dioxus-icons-bs";
+const CRATE_PATH: &str = "../../../crates/dioxus-icons-bs";
 const OUTPUT_RS_FILE: &str = "src/icons_page.rs";
 const MODULE_NAME: &str = "dioxus_icons_bs";
 
