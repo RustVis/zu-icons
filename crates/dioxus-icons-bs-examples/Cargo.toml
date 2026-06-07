@@ -9,4 +9,15 @@ dioxus = { version = "0.7.9", features = ["web"] }
 dioxus-icons-bs = { path = "../dioxus-icons-bs" }
 
 [build-dependencies]
+anyhow = "1.0.102"
 zu-icons-util = { path = "../zu-icons-util" }
+
+[workspace]
+
+[profile.release]
+lto = true
+debug = false
+opt-level = 's'
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false

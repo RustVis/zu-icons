@@ -853,6 +853,7 @@ dependencies = [
 name = "dioxus-icons-bs-examples"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "dioxus",
  "dioxus-icons-bs",
  "zu-icons-util",
