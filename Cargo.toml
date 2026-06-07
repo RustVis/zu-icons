@@ -29,6 +29,7 @@ members = [
 
 exclude = [
   "crates/dioxus-examples",
+  "crates/dioxus-icons-bs-examples",
 ]
 
 [workspace.package]
