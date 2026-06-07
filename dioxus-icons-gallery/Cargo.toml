@@ -15,6 +15,7 @@ members = [
   "crates/oct-examples",
   "crates/phosphor-examples",
   "crates/radix-examples",
+  "crates/simple-examples",
 ]
 
 [workspace.package]
