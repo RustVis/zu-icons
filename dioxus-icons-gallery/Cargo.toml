@@ -11,6 +11,7 @@ members = [
   "crates/grommet-examples",
   "crates/hero-examples",
   "crates/ionic-examples",
+  "crates/line-awesome-examples",
   "crates/lucide-examples",
   "crates/oct-examples",
   "crates/phosphor-examples",

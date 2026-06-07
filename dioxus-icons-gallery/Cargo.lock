@@ -997,6 +997,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-icons-line-awesome"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "dioxus-icons-lucide"
 version = "0.2.1"
 dependencies = [
@@ -2000,6 +2010,16 @@ checksum = "d7c4b02199fee7c5d21a5ae7d8cfa79a6ef5bb2fc834d6e9058e89c825efdc55"
 dependencies = [
  "cfg-if",
  "windows-link",
+]
+
+[[package]]
+name = "line-awesome-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-line-awesome",
+ "zu-icons-util",
 ]
 
 [[package]]
