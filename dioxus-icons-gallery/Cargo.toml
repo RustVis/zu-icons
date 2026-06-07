@@ -11,6 +11,7 @@ members = [
   "crates/grommet-examples",
   "crates/hero-examples",
   "crates/ionic-examples",
+  "crates/lucide-examples",
 ]
 
 [workspace.package]
