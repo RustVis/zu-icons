@@ -1,0 +1,64 @@
+[package]
+name = "dioxus-examples"
+version = "0.1.0"
+publish = false
+
+authors = ["Xu Shaohua <shaohua@biofan.org>"]
+categories = ["wasm", "web-programming"]
+edition = "2024"
+homepage = "https://github.com/RustVis/zu-icons"
+license = "Apache-2.0"
+repository = "https://github.com/RustVis/zu-icons"
+rust-version = "1.88"
+
+[workspace]
+resolver = "3"
+members = [
+  "crates/bs-examples",
+]
+
+[workspace.package]
+version = "0.1.0"
+publish = false
+authors = ["Xu Shaohua <shaohua@biofan.org>"]
+categories = ["wasm", "web-programming"]
+edition = "2024"
+homepage = "https://github.com/RustVis/zu-icons"
+license = "Apache-2.0"
+repository = "https://github.com/RustVis/zu-icons"
+rust-version = "1.88"
+
+[workspace.dependencies]
+anyhow = "1.0.102"
+dioxus = { version = "0.7.9", features = ["router", "web"] }
+
+dioxus-icons-ant = { path = "../crates/dioxus-icons-ant" }
+dioxus-icons-box = { path = "../crates/dioxus-icons-box" }
+dioxus-icons-bs = { path = "../crates/dioxus-icons-bs" }
+dioxus-icons-circum = { path = "../crates/dioxus-icons-circum" }
+dioxus-icons-dev = { path = "../crates/dioxus-icons-dev" }
+dioxus-icons-fa = { path = "../crates/dioxus-icons-fa" }
+dioxus-icons-feather = { path = "../crates/dioxus-icons-feather" }
+dioxus-icons-game = { path = "../crates/dioxus-icons-game" }
+dioxus-icons-grommet = { path = "../crates/dioxus-icons-grommet" }
+dioxus-icons-hero = { path = "../crates/dioxus-icons-hero" }
+dioxus-icons-ionic = { path = "../crates/dioxus-icons-ionic" }
+dioxus-icons-line-awesome = { path = "../crates/dioxus-icons-line-awesome" }
+dioxus-icons-lucide = { path = "../crates/dioxus-icons-lucide" }
+dioxus-icons-md = { path = "../crates/dioxus-icons-md" }
+dioxus-icons-oct = { path = "../crates/dioxus-icons-oct" }
+dioxus-icons-phosphor = { path = "../crates/dioxus-icons-phosphor" }
+dioxus-icons-radix = { path = "../crates/dioxus-icons-radix" }
+dioxus-icons-remix = { path = "../crates/dioxus-icons-remix" }
+dioxus-icons-simple = { path = "../crates/dioxus-icons-simple" }
+dioxus-icons-tabler = { path = "../crates/dioxus-icons-tabler" }
+dioxus-icons-vsc = { path = "../crates/dioxus-icons-vsc" }
+zu-icons-util = { path = "../crates/zu-icons-util" }
+
+[profile.release]
+lto = true
+debug = false
+opt-level = 's'
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
