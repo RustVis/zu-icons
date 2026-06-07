@@ -65,17 +65,18 @@ pub fn get_default_features<P: AsRef<Path>>(cargo_toml_path: P) -> Result<Vec<St
         .and_then(|f| f.get("default"))
         .and_then(|d| d.as_array());
 
-    match default {
-        Some(arr) => arr
-            .iter()
-            .map(|v| {
-                v.as_str()
-                    .map(String::from)
-                    .ok_or_else(|| anyhow::anyhow!("Non-string value in default features"))
-            })
-            .collect(),
-        None => Ok(Vec::new()),
-    }
+    default.map_or_else(
+        || Ok(Vec::new()),
+        |arr| {
+            arr.iter()
+                .map(|v| {
+                    v.as_str()
+                        .map(String::from)
+                        .ok_or_else(|| anyhow::anyhow!("Non-string value in default features"))
+                })
+                .collect()
+        },
+    )
 }
 
 /// Extract icon struct names from a generated Rust source file.
@@ -90,19 +91,19 @@ pub fn get_icon_list<P: AsRef<Path>>(rs_file: P) -> Result<Vec<String>, Error> {
     println!("get_icon_list() path: {}", rs_file.as_ref().display());
     let content = std::fs::read_to_string(rs_file.as_ref())?;
     println!("content: {}", content.len());
-    assert!(!content.is_empty());
+    debug_assert!(!content.is_empty());
 
     let mut icons = Vec::new();
 
     for line in content.lines() {
         let trimmed = line.trim();
         // Match lines like: pub struct SomeIconName;
-        if let Some(rest) = trimmed.strip_prefix("pub struct ") {
-            if let Some(name) = rest.strip_suffix(';') {
-                let name = name.trim();
-                if !name.is_empty() && name.chars().all(|c| c.is_ascii_alphanumeric() || c == '_') {
-                    icons.push(name.to_owned());
-                }
+        if let Some(rest) = trimmed.strip_prefix("pub struct ")
+            && let Some(name) = rest.strip_suffix(';')
+        {
+            let name = name.trim();
+            if !name.is_empty() && name.chars().all(|c| c.is_ascii_alphanumeric() || c == '_') {
+                icons.push(name.to_owned());
             }
         }
     }
@@ -110,6 +111,9 @@ pub fn get_icon_list<P: AsRef<Path>>(rs_file: P) -> Result<Vec<String>, Error> {
     Ok(icons)
 }
 
+/// # Errors
+///
+/// Returns `Err` if `CARGO_MANIFEST_DIR` is not set or the source file cannot be read.
 pub fn get_default_icon_crate_info<P: AsRef<Path>>(crate_path: P) -> Result<Vec<String>, Error> {
     let manifest_dir = env::var("CARGO_MANIFEST_DIR")?;
     let mut crate_abspath = PathBuf::from(manifest_dir);
@@ -120,6 +124,10 @@ pub fn get_default_icon_crate_info<P: AsRef<Path>>(crate_path: P) -> Result<Vec<
     Ok(icon_list)
 }
 
+/// # Errors
+///
+/// Returns `Err` if `CARGO_MANIFEST_DIR` is not set, the `Cargo.toml` cannot be read or parsed,
+/// or any source file cannot be read.
 pub fn get_variant_icon_crate_info<P: AsRef<Path>>(
     crate_path: P,
 ) -> Result<BTreeMap<String, Vec<String>>, Error> {
@@ -141,12 +149,16 @@ pub fn get_variant_icon_crate_info<P: AsRef<Path>>(
     Ok(map)
 }
 
+#[must_use]
 pub fn generate_icon_component(module_name: &str, icon_name: &str) -> String {
     ICON_TEMPLATE_STR
         .replace("{MODULE_NAME}", module_name)
         .replace("{ICON_NAME}", icon_name)
 }
 
+/// # Errors
+///
+/// Returns `Err` if the output file cannot be opened or written to.
 pub fn generate_icon_components_container<P: AsRef<Path>>(
     module_name: &str,
     rs_file: P,
@@ -167,13 +179,16 @@ pub fn generate_icon_components_container<P: AsRef<Path>>(
     Ok(())
 }
 
+/// # Errors
+///
+/// Returns `Err` if the icon crate info cannot be read or the output file cannot be written.
 pub fn generate_default_icon_page(
     crate_path: &str,
     output_rs_file: &str,
     module_name: &str,
 ) -> Result<(), Error> {
     let icons = get_default_icon_crate_info(crate_path)?;
-    assert!(!icons.is_empty());
+    debug_assert!(!icons.is_empty());
     let mut icon_components = Vec::new();
     for icon_name in &icons {
         icon_components.push(generate_icon_component(module_name, icon_name));
@@ -183,9 +198,12 @@ pub fn generate_default_icon_page(
     Ok(())
 }
 
+/// # Errors
+///
+/// Returns `Err` if the icon crate info cannot be read or any output file cannot be written.
 pub fn generate_variant_icon_pages(crate_path: &str, module_name: &str) -> Result<(), Error> {
     let all_icons = get_variant_icon_crate_info(crate_path)?;
-    assert!(!all_icons.is_empty());
+    debug_assert!(!all_icons.is_empty());
     for (feature_name, icons) in &all_icons {
         let mut icon_components = Vec::new();
         let module_feature_name = format!("{module_name}::{feature_name}");
@@ -194,7 +212,7 @@ pub fn generate_variant_icon_pages(crate_path: &str, module_name: &str) -> Resul
         }
         generate_icon_components_container(
             module_name,
-            &format!("src/{feature_name}_page.rs"),
+            format!("src/{feature_name}_page.rs"),
             &format!("{}Page", feature_name.to_pascal_case()),
             &icon_components,
         )?;
