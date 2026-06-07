@@ -12,17 +12,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ant-examples"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "dioxus",
- "dioxus-icons-ant",
- "inflections",
- "zu-icons-util",
-]
-
-[[package]]
 name = "anyhow"
 version = "1.0.102"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -162,16 +151,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
 dependencies = [
  "generic-array",
-]
-
-[[package]]
-name = "bs-examples"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "dioxus",
- "dioxus-icons-bs",
- "zu-icons-util",
 ]
 
 [[package]]
@@ -702,6 +681,33 @@ dependencies = [
 [[package]]
 name = "dioxus-examples"
 version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-ant",
+ "dioxus-icons-box",
+ "dioxus-icons-bs",
+ "dioxus-icons-circum",
+ "dioxus-icons-dev",
+ "dioxus-icons-fa",
+ "dioxus-icons-feather",
+ "dioxus-icons-game",
+ "dioxus-icons-grommet",
+ "dioxus-icons-hero",
+ "dioxus-icons-ionic",
+ "dioxus-icons-line-awesome",
+ "dioxus-icons-lucide",
+ "dioxus-icons-md",
+ "dioxus-icons-oct",
+ "dioxus-icons-phosphor",
+ "dioxus-icons-radix",
+ "dioxus-icons-remix",
+ "dioxus-icons-simple",
+ "dioxus-icons-tabler",
+ "dioxus-icons-vsc",
+ "inflections",
+ "zu-icons-util",
+]
 
 [[package]]
 name = "dioxus-fullstack"
@@ -882,8 +888,198 @@ dependencies = [
 ]
 
 [[package]]
+name = "dioxus-icons-box"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "dioxus-icons-bs"
 version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-circum"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-dev"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-fa"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-feather"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-game"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-grommet"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-hero"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-ionic"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-line-awesome"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-lucide"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-md"
+version = "0.1.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-oct"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-phosphor"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-radix"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-remix"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-simple"
+version = "0.3.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-tabler"
+version = "0.2.1"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-vsc"
+version = "0.2.1"
 dependencies = [
  "anyhow",
  "dioxus",

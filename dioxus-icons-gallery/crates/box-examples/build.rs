@@ -2,8 +2,8 @@ use anyhow::Error;
 use zu_icons_util::icon_list::generate_variant_icon_pages;
 use zu_icons_util::need_update_icons_page;
 
-const CRATE_PATH: &str = "../../../crates/dioxus-icons-ant";
-const MODULE_NAME: &str = "dioxus_icons_ant";
+const CRATE_PATH: &str = "../../../crates/dioxus-icons-box";
+const MODULE_NAME: &str = "dioxus_icons_box";
 
 fn regenerate_icons() -> Result<(), Error> {
     generate_variant_icon_pages(CRATE_PATH, MODULE_NAME)

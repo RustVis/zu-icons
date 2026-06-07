@@ -18,7 +18,6 @@ dependencies = [
  "anyhow",
  "dioxus",
  "dioxus-icons-ant",
- "inflections",
  "zu-icons-util",
 ]
 
@@ -162,6 +161,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71"
 dependencies = [
  "generic-array",
+]
+
+[[package]]
+name = "box-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-box",
+ "zu-icons-util",
 ]
 
 [[package]]
@@ -700,10 +709,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "dioxus-examples"
-version = "0.1.0"
-
-[[package]]
 name = "dioxus-fullstack"
 version = "0.7.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -873,6 +878,16 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-ant"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-box"
 version = "0.2.2"
 dependencies = [
  "anyhow",

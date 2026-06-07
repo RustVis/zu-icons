@@ -1,5 +1,5 @@
 [package]
-name = "ant-examples"
+name = "box-examples"
 
 version.workspace = true
 publish.workspace = true
@@ -12,7 +12,7 @@ rust-version.workspace = true
 
 [dependencies]
 dioxus.workspace = true
-dioxus-icons-ant.workspace = true
+dioxus-icons-box.workspace = true
 
 [build-dependencies]
 anyhow.workspace = true

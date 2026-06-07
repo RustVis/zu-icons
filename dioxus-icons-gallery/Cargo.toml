@@ -1,20 +1,8 @@
-[package]
-name = "dioxus-examples"
-version = "0.1.0"
-publish = false
-
-authors = ["Xu Shaohua <shaohua@biofan.org>"]
-categories = ["wasm", "web-programming"]
-edition = "2024"
-homepage = "https://github.com/RustVis/zu-icons"
-license = "Apache-2.0"
-repository = "https://github.com/RustVis/zu-icons"
-rust-version = "1.88"
-
 [workspace]
-resolver = "3"
+resolver = "2"
 members = [
   "crates/ant-examples",
+  "crates/box-examples",
   "crates/bs-examples",
 ]
 
@@ -30,7 +18,7 @@ repository = "https://github.com/RustVis/zu-icons"
 rust-version = "1.88"
 
 [workspace.dependencies]
-anyhow = "1.0.102"
+anyhow = { version = "1.0.102" }
 dioxus = { version = "0.7.9", features = ["router", "web"] }
 inflections = { version = "1.1.1" }
 
@@ -60,7 +48,7 @@ zu-icons-util = { path = "../crates/zu-icons-util" }
 [profile.release]
 lto = true
 debug = false
-opt-level = 's'
+opt-level = "s"
 
-[package.metadata.wasm-pack.profile.release]
+[workspace.metadata.wasm-pack.profile.release]
 wasm-opt = false
