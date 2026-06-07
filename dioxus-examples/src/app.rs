@@ -2,6 +2,7 @@ use dioxus::prelude::*;
 
 use crate::pages::ant_page::AntPage;
 use crate::pages::box_page::BoxPage;
+use crate::pages::bs_page::BootstrapPage;
 use crate::pages::circum_page::CircumPage;
 use crate::pages::dev_page::DevPage;
 use crate::pages::fa_page::FaPage;
@@ -32,6 +33,8 @@ pub enum Route {
     AntPage {},
     #[route("/dioxus-icons-box")]
     BoxPage {},
+    #[route("/dioxus-icons-bs")]
+    BootstrapPage {},
     #[route("/dioxus-icons-circum")]
     CircumPage {},
     #[route("/dioxus-icons-dev")]
