@@ -4,6 +4,7 @@ members = [
   "crates/ant-examples",
   "crates/box-examples",
   "crates/bs-examples",
+  "crates/circum-examples",
 ]
 
 [workspace.package]

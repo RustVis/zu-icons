@@ -281,6 +281,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "circum-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-circum",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "combine"
 version = "4.6.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -898,6 +908,16 @@ dependencies = [
 
 [[package]]
 name = "dioxus-icons-bs"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
+]
+
+[[package]]
+name = "dioxus-icons-circum"
 version = "0.2.2"
 dependencies = [
  "anyhow",
