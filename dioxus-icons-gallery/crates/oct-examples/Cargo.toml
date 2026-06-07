@@ -1,0 +1,20 @@
+[package]
+name = "oct-examples"
+
+version.workspace = true
+publish.workspace = true
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+dioxus.workspace = true
+dioxus-icons-oct.workspace = true
+
+[build-dependencies]
+anyhow.workspace = true
+zu-icons-util.workspace = true
+
