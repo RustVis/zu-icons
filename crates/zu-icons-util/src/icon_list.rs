@@ -115,7 +115,6 @@ pub fn get_default_icon_crate_info<P: AsRef<Path>>(crate_path: P) -> Result<Vec<
     crate_abspath.push(&crate_path);
     crate_abspath.push("src");
     crate_abspath.push("lib.rs");
-    println!("crate path: {}", crate_abspath.display());
     let icon_list = get_icon_list(&crate_abspath)?;
     Ok(icon_list)
 }
@@ -129,6 +128,7 @@ pub fn get_variant_icon_crate_info<P: AsRef<Path>>(
     let cargo_file = crate_abspath.join("Cargo.toml");
     let default_features = get_default_features(&cargo_file)?;
     crate_abspath.push("src");
+    crate_abspath.push("lib.rs");
 
     let mut map = BTreeMap::new();
     for feature_name in default_features {
