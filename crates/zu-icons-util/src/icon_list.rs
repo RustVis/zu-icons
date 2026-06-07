@@ -2,9 +2,46 @@
 // Use of this source is governed by Apache-2.0 License
 // that can be found in the LICENSE file.
 
-use std::path::Path;
+use std::{
+    collections::BTreeMap,
+    env,
+    fs::OpenOptions,
+    io::Write,
+    path::{Path, PathBuf},
+};
 
 use anyhow::{Context, Error};
+
+const ICON_TEMPLATE_STR: &str = r#"
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: {MODULE_NAME}::{ICON_NAME},
+    }
+    span { "{ICON_NAME}" }
+}
+"#;
+const ICON_CONTAINER_TEMPLATE: &str = r#"
+use dioxus::prelude::*;
+use {MODULE_NAME}::Icon;
+
+#[component]
+pub fn {CONTAINER_NAME}() -> Element {
+  rsx!(
+    div {
+        display: "flex",
+        flex_direction: "row",
+        gap: "24px",
+        flex_wrap: "wrap",
+            {ICON_COMPONENTS}
+        }
+  )
+}
+"#;
 
 /// Read the `default` feature list from a `Cargo.toml` file.
 ///
@@ -49,8 +86,10 @@ pub fn get_default_features<P: AsRef<Path>>(cargo_toml_path: P) -> Result<Vec<St
 ///
 /// Returns `Err` if the file cannot be read.
 pub fn get_icon_list<P: AsRef<Path>>(rs_file: P) -> Result<Vec<String>, Error> {
-    let content = std::fs::read_to_string(rs_file.as_ref())
-        .with_context(|| format!("Failed to read {}", rs_file.as_ref().display()))?;
+    println!("get_icon_list() path: {}", rs_file.as_ref().display());
+    let content = std::fs::read_to_string(rs_file.as_ref())?;
+    println!("content: {}", content.len());
+    assert!(!content.is_empty());
 
     let mut icons = Vec::new();
 
@@ -68,4 +107,61 @@ pub fn get_icon_list<P: AsRef<Path>>(rs_file: P) -> Result<Vec<String>, Error> {
     }
 
     Ok(icons)
+}
+
+pub fn get_default_icon_crate_info<P: AsRef<Path>>(crate_path: P) -> Result<Vec<String>, Error> {
+    let manifest_dir = env::var("CARGO_MANIFEST_DIR")?;
+    let mut crate_abspath = PathBuf::from(manifest_dir);
+    crate_abspath.push(&crate_path);
+    crate_abspath.push("src");
+    crate_abspath.push("lib.rs");
+    println!("crate path: {}", crate_abspath.display());
+    let icon_list = get_icon_list(&crate_abspath)?;
+    Ok(icon_list)
+}
+
+pub fn get_variant_icon_crate_info<P: AsRef<Path>>(
+    crate_path: P,
+) -> Result<BTreeMap<String, Vec<String>>, Error> {
+    let manifest_dir = env::var("CARGO_MANIFEST_DIR")?;
+    let mut crate_abspath = PathBuf::from(manifest_dir);
+    crate_abspath.push(&crate_path);
+    let cargo_file = crate_abspath.join("Cargo.toml");
+    let default_features = get_default_features(&cargo_file)?;
+    crate_abspath.push("src");
+
+    let mut map = BTreeMap::new();
+    for feature_name in default_features {
+        let rs_file = crate_abspath.with_file_name(format!("{feature_name}.rs"));
+        let icon_list = get_icon_list(&rs_file)?;
+        map.insert(feature_name, icon_list);
+    }
+
+    Ok(map)
+}
+
+pub fn generate_icon_component(module_name: &str, icon_name: &str) -> String {
+    ICON_TEMPLATE_STR
+        .replace("{MODULE_NAME}", module_name)
+        .replace("{ICON_NAME}", icon_name)
+}
+
+pub fn generate_icon_components_container<P: AsRef<Path>>(
+    module_name: &str,
+    rs_file: P,
+    component_name: &str,
+    icon_components: &[String],
+) -> Result<(), Error> {
+    let mut file = OpenOptions::new()
+        .write(true)
+        .truncate(true)
+        .create(true)
+        .open(rs_file)?;
+    let content = ICON_CONTAINER_TEMPLATE
+        .replace("{MODULE_NAME}", module_name)
+        .replace("{CONTAINER_NAME}", component_name)
+        .replace("{ICON_COMPONENTS}", &icon_components.join(""));
+    file.write_all(content.as_bytes())?;
+
+    Ok(())
 }
