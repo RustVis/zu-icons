@@ -13,6 +13,7 @@ members = [
   "crates/ionic-examples",
   "crates/lucide-examples",
   "crates/oct-examples",
+  "crates/phosphor-examples",
 ]
 
 [workspace.package]
