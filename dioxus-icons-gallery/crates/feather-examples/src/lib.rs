@@ -1,8 +1,7 @@
 use dioxus::prelude::*;
 
-mod brands_page;
-mod regular_page;
-mod solid_page;
+mod icons_page;
+pub use icons_page::IconsPage;
 
 const FAVICON: Asset = asset!("/assets/favicon.ico");
 const MAIN_CSS: Asset = asset!("/assets/main.css");
@@ -14,14 +13,6 @@ pub fn App() -> Element {
         document::Link { rel: "stylesheet", href: MAIN_CSS }
 
         h1 { "Bootstrap icons for Dioxus" }
-
-        h2 { "Brands icons" }
-        brands_page::BrandsPage {}
-
-        h2 { "Regular icons" }
-        regular_page::RegularPage {}
-
-        h2 { "Solid icons" }
-        solid_page::SolidPage {}
+        IconsPage {}
     }
 }

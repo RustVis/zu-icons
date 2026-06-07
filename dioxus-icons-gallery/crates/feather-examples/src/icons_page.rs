@@ -1,9 +1,9 @@
 
 use dioxus::prelude::*;
-use dioxus_icons_ant::Icon;
+use dioxus_icons_feather::Icon;
 
 #[component]
-pub fn FilledPage() -> Element {
+pub fn IconsPage() -> Element {
   rsx!(
     div {
         display: "flex",
@@ -18,9 +18,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::AccountBook,
+        icon: dioxus_icons_feather::Activity,
     }
-    span { "AccountBook" }
+    span { "Activity" }
 }
 
 div {
@@ -30,9 +30,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Alert,
+        icon: dioxus_icons_feather::Airplay,
     }
-    span { "Alert" }
+    span { "Airplay" }
 }
 
 div {
@@ -42,9 +42,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::AlipayCircle,
+        icon: dioxus_icons_feather::AlertCircle,
     }
-    span { "AlipayCircle" }
+    span { "AlertCircle" }
 }
 
 div {
@@ -54,9 +54,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::AlipaySquare,
+        icon: dioxus_icons_feather::AlertOctagon,
     }
-    span { "AlipaySquare" }
+    span { "AlertOctagon" }
 }
 
 div {
@@ -66,9 +66,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Aliwangwang,
+        icon: dioxus_icons_feather::AlertTriangle,
     }
-    span { "Aliwangwang" }
+    span { "AlertTriangle" }
 }
 
 div {
@@ -78,9 +78,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::AmazonCircle,
+        icon: dioxus_icons_feather::AlignCenter,
     }
-    span { "AmazonCircle" }
+    span { "AlignCenter" }
 }
 
 div {
@@ -90,9 +90,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::AmazonSquare,
+        icon: dioxus_icons_feather::AlignJustify,
     }
-    span { "AmazonSquare" }
+    span { "AlignJustify" }
 }
 
 div {
@@ -102,9 +102,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Android,
+        icon: dioxus_icons_feather::AlignLeft,
     }
-    span { "Android" }
+    span { "AlignLeft" }
 }
 
 div {
@@ -114,9 +114,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Api,
+        icon: dioxus_icons_feather::AlignRight,
     }
-    span { "Api" }
+    span { "AlignRight" }
 }
 
 div {
@@ -126,9 +126,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Apple,
+        icon: dioxus_icons_feather::Anchor,
     }
-    span { "Apple" }
+    span { "Anchor" }
 }
 
 div {
@@ -138,9 +138,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Appstore,
+        icon: dioxus_icons_feather::Aperture,
     }
-    span { "Appstore" }
+    span { "Aperture" }
 }
 
 div {
@@ -150,9 +150,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Audio,
+        icon: dioxus_icons_feather::Archive,
     }
-    span { "Audio" }
+    span { "Archive" }
 }
 
 div {
@@ -162,9 +162,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Backward,
+        icon: dioxus_icons_feather::ArrowDown,
     }
-    span { "Backward" }
+    span { "ArrowDown" }
 }
 
 div {
@@ -174,9 +174,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Bank,
+        icon: dioxus_icons_feather::ArrowDownCircle,
     }
-    span { "Bank" }
+    span { "ArrowDownCircle" }
 }
 
 div {
@@ -186,9 +186,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::BehanceCircle,
+        icon: dioxus_icons_feather::ArrowDownLeft,
     }
-    span { "BehanceCircle" }
+    span { "ArrowDownLeft" }
 }
 
 div {
@@ -198,9 +198,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::BehanceSquare,
+        icon: dioxus_icons_feather::ArrowDownRight,
     }
-    span { "BehanceSquare" }
+    span { "ArrowDownRight" }
 }
 
 div {
@@ -210,7 +210,175 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Bell,
+        icon: dioxus_icons_feather::ArrowLeft,
+    }
+    span { "ArrowLeft" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowLeftCircle,
+    }
+    span { "ArrowLeftCircle" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowRight,
+    }
+    span { "ArrowRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowRightCircle,
+    }
+    span { "ArrowRightCircle" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowUp,
+    }
+    span { "ArrowUp" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowUpCircle,
+    }
+    span { "ArrowUpCircle" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowUpLeft,
+    }
+    span { "ArrowUpLeft" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ArrowUpRight,
+    }
+    span { "ArrowUpRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::AtSign,
+    }
+    span { "AtSign" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Award,
+    }
+    span { "Award" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::BarChart,
+    }
+    span { "BarChart" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::BarChart2,
+    }
+    span { "BarChart2" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Battery,
+    }
+    span { "Battery" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::BatteryCharging,
+    }
+    span { "BatteryCharging" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Bell,
     }
     span { "Bell" }
 }
@@ -222,9 +390,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Bilibili,
+        icon: dioxus_icons_feather::BellOff,
     }
-    span { "Bilibili" }
+    span { "BellOff" }
 }
 
 div {
@@ -234,7 +402,31 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Book,
+        icon: dioxus_icons_feather::Bluetooth,
+    }
+    span { "Bluetooth" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Bold,
+    }
+    span { "Bold" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Book,
     }
     span { "Book" }
 }
@@ -246,9 +438,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::BoxPlot,
+        icon: dioxus_icons_feather::BookOpen,
     }
-    span { "BoxPlot" }
+    span { "BookOpen" }
 }
 
 div {
@@ -258,9 +450,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Bug,
+        icon: dioxus_icons_feather::Bookmark,
     }
-    span { "Bug" }
+    span { "Bookmark" }
 }
 
 div {
@@ -270,9 +462,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Build,
+        icon: dioxus_icons_feather::Briefcase,
     }
-    span { "Build" }
+    span { "Briefcase" }
 }
 
 div {
@@ -282,31 +474,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Bulb,
-    }
-    span { "Bulb" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Calculator,
-    }
-    span { "Calculator" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Calendar,
+        icon: dioxus_icons_feather::Calendar,
     }
     span { "Calendar" }
 }
@@ -318,7 +486,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Camera,
+        icon: dioxus_icons_feather::Camera,
     }
     span { "Camera" }
 }
@@ -330,9 +498,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Car,
+        icon: dioxus_icons_feather::CameraOff,
     }
-    span { "Car" }
+    span { "CameraOff" }
 }
 
 div {
@@ -342,9 +510,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CaretDown,
+        icon: dioxus_icons_feather::Cast,
     }
-    span { "CaretDown" }
+    span { "Cast" }
 }
 
 div {
@@ -354,9 +522,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CaretLeft,
+        icon: dioxus_icons_feather::Check,
     }
-    span { "CaretLeft" }
+    span { "Check" }
 }
 
 div {
@@ -366,43 +534,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CaretRight,
-    }
-    span { "CaretRight" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::CaretUp,
-    }
-    span { "CaretUp" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::CarryOut,
-    }
-    span { "CarryOut" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::CheckCircle,
+        icon: dioxus_icons_feather::CheckCircle,
     }
     span { "CheckCircle" }
 }
@@ -414,7 +546,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CheckSquare,
+        icon: dioxus_icons_feather::CheckSquare,
     }
     span { "CheckSquare" }
 }
@@ -426,7 +558,103 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Chrome,
+        icon: dioxus_icons_feather::ChevronDown,
+    }
+    span { "ChevronDown" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronLeft,
+    }
+    span { "ChevronLeft" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronRight,
+    }
+    span { "ChevronRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronUp,
+    }
+    span { "ChevronUp" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronsDown,
+    }
+    span { "ChevronsDown" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronsLeft,
+    }
+    span { "ChevronsLeft" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronsRight,
+    }
+    span { "ChevronsRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ChevronsUp,
+    }
+    span { "ChevronsUp" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Chrome,
     }
     span { "Chrome" }
 }
@@ -438,9 +666,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CiCircle,
+        icon: dioxus_icons_feather::Circle,
     }
-    span { "CiCircle" }
+    span { "Circle" }
 }
 
 div {
@@ -450,9 +678,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::ClockCircle,
+        icon: dioxus_icons_feather::Clipboard,
     }
-    span { "ClockCircle" }
+    span { "Clipboard" }
 }
 
 div {
@@ -462,9 +690,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CloseCircle,
+        icon: dioxus_icons_feather::Clock,
     }
-    span { "CloseCircle" }
+    span { "Clock" }
 }
 
 div {
@@ -474,19 +702,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CloseSquare,
-    }
-    span { "CloseSquare" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Cloud,
+        icon: dioxus_icons_feather::Cloud,
     }
     span { "Cloud" }
 }
@@ -498,7 +714,67 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Code,
+        icon: dioxus_icons_feather::CloudDrizzle,
+    }
+    span { "CloudDrizzle" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CloudLightning,
+    }
+    span { "CloudLightning" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CloudOff,
+    }
+    span { "CloudOff" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CloudRain,
+    }
+    span { "CloudRain" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CloudSnow,
+    }
+    span { "CloudSnow" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Code,
     }
     span { "Code" }
 }
@@ -510,9 +786,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CodeSandboxCircle,
+        icon: dioxus_icons_feather::Codepen,
     }
-    span { "CodeSandboxCircle" }
+    span { "Codepen" }
 }
 
 div {
@@ -522,9 +798,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CodeSandboxSquare,
+        icon: dioxus_icons_feather::Codesandbox,
     }
-    span { "CodeSandboxSquare" }
+    span { "Codesandbox" }
 }
 
 div {
@@ -534,9 +810,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CodepenCircle,
+        icon: dioxus_icons_feather::Coffee,
     }
-    span { "CodepenCircle" }
+    span { "Coffee" }
 }
 
 div {
@@ -546,9 +822,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CodepenSquare,
+        icon: dioxus_icons_feather::Columns,
     }
-    span { "CodepenSquare" }
+    span { "Columns" }
 }
 
 div {
@@ -558,7 +834,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Compass,
+        icon: dioxus_icons_feather::Command,
+    }
+    span { "Command" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Compass,
     }
     span { "Compass" }
 }
@@ -570,43 +858,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Contacts,
-    }
-    span { "Contacts" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Container,
-    }
-    span { "Container" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Control,
-    }
-    span { "Control" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Copy,
+        icon: dioxus_icons_feather::Copy,
     }
     span { "Copy" }
 }
@@ -618,9 +870,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CopyrightCircle,
+        icon: dioxus_icons_feather::CornerDownLeft,
     }
-    span { "CopyrightCircle" }
+    span { "CornerDownLeft" }
 }
 
 div {
@@ -630,7 +882,103 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CreditCard,
+        icon: dioxus_icons_feather::CornerDownRight,
+    }
+    span { "CornerDownRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CornerLeftDown,
+    }
+    span { "CornerLeftDown" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CornerLeftUp,
+    }
+    span { "CornerLeftUp" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CornerRightDown,
+    }
+    span { "CornerRightDown" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CornerRightUp,
+    }
+    span { "CornerRightUp" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CornerUpLeft,
+    }
+    span { "CornerUpLeft" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CornerUpRight,
+    }
+    span { "CornerUpRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Cpu,
+    }
+    span { "Cpu" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::CreditCard,
     }
     span { "CreditCard" }
 }
@@ -642,9 +990,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Crown,
+        icon: dioxus_icons_feather::Crop,
     }
-    span { "Crown" }
+    span { "Crop" }
 }
 
 div {
@@ -654,9 +1002,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::CustomerService,
+        icon: dioxus_icons_feather::Crosshair,
     }
-    span { "CustomerService" }
+    span { "Crosshair" }
 }
 
 div {
@@ -666,19 +1014,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Dashboard,
-    }
-    span { "Dashboard" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Database,
+        icon: dioxus_icons_feather::Database,
     }
     span { "Database" }
 }
@@ -690,7 +1026,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Delete,
+        icon: dioxus_icons_feather::Delete,
     }
     span { "Delete" }
 }
@@ -702,9 +1038,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Diff,
+        icon: dioxus_icons_feather::Disc,
     }
-    span { "Diff" }
+    span { "Disc" }
 }
 
 div {
@@ -714,9 +1050,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DingtalkCircle,
+        icon: dioxus_icons_feather::Divide,
     }
-    span { "DingtalkCircle" }
+    span { "Divide" }
 }
 
 div {
@@ -726,9 +1062,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DingtalkSquare,
+        icon: dioxus_icons_feather::DivideCircle,
     }
-    span { "DingtalkSquare" }
+    span { "DivideCircle" }
 }
 
 div {
@@ -738,9 +1074,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Discord,
+        icon: dioxus_icons_feather::DivideSquare,
     }
-    span { "Discord" }
+    span { "DivideSquare" }
 }
 
 div {
@@ -750,9 +1086,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Dislike,
+        icon: dioxus_icons_feather::DollarSign,
     }
-    span { "Dislike" }
+    span { "DollarSign" }
 }
 
 div {
@@ -762,9 +1098,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DollarCircle,
+        icon: dioxus_icons_feather::Download,
     }
-    span { "DollarCircle" }
+    span { "Download" }
 }
 
 div {
@@ -774,9 +1110,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DownCircle,
+        icon: dioxus_icons_feather::DownloadCloud,
     }
-    span { "DownCircle" }
+    span { "DownloadCloud" }
 }
 
 div {
@@ -786,9 +1122,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DownSquare,
+        icon: dioxus_icons_feather::Dribbble,
     }
-    span { "DownSquare" }
+    span { "Dribbble" }
 }
 
 div {
@@ -798,9 +1134,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DribbbleCircle,
+        icon: dioxus_icons_feather::Droplet,
     }
-    span { "DribbbleCircle" }
+    span { "Droplet" }
 }
 
 div {
@@ -810,43 +1146,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::DribbbleSquare,
-    }
-    span { "DribbbleSquare" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::DropboxCircle,
-    }
-    span { "DropboxCircle" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::DropboxSquare,
-    }
-    span { "DropboxSquare" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Edit,
+        icon: dioxus_icons_feather::Edit,
     }
     span { "Edit" }
 }
@@ -858,9 +1158,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Environment,
+        icon: dioxus_icons_feather::Edit2,
     }
-    span { "Environment" }
+    span { "Edit2" }
 }
 
 div {
@@ -870,9 +1170,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::EuroCircle,
+        icon: dioxus_icons_feather::Edit3,
     }
-    span { "EuroCircle" }
+    span { "Edit3" }
 }
 
 div {
@@ -882,9 +1182,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::ExclamationCircle,
+        icon: dioxus_icons_feather::ExternalLink,
     }
-    span { "ExclamationCircle" }
+    span { "ExternalLink" }
 }
 
 div {
@@ -894,19 +1194,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Experiment,
-    }
-    span { "Experiment" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Eye,
+        icon: dioxus_icons_feather::Eye,
     }
     span { "Eye" }
 }
@@ -918,9 +1206,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::EyeInvisible,
+        icon: dioxus_icons_feather::EyeOff,
     }
-    span { "EyeInvisible" }
+    span { "EyeOff" }
 }
 
 div {
@@ -930,7 +1218,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Facebook,
+        icon: dioxus_icons_feather::Facebook,
     }
     span { "Facebook" }
 }
@@ -942,19 +1230,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FastBackward,
-    }
-    span { "FastBackward" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FastForward,
+        icon: dioxus_icons_feather::FastForward,
     }
     span { "FastForward" }
 }
@@ -966,7 +1242,31 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::File,
+        icon: dioxus_icons_feather::Feather,
+    }
+    span { "Feather" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Figma,
+    }
+    span { "Figma" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::File,
     }
     span { "File" }
 }
@@ -978,9 +1278,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FileAdd,
+        icon: dioxus_icons_feather::FileMinus,
     }
-    span { "FileAdd" }
+    span { "FileMinus" }
 }
 
 div {
@@ -990,9 +1290,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FileExcel,
+        icon: dioxus_icons_feather::FilePlus,
     }
-    span { "FileExcel" }
+    span { "FilePlus" }
 }
 
 div {
@@ -1002,67 +1302,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FileExclamation,
-    }
-    span { "FileExclamation" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FileImage,
-    }
-    span { "FileImage" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FileMarkdown,
-    }
-    span { "FileMarkdown" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FilePdf,
-    }
-    span { "FilePdf" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FilePpt,
-    }
-    span { "FilePpt" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FileText,
+        icon: dioxus_icons_feather::FileText,
     }
     span { "FileText" }
 }
@@ -1074,9 +1314,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FileUnknown,
+        icon: dioxus_icons_feather::Film,
     }
-    span { "FileUnknown" }
+    span { "Film" }
 }
 
 div {
@@ -1086,31 +1326,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FileWord,
-    }
-    span { "FileWord" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FileZip,
-    }
-    span { "FileZip" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Filter,
+        icon: dioxus_icons_feather::Filter,
     }
     span { "Filter" }
 }
@@ -1122,19 +1338,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Fire,
-    }
-    span { "Fire" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Flag,
+        icon: dioxus_icons_feather::Flag,
     }
     span { "Flag" }
 }
@@ -1146,7 +1350,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Folder,
+        icon: dioxus_icons_feather::Folder,
     }
     span { "Folder" }
 }
@@ -1158,9 +1362,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FolderAdd,
+        icon: dioxus_icons_feather::FolderMinus,
     }
-    span { "FolderAdd" }
+    span { "FolderMinus" }
 }
 
 div {
@@ -1170,9 +1374,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FolderOpen,
+        icon: dioxus_icons_feather::FolderPlus,
     }
-    span { "FolderOpen" }
+    span { "FolderPlus" }
 }
 
 div {
@@ -1182,9 +1386,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::FormatPainter,
+        icon: dioxus_icons_feather::Framer,
     }
-    span { "FormatPainter" }
+    span { "Framer" }
 }
 
 div {
@@ -1194,19 +1398,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Forward,
-    }
-    span { "Forward" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Frown,
+        icon: dioxus_icons_feather::Frown,
     }
     span { "Frown" }
 }
@@ -1218,31 +1410,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Fund,
-    }
-    span { "Fund" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::FunnelPlot,
-    }
-    span { "FunnelPlot" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Gift,
+        icon: dioxus_icons_feather::Gift,
     }
     span { "Gift" }
 }
@@ -1254,7 +1422,55 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Github,
+        icon: dioxus_icons_feather::GitBranch,
+    }
+    span { "GitBranch" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::GitCommit,
+    }
+    span { "GitCommit" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::GitMerge,
+    }
+    span { "GitMerge" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::GitPullRequest,
+    }
+    span { "GitPullRequest" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Github,
     }
     span { "Github" }
 }
@@ -1266,7 +1482,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Gitlab,
+        icon: dioxus_icons_feather::Gitlab,
     }
     span { "Gitlab" }
 }
@@ -1278,9 +1494,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Gold,
+        icon: dioxus_icons_feather::Globe,
     }
-    span { "Gold" }
+    span { "Globe" }
 }
 
 div {
@@ -1290,9 +1506,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Golden,
+        icon: dioxus_icons_feather::Grid,
     }
-    span { "Golden" }
+    span { "Grid" }
 }
 
 div {
@@ -1302,9 +1518,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::GoogleCircle,
+        icon: dioxus_icons_feather::HardDrive,
     }
-    span { "GoogleCircle" }
+    span { "HardDrive" }
 }
 
 div {
@@ -1314,9 +1530,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::GooglePlusCircle,
+        icon: dioxus_icons_feather::Hash,
     }
-    span { "GooglePlusCircle" }
+    span { "Hash" }
 }
 
 div {
@@ -1326,9 +1542,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::GooglePlusSquare,
+        icon: dioxus_icons_feather::Headphones,
     }
-    span { "GooglePlusSquare" }
+    span { "Headphones" }
 }
 
 div {
@@ -1338,31 +1554,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::GoogleSquare,
-    }
-    span { "GoogleSquare" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Hdd,
-    }
-    span { "Hdd" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Heart,
+        icon: dioxus_icons_feather::Heart,
     }
     span { "Heart" }
 }
@@ -1374,9 +1566,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Highlight,
+        icon: dioxus_icons_feather::HelpCircle,
     }
-    span { "Highlight" }
+    span { "HelpCircle" }
 }
 
 div {
@@ -1386,7 +1578,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Home,
+        icon: dioxus_icons_feather::Hexagon,
+    }
+    span { "Hexagon" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Home,
     }
     span { "Home" }
 }
@@ -1398,9 +1602,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Hourglass,
+        icon: dioxus_icons_feather::IconBox,
     }
-    span { "Hourglass" }
+    span { "IconBox" }
 }
 
 div {
@@ -1410,9 +1614,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Html5,
+        icon: dioxus_icons_feather::IconType,
     }
-    span { "Html5" }
+    span { "IconType" }
 }
 
 div {
@@ -1422,9 +1626,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Idcard,
+        icon: dioxus_icons_feather::Image,
     }
-    span { "Idcard" }
+    span { "Image" }
 }
 
 div {
@@ -1434,9 +1638,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::IeCircle,
+        icon: dioxus_icons_feather::Inbox,
     }
-    span { "IeCircle" }
+    span { "Inbox" }
 }
 
 div {
@@ -1446,9 +1650,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::IeSquare,
+        icon: dioxus_icons_feather::Info,
     }
-    span { "IeSquare" }
+    span { "Info" }
 }
 
 div {
@@ -1458,19 +1662,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::InfoCircle,
-    }
-    span { "InfoCircle" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Instagram,
+        icon: dioxus_icons_feather::Instagram,
     }
     span { "Instagram" }
 }
@@ -1482,9 +1674,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Insurance,
+        icon: dioxus_icons_feather::Italic,
     }
-    span { "Insurance" }
+    span { "Italic" }
 }
 
 div {
@@ -1494,9 +1686,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Interaction,
+        icon: dioxus_icons_feather::Key,
     }
-    span { "Interaction" }
+    span { "Key" }
 }
 
 div {
@@ -1506,7 +1698,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Layout,
+        icon: dioxus_icons_feather::Layers,
+    }
+    span { "Layers" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Layout,
     }
     span { "Layout" }
 }
@@ -1518,9 +1722,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::LeftCircle,
+        icon: dioxus_icons_feather::LifeBuoy,
     }
-    span { "LeftCircle" }
+    span { "LifeBuoy" }
 }
 
 div {
@@ -1530,9 +1734,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::LeftSquare,
+        icon: dioxus_icons_feather::Link,
     }
-    span { "LeftSquare" }
+    span { "Link" }
 }
 
 div {
@@ -1542,9 +1746,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Like,
+        icon: dioxus_icons_feather::Link2,
     }
-    span { "Like" }
+    span { "Link2" }
 }
 
 div {
@@ -1554,7 +1758,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Linkedin,
+        icon: dioxus_icons_feather::Linkedin,
     }
     span { "Linkedin" }
 }
@@ -1566,7 +1770,31 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Lock,
+        icon: dioxus_icons_feather::List,
+    }
+    span { "List" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Loader,
+    }
+    span { "Loader" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Lock,
     }
     span { "Lock" }
 }
@@ -1578,9 +1806,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MacCommand,
+        icon: dioxus_icons_feather::LogIn,
     }
-    span { "MacCommand" }
+    span { "LogIn" }
 }
 
 div {
@@ -1590,7 +1818,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Mail,
+        icon: dioxus_icons_feather::LogOut,
+    }
+    span { "LogOut" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Mail,
     }
     span { "Mail" }
 }
@@ -1602,9 +1842,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MedicineBox,
+        icon: dioxus_icons_feather::Map,
     }
-    span { "MedicineBox" }
+    span { "Map" }
 }
 
 div {
@@ -1614,9 +1854,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MediumCircle,
+        icon: dioxus_icons_feather::MapPin,
     }
-    span { "MediumCircle" }
+    span { "MapPin" }
 }
 
 div {
@@ -1626,9 +1866,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MediumSquare,
+        icon: dioxus_icons_feather::Maximize,
     }
-    span { "MediumSquare" }
+    span { "Maximize" }
 }
 
 div {
@@ -1638,7 +1878,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Meh,
+        icon: dioxus_icons_feather::Maximize2,
+    }
+    span { "Maximize2" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Meh,
     }
     span { "Meh" }
 }
@@ -1650,9 +1902,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Merge,
+        icon: dioxus_icons_feather::Menu,
     }
-    span { "Merge" }
+    span { "Menu" }
 }
 
 div {
@@ -1662,9 +1914,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Message,
+        icon: dioxus_icons_feather::MessageCircle,
     }
-    span { "Message" }
+    span { "MessageCircle" }
 }
 
 div {
@@ -1674,7 +1926,79 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MinusCircle,
+        icon: dioxus_icons_feather::MessageSquare,
+    }
+    span { "MessageSquare" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Mic,
+    }
+    span { "Mic" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::MicOff,
+    }
+    span { "MicOff" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Minimize,
+    }
+    span { "Minimize" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Minimize2,
+    }
+    span { "Minimize2" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Minus,
+    }
+    span { "Minus" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::MinusCircle,
     }
     span { "MinusCircle" }
 }
@@ -1686,7 +2010,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MinusSquare,
+        icon: dioxus_icons_feather::MinusSquare,
     }
     span { "MinusSquare" }
 }
@@ -1698,9 +2022,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Mobile,
+        icon: dioxus_icons_feather::Monitor,
     }
-    span { "Mobile" }
+    span { "Monitor" }
 }
 
 div {
@@ -1710,19 +2034,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::MoneyCollect,
-    }
-    span { "MoneyCollect" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Moon,
+        icon: dioxus_icons_feather::Moon,
     }
     span { "Moon" }
 }
@@ -1734,9 +2046,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Muted,
+        icon: dioxus_icons_feather::MoreHorizontal,
     }
-    span { "Muted" }
+    span { "MoreHorizontal" }
 }
 
 div {
@@ -1746,9 +2058,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Notification,
+        icon: dioxus_icons_feather::MoreVertical,
     }
-    span { "Notification" }
+    span { "MoreVertical" }
 }
 
 div {
@@ -1758,9 +2070,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::OpenAI,
+        icon: dioxus_icons_feather::MousePointer,
     }
-    span { "OpenAI" }
+    span { "MousePointer" }
 }
 
 div {
@@ -1770,7 +2082,103 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PauseCircle,
+        icon: dioxus_icons_feather::Move,
+    }
+    span { "Move" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Music,
+    }
+    span { "Music" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Navigation,
+    }
+    span { "Navigation" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Navigation2,
+    }
+    span { "Navigation2" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Octagon,
+    }
+    span { "Octagon" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Package,
+    }
+    span { "Package" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Paperclip,
+    }
+    span { "Paperclip" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Pause,
+    }
+    span { "Pause" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::PauseCircle,
     }
     span { "PauseCircle" }
 }
@@ -1782,9 +2190,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PayCircle,
+        icon: dioxus_icons_feather::PenTool,
     }
-    span { "PayCircle" }
+    span { "PenTool" }
 }
 
 div {
@@ -1794,7 +2202,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Phone,
+        icon: dioxus_icons_feather::Percent,
+    }
+    span { "Percent" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Phone,
     }
     span { "Phone" }
 }
@@ -1806,9 +2226,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Picture,
+        icon: dioxus_icons_feather::PhoneCall,
     }
-    span { "Picture" }
+    span { "PhoneCall" }
 }
 
 div {
@@ -1818,7 +2238,67 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PieChart,
+        icon: dioxus_icons_feather::PhoneForwarded,
+    }
+    span { "PhoneForwarded" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::PhoneIncoming,
+    }
+    span { "PhoneIncoming" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::PhoneMissed,
+    }
+    span { "PhoneMissed" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::PhoneOff,
+    }
+    span { "PhoneOff" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::PhoneOutgoing,
+    }
+    span { "PhoneOutgoing" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::PieChart,
     }
     span { "PieChart" }
 }
@@ -1830,9 +2310,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Pinterest,
+        icon: dioxus_icons_feather::Play,
     }
-    span { "Pinterest" }
+    span { "Play" }
 }
 
 div {
@@ -1842,7 +2322,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PlayCircle,
+        icon: dioxus_icons_feather::PlayCircle,
     }
     span { "PlayCircle" }
 }
@@ -1854,9 +2334,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PlaySquare,
+        icon: dioxus_icons_feather::Plus,
     }
-    span { "PlaySquare" }
+    span { "Plus" }
 }
 
 div {
@@ -1866,7 +2346,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PlusCircle,
+        icon: dioxus_icons_feather::PlusCircle,
     }
     span { "PlusCircle" }
 }
@@ -1878,7 +2358,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PlusSquare,
+        icon: dioxus_icons_feather::PlusSquare,
     }
     span { "PlusSquare" }
 }
@@ -1890,9 +2370,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PoundCircle,
+        icon: dioxus_icons_feather::Pocket,
     }
-    span { "PoundCircle" }
+    span { "Pocket" }
 }
 
 div {
@@ -1902,7 +2382,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Printer,
+        icon: dioxus_icons_feather::Power,
+    }
+    span { "Power" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Printer,
     }
     span { "Printer" }
 }
@@ -1914,9 +2406,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Product,
+        icon: dioxus_icons_feather::Radio,
     }
-    span { "Product" }
+    span { "Radio" }
 }
 
 div {
@@ -1926,9 +2418,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Profile,
+        icon: dioxus_icons_feather::RefreshCcw,
     }
-    span { "Profile" }
+    span { "RefreshCcw" }
 }
 
 div {
@@ -1938,9 +2430,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Project,
+        icon: dioxus_icons_feather::RefreshCw,
     }
-    span { "Project" }
+    span { "RefreshCw" }
 }
 
 div {
@@ -1950,9 +2442,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::PropertySafety,
+        icon: dioxus_icons_feather::Repeat,
     }
-    span { "PropertySafety" }
+    span { "Repeat" }
 }
 
 div {
@@ -1962,9 +2454,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Pushpin,
+        icon: dioxus_icons_feather::Rewind,
     }
-    span { "Pushpin" }
+    span { "Rewind" }
 }
 
 div {
@@ -1974,9 +2466,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::QqCircle,
+        icon: dioxus_icons_feather::RotateCcw,
     }
-    span { "QqCircle" }
+    span { "RotateCcw" }
 }
 
 div {
@@ -1986,9 +2478,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::QqSquare,
+        icon: dioxus_icons_feather::RotateCw,
     }
-    span { "QqSquare" }
+    span { "RotateCw" }
 }
 
 div {
@@ -1998,9 +2490,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::QuestionCircle,
+        icon: dioxus_icons_feather::Rss,
     }
-    span { "QuestionCircle" }
+    span { "Rss" }
 }
 
 div {
@@ -2010,139 +2502,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Read,
-    }
-    span { "Read" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Reconciliation,
-    }
-    span { "Reconciliation" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::RedEnvelope,
-    }
-    span { "RedEnvelope" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::RedditCircle,
-    }
-    span { "RedditCircle" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::RedditSquare,
-    }
-    span { "RedditSquare" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Rest,
-    }
-    span { "Rest" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::RightCircle,
-    }
-    span { "RightCircle" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::RightSquare,
-    }
-    span { "RightSquare" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Robot,
-    }
-    span { "Robot" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Rocket,
-    }
-    span { "Rocket" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::SafetyCertificate,
-    }
-    span { "SafetyCertificate" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Save,
+        icon: dioxus_icons_feather::Save,
     }
     span { "Save" }
 }
@@ -2154,9 +2514,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Schedule,
+        icon: dioxus_icons_feather::Scissors,
     }
-    span { "Schedule" }
+    span { "Scissors" }
 }
 
 div {
@@ -2166,9 +2526,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::SecurityScan,
+        icon: dioxus_icons_feather::Search,
     }
-    span { "SecurityScan" }
+    span { "Search" }
 }
 
 div {
@@ -2178,9 +2538,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Setting,
+        icon: dioxus_icons_feather::Send,
     }
-    span { "Setting" }
+    span { "Send" }
 }
 
 div {
@@ -2190,9 +2550,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Shop,
+        icon: dioxus_icons_feather::Server,
     }
-    span { "Shop" }
+    span { "Server" }
 }
 
 div {
@@ -2202,9 +2562,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Shopping,
+        icon: dioxus_icons_feather::Settings,
     }
-    span { "Shopping" }
+    span { "Settings" }
 }
 
 div {
@@ -2214,9 +2574,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Signal,
+        icon: dioxus_icons_feather::Share,
     }
-    span { "Signal" }
+    span { "Share" }
 }
 
 div {
@@ -2226,9 +2586,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Signature,
+        icon: dioxus_icons_feather::Share2,
     }
-    span { "Signature" }
+    span { "Share2" }
 }
 
 div {
@@ -2238,9 +2598,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::SketchCircle,
+        icon: dioxus_icons_feather::Shield,
     }
-    span { "SketchCircle" }
+    span { "Shield" }
 }
 
 div {
@@ -2250,9 +2610,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::SketchSquare,
+        icon: dioxus_icons_feather::ShieldOff,
     }
-    span { "SketchSquare" }
+    span { "ShieldOff" }
 }
 
 div {
@@ -2262,9 +2622,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Skin,
+        icon: dioxus_icons_feather::ShoppingBag,
     }
-    span { "Skin" }
+    span { "ShoppingBag" }
 }
 
 div {
@@ -2274,9 +2634,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Skype,
+        icon: dioxus_icons_feather::ShoppingCart,
     }
-    span { "Skype" }
+    span { "ShoppingCart" }
 }
 
 div {
@@ -2286,9 +2646,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::SlackCircle,
+        icon: dioxus_icons_feather::Shuffle,
     }
-    span { "SlackCircle" }
+    span { "Shuffle" }
 }
 
 div {
@@ -2298,9 +2658,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::SlackSquare,
+        icon: dioxus_icons_feather::Sidebar,
     }
-    span { "SlackSquare" }
+    span { "Sidebar" }
 }
 
 div {
@@ -2310,7 +2670,55 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Sliders,
+        icon: dioxus_icons_feather::SkipBack,
+    }
+    span { "SkipBack" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::SkipForward,
+    }
+    span { "SkipForward" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Slack,
+    }
+    span { "Slack" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Slash,
+    }
+    span { "Slash" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Sliders,
     }
     span { "Sliders" }
 }
@@ -2322,7 +2730,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Smile,
+        icon: dioxus_icons_feather::Smartphone,
+    }
+    span { "Smartphone" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Smile,
     }
     span { "Smile" }
 }
@@ -2334,9 +2754,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Snippets,
+        icon: dioxus_icons_feather::Speaker,
     }
-    span { "Snippets" }
+    span { "Speaker" }
 }
 
 div {
@@ -2346,9 +2766,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Sound,
+        icon: dioxus_icons_feather::Square,
     }
-    span { "Sound" }
+    span { "Square" }
 }
 
 div {
@@ -2358,19 +2778,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Spotify,
-    }
-    span { "Spotify" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Star,
+        icon: dioxus_icons_feather::Star,
     }
     span { "Star" }
 }
@@ -2382,9 +2790,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::StepBackward,
+        icon: dioxus_icons_feather::StopCircle,
     }
-    span { "StepBackward" }
+    span { "StopCircle" }
 }
 
 div {
@@ -2394,31 +2802,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::StepForward,
-    }
-    span { "StepForward" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Stop,
-    }
-    span { "Stop" }
-}
-
-div {
-    display: "flex",
-    flex_direction: "column",
-    align_items: "center",
-    Icon {
-        width: "32",
-        height: "32",
-        icon: dioxus_icons_ant::filled::Sun,
+        icon: dioxus_icons_feather::Sun,
     }
     span { "Sun" }
 }
@@ -2430,9 +2814,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Switcher,
+        icon: dioxus_icons_feather::Sunrise,
     }
-    span { "Switcher" }
+    span { "Sunrise" }
 }
 
 div {
@@ -2442,7 +2826,31 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Tablet,
+        icon: dioxus_icons_feather::Sunset,
+    }
+    span { "Sunset" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Table,
+    }
+    span { "Table" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Tablet,
     }
     span { "Tablet" }
 }
@@ -2454,7 +2862,7 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Tag,
+        icon: dioxus_icons_feather::Tag,
     }
     span { "Tag" }
 }
@@ -2466,9 +2874,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Tags,
+        icon: dioxus_icons_feather::Target,
     }
-    span { "Tags" }
+    span { "Target" }
 }
 
 div {
@@ -2478,9 +2886,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::TaobaoCircle,
+        icon: dioxus_icons_feather::Terminal,
     }
-    span { "TaobaoCircle" }
+    span { "Terminal" }
 }
 
 div {
@@ -2490,9 +2898,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::TaobaoSquare,
+        icon: dioxus_icons_feather::Thermometer,
     }
-    span { "TaobaoSquare" }
+    span { "Thermometer" }
 }
 
 div {
@@ -2502,9 +2910,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Thunderbolt,
+        icon: dioxus_icons_feather::ThumbsDown,
     }
-    span { "Thunderbolt" }
+    span { "ThumbsDown" }
 }
 
 div {
@@ -2514,9 +2922,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::TikTok,
+        icon: dioxus_icons_feather::ThumbsUp,
     }
-    span { "TikTok" }
+    span { "ThumbsUp" }
 }
 
 div {
@@ -2526,7 +2934,31 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Tool,
+        icon: dioxus_icons_feather::ToggleLeft,
+    }
+    span { "ToggleLeft" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ToggleRight,
+    }
+    span { "ToggleRight" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Tool,
     }
     span { "Tool" }
 }
@@ -2538,9 +2970,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::TrademarkCircle,
+        icon: dioxus_icons_feather::Trash,
     }
-    span { "TrademarkCircle" }
+    span { "Trash" }
 }
 
 div {
@@ -2550,9 +2982,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Trophy,
+        icon: dioxus_icons_feather::Trash2,
     }
-    span { "Trophy" }
+    span { "Trash2" }
 }
 
 div {
@@ -2562,7 +2994,55 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Truck,
+        icon: dioxus_icons_feather::Trello,
+    }
+    span { "Trello" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::TrendingDown,
+    }
+    span { "TrendingDown" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::TrendingUp,
+    }
+    span { "TrendingUp" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Triangle,
+    }
+    span { "Triangle" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Truck,
     }
     span { "Truck" }
 }
@@ -2574,7 +3054,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Twitch,
+        icon: dioxus_icons_feather::Tv,
+    }
+    span { "Tv" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Twitch,
     }
     span { "Twitch" }
 }
@@ -2586,9 +3078,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::TwitterCircle,
+        icon: dioxus_icons_feather::Twitter,
     }
-    span { "TwitterCircle" }
+    span { "Twitter" }
 }
 
 div {
@@ -2598,9 +3090,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::TwitterSquare,
+        icon: dioxus_icons_feather::Umbrella,
     }
-    span { "TwitterSquare" }
+    span { "Umbrella" }
 }
 
 div {
@@ -2610,7 +3102,19 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Unlock,
+        icon: dioxus_icons_feather::Underline,
+    }
+    span { "Underline" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Unlock,
     }
     span { "Unlock" }
 }
@@ -2622,9 +3126,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::UpCircle,
+        icon: dioxus_icons_feather::Upload,
     }
-    span { "UpCircle" }
+    span { "Upload" }
 }
 
 div {
@@ -2634,9 +3138,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::UpSquare,
+        icon: dioxus_icons_feather::UploadCloud,
     }
-    span { "UpSquare" }
+    span { "UploadCloud" }
 }
 
 div {
@@ -2646,9 +3150,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Usb,
+        icon: dioxus_icons_feather::User,
     }
-    span { "Usb" }
+    span { "User" }
 }
 
 div {
@@ -2658,9 +3162,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::VideoCamera,
+        icon: dioxus_icons_feather::UserCheck,
     }
-    span { "VideoCamera" }
+    span { "UserCheck" }
 }
 
 div {
@@ -2670,9 +3174,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Wallet,
+        icon: dioxus_icons_feather::UserMinus,
     }
-    span { "Wallet" }
+    span { "UserMinus" }
 }
 
 div {
@@ -2682,9 +3186,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Warning,
+        icon: dioxus_icons_feather::UserPlus,
     }
-    span { "Warning" }
+    span { "UserPlus" }
 }
 
 div {
@@ -2694,9 +3198,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Wechat,
+        icon: dioxus_icons_feather::UserX,
     }
-    span { "Wechat" }
+    span { "UserX" }
 }
 
 div {
@@ -2706,9 +3210,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::WechatWork,
+        icon: dioxus_icons_feather::Users,
     }
-    span { "WechatWork" }
+    span { "Users" }
 }
 
 div {
@@ -2718,9 +3222,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::WeiboCircle,
+        icon: dioxus_icons_feather::Video,
     }
-    span { "WeiboCircle" }
+    span { "Video" }
 }
 
 div {
@@ -2730,9 +3234,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::WeiboSquare,
+        icon: dioxus_icons_feather::VideoOff,
     }
-    span { "WeiboSquare" }
+    span { "VideoOff" }
 }
 
 div {
@@ -2742,9 +3246,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Windows,
+        icon: dioxus_icons_feather::Voicemail,
     }
-    span { "Windows" }
+    span { "Voicemail" }
 }
 
 div {
@@ -2754,7 +3258,103 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::X,
+        icon: dioxus_icons_feather::Volume,
+    }
+    span { "Volume" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Volume1,
+    }
+    span { "Volume1" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Volume2,
+    }
+    span { "Volume2" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::VolumeX,
+    }
+    span { "VolumeX" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Watch,
+    }
+    span { "Watch" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Wifi,
+    }
+    span { "Wifi" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::WifiOff,
+    }
+    span { "WifiOff" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Wind,
+    }
+    span { "Wind" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::X,
     }
     span { "X" }
 }
@@ -2766,9 +3366,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Yahoo,
+        icon: dioxus_icons_feather::XCircle,
     }
-    span { "Yahoo" }
+    span { "XCircle" }
 }
 
 div {
@@ -2778,7 +3378,31 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Youtube,
+        icon: dioxus_icons_feather::XOctagon,
+    }
+    span { "XOctagon" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::XSquare,
+    }
+    span { "XSquare" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::Youtube,
     }
     span { "Youtube" }
 }
@@ -2790,9 +3414,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::Yuque,
+        icon: dioxus_icons_feather::Zap,
     }
-    span { "Yuque" }
+    span { "Zap" }
 }
 
 div {
@@ -2802,9 +3426,9 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::ZhihuCircle,
+        icon: dioxus_icons_feather::ZapOff,
     }
-    span { "ZhihuCircle" }
+    span { "ZapOff" }
 }
 
 div {
@@ -2814,9 +3438,21 @@ div {
     Icon {
         width: "32",
         height: "32",
-        icon: dioxus_icons_ant::filled::ZhihuSquare,
+        icon: dioxus_icons_feather::ZoomIn,
     }
-    span { "ZhihuSquare" }
+    span { "ZoomIn" }
+}
+
+div {
+    display: "flex",
+    flex_direction: "column",
+    align_items: "center",
+    Icon {
+        width: "32",
+        height: "32",
+        icon: dioxus_icons_feather::ZoomOut,
+    }
+    span { "ZoomOut" }
 }
 
         }
