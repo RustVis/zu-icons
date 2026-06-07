@@ -12,6 +12,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "ant-examples"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icons-ant",
+ "inflections",
+ "zu-icons-util",
+]
+
+[[package]]
 name = "anyhow"
 version = "1.0.102"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -858,6 +869,16 @@ name = "dioxus-icon-component"
 version = "0.2.1"
 dependencies = [
  "dioxus",
+]
+
+[[package]]
+name = "dioxus-icons-ant"
+version = "0.2.2"
+dependencies = [
+ "anyhow",
+ "dioxus",
+ "dioxus-icon-component",
+ "zu-icons-util",
 ]
 
 [[package]]
