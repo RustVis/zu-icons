@@ -46,7 +46,7 @@ anyhow = { version = "1.0.102" }
 dioxus = { version = "0.7.9", default-features = false, features = ["html", "macro", "signals"] }
 inflections = { version = "1.1.1" }
 scraper = { version = "0.27.0" }
-toml = { version = "0.8.23" }
+toml = { version = "1.1.2" }
 
 dioxus-icon-component = { path = "crates/dioxus-icon-component", version = "0.2.1" }
 zu-icons-util = { path = "crates/zu-icons-util", version = "0.5.1" }
