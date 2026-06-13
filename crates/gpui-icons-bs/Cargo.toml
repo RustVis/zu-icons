@@ -1,0 +1,23 @@
+[package]
+name = "gpui-icons-bs"
+version = "0.1.0"
+documentation = "https://docs.rs/gpui-icons-bs"
+description = "Boostrap icons for gpui framework"
+keywords = ["web", "wasm", "icons", "bootstrap", "gpui"]
+readme = "README.md"
+
+authors.workspace = true
+categories.workspace = true
+edition.workspace = true
+homepage.workspace = true
+license.workspace = true
+publish.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+gpui.workspace = true
+rust-embed.workspace = true
+
+[lints]
+workspace = true
