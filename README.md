@@ -16,6 +16,10 @@ Open source icon packs for the [Dioxus](https://dioxuslabs.com/) framework.
 
 ## Icon Packs
 
+### Dioxus icons
+
+Icons for dioxus framework.
+
 | Icon Set | Crate | Version | Docs |
 |----------|-------|---------|------|
 | Ant Design | [`dioxus-icons-ant`](crates/dioxus-icons-ant) | 0.2.2 | [docs.rs](https://docs.rs/dioxus-icons-ant) |
@@ -39,6 +43,14 @@ Open source icon packs for the [Dioxus](https://dioxuslabs.com/) framework.
 | Simple Icons | [`dioxus-icons-simple`](crates/dioxus-icons-simple) | 0.3.1 | [docs.rs](https://docs.rs/dioxus-icons-simple) |
 | Tabler | [`dioxus-icons-tabler`](crates/dioxus-icons-tabler) | 0.2.1 | [docs.rs](https://docs.rs/dioxus-icons-tabler) |
 | VS Code | [`dioxus-icons-vsc`](crates/dioxus-icons-vsc) | 0.2.1 | [docs.rs](https://docs.rs/dioxus-icons-vsc) |
+
+### Gpui icons
+
+Icons for gpui framework:
+
+| Icon Set | Crate | Version | Docs |
+|----------|-------|---------|------|
+| Bootstrap | [`gpui-icons-bs`](crates/gpui-icons-bs) | 0.1.0 | [docs.rs](https://docs.rs/gpui-icons-bs) |
 
 ## Icon Licenses
 
